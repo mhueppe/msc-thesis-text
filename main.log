@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.7)  24 AUG 2025 15:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.7)  30 SEP 2025 19:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -740,7 +740,9 @@ LaTeX Font Info:    Trying to load font information for T1+ppl on input line 90
 (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
-(main.aux (Chapters/Chapter1.aux) (Appendices/AppendixA.aux))
+(main.aux (Chapters/Introduction.aux) (Chapters/Theory.aux) (Chapters/Data.aux)
+(Chapters/Methods.aux) (Chapters/Results.aux) (Chapters/Discussion.aux)
+(Appendices/AppendixA.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
@@ -953,8 +955,11 @@ File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 [10
 
 ] (main.toc
-LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 17.
+Overfull \hbox (0.406pt too wide) in paragraph at lines 5--5
+ [] [][][]\T1/ppl/b/n/10.95 Decoding the Crys-tal Recipe: Pre-dict-ing Pro-tein
+ Crys-tal-liza-tion Con-di-tions 
+ []
+
 )
 \tf@toc=\write5
 \openout5 = `main.toc'.
@@ -1026,140 +1031,127 @@ l.241 \end{symbols}
 [24
 
 ]
-\openout2 = `Chapters/Chapter1.aux'.
+\openout2 = `Chapters/Introduction.aux'.
 
- (Chapters/Chapter1.tex
+ (Chapters/Introduction.tex
 Chapter 1.
-
+)
 
 [1
 
 
 ]
-Overfull \hbox (12.15245pt too wide) in paragraph at lines 72--74
-\T1/ppl/m/n/10.95 site, here: [][]$\T1/cmtt/m/n/10.95 http : / / www . ecs . so
-ton . ac . uk / ~srg / softwaretools / document / templates/$[][] 
- []
+\openout2 = `Chapters/Theory.aux'.
 
+ (Chapters/Theory.tex
 
-
-[2]
-
-[3]
-LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 136.
-
-
-[4]
-
-[5]
-Overfull \hbox (8.37132pt too wide) in paragraph at lines 180--181
-\T1/ppl/m/n/10.95 sided print-ing is as sim-ple as un-com-ment-ing the \T1/cmtt
-/m/it/10.95 oneside \T1/ppl/m/n/10.95 op-tion of the \T1/cmtt/m/n/10.95 documen
-tclass
- []
-
-
-LaTeX Warning: Citation 'Reference1' on page 6 undefined on input line 194.
-
-
-LaTeX Warning: Citation 'Reference2' on page 6 undefined on input line 194.
-
-
-LaTeX Warning: Citation 'Reference1' on page 6 undefined on input line 194.
-
-
-LaTeX Warning: Citation 'Reference3' on page 6 undefined on input line 194.
-
-
-
-[6]
-
-[7]
-<Figures/Electron.pdf, id=330, 398.3386pt x 284.52756pt>
-File: Figures/Electron.pdf Graphic file (type pdf)
-<use Figures/Electron.pdf>
-Package pdftex.def Info: Figures/Electron.pdf  used on input line 262.
-(pdftex.def)             Requested size: 398.33762pt x 284.52686pt.
-
-
-[8 <./Figures/Electron.pdf>]
-Overfull \hbox (0.90797pt too wide) in paragraph at lines 308--309
-\T1/ppl/m/n/10.95 au-to-mat-i-cally builds a ta-ble of Con-tents by look-ing at
- all the [][]\T1/cmtt/m/n/10.95 \chapter{}[]\T1/ppl/m/n/10.95 , [][]\T1/cmtt/m/
-n/10.95 \section{}
- []
-
-
-Overfull \hbox (0.45015pt too wide) in paragraph at lines 310--311
-[]\T1/ppl/m/n/10.95 The Ta-ble of Con-tents should only list the sec-tions to t
-hree (3) lev-els. A [][]\T1/cmtt/m/n/10.95 chapter{}
- []
-
-
-
-[9])
-
-[10]
-\openout2 = `Appendices/AppendixA.aux'.
-
- (Appendices/AppendixA.tex
-Appendix A.
-)
-
-[11
+[2
 
 
 
 
 ]
+Chapter 2.
+)
 
-LaTeX Warning: Empty bibliography on input line 283.
+[3]
+\openout2 = `Chapters/Data.aux'.
 
-(main.aux (Chapters/Chapter1.aux) (Appendices/AppendixA.aux))
+ (Chapters/Data.tex
+
+[4
+
+
+
+
+]
+Chapter 3.
+)
+
+[5]
+\openout2 = `Chapters/Methods.aux'.
+
+ (Chapters/Methods.tex)
+\openout2 = `Chapters/Results.aux'.
+
+ (Chapters/Results.tex
+
+[6
+
+
+
+
+
+
+
+]
+Chapter 4.
+)
+
+[7]
+\openout2 = `Chapters/Discussion.aux'.
+
+ (Chapters/Discussion.tex
+
+[8
+
+
+
+
+]
+Chapter 5.
+)
+
+[9]
+\openout2 = `Appendices/AppendixA.aux'.
+
+ (Appendices/AppendixA.tex
+
+[10
+
+
+
+
+]
+Appendix A.
+)
+
+[11]
+
+LaTeX Warning: Empty bibliography on input line 286.
+
+(main.aux (Chapters/Introduction.aux) (Chapters/Theory.aux) (Chapters/Data.aux)
+(Chapters/Methods.aux) (Chapters/Results.aux) (Chapters/Discussion.aux)
+(Appendices/AppendixA.aux))
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-19>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 8EB54DBEA03B1814C79FD6271B82AD83;4803.
-
-Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
+(rerunfilecheck)             Checksum: BC2F1B13AF9270CFC384C2BFD570CB43;2552.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29067 strings out of 468149
- 641648 string characters out of 5431083
- 1247891 words of memory out of 5000000
- 57253 multiletter control sequences out of 15000+600000
- 693604 words of font info for 153 fonts, out of 8000000 for 9000
+ 28880 strings out of 468149
+ 640303 string characters out of 5431083
+ 1254452 words of memory out of 5000000
+ 57057 multiletter control sequences out of 15000+600000
+ 669757 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 96i,21n,94p,1852b,1912s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\michi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt
-1000.pk> <C:\Users\michi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\ecit1095.pk> <C:\Users\michi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
-/dpi600\ecst1095.pk> <C:\Users\michi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
-pen/ec/dpi600\ectt1440.pk> <C:\Users\michi\AppData\Local\MiKTeX\fonts/pk/ljfour
-/jknappen/ec/dpi600\ectt1095.pk><C:/Users/michi/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/michi/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/michi/AppData/Local/
-Programs/MiKTeX/fonts/type1/public/mathpazo/fplmri.pfb><C:/Users/michi/AppData/
-Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/michi/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/michi/Ap
-pData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/michi
-/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (35 pages, 250223 bytes).
+ 96i,21n,94p,1852b,1834s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/michi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmr10.pfb><C:/Users/michi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmsy10.pfb><C:/Users/michi/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/mathpazo/fplmri.pfb><C:/Users/michi/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/urw/palatino/uplb8a.pfb><C:/Users/michi/AppData/Local/Programs/MiKTeX/fonts
+/type1/urw/palatino/uplr8a.pfb><C:/Users/michi/AppData/Local/Programs/MiKTeX/fo
+nts/type1/urw/palatino/uplr8a.pfb><C:/Users/michi/AppData/Local/Programs/MiKTeX
+/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (35 pages, 133217 bytes).
 PDF statistics:
- 609 PDF objects out of 1000 (max. 8388607)
- 77 named destinations out of 1000 (max. 500000)
- 238 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 310 PDF objects out of 1000 (max. 8388607)
+ 62 named destinations out of 1000 (max. 500000)
+ 145 words of extra memory for PDF output out of 10000 (max. 10000000)
 
