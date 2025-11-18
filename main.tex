@@ -43,16 +43,36 @@ headsepline, % Uncomment to get a line under the header
 
 \usepackage{mathpazo} % Use the Palatino font by default
 
-\usepackage[backend=bibtex,style=authoryear,natbib=true]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
+\usepackage[backend=biber,style=apa, natbib=true]{biblatex}
+\DefineBibliographyStrings{english}{andothers = {\emph{et al}\adddot}}
+\usepackage{float}
+\usepackage{hyperref}
+\addbibresource{references.bib} % The filename of the bibliography
+\usepackage{tikz}
+\usetikzlibrary{positioning,arrows.meta}
 
-\addbibresource{example.bib} % The filename of the bibliography
+\definecolor{uhhred}{RGB}{144, 74, 77}
+\definecolor{uhhred_highlight}{RGB}{226, 0, 26}
+\definecolor{ukeblue}{RGB}{105, 146, 187}
+\definecolor{ukeblue_highlight}{RGB}{0, 73, 146}
+\definecolor{neutralyellow}{RGB}{244, 199, 120}
+\usepackage{forest}
 
 \usepackage[autostyle=true]{csquotes} % Required to generate language-dependent quotes in the bibliography
-
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+\usepackage{xargs}                      % Use more than one optional parameter in a new commands
+\usepackage[pdftex,dvipsnames]{xcolor}  % Coloured text etc.
+\usepackage[colorinlistoftodos,prependcaption,textsize=tiny]{todonotes}
+\newcommandx{\unsure}[2][1=]{\todo[linecolor=red,backgroundcolor=red!25,bordercolor=red,#1]{#2}}
+\newcommandx{\change}[2][1=]{\todo[linecolor=blue,backgroundcolor=blue!25,bordercolor=blue,#1]{#2}}
+\newcommandx{\info}[2][1=]{\todo[linecolor=OliveGreen,backgroundcolor=OliveGreen!25,bordercolor=OliveGreen,#1]{#2}}
+\newcommandx{\improvement}[2][1=]{\todo[linecolor=Plum,backgroundcolor=Plum!25,bordercolor=Plum,#1]{#2}}
+\newcommandx{\thiswillnotshow}[2][1=]{\todo[disable,#1]{#2}}
 %----------------------------------------------------------------------------------------
 %	MARGIN SETTINGS
 %----------------------------------------------------------------------------------------
-
+\usepackage[autostyle=true]{csquotes} % Required to generate language-dependent quotes in the bibliography
 \geometry{
 	paper=a4paper, % Change to letterpaper for US letter
 	inner=2.5cm, % Inner margin
@@ -63,6 +83,18 @@ headsepline, % Uncomment to get a line under the header
 	%showframe, % Uncomment to show how the type block is set on the page
 }
 
+\usepackage{subcaption}
+
+\usepackage[toc, acronym]{glossaries}
+\renewcommand{\glsnamefont}[1]{\textbf{#1}}
+\newcommand{\roughly}{\raisebox{0.1ex}{\textasciitilde}}
+
+\usepackage{subcaption}
+% Generate the glossary
+\usepackage{datetime}
+\makeglossaries
+\input{Misc/glossary}
+\input{Misc/acronyms}
 %----------------------------------------------------------------------------------------
 %	THESIS INFORMATION
 %----------------------------------------------------------------------------------------
@@ -73,7 +105,7 @@ headsepline, % Uncomment to get a line under the header
 \degree{Master of Science} % Your degree name, this is used in the title page and abstract, print it elsewhere with \degreename
 \author{Michael \textsc{Hüppe}} % Your name, this is used in the title page and abstract, print it elsewhere with \authorname
 \addresses{} % Your address, this is not currently used anywhere in the template, print it elsewhere with \addressname
-
+\newcommand{\aymeltItzen}{\href{https://www.uke.de/allgemein/arztprofile-und-wissenschaftlerprofile/wissenschaftlerprofilseite_aymelt_itzen.html}{ Prof. Dr. Aymelt Itzen }}
 \subject{Computer Science} % Your subject area, this is not currently used anywhere in the template, print it elsewhere with \subjectname
 \keywords{} % Keywords for your thesis, this is not currently used anywhere in the template, print it elsewhere with \keywordnames
 \university{\href{https://www.uni-hamburg.de/}{Universtiy of Hamburg}} % Your university's name and URL, this is used in the title page and abstract, print it elsewhere with \univname
@@ -117,7 +149,9 @@ headsepline, % Uncomment to get a line under the header
 \begin{minipage}[t]{0.4\textwidth}
 \begin{flushright} \large
 \emph{Supervisors:} \\
-\href{https://www.zbh.uni-hamburg.de/personen/mlbi/fkern.html}{\supname} % Supervisor name - remove the \href bracket to remove the link  
+\href{https://www.zbh.uni-hamburg.de/personen/mlbi/fkern.html}{\supname} % Supervisor name - remove the \href
+\newline
+\aymeltItzen
 \end{flushright}
 \end{minipage}\\[3cm]
  
@@ -205,9 +239,6 @@ The acknowledgments and the people to thank go here, don't forget to include you
 %----------------------------------------------------------------------------------------
 
 \begin{abbreviations}{ll} % Include a list of abbreviations (a table of two columns)
-
-\textbf{LAH} & \textbf{L}ist \textbf{A}bbreviations \textbf{H}ere\\
-\textbf{WSF} & \textbf{W}hat (it) \textbf{S}tands \textbf{F}or\\
 
 \end{abbreviations}
 

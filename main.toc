@@ -4,16 +4,34 @@
 \contentsline {chapter}{Acknowledgements}{ix}{section*.3}%
 \contentsline {chapter}{\numberline {1}Decoding the Crystal Recipe: Predicting Protein Crystallization Conditions via Machine Learning}{1}{chapter.11}%
 \contentsline {section}{\numberline {1.1}Introduction}{1}{section.12}%
-\contentsline {chapter}{\numberline {2}Theory}{3}{chapter.13}%
-\contentsline {section}{\numberline {2.1}Proteins}{3}{section.14}%
-\contentsline {subsection}{\numberline {2.1.1}Protein Crystallization}{3}{subsection.15}%
-\contentsline {section}{\numberline {2.2}Trees}{3}{section.16}%
-\contentsline {chapter}{\numberline {3}Data}{5}{chapter.17}%
-\contentsline {section}{\numberline {3.1}The Protein database}{5}{section.18}%
-\contentsline {subsection}{\numberline {3.1.1}Acquisition}{5}{subsection.19}%
-\contentsline {section}{\numberline {3.2}Protein Properties}{5}{section.20}%
-\contentsline {section}{\numberline {3.3}Crystallization Conditions}{5}{section.21}%
-\contentsline {section}{\numberline {3.4}Relationships}{5}{section.22}%
-\contentsline {chapter}{\numberline {4}Results}{7}{chapter.23}%
-\contentsline {chapter}{\numberline {5}Discussion}{9}{chapter.24}%
-\contentsline {chapter}{\numberline {A}Data Appendix}{11}{appendix.25}%
+\contentsline {section}{\numberline {1.2}Related Works}{2}{section.13}%
+\contentsline {subsection}{\numberline {1.2.1}Challenge of X-ray Crystallography}{2}{subsection.14}%
+\contentsline {subsection}{\numberline {1.2.2}Predicting Protein Crystallization}{2}{subsection.15}%
+\contentsline {subsection}{\numberline {1.2.3}Predicting Crystallization Conditions from Sequence (and Structure)}{3}{subsection.16}%
+\contentsline {chapter}{\numberline {2}Theory}{5}{chapter.17}%
+\contentsline {section}{\numberline {2.1}Proteins}{5}{section.18}%
+\contentsline {subsection}{\numberline {2.1.1}Protein Crystallization}{5}{subsection.19}%
+\contentsline {section}{\numberline {2.2}Trees}{5}{section.20}%
+\contentsline {chapter}{\numberline {3}Data}{7}{chapter.21}%
+\contentsline {section}{\numberline {3.1}The Protein database}{7}{section.22}%
+\contentsline {subsection}{\numberline {3.1.1}Acquisition}{7}{subsection.23}%
+\contentsline {subsection}{\numberline {3.1.2}Format}{7}{subsection.24}%
+\contentsline {subsection}{\numberline {3.1.3}Structure}{8}{subsection.25}%
+\contentsline {subsection}{\numberline {3.1.4}Description}{9}{subsection.27}%
+\contentsline {section}{\numberline {3.2}Data Normalization}{11}{section.31}%
+\contentsline {subsection}{\numberline {3.2.1}Perturbation of missing values}{11}{subsection.32}%
+\contentsline {subsection}{\numberline {3.2.2}Details Parsing}{11}{subsection.33}%
+\contentsline {subsubsection}{\numberline {3.2.2.1}Pipeline}{11}{subsubsection.34}%
+\contentsline {subsubsection}{\numberline {3.2.2.2}Parsing Quality}{11}{subsubsection.35}%
+\contentsline {section}{\numberline {3.3}Data Analysis}{11}{section.36}%
+\contentsline {subsection}{\numberline {3.3.1}Univariate Analysis}{11}{subsection.37}%
+\contentsline {subsubsection}{\numberline {3.3.1.1}Input}{11}{subsubsection.38}%
+\contentsline {subsubsection}{\numberline {3.3.1.2}Label}{13}{subsubsection.42}%
+\contentsline {subsubsection}{\numberline {3.3.1.3}Label}{13}{subsubsection.44}%
+\contentsline {subsection}{\numberline {3.3.2}Multivariate Analysis}{13}{subsection.46}%
+\contentsline {subsection}{\numberline {3.3.3}Outlier and Anomaly Detection}{13}{subsection.47}%
+\contentsline {subsection}{\numberline {3.3.4}Missing Data Analysis}{13}{subsection.48}%
+\contentsline {chapter}{\numberline {4}Results}{15}{chapter.49}%
+\contentsline {chapter}{\numberline {5}Discussion}{17}{chapter.50}%
+\contentsline {chapter}{\numberline {A}Data Appendix}{19}{appendix.51}%
+\contentsline {chapter}{Bibliography}{21}{appendix*.52}%

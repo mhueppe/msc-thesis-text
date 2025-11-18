@@ -1,0 +1,2721 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{Ataka1988}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=885736d0f63722d536d0071037ec197b}{%
+           family={Ataka},
+           familyi={A\bibinitperiod},
+           given={Mitsuo},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ad51c5bb30693906419da0c00797515c}{%
+           family={Asai},
+           familyi={A\bibinitperiod},
+           given={Michihiko},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8b00c3a017329bccab36d5c3d19e79bd}
+      \strng{fullhash}{8b00c3a017329bccab36d5c3d19e79bd}
+      \strng{fullhashraw}{8b00c3a017329bccab36d5c3d19e79bd}
+      \strng{bibnamehash}{8b00c3a017329bccab36d5c3d19e79bd}
+      \strng{authorbibnamehash}{8b00c3a017329bccab36d5c3d19e79bd}
+      \strng{authornamehash}{8b00c3a017329bccab36d5c3d19e79bd}
+      \strng{authorfullhash}{8b00c3a017329bccab36d5c3d19e79bd}
+      \strng{authorfullhashraw}{8b00c3a017329bccab36d5c3d19e79bd}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The concentration changes which accompanied the crystal growth of hen egg-white lysozyme from its aqueous solution were followed optically at 5, 10, 15, 30, 42, and 50°C for 30–360 days in the presence of 1–7\% NaCl. When the initial protein concentration was selected so as to start the crystallization within a reasonable time and with a proper number of nuclei, the supernatant concentration approached constant values after 1–1.5 month, which were regarded as solubility (S) of the crystals. Phase diagrams representing S as functions of NaCl content and temperature were obtained for two crystal forms of lysozyme. From the Arrhenius plot, the enthalpy of crystallization for the tetragonal form was calculated to be − 72 kJ/mol, and that for the orthorhombic form to be −32 kJ/mol. Conditions necessary for obtaining accurate phase diagrams were discussed, together with their possible use for crystal growth and for future molecular engineering.}
+      \field{issn}{0022-0248}
+      \field{journaltitle}{Journal of Crystal Growth}
+      \field{month}{7}
+      \field{number}{1}
+      \field{shorttitle}{Systematic studies on the crystallization of lysozyme}
+      \field{title}{Systematic studies on the crystallization of lysozyme: {Determination} and use of phase diagrams}
+      \field{urlday}{17}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{90}
+      \field{year}{1988}
+      \field{urldateera}{ce}
+      \field{pages}{86\bibrangedash 93}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/0022-0248(88)90302-8
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:https\://www.sciencedirect.com/science/article/pii/0022024888903028/pdf?md5=a71cb66bc09fb8924b8e4703bb14c35b&pid=1-s2.0-0022024888903028-main.pdf&isDTMRedir=Y:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/0022024888903028
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/0022024888903028
+      \endverb
+    \endentry
+    \entry{Chayen2001}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=ae7a77010be85d472a4505d87f62d8c5}{%
+           family={Chayen},
+           familyi={C\bibinitperiod},
+           given={Naomi\bibnamedelima E},
+           giveni={N\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c0fa180d395fbcfaa3b8d613322d0939}{%
+           family={Saridakis},
+           familyi={S\bibinitperiod},
+           given={Emmanuel},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0fef999fd95f970efd105869f41cad69}
+      \strng{fullhash}{0fef999fd95f970efd105869f41cad69}
+      \strng{fullhashraw}{0fef999fd95f970efd105869f41cad69}
+      \strng{bibnamehash}{0fef999fd95f970efd105869f41cad69}
+      \strng{authorbibnamehash}{0fef999fd95f970efd105869f41cad69}
+      \strng{authornamehash}{0fef999fd95f970efd105869f41cad69}
+      \strng{authorfullhash}{0fef999fd95f970efd105869f41cad69}
+      \strng{authorfullhashraw}{0fef999fd95f970efd105869f41cad69}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A series of potential heterogeneous nucleants were added to metastable solutions of lysozyme and of four other model proteins, as well as to a few target proteins. Some of the substances markedly affected the nucleation of lysozyme crystals, but did not influence the other proteins. The results for other proteins were disappointing because these nucleants have not turned out to be the universal nucleants we were hoping for. However, having worked so well for lysozyme, they may yet prove useful in individual cases.}
+      \field{issn}{0022-0248}
+      \field{journaltitle}{Journal of Crystal Growth}
+      \field{month}{11}
+      \field{number}{1}
+      \field{series}{Proceedings of the {Eighth} {International} {Conference} on {Crystalliza} tion of {Biological} {Macromolecules}}
+      \field{title}{Is lysozyme really the ideal model protein?}
+      \field{urlday}{17}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{232}
+      \field{year}{2001}
+      \field{urldateera}{ce}
+      \field{pages}{262\bibrangedash 264}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1016/S0022-0248(01)01203-9
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:https\://www.sciencedirect.com/science/article/pii/S0022024801012039/pdfft?download=true:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022024801012039
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022024801012039
+      \endverb
+      \keyw{A1.Biocrystallization,A1.Nucleation,A1.Surfaces,B1.Biological macromolecules,B1. Lysozyme,B1.Proteins}
+    \endentry
+    \entry{Ghosh2023}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4153e0ee0b1dc4747b0251e44fea96a2}{%
+           family={Ghosh},
+           familyi={G\bibinitperiod},
+           given={Raja},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{4153e0ee0b1dc4747b0251e44fea96a2}
+      \strng{fullhash}{4153e0ee0b1dc4747b0251e44fea96a2}
+      \strng{fullhashraw}{4153e0ee0b1dc4747b0251e44fea96a2}
+      \strng{bibnamehash}{4153e0ee0b1dc4747b0251e44fea96a2}
+      \strng{authorbibnamehash}{4153e0ee0b1dc4747b0251e44fea96a2}
+      \strng{authornamehash}{4153e0ee0b1dc4747b0251e44fea96a2}
+      \strng{authorfullhash}{4153e0ee0b1dc4747b0251e44fea96a2}
+      \strng{authorfullhashraw}{4153e0ee0b1dc4747b0251e44fea96a2}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Protein crystallization techniques are very important in drug development. This paper discusses a membrane-based micro-volume dialysis method suitable for rapid and high-throughput protein crystallization. A droplet of protein solution was deposited on the membrane surface in a micro-volume dialysis device. Crystallizing agents could be added to the protein solution either directly or through the membrane. The crystallization process could easily be monitored in real time under a microscope. Tiny specks, indicative of forming crystals, were observed as early as 30 s from the start of the experiment, and these were clearly distinguishable as tetragonal lysozyme crystals within 2 min. This method is particularly suitable for carrying out screening and optimization experiments, and for studying crystallization kinetics. The easy and direct manner in which protein and crystallizing agents are introduced into the device makes this method amenable to miniaturization and automation. Additionally, this approach would potentially allow for rapid screening of the effects of drug molecules on the crystallization process and the nature of crystal formation.}
+      \field{issn}{2227-9717}
+      \field{journaltitle}{Processes}
+      \field{month}{7}
+      \field{number}{7}
+      \field{title}{Membrane-{Based} {Micro}-{Volume} {Dialysis} {Method} for {Rapid} and {High}-{Throughput} {Protein} {Crystallization}}
+      \field{urlday}{17}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{11}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{2148}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/pr11072148
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:https\://www.mdpi.com/2227-9717/11/7/2148/pdf?version=1689744135:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2227-9717/11/7/2148
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2227-9717/11/7/2148
+      \endverb
+      \keyw{crystallization,micro-volume,high-throughput,protein,membrane}
+    \endentry
+    \entry{Iwai2008}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=9ba2c13a9d913c5d57ce7c83781bbedf}{%
+           family={Iwai},
+           familyi={I\bibinitperiod},
+           given={Wakari},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d23b69fce4e2a879bd5f6f000bcc718f}{%
+           family={Yagi},
+           familyi={Y\bibinitperiod},
+           given={Daichi},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cc2b542a67d8696c26e9e50978c55cc3}{%
+           family={Ishikawa},
+           familyi={I\bibinitperiod},
+           given={Takuya},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=341af476e382513681d97dc775de346c}{%
+           family={Ohnishi},
+           familyi={O\bibinitperiod},
+           given={Yuki},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0df6536cb2af5db5dacc9508cbb3402a}{%
+           family={Tanaka},
+           familyi={T\bibinitperiod},
+           given={Ichiro},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b0eaa63e928c51f3dac11682eb59c65e}{%
+           family={Niimura},
+           familyi={N\bibinitperiod},
+           given={Nobuo},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1d0c28386b4f85957575ed7a01aa1aea}
+      \strng{fullhash}{0f4661b19db963110ebca807a68c0442}
+      \strng{fullhashraw}{0f4661b19db963110ebca807a68c0442}
+      \strng{bibnamehash}{0f4661b19db963110ebca807a68c0442}
+      \strng{authorbibnamehash}{0f4661b19db963110ebca807a68c0442}
+      \strng{authornamehash}{1d0c28386b4f85957575ed7a01aa1aea}
+      \strng{authorfullhash}{0f4661b19db963110ebca807a68c0442}
+      \strng{authorfullhashraw}{0f4661b19db963110ebca807a68c0442}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Hen egg-white lysozyme was crystallized over a wide pH range (2.5–8.0) and the quality of the crystals was characterized. Crystallization phase diagrams at pH 2.5, 6.0 and 7.5 were determined, To observe the ionized status of the amino acid residues in proteins at different pH (protein pH titration in the crystalline state) by neutron diffraction, hen egg-white lysozyme was crystallized over a wide pH range (2.5–8.0). Crystallization phase diagrams at pH 2.5, 6.0 and 7.5 were determined. At pH {<} 4.5 the border between the metastable region and the nucleation region shifted to the left (lower precipitant concentration) in the phase diagram, and at pH {>} 4.5 the border shifted to the right (higher precipitant concentration). The qualities of these crystals were characterized using the Wilson plot method. The qualities of all crystals at different pH were more or less equivalent (B-factor values within 25–40). It is expected that neutron diffraction analysis of these crystals of different pH provides equivalent data in quality for discussions of protein pH titration in the crystalline state of hen egg-white lysozyme.}
+      \field{issn}{0909-0495}
+      \field{journaltitle}{Journal of Synchrotron Radiation}
+      \field{month}{5}
+      \field{number}{Pt 3}
+      \field{title}{Crystallization and evaluation of hen egg-white lysozyme crystals for protein {pH} titration in the crystalline state}
+      \field{urlday}{17}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{15}
+      \field{year}{2008}
+      \field{urldateera}{ce}
+      \field{pages}{312\bibrangedash 315}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1107/S0909049507059559
+      \endverb
+      \verb{urlraw}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC2394781/
+      \endverb
+      \verb{url}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC2394781/
+      \endverb
+    \endentry
+    \entry{Jin2022}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=eb04b66458fd024ddb46fcc68d33ca7b}{%
+           family={Jin},
+           familyi={J\bibinitperiod},
+           given={Chen},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3637aee274364db9c412fffc90eb55f5}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Zhuangwei},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=52d0d68213cc360b7537f9f48ae7b48e}{%
+           family={Kang},
+           familyi={K\bibinitperiod},
+           given={Chuanze},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b641e474f8d2810c60be5d61a3d24a54}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Ken},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e29e2cdbaa50d58d413b689667ace7db}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Han},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{550fa8d156cf71194e742d061d3870c1}
+      \strng{fullhash}{2cd9b4925db954c493ed6647b42f19b3}
+      \strng{fullhashraw}{2cd9b4925db954c493ed6647b42f19b3}
+      \strng{bibnamehash}{2cd9b4925db954c493ed6647b42f19b3}
+      \strng{authorbibnamehash}{2cd9b4925db954c493ed6647b42f19b3}
+      \strng{authornamehash}{550fa8d156cf71194e742d061d3870c1}
+      \strng{authorfullhash}{2cd9b4925db954c493ed6647b42f19b3}
+      \strng{authorfullhashraw}{2cd9b4925db954c493ed6647b42f19b3}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{X-ray diffraction technique is one of the most common methods of ascertaining protein structures, yet only 2–10\% of proteins can produce diffraction-quality crystals. Several computational methods have been proposed so far to predict protein crystallization. Nevertheless, the current state-of-the-art computational methods are limited by the scarcity of experimental data. Thus, the prediction accuracy of existing models hasn’t reached the ideal level. To address the problems above, we propose a novel transfer-learning-based framework for protein crystallization prediction, named TLCrys. The framework proceeds in two steps: pre-training and fine-tuning. The pre-training step adopts attention mechanism to extract both global and local information of the protein sequences. The representation learned from the pre-training step is regarded as knowledge to be transferred and fine-tuned to enhance the performance of crystalization prediction. During pre-training, TLCrys adopts a multi-task learning method, which not only improves the learning ability of protein encoding, but also enhances the robustness and generalization of protein representation. The multi-head self-attention layer guarantees that different levels of the protein representation can be extracted by the fine-tuned step. During transfer learning, the fine-tuning strategy used by TLCrys improves the task-specialized learning ability of the network. Our method outperforms all previous predictors significantly in five crystallization stages of prediction. Furthermore, the proposed methodology can be well generalized to other protein sequence classification tasks.}
+      \field{issn}{1422-0067}
+      \field{journaltitle}{International Journal of Molecular Sciences}
+      \field{month}{1}
+      \field{number}{2}
+      \field{shorttitle}{{TLCrys}}
+      \field{title}{{TLCrys}: {Transfer} {Learning} {Based} {Method} for {Protein} {Crystallization} {Prediction}}
+      \field{urlday}{7}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{23}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{972}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/ijms23020972
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8778968/
+      \endverb
+      \verb{url}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8778968/
+      \endverb
+    \endentry
+    \entry{Jumper2021}{article}{}{}
+      \name{author}{34}{}{%
+        {{un=0,uniquepart=base,hash=10a7a824028a842a17d901b4ec09993d}{%
+           family={Jumper},
+           familyi={J\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=173072a12c87679d6e0aeed7dbfb2abc}{%
+           family={Evans},
+           familyi={E\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4295e4094c426f01903ac60155866130}{%
+           family={Pritzel},
+           familyi={P\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3e0f493c1ce741283206bf1f0d3c12f5}{%
+           family={Green},
+           familyi={G\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=79e7b7b6d4522585cad02503c7d5c53c}{%
+           family={Figurnov},
+           familyi={F\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8e46da9de9e53ea5d37089897d69cdd9}{%
+           family={Ronneberger},
+           familyi={R\bibinitperiod},
+           given={Olaf},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c65f7c717e43948afa4c164334478ff0}{%
+           family={Tunyasuvunakool},
+           familyi={T\bibinitperiod},
+           given={Kathryn},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8fdcc93ec2f81694fe0e05f9515307f0}{%
+           family={Bates},
+           familyi={B\bibinitperiod},
+           given={Russ},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=314115f4f8838d7bcb17334f981615d0}{%
+           family={Žídek},
+           familyi={Ž\bibinitperiod},
+           given={Augustin},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4b3acabda3fd87e1abd111ed903b2d51}{%
+           family={Potapenko},
+           familyi={P\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9bb6bd16bbcdb2bb998f8bc4038abede}{%
+           family={Bridgland},
+           familyi={B\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=10928a06d1ffe00108ee7f051eef29a6}{%
+           family={Meyer},
+           familyi={M\bibinitperiod},
+           given={Clemens},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c8db325f01e156e511c9a87a5e890d22}{%
+           family={Kohl},
+           familyi={K\bibinitperiod},
+           given={Simon\bibnamedelimb A.\bibnamedelimi A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8e2b07cf777b4e100518006a0306d430}{%
+           family={Ballard},
+           familyi={B\bibinitperiod},
+           given={Andrew\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=699f0d8b3b8c59a0bf815183b5a587d1}{%
+           family={Cowie},
+           familyi={C\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a4ad88ba00428c727fd7a7295f097c6d}{%
+           family={Romera-Paredes},
+           familyi={R\bibinithyphendelim P\bibinitperiod},
+           given={Bernardino},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=948ac64053194ba4926e57c400b43dae}{%
+           family={Nikolov},
+           familyi={N\bibinitperiod},
+           given={Stanislav},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e44ef077603c4c2159908f44186dedfa}{%
+           family={Jain},
+           familyi={J\bibinitperiod},
+           given={Rishub},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=30e117447522ea5c589b531025c81621}{%
+           family={Adler},
+           familyi={A\bibinitperiod},
+           given={Jonas},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=329e447b0059cd0bc92227b1dd08c81e}{%
+           family={Back},
+           familyi={B\bibinitperiod},
+           given={Trevor},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4e381e44037009b1cd834d794735c311}{%
+           family={Petersen},
+           familyi={P\bibinitperiod},
+           given={Stig},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d805812e442bf9b99ef9b60be3389113}{%
+           family={Reiman},
+           familyi={R\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=19819a31d99ee8ba869ec9b7fee14613}{%
+           family={Clancy},
+           familyi={C\bibinitperiod},
+           given={Ellen},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=00bb8dcd0d7dc6963e2b9481ce8e7cdf}{%
+           family={Zielinski},
+           familyi={Z\bibinitperiod},
+           given={Michal},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c06ac6a6fdcf2ee2092d61fc58c1f21b}{%
+           family={Steinegger},
+           familyi={S\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d33020bce7d227c8dd58677580d8df0f}{%
+           family={Pacholska},
+           familyi={P\bibinitperiod},
+           given={Michalina},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=de7e7f4d56e896db85f56c06f77016a4}{%
+           family={Berghammer},
+           familyi={B\bibinitperiod},
+           given={Tamas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0c0cd2e2fbeb23bb50214e8c94c61b08}{%
+           family={Bodenstein},
+           familyi={B\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=89dbd30410c2085cd059f32c57d4593e}{%
+           family={Silver},
+           familyi={S\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=494b568c5dc85ba8f3f409635f9c5f25}{%
+           family={Vinyals},
+           familyi={V\bibinitperiod},
+           given={Oriol},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=211e54ca76df5d8c1de6957d48792545}{%
+           family={Senior},
+           familyi={S\bibinitperiod},
+           given={Andrew\bibnamedelima W.},
+           giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=481308b301166b521c74fde6566e97e6}{%
+           family={Kavukcuoglu},
+           familyi={K\bibinitperiod},
+           given={Koray},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d0d21ff02dda6c0a7d09ef7436bd329b}{%
+           family={Kohli},
+           familyi={K\bibinitperiod},
+           given={Pushmeet},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b160026950ebb1e2286dfb40c15482f5}{%
+           family={Hassabis},
+           familyi={H\bibinitperiod},
+           given={Demis},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{385b84ff9ec134408fea9aeba42f4525}
+      \strng{fullhash}{fa5dce0980388f0460da0632f0c9ade1}
+      \strng{fullhashraw}{fa5dce0980388f0460da0632f0c9ade1}
+      \strng{bibnamehash}{0dd271963a2f955ca805670608bc90a2}
+      \strng{authorbibnamehash}{0dd271963a2f955ca805670608bc90a2}
+      \strng{authornamehash}{385b84ff9ec134408fea9aeba42f4525}
+      \strng{authorfullhash}{fa5dce0980388f0460da0632f0c9ade1}
+      \strng{authorfullhashraw}{fa5dce0980388f0460da0632f0c9ade1}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1476-4687}
+      \field{journaltitle}{Nature}
+      \field{month}{7}
+      \field{number}{7873}
+      \field{title}{Highly accurate protein structure prediction with AlphaFold}
+      \field{volume}{596}
+      \field{year}{2021}
+      \field{pages}{583\bibrangedash 589}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1038/s41586-021-03819-2
+      \endverb
+    \endentry
+    \entry{Kirkwood2015}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=2bd1601a553e5af6897ba2fa685f099a}{%
+           family={Kirkwood},
+           familyi={K\bibinitperiod},
+           given={Jobie},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cad7df979369114ed55820f8a306724d}{%
+           family={Hargreaves},
+           familyi={H\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3d8dde16dfeedf8c491f87d55de9b46b}{%
+           family={O’Keefe},
+           familyi={O\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b3b4c61ec0d39f5f710e15dd3ea7a77b}{%
+           family={Wilson},
+           familyi={W\bibinitperiod},
+           given={Julie},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{026f417488616cf13416df98c8b27c0d}
+      \strng{fullhash}{8d4d09796aa0ed20ba8b99046c24e27f}
+      \strng{fullhashraw}{8d4d09796aa0ed20ba8b99046c24e27f}
+      \strng{bibnamehash}{8d4d09796aa0ed20ba8b99046c24e27f}
+      \strng{authorbibnamehash}{8d4d09796aa0ed20ba8b99046c24e27f}
+      \strng{authornamehash}{026f417488616cf13416df98c8b27c0d}
+      \strng{authorfullhash}{8d4d09796aa0ed20ba8b99046c24e27f}
+      \strng{authorfullhashraw}{8d4d09796aa0ed20ba8b99046c24e27f}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Motivation: The identification of suitable conditions for crystallization is a rate-limiting step in protein structure determination. The pH of an experiment is an important parameter and has the potential to be used in data-mining studies to help reduce the number of crystallization trials required. However, the pH is usually recorded as that of the buffer solution, which can be highly inaccurate., Results: Here, we show that a better estimate of the true pH can be predicted by considering not only the buffer pH but also any other chemicals in the crystallization solution. We use these more accurate pH values to investigate the disputed relationship between the pI of a protein and the pH at which it crystallizes., Availability and implementation: Data used to generate models are available as Supplementary Material., Contact: julie.wilson@york.ac.uk, Supplementary information: Supplementary data are available at Bioinformatics online.}
+      \field{issn}{1367-4803}
+      \field{journaltitle}{Bioinformatics}
+      \field{month}{5}
+      \field{number}{9}
+      \field{title}{Using isoelectric point to determine the {pH} for initial protein crystallization trials}
+      \field{urlday}{7}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{31}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \field{pages}{1444\bibrangedash 1451}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1093/bioinformatics/btv011
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4410668/
+      \endverb
+      \verb{url}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4410668/
+      \endverb
+    \endentry
+    \entry{Kurgan2009}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=50f361a43b3ea2f367585851e0268c9e}{%
+           family={Kurgan},
+           familyi={K\bibinitperiod},
+           given={Lukasz},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0c0472b790020ba410dcc5a961613e20}{%
+           family={Razib},
+           familyi={R\bibinitperiod},
+           given={Ali\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5635fb7f90538fb790521c2de79bdbb3}{%
+           family={Aghakhani},
+           familyi={A\bibinitperiod},
+           given={Sara},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=47cc33d1237d8ad86228524b3f49c369}{%
+           family={Dick},
+           familyi={D\bibinitperiod},
+           given={Scott},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=32ce3608b7725fbfa5626ed8b3f67eb2}{%
+           family={Mizianty},
+           familyi={M\bibinitperiod},
+           given={Marcin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e9c88bb590e7d95829f043116cf0bf24}{%
+           family={Jahandideh},
+           familyi={J\bibinitperiod},
+           given={Samad},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c4b6ae159cd27033efb08c24689c1a28}
+      \strng{fullhash}{16ff139ebaacc197cabb7a787a807d18}
+      \strng{fullhashraw}{16ff139ebaacc197cabb7a787a807d18}
+      \strng{bibnamehash}{16ff139ebaacc197cabb7a787a807d18}
+      \strng{authorbibnamehash}{16ff139ebaacc197cabb7a787a807d18}
+      \strng{authornamehash}{c4b6ae159cd27033efb08c24689c1a28}
+      \strng{authorfullhash}{16ff139ebaacc197cabb7a787a807d18}
+      \strng{authorfullhashraw}{16ff139ebaacc197cabb7a787a807d18}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Current protocols yield crystals for {<}30\% of known proteins, indicating that automatically identifying crystallizable proteins may improve high-throughput structural genomics efforts. We introduce CRYSTALP2, a kernel-based method that predicts the propensity of a given protein sequence to produce diffraction-quality crystals. This method utilizes the composition and collocation of amino acids, isoelectric point, and hydrophobicity, as estimated from the primary sequence, to generate predictions. CRYSTALP2 extends its predecessor, CRYSTALP, by enabling predictions for sequences of unrestricted size and provides improved prediction quality.}
+      \field{issn}{1472-6807}
+      \field{journaltitle}{BMC Structural Biology}
+      \field{month}{7}
+      \field{number}{1}
+      \field{shorttitle}{{CRYSTALP2}}
+      \field{title}{{CRYSTALP2}: sequence-based protein crystallization propensity prediction}
+      \field{urlday}{7}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{9}
+      \field{year}{2009}
+      \field{urldateera}{ce}
+      \field{pages}{50}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1186/1472-6807-9-50
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:Kurgan2009 - CRYSTALP2_ Sequence Based Protein Crystallization Propensity Prediction.pdf:PDF:https\://bmcstructbiol.biomedcentral.com/counter/pdf/10.1186/1472-6807-9-50
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1186/1472-6807-9-50
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1186/1472-6807-9-50
+      \endverb
+      \keyw{Protein Chain,Prediction Quality,Crystallizable Protein,Feat Dataset,High True Positive Rate}
+    \endentry
+    \entry{Lee2019}{article}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=93d672e970cfc09c4d85b7224fedb176}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Hyunim},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4699025bd98e932e7e2e36793d89d260}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Zhen\bibnamedelima Hao},
+           giveni={Z\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=08834eb7005985a5bba1a4f4a406f2cb}{%
+           family={Corbi-Verge},
+           familyi={C\bibinithyphendelim V\bibinitperiod},
+           given={Carles},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ef0cb7bfba2a1cb09dae401edd363ac3}{%
+           family={Mok},
+           familyi={M\bibinitperiod},
+           given={Mac},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=927370e501c8a3ff355f0a188fd7859e}{%
+           family={Kang},
+           familyi={K\bibinitperiod},
+           given={Sidney},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=18c204904537ec382febbb3fca499471}{%
+           family={Liao},
+           familyi={L\bibinitperiod},
+           given={Shun},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=345c57c37acad17289ea6b8a348156db}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Zhaolei},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=41edee3b089f1e326b606a5b4353f20b}{%
+           family={Garton},
+           familyi={G\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0c2b22a0a46037901cbe61c1aca94537}
+      \strng{fullhash}{3d04685facaad2a5608bb859ad2d97eb}
+      \strng{fullhashraw}{3d04685facaad2a5608bb859ad2d97eb}
+      \strng{bibnamehash}{3d04685facaad2a5608bb859ad2d97eb}
+      \strng{authorbibnamehash}{3d04685facaad2a5608bb859ad2d97eb}
+      \strng{authornamehash}{0c2b22a0a46037901cbe61c1aca94537}
+      \strng{authorfullhash}{3d04685facaad2a5608bb859ad2d97eb}
+      \strng{authorfullhashraw}{3d04685facaad2a5608bb859ad2d97eb}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advances in Neural Information Processing Systems}
+      \field{note}{Accessed: 2025-07-31}
+      \field{title}{De novo Crystallization Condition Prediction with Deep Learning}
+      \field{volume}{32}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://mlcb.github.io/mlcb2019_proceedings/papers/paper_3.pdf
+      \endverb
+      \verb{url}
+      \verb https://mlcb.github.io/mlcb2019_proceedings/papers/paper_3.pdf
+      \endverb
+    \endentry
+    \entry{Liao2025}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=bfb72b99f82ffb0b05f9f41683356f56}{%
+           family={Liao},
+           familyi={L\bibinitperiod},
+           given={Kuan‐Ju},
+           giveni={K\bibinithyphendelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6085c5ad916dea225cd8ecee2b994811}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Yuh‐Ju},
+           giveni={Y\bibinithyphendelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{abe614a142207bda24ff501e6e93f811}
+      \strng{fullhash}{abe614a142207bda24ff501e6e93f811}
+      \strng{fullhashraw}{abe614a142207bda24ff501e6e93f811}
+      \strng{bibnamehash}{abe614a142207bda24ff501e6e93f811}
+      \strng{authorbibnamehash}{abe614a142207bda24ff501e6e93f811}
+      \strng{authornamehash}{abe614a142207bda24ff501e6e93f811}
+      \strng{authorfullhash}{abe614a142207bda24ff501e6e93f811}
+      \strng{authorfullhashraw}{abe614a142207bda24ff501e6e93f811}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Protein crystallization remains a major bottleneck in X‐ray crystallography due to difficulties in achieving favorable molecular arrangements within the crystal lattice. While protein–protein interactions at molecular packing interfaces are crucial for determining crystallization conditions, methods for predicting crystal packing interfaces and systematically exploring crystallization conditions remain limited. In this study, we present MASCL (Molecular Assembly Simulation in Crystal Lattice), a novel approach that integrates AlphaFold with symmetrical docking to simulate crystal packing. To evaluate packing quality, we introduced PackQ, a stringent metric based on the DockQ framework, where models with scores above 0.36 are considered successful. In benchmark tests on P41212 and P43212 space groups, MASCL successfully predicted packing interfaces for 26.8\% and 30.1\% of targets within the top 100 models. When focusing on models with successfully predicted initial crystallographic dimeric assemblies (DockQ ≥ 0.23), success rates improved to 57.9\% and 39.8\% within the top 25 models, respectively. Additionally, we developed AAI‐PatchBag, a patch‐based method using physicochemical descriptors to assess molecular interface similarity. Compared to conventional condition‐searching strategies like sequence alignment, structure superposition, and shape comparison, AAI‐PatchBag reduced the number of trials required to identify potential crystallization conditions. Applied to lysozyme crystallization, AAI‐PatchBag efficiently identified conditions yielding crystals with the desired packing. Overall, MASCL and AAI‐PatchBag advance the prediction of protein–protein interactions within the crystal lattice and facilitate the identification of potential crystallization conditions through molecular packing interface similarity, contributing to a deeper understanding of protein crystallization.}
+      \field{issn}{0887-3585}
+      \field{journaltitle}{Proteins}
+      \field{month}{10}
+      \field{number}{10}
+      \field{title}{Using {AlphaFold} and {Symmetrical} {Docking} to {Predict} {Protein}–{Protein} {Interactions} for {Exploring} {Potential} {Crystallization} {Conditions}}
+      \field{urlday}{11}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{93}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \field{pages}{1747\bibrangedash 1766}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1002/prot.26844
+      \endverb
+      \verb{urlraw}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC12433261/
+      \endverb
+      \verb{url}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC12433261/
+      \endverb
+    \endentry
+    \entry{Mall2025}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=0cf1009934f60f90764eaefa90f10686}{%
+           family={Mall},
+           familyi={M\bibinitperiod},
+           given={Raghvendra},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bb16035b1e837bf568287a5a81fa4ace}{%
+           family={Kaushik},
+           familyi={K\bibinitperiod},
+           given={Rahul},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e3cfe1be34ca9589747a6190fd34da8a}{%
+           family={Martinez},
+           familyi={M\bibinitperiod},
+           given={Zachary\bibnamedelima A.},
+           giveni={Z\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5ffc469d4f5f46d4c64f470a4d69271a}{%
+           family={Thomson},
+           familyi={T\bibinitperiod},
+           given={Matt\bibnamedelima W.},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=89ee659d4c7f153d3a42a70b3ee05ea5}{%
+           family={Castiglione},
+           familyi={C\bibinitperiod},
+           given={Filippo},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{777a1f4d272f955b918ec46cf230c299}
+      \strng{fullhash}{2052cf20d8658dc822a834e8c6b394b4}
+      \strng{fullhashraw}{2052cf20d8658dc822a834e8c6b394b4}
+      \strng{bibnamehash}{2052cf20d8658dc822a834e8c6b394b4}
+      \strng{authorbibnamehash}{2052cf20d8658dc822a834e8c6b394b4}
+      \strng{authornamehash}{777a1f4d272f955b918ec46cf230c299}
+      \strng{authorfullhash}{2052cf20d8658dc822a834e8c6b394b4}
+      \strng{authorfullhashraw}{2052cf20d8658dc822a834e8c6b394b4}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The problem of protein structure determination is usually solved by X-ray crystallography. Several in silico deep learning methods have been developed to overcome the high attrition rate, cost of experiments and extensive trial-and-error settings, for predicting the crystallization propensities of proteins based on their sequences. In this work, we benchmark the power of open protein language models (PLMs) through the TRILL platform, a be-spoke framework democratizing the usage of PLMs for the task of predicting crystallization propensities of proteins. By comparing LightGBM / XGBoost classifiers built on the average embedding representations of proteins learned by different PLMs, such as ESM2, Ankh, ProtT5-XL, ProstT5, xTrimoPGLM, SaProt with the performance of state-of-the-art sequence-based methods like DeepCrystal, ATTCrys and CLPred, we identify the most effective methods for predicting crystallization outcomes. The LightGBM classifiers utilizing embeddings from ESM2 model with 30 and 36 transformer layers and 150 and 3000 million parameters respectively have performance gains by 3-\$\$5{\textbackslash}\%\$\$than all compared models for various evaluation metrics, including AUPR (Area Under Precision-Recall Curve), AUC (Area Under the Receiver Operating Characteristic Curve), and F1 on independent test sets. Furthermore, we fine-tune the ProtGPT2 model available via TRILL to generate crystallizable proteins. Starting with 3000 generated proteins and through a step of filtration processes including consensus of all open PLM-based classifiers, sequence identity through CD-HIT, secondary structure compatibility, aggregation screening, homology search and foldability evaluation, we identified a set of 5 novel proteins as potentially crystallizable.}
+      \field{issn}{2045-2322}
+      \field{journaltitle}{Scientific Reports}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Benchmarking protein language models for protein crystallization}
+      \field{urlday}{31}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{volume}{15}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \field{pages}{2381}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/s41598-025-86519-5
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:Mall2025 - Benchmarking Protein Language Models for Protein Crystallization.pdf:PDF:https\://www.nature.com/articles/s41598-025-86519-5.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41598-025-86519-5
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41598-025-86519-5
+      \endverb
+      \keyw{Computer science,Mathematics and computing,X-ray crystallography}
+    \endentry
+    \entry{Matinyan2024}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=efa6cedff662c4222c734bb3d0e99463}{%
+           family={Matinyan},
+           familyi={M\bibinitperiod},
+           given={Senik},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ab10f44ce912571f64c7553208bf0396}{%
+           family={Filipcik},
+           familyi={F\bibinitperiod},
+           given={Pavel},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bac5345323b35920b4215dbf729f4373}{%
+           family={Abrahams},
+           familyi={A\bibinitperiod},
+           given={Jan\bibnamedelima Pieter},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d85661e9ab59213b6ffe8b11ec2678af}
+      \strng{fullhash}{90350e5235e36f3f614859d360ff53ea}
+      \strng{fullhashraw}{90350e5235e36f3f614859d360ff53ea}
+      \strng{bibnamehash}{90350e5235e36f3f614859d360ff53ea}
+      \strng{authorbibnamehash}{90350e5235e36f3f614859d360ff53ea}
+      \strng{authornamehash}{d85661e9ab59213b6ffe8b11ec2678af}
+      \strng{authorfullhash}{90350e5235e36f3f614859d360ff53ea}
+      \strng{authorfullhashraw}{90350e5235e36f3f614859d360ff53ea}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Deep learning applications are increasingly dominating many areas of science. This paper reviews their relevance for and impact on protein crystallography., Deep learning techniques can recognize complex patterns in noisy, multidimensional data. In recent years, researchers have started to explore the potential of deep learning in the field of structural biology, including protein crystallography. This field has some significant challenges, in particular producing high-quality and well ordered protein crystals. Additionally, collecting diffraction data with high completeness and quality, and determining and refining protein structures can be problematic. Protein crystallographic data are often high-dimensional, noisy and incomplete. Deep learning algorithms can extract relevant features from these data and learn to recognize patterns, which can improve the success rate of crystallization and the quality of crystal structures. This paper reviews progress in this field.}
+      \field{issn}{2053-2733}
+      \field{journaltitle}{Acta Crystallographica. Section A, Foundations and Advances}
+      \field{month}{1}
+      \field{number}{Pt 1}
+      \field{title}{Deep learning applications in protein crystallography}
+      \field{urlday}{31}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{volume}{80}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 17}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1107/S2053273323009300
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10833361/
+      \endverb
+      \verb{url}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10833361/
+      \endverb
+    \endentry
+    \entry{McPherson2013}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=9b9120d5290b88c1b6c661df7216de90}{%
+           family={McPherson},
+           familyi={M\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c166e92a759eed0b1233927d875b8b22}{%
+           family={Gavira},
+           familyi={G\bibinitperiod},
+           given={Jose\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a94a1cacb04e439d5690107fb0a331d3}
+      \strng{fullhash}{a94a1cacb04e439d5690107fb0a331d3}
+      \strng{fullhashraw}{a94a1cacb04e439d5690107fb0a331d3}
+      \strng{bibnamehash}{a94a1cacb04e439d5690107fb0a331d3}
+      \strng{authorbibnamehash}{a94a1cacb04e439d5690107fb0a331d3}
+      \strng{authornamehash}{a94a1cacb04e439d5690107fb0a331d3}
+      \strng{authorfullhash}{a94a1cacb04e439d5690107fb0a331d3}
+      \strng{authorfullhashraw}{a94a1cacb04e439d5690107fb0a331d3}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The gateway to X-ray crystallography is the growth of macromolecular crystals. An attempt is made here to acquaint investigators with the principles and practice of protein crystallization, some recent innovations, and to touch upon some of the remaining problems., Protein crystallization was discovered by chance about 150 years ago and was developed in the late 19th century as a powerful purification tool and as a demonstration of chemical purity. The crystallization of proteins, nucleic acids and large biological complexes, such as viruses, depends on the creation of a solution that is supersaturated in the macromolecule but exhibits conditions that do not significantly perturb its natural state. Supersaturation is produced through the addition of mild precipitating agents such as neutral salts or polymers, and by the manipulation of various parameters that include temperature, ionic strength and pH. Also important in the crystallization process are factors that can affect the structural state of the macromolecule, such as metal ions, inhibitors, cofactors or other conventional small molecules. A variety of approaches have been developed that combine the spectrum of factors that effect and promote crystallization, and among the most widely used are vapor diffusion, dialysis, batch and liquid–liquid diffusion. Successes in macromolecular crystallization have multiplied rapidly in recent years owing to the advent of practical, easy-to-use screening kits and the application of laboratory robotics. A brief review will be given here of the most popular methods, some guiding principles and an overview of current technologies.}
+      \field{issn}{2053-230X}
+      \field{journaltitle}{Acta Crystallographica. Section F, Structural Biology Communications}
+      \field{month}{12}
+      \field{number}{Pt 1}
+      \field{title}{Introduction to protein crystallization}
+      \field{urlday}{7}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{70}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \field{pages}{2\bibrangedash 20}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1107/S2053230X13033141
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3943105/
+      \endverb
+      \verb{url}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3943105/
+      \endverb
+    \endentry
+    \entry{Mizianty2011}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=0044d0878240de73da05b7b708cbb01a}{%
+           family={Mizianty},
+           familyi={M\bibinitperiod},
+           given={Marcin\bibnamedelima J},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=50f361a43b3ea2f367585851e0268c9e}{%
+           family={Kurgan},
+           familyi={K\bibinitperiod},
+           given={Lukasz},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{6f6a67c83ba71ad99bbfc3d19fb904e5}
+      \strng{fullhash}{6f6a67c83ba71ad99bbfc3d19fb904e5}
+      \strng{fullhashraw}{6f6a67c83ba71ad99bbfc3d19fb904e5}
+      \strng{bibnamehash}{6f6a67c83ba71ad99bbfc3d19fb904e5}
+      \strng{authorbibnamehash}{6f6a67c83ba71ad99bbfc3d19fb904e5}
+      \strng{authornamehash}{6f6a67c83ba71ad99bbfc3d19fb904e5}
+      \strng{authorfullhash}{6f6a67c83ba71ad99bbfc3d19fb904e5}
+      \strng{authorfullhashraw}{6f6a67c83ba71ad99bbfc3d19fb904e5}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bioinformatics}
+      \field{number}{13}
+      \field{title}{Sequence-based prediction of protein crystallization, purification and production propensity}
+      \field{volume}{27}
+      \field{year}{2011}
+      \field{pages}{i24\bibrangedash i33}
+      \range{pages}{-1}
+    \endentry
+    \entry{Terwilliger2024}{article}{}{}
+      \name{author}{11}{}{%
+        {{un=0,uniquepart=base,hash=4446e1f3e24795e7ea7b1adf8afa5be2}{%
+           family={Terwilliger},
+           familyi={T\bibinitperiod},
+           given={Thomas\bibnamedelima C.},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d6b947abe33457c2674deae178306ff7}{%
+           family={Liebschner},
+           familyi={L\bibinitperiod},
+           given={Dorothee},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=280d2dff9f4c5547b2510e9f58502dee}{%
+           family={Croll},
+           familyi={C\bibinitperiod},
+           given={Tristan\bibnamedelima I.},
+           giveni={T\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5a153a238431af60cd372d2970c5f682}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={Christopher\bibnamedelima J.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7124c2070eae7cfd3e80342249c3dfa0}{%
+           family={McCoy},
+           familyi={M\bibinitperiod},
+           given={Airlie\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=703dbb21a0a6de0ae4c1bf8918915253}{%
+           family={Poon},
+           familyi={P\bibinitperiod},
+           given={Billy\bibnamedelima K.},
+           giveni={B\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=18ca4d6442fd52bc812ff955327a4078}{%
+           family={Afonine},
+           familyi={A\bibinitperiod},
+           given={Pavel\bibnamedelima V.},
+           giveni={P\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7a3fe6cc17c452406dbc4b98d39e6070}{%
+           family={Oeffner},
+           familyi={O\bibinitperiod},
+           given={Robert\bibnamedelima D.},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c174c2493eddcc4ef2bb253138b701b9}{%
+           family={Richardson},
+           familyi={R\bibinitperiod},
+           given={Jane\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1e06b0da6cd7c28b3a8acf6b5d211e67}{%
+           family={Read},
+           familyi={R\bibinitperiod},
+           given={Randy\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=13262ec3bc77eb0e53c7ed069c3e500a}{%
+           family={Adams},
+           familyi={A\bibinitperiod},
+           given={Paul\bibnamedelima D.},
+           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{8616f713837e076d51451b518a60acf6}
+      \strng{fullhash}{831b4e61b4b5ab5ef96bb517456de051}
+      \strng{fullhashraw}{831b4e61b4b5ab5ef96bb517456de051}
+      \strng{bibnamehash}{831b4e61b4b5ab5ef96bb517456de051}
+      \strng{authorbibnamehash}{831b4e61b4b5ab5ef96bb517456de051}
+      \strng{authornamehash}{8616f713837e076d51451b518a60acf6}
+      \strng{authorfullhash}{831b4e61b4b5ab5ef96bb517456de051}
+      \strng{authorfullhashraw}{831b4e61b4b5ab5ef96bb517456de051}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Artificial intelligence-based protein structure prediction methods such as AlphaFold have revolutionized structural biology. The accuracies of these predictions vary, however, and they do not take into account ligands, covalent modifications or other environmental factors. Here, we evaluate how well AlphaFold predictions can be expected to describe the structure of a protein by comparing predictions directly with experimental crystallographic maps. In many cases, AlphaFold predictions matched experimental maps remarkably closely. In other cases, even very high-confidence predictions differed from experimental maps on a global scale through distortion and domain orientation, and on a local scale in backbone and side-chain conformation. We suggest considering AlphaFold predictions as exceptionally useful hypotheses. We further suggest that it is important to consider the confidence in prediction when interpreting AlphaFold predictions and to carry out experimental structure determination to verify structural details, particularly those that involve interactions not included in the prediction.}
+      \field{issn}{1548-7105}
+      \field{journaltitle}{Nature Methods}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{{AlphaFold} predictions are valuable hypotheses and accelerate but do not replace experimental structure determination}
+      \field{urlday}{17}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{21}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{110\bibrangedash 116}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1038/s41592-023-02087-4
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:Terwilliger2024 - AlphaFold Predictions Are Valuable Hypotheses and Accelerate but Do Not Replace Experimental Structure Determination.pdf:PDF:https\://www.nature.com/articles/s41592-023-02087-4.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41592-023-02087-4
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41592-023-02087-4
+      \endverb
+      \keyw{Protein analysis,Protein structure predictions,X-ray crystallography}
+    \endentry
+    \entry{Wilson2014}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=80d4d72427847aa1bef71b0276b88f4f}{%
+           family={Wilson},
+           familyi={W\bibinitperiod},
+           given={W.\bibnamedelimi W.},
+           giveni={W\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=50b0d5eee75d924098e306f5f572ea7b}{%
+           family={DeLucas},
+           familyi={D\bibinitperiod},
+           given={L.\bibnamedelimi J.},
+           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {International Union of Crystallography}%
+      }
+      \strng{namehash}{e13b5591cc6212a3cc66b02763005c81}
+      \strng{fullhash}{e13b5591cc6212a3cc66b02763005c81}
+      \strng{fullhashraw}{e13b5591cc6212a3cc66b02763005c81}
+      \strng{bibnamehash}{e13b5591cc6212a3cc66b02763005c81}
+      \strng{authorbibnamehash}{e13b5591cc6212a3cc66b02763005c81}
+      \strng{authornamehash}{e13b5591cc6212a3cc66b02763005c81}
+      \strng{authorfullhash}{e13b5591cc6212a3cc66b02763005c81}
+      \strng{authorfullhashraw}{e13b5591cc6212a3cc66b02763005c81}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This article begins by highlighting some of the ground-based studies emanating from NASA's Microgravity Protein Crystal Growth (PCG) program. This is followed by a more detailed discussion of the history of and the progress made in one of the NASA-funded PCG investigations involving the use of measured second virial coefficients (B values) as a diagnostic indicator of solution conditions conducive to protein crystallization. A second application of measured B values involves the determination of solution conditions that improve or maximize the solubility of aqueous and membrane proteins. These two important applications have led to several technological improvements that simplify the experimental expertise required, enable the measurement of membrane proteins and improve the diagnostic capability and measurement throughput.}
+      \field{issn}{2053-230X}
+      \field{journaltitle}{Acta Crystallographica Section F: Structural Biology Communications}
+      \field{month}{5}
+      \field{number}{5}
+      \field{shorttitle}{Applications of the second virial coefficient}
+      \field{title}{Applications of the second virial coefficient: protein crystallization and solubility}
+      \field{urlday}{7}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{70}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \field{pages}{543\bibrangedash 554}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1107/S2053230X1400867X
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:Wilson2014 - Applications of the Second Virial Coefficient_ Protein Crystallization and Solubility.pdf:PDF:https\://journals.iucr.org/f/issues/2014/05/00/en5549/en5549.pdf
+      \endverb
+      \verb{urlraw}
+      \verb //journals.iucr.org/paper?en5549
+      \endverb
+      \verb{url}
+      \verb //journals.iucr.org/paper?en5549
+      \endverb
+    \endentry
+    \entry{Zhang2022}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=15b030e46f664e752b052e814606b070}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Xianfang},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=01c9530bc9b6ebbc2d00deab357ce5d4}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Zhengtao},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7d4b3709c5ff61554e7410fd8bffc5b6}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Jiahai},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=667524c9313e15b2365eaa7bd0b00e77}{%
+           family={Xing},
+           familyi={X\bibinitperiod},
+           given={Xiwen},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f079c7fdb806f44f64a6a4cb1b4d3197}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Long},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{4f6e8f35009c84e8a9760cf59f2f265b}
+      \strng{fullhash}{2b4cf0dad8f6f7abfad242273c11636d}
+      \strng{fullhashraw}{2b4cf0dad8f6f7abfad242273c11636d}
+      \strng{bibnamehash}{2b4cf0dad8f6f7abfad242273c11636d}
+      \strng{authorbibnamehash}{2b4cf0dad8f6f7abfad242273c11636d}
+      \strng{authornamehash}{4f6e8f35009c84e8a9760cf59f2f265b}
+      \strng{authorfullhash}{2b4cf0dad8f6f7abfad242273c11636d}
+      \strng{authorfullhashraw}{2b4cf0dad8f6f7abfad242273c11636d}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Protein crystallization plays a fundamental role in structural biology and chemistry, drug discovery, and crystallography itself. Determining how to improve the crystal growth is necessary and vital during the whole process. According to the recently published data, crystallizing proteins on nanoporous surfaces (i.e., metal–organic framework, abbreviated as MOF) is faster and demands less protein. However, dispersing micro-sized MOF materials uniformly is still a challenge and limiting process in protein crystallization. Here, we investigate the uniformity of micro-sized MOF under the treatment of the high-pressure homogenizer. At various pressures, the MOF is split into particles of different sizes, including the uniform and stable nano-sized MOF. Crystallization experiments demonstrated its enhancement in protein crystallization, and the number of crystals is significantly increased in the presence of nano-sized MOF. This work explores the use of nano-sized MOF solids to crystallize proteins of limited availability (i.e., insufficient for conventional methods) or of a hard-to-crystallize nature.}
+      \field{issn}{2073-4352}
+      \field{journaltitle}{Crystals}
+      \field{month}{5}
+      \field{number}{5}
+      \field{title}{Enhancement of {Protein} {Crystallization} {Using} {Nano}-{Sized} {Metal}–{Organic} {Framework}}
+      \field{urlday}{31}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{volume}{12}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{578}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/cryst12050578
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:https\://www.mdpi.com/2073-4352/12/5/578/pdf?version=1650519344:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2073-4352/12/5/578
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2073-4352/12/5/578
+      \endverb
+      \keyw{lysozyme crystallization,metal-organic frameworks,nanoporous,HKUST-1}
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global/global}
+    \entry{Ataka1988}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=885736d0f63722d536d0071037ec197b}{%
+           family={Ataka},
+           familyi={A\bibinitperiod},
+           given={Mitsuo},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ad51c5bb30693906419da0c00797515c}{%
+           family={Asai},
+           familyi={A\bibinitperiod},
+           given={Michihiko},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8b00c3a017329bccab36d5c3d19e79bd}
+      \strng{fullhash}{8b00c3a017329bccab36d5c3d19e79bd}
+      \strng{fullhashraw}{8b00c3a017329bccab36d5c3d19e79bd}
+      \strng{bibnamehash}{8b00c3a017329bccab36d5c3d19e79bd}
+      \strng{authorbibnamehash}{8b00c3a017329bccab36d5c3d19e79bd}
+      \strng{authornamehash}{8b00c3a017329bccab36d5c3d19e79bd}
+      \strng{authorfullhash}{8b00c3a017329bccab36d5c3d19e79bd}
+      \strng{authorfullhashraw}{8b00c3a017329bccab36d5c3d19e79bd}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The concentration changes which accompanied the crystal growth of hen egg-white lysozyme from its aqueous solution were followed optically at 5, 10, 15, 30, 42, and 50°C for 30–360 days in the presence of 1–7\% NaCl. When the initial protein concentration was selected so as to start the crystallization within a reasonable time and with a proper number of nuclei, the supernatant concentration approached constant values after 1–1.5 month, which were regarded as solubility (S) of the crystals. Phase diagrams representing S as functions of NaCl content and temperature were obtained for two crystal forms of lysozyme. From the Arrhenius plot, the enthalpy of crystallization for the tetragonal form was calculated to be − 72 kJ/mol, and that for the orthorhombic form to be −32 kJ/mol. Conditions necessary for obtaining accurate phase diagrams were discussed, together with their possible use for crystal growth and for future molecular engineering.}
+      \field{issn}{0022-0248}
+      \field{journaltitle}{Journal of Crystal Growth}
+      \field{month}{7}
+      \field{number}{1}
+      \field{shorttitle}{Systematic studies on the crystallization of lysozyme}
+      \field{title}{Systematic studies on the crystallization of lysozyme: {Determination} and use of phase diagrams}
+      \field{urlday}{17}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{90}
+      \field{year}{1988}
+      \field{urldateera}{ce}
+      \field{pages}{86\bibrangedash 93}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/0022-0248(88)90302-8
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:https\://www.sciencedirect.com/science/article/pii/0022024888903028/pdf?md5=a71cb66bc09fb8924b8e4703bb14c35b&pid=1-s2.0-0022024888903028-main.pdf&isDTMRedir=Y:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/0022024888903028
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/0022024888903028
+      \endverb
+    \endentry
+    \entry{Chayen2001}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=ae7a77010be85d472a4505d87f62d8c5}{%
+           family={Chayen},
+           familyi={C\bibinitperiod},
+           given={Naomi\bibnamedelima E},
+           giveni={N\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c0fa180d395fbcfaa3b8d613322d0939}{%
+           family={Saridakis},
+           familyi={S\bibinitperiod},
+           given={Emmanuel},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0fef999fd95f970efd105869f41cad69}
+      \strng{fullhash}{0fef999fd95f970efd105869f41cad69}
+      \strng{fullhashraw}{0fef999fd95f970efd105869f41cad69}
+      \strng{bibnamehash}{0fef999fd95f970efd105869f41cad69}
+      \strng{authorbibnamehash}{0fef999fd95f970efd105869f41cad69}
+      \strng{authornamehash}{0fef999fd95f970efd105869f41cad69}
+      \strng{authorfullhash}{0fef999fd95f970efd105869f41cad69}
+      \strng{authorfullhashraw}{0fef999fd95f970efd105869f41cad69}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A series of potential heterogeneous nucleants were added to metastable solutions of lysozyme and of four other model proteins, as well as to a few target proteins. Some of the substances markedly affected the nucleation of lysozyme crystals, but did not influence the other proteins. The results for other proteins were disappointing because these nucleants have not turned out to be the universal nucleants we were hoping for. However, having worked so well for lysozyme, they may yet prove useful in individual cases.}
+      \field{issn}{0022-0248}
+      \field{journaltitle}{Journal of Crystal Growth}
+      \field{month}{11}
+      \field{number}{1}
+      \field{series}{Proceedings of the {Eighth} {International} {Conference} on {Crystalliza} tion of {Biological} {Macromolecules}}
+      \field{title}{Is lysozyme really the ideal model protein?}
+      \field{urlday}{17}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{232}
+      \field{year}{2001}
+      \field{urldateera}{ce}
+      \field{pages}{262\bibrangedash 264}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1016/S0022-0248(01)01203-9
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:https\://www.sciencedirect.com/science/article/pii/S0022024801012039/pdfft?download=true:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022024801012039
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022024801012039
+      \endverb
+      \keyw{A1.Biocrystallization,A1.Nucleation,A1.Surfaces,B1.Biological macromolecules,B1. Lysozyme,B1.Proteins}
+    \endentry
+    \entry{Ghosh2023}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4153e0ee0b1dc4747b0251e44fea96a2}{%
+           family={Ghosh},
+           familyi={G\bibinitperiod},
+           given={Raja},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{4153e0ee0b1dc4747b0251e44fea96a2}
+      \strng{fullhash}{4153e0ee0b1dc4747b0251e44fea96a2}
+      \strng{fullhashraw}{4153e0ee0b1dc4747b0251e44fea96a2}
+      \strng{bibnamehash}{4153e0ee0b1dc4747b0251e44fea96a2}
+      \strng{authorbibnamehash}{4153e0ee0b1dc4747b0251e44fea96a2}
+      \strng{authornamehash}{4153e0ee0b1dc4747b0251e44fea96a2}
+      \strng{authorfullhash}{4153e0ee0b1dc4747b0251e44fea96a2}
+      \strng{authorfullhashraw}{4153e0ee0b1dc4747b0251e44fea96a2}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Protein crystallization techniques are very important in drug development. This paper discusses a membrane-based micro-volume dialysis method suitable for rapid and high-throughput protein crystallization. A droplet of protein solution was deposited on the membrane surface in a micro-volume dialysis device. Crystallizing agents could be added to the protein solution either directly or through the membrane. The crystallization process could easily be monitored in real time under a microscope. Tiny specks, indicative of forming crystals, were observed as early as 30 s from the start of the experiment, and these were clearly distinguishable as tetragonal lysozyme crystals within 2 min. This method is particularly suitable for carrying out screening and optimization experiments, and for studying crystallization kinetics. The easy and direct manner in which protein and crystallizing agents are introduced into the device makes this method amenable to miniaturization and automation. Additionally, this approach would potentially allow for rapid screening of the effects of drug molecules on the crystallization process and the nature of crystal formation.}
+      \field{issn}{2227-9717}
+      \field{journaltitle}{Processes}
+      \field{month}{7}
+      \field{number}{7}
+      \field{title}{Membrane-{Based} {Micro}-{Volume} {Dialysis} {Method} for {Rapid} and {High}-{Throughput} {Protein} {Crystallization}}
+      \field{urlday}{17}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{11}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{2148}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/pr11072148
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:https\://www.mdpi.com/2227-9717/11/7/2148/pdf?version=1689744135:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2227-9717/11/7/2148
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2227-9717/11/7/2148
+      \endverb
+      \keyw{crystallization,micro-volume,high-throughput,protein,membrane}
+    \endentry
+    \entry{Iwai2008}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=9ba2c13a9d913c5d57ce7c83781bbedf}{%
+           family={Iwai},
+           familyi={I\bibinitperiod},
+           given={Wakari},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d23b69fce4e2a879bd5f6f000bcc718f}{%
+           family={Yagi},
+           familyi={Y\bibinitperiod},
+           given={Daichi},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cc2b542a67d8696c26e9e50978c55cc3}{%
+           family={Ishikawa},
+           familyi={I\bibinitperiod},
+           given={Takuya},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=341af476e382513681d97dc775de346c}{%
+           family={Ohnishi},
+           familyi={O\bibinitperiod},
+           given={Yuki},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0df6536cb2af5db5dacc9508cbb3402a}{%
+           family={Tanaka},
+           familyi={T\bibinitperiod},
+           given={Ichiro},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b0eaa63e928c51f3dac11682eb59c65e}{%
+           family={Niimura},
+           familyi={N\bibinitperiod},
+           given={Nobuo},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1d0c28386b4f85957575ed7a01aa1aea}
+      \strng{fullhash}{0f4661b19db963110ebca807a68c0442}
+      \strng{fullhashraw}{0f4661b19db963110ebca807a68c0442}
+      \strng{bibnamehash}{0f4661b19db963110ebca807a68c0442}
+      \strng{authorbibnamehash}{0f4661b19db963110ebca807a68c0442}
+      \strng{authornamehash}{1d0c28386b4f85957575ed7a01aa1aea}
+      \strng{authorfullhash}{0f4661b19db963110ebca807a68c0442}
+      \strng{authorfullhashraw}{0f4661b19db963110ebca807a68c0442}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Hen egg-white lysozyme was crystallized over a wide pH range (2.5–8.0) and the quality of the crystals was characterized. Crystallization phase diagrams at pH 2.5, 6.0 and 7.5 were determined, To observe the ionized status of the amino acid residues in proteins at different pH (protein pH titration in the crystalline state) by neutron diffraction, hen egg-white lysozyme was crystallized over a wide pH range (2.5–8.0). Crystallization phase diagrams at pH 2.5, 6.0 and 7.5 were determined. At pH {<} 4.5 the border between the metastable region and the nucleation region shifted to the left (lower precipitant concentration) in the phase diagram, and at pH {>} 4.5 the border shifted to the right (higher precipitant concentration). The qualities of these crystals were characterized using the Wilson plot method. The qualities of all crystals at different pH were more or less equivalent (B-factor values within 25–40). It is expected that neutron diffraction analysis of these crystals of different pH provides equivalent data in quality for discussions of protein pH titration in the crystalline state of hen egg-white lysozyme.}
+      \field{issn}{0909-0495}
+      \field{journaltitle}{Journal of Synchrotron Radiation}
+      \field{month}{5}
+      \field{number}{Pt 3}
+      \field{title}{Crystallization and evaluation of hen egg-white lysozyme crystals for protein {pH} titration in the crystalline state}
+      \field{urlday}{17}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{15}
+      \field{year}{2008}
+      \field{urldateera}{ce}
+      \field{pages}{312\bibrangedash 315}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1107/S0909049507059559
+      \endverb
+      \verb{urlraw}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC2394781/
+      \endverb
+      \verb{url}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC2394781/
+      \endverb
+    \endentry
+    \entry{Jin2022}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=eb04b66458fd024ddb46fcc68d33ca7b}{%
+           family={Jin},
+           familyi={J\bibinitperiod},
+           given={Chen},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3637aee274364db9c412fffc90eb55f5}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Zhuangwei},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=52d0d68213cc360b7537f9f48ae7b48e}{%
+           family={Kang},
+           familyi={K\bibinitperiod},
+           given={Chuanze},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b641e474f8d2810c60be5d61a3d24a54}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Ken},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e29e2cdbaa50d58d413b689667ace7db}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Han},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{550fa8d156cf71194e742d061d3870c1}
+      \strng{fullhash}{2cd9b4925db954c493ed6647b42f19b3}
+      \strng{fullhashraw}{2cd9b4925db954c493ed6647b42f19b3}
+      \strng{bibnamehash}{2cd9b4925db954c493ed6647b42f19b3}
+      \strng{authorbibnamehash}{2cd9b4925db954c493ed6647b42f19b3}
+      \strng{authornamehash}{550fa8d156cf71194e742d061d3870c1}
+      \strng{authorfullhash}{2cd9b4925db954c493ed6647b42f19b3}
+      \strng{authorfullhashraw}{2cd9b4925db954c493ed6647b42f19b3}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{X-ray diffraction technique is one of the most common methods of ascertaining protein structures, yet only 2–10\% of proteins can produce diffraction-quality crystals. Several computational methods have been proposed so far to predict protein crystallization. Nevertheless, the current state-of-the-art computational methods are limited by the scarcity of experimental data. Thus, the prediction accuracy of existing models hasn’t reached the ideal level. To address the problems above, we propose a novel transfer-learning-based framework for protein crystallization prediction, named TLCrys. The framework proceeds in two steps: pre-training and fine-tuning. The pre-training step adopts attention mechanism to extract both global and local information of the protein sequences. The representation learned from the pre-training step is regarded as knowledge to be transferred and fine-tuned to enhance the performance of crystalization prediction. During pre-training, TLCrys adopts a multi-task learning method, which not only improves the learning ability of protein encoding, but also enhances the robustness and generalization of protein representation. The multi-head self-attention layer guarantees that different levels of the protein representation can be extracted by the fine-tuned step. During transfer learning, the fine-tuning strategy used by TLCrys improves the task-specialized learning ability of the network. Our method outperforms all previous predictors significantly in five crystallization stages of prediction. Furthermore, the proposed methodology can be well generalized to other protein sequence classification tasks.}
+      \field{issn}{1422-0067}
+      \field{journaltitle}{International Journal of Molecular Sciences}
+      \field{month}{1}
+      \field{number}{2}
+      \field{shorttitle}{{TLCrys}}
+      \field{title}{{TLCrys}: {Transfer} {Learning} {Based} {Method} for {Protein} {Crystallization} {Prediction}}
+      \field{urlday}{7}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{23}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{972}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/ijms23020972
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8778968/
+      \endverb
+      \verb{url}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8778968/
+      \endverb
+    \endentry
+    \entry{Jumper2021}{article}{}{}
+      \name{author}{34}{}{%
+        {{un=0,uniquepart=base,hash=10a7a824028a842a17d901b4ec09993d}{%
+           family={Jumper},
+           familyi={J\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=173072a12c87679d6e0aeed7dbfb2abc}{%
+           family={Evans},
+           familyi={E\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4295e4094c426f01903ac60155866130}{%
+           family={Pritzel},
+           familyi={P\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3e0f493c1ce741283206bf1f0d3c12f5}{%
+           family={Green},
+           familyi={G\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=79e7b7b6d4522585cad02503c7d5c53c}{%
+           family={Figurnov},
+           familyi={F\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8e46da9de9e53ea5d37089897d69cdd9}{%
+           family={Ronneberger},
+           familyi={R\bibinitperiod},
+           given={Olaf},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c65f7c717e43948afa4c164334478ff0}{%
+           family={Tunyasuvunakool},
+           familyi={T\bibinitperiod},
+           given={Kathryn},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8fdcc93ec2f81694fe0e05f9515307f0}{%
+           family={Bates},
+           familyi={B\bibinitperiod},
+           given={Russ},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=314115f4f8838d7bcb17334f981615d0}{%
+           family={Žídek},
+           familyi={Ž\bibinitperiod},
+           given={Augustin},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4b3acabda3fd87e1abd111ed903b2d51}{%
+           family={Potapenko},
+           familyi={P\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9bb6bd16bbcdb2bb998f8bc4038abede}{%
+           family={Bridgland},
+           familyi={B\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=10928a06d1ffe00108ee7f051eef29a6}{%
+           family={Meyer},
+           familyi={M\bibinitperiod},
+           given={Clemens},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c8db325f01e156e511c9a87a5e890d22}{%
+           family={Kohl},
+           familyi={K\bibinitperiod},
+           given={Simon\bibnamedelimb A.\bibnamedelimi A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8e2b07cf777b4e100518006a0306d430}{%
+           family={Ballard},
+           familyi={B\bibinitperiod},
+           given={Andrew\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=699f0d8b3b8c59a0bf815183b5a587d1}{%
+           family={Cowie},
+           familyi={C\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a4ad88ba00428c727fd7a7295f097c6d}{%
+           family={Romera-Paredes},
+           familyi={R\bibinithyphendelim P\bibinitperiod},
+           given={Bernardino},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=948ac64053194ba4926e57c400b43dae}{%
+           family={Nikolov},
+           familyi={N\bibinitperiod},
+           given={Stanislav},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e44ef077603c4c2159908f44186dedfa}{%
+           family={Jain},
+           familyi={J\bibinitperiod},
+           given={Rishub},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=30e117447522ea5c589b531025c81621}{%
+           family={Adler},
+           familyi={A\bibinitperiod},
+           given={Jonas},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=329e447b0059cd0bc92227b1dd08c81e}{%
+           family={Back},
+           familyi={B\bibinitperiod},
+           given={Trevor},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4e381e44037009b1cd834d794735c311}{%
+           family={Petersen},
+           familyi={P\bibinitperiod},
+           given={Stig},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d805812e442bf9b99ef9b60be3389113}{%
+           family={Reiman},
+           familyi={R\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=19819a31d99ee8ba869ec9b7fee14613}{%
+           family={Clancy},
+           familyi={C\bibinitperiod},
+           given={Ellen},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=00bb8dcd0d7dc6963e2b9481ce8e7cdf}{%
+           family={Zielinski},
+           familyi={Z\bibinitperiod},
+           given={Michal},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c06ac6a6fdcf2ee2092d61fc58c1f21b}{%
+           family={Steinegger},
+           familyi={S\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d33020bce7d227c8dd58677580d8df0f}{%
+           family={Pacholska},
+           familyi={P\bibinitperiod},
+           given={Michalina},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=de7e7f4d56e896db85f56c06f77016a4}{%
+           family={Berghammer},
+           familyi={B\bibinitperiod},
+           given={Tamas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0c0cd2e2fbeb23bb50214e8c94c61b08}{%
+           family={Bodenstein},
+           familyi={B\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=89dbd30410c2085cd059f32c57d4593e}{%
+           family={Silver},
+           familyi={S\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=494b568c5dc85ba8f3f409635f9c5f25}{%
+           family={Vinyals},
+           familyi={V\bibinitperiod},
+           given={Oriol},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=211e54ca76df5d8c1de6957d48792545}{%
+           family={Senior},
+           familyi={S\bibinitperiod},
+           given={Andrew\bibnamedelima W.},
+           giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=481308b301166b521c74fde6566e97e6}{%
+           family={Kavukcuoglu},
+           familyi={K\bibinitperiod},
+           given={Koray},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d0d21ff02dda6c0a7d09ef7436bd329b}{%
+           family={Kohli},
+           familyi={K\bibinitperiod},
+           given={Pushmeet},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b160026950ebb1e2286dfb40c15482f5}{%
+           family={Hassabis},
+           familyi={H\bibinitperiod},
+           given={Demis},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{385b84ff9ec134408fea9aeba42f4525}
+      \strng{fullhash}{fa5dce0980388f0460da0632f0c9ade1}
+      \strng{fullhashraw}{fa5dce0980388f0460da0632f0c9ade1}
+      \strng{bibnamehash}{0dd271963a2f955ca805670608bc90a2}
+      \strng{authorbibnamehash}{0dd271963a2f955ca805670608bc90a2}
+      \strng{authornamehash}{385b84ff9ec134408fea9aeba42f4525}
+      \strng{authorfullhash}{fa5dce0980388f0460da0632f0c9ade1}
+      \strng{authorfullhashraw}{fa5dce0980388f0460da0632f0c9ade1}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1476-4687}
+      \field{journaltitle}{Nature}
+      \field{month}{7}
+      \field{number}{7873}
+      \field{title}{Highly accurate protein structure prediction with AlphaFold}
+      \field{volume}{596}
+      \field{year}{2021}
+      \field{pages}{583\bibrangedash 589}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1038/s41586-021-03819-2
+      \endverb
+    \endentry
+    \entry{Kirkwood2015}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=2bd1601a553e5af6897ba2fa685f099a}{%
+           family={Kirkwood},
+           familyi={K\bibinitperiod},
+           given={Jobie},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cad7df979369114ed55820f8a306724d}{%
+           family={Hargreaves},
+           familyi={H\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3d8dde16dfeedf8c491f87d55de9b46b}{%
+           family={O’Keefe},
+           familyi={O\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b3b4c61ec0d39f5f710e15dd3ea7a77b}{%
+           family={Wilson},
+           familyi={W\bibinitperiod},
+           given={Julie},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{026f417488616cf13416df98c8b27c0d}
+      \strng{fullhash}{8d4d09796aa0ed20ba8b99046c24e27f}
+      \strng{fullhashraw}{8d4d09796aa0ed20ba8b99046c24e27f}
+      \strng{bibnamehash}{8d4d09796aa0ed20ba8b99046c24e27f}
+      \strng{authorbibnamehash}{8d4d09796aa0ed20ba8b99046c24e27f}
+      \strng{authornamehash}{026f417488616cf13416df98c8b27c0d}
+      \strng{authorfullhash}{8d4d09796aa0ed20ba8b99046c24e27f}
+      \strng{authorfullhashraw}{8d4d09796aa0ed20ba8b99046c24e27f}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Motivation: The identification of suitable conditions for crystallization is a rate-limiting step in protein structure determination. The pH of an experiment is an important parameter and has the potential to be used in data-mining studies to help reduce the number of crystallization trials required. However, the pH is usually recorded as that of the buffer solution, which can be highly inaccurate., Results: Here, we show that a better estimate of the true pH can be predicted by considering not only the buffer pH but also any other chemicals in the crystallization solution. We use these more accurate pH values to investigate the disputed relationship between the pI of a protein and the pH at which it crystallizes., Availability and implementation: Data used to generate models are available as Supplementary Material., Contact: julie.wilson@york.ac.uk, Supplementary information: Supplementary data are available at Bioinformatics online.}
+      \field{issn}{1367-4803}
+      \field{journaltitle}{Bioinformatics}
+      \field{month}{5}
+      \field{number}{9}
+      \field{title}{Using isoelectric point to determine the {pH} for initial protein crystallization trials}
+      \field{urlday}{7}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{31}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \field{pages}{1444\bibrangedash 1451}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1093/bioinformatics/btv011
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4410668/
+      \endverb
+      \verb{url}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4410668/
+      \endverb
+    \endentry
+    \entry{Kurgan2009}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=50f361a43b3ea2f367585851e0268c9e}{%
+           family={Kurgan},
+           familyi={K\bibinitperiod},
+           given={Lukasz},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0c0472b790020ba410dcc5a961613e20}{%
+           family={Razib},
+           familyi={R\bibinitperiod},
+           given={Ali\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5635fb7f90538fb790521c2de79bdbb3}{%
+           family={Aghakhani},
+           familyi={A\bibinitperiod},
+           given={Sara},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=47cc33d1237d8ad86228524b3f49c369}{%
+           family={Dick},
+           familyi={D\bibinitperiod},
+           given={Scott},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=32ce3608b7725fbfa5626ed8b3f67eb2}{%
+           family={Mizianty},
+           familyi={M\bibinitperiod},
+           given={Marcin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e9c88bb590e7d95829f043116cf0bf24}{%
+           family={Jahandideh},
+           familyi={J\bibinitperiod},
+           given={Samad},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c4b6ae159cd27033efb08c24689c1a28}
+      \strng{fullhash}{16ff139ebaacc197cabb7a787a807d18}
+      \strng{fullhashraw}{16ff139ebaacc197cabb7a787a807d18}
+      \strng{bibnamehash}{16ff139ebaacc197cabb7a787a807d18}
+      \strng{authorbibnamehash}{16ff139ebaacc197cabb7a787a807d18}
+      \strng{authornamehash}{c4b6ae159cd27033efb08c24689c1a28}
+      \strng{authorfullhash}{16ff139ebaacc197cabb7a787a807d18}
+      \strng{authorfullhashraw}{16ff139ebaacc197cabb7a787a807d18}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Current protocols yield crystals for {<}30\% of known proteins, indicating that automatically identifying crystallizable proteins may improve high-throughput structural genomics efforts. We introduce CRYSTALP2, a kernel-based method that predicts the propensity of a given protein sequence to produce diffraction-quality crystals. This method utilizes the composition and collocation of amino acids, isoelectric point, and hydrophobicity, as estimated from the primary sequence, to generate predictions. CRYSTALP2 extends its predecessor, CRYSTALP, by enabling predictions for sequences of unrestricted size and provides improved prediction quality.}
+      \field{issn}{1472-6807}
+      \field{journaltitle}{BMC Structural Biology}
+      \field{month}{7}
+      \field{number}{1}
+      \field{shorttitle}{{CRYSTALP2}}
+      \field{title}{{CRYSTALP2}: sequence-based protein crystallization propensity prediction}
+      \field{urlday}{7}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{9}
+      \field{year}{2009}
+      \field{urldateera}{ce}
+      \field{pages}{50}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1186/1472-6807-9-50
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:Kurgan2009 - CRYSTALP2_ Sequence Based Protein Crystallization Propensity Prediction.pdf:PDF:https\://bmcstructbiol.biomedcentral.com/counter/pdf/10.1186/1472-6807-9-50
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1186/1472-6807-9-50
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1186/1472-6807-9-50
+      \endverb
+      \keyw{Protein Chain,Prediction Quality,Crystallizable Protein,Feat Dataset,High True Positive Rate}
+    \endentry
+    \entry{Lee2019}{article}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=93d672e970cfc09c4d85b7224fedb176}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Hyunim},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4699025bd98e932e7e2e36793d89d260}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Zhen\bibnamedelima Hao},
+           giveni={Z\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=08834eb7005985a5bba1a4f4a406f2cb}{%
+           family={Corbi-Verge},
+           familyi={C\bibinithyphendelim V\bibinitperiod},
+           given={Carles},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ef0cb7bfba2a1cb09dae401edd363ac3}{%
+           family={Mok},
+           familyi={M\bibinitperiod},
+           given={Mac},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=927370e501c8a3ff355f0a188fd7859e}{%
+           family={Kang},
+           familyi={K\bibinitperiod},
+           given={Sidney},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=18c204904537ec382febbb3fca499471}{%
+           family={Liao},
+           familyi={L\bibinitperiod},
+           given={Shun},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=345c57c37acad17289ea6b8a348156db}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Zhaolei},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=41edee3b089f1e326b606a5b4353f20b}{%
+           family={Garton},
+           familyi={G\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0c2b22a0a46037901cbe61c1aca94537}
+      \strng{fullhash}{3d04685facaad2a5608bb859ad2d97eb}
+      \strng{fullhashraw}{3d04685facaad2a5608bb859ad2d97eb}
+      \strng{bibnamehash}{3d04685facaad2a5608bb859ad2d97eb}
+      \strng{authorbibnamehash}{3d04685facaad2a5608bb859ad2d97eb}
+      \strng{authornamehash}{0c2b22a0a46037901cbe61c1aca94537}
+      \strng{authorfullhash}{3d04685facaad2a5608bb859ad2d97eb}
+      \strng{authorfullhashraw}{3d04685facaad2a5608bb859ad2d97eb}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advances in Neural Information Processing Systems}
+      \field{note}{Accessed: 2025-07-31}
+      \field{title}{De novo Crystallization Condition Prediction with Deep Learning}
+      \field{volume}{32}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://mlcb.github.io/mlcb2019_proceedings/papers/paper_3.pdf
+      \endverb
+      \verb{url}
+      \verb https://mlcb.github.io/mlcb2019_proceedings/papers/paper_3.pdf
+      \endverb
+    \endentry
+    \entry{Liao2025}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=bfb72b99f82ffb0b05f9f41683356f56}{%
+           family={Liao},
+           familyi={L\bibinitperiod},
+           given={Kuan‐Ju},
+           giveni={K\bibinithyphendelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6085c5ad916dea225cd8ecee2b994811}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Yuh‐Ju},
+           giveni={Y\bibinithyphendelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{abe614a142207bda24ff501e6e93f811}
+      \strng{fullhash}{abe614a142207bda24ff501e6e93f811}
+      \strng{fullhashraw}{abe614a142207bda24ff501e6e93f811}
+      \strng{bibnamehash}{abe614a142207bda24ff501e6e93f811}
+      \strng{authorbibnamehash}{abe614a142207bda24ff501e6e93f811}
+      \strng{authornamehash}{abe614a142207bda24ff501e6e93f811}
+      \strng{authorfullhash}{abe614a142207bda24ff501e6e93f811}
+      \strng{authorfullhashraw}{abe614a142207bda24ff501e6e93f811}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Protein crystallization remains a major bottleneck in X‐ray crystallography due to difficulties in achieving favorable molecular arrangements within the crystal lattice. While protein–protein interactions at molecular packing interfaces are crucial for determining crystallization conditions, methods for predicting crystal packing interfaces and systematically exploring crystallization conditions remain limited. In this study, we present MASCL (Molecular Assembly Simulation in Crystal Lattice), a novel approach that integrates AlphaFold with symmetrical docking to simulate crystal packing. To evaluate packing quality, we introduced PackQ, a stringent metric based on the DockQ framework, where models with scores above 0.36 are considered successful. In benchmark tests on P41212 and P43212 space groups, MASCL successfully predicted packing interfaces for 26.8\% and 30.1\% of targets within the top 100 models. When focusing on models with successfully predicted initial crystallographic dimeric assemblies (DockQ ≥ 0.23), success rates improved to 57.9\% and 39.8\% within the top 25 models, respectively. Additionally, we developed AAI‐PatchBag, a patch‐based method using physicochemical descriptors to assess molecular interface similarity. Compared to conventional condition‐searching strategies like sequence alignment, structure superposition, and shape comparison, AAI‐PatchBag reduced the number of trials required to identify potential crystallization conditions. Applied to lysozyme crystallization, AAI‐PatchBag efficiently identified conditions yielding crystals with the desired packing. Overall, MASCL and AAI‐PatchBag advance the prediction of protein–protein interactions within the crystal lattice and facilitate the identification of potential crystallization conditions through molecular packing interface similarity, contributing to a deeper understanding of protein crystallization.}
+      \field{issn}{0887-3585}
+      \field{journaltitle}{Proteins}
+      \field{month}{10}
+      \field{number}{10}
+      \field{title}{Using {AlphaFold} and {Symmetrical} {Docking} to {Predict} {Protein}–{Protein} {Interactions} for {Exploring} {Potential} {Crystallization} {Conditions}}
+      \field{urlday}{11}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{93}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \field{pages}{1747\bibrangedash 1766}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1002/prot.26844
+      \endverb
+      \verb{urlraw}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC12433261/
+      \endverb
+      \verb{url}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC12433261/
+      \endverb
+    \endentry
+    \entry{Mall2025}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=0cf1009934f60f90764eaefa90f10686}{%
+           family={Mall},
+           familyi={M\bibinitperiod},
+           given={Raghvendra},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bb16035b1e837bf568287a5a81fa4ace}{%
+           family={Kaushik},
+           familyi={K\bibinitperiod},
+           given={Rahul},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e3cfe1be34ca9589747a6190fd34da8a}{%
+           family={Martinez},
+           familyi={M\bibinitperiod},
+           given={Zachary\bibnamedelima A.},
+           giveni={Z\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5ffc469d4f5f46d4c64f470a4d69271a}{%
+           family={Thomson},
+           familyi={T\bibinitperiod},
+           given={Matt\bibnamedelima W.},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=89ee659d4c7f153d3a42a70b3ee05ea5}{%
+           family={Castiglione},
+           familyi={C\bibinitperiod},
+           given={Filippo},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{777a1f4d272f955b918ec46cf230c299}
+      \strng{fullhash}{2052cf20d8658dc822a834e8c6b394b4}
+      \strng{fullhashraw}{2052cf20d8658dc822a834e8c6b394b4}
+      \strng{bibnamehash}{2052cf20d8658dc822a834e8c6b394b4}
+      \strng{authorbibnamehash}{2052cf20d8658dc822a834e8c6b394b4}
+      \strng{authornamehash}{777a1f4d272f955b918ec46cf230c299}
+      \strng{authorfullhash}{2052cf20d8658dc822a834e8c6b394b4}
+      \strng{authorfullhashraw}{2052cf20d8658dc822a834e8c6b394b4}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The problem of protein structure determination is usually solved by X-ray crystallography. Several in silico deep learning methods have been developed to overcome the high attrition rate, cost of experiments and extensive trial-and-error settings, for predicting the crystallization propensities of proteins based on their sequences. In this work, we benchmark the power of open protein language models (PLMs) through the TRILL platform, a be-spoke framework democratizing the usage of PLMs for the task of predicting crystallization propensities of proteins. By comparing LightGBM / XGBoost classifiers built on the average embedding representations of proteins learned by different PLMs, such as ESM2, Ankh, ProtT5-XL, ProstT5, xTrimoPGLM, SaProt with the performance of state-of-the-art sequence-based methods like DeepCrystal, ATTCrys and CLPred, we identify the most effective methods for predicting crystallization outcomes. The LightGBM classifiers utilizing embeddings from ESM2 model with 30 and 36 transformer layers and 150 and 3000 million parameters respectively have performance gains by 3-\$\$5{\textbackslash}\%\$\$than all compared models for various evaluation metrics, including AUPR (Area Under Precision-Recall Curve), AUC (Area Under the Receiver Operating Characteristic Curve), and F1 on independent test sets. Furthermore, we fine-tune the ProtGPT2 model available via TRILL to generate crystallizable proteins. Starting with 3000 generated proteins and through a step of filtration processes including consensus of all open PLM-based classifiers, sequence identity through CD-HIT, secondary structure compatibility, aggregation screening, homology search and foldability evaluation, we identified a set of 5 novel proteins as potentially crystallizable.}
+      \field{issn}{2045-2322}
+      \field{journaltitle}{Scientific Reports}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Benchmarking protein language models for protein crystallization}
+      \field{urlday}{31}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{volume}{15}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \field{pages}{2381}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/s41598-025-86519-5
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:Mall2025 - Benchmarking Protein Language Models for Protein Crystallization.pdf:PDF:https\://www.nature.com/articles/s41598-025-86519-5.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41598-025-86519-5
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41598-025-86519-5
+      \endverb
+      \keyw{Computer science,Mathematics and computing,X-ray crystallography}
+    \endentry
+    \entry{Matinyan2024}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=efa6cedff662c4222c734bb3d0e99463}{%
+           family={Matinyan},
+           familyi={M\bibinitperiod},
+           given={Senik},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ab10f44ce912571f64c7553208bf0396}{%
+           family={Filipcik},
+           familyi={F\bibinitperiod},
+           given={Pavel},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bac5345323b35920b4215dbf729f4373}{%
+           family={Abrahams},
+           familyi={A\bibinitperiod},
+           given={Jan\bibnamedelima Pieter},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d85661e9ab59213b6ffe8b11ec2678af}
+      \strng{fullhash}{90350e5235e36f3f614859d360ff53ea}
+      \strng{fullhashraw}{90350e5235e36f3f614859d360ff53ea}
+      \strng{bibnamehash}{90350e5235e36f3f614859d360ff53ea}
+      \strng{authorbibnamehash}{90350e5235e36f3f614859d360ff53ea}
+      \strng{authornamehash}{d85661e9ab59213b6ffe8b11ec2678af}
+      \strng{authorfullhash}{90350e5235e36f3f614859d360ff53ea}
+      \strng{authorfullhashraw}{90350e5235e36f3f614859d360ff53ea}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Deep learning applications are increasingly dominating many areas of science. This paper reviews their relevance for and impact on protein crystallography., Deep learning techniques can recognize complex patterns in noisy, multidimensional data. In recent years, researchers have started to explore the potential of deep learning in the field of structural biology, including protein crystallography. This field has some significant challenges, in particular producing high-quality and well ordered protein crystals. Additionally, collecting diffraction data with high completeness and quality, and determining and refining protein structures can be problematic. Protein crystallographic data are often high-dimensional, noisy and incomplete. Deep learning algorithms can extract relevant features from these data and learn to recognize patterns, which can improve the success rate of crystallization and the quality of crystal structures. This paper reviews progress in this field.}
+      \field{issn}{2053-2733}
+      \field{journaltitle}{Acta Crystallographica. Section A, Foundations and Advances}
+      \field{month}{1}
+      \field{number}{Pt 1}
+      \field{title}{Deep learning applications in protein crystallography}
+      \field{urlday}{31}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{volume}{80}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 17}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1107/S2053273323009300
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10833361/
+      \endverb
+      \verb{url}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10833361/
+      \endverb
+    \endentry
+    \entry{McPherson2013}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=9b9120d5290b88c1b6c661df7216de90}{%
+           family={McPherson},
+           familyi={M\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c166e92a759eed0b1233927d875b8b22}{%
+           family={Gavira},
+           familyi={G\bibinitperiod},
+           given={Jose\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a94a1cacb04e439d5690107fb0a331d3}
+      \strng{fullhash}{a94a1cacb04e439d5690107fb0a331d3}
+      \strng{fullhashraw}{a94a1cacb04e439d5690107fb0a331d3}
+      \strng{bibnamehash}{a94a1cacb04e439d5690107fb0a331d3}
+      \strng{authorbibnamehash}{a94a1cacb04e439d5690107fb0a331d3}
+      \strng{authornamehash}{a94a1cacb04e439d5690107fb0a331d3}
+      \strng{authorfullhash}{a94a1cacb04e439d5690107fb0a331d3}
+      \strng{authorfullhashraw}{a94a1cacb04e439d5690107fb0a331d3}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The gateway to X-ray crystallography is the growth of macromolecular crystals. An attempt is made here to acquaint investigators with the principles and practice of protein crystallization, some recent innovations, and to touch upon some of the remaining problems., Protein crystallization was discovered by chance about 150 years ago and was developed in the late 19th century as a powerful purification tool and as a demonstration of chemical purity. The crystallization of proteins, nucleic acids and large biological complexes, such as viruses, depends on the creation of a solution that is supersaturated in the macromolecule but exhibits conditions that do not significantly perturb its natural state. Supersaturation is produced through the addition of mild precipitating agents such as neutral salts or polymers, and by the manipulation of various parameters that include temperature, ionic strength and pH. Also important in the crystallization process are factors that can affect the structural state of the macromolecule, such as metal ions, inhibitors, cofactors or other conventional small molecules. A variety of approaches have been developed that combine the spectrum of factors that effect and promote crystallization, and among the most widely used are vapor diffusion, dialysis, batch and liquid–liquid diffusion. Successes in macromolecular crystallization have multiplied rapidly in recent years owing to the advent of practical, easy-to-use screening kits and the application of laboratory robotics. A brief review will be given here of the most popular methods, some guiding principles and an overview of current technologies.}
+      \field{issn}{2053-230X}
+      \field{journaltitle}{Acta Crystallographica. Section F, Structural Biology Communications}
+      \field{month}{12}
+      \field{number}{Pt 1}
+      \field{title}{Introduction to protein crystallization}
+      \field{urlday}{7}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{70}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \field{pages}{2\bibrangedash 20}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1107/S2053230X13033141
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3943105/
+      \endverb
+      \verb{url}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3943105/
+      \endverb
+    \endentry
+    \entry{Mizianty2011}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=0044d0878240de73da05b7b708cbb01a}{%
+           family={Mizianty},
+           familyi={M\bibinitperiod},
+           given={Marcin\bibnamedelima J},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=50f361a43b3ea2f367585851e0268c9e}{%
+           family={Kurgan},
+           familyi={K\bibinitperiod},
+           given={Lukasz},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{6f6a67c83ba71ad99bbfc3d19fb904e5}
+      \strng{fullhash}{6f6a67c83ba71ad99bbfc3d19fb904e5}
+      \strng{fullhashraw}{6f6a67c83ba71ad99bbfc3d19fb904e5}
+      \strng{bibnamehash}{6f6a67c83ba71ad99bbfc3d19fb904e5}
+      \strng{authorbibnamehash}{6f6a67c83ba71ad99bbfc3d19fb904e5}
+      \strng{authornamehash}{6f6a67c83ba71ad99bbfc3d19fb904e5}
+      \strng{authorfullhash}{6f6a67c83ba71ad99bbfc3d19fb904e5}
+      \strng{authorfullhashraw}{6f6a67c83ba71ad99bbfc3d19fb904e5}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bioinformatics}
+      \field{number}{13}
+      \field{title}{Sequence-based prediction of protein crystallization, purification and production propensity}
+      \field{volume}{27}
+      \field{year}{2011}
+      \field{pages}{i24\bibrangedash i33}
+      \range{pages}{-1}
+    \endentry
+    \entry{Terwilliger2024}{article}{}{}
+      \name{author}{11}{}{%
+        {{un=0,uniquepart=base,hash=4446e1f3e24795e7ea7b1adf8afa5be2}{%
+           family={Terwilliger},
+           familyi={T\bibinitperiod},
+           given={Thomas\bibnamedelima C.},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d6b947abe33457c2674deae178306ff7}{%
+           family={Liebschner},
+           familyi={L\bibinitperiod},
+           given={Dorothee},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=280d2dff9f4c5547b2510e9f58502dee}{%
+           family={Croll},
+           familyi={C\bibinitperiod},
+           given={Tristan\bibnamedelima I.},
+           giveni={T\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5a153a238431af60cd372d2970c5f682}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={Christopher\bibnamedelima J.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7124c2070eae7cfd3e80342249c3dfa0}{%
+           family={McCoy},
+           familyi={M\bibinitperiod},
+           given={Airlie\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=703dbb21a0a6de0ae4c1bf8918915253}{%
+           family={Poon},
+           familyi={P\bibinitperiod},
+           given={Billy\bibnamedelima K.},
+           giveni={B\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=18ca4d6442fd52bc812ff955327a4078}{%
+           family={Afonine},
+           familyi={A\bibinitperiod},
+           given={Pavel\bibnamedelima V.},
+           giveni={P\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7a3fe6cc17c452406dbc4b98d39e6070}{%
+           family={Oeffner},
+           familyi={O\bibinitperiod},
+           given={Robert\bibnamedelima D.},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c174c2493eddcc4ef2bb253138b701b9}{%
+           family={Richardson},
+           familyi={R\bibinitperiod},
+           given={Jane\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1e06b0da6cd7c28b3a8acf6b5d211e67}{%
+           family={Read},
+           familyi={R\bibinitperiod},
+           given={Randy\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=13262ec3bc77eb0e53c7ed069c3e500a}{%
+           family={Adams},
+           familyi={A\bibinitperiod},
+           given={Paul\bibnamedelima D.},
+           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{8616f713837e076d51451b518a60acf6}
+      \strng{fullhash}{831b4e61b4b5ab5ef96bb517456de051}
+      \strng{fullhashraw}{831b4e61b4b5ab5ef96bb517456de051}
+      \strng{bibnamehash}{831b4e61b4b5ab5ef96bb517456de051}
+      \strng{authorbibnamehash}{831b4e61b4b5ab5ef96bb517456de051}
+      \strng{authornamehash}{8616f713837e076d51451b518a60acf6}
+      \strng{authorfullhash}{831b4e61b4b5ab5ef96bb517456de051}
+      \strng{authorfullhashraw}{831b4e61b4b5ab5ef96bb517456de051}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Artificial intelligence-based protein structure prediction methods such as AlphaFold have revolutionized structural biology. The accuracies of these predictions vary, however, and they do not take into account ligands, covalent modifications or other environmental factors. Here, we evaluate how well AlphaFold predictions can be expected to describe the structure of a protein by comparing predictions directly with experimental crystallographic maps. In many cases, AlphaFold predictions matched experimental maps remarkably closely. In other cases, even very high-confidence predictions differed from experimental maps on a global scale through distortion and domain orientation, and on a local scale in backbone and side-chain conformation. We suggest considering AlphaFold predictions as exceptionally useful hypotheses. We further suggest that it is important to consider the confidence in prediction when interpreting AlphaFold predictions and to carry out experimental structure determination to verify structural details, particularly those that involve interactions not included in the prediction.}
+      \field{issn}{1548-7105}
+      \field{journaltitle}{Nature Methods}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{{AlphaFold} predictions are valuable hypotheses and accelerate but do not replace experimental structure determination}
+      \field{urlday}{17}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{21}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{110\bibrangedash 116}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1038/s41592-023-02087-4
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:Terwilliger2024 - AlphaFold Predictions Are Valuable Hypotheses and Accelerate but Do Not Replace Experimental Structure Determination.pdf:PDF:https\://www.nature.com/articles/s41592-023-02087-4.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41592-023-02087-4
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41592-023-02087-4
+      \endverb
+      \keyw{Protein analysis,Protein structure predictions,X-ray crystallography}
+    \endentry
+    \entry{Wilson2014}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=80d4d72427847aa1bef71b0276b88f4f}{%
+           family={Wilson},
+           familyi={W\bibinitperiod},
+           given={W.\bibnamedelimi W.},
+           giveni={W\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=50b0d5eee75d924098e306f5f572ea7b}{%
+           family={DeLucas},
+           familyi={D\bibinitperiod},
+           given={L.\bibnamedelimi J.},
+           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {International Union of Crystallography}%
+      }
+      \strng{namehash}{e13b5591cc6212a3cc66b02763005c81}
+      \strng{fullhash}{e13b5591cc6212a3cc66b02763005c81}
+      \strng{fullhashraw}{e13b5591cc6212a3cc66b02763005c81}
+      \strng{bibnamehash}{e13b5591cc6212a3cc66b02763005c81}
+      \strng{authorbibnamehash}{e13b5591cc6212a3cc66b02763005c81}
+      \strng{authornamehash}{e13b5591cc6212a3cc66b02763005c81}
+      \strng{authorfullhash}{e13b5591cc6212a3cc66b02763005c81}
+      \strng{authorfullhashraw}{e13b5591cc6212a3cc66b02763005c81}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This article begins by highlighting some of the ground-based studies emanating from NASA's Microgravity Protein Crystal Growth (PCG) program. This is followed by a more detailed discussion of the history of and the progress made in one of the NASA-funded PCG investigations involving the use of measured second virial coefficients (B values) as a diagnostic indicator of solution conditions conducive to protein crystallization. A second application of measured B values involves the determination of solution conditions that improve or maximize the solubility of aqueous and membrane proteins. These two important applications have led to several technological improvements that simplify the experimental expertise required, enable the measurement of membrane proteins and improve the diagnostic capability and measurement throughput.}
+      \field{issn}{2053-230X}
+      \field{journaltitle}{Acta Crystallographica Section F: Structural Biology Communications}
+      \field{month}{5}
+      \field{number}{5}
+      \field{shorttitle}{Applications of the second virial coefficient}
+      \field{title}{Applications of the second virial coefficient: protein crystallization and solubility}
+      \field{urlday}{7}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{70}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \field{pages}{543\bibrangedash 554}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1107/S2053230X1400867X
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:Wilson2014 - Applications of the Second Virial Coefficient_ Protein Crystallization and Solubility.pdf:PDF:https\://journals.iucr.org/f/issues/2014/05/00/en5549/en5549.pdf
+      \endverb
+      \verb{urlraw}
+      \verb //journals.iucr.org/paper?en5549
+      \endverb
+      \verb{url}
+      \verb //journals.iucr.org/paper?en5549
+      \endverb
+    \endentry
+    \entry{Zhang2022}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=15b030e46f664e752b052e814606b070}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Xianfang},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=01c9530bc9b6ebbc2d00deab357ce5d4}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Zhengtao},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7d4b3709c5ff61554e7410fd8bffc5b6}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Jiahai},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=667524c9313e15b2365eaa7bd0b00e77}{%
+           family={Xing},
+           familyi={X\bibinitperiod},
+           given={Xiwen},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f079c7fdb806f44f64a6a4cb1b4d3197}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Long},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{4f6e8f35009c84e8a9760cf59f2f265b}
+      \strng{fullhash}{2b4cf0dad8f6f7abfad242273c11636d}
+      \strng{fullhashraw}{2b4cf0dad8f6f7abfad242273c11636d}
+      \strng{bibnamehash}{2b4cf0dad8f6f7abfad242273c11636d}
+      \strng{authorbibnamehash}{2b4cf0dad8f6f7abfad242273c11636d}
+      \strng{authornamehash}{4f6e8f35009c84e8a9760cf59f2f265b}
+      \strng{authorfullhash}{2b4cf0dad8f6f7abfad242273c11636d}
+      \strng{authorfullhashraw}{2b4cf0dad8f6f7abfad242273c11636d}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Protein crystallization plays a fundamental role in structural biology and chemistry, drug discovery, and crystallography itself. Determining how to improve the crystal growth is necessary and vital during the whole process. According to the recently published data, crystallizing proteins on nanoporous surfaces (i.e., metal–organic framework, abbreviated as MOF) is faster and demands less protein. However, dispersing micro-sized MOF materials uniformly is still a challenge and limiting process in protein crystallization. Here, we investigate the uniformity of micro-sized MOF under the treatment of the high-pressure homogenizer. At various pressures, the MOF is split into particles of different sizes, including the uniform and stable nano-sized MOF. Crystallization experiments demonstrated its enhancement in protein crystallization, and the number of crystals is significantly increased in the presence of nano-sized MOF. This work explores the use of nano-sized MOF solids to crystallize proteins of limited availability (i.e., insufficient for conventional methods) or of a hard-to-crystallize nature.}
+      \field{issn}{2073-4352}
+      \field{journaltitle}{Crystals}
+      \field{month}{5}
+      \field{number}{5}
+      \field{title}{Enhancement of {Protein} {Crystallization} {Using} {Nano}-{Sized} {Metal}–{Organic} {Framework}}
+      \field{urlday}{31}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{volume}{12}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{578}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/cryst12050578
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:https\://www.mdpi.com/2073-4352/12/5/578/pdf?version=1650519344:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2073-4352/12/5/578
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2073-4352/12/5/578
+      \endverb
+      \keyw{lysozyme crystallization,metal-organic frameworks,nanoporous,HKUST-1}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

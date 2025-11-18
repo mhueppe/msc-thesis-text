@@ -1,0 +1,71 @@
+
+\begin{forest}
+	% global defaults
+	for tree={
+		font=\scriptsize,
+		grow'=0,
+		child anchor=west,
+		parent anchor=east,
+		anchor=west,
+		align=left,
+		l sep=15pt,
+		s sep=4pt,
+		draw,
+		rounded corners,
+		inner sep=2pt,
+		if level=0{fill=uhhred!50}{},
+		if level=1{fill=ukeblue!30}{},
+		if level=2{fill=ukeblue!50}{},
+		if level=3{fill=ukeblue!80}{},
+		if level=4{fill=ukeblue!90}{},
+		edge={thick, -{Latex[length=2mm]}},
+	},
+	[\textbf{protein.cif} \\
+	\texttt{\underline{entry\_id}} \\
+	\texttt{citation  }\\
+	\texttt{software }\\
+	\texttt{cell }\\
+	\texttt{symmetry }\\
+	\texttt{entity\_src\_gen }\\
+	\texttt{exptl\_crystal}\\
+	\texttt{exptl\_crystal\_grow }\\ 
+	\texttt{atom\_sites}\\
+	\texttt{entitiy\_poly}\\
+	...
+	[citation
+	[\begin{tabular}{llllrl}
+		entry\_id& title & year & journal & volume & ... \\
+		\midrule
+		3P4V & 'Natural Product-Based ...' & 2011 & J.Med.Chem. & 54 & ... \\		
+	\end{tabular}]
+	]
+	[symmetry
+	[\begin{tabular}{llrl}
+		entry\_id & space\_group\_name\_H-M &  Int\_Tables\_number & ... \\
+		\midrule
+		3P4V & 'P 1 21 1' & 4  & ...\\
+	\end{tabular}]]
+	[exptl\_crystal
+	[\begin{tabular}{lrrl}
+		entry\_id & density\_Matthews & density\_percent\_sol & ... \\
+		\midrule
+		3P4V  & 2.09 & 41.09 & ... \\
+	\end{tabular}]
+	]
+	[entitiy\_poly [\begin{tabular}{lllll}
+		entry\_id & type & pdbx\_seq\_one\_letter\_code\_can & pdbx\_strand\_id & ... \\
+		\midrule
+		3P4V & 'polypeptide(L)' & MSHHWGYGKHNG... & A & ...\\
+	\end{tabular}]
+	]
+	[exptl\_crystal\_grow
+	[\begin{tabular}{llllll}
+		entry\_id & method & temp & pH & details & ...  \\
+		\midrule
+		3P4V & VAPOR DIFFSUSION & 289 & 9.5 & 3.2M (NH4)2SO4 ... & ... \\
+	\end{tabular}]
+	]
+	[...]
+	]
+\end{forest}		
+	
