@@ -1,0 +1,126 @@
+\section{Data Analysis}\label{sec:data_analysis}
+
+\subsection{Univariate Analysis}\label{sec:data_analysis/univariate_analysis}
+Histograms, distributions, summary statistics
+
+\subsubsection{Input}
+\begin{figure}[h!]
+	\centering
+	
+	\begin{subfigure}{0.32\linewidth}
+		\centering
+		\includegraphics[width=\linewidth]{../msc-thesis-code/data/dataExploration/plots/sequenceLength}
+
+		\label{fig:seqLength}
+	\end{subfigure}
+	\begin{subfigure}{0.32\linewidth}
+		\centering
+		\includegraphics[width=\linewidth]{../msc-thesis-code/data/dataExploration/plots/atomCount}
+
+		\label{fig:atomCounts}
+	\end{subfigure}
+	\begin{subfigure}{0.32\linewidth}
+		\centering
+		\includegraphics[width=\linewidth]{../msc-thesis-code/data/dataExploration/plots/atomCountVsSequenceLength}
+
+		\label{fig:atomCountsVsSeqLength}
+	\end{subfigure}
+	\caption{Distribution of Sequence Length and Deposited Atom Count. The Relation between the two is mostly linear, however some groups of Atoms have missing or added atoms}
+	\label{fig:dataStats}
+\end{figure}
+
+
+\begin{figure}[h!]
+	\centering		
+	\begin{subfigure}{0.495\linewidth}
+		\centering
+		\includegraphics[width=\linewidth]{../msc-thesis-code/data/dataExploration/plots/aminoAcidOccurence}
+		\label{fig:aminoAcidOccurence}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.495\linewidth}
+		\centering
+		\includegraphics[width=\linewidth]{../msc-thesis-code/data/dataExploration/plots/observedVsPredictedAminoAcidCount}
+		\label{fig:observedVsPredictedAminoAcidCount}
+	\end{subfigure}
+	\caption{Sequence Length and Atom Counts}
+	\label{fig:aminoAcidCounts}
+\end{figure}
+
+
+\begin{figure}[h!]
+	\centering		
+	\begin{subfigure}[b]{0.495\linewidth}
+		\centering
+		\includegraphics[width=\linewidth]{../msc-thesis-code/data/dataExploration/plots/gravyHist}
+
+		\label{fig:gravyHist}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.495\linewidth}
+		\centering
+		\includegraphics[width=\linewidth]{../msc-thesis-code/data/dataExploration/plots/aromHist}
+
+		\label{fig:aromaticity}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.495\linewidth}
+		\centering
+		\includegraphics[width=\linewidth]{../msc-thesis-code/data/dataExploration/plots/pIHist}
+
+		\label{fig:pIHist}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.495\linewidth}
+		\centering
+		\includegraphics[width=\linewidth]{../msc-thesis-code/data/dataExploration/plots/mwHist}
+
+		\label{fig:mwHist}
+	\end{subfigure}
+	\caption{Derived Sequence Features}
+	\label{fig:sequenceInformation}
+\end{figure}
+
+\begin{figure}[h!]
+	\centering		
+	\begin{subfigure}[h]{0.495\linewidth}
+		\centering
+		\includegraphics[width=\linewidth]{../msc-thesis-code/data/dataExploration/plots/distribution_apolar_vs_polar}
+		\caption{Apolar vs. Polar}
+		\label{fig:apolarVsPolar}
+	\end{subfigure}
+	\begin{subfigure}[h]{0.495\linewidth}
+		\centering
+		\includegraphics[width=\linewidth]{../msc-thesis-code/data/dataExploration/plots/distribution_surface_information}
+		\caption{Surface Distribution}
+		\label{fig:surfaceDistribution}
+	\end{subfigure}
+	\caption{Derived Surface Features}
+	\label{fig:derivedSurfaceFeatures}
+\end{figure}
+
+
+\subsubsection{Label}
+After parsing it can be seen that the descriptions that do not contain any information about the chemical cocktail is \roughly 3.5 \%. They are very similar to entry 3PCA in that they only define the pH or temperature. 
+\begin{figure}[h!]
+	\centering		
+	\begin{subfigure}[b]{0.495\linewidth}
+		\centering
+		\includegraphics[width=\linewidth]{../msc-thesis-code/data/dataExploration/plots/temperatureDistribution}
+		\caption{Temperature Distribution}
+		\label{fig:temperatureDistrbution}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.495\linewidth}
+		\centering
+		\includegraphics[width=\linewidth]{../msc-thesis-code/data/dataExploration/plots/phDistribution}
+		\caption{PH Distribution}
+		\label{fig:pHDistribution}
+	\end{subfigure}
+	\label{fig:temperatureAndPh}
+\end{figure}
+
+
+\subsection{Multivariate Analysis}\label{sec:data_analysis/multivariate_analysis}
+Feature-feature relationships, correlation matrices, scatter plots
+
+\subsection{Outlier and Anomaly Detection}\label{sec:data_analysis/outlier_and_anomaly_detection}
+Identifying unusual values or patterns
+
+
+

@@ -865,6 +865,71 @@
       \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC12433261/
       \endverb
     \endentry
+    \entry{Lynch2020}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=976ef71304992aab61047af0d54ccabf}{%
+           family={Lynch},
+           familyi={L\bibinitperiod},
+           given={Miranda\bibnamedelima L.},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0c5cd65bb2e0f65539d6d747aff4b1a6}{%
+           family={Dudek},
+           familyi={D\bibinitperiod},
+           given={Max\bibnamedelima F.},
+           giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7e28f6c2c9d78b7f493a0fc343330d26}{%
+           family={Bowman},
+           familyi={B\bibinitperiod},
+           given={Sarah\bibnamedelimb E.\bibnamedelimi J.},
+           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{90d0e6b3c13cf64983365b6303c91dd8}
+      \strng{fullhash}{5cabc3167e5fa6f1028d25ad76e62d60}
+      \strng{fullhashraw}{5cabc3167e5fa6f1028d25ad76e62d60}
+      \strng{bibnamehash}{5cabc3167e5fa6f1028d25ad76e62d60}
+      \strng{authorbibnamehash}{5cabc3167e5fa6f1028d25ad76e62d60}
+      \strng{authornamehash}{90d0e6b3c13cf64983365b6303c91dd8}
+      \strng{authorfullhash}{5cabc3167e5fa6f1028d25ad76e62d60}
+      \strng{authorfullhashraw}{5cabc3167e5fa6f1028d25ad76e62d60}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Nearly 90\% of structural models in the Protein Data Bank (PDB), the central resource worldwide for three-dimensional structural information, are currently derived from macromolecular crystallography (MX). A major bottleneck in determining MX structures is finding conditions in which a biomolecule will crystallize. Here, we present a searchable database of the chemicals associated with successful crystallization experiments from the PDB. We use these data to examine the relationship between protein secondary structure and average molecular weight of polyethylene glycol and to investigate patterns in crystallization conditions. Our analyses reveal striking patterns of both redundancy of chemical compositions in crystallization experiments and extreme sparsity of specific chemical combinations, underscoring the challenges faced in generating predictive models for de novo optimal crystallization experiments.}
+      \field{issn}{2666-3899}
+      \field{journaltitle}{Patterns}
+      \field{month}{7}
+      \field{number}{4}
+      \field{shorttitle}{A {Searchable} {Database} of {Crystallization} {Cocktails} in the {PDB}}
+      \field{title}{A {Searchable} {Database} of {Crystallization} {Cocktails} in the {PDB}: {Analyzing} the {Chemical} {Condition} {Space}}
+      \field{urlday}{6}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{1}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \field{pages}{100024}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.patter.2020.100024
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:https\://www.sciencedirect.com/science/article/pii/S2666389920300246/pdfft?download=true:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S2666389920300246
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S2666389920300246
+      \endverb
+      \keyw{structural biology,macromolecular crystallography,protein crystallization,crystallization conditions,crystallization information,PDB}
+    \endentry
     \entry{Mall2025}{article}{}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=0cf1009934f60f90764eaefa90f10686}{%
@@ -1101,6 +1166,60 @@
       \field{year}{2011}
       \field{pages}{i24\bibrangedash i33}
       \range{pages}{-1}
+    \endentry
+    \entry{Peat2005}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=cb1db13855c7cf4c42a6f7fbb2dae9fd}{%
+           family={Peat},
+           familyi={P\bibinitperiod},
+           given={Thomas\bibnamedelima S.},
+           giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=71e6281925c88e4c1affcb5e6b70ca77}{%
+           family={Christopher},
+           familyi={C\bibinitperiod},
+           given={Jon\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bde45bf5ec10ea0c63441a4d107c1074}{%
+           family={Newman},
+           familyi={N\bibinitperiod},
+           given={Janet},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \strng{namehash}{5f3ff08f60730983807f868528b8926b}
+      \strng{fullhash}{e6d686e10791016bc8b70cfb2ba68d25}
+      \strng{fullhashraw}{e6d686e10791016bc8b70cfb2ba68d25}
+      \strng{bibnamehash}{e6d686e10791016bc8b70cfb2ba68d25}
+      \strng{authorbibnamehash}{e6d686e10791016bc8b70cfb2ba68d25}
+      \strng{authornamehash}{5f3ff08f60730983807f868528b8926b}
+      \strng{authorfullhash}{e6d686e10791016bc8b70cfb2ba68d25}
+      \strng{authorfullhashraw}{e6d686e10791016bc8b70cfb2ba68d25}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A database application has been developed for the collection of crystallographic information. This database (the BDP) has been populated with the information found in the Protein Data Bank (PDB). The tool has been used to store crystallization data parsed out of the PDB and these data may be used to extend the crystallization information found in the Biological Macromolecule Crystallization Database (BMCD) and could be used to refine crystallization methodology. A standard is proposed for describing a crystallization experiment that will ease future crystallization data collations and analyses.}
+      \field{issn}{0907-4449}
+      \field{journaltitle}{Acta Crystallographica. Section D, Biological Crystallography}
+      \field{month}{12}
+      \field{number}{Pt 12}
+      \field{title}{Tapping the {Protein} {Data} {Bank} for crystallization information}
+      \field{volume}{61}
+      \field{year}{2005}
+      \field{pages}{1662\bibrangedash 1669}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1107/S0907444905033202
+      \endverb
+      \keyw{Ammonium Sulfate,Crystallization,Crystallography,X-Ray,Database Management Systems,Databases,Factual,Databases,Protein,Polyethylene Glycols,Terminology as Topic}
     \endentry
     \entry{Terwilliger2024}{article}{}{}
       \name{author}{11}{}{%
@@ -2214,6 +2333,71 @@
       \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC12433261/
       \endverb
     \endentry
+    \entry{Lynch2020}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=976ef71304992aab61047af0d54ccabf}{%
+           family={Lynch},
+           familyi={L\bibinitperiod},
+           given={Miranda\bibnamedelima L.},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0c5cd65bb2e0f65539d6d747aff4b1a6}{%
+           family={Dudek},
+           familyi={D\bibinitperiod},
+           given={Max\bibnamedelima F.},
+           giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7e28f6c2c9d78b7f493a0fc343330d26}{%
+           family={Bowman},
+           familyi={B\bibinitperiod},
+           given={Sarah\bibnamedelimb E.\bibnamedelimi J.},
+           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{90d0e6b3c13cf64983365b6303c91dd8}
+      \strng{fullhash}{5cabc3167e5fa6f1028d25ad76e62d60}
+      \strng{fullhashraw}{5cabc3167e5fa6f1028d25ad76e62d60}
+      \strng{bibnamehash}{5cabc3167e5fa6f1028d25ad76e62d60}
+      \strng{authorbibnamehash}{5cabc3167e5fa6f1028d25ad76e62d60}
+      \strng{authornamehash}{90d0e6b3c13cf64983365b6303c91dd8}
+      \strng{authorfullhash}{5cabc3167e5fa6f1028d25ad76e62d60}
+      \strng{authorfullhashraw}{5cabc3167e5fa6f1028d25ad76e62d60}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Nearly 90\% of structural models in the Protein Data Bank (PDB), the central resource worldwide for three-dimensional structural information, are currently derived from macromolecular crystallography (MX). A major bottleneck in determining MX structures is finding conditions in which a biomolecule will crystallize. Here, we present a searchable database of the chemicals associated with successful crystallization experiments from the PDB. We use these data to examine the relationship between protein secondary structure and average molecular weight of polyethylene glycol and to investigate patterns in crystallization conditions. Our analyses reveal striking patterns of both redundancy of chemical compositions in crystallization experiments and extreme sparsity of specific chemical combinations, underscoring the challenges faced in generating predictive models for de novo optimal crystallization experiments.}
+      \field{issn}{2666-3899}
+      \field{journaltitle}{Patterns}
+      \field{month}{7}
+      \field{number}{4}
+      \field{shorttitle}{A {Searchable} {Database} of {Crystallization} {Cocktails} in the {PDB}}
+      \field{title}{A {Searchable} {Database} of {Crystallization} {Cocktails} in the {PDB}: {Analyzing} the {Chemical} {Condition} {Space}}
+      \field{urlday}{6}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{1}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \field{pages}{100024}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.patter.2020.100024
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:https\://www.sciencedirect.com/science/article/pii/S2666389920300246/pdfft?download=true:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S2666389920300246
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S2666389920300246
+      \endverb
+      \keyw{structural biology,macromolecular crystallography,protein crystallization,crystallization conditions,crystallization information,PDB}
+    \endentry
     \entry{Mall2025}{article}{}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=0cf1009934f60f90764eaefa90f10686}{%
@@ -2450,6 +2634,60 @@
       \field{year}{2011}
       \field{pages}{i24\bibrangedash i33}
       \range{pages}{-1}
+    \endentry
+    \entry{Peat2005}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=cb1db13855c7cf4c42a6f7fbb2dae9fd}{%
+           family={Peat},
+           familyi={P\bibinitperiod},
+           given={Thomas\bibnamedelima S.},
+           giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=71e6281925c88e4c1affcb5e6b70ca77}{%
+           family={Christopher},
+           familyi={C\bibinitperiod},
+           given={Jon\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bde45bf5ec10ea0c63441a4d107c1074}{%
+           family={Newman},
+           familyi={N\bibinitperiod},
+           given={Janet},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \strng{namehash}{5f3ff08f60730983807f868528b8926b}
+      \strng{fullhash}{e6d686e10791016bc8b70cfb2ba68d25}
+      \strng{fullhashraw}{e6d686e10791016bc8b70cfb2ba68d25}
+      \strng{bibnamehash}{e6d686e10791016bc8b70cfb2ba68d25}
+      \strng{authorbibnamehash}{e6d686e10791016bc8b70cfb2ba68d25}
+      \strng{authornamehash}{5f3ff08f60730983807f868528b8926b}
+      \strng{authorfullhash}{e6d686e10791016bc8b70cfb2ba68d25}
+      \strng{authorfullhashraw}{e6d686e10791016bc8b70cfb2ba68d25}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A database application has been developed for the collection of crystallographic information. This database (the BDP) has been populated with the information found in the Protein Data Bank (PDB). The tool has been used to store crystallization data parsed out of the PDB and these data may be used to extend the crystallization information found in the Biological Macromolecule Crystallization Database (BMCD) and could be used to refine crystallization methodology. A standard is proposed for describing a crystallization experiment that will ease future crystallization data collations and analyses.}
+      \field{issn}{0907-4449}
+      \field{journaltitle}{Acta Crystallographica. Section D, Biological Crystallography}
+      \field{month}{12}
+      \field{number}{Pt 12}
+      \field{title}{Tapping the {Protein} {Data} {Bank} for crystallization information}
+      \field{volume}{61}
+      \field{year}{2005}
+      \field{pages}{1662\bibrangedash 1669}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1107/S0907444905033202
+      \endverb
+      \keyw{Ammonium Sulfate,Crystallization,Crystallography,X-Ray,Database Management Systems,Databases,Factual,Databases,Protein,Polyethylene Glycols,Terminology as Topic}
     \endentry
     \entry{Terwilliger2024}{article}{}{}
       \name{author}{11}{}{%

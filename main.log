@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.7)  18 NOV 2025 18:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.7)  20 NOV 2025 22:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1278,12 +1278,22 @@ LaTeX Info: Redefining \addtolength on input line 87.
 )
 \c@@todonotes@numberoftodonotes=\count524
 )
+(C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+\TX@col@width=\dimen312
+\TX@old@table=\dimen313
+\TX@old@col=\dimen314
+\TX@target=\dimen315
+\TX@delta=\dimen316
+\TX@cols=\count525
+\TX@ftn=\toks58
+)
 (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count525
+\c@subfigure=\count526
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count526
+\c@subtable=\count527
 )
 (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/base\glossar
 ies.sty
@@ -1291,8 +1301,8 @@ Package: glossaries 2025/05/14 v4.7 (NLCT)
 
 (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/mfirstuc\mfirstuc.sty
 Package: mfirstuc 2025/04/03 v2.09 (NLCT)
-\@glsmfirst=\toks58
-\@glsmrest=\toks59
+\@glsmfirst=\toks59
+\@glsmrest=\toks60
 )
 (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/xfor\xfor.sty
 Package: xfor 2009/02/05 v1.05 (NLCT)
@@ -1322,19 +1332,19 @@ Package: amsmath 2025/06/16 v2.17y AMS math features
 For additional information on amsmath, use the `?' option.
 (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen312
+\pmbraise@=\dimen317
 )
 (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count527
+\inf@bad=\count528
 LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count528
-\leftroot@=\count529
+\uproot@=\count529
+\leftroot@=\count530
 LaTeX Info: Redefining \overline on input line 398.
 LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count530
-\DOTSCASE@=\count531
+\classnum@=\count531
+\DOTSCASE@=\count532
 LaTeX Info: Redefining \ldots on input line 495.
 LaTeX Info: Redefining \dots on input line 498.
 LaTeX Info: Redefining \cdots on input line 619.
@@ -1344,34 +1354,34 @@ LaTeX Info: Redefining \big on input line 721.
 LaTeX Info: Redefining \Big on input line 722.
 LaTeX Info: Redefining \bigg on input line 723.
 LaTeX Info: Redefining \Bigg on input line 724.
-\big@size=\dimen313
+\big@size=\dimen318
 LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count532
+\macc@depth=\count533
 LaTeX Info: Redefining \bmod on input line 904.
 LaTeX Info: Redefining \pmod on input line 909.
 LaTeX Info: Redefining \smash on input line 939.
 LaTeX Info: Redefining \relbar on input line 969.
 LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count533
+\c@MaxMatrixCols=\count534
 \dotsspace@=\muskip22
-\c@parentequation=\count534
-\dspbrk@lvl=\count535
-\tag@help=\toks60
-\row@=\count536
-\column@=\count537
-\maxfields@=\count538
-\andhelp@=\toks61
-\eqnshift@=\dimen314
-\alignsep@=\dimen315
-\tagshift@=\dimen316
-\tagwidth@=\dimen317
-\totwidth@=\dimen318
-\lineht@=\dimen319
-\@envbody=\toks62
+\c@parentequation=\count535
+\dspbrk@lvl=\count536
+\tag@help=\toks61
+\row@=\count537
+\column@=\count538
+\maxfields@=\count539
+\andhelp@=\toks62
+\eqnshift@=\dimen319
+\alignsep@=\dimen320
+\tagshift@=\dimen321
+\tagwidth@=\dimen322
+\totwidth@=\dimen323
+\lineht@=\dimen324
+\@envbody=\toks63
 \multlinegap=\skip86
 \multlinetaggap=\skip87
-\mathdisplay@stack=\toks63
+\mathdisplay@stack=\toks64
 LaTeX Info: Redefining \[ on input line 2949.
 LaTeX Info: Redefining \] on input line 2950.
 )
@@ -1379,56 +1389,56 @@ LaTeX Info: Redefining \] on input line 2950.
 def
 File: datatool-l3fp.def 2025/04/25 v3.4.1 (NLCT)
 )
-\@dtl@toks=\toks64
-\@dtl@tmpcount=\count539
+\@dtl@toks=\toks65
+\@dtl@tmpcount=\count540
 \dtl@tmplength=\skip88
 \l__datatool_measure_box=\box105
-\dtl@sortresult=\count540
+\dtl@sortresult=\count541
 
 (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-utf8.
 ldf
 File: datatool-utf8.ldf 2025/04/25 v3.4.1 (NLCT)
 )
-\@dtl@datatype=\count541
-\l__datatool_tmpa_int=\count542
-\l__datatool_tmpb_int=\count543
-\l__datatool_tmpc_int=\count544
-\l__datatool_tmpd_int=\count545
-\l__datatool_count_int=\count546
-\l__datatool_tmp_datatype_int=\count547
-\l__datatool_tmpa_dim=\dimen320
-\l__datatool_tmpb_dim=\dimen321
-\c_datatool_unknown_int=\count548
-\l__datatool_year_int=\count549
-\l__datatool_month_int=\count550
-\l__datatool_day_int=\count551
-\l__datatool_hour_int=\count552
-\l__datatool_minute_int=\count553
-\l__datatool_second_int=\count554
-\l__datatool_tzhour_int=\count555
-\l__datatool_tzminute_int=\count556
-\l__datatool_julian_int=\count557
-\l__datatool_local_julian_int=\count558
-\l__datatool_prefix_int=\count559
-\l__datatool_suffix_int=\count560
-\@dtl@foreach@level=\count561
+\@dtl@datatype=\count542
+\l__datatool_tmpa_int=\count543
+\l__datatool_tmpb_int=\count544
+\l__datatool_tmpc_int=\count545
+\l__datatool_tmpd_int=\count546
+\l__datatool_count_int=\count547
+\l__datatool_tmp_datatype_int=\count548
+\l__datatool_tmpa_dim=\dimen325
+\l__datatool_tmpb_dim=\dimen326
+\c_datatool_unknown_int=\count549
+\l__datatool_year_int=\count550
+\l__datatool_month_int=\count551
+\l__datatool_day_int=\count552
+\l__datatool_hour_int=\count553
+\l__datatool_minute_int=\count554
+\l__datatool_second_int=\count555
+\l__datatool_tzhour_int=\count556
+\l__datatool_tzminute_int=\count557
+\l__datatool_julian_int=\count558
+\l__datatool_local_julian_int=\count559
+\l__datatool_prefix_int=\count560
+\l__datatool_suffix_int=\count561
+\@dtl@foreach@level=\count562
 
 
 Package tracklang Warning: No `datatool' support for dialect `english'  on inpu
 t line 9908.
 
-\dtl@codeA=\count562
-\dtl@codeB=\count563
+\dtl@codeA=\count563
+\dtl@codeB=\count564
 )
-\gls@level=\count564
-\@gls@tmpb=\toks65
+\gls@level=\count565
+\@gls@tmpb=\toks66
 \gls@tmplen=\skip89
-\l__glossaries_tmpa_dim=\dimen322
-\l__glossaries_tmpb_dim=\dimen323
-\glskeylisttok=\toks66
-\glslabeltok=\toks67
-\glsshorttok=\toks68
-\glslongtok=\toks69
+\l__glossaries_tmpa_dim=\dimen327
+\l__glossaries_tmpb_dim=\dimen328
+\glskeylisttok=\toks67
+\glslabeltok=\toks68
+\glsshorttok=\toks69
+\glslongtok=\toks70
 
 (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\gloss
 ary-hypernav.sty
@@ -1452,36 +1462,36 @@ Package: glossary-super 2025/05/14 v4.7 (NLCT)
 (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/supertabular\supertabul
 ar.sty
 Package: supertabular 2024/07/20 v4.2c the supertabular environment
-\c@tracingst=\count565
-\ST@wd=\dimen324
+\c@tracingst=\count566
+\ST@wd=\dimen329
 \ST@rightskip=\skip93
 \ST@leftskip=\skip94
 \ST@parfillskip=\skip95
-\ST@pageleft=\dimen325
-\ST@headht=\dimen326
-\ST@tailht=\dimen327
-\ST@pagesofar=\dimen328
-\ST@pboxht=\dimen329
-\ST@rowht=\dimen330
-\ST@prevht=\dimen331
-\ST@toadd=\dimen332
-\ST@dimen=\dimen333
+\ST@pageleft=\dimen330
+\ST@headht=\dimen331
+\ST@tailht=\dimen332
+\ST@pagesofar=\dimen333
+\ST@pboxht=\dimen334
+\ST@rowht=\dimen335
+\ST@prevht=\dimen336
+\ST@toadd=\dimen337
+\ST@dimen=\dimen338
 \ST@pbox=\box106
 ))
 (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\gloss
 ary-tree.sty
 Package: glossary-tree 2025/05/14 v4.7 (NLCT)
-\l__glossaries_tree_max_known_level_int=\count566
-\l__glossaries_tree_offset_dim=\dimen334
-\l__glossaries_tree_namewidth_dim=\dimen335
-\l__glossaries_tree_symbolwidth_dim=\dimen336
-\l__glossaries_tree_prenamesym_width_dim=\dimen337
-\l__glossaries_tree_presubnamesym_width_dim=\dimen338
-\l__glossaries_tree_namewidth_padding_dim=\dimen339
-\l__glossaries_tree_symbolwidth_padding_dim=\dimen340
-\l__glossaries_tree_namesymbolwidth_dim=\dimen341
-\l__glossaries_tree_namesymbolwidth_padding_dim=\dimen342
-\l__glossaries_tree_level_int=\count567
+\l__glossaries_tree_max_known_level_int=\count567
+\l__glossaries_tree_offset_dim=\dimen339
+\l__glossaries_tree_namewidth_dim=\dimen340
+\l__glossaries_tree_symbolwidth_dim=\dimen341
+\l__glossaries_tree_prenamesym_width_dim=\dimen342
+\l__glossaries_tree_presubnamesym_width_dim=\dimen343
+\l__glossaries_tree_namewidth_padding_dim=\dimen344
+\l__glossaries_tree_symbolwidth_padding_dim=\dimen345
+\l__glossaries_tree_namesymbolwidth_dim=\dimen346
+\l__glossaries_tree_namesymbolwidth_padding_dim=\dimen347
+\l__glossaries_tree_level_int=\count568
 \glstreeindent=\skip96
 ))
 (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/datetime\datetime.sty
@@ -1497,46 +1507,46 @@ Package: fcprefix 2012/09/28
 (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/fmtcount\fcnumparser.st
 y
 Package: fcnumparser 2017/06/15
-\fc@digit@counter=\count568
+\fc@digit@counter=\count569
 ))
-\c@padzeroesN=\count569
-\fc@tmpcatcode=\count570
+\c@padzeroesN=\count570
+\fc@tmpcatcode=\count571
 
 (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/fmtcount\fc-english.def
 File: fc-english.def 2016/01/12
 )
-\@DT@modctr=\count571
-\@ordinalctr=\count572
-\@orgargctr=\count573
-\@strctr=\count574
-\@tmpstrctr=\count575
-\@DT@loopN=\count576
-\@DT@X=\count577
+\@DT@modctr=\count572
+\@ordinalctr=\count573
+\@orgargctr=\count574
+\@strctr=\count575
+\@tmpstrctr=\count576
+\@DT@loopN=\count577
+\@DT@X=\count578
 )
 (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/datetime\datetime-defau
 lts.sty
 Package: datetime-defaults 2013/09/10
 )
-\@day=\count578
-\@month=\count579
-\@year=\count580
-\c@HOUR=\count581
-\c@HOURXII=\count582
-\c@MINUTE=\count583
-\c@TOHOUR=\count584
-\c@TOMINUTE=\count585
-\c@SECOND=\count586
-\currenthour=\count587
-\currentminute=\count588
-\currentsecond=\count589
+\@day=\count579
+\@month=\count580
+\@year=\count581
+\c@HOUR=\count582
+\c@HOURXII=\count583
+\c@MINUTE=\count584
+\c@TOHOUR=\count585
+\c@TOMINUTE=\count586
+\c@SECOND=\count587
+\currenthour=\count588
+\currentminute=\count589
+\currentsecond=\count590
 Package datetime Info: No datetime.cfg file found, using default settings on in
 put line 308.
-\@dtctr=\count590
-\dayofyear=\count591
-\dayofweek=\count592
+\@dtctr=\count591
+\dayofyear=\count592
+\dayofweek=\count593
 LaTeX Info: Redefining \today on input line 736.
-\dt@a=\toks70
-\dt@b=\toks71
+\dt@a=\toks71
+\dt@b=\toks72
 )
 \glswrite=\write6
 \glo@main@file=\write7
@@ -1596,17 +1606,17 @@ or `english'. on input line 122.
 (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count593
-\scratchdimen=\dimen343
+\scratchcounter=\count594
+\scratchdimen=\dimen348
 \scratchbox=\box107
-\nofMPsegments=\count594
-\nofMParguments=\count595
-\everyMPshowfont=\toks72
-\MPscratchCnt=\count596
-\MPscratchDim=\dimen344
-\MPnumerator=\count597
-\makeMPintoPDFobject=\count598
-\everyMPtoPDFconversion=\toks73
+\nofMPsegments=\count595
+\nofMParguments=\count596
+\everyMPshowfont=\toks73
+\MPscratchCnt=\count597
+\MPscratchDim=\dimen349
+\MPnumerator=\count598
+\makeMPintoPDFobject=\count599
+\everyMPtoPDFconversion=\toks74
 )
 (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -1962,8 +1972,8 @@ Chapter 2.
 
 ]
 Chapter 3.
-
-Overfull \hbox (3.37363pt too wide) in paragraph at lines 28--28
+(Chapters/Data/TheProteinDatabase.tex
+Overfull \hbox (3.37363pt too wide) in paragraph at lines 21--21
 [] \T1/cmtt/m/n/10.95 _exptl_crystal_grow.pdbx_details    '3.2M (NH4)2SO4, 0.1M
  Glycine, ...'[] 
  []
@@ -1972,25 +1982,25 @@ Overfull \hbox (3.37363pt too wide) in paragraph at lines 28--28
 
 [7{C:/Users/michi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-sup
 er-t1.enc}]
-Overfull \hbox (14.69037pt too wide) in paragraph at lines 51--51
+Overfull \hbox (14.69037pt too wide) in paragraph at lines 44--44
 [] \T1/cmtt/m/n/10.95 ATOM   1    N  N   . VAL A 1 1   ? 6.204   16.869  4.854 
   1.00 49.05 ...[] 
  []
 
 
-Overfull \hbox (14.69037pt too wide) in paragraph at lines 51--51
+Overfull \hbox (14.69037pt too wide) in paragraph at lines 44--44
 [] \T1/cmtt/m/n/10.95 ATOM   2    C  CA  . VAL A 1 1   ? 6.913   17.759  4.607 
   1.00 43.14 ...[] 
  []
 
 
-Overfull \hbox (14.69037pt too wide) in paragraph at lines 51--51
+Overfull \hbox (14.69037pt too wide) in paragraph at lines 44--44
 [] \T1/cmtt/m/n/10.95 ATOM   3    C  C   . VAL A 1 1   ? 8.504   17.378  4.797 
   1.00 24.80 ...[] 
  []
 
 
-Overfull \hbox (14.69037pt too wide) in paragraph at lines 51--51
+Overfull \hbox (14.69037pt too wide) in paragraph at lines 44--44
 [] \T1/cmtt/m/n/10.95 ATOM   4    O  O   . VAL A 1 1   ? 8.805   17.011  5.943 
   1.00 37.68 ...[] 
  []
@@ -2003,167 +2013,252 @@ Overfull \hbox (78.24057pt too wide) in paragraph at lines 70--71
  []
 
 )
-Overfull \hbox (0.92914pt too wide) in paragraph at lines 77--80
+Overfull \hbox (0.92914pt too wide) in paragraph at lines 70--73
 \T1/ppl/m/n/10.95 cat-e-gories. How-ever, as men-tioned be-fore the mi-nor-ity 
 of these at-tributes/categories
  []
 
 
-Overfull \hbox (4.34651pt too wide) in paragraph at lines 83--92
+Overfull \hbox (4.34651pt too wide) in paragraph at lines 76--85
 \T1/cmtt/m/n/10.95 pdbx_seq_one_letter_code \T1/ppl/m/n/10.95 The poly-mer se-q
 uence in one-letter code, in-clud-ing sym-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--92
+Underfull \hbox (badness 10000) in paragraph at lines 76--85
 
  []
 
 
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
 
  []
 
 LaTeX Info: Symbol \textasciiacute not provided by
             font family ppl in TS1 encoding.
-            Default family used instead on input line 99.
+            Default family used instead on input line 92.
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--131
+Underfull \hbox (badness 10000) in alignment at lines 106--106
+[][] 
+ []
 
+
+Overfull \hbox (5.44394pt too wide) in paragraph at lines 92--107
+ []\TS1/cmr/m/n/10.95 ´[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--116
+
+ []
+
+) (Chapters/Data/DataNormalization.tex
+
+[10]
+Underfull \hbox (badness 2229) in paragraph at lines 17--17
+[]|\T1/ppl/m/n/10.95 3.2M (NH4)2SO4, 0.1M Glycine, pH 9.5, VA-POR DIF-FU-SION,
  []
 
 
 
-[10]
-<../msc-thesis-code/data/dataExploration/plots/sequenceLength.pdf, id=424, 361.
-35pt x 289.08pt>
+[11]
+
+Package caption Warning: \label without proper reference on input line 62.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `??' on page 12 undefined on input line 50.
+
+
+
+[12]
+Overfull \hbox (10.25848pt too wide) in paragraph at lines 53--54
+\T1/ppl/m/n/10.95 Tris Propane pH 6.50.02 MSodium potas-sium phos-phate pH 7.52
+0 % w/vPEG 335010%
+ []
+
+<../msc-thesis-code/data/dataExploration/plots/occurencesDistribution.pdf, id=4
+66, 289.08pt x 289.08pt>
+File: ../msc-thesis-code/data/dataExploration/plots/occurencesDistribution.pdf 
+Graphic file (type pdf)
+<use ../msc-thesis-code/data/dataExploration/plots/occurencesDistribution.pdf>
+Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/occurenc
+esDistribution.pdf  used on input line 61.
+(pdftex.def)             Requested size: 141.41264pt x 141.41223pt.
+<../msc-thesis-code/data/dataExploration/plots/coverageByThreshold.pdf, id=467,
+ 505.89pt x 289.08pt>
+File: ../msc-thesis-code/data/dataExploration/plots/coverageByThreshold.pdf Gra
+phic file (type pdf)
+<use ../msc-thesis-code/data/dataExploration/plots/coverageByThreshold.pdf>
+Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/coverage
+ByThreshold.pdf  used on input line 66.
+(pdftex.def)             Requested size: 258.57835pt x 147.75966pt.
+<../msc-thesis-code/data/dataExploration/plots/phGivenVsParsedpH.pdf, id=468, 3
+61.35pt x 289.08pt>
+File: ../msc-thesis-code/data/dataExploration/plots/phGivenVsParsedpH.pdf Graph
+ic file (type pdf)
+<use ../msc-thesis-code/data/dataExploration/plots/phGivenVsParsedpH.pdf>
+Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/phGivenV
+sParsedpH.pdf  used on input line 79.
+(pdftex.def)             Requested size: 199.99242pt x 159.99577pt.
+<../msc-thesis-code/data/dataExploration/plots/tempGivenVsParsedTemp.pdf, id=46
+9, 361.35pt x 289.08pt>
+File: ../msc-thesis-code/data/dataExploration/plots/tempGivenVsParsedTemp.pdf G
+raphic file (type pdf)
+<use ../msc-thesis-code/data/dataExploration/plots/tempGivenVsParsedTemp.pdf>
+Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/tempGive
+nVsParsedTemp.pdf  used on input line 84.
+(pdftex.def)             Requested size: 199.99242pt x 159.99577pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (Chapters/Data/DataAnalysis.tex
+<../msc-thesis-code/data/dataExploration/plots/sequenceLength.pdf, id=470, 289.
+08pt x 361.35pt>
 File: ../msc-thesis-code/data/dataExploration/plots/sequenceLength.pdf Graphic 
 file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/sequenceLength.pdf>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/sequence
-Length.pdf  used on input line 159.
-(pdftex.def)             Requested size: 199.99242pt x 159.99577pt.
-<../msc-thesis-code/data/dataExploration/plots/atom_count.pdf, id=425, 361.35pt
- x 289.08pt>
-File: ../msc-thesis-code/data/dataExploration/plots/atom_count.pdf Graphic file
- (type pdf)
-<use ../msc-thesis-code/data/dataExploration/plots/atom_count.pdf>
-Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/atom_cou
-nt.pdf  used on input line 165.
-(pdftex.def)             Requested size: 199.99242pt x 159.99577pt.
-<../msc-thesis-code/data/dataExploration/plots/aminoAcidOccurence.pdf, id=426, 
+Length.pdf  used on input line 12.
+(pdftex.def)             Requested size: 129.29225pt x 161.61353pt.
+<../msc-thesis-code/data/dataExploration/plots/atomCount.pdf, id=471, 289.08pt 
+x 361.35pt>
+File: ../msc-thesis-code/data/dataExploration/plots/atomCount.pdf Graphic file 
+(type pdf)
+<use ../msc-thesis-code/data/dataExploration/plots/atomCount.pdf>
+Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/atomCoun
+t.pdf  used on input line 18.
+(pdftex.def)             Requested size: 129.29225pt x 161.61353pt.
+<../msc-thesis-code/data/dataExploration/plots/atomCountVsSequenceLength.pdf, i
+d=472, 289.08pt x 361.35pt>
+File: ../msc-thesis-code/data/dataExploration/plots/atomCountVsSequenceLength.p
+df Graphic file (type pdf)
+<use ../msc-thesis-code/data/dataExploration/plots/atomCountVsSequenceLength.pd
+f>
+Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/atomCoun
+tVsSequenceLength.pdf  used on input line 24.
+(pdftex.def)             Requested size: 129.29225pt x 161.61353pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<../msc-thesis-code/data/dataExploration/plots/aminoAcidOccurence.pdf, id=473, 
 361.35pt x 361.35pt>
 File: ../msc-thesis-code/data/dataExploration/plots/aminoAcidOccurence.pdf Grap
 hic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/aminoAcidOccurence.pdf>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/aminoAci
-dOccurence.pdf  used on input line 178.
+dOccurence.pdf  used on input line 37.
 (pdftex.def)             Requested size: 199.99242pt x 199.99474pt.
 <../msc-thesis-code/data/dataExploration/plots/observedVsPredictedAminoAcidCoun
-t.pdf, id=427, 361.35pt x 361.35pt>
+t.pdf, id=474, 361.35pt x 361.35pt>
 File: ../msc-thesis-code/data/dataExploration/plots/observedVsPredictedAminoAci
 dCount.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/observedVsPredictedAminoAcid
 Count.pdf>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/observed
-VsPredictedAminoAcidCount.pdf  used on input line 184.
+VsPredictedAminoAcidCount.pdf  used on input line 42.
 (pdftex.def)             Requested size: 199.99242pt x 199.99474pt.
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../msc-thesis-code/data/dataExploration/plots/gravyHist.pdf, id=428, 462.52798
+<../msc-thesis-code/data/dataExploration/plots/gravyHist.pdf, id=475, 462.52798
 pt x 346.89601pt>
 File: ../msc-thesis-code/data/dataExploration/plots/gravyHist.pdf Graphic file 
 (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/gravyHist.pdf>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/gravyHis
-t.pdf  used on input line 197.
+t.pdf  used on input line 54.
 (pdftex.def)             Requested size: 199.99242pt x 149.99341pt.
-<../msc-thesis-code/data/dataExploration/plots/aromHist.pdf, id=429, 462.52798p
+<../msc-thesis-code/data/dataExploration/plots/aromHist.pdf, id=476, 462.52798p
 t x 346.89601pt>
 File: ../msc-thesis-code/data/dataExploration/plots/aromHist.pdf Graphic file (
 type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/aromHist.pdf>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/aromHist
-.pdf  used on input line 203.
+.pdf  used on input line 60.
 (pdftex.def)             Requested size: 199.99242pt x 149.99341pt.
-<../msc-thesis-code/data/dataExploration/plots/pIHist.pdf, id=430, 462.52798pt 
+<../msc-thesis-code/data/dataExploration/plots/pIHist.pdf, id=477, 462.52798pt 
 x 346.89601pt>
 File: ../msc-thesis-code/data/dataExploration/plots/pIHist.pdf Graphic file (ty
 pe pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/pIHist.pdf>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/pIHist.p
-df  used on input line 209.
+df  used on input line 66.
 (pdftex.def)             Requested size: 199.99242pt x 149.99341pt.
-<../msc-thesis-code/data/dataExploration/plots/mwHist.pdf, id=431, 462.52798pt 
+<../msc-thesis-code/data/dataExploration/plots/mwHist.pdf, id=478, 462.52798pt 
 x 346.89601pt>
 File: ../msc-thesis-code/data/dataExploration/plots/mwHist.pdf Graphic file (ty
 pe pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/mwHist.pdf>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/mwHist.p
-df  used on input line 215.
+df  used on input line 72.
 (pdftex.def)             Requested size: 199.99242pt x 149.99341pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 <../msc-thesis-code/data/dataExploration/plots/distribution_apolar_vs_polar.pdf
-, id=432, 462.52798pt x 346.89601pt>
+, id=479, 462.52798pt x 346.89601pt>
 File: ../msc-thesis-code/data/dataExploration/plots/distribution_apolar_vs_pola
 r.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/distribution_apolar_vs_polar
 .pdf>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/distribu
-tion_apolar_vs_polar.pdf  used on input line 228.
+tion_apolar_vs_polar.pdf  used on input line 84.
 (pdftex.def)             Requested size: 199.99242pt x 149.99341pt.
 <../msc-thesis-code/data/dataExploration/plots/distribution_surface_information
-.pdf, id=433, 433.62pt x 433.62pt>
+.pdf, id=480, 433.62pt x 433.62pt>
 File: ../msc-thesis-code/data/dataExploration/plots/distribution_surface_inform
 ation.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/distribution_surface_informa
 tion.pdf>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/distribu
-tion_surface_information.pdf  used on input line 234.
+tion_surface_information.pdf  used on input line 90.
 (pdftex.def)             Requested size: 199.99242pt x 199.99033pt.
-
-
-[11 <../msc-thesis-code/data/dataExploration/plots/sequenceLength.pdf> <../msc-
-thesis-code/data/dataExploration/plots/atom_count.pdf>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 <../msc-thesis-code/data/dataExploration/plots/temperatureDistribution.pdf, id=
-448, 462.52798pt x 346.89601pt>
+481, 462.52798pt x 346.89601pt>
 File: ../msc-thesis-code/data/dataExploration/plots/temperatureDistribution.pdf
  Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/temperatureDistribution.pdf>
 
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/temperat
-ureDistribution.pdf  used on input line 248.
+ureDistribution.pdf  used on input line 105.
 (pdftex.def)             Requested size: 199.99242pt x 149.99341pt.
-<../msc-thesis-code/data/dataExploration/plots/phDistribution.pdf, id=449, 462.
+<../msc-thesis-code/data/dataExploration/plots/phDistribution.pdf, id=482, 462.
 52798pt x 346.89601pt>
 File: ../msc-thesis-code/data/dataExploration/plots/phDistribution.pdf Graphic 
 file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/phDistribution.pdf>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/phDistri
-bution.pdf  used on input line 254.
+bution.pdf  used on input line 111.
 (pdftex.def)             Requested size: 199.99242pt x 149.99341pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
-[12 <../msc-thesis-code/data/dataExploration/plots/aminoAcidOccurence.pdf> <../
+[13 <../msc-thesis-code/data/dataExploration/plots/occurencesDistribution.pdf> 
+<../msc-thesis-code/data/dataExploration/plots/coverageByThreshold.pdf>]))
+
+[14 <../msc-thesis-code/data/dataExploration/plots/phGivenVsParsedpH.pdf> <../m
+sc-thesis-code/data/dataExploration/plots/tempGivenVsParsedTemp.pdf> <../msc-th
+esis-code/data/dataExploration/plots/sequenceLength.pdf> <../msc-thesis-code/da
+ta/dataExploration/plots/atomCount.pdf> <../msc-thesis-code/data/dataExploratio
+n/plots/atomCountVsSequenceLength.pdf>]
+
+[15 <../msc-thesis-code/data/dataExploration/plots/aminoAcidOccurence.pdf> <../
 msc-thesis-code/data/dataExploration/plots/observedVsPredictedAminoAcidCount.pd
 f> <../msc-thesis-code/data/dataExploration/plots/gravyHist.pdf> <../msc-thesis
 -code/data/dataExploration/plots/aromHist.pdf> <../msc-thesis-code/data/dataExp
 loration/plots/pIHist.pdf> <../msc-thesis-code/data/dataExploration/plots/mwHis
-t.pdf>])
+t.pdf>]
 
-[13 <../msc-thesis-code/data/dataExploration/plots/distribution_apolar_vs_polar
+[16 <../msc-thesis-code/data/dataExploration/plots/distribution_apolar_vs_polar
 .pdf> <../msc-thesis-code/data/dataExploration/plots/distribution_surface_infor
 mation.pdf> <../msc-thesis-code/data/dataExploration/plots/temperatureDistribut
 ion.pdf> <../msc-thesis-code/data/dataExploration/plots/phDistribution.pdf>]
@@ -2174,8 +2269,10 @@ ion.pdf> <../msc-thesis-code/data/dataExploration/plots/phDistribution.pdf>]
 \openout2 = `Chapters/Results.aux'.
 
  (Chapters/Results.tex
+Chapter 4.
+)
 
-[14
+[17
 
 
 
@@ -2184,15 +2281,11 @@ ion.pdf> <../msc-thesis-code/data/dataExploration/plots/phDistribution.pdf>]
 
 
 ]
-Chapter 4.
-)
-
-[15]
 \openout2 = `Chapters/Discussion.aux'.
 
  (Chapters/Discussion.tex
 
-[16
+[18
 
 
 
@@ -2201,12 +2294,12 @@ Chapter 4.
 Chapter 5.
 )
 
-[17]
+[19]
 \openout2 = `Appendices/AppendixA.aux'.
 
  (Appendices/AppendixA.tex
 
-[18
+[20
 
 
 
@@ -2215,15 +2308,21 @@ Chapter 5.
 Appendix A.
 )
 
-[19]
+[21]
 
-[20
+[22
 
 
 
 ]
 
-[21]
+[23]
+Overfull \hbox (5.51721pt too wide) in paragraph at lines 317--317
+\T1/ppl/m/it/10.95 tal-log-ra-phy\T1/ppl/m/n/10.95 , \T1/ppl/m/it/10.95 61\T1/p
+pl/m/n/10.95 (Pt 12), 1662^^U1669. [][]$https : / / doi . org / 10 . 1107 / S09
+07444905033202$[][] 
+ []
+
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
@@ -2231,34 +2330,38 @@ This document will not have a glossary.
 
 
 
-[22] (main.aux (Chapters/Introduction.aux) (Chapters/Theory.aux)
+[24] (main.aux (Chapters/Introduction.aux) (Chapters/Theory.aux)
 (Chapters/Data.aux) (Chapters/Methods.aux) (Chapters/Results.aux)
 (Chapters/Discussion.aux) (Appendices/AppendixA.aux))
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 19FD368C33AB38AD5CD0BCA3CE2B92C7;5358.
+(rerunfilecheck)             Checksum: BAA2137C6B94C3C2373EB9C705DFA0BC;5034.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 61352 strings out of 468149
- 1435163 string characters out of 5431083
- 2412998 words of memory out of 5000000
- 89020 multiletter control sequences out of 15000+600000
+ 61533 strings out of 468149
+ 1442236 string characters out of 5431083
+ 2416305 words of memory out of 5000000
+ 89179 multiletter control sequences out of 15000+600000
  688415 words of font info for 139 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 138i,20n,134p,2517b,5181s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{glo:pdb} has been referenced but does not exist, re
-placed by a fixed one
-
+ 143i,20n,137p,2517b,5181s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{glo:mascl} has been referenced but does not exist, 
 replaced by a fixed one
+
+
+pdfTeX warning (dest): name{glo:pdb} has been referenced but does not exist, re
+placed by a fixed one
 
 <C:/Users/michi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
 mi10.pfb><C:/Users/michi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
@@ -2275,9 +2378,9 @@ ers/michi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:
 <C:/Users/michi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.p
 fb><C:/Users/michi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplri
 8a.pfb>
-Output written on main.pdf (46 pages, 524442 bytes).
+Output written on main.pdf (48 pages, 796250 bytes).
 PDF statistics:
- 835 PDF objects out of 1000 (max. 8388607)
- 119 named destinations out of 1000 (max. 500000)
- 361 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1164 PDF objects out of 1200 (max. 8388607)
+ 127 named destinations out of 1000 (max. 500000)
+ 370 words of extra memory for PDF output out of 10000 (max. 10000000)
 
