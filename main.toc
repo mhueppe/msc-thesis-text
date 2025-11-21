@@ -23,13 +23,13 @@
 \contentsline {subsubsection}{\numberline {3.2.1.1}Details Parsing}{12}{subsubsection.34}%
 \contentsline {subsubsection}{\numberline {3.2.1.2}Controlled Vocabulary}{12}{subsubsection.35}%
 \contentsline {subsection}{\numberline {3.2.2}Parsing Quality}{13}{subsection.39}%
-\contentsline {section}{\numberline {3.3}Data Analysis}{13}{section.42}%
-\contentsline {subsection}{\numberline {3.3.1}Univariate Analysis}{13}{subsection.43}%
-\contentsline {subsubsection}{\numberline {3.3.1.1}Input}{13}{subsubsection.44}%
-\contentsline {subsubsection}{\numberline {3.3.1.2}Label}{13}{subsubsection.49}%
-\contentsline {subsection}{\numberline {3.3.2}Multivariate Analysis}{14}{subsection.51}%
-\contentsline {subsection}{\numberline {3.3.3}Outlier and Anomaly Detection}{14}{subsection.52}%
-\contentsline {chapter}{\numberline {4}Results}{17}{chapter.53}%
-\contentsline {chapter}{\numberline {5}Discussion}{19}{chapter.54}%
-\contentsline {chapter}{\numberline {A}Data Appendix}{21}{appendix.55}%
-\contentsline {chapter}{Bibliography}{23}{appendix*.56}%
+\contentsline {section}{\numberline {3.3}Data Analysis}{14}{section.42}%
+\contentsline {subsection}{\numberline {3.3.1}Univariate Analysis}{14}{subsection.43}%
+\contentsline {subsubsection}{\numberline {3.3.1.1}Input}{14}{subsubsection.44}%
+\contentsline {subsubsection}{\numberline {3.3.1.2}Label}{14}{subsubsection.49}%
+\contentsline {subsection}{\numberline {3.3.2}Multivariate Analysis}{14}{subsection.53}%
+\contentsline {subsection}{\numberline {3.3.3}Outlier and Anomaly Detection}{15}{subsection.54}%
+\contentsline {chapter}{\numberline {4}Results}{19}{chapter.55}%
+\contentsline {chapter}{\numberline {5}Discussion}{21}{chapter.56}%
+\contentsline {chapter}{\numberline {A}Data Appendix}{23}{appendix.57}%
+\contentsline {chapter}{Bibliography}{25}{appendix*.58}%

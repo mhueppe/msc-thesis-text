@@ -3,11 +3,11 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Restructured database format.}}{9}{figure.caption.26}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces The number of occurrences for chemicals and the coverage of the dataset for different chemical dictionary sizes}}{13}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces The number of occurrences for chemicals and the coverage of the dataset for different chemical dictionary sizes}}{14}{figure.caption.40}%
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Temperature and pH values entered in numerical field vs. parsed from free text}}{14}{figure.caption.41}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Distribution of Sequence Length and Deposited Atom Count. The Relation between the two is mostly linear, however some groups of Atoms have missing or added atoms}}{14}{figure.caption.45}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Distribution of Sequence Length and Deposited Atom Count. The Relation between the two is mostly linear, however some groups of Atoms have missing or added atoms}}{15}{figure.caption.45}%
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Sequence Length and Atom Counts}}{15}{figure.caption.46}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Derived Sequence Features}}{15}{figure.caption.47}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Derived Sequence Features}}{16}{figure.caption.47}%
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Derived Surface Features}}{16}{figure.caption.48}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
