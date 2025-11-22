@@ -27,9 +27,9 @@
 \contentsline {subsection}{\numberline {3.3.1}Univariate Analysis}{14}{subsection.43}%
 \contentsline {subsubsection}{\numberline {3.3.1.1}Input}{14}{subsubsection.44}%
 \contentsline {subsubsection}{\numberline {3.3.1.2}Label}{14}{subsubsection.49}%
-\contentsline {subsection}{\numberline {3.3.2}Multivariate Analysis}{14}{subsection.53}%
-\contentsline {subsection}{\numberline {3.3.3}Outlier and Anomaly Detection}{15}{subsection.54}%
-\contentsline {chapter}{\numberline {4}Results}{19}{chapter.55}%
-\contentsline {chapter}{\numberline {5}Discussion}{21}{chapter.56}%
-\contentsline {chapter}{\numberline {A}Data Appendix}{23}{appendix.57}%
-\contentsline {chapter}{Bibliography}{25}{appendix*.58}%
+\contentsline {subsection}{\numberline {3.3.2}Multivariate Analysis}{14}{subsection.55}%
+\contentsline {subsection}{\numberline {3.3.3}Outlier and Anomaly Detection}{15}{subsection.56}%
+\contentsline {chapter}{\numberline {4}Results}{19}{chapter.57}%
+\contentsline {chapter}{\numberline {5}Discussion}{21}{chapter.58}%
+\contentsline {chapter}{\numberline {A}Data Appendix}{23}{appendix.59}%
+\contentsline {chapter}{Bibliography}{25}{appendix*.60}%
