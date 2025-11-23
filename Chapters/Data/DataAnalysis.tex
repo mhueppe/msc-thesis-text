@@ -1,9 +1,9 @@
 \section{Data Analysis}\label{sec:data_analysis}
 
 \subsection{Univariate Analysis}\label{sec:data_analysis/univariate_analysis}
-Histograms, distributions, summary statistics
+To gain an initial understanding of the dataset and identify characteristic patterns, a univariate analysis was conducted for both the input and the label. Section \ref{sec:data_analysis/univariate_analysis/protein} describes the analysis of protein features which focuses on three major feature groups: sequence features, structural model information, and derived surface properties. Section \ref{sec:data_analysis/univariate_analysis/condition} presents the analysis of the crystallization condition in particular pH and temperature distributions as well as patterns in the chemical cocktails derived from the parsed text. Examining the marginal distributions of these features provides insight into the typical ranges, dominant trends, and potential irregularities present in the data which help the multivariate analysis in Section \ref{sec:data_analysis/multivariate_analysis}.
 
-\subsubsection{Input}
+\subsubsection{Protein features}\label{sec:data_analysis/univariate_analysis/protein}
 \begin{figure}[h!]
 	\centering
 	
@@ -108,7 +108,7 @@ Histograms, distributions, summary statistics
 \end{figure}
 
 
-\subsubsection{Label}
+\subsubsection{Condition}\label{sec:data_analysis/univariate_analysis/condition}
 After parsing it can be seen that the descriptions that do not contain any information about the chemical cocktail is \roughly 3.5 \%. They are very similar to entry 3PCA in that they only define the pH or temperature. Additionally, concentrations were attributed to chemicals in \roughly 88\% of the times. 
 
 \begin{figure}[h!]

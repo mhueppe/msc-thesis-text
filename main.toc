@@ -23,10 +23,10 @@
 \contentsline {subsection}{\numberline {3.2.2}Parsing Quality}{13}{subsection.34}%
 \contentsline {section}{\numberline {3.3}Data Analysis}{14}{section.37}%
 \contentsline {subsection}{\numberline {3.3.1}Univariate Analysis}{14}{subsection.38}%
-\contentsline {subsubsection}{\numberline {3.3.1.1}Input}{14}{subsubsection.39}%
-\contentsline {subsubsection}{\numberline {3.3.1.2}Label}{14}{subsubsection.44}%
-\contentsline {subsection}{\numberline {3.3.2}Multivariate Analysis}{15}{subsection.50}%
-\contentsline {subsection}{\numberline {3.3.3}Outlier and Anomaly Detection}{15}{subsection.51}%
+\contentsline {subsubsection}{\numberline {3.3.1.1}Protein features}{15}{subsubsection.39}%
+\contentsline {subsubsection}{\numberline {3.3.1.2}Condition}{16}{subsubsection.44}%
+\contentsline {subsection}{\numberline {3.3.2}Multivariate Analysis}{16}{subsection.50}%
+\contentsline {subsection}{\numberline {3.3.3}Outlier and Anomaly Detection}{16}{subsection.51}%
 \contentsline {chapter}{\numberline {4}Results}{21}{chapter.52}%
 \contentsline {chapter}{\numberline {5}Discussion}{23}{chapter.53}%
 \contentsline {chapter}{\numberline {A}Data Appendix}{25}{appendix.54}%
