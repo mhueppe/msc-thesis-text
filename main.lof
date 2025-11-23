@@ -2,15 +2,40 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Restructured database format.}}{9}{figure.caption.26}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces The number of occurrences for chemicals and the coverage of the dataset for different chemical dictionary sizes}}{14}{figure.caption.40}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Temperature and pH values entered in numerical field vs. parsed from free text}}{14}{figure.caption.41}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Distribution of Sequence Length and Deposited Atom Count. The Relation between the two is mostly linear, however some groups of Atoms have missing or added atoms}}{15}{figure.caption.45}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Sequence Length and Atom Counts}}{15}{figure.caption.46}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Derived Sequence Features}}{16}{figure.caption.47}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Derived Surface Features}}{16}{figure.caption.48}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Most common Partners}}{18}{figure.caption.53}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Most common Cocktails}}{18}{figure.caption.54}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Restructured protein database schema}}{9}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Parsing Quality estimated by unique chemical names}}{14}{figure.caption.35}%
+\contentsline {subfigure}{\numberline {a}{\ignorespaces Appearances of unique chemical names}}{14}{figure.caption.35}%
+\contentsline {subfigure}{\numberline {b}{\ignorespaces Dataset coverage vs.\ frequency thresholds}}{14}{figure.caption.35}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Parsing Quality for numerical values}}{15}{figure.caption.36}%
+\contentsline {subfigure}{\numberline {a}{\ignorespaces Parsed pH vs. entered pH}}{15}{figure.caption.36}%
+\contentsline {subfigure}{\numberline {b}{\ignorespaces Parsed temperature vs. entered temperature}}{15}{figure.caption.36}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Sequence Length and Atom count Distribution}}{15}{figure.caption.40}%
+\contentsline {subfigure}{\numberline {a}{\ignorespaces Sequence Length Distribution}}{15}{figure.caption.40}%
+\contentsline {subfigure}{\numberline {b}{\ignorespaces Atom count Distribution}}{15}{figure.caption.40}%
+\contentsline {subfigure}{\numberline {c}{\ignorespaces Atom count vs. Sequence Length}}{15}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Residue analysis in protein sequences}}{16}{figure.caption.41}%
+\contentsline {subfigure}{\numberline {a}{\ignorespaces Residue distribution}}{16}{figure.caption.41}%
+\contentsline {subfigure}{\numberline {b}{\ignorespaces Observed vs. Predicted Occurrences of Residues}}{16}{figure.caption.41}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Distributions of sequence-derived features}}{17}{figure.caption.42}%
+\contentsline {subfigure}{\numberline {a}{\ignorespaces Kyte-Doolittle hydropathy distribution}}{17}{figure.caption.42}%
+\contentsline {subfigure}{\numberline {b}{\ignorespaces Aromaticity distribution}}{17}{figure.caption.42}%
+\contentsline {subfigure}{\numberline {c}{\ignorespaces Isoelectric point distribution}}{17}{figure.caption.42}%
+\contentsline {subfigure}{\numberline {d}{\ignorespaces Molecular weight distribution}}{17}{figure.caption.42}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Derived surface feature distributions}}{18}{figure.caption.43}%
+\contentsline {subfigure}{\numberline {a}{\ignorespaces Apolar and Polar Surface Atoms}}{18}{figure.caption.43}%
+\contentsline {subfigure}{\numberline {b}{\ignorespaces Surface feature comparison}}{18}{figure.caption.43}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Temperature and pH distributions}}{18}{figure.caption.45}%
+\contentsline {subfigure}{\numberline {a}{\ignorespaces Temperature Distribution}}{18}{figure.caption.45}%
+\contentsline {subfigure}{\numberline {b}{\ignorespaces pH Distribution}}{18}{figure.caption.45}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces General Cocktail composition}}{19}{figure.caption.46}%
+\contentsline {subfigure}{\numberline {a}{\ignorespaces Number of compounds in a cocktail}}{19}{figure.caption.46}%
+\contentsline {subfigure}{\numberline {b}{\ignorespaces Most common compounds with concentration}}{19}{figure.caption.46}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Most common compounds with concentrations}}{19}{figure.caption.47}%
+\contentsline {subfigure}{\numberline {a}{\ignorespaces Most common PEGs}}{19}{figure.caption.47}%
+\contentsline {subfigure}{\numberline {b}{\ignorespaces Most common chemicals}}{19}{figure.caption.47}%
+\contentsline {subfigure}{\numberline {a}{\ignorespaces Most common cocktails}}{19}{figure.caption.48}%
+\contentsline {subfigure}{\numberline {b}{\ignorespaces Cocktail classes}}{19}{figure.caption.48}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Most common 5-compound subsets}}{20}{figure.caption.49}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

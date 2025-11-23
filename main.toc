@@ -20,16 +20,14 @@
 \contentsline {subsection}{\numberline {3.1.4}Description}{9}{subsection.27}%
 \contentsline {section}{\numberline {3.2}Details Parsing}{11}{section.31}%
 \contentsline {subsection}{\numberline {3.2.1}Pipeline}{12}{subsection.33}%
-\contentsline {subsubsection}{\numberline {3.2.1.1}Details Parsing}{12}{subsubsection.34}%
-\contentsline {subsubsection}{\numberline {3.2.1.2}Controlled Vocabulary}{12}{subsubsection.35}%
-\contentsline {subsection}{\numberline {3.2.2}Parsing Quality}{13}{subsection.39}%
-\contentsline {section}{\numberline {3.3}Data Analysis}{14}{section.42}%
-\contentsline {subsection}{\numberline {3.3.1}Univariate Analysis}{14}{subsection.43}%
-\contentsline {subsubsection}{\numberline {3.3.1.1}Input}{14}{subsubsection.44}%
-\contentsline {subsubsection}{\numberline {3.3.1.2}Label}{14}{subsubsection.49}%
-\contentsline {subsection}{\numberline {3.3.2}Multivariate Analysis}{14}{subsection.55}%
-\contentsline {subsection}{\numberline {3.3.3}Outlier and Anomaly Detection}{15}{subsection.56}%
-\contentsline {chapter}{\numberline {4}Results}{19}{chapter.57}%
-\contentsline {chapter}{\numberline {5}Discussion}{21}{chapter.58}%
-\contentsline {chapter}{\numberline {A}Data Appendix}{23}{appendix.59}%
-\contentsline {chapter}{Bibliography}{25}{appendix*.60}%
+\contentsline {subsection}{\numberline {3.2.2}Parsing Quality}{13}{subsection.34}%
+\contentsline {section}{\numberline {3.3}Data Analysis}{14}{section.37}%
+\contentsline {subsection}{\numberline {3.3.1}Univariate Analysis}{14}{subsection.38}%
+\contentsline {subsubsection}{\numberline {3.3.1.1}Input}{14}{subsubsection.39}%
+\contentsline {subsubsection}{\numberline {3.3.1.2}Label}{14}{subsubsection.44}%
+\contentsline {subsection}{\numberline {3.3.2}Multivariate Analysis}{15}{subsection.50}%
+\contentsline {subsection}{\numberline {3.3.3}Outlier and Anomaly Detection}{15}{subsection.51}%
+\contentsline {chapter}{\numberline {4}Results}{21}{chapter.52}%
+\contentsline {chapter}{\numberline {5}Discussion}{23}{chapter.53}%
+\contentsline {chapter}{\numberline {A}Data Appendix}{25}{appendix.54}%
+\contentsline {chapter}{Bibliography}{27}{appendix*.55}%

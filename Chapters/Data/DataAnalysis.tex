@@ -7,42 +7,47 @@ Histograms, distributions, summary statistics
 \begin{figure}[h!]
 	\centering
 	
-	\begin{subfigure}{0.32\linewidth}
+	\begin{subfigure}[t]{0.32\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{../msc-thesis-code/data/dataExploration/plots/sequenceLength}
-
+		\caption[Sequence Length Distribution]{Sequence Length Distribution}
 		\label{fig:seqLength}
 	\end{subfigure}
-	\begin{subfigure}{0.32\linewidth}
+	\begin{subfigure}[t]{0.32\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{../msc-thesis-code/data/dataExploration/plots/atomCount}
-
+		\caption[Atom count Distribution]{Atom count Distribution}
 		\label{fig:atomCounts}
 	\end{subfigure}
-	\begin{subfigure}{0.32\linewidth}
+	\begin{subfigure}[t]{0.32\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{../msc-thesis-code/data/dataExploration/plots/atomCountVsSequenceLength}
-
+		\caption[Atom count vs. Sequence Length]{Atom count vs. Sequence Length}
 		\label{fig:atomCountsVsSeqLength}
 	\end{subfigure}
-	\caption{Distribution of Sequence Length and Deposited Atom Count. The Relation between the two is mostly linear, however some groups of Atoms have missing or added atoms}
-	\label{fig:dataStats}
+	\caption[Sequence Length and Atom count Distribution]{Visualization of the distribution of sequence lengths (\autoref{fig:seqLength}) and deposited atom counts (\autoref{fig:atomCounts}). Most proteins have sequences between 50 and 400 residues, with models containing roughly 1,000–8,000 atoms. The relationship is largely linear as seen in \autoref{fig:atomCountsVsSeqLength}, though missing or extra atoms in some structures cause deviations in slope.}
+	\label{fig:sequenceAndAtomCount}
 \end{figure}
 
 
 \begin{figure}[h!]
 	\centering		
-	\begin{subfigure}{0.495\linewidth}
+	\begin{subfigure}[t]{0.49\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{../msc-thesis-code/data/dataExploration/plots/aminoAcidOccurence}
+		\caption[Residue distribution]{Distribution of amino acids in the sequences. Residue frequencies vary substantially—Leucine is over four times more common than Tryptophan.}
 		\label{fig:aminoAcidOccurence}
 	\end{subfigure}
-	\begin{subfigure}[b]{0.495\linewidth}
+	\hspace{0.1cm}
+	\begin{subfigure}[t]{0.49\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{../msc-thesis-code/data/dataExploration/plots/observedVsPredictedAminoAcidCount}
+		\caption[Observed vs. Predicted Occurrences of Residues]{Observed vs.\ predicted residue frequencies, illustrating the relationship between amino-acid occurrence and the codon patterns that encode them.}
 		\label{fig:observedVsPredictedAminoAcidCount}
 	\end{subfigure}
-	\caption{Sequence Length and Atom Counts}
+	\caption[Residue analysis in protein sequences]{
+		\autoref{fig:aminoAcidOccurence} shows the distribution of amino acids across all sequences, while \autoref{fig:observedVsPredictedAminoAcidCount} compares observed residue frequencies with those predicted from codon usage.}
+	
 	\label{fig:aminoAcidCounts}
 \end{figure}
 
@@ -52,46 +57,53 @@ Histograms, distributions, summary statistics
 	\begin{subfigure}[b]{0.495\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{../msc-thesis-code/data/dataExploration/plots/gravyHist}
-
+		\caption[Kyte-Doolittle hydropathy distribution]{Kyte-Doolittle hydropathy distribution}
 		\label{fig:gravyHist}
 	\end{subfigure}
 	\begin{subfigure}[b]{0.495\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{../msc-thesis-code/data/dataExploration/plots/aromHist}
-
+		\caption[Aromaticity distribution]{Aromaticity distribution}
 		\label{fig:aromaticity}
 	\end{subfigure}
 	\begin{subfigure}[b]{0.495\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{../msc-thesis-code/data/dataExploration/plots/pIHist}
-
+		\caption[Isoelectric point distribution]{Isoelectric point distribution}
 		\label{fig:pIHist}
 	\end{subfigure}
 	\begin{subfigure}[b]{0.495\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{../msc-thesis-code/data/dataExploration/plots/mwHist}
-
+		\caption[Molecular weight distribution]{Molecular weight distribution}
 		\label{fig:mwHist}
 	\end{subfigure}
-	\caption{Derived Sequence Features}
+	\caption[Distributions of sequence-derived features]{Distributions of sequence-derived features across the dataset. 
+	Kyte--Doolittle hydropathy scores are roughly normally distributed with a slightly negative mean, while aromaticity values form a mildly positive normal distribution. 
+	The isoelectric point shows a bimodal pattern with peaks near pH~6 and pH~9. 
+	Molecular weights decrease sharply beyond 50{,}000~Da, mirroring trends in sequence length and atom count seen in \autoref{fig:sequenceAndAtomCount}.}
+
 	\label{fig:sequenceInformation}
 \end{figure}
 
 \begin{figure}[h!]
 	\centering		
-	\begin{subfigure}[h]{0.495\linewidth}
+	\begin{subfigure}[t]{0.495\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{../msc-thesis-code/data/dataExploration/plots/distribution_apolar_vs_polar}
-		\caption{Apolar vs. Polar}
+		\caption[Apolar and Polar Surface Atoms]{Distribution of apolar vs. polar surface atoms.}
 		\label{fig:apolarVsPolar}
 	\end{subfigure}
-	\begin{subfigure}[h]{0.495\linewidth}
+	\begin{subfigure}[t]{0.495\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{../msc-thesis-code/data/dataExploration/plots/distribution_surface_information}
-		\caption{Surface Distribution}
+		\caption[Surface feature comparison]{Comparison of different surface features.}
 		\label{fig:surfaceDistribution}
 	\end{subfigure}
-	\caption{Derived Surface Features}
+	\caption[Derived surface feature distributions]{Distributions of derived surface features. 
+		Apolar and polar surface atoms show approximately normal distributions with comparable overall exposure. 
+		Surface roughness, sidechain fraction, and SASA skewness are centered around~1, while the remaining surface descriptors cluster near zero or show slight positive shifts.}
+	
 	\label{fig:derivedSurfaceFeatures}
 \end{figure}
 
@@ -104,61 +116,83 @@ After parsing it can be seen that the descriptions that do not contain any infor
 	\begin{subfigure}[b]{0.495\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{../msc-thesis-code/data/dataExploration/plots/temperatureDistribution}
-		\caption{Temperature Distribution}
+		\caption[Temperature Distribution]{Temperature Distribution}
 		\label{fig:temperatureDistrbution}
 	\end{subfigure}
 	\begin{subfigure}[b]{0.495\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{../msc-thesis-code/data/dataExploration/plots/phDistribution}
-		\caption{PH Distribution}
+		\caption{pH Distribution}{PH Distribution}
 		\label{fig:pHDistribution}
 	\end{subfigure}
+	\caption[Temperature and pH distributions]{Distribution of numerical fields in the condition category. Only a few distinct temperatures are reported, with 35\% of samples specifying room temperature and most remaining values clustered around it; a secondary peak appears at 4\,$^\circ$C. In contrast, pH values follow an approximately normal distribution centered near pH\roughly7.}
 	\label{fig:temperatureAndPh}
 \end{figure}
 
 \begin{figure}[h!]
 	\centering		
-	\begin{subfigure}[b]{0.43\linewidth}
+	\begin{subfigure}[b]{0.42\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{../msc-thesis-code/data/dataExploration/plots/nCompoundsDistribution}
+		\caption[Number of compounds in a cocktail]{Number of compounds in a cocktail is on average 3 but sometimes specifies as much as 10 chemicals.}
 		\label{fig:nCompoundsDistribution}
 	\end{subfigure}
-	\begin{subfigure}[b]{0.56\linewidth}
+	\hspace{0.1cm}
+	\begin{subfigure}[b]{0.55\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{../msc-thesis-code/data/dataExploration/plots/mostCommonchemicalCompounds_withConcentrationGiven}
 		\label{fig:mostCommonChemicals}
+		\caption[Most common compounds with concentration]{The most common compounds across all cocktails feature multiple PEGs, buffers and salts. For the majority of the compounds a concentration value is given.}
 	\end{subfigure}
 	\label{fig:cocktailSizeAndMostCommonCompounds}
+	\caption[General Cocktail composition]{General Cocktail composition}
 \end{figure}
 
 
 \begin{figure}[h!]
 	\centering		
-	\begin{subfigure}[b]{0.495\linewidth}
+	\begin{subfigure}[t]{0.48\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{../msc-thesis-code/data/dataExploration/plots/most_common_pegs_with_concentration_point}
+		\caption[Most common PEGs]{Most common PEGs and the average concentration value at which they occur}
 		\label{fig:most_common_pegs_with_concentration_point}
 	\end{subfigure}
-	\begin{subfigure}[b]{0.495\linewidth}
+		\hspace{0.1cm}
+	\begin{subfigure}[t]{0.48\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{../msc-thesis-code/data/dataExploration/plots/most_common_chem_with_concentration_point}
+		\caption[Most common chemicals]{Most common chemicals and the average concentration value at which they occur}
 		\label{fig:most_common_chem_with_concentration_point}
 	\end{subfigure}
+	\caption[Most common compounds with concentrations]{General Cocktail composition}
 	\label{fig:mostCommonCompoundsAndConcentration}
+\end{figure}
+
+\begin{figure}[h!]
+	\centering		
+	\begin{subfigure}[t]{0.48\linewidth}
+		\centering
+		\includegraphics[width=\linewidth]{../msc-thesis-code/data/dataExploration/plots/commonChemCombinations}
+		\caption[Most common cocktails]{Most frequent specific chemical combinations found in the crystallization conditions, showing the dominant pairs and triplets of reagents across the dataset. }
+		\label{fig:mostcommoncocktails}
+	\end{subfigure}
+	\hspace{0.1cm}
+	\begin{subfigure}[t]{0.48\linewidth}
+		\centering
+		\includegraphics[width=\linewidth]{../msc-thesis-code/data/dataExploration/plots/commonChemClasses}
+		\caption[Cocktail classes]{Most frequent combinations of chemical classes occurring together in crystallization setups, highlighting the typical pairing patterns between polymers, buffers, and salts. }
+		\label{fig:commonChemClasses}
+	\end{subfigure}
+	\label{fig:cocktailAnalysis}
 \end{figure}
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=1\linewidth]{../msc-thesis-code/data/dataExploration/plots/mostCommonPartners}
-	\caption[Most common Partners]{The top 5 most common partners for the top 5 most common chemicals.}
-	\label{fig:mostcommonpartners}
-\end{figure}
+	\caption[Most common 5-compound subsets]{Most common 5-compound subsets within chemical sets. 
+	For several highly frequent chemicals—including PEG~3350, ammonium sulfate, PEG~4000, HEPES, and sodium chloride—the plot shows the compounds most often co-occurring with them in crystallization conditions, highlighting typical pairing patterns among buffers, salts, polymers, and additives.}
 
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=0.7\linewidth]{../msc-thesis-code/data/dataExploration/plots/commonChemCombinations}
-	\caption[Most common Cocktails]{Most common Cocktails}
-	\label{fig:mostcommoncocktails}
+	\label{fig:mostcommonpartners}
 \end{figure}
 
 

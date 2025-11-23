@@ -62,7 +62,12 @@ The restructured database format is depicted in \autoref{fig:proteinDatabaseStru
 \begin{figure}
 	\centering
 	\input{Media/databaseStructure}
-	\caption{Restructured database format.}
+	\caption[Restructured protein database schema]{
+		Visualization of the restructured database format derived from the \texttt{protein.cif} file. 
+		The \texttt{protein.cif} serves as the point of origin and contains all available information for a given protein. 
+		
+		In the restructured schema, each CIF category is stored as a separate table whose columns correspond to the category attributes, while each row represents a protein entry. To enable relational operations, all category tables share a common \texttt{entry\_id} column.
+	}
 	\label{fig:proteinDatabaseStructure}
 \end{figure}
 
@@ -104,7 +109,7 @@ The category \texttt{exptl\_crystal\_grow} defines the crystallization condition
 		apparatus, atmosphere, method\_ref, pressure, pressure\_esd, seeding\_ref, temp\_esd, time & 99.84 \\
 		\bottomrule
 	\end{tabularx}
-	\caption{Percentage of Missing data per Attribute}
+	\caption[Percentage of missing data per label attribute]{The percentage of missing values for each attribute in the crystallization condition category. Only 5 attributes have sufficient data. }
 	\label{tab:missing_percentage}
 \end{table}
 

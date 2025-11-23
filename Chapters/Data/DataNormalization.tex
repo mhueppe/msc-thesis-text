@@ -15,13 +15,13 @@
 		\\
 		\bottomrule
 	\end{tabularx}	
-	\caption{Examples of free text descriptions of crystallization conditions given in the \gls{pdb}}
+	\caption[Crystallization condition free text examples]{Examples of free text descriptions of crystallization conditions given in the \gls{pdb}. The examples show the high variety in possible expressions of crystallization conditions.}
 	\label{tab:detailsExamples}
 \end{table}
 
 The examples in \autoref{tab:detailsExamples} illustrate the complexity involved in parsing protein crystallization conditions from free text into a uniform, machine-readable chemical cocktail representation. The first entry (3P4H) demonstrates that crystallization conditions are often embedded in long, narrative-style descriptions that mix experimental setup, protein concentration, co-factors, and reservoir composition in a single sentence. Extracting a structured cocktail from such text requires an algorithm that can reliably identify and segment chemically relevant entities (salts, buffers, precipitants, additives) and distinguish them from procedural information.
 
-The second entry (3P4V) highlights the lack of uniformity in how units and concentrations are reported. Here, components are given in varying molar units, whereas other entries in the table use percentages. A robust parsing pipeline must therefore handle multiple concentration formats, convert them into a common representation. The third entry (3P62) further emphasizes semantic heterogeneity in naming: chemicals may be referred to by systematic names (e.g. “sodium cacodylate”, “sodium acetate”) rather than by their chemical formulas, in contrast to entries that use formula-based names (e.g. MnCl\textsubscript{2}, Na\textsubscript{2}HPO\textsubscript{4}). \textcite{Peat2005} illustrated the difference in naming conventions by showing the 30 different ways ammonium sulfate is spelled in the dataset. This necessitates normalization against a chemical dictionary or ontology to map synonymic names and formulas to a shared canonical identifier.
+The second entry (3P4V) highlights the lack of uniformity in how units and concentrations are reported. Here, components are given in varying molar units, whereas other entries in the table use percentages. A robust parsing pipeline must therefore handle multiple concentration formats, convert them into a common representation. The third entry (3P62) further emphasizes semantic heterogeneity in naming: chemicals may be referred to by systematic names (e.g. “sodium cacodylate”, “sodium acetate”) rather than by their chemical formulas, in contrast to entries that use formula-based names (e.g. MnCl\textsubscript{2}, Na\textsubscript{2}HPO\textsubscript{4}). \textcite{Peat2005} illustrated the difference in naming conventions by showing the 30 different ways ammonium sulfate is spelled in the dataset. Using string matching the updated dataset presented 141 different spelling attributed to ammonium sulfate. This necessitates normalization against a chemical dictionary or ontology to map synonymic names and formulas to a shared canonical identifier.
 
 Entry 6LJR and 3PCA illustrates that some \texttt{pdbx\_details} fields contain only minimal useful information. Such cases require the parser to handle incomplete cocktails and to distinguish between genuinely missing data and conditions that were simply not reported. The variability in reporting detail is substantial: while the average description length is 93 characters (SD = 72), the lengths range from as little as a single character to as much as 1758 characters. This large spread underscores the heterogeneity and inconsistency in the level of detail provided across entries. 
 
@@ -29,66 +29,65 @@ Finally, the entry 3PF1 illustrates more subtle challenges, including the presen
 
 
 
-\subsection{Pipeline}
+\subsection{Pipeline}\label{sec:data_normalization/pipeline}
 \textcite{Lynch2020} constructed a multi-stage extraction pipeline designed to transform the unstructured crystallization metadata contained in the \gls{pdb}
-into a consistent format. The goal of their proposed workflow as to impose a controlled vocabulary on the free text description and thereby enable large-scale analyses of crystallization conditions. The complete procedure consists of the four major steps 1. data acquisition, 2. details parsing and text normalization, 3. curating a compound dictionary to create a controlled vocabulary, and finally 4. the construction of the crystallization details dataset. In the following, the focus is on the second and third step as they are of importance for this project and also where most additions have been made. 
+into a consistent format. The goal of their proposed workflow is to impose a controlled vocabulary on the free text description and thereby enable large-scale analyses of crystallization conditions. The complete procedure consists of the four major steps 1. data acquisition, 2. details parsing and text normalization, 3. curating a compound dictionary to create a controlled vocabulary, and finally 4. the construction of the crystallization details dataset. In the following, the focus is on the actual parsing as their dataset was not used and the controlled vocabulary was heavily expanded upon using string matching algorithms instead of manual specification. 
 
-\subsubsection{Details Parsing}
-The address the variation in wording, punctuation, spelling and chemical names \citet{Lynch2020} designed a custom parsing function that performs multiple passes over the raw text. This function extracts: chemical component names, their reported concentrations (if present) and incubation temperatures as well as pH level. The parser explicitly handles inconsistent spacing, punctuation typographical errors and irregular phrasing that commonly appear in the deposited records. 
-
-\subsubsection{Controlled Vocabulary}
-A central element of the pipeline is manually curated compound dictionary used to standardize chemical identities. The authors compiled a list of 312 unique compounds, created by: 
-\begin{enumerate}
-	\item Starting with the most frequently occuring chemical names in the PDB scrape
-	\item Manually merging synonym, variant spellings, and abbreviations and
-	\item Expanding the dictionary through iterative refinement
-\end{enumerate}
-
-The system also includes a mechanism to extend the dictionary as new, rare or previously unseen chemicals appear in the updated \gls{pdb}. 
-
-\subsection{Parsing Quality}
-However, the parsing was not perfect in that it identified words as chemicals even though they were not. Originally, the parsing resulting in the majority of chemicals being parsed being present only once. This resulted in a total unique chemical count of around 30 000. This can be seen in \autoref{fig:numberOfOccurencesPerChemical}.
+The address the variation in wording, punctuation, spelling and chemical names \citet{Lynch2020} designed a custom parsing function that performs multiple passes over the raw text. This function extracts: chemical component names, their reported concentrations (if present) and incubation temperatures as well as pH level. The parser explicitly handles inconsistent spacing and irregular phrasing that commonly appear in the deposited records. However, it does not handle punctuation or typographical errors. These were added to the pipeline to improve the parsing. 
 To identify misspellings and variant forms of chemical names in the dataset, a fuzzy string-matching approach was employed. First, all chemical names occurring more than 200 times were treated as reliable entries and were collected into a reference set of \emph{correct chemicals}. All remaining chemical names, which appeared less frequently, were considered potential misspellings or variants.
 
 For each infrequent chemical name $c_\text{var}$, the algorithm computed its similarity to all names in the reference set using a normalized edit-distance metric. Specifically, the similarity score was based on the Levenshtein ratio, which measures the minimum number of character insertions, deletions, or substitutions required to transform one string into another, normalized by the maximum string length. This score ranges from 0 (no similarity) to 100 (identical strings).
 
-For every variant $c_\text{var}$, the algorithm selected the most similar reference chemical $c_\text{ref}$ and evaluated whether their similarity exceeded a threshold of 90\,\%. If this condition was met, the two names were considered variants of the same underlying chemical, and a mapping $c_\text{var} \mapsto c_\text{ref}$ was created. This procedure ensured that common spelling errors, hyphenation differences, and minor typographical variations were systematically corrected and unified across the dataset.The string similarity between chemical names can be misleadingly high, which required manual inspection of the resulting mappings. For example, ammonia and ammonium share a similarity of approximately 80 \%, yet they are chemically distinct and should not be merged. Likewise, even with a threshold of 90 \%, names such as disodium malonate and sodium malonate or hexanediol and heptanediol were incorrectly matched, despite referring to different compounds. To avoid such false positives, mappings in which the difference between source and target consisted solely of common chemical modifiers (e.g., di-, tri-, mono-, hydrogen, etc.) or while chemical names ('sodium ammonium tartrate' -> 'sodium potassium tartrate') were removed, as these often indicate genuinely different forms rather than typographical variants. This resulted in around 20 \% of the false chemicals being successfully mapped to a more common name. 
-The first one was to do a manual screening of words that were often parsed as chemicals but are not. This included for example the token "crystal tracking id" with the id typically being picked up as the concentration. This removed around 350 of the faulty chemical names. Similarly, sometimes verbs were also identified as proteins. Using Spacy all chemicals that only occured once were screened. After confirming that the language model can distinguish between chemical names and Verbs were removed. This got rid of around 1400 false chemicals.  
+For every variant $c_\text{var}$, the algorithm selected the most similar reference chemical $c_\text{ref}$ and evaluated whether their similarity exceeded a threshold of 90\,\%. If this condition was met, the two names were considered variants of the same underlying chemical, and a mapping $c_\text{var} \mapsto c_\text{ref}$ was created. This procedure ensured that common spelling errors, hyphenation differences, and minor typographical variations were systematically corrected and unified across the dataset.The string similarity between chemical names can be misleadingly high, which required manual inspection of the resulting mappings. For example, ammonia and ammonium share a similarity of approximately 80 \%, yet they are chemically distinct and should not be merged. Likewise, even with a threshold of 90 \%, names such as disodium malonate and sodium malonate or hexanediol and heptanediol were incorrectly matched, despite referring to different compounds. To avoid such false positives, mappings in which the difference between source and target consisted solely of common chemical modifiers (e.g., di-, tri-, mono-, hydrogen, etc.) or while chemical names ('sodium ammonium tartrate' -> 'sodium potassium tartrate') were removed, as these often indicate genuinely different forms rather than typographical variants. This resulted in around 25 \% of the false chemicals being successfully mapped to a more common name. 
 
-However, some examples were just too broken too unique to be added to the parsing pipeline. An example is 8C9L for which the entered description is "'0.1MBis Tris Propane pH 6.50.02 MSodium potassium phosphate pH 7.520 \% w/vPEG 335010\% v/vEthylene glycol'". Here the problem is that after each numerical value a space is missing not being clear if a pH of 7.5 is meant. 
+However, some examples were too unique to be added to the parsing pipeline. An example is 8C9L for which the entered description is "'0.1MBis Tris Propane pH 6.50.02 MSodium potassium phosphate pH 7.520 \% w/vPEG 335010\% v/vEthylene glycol'". Here the problem is that after each numerical value a space is missing not being clear if a pH of 7.5 is meant. Implementing to many anomalies interfered with the parsing of the more typical descriptions. 
+
+\subsection{Parsing Quality}
+However, the parsing was not perfect in that it identified words as chemicals even though they were not. Originally, the parsing resulting in the majority of chemicals being parsed being present only once. This resulted in a total unique chemical count of around 30 000. This can be seen in \autoref{fig:numberOfOccurencesPerChemical}.
+
+Similar to the string matching approach described in \autoref{sec:data_normalization/pipeline} the first step to reduce the number of unique chemicals was to check for common string patterns. This included for example the token "crystal tracking id <crystal id>" with part of the crystal id typically being picked up as the concentration. This removed around 350 of the faulty chemical names. Similarly, sometimes verbs were also identified as proteins. Using Spacy all chemicals that only occured once were screened. Verbs were removed after confirming that the model can successfully distinguish between them and chemical names. This got rid of around 2400 false chemicals.  
+
+After applying the string-matching approach, all chemicals occurring fewer than 50 times were removed from the parsed set. This threshold was chosen based on the coverage analysis shown in \autoref{fig:coverageVsNumberOfChemicals}.The plot shows that the top 446 most occurring chemicals cover around 84 \% of the dataset. When taking out every name that only occurred once and is thus very likely due to a parsing error the data coverage is above 98\%. This increased the confidence that the chemical cocktails described in the free text were accurately captured by the parsed dictionaries. 
 
 PH and temperature values were sometimes provided in the free-text field but not in the corresponding numerical fields. After extracting and parsing pH and temperature from the free text, the proportion of missing values decreased to 9.2\% for pH and 8.3\% for temperature.
 
 \begin{figure}[h!]
 	\centering		
-	\begin{subfigure}{0.35\linewidth}
+	\begin{subfigure}[t]{0.33\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{../msc-thesis-code/data/dataExploration/plots/occurencesDistribution}
+		\caption[Appearances of unique chemical names]{Occurrence counts of unique chemical names extracted from free text. Although 25,000 unique names were parsed, 67\% occur only once—likely due to typographical or parsing errors.}
 		\label{fig:numberOfOccurencesPerChemical}
 	\end{subfigure}
-	\begin{subfigure}[b]{0.64\linewidth}
+	\hspace{0.1cm}
+	\begin{subfigure}[t]{0.64\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{../msc-thesis-code/data/dataExploration/plots/coverageByThreshold}
+		\caption[Dataset coverage vs.\ frequency thresholds]{Coverage of the dataset as a function of chemical name frequency. Applying a frequency threshold of 50—i.e., requiring a chemical to be mentioned at least 50 times before inclusion in the chemical dictionary—removes 99\% of unique names, leaving 446 entries while still covering 84\% of the dataset.  From the dictionary set only 1.2\% of unique chemical names occur more than 50 times in the dataset.}
+		
 		\label{fig:coverageVsNumberOfChemicals}
 	\end{subfigure}
-	\caption{The number of occurrences for chemicals and the coverage of the dataset for different chemical dictionary sizes}
+	\caption[Parsing Quality estimated by unique chemical names]{As shown in \autoref{fig:numberOfOccurencesPerChemical}, most chemicals appear only a few times, and all parsed names represent only a small fraction of chemically meaningful compositions. This is also seen by the density of points and the almost logarithmic scaling of right y axis in \autoref{fig:coverageVsNumberOfChemicals}.}
 	\label{fig:numberAndOccurences}
 \end{figure}
 
-
+The parsing process aimed not only to extract chemical compounds from the free text but also to recover pH and temperature values. A straightforward way to assess this is to compare the parsed numerical values with those entered in the designated \gls{pdb} fields, as shown in \autoref{fig:enteredVsParsed}. The parsed and entered values correlate strongly approximately 96\% for pH and nearly perfectly for temperature as seen in \autoref{fig:enteredVsParsedTemp}. Inspection of the remaining pH (\autoref{fig:enteredVsParsedPh}) mismatches shows that they primarily come from crystallographers reporting multiple pH values for different solutions, rather than from parsing errors. The few temperature mismatches likewise stem from genuine discrepancies between the entered and reported values. In such cases, the value provided in the numerical field was preferred.
 
 \begin{figure}[h!]
 	\centering		
-	\begin{subfigure}{0.495\linewidth}
+	\begin{subfigure}{0.489\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{../msc-thesis-code/data/dataExploration/plots/phGivenVsParsedpH}
+		\caption[Parsed pH vs. entered pH]{Comparison of pH values parsed from free text with the single pH value recorded in the numerical field. }
 		\label{fig:enteredVsParsedPh}
 	\end{subfigure}
-	\begin{subfigure}[b]{0.495\linewidth}
+	\hspace{0.1cm}
+	\begin{subfigure}[b]{0.489\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{../msc-thesis-code/data/dataExploration/plots/tempGivenVsParsedTemp}
+		\caption[Parsed temperature vs. entered temperature]{Comparison temperature values parsed from free text with the numerical field entered temperature value.}
 		\label{fig:enteredVsParsedTemp}
 	\end{subfigure}
-	\caption{Temperature and pH values entered in numerical field vs. parsed from free text}
+	\caption[Parsing Quality for numerical values]{Multiple pH values reported in free text for different solutions leads to mismatches. In contrast the temperature field for crystallization produced almost no mismatches since only one value was given in free text.}
 	\label{fig:enteredVsParsed}
 \end{figure}
