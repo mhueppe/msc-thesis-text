@@ -4,6 +4,31 @@
 To gain an initial understanding of the dataset and identify characteristic patterns, a univariate analysis was conducted for both the input and the label. Section \ref{sec:data_analysis/univariate_analysis/protein} describes the analysis of protein features which focuses on three major feature groups: sequence features, structural model information, and derived surface properties. Section \ref{sec:data_analysis/univariate_analysis/condition} presents the analysis of the crystallization condition in particular pH and temperature distributions as well as patterns in the chemical cocktails derived from the parsed text. Examining the marginal distributions of these features provides insight into the typical ranges, dominant trends, and potential irregularities present in the data which help the multivariate analysis in Section \ref{sec:data_analysis/multivariate_analysis}.
 
 \subsubsection{Protein features}\label{sec:data_analysis/univariate_analysis/protein}
+The input to the downstream model is intended to represent all information available for a protein prior to crystallization. In typical biochemical workflows, only the amino-acid sequence is known at this stage. However, AlphaFold allows highly accurate estimates of the three-dimensional conformation to be computed directly from the sequence. Consequently, the model input consists of (i) a sequence-based representation of the protein and (ii) a structural representation approximating the fold that crystallization aims to resolve.
+
+Since protein crystals form through the periodic assembly of protein molecules into a lattice, intermolecular contacts are primarily mediated by exposed surface regions. Therefore, structural surface features can be explicitly encoded and incorporated as additional inputs. The following section focuses on sequence-, structure-, and surface-derived descriptors.
+
+\paragraph{Sequence construction.}
+Constructing a single sequence representation for a protein complex is not trivial, as crystallized proteins often consist of multiple chains. In homomeric assemblies all chains are identical and the protein is therefore associated with a single unique sequence. In contrast, heteromeric or oligomeric complexes contain multiple distinct chains, each potentially occurring multiple times. To generate a consistent sequence representation for the model, the following procedure was applied.
+
+First, all polymer entities in the corresponding \gls{pdb} entry were filtered to retain only protein chains, i.e.\ entities annotated as \texttt{polypeptide(L)} or \texttt{polypeptide(D)}. Nucleotide and ribonucleotide chains were discarded. Second, for each remaining entity, the amino-acid sequence was repeated according to its stoichiometric multiplicity, inferred from the number of strand identifiers associated with that entity. Finally, all repeated chain sequences were concatenated to form the complete protein sequence used as model input.
+
+Formally, let a protein complex contain $K$ protein chain entities indexed by $i \in \{1,\dots,K\}$. For each entity $i$, let
+\begin{itemize}
+	\item $s_i$ denote its canonical one-letter amino-acid sequence,
+	\item $A_i$ denote the set of strand identifiers associated with the entity,
+	\item $c_i = |A_i|$ denote the copy number (stoichiometric multiplicity),
+	\item $s_i^{\,c_i}$ denote the sequence $s_i$ repeated $c_i$ times.
+\end{itemize}
+The final sequence representation $S$ for the protein complex is constructed as
+\begin{equation}
+	S = s_1^{\,c_1} \,\|\, s_2^{\,c_2} \,\|\, \cdots \,\|\, s_K^{\,c_K},
+\end{equation}
+where ``$\|$'' denotes concatenation.
+
+\paragraph{Justification of the representation.}
+Concatenation provides a simple yet expressive way of encoding the stoichiometry and composition of a protein complex in a format that is compatible with sequence-based neural models. Alternative representations, such as multisets of chain types or separate input channels per chain would require additional architectural modifications and would complicate downstream processing without providing clear advantages for this task. In contrast, concatenation preserves both chain identity and stoichiometric context while maintaining compatibility with transformer-based and recurrent sequence models. \\
+
 \begin{figure}[h!]
 	\centering
 	
@@ -29,6 +54,14 @@ To gain an initial understanding of the dataset and identify characteristic patt
 	\label{fig:sequenceAndAtomCount}
 \end{figure}
 
+The distribution of protein sequence lengths is shown in \autoref{fig:seqLength}. Most proteins in the dataset fall within a biologically plausible range of approximately 50 to 700 amino-acid residues. Although the mean sequence length is 784 residues, this value is heavily skewed by a small number of extreme outliers: the maximum observed sequence length is 87,120 residues, and the standard deviation is correspondingly large at 1,198 residues. More robust statistics provide a clearer picture of the dataset: the median sequence length is 474 residues and the mode is 306 residues, which more accurately reflect the typical protein size encountered in structural biology.
+
+These considerations informed the choice of an upper cutoff during preprocessing. Proteins with a total sequence length greater than 4,000 residues were removed. This threshold excludes only exceptionally large and structurally atypical proteins (e.g., very large multi-domain complexes or concatemeric constructs) while preserving \roughly 99\% of the dataset. The cutoff therefore improves model tractability without compromising representativeness.
+
+A related distribution is shown in \autoref{fig:atomCounts}, which reports the number of atoms defined in the structural model for each protein. Atom counts are broadly distributed with a median of 3,987 atoms, a standard deviation of 16,257, and a maximum of 978,720 atoms. The same 99th-percentile–based filtering strategy was applied here. The 99th percentile corresponds to approximately 45,000 atoms, and this value was adopted as the upper inclusion threshold. Observations beyond this point correspond almost exclusively to very large complexes or structures containing auxiliary ligands, cofactors, or model artefacts that would introduce unnecessary computational overhead.
+
+Each atom in the structural model is associated with a residue in the protein sequence. Consequently, one would expect a roughly linear relationship between sequence length and atom count, with the slope determined by the average number of atoms per residue. Deviations  seen in \autoref{fig:atomCountsVsSeqLength} can arise for several reasons, including incomplete structural models, missing density for flexible regions, artificially truncated or extended constructs, or variations in side-chain composition. Such deviations are visible in the data and provide an additional justification for discarding extreme outliers, as they likely represent structural artefacts rather than biologically meaningful proteins.
+
 
 \begin{figure}[h!]
 	\centering		
@@ -51,6 +84,9 @@ To gain an initial understanding of the dataset and identify characteristic patt
 	\label{fig:aminoAcidCounts}
 \end{figure}
 
+The amino-acid statistics presented in \autoref{fig:aminoAcidCounts} demonstrate that the dataset captures realistic and biologically meaningful properties of natural proteins. As shown in \autoref{fig:aminoAcidOccurence}, the distribution of residues closely matches the characteristic composition observed across diverse proteomes: common hydrophobic residues such as leucine and alanine occur with high frequency, whereas aromatic or functionally specialized residues such as tryptophan and cysteine appear substantially less often. These proportions are not arbitrary but reflect well-established biochemical constraints and evolutionary pressures, including metabolic cost, structural stability, and functional versatility. The fact that such canonical patterns emerge strongly from the dataset indicates that the underlying sample size is sufficiently large to average out oddities of individual proteins and instead reveal global, biologically grounded trends.
+
+This representativeness is further supported by \autoref{fig:observedVsPredictedAminoAcidCount}, which compares the observed residue frequencies with those predicted from codon usage statistics. The close correspondence between these distributions confirms that the dataset mirrors the translational and genomic biases embedded in natural organisms. Together, these analyses show that the dataset is both extensive and diverse enough to reflect the biochemical and evolutionary regularities of real protein sequences. This provides a strong foundation for downstream modelling, ensuring that any learned patterns are likely to be biologically plausible rather than artefacts of dataset construction.
 
 \begin{figure}[h!]
 	\centering		
@@ -86,6 +122,10 @@ To gain an initial understanding of the dataset and identify characteristic patt
 	\label{fig:sequenceInformation}
 \end{figure}
 
+The sequence-derived features shown in \autoref{fig:sequenceInformation} provide a comprehensive overview of the biochemical properties represented within the dataset. These features—hydropathy, aromaticity, isoelectric point, and molecular weight—capture fundamental aspects of protein composition that influence folding, stability, solubility, and ultimately the crystallization process. The Kyte–Doolittle hydropathy distribution (\autoref{fig:gravyHist}) is centered slightly below zero, indicating that most proteins exhibit a balanced mixture of hydrophobic and hydrophilic residues. Similarly, the aromaticity distribution in \autoref{fig:aromaticity} reflects a slight presence of aromatic residues involved in stacking interactions and structural stabilization.
+
+The isoelectric point distribution (\autoref{fig:pIHist}) displays a characteristic bimodal pattern, with peaks near pH~6 and pH~9. Finally, the molecular weight distribution (\autoref{fig:mwHist}) shows a steep decline beyond 50,000~Da, consistent with the typical size range of monomeric proteins and with the sequence-length and atom-count distributions discussed earlier.
+
 \begin{figure}[h!]
 	\centering		
 	\begin{subfigure}[t]{0.495\linewidth}
@@ -107,27 +147,36 @@ To gain an initial understanding of the dataset and identify characteristic patt
 	\label{fig:derivedSurfaceFeatures}
 \end{figure}
 
+The surface-derived features presented in \autoref{fig:derivedSurfaceFeatures} provide a detailed characterization of chemical features that influence intermolecular interactions during crystallization. As shown in \autoref{fig:apolarVsPolar}, the distributions of apolar and polar surface atoms are approximately normal and of comparable magnitude, reflecting the typical balance between hydrophobic and hydrophilic exposure observed in soluble protein structures. This balance is essential for protein–protein contacts, as both hydrophobic patches and polar interaction sites contribute to lattice formation.
+
+The broader set of surface descriptors illustrated in \autoref{fig:surfaceDistribution} further demonstrates that the dataset captures realistic structural diversity. Features such as surface roughness, side-chain fraction, and SASA skewness cluster around values close to one. Other features, including geometric and electrostatic descriptors, are centered near zero or exhibit slight positive shifts, indicating mild asymmetries or directional preferences.
+
+Together, these distributions confirm that the derived surface features span a biologically plausible range and reflect the heterogeneity of real protein surfaces. This diversity is crucial for downstream modelling, as crystallization propensity and conditions are likely o be influenced by surface geometry and chemistry. 
 
 \subsubsection{Condition}\label{sec:data_analysis/univariate_analysis/condition}
-After parsing it can be seen that the descriptions that do not contain any information about the chemical cocktail is \roughly 3.5 \%. They are very similar to entry 3PCA in that they only define the pH or temperature. Additionally, concentrations were attributed to chemicals in \roughly 88\% of the times. 
+After parsing it can be seen that the descriptions that do not contain any information about the chemical cocktail is \roughly 3.5 \%. They are very similar to entry 3PCA depicted in \autoref{tab:detailsExamples} in that they only define the pH or temperature. Additionally, concentrations were attributed to chemicals in \roughly 93\% of the times for the chemicals chosen to be in the dictionary set. 
 
 \begin{figure}[h!]
 	\centering		
 	\begin{subfigure}[b]{0.495\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{../msc-thesis-code/data/dataExploration/plots/temperatureDistribution}
-		\caption[Temperature Distribution]{Temperature Distribution}
+		\caption[Temperature Distribution]{ }
 		\label{fig:temperatureDistrbution}
 	\end{subfigure}
 	\begin{subfigure}[b]{0.495\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{../msc-thesis-code/data/dataExploration/plots/phDistribution}
-		\caption{pH Distribution}{PH Distribution}
+		\caption[pH Distribution]{ }
 		\label{fig:pHDistribution}
 	\end{subfigure}
-	\caption[Temperature and pH distributions]{Distribution of numerical fields in the condition category. Only a few distinct temperatures are reported, with 35\% of samples specifying room temperature and most remaining values clustered around it; a secondary peak appears at 4\,$^\circ$C. In contrast, pH values follow an approximately normal distribution centered near pH\roughly7.}
+	\caption[Temperature and pH distributions]{Distribution of numerical fields in the condition category. Only a few distinct temperatures (\ref{fig:temperatureDistrbution}) are reported, with 35\% of samples specifying room temperature and most remaining values clustered around it; a secondary peak appears at 4\,$^\circ$C. In contrast, pH values follow an approximately normal distribution centered near pH\roughly7 (\ref{fig:pHDistribution}).}
 	\label{fig:temperatureAndPh}
 \end{figure}
+
+The distributions shown in \autoref{fig:temperatureAndPh} highlight the difference in how temperature and pH are reported across crystallization experiments. As illustrated in \autoref{fig:temperatureDistrbution}, the variance in temperature values is extremely low. More than one third of all entries explicitly specify room temperature, and the vast majority of the remaining values lie in a narrow window around it. A small secondary peak at 4,$^\circ$C reflects experiments performed under cooling conditions, but otherwise temperature is essentially discretized into only a few commonly used settings. This has direct implications for modelling: because the data are dominated by room-temperature crystallizations, a model that predicts “room temperature’’ for all samples would achieve high accuracy despite providing almost no actionable information. The same holds for crystallization method employed. \autoref{fig:employmentMethodDistribution} in Appendix \ref{app:data} depicts the lack of variation when it comes to crystallization methods. More than 95\% of proteins in the \gls{pdb} were crystallized using either sitting-drop or hanging-drop vapor diffusion. Both temperature and crystallization method predictions must therefore be interpreted with caution, as the task is intrinsically imbalanced and carries limited discriminative power.
+
+In contrast, the pH distribution in \autoref{fig:pHDistribution} spans a wide and continuous range and is approximately normal with a central tendency near pH,7. This variability reflects genuine experimental diversity, as pH strongly influences solubility, surface charge, and intermolecular interactions, and is intentionally explored across a broad range during crystallization trials. As a result, predicting pH constitutes a substantially more informative and challenging task. Meaningful pH predictions can provide valuable guidance to users by narrowing down the most promising acidity or alkalinity ranges for successful crystallization. Thus, while temperature prediction is inherently limited by the structure of the data, the pH values offer rich signal that the model can exploit to generate practically useful recommendations.
 
 \begin{figure}[h!]
 	\centering		
@@ -141,13 +190,17 @@ After parsing it can be seen that the descriptions that do not contain any infor
 	\begin{subfigure}[b]{0.55\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{../msc-thesis-code/data/dataExploration/plots/mostCommonchemicalCompounds_withConcentrationGiven}
-		\label{fig:mostCommonChemicals}
 		\caption[Most common compounds with concentration]{The most common compounds across all cocktails feature multiple PEGs, buffers and salts. For the majority of the compounds a concentration value is given.}
+		\label{fig:mostCommonChemicals}
 	\end{subfigure}
-	\label{fig:cocktailSizeAndMostCommonCompounds}
 	\caption[General Cocktail composition]{General Cocktail composition}
+	\label{fig:cocktailSizeAndMostCommonCompounds}
 \end{figure}
 
+
+The collection of plots in \autoref{fig:cocktailSizeAndMostCommonCompounds}–\autoref{fig:mostcommonpartners} provides a detailed overview of the chemicals underlying the crystallization cocktails in the dataset. As shown in \autoref{fig:nCompoundsDistribution}, a typical cocktail contains around three distinct chemical components, although more complex formulations with up to ten compounds do occur. This level of combinatorial variation is representative of common crystallization screening strategies, which balance chemical diversity with practical limitations on experimental complexity.
+
+The distribution of individual reagents, shown in \autoref{fig:mostCommonChemicals}, reveals the dominance of well-established crystallization agents. Multiple \glspl{peg}, a range of buffering compounds, and various inorganic salts constitute the majority of entries. Importantly, for most commonly used chemicals, concentration values are available and sufficiently well populated to support reliable modeling. Notably, concentration values are more likely to be missing for \glspl{peg} in comparison to other additives. This distribution of most common compounds is important when analyzing the performance of the model. The goal is for the model to build an understanding of common chemicals while still being able to find patterns to determine when less common chemicals are preferred.
 
 \begin{figure}[h!]
 	\centering		
@@ -157,7 +210,7 @@ After parsing it can be seen that the descriptions that do not contain any infor
 		\caption[Most common PEGs]{Most common PEGs and the average concentration value at which they occur}
 		\label{fig:most_common_pegs_with_concentration_point}
 	\end{subfigure}
-		\hspace{0.1cm}
+	\hspace{0.1cm}
 	\begin{subfigure}[t]{0.48\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{../msc-thesis-code/data/dataExploration/plots/most_common_chem_with_concentration_point}
@@ -167,6 +220,14 @@ After parsing it can be seen that the descriptions that do not contain any infor
 	\caption[Most common compounds with concentrations]{General Cocktail composition}
 	\label{fig:mostCommonCompoundsAndConcentration}
 \end{figure}
+
+A more fine-grained view of compound usage is provided in \autoref{fig:mostCommonCompoundsAndConcentration}. The distribution of molecular weights for \glspl{peg}, shown in \autoref{fig:most_common_pegs_with_concentration_point}, exhibits a clear bias: the five most frequently used \gls{peg} variants account for approximately 60\% of all \gls{peg} occurrences in the dataset. Despite this strong preference for specific molecular weights, the concentrations at which these \glspl{peg} are used vary substantially. Lighter \glspl{peg} such as \gls{peg}~400, 550, 1000, 1500, and 2000 are typically present at higher concentrations (above 21\%), whereas heavier \glspl{peg}—including \gls{peg}~6000, 8000, 10 000, and 20 000—tend to be used at noticeably lower concentrations (below 17\%). This inverse trend between molecular weight and concentration is well known in crystallization practice and reflects differences in their physicochemical effects on protein solubility and osmotic pressure. The dataset therefore captures a meaningful and biologically plausible relationship that the model must learn to reproduce: not only which \gls{peg} molecular weight is appropriate, but also the concentration at which it should be applied.
+
+A similar level of variation is observed for non-\gls{peg} chemicals. However, two important differences make this category substantially more challenging from a modelling perspective. First, the distribution of individual reagents outside the \gls{peg} family is far more uniform. While the most commonly used \gls{peg} (\gls{peg}~3350) accounts for roughly 30\% of all \gls{peg} entries, the most frequent non-\gls{peg} reagent—ammonium sulfate—appears in only about 6\% of its respective category. Thus, predicting which buffer, salt, or additive should be included in a cocktail is intrinsically more difficult than predicting the appropriate \gls{peg} molecular weight, since no single reagent dominates the distribution.
+
+Second, the concentration ranges for these non-\gls{peg} compounds are considerably broader. Bis–tris, for example, appears across a range from approximately 10 000 mM to 27 000 mM, reflecting the wide experimental latitude with which buffers, salts, and additives are explored in crystallization screens. This substantial variability introduces additional uncertainty: the model must not only identify the correct chemical component but also infer the appropriate concentration within a much wider and less predictable interval.
+
+Together, these observations indicate that the prediction of \gls{peg}-related parameters, both in molecular weight and concentration, is comparatively biased and thus more learnable, whereas predicting the optimal combination of buffers, salts, and additives is a more complex task with greater combinatorial and quantitative uncertainty.
 
 \begin{figure}[h!]
 	\centering		
@@ -186,15 +247,21 @@ After parsing it can be seen that the descriptions that do not contain any infor
 	\label{fig:cocktailAnalysis}
 \end{figure}
 
+Beyond individual reagents, the dataset also captures the combinatorial structure of crystallization cocktails. \autoref{fig:mostcommoncocktails} highlights the most frequently occurring multi-compound combinations, illustrating characteristic reagent pairings and triplets—for example, \glspl{peg} combined with salts or buffers as co-precipitants. The two most common chemical combinations are \gls{peg} 3350, bis-tris and MES and \gls{peg} 20 000. This is also reflected when classifying the compounds into chemical classes as seen in \autoref{fig:commonChemClasses}. Here the most common combinations are one polymer i.e. some \gls{peg} and a salt as with the previously two mentioned cocktails. Generally polymers, buffers, and salts form the core set of recurring building blocks often used in combination.
+
+
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=1\linewidth]{../msc-thesis-code/data/dataExploration/plots/mostCommonPartners}
 	\caption[Most common 5-compound subsets]{Most common 5-compound subsets within chemical sets. 
-	For several highly frequent chemicals—including PEG~3350, ammonium sulfate, PEG~4000, HEPES, and sodium chloride—the plot shows the compounds most often co-occurring with them in crystallization conditions, highlighting typical pairing patterns among buffers, salts, polymers, and additives.}
-
+		For several highly frequent chemicals—including \gls{peg}~3350, ammonium sulfate, \gls{peg}~4000, HEPES, and sodium chloride—the plot shows the compounds most often co-occurring with them in crystallization conditions, highlighting typical pairing patterns among buffers, salts, polymers, and additives.}
+	
 	\label{fig:mostcommonpartners}
 \end{figure}
 
+Finally, \autoref{fig:mostcommonpartners} provides a higher-order perspective by examining frequent 5-compound subsets centered around the most abundant reagents. For widely used components such as \gls{peg}~3350, ammonium sulfate, HEPES, sodium chloride, and \gls{peg}~4000, the plots reveal characteristic “neighborhoods’’ of co-occurring chemicals, reflecting well-established formulation strategies used to steer crystallization outcomes. The model be able to understand these co-occurrences and model them accurately. As seen in  both \autoref{fig:commonChemClasses} and \autoref{fig:mostcommonpartners} a chemical cocktail typically only has one \gls{peg} but might have multiple salts. This can be seen with sodium chloride which often is combined with magnesium chloride or ammonium sulfate and sodium acetate. It is also clear that these chemicals have a preference for certain \glspl{peg}. 
+
+Together, these analyses confirm that the chemical compositions within the dataset are not only diverse but also representative of real-world crystallization practice. The dataset preserves established chemical patterns while offering sufficient variation for meaningful learning, ensuring a robust foundation for predicting crystallization conditions and understanding reagent synergies. Moreover, some components of the condition set are less diverse than others and thus might be easier to predict than others. 
 
 \subsection{Multivariate Analysis}\label{sec:data_analysis/multivariate_analysis}
 Feature-feature relationships, correlation matrices, scatter plots

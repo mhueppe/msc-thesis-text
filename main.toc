@@ -21,13 +21,15 @@
 \contentsline {section}{\numberline {3.2}Details Parsing}{11}{section.31}%
 \contentsline {subsection}{\numberline {3.2.1}Pipeline}{12}{subsection.33}%
 \contentsline {subsection}{\numberline {3.2.2}Parsing Quality}{13}{subsection.34}%
-\contentsline {section}{\numberline {3.3}Data Analysis}{14}{section.37}%
-\contentsline {subsection}{\numberline {3.3.1}Univariate Analysis}{14}{subsection.38}%
-\contentsline {subsubsection}{\numberline {3.3.1.1}Protein features}{15}{subsubsection.39}%
-\contentsline {subsubsection}{\numberline {3.3.1.2}Condition}{16}{subsubsection.44}%
-\contentsline {subsection}{\numberline {3.3.2}Multivariate Analysis}{16}{subsection.50}%
-\contentsline {subsection}{\numberline {3.3.3}Outlier and Anomaly Detection}{16}{subsection.51}%
-\contentsline {chapter}{\numberline {4}Results}{21}{chapter.52}%
-\contentsline {chapter}{\numberline {5}Discussion}{23}{chapter.53}%
-\contentsline {chapter}{\numberline {A}Data Appendix}{25}{appendix.54}%
-\contentsline {chapter}{Bibliography}{27}{appendix*.55}%
+\contentsline {section}{\numberline {3.3}Data Analysis}{16}{section.38}%
+\contentsline {subsection}{\numberline {3.3.1}Univariate Analysis}{16}{subsection.39}%
+\contentsline {subsubsection}{\numberline {3.3.1.1}Protein features}{16}{subsubsection.40}%
+\contentsline {paragraph}{Sequence construction.}{16}{section*.41}%
+\contentsline {paragraph}{Justification of the representation.}{17}{section*.43}%
+\contentsline {subsubsection}{\numberline {3.3.1.2}Condition}{21}{subsubsection.48}%
+\contentsline {subsection}{\numberline {3.3.2}Multivariate Analysis}{25}{subsection.54}%
+\contentsline {subsection}{\numberline {3.3.3}Outlier and Anomaly Detection}{25}{subsection.55}%
+\contentsline {chapter}{\numberline {4}Results}{27}{chapter.56}%
+\contentsline {chapter}{\numberline {5}Discussion}{29}{chapter.57}%
+\contentsline {chapter}{\numberline {A}Data Appendix}{31}{appendix.58}%
+\contentsline {chapter}{Bibliography}{33}{appendix*.60}%

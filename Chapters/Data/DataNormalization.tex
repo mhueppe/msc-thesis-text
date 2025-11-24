@@ -91,3 +91,31 @@ The parsing process aimed not only to extract chemical compounds from the free t
 	\caption[Parsing Quality for numerical values]{Multiple pH values reported in free text for different solutions leads to mismatches. In contrast the temperature field for crystallization produced almost no mismatches since only one value was given in free text.}
 	\label{fig:enteredVsParsed}
 \end{figure}
+
+Additionally, concentration values were extracted for all compounds whenever available. However, as shown in \autoref{fig:classifiedConcentration}, the majority of entries associated with \gls{peg} did not specify a concentration unit. To integrate these data points into the model, the missing units needed to be imputed. This required analysing the relationship between molecular weight and the convention used for reporting concentrations. \autoref{fig:weight_per_volume_specification_ratio} illustrates this relationship.
+
+In biochemical practice, solids are typically reported as weight-per-volume ($w/v$) concentrations, whereas liquids are reported as volume-per-volume ($v/v$). Since the physical state of \gls{peg} at room temperature depends strongly on its molecular weight, this convention provides a principled basis for inferring missing units. As shown in \autoref{fig:temperatureDistrbution}, crystallization experiments are predominantly performed at room temperature. Under these conditions, \glspl{peg} with molecular weights below approximately 800 Da are generally liquid, while those above this threshold are typically solid. The distribution in \autoref{fig:weight_per_volume_specification_ratio} clearly reflects this transition.
+
+Based on this domain knowledge, missing concentration units were imputed using the following rule: whenever the unit was not specified and the \gls{peg} molecular weight exceeded 800 Da, the concentration was assumed to be given in weight-per-volume. This perturbation step ensured consistent and interpretable concentration features for downstream modelling.
+
+
+
+\begin{figure}[h!]
+	\centering		
+	\begin{subfigure}[t]{0.489\linewidth}
+		\centering
+		\includegraphics[width=\linewidth]{../msc-thesis-code/data/dataExploration/plots/classifiedConcentration}
+		\caption[Unit specification]{ }
+		\label{fig:classifiedConcentration}
+	\end{subfigure}
+	\hspace{0.1cm}
+	\begin{subfigure}[t]{0.489\linewidth}
+		\centering
+		\includegraphics[width=\linewidth]{../msc-thesis-code/data/dataExploration/plots/weight_per_volume_specification_ratio}
+		\caption[Ratio of unit specifications against Molecular weight]{ }
+		\label{fig:weight_per_volume_specification_ratio}
+	\end{subfigure}
+	\caption[\gls{peg} Unit analysis]{\autoref{fig:classifiedConcentration} shows the distribution of named units. For the majority of the parsed PEG concentration no unit was specified. Concentration can be given both in weight per volume and volume per volume. This naming is related to the molecular weight as seen in \autoref{fig:weight_per_volume_specification_ratio}, which shows the relation between molecular weight and how often the unit was specified to be $w/v$ in relation to all named unit appearances.}
+	\label{fig:unitSpecification}
+\end{figure}
+
