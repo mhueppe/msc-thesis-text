@@ -77,6 +77,38 @@
       \verb https://www.sciencedirect.com/science/article/pii/0022024888903028
       \endverb
     \endentry
+    \entry{Devlin2019}{misc}{}{}
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers. Unlike recent language representation models, BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT model can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications. BERT is conceptually simple and empirically powerful. It obtains new state-of-the-art results on eleven natural language processing tasks, including pushing the GLUE score to 80.5\% (7.7\% point absolute improvement), MultiNLI accuracy to 86.7\% (4.6\% absolute improvement), SQuAD v1.1 question answering Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1 (5.1 point absolute improvement).}
+      \field{month}{5}
+      \field{note}{arXiv:1810.04805 [cs]}
+      \field{title}{{BERT}: {Pre}-training of {Deep} {Bidirectional} {Transformers} for {Language} {Understanding}}
+      \field{urlday}{27}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.1810.04805
+      \endverb
+      \verb{file}
+      \verb Preprint PDF:2019 - BERT_ Pre Training of Deep Bidirectional Transformers for Language Understanding.pdf:PDF:http\://arxiv.org/pdf/1810.04805v2
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1810.04805
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1810.04805
+      \endverb
+      \keyw{Computer Science - Computation and Language}
+    \endentry
     \entry{Chayen2001}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=ae7a77010be85d472a4505d87f62d8c5}{%
@@ -582,6 +614,73 @@
       \range{pages}{7}
       \verb{doi}
       \verb 10.1038/s41586-021-03819-2
+      \endverb
+    \endentry
+    \entry{King2024}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=2b0ecee251b3c8ec345e7a2cc2558e8c}{%
+           family={King},
+           familyi={K\bibinitperiod},
+           given={Oliver\bibnamedelimb N.\bibnamedelimi F.},
+           giveni={O\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5e23b3fb81b34417f5a242da2627f8ba}{%
+           family={Levik},
+           familyi={L\bibinitperiod},
+           given={Karl\bibnamedelima E.},
+           giveni={K\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=52e922905f4a768e07fe03f106c74fcd}{%
+           family={Sandy},
+           familyi={S\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=70ae6bac625e6e53a6b70cba221df5f9}{%
+           family={Basham},
+           familyi={B\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f3854859599334c89718631654286377}
+      \strng{fullhash}{f6f9c1112c64fc2415d2ce83bfbd3c17}
+      \strng{fullhashraw}{f6f9c1112c64fc2415d2ce83bfbd3c17}
+      \strng{bibnamehash}{f6f9c1112c64fc2415d2ce83bfbd3c17}
+      \strng{authorbibnamehash}{f6f9c1112c64fc2415d2ce83bfbd3c17}
+      \strng{authornamehash}{f3854859599334c89718631654286377}
+      \strng{authorfullhash}{f6f9c1112c64fc2415d2ce83bfbd3c17}
+      \strng{authorfullhashraw}{f6f9c1112c64fc2415d2ce83bfbd3c17}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{A description is given of new deep-learning tools that analyse experimental micrographs of crystallization experiments to enable the automation of outcome classification, crystal detection and determination of locations to dispense compounds for fragment-based drug discovery at Diamond Light Source., A group of three deep-learning tools, referred to collectively as CHiMP (Crystal Hits in My Plate), were created for analysis of micrographs of protein crystallization experiments at the Diamond Light Source (DLS) synchrotron, UK. The first tool, a classification network, assigns images into categories relating to experimental outcomes. The other two tools are networks that perform both object detection and instance segmentation, resulting in masks of individual crystals in the first case and masks of crystallization droplets in addition to crystals in the second case, allowing the positions and sizes of these entities to be recorded. The creation of these tools used transfer learning, where weights from a pre-trained deep-learning network were used as a starting point and repurposed by further training on a relatively small set of data. Two of the tools are now integrated at the VMXi macromolecular crystallography beamline at DLS, where they have the potential to absolve the need for any user input, both for monitoring crystallization experiments and for triggering in situ data collections. The third is being integrated into the XChem fragment-based drug-discovery screening platform, also at DLS, to allow the automatic targeting of acoustic compound dispensing into crystallization droplets.}
+      \field{issn}{2059-7983}
+      \field{journaltitle}{Acta Crystallographica Section D: Structural Biology}
+      \field{month}{10}
+      \field{number}{Pt 10}
+      \field{shorttitle}{{CHiMP}}
+      \field{title}{{CHiMP}: deep-learning tools trained on protein crystallization micrographs to enable automation of experiments}
+      \field{urlday}{27}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{80}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{744\bibrangedash 764}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1107/S2059798324009276
+      \endverb
+      \verb{urlraw}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC11448919/
+      \endverb
+      \verb{url}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC11448919/
       \endverb
     \endentry
     \entry{Kirkwood2015}{article}{}{}
@@ -1220,6 +1319,119 @@
       \verb 10.1107/S0907444905033202
       \endverb
       \keyw{Ammonium Sulfate,Crystallization,Crystallography,X-Ray,Database Management Systems,Databases,Factual,Databases,Protein,Polyethylene Glycols,Terminology as Topic}
+    \endentry
+    \entry{Rives2021}{article}{}{}
+      \name{author}{11}{}{%
+        {{un=0,uniquepart=base,hash=77c951217a087dd3f5981a0a79a87222}{%
+           family={Rives},
+           familyi={R\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=da5c8b718ba12127f53fc1f899600a79}{%
+           family={Meier},
+           familyi={M\bibinitperiod},
+           given={Joshua},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=21e17f70ffb714b5a29005c2a54cec93}{%
+           family={Sercu},
+           familyi={S\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7248a724d5b9c938f0548c4190670225}{%
+           family={Goyal},
+           familyi={G\bibinitperiod},
+           given={Siddharth},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c40352c194e60a3ef458ee7e8685afb5}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Zeming},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=249e46ca35f12b4af5a5440812627786}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d88c28182afb70b00173f1941543c0dd}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Demi},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b13aa2bad5258fa5ef7a733f2d305a49}{%
+           family={Ott},
+           familyi={O\bibinitperiod},
+           given={Myle},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0eae2d56a9cbb037c64028d6573877a7}{%
+           family={Zitnick},
+           familyi={Z\bibinitperiod},
+           given={C.\bibnamedelimi Lawrence},
+           giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e9e85766c666f77671e38d1698140090}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Jerry},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a6784304d1cc890b2cb6c6c7f2f3fd76}{%
+           family={Fergus},
+           familyi={F\bibinitperiod},
+           given={Rob},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Proceedings of the National Academy of Sciences}%
+      }
+      \strng{namehash}{7c95cea6349a7985f77e5b3fcc494ed6}
+      \strng{fullhash}{292a283f55142c3b83270343322f26e3}
+      \strng{fullhashraw}{292a283f55142c3b83270343322f26e3}
+      \strng{bibnamehash}{292a283f55142c3b83270343322f26e3}
+      \strng{authorbibnamehash}{292a283f55142c3b83270343322f26e3}
+      \strng{authornamehash}{7c95cea6349a7985f77e5b3fcc494ed6}
+      \strng{authorfullhash}{292a283f55142c3b83270343322f26e3}
+      \strng{authorfullhashraw}{292a283f55142c3b83270343322f26e3}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In the field of artificial intelligence, a combination of scale in data and model capacity enabled by unsupervised learning has led to major advances in representation learning and statistical generation. In the life sciences, the anticipated growth of sequencing promises unprecedented data on natural sequence diversity. Protein language modeling at the scale of evolution is a logical step toward predictive and generative artificial intelligence for biology. To this end, we use unsupervised learning to train a deep contextual language model on 86 billion amino acids across 250 million protein sequences spanning evolutionary diversity. The resulting model contains information about biological properties in its representations. The representations are learned from sequence data alone. The learned representation space has a multiscale organization reflecting structure from the level of biochemical properties of amino acids to remote homology of proteins. Information about secondary and tertiary structure is encoded in the representations and can be identified by linear projections. Representation learning produces features that generalize across a range of applications, enabling state-of-the-art supervised prediction of mutational effect and secondary structure and improving state-of-the-art features for long-range contact prediction.}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{month}{4}
+      \field{number}{15}
+      \field{title}{Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences}
+      \field{urlday}{6}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{118}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{e2016239118}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1073/pnas.2016239118
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:https\://www.pnas.org/doi/pdf/10.1073/pnas.2016239118:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.pnas.org/doi/full/10.1073/pnas.2016239118
+      \endverb
+      \verb{url}
+      \verb https://www.pnas.org/doi/full/10.1073/pnas.2016239118
+      \endverb
     \endentry
     \entry{Terwilliger2024}{article}{}{}
       \name{author}{11}{}{%
@@ -1545,6 +1757,38 @@
       \verb https://www.sciencedirect.com/science/article/pii/0022024888903028
       \endverb
     \endentry
+    \entry{Devlin2019}{misc}{}{}
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers. Unlike recent language representation models, BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT model can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications. BERT is conceptually simple and empirically powerful. It obtains new state-of-the-art results on eleven natural language processing tasks, including pushing the GLUE score to 80.5\% (7.7\% point absolute improvement), MultiNLI accuracy to 86.7\% (4.6\% absolute improvement), SQuAD v1.1 question answering Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1 (5.1 point absolute improvement).}
+      \field{month}{5}
+      \field{note}{arXiv:1810.04805 [cs]}
+      \field{title}{{BERT}: {Pre}-training of {Deep} {Bidirectional} {Transformers} for {Language} {Understanding}}
+      \field{urlday}{27}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.1810.04805
+      \endverb
+      \verb{file}
+      \verb Preprint PDF:2019 - BERT_ Pre Training of Deep Bidirectional Transformers for Language Understanding.pdf:PDF:http\://arxiv.org/pdf/1810.04805v2
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1810.04805
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1810.04805
+      \endverb
+      \keyw{Computer Science - Computation and Language}
+    \endentry
     \entry{Chayen2001}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=ae7a77010be85d472a4505d87f62d8c5}{%
@@ -2050,6 +2294,73 @@
       \range{pages}{7}
       \verb{doi}
       \verb 10.1038/s41586-021-03819-2
+      \endverb
+    \endentry
+    \entry{King2024}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=2b0ecee251b3c8ec345e7a2cc2558e8c}{%
+           family={King},
+           familyi={K\bibinitperiod},
+           given={Oliver\bibnamedelimb N.\bibnamedelimi F.},
+           giveni={O\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5e23b3fb81b34417f5a242da2627f8ba}{%
+           family={Levik},
+           familyi={L\bibinitperiod},
+           given={Karl\bibnamedelima E.},
+           giveni={K\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=52e922905f4a768e07fe03f106c74fcd}{%
+           family={Sandy},
+           familyi={S\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=70ae6bac625e6e53a6b70cba221df5f9}{%
+           family={Basham},
+           familyi={B\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f3854859599334c89718631654286377}
+      \strng{fullhash}{f6f9c1112c64fc2415d2ce83bfbd3c17}
+      \strng{fullhashraw}{f6f9c1112c64fc2415d2ce83bfbd3c17}
+      \strng{bibnamehash}{f6f9c1112c64fc2415d2ce83bfbd3c17}
+      \strng{authorbibnamehash}{f6f9c1112c64fc2415d2ce83bfbd3c17}
+      \strng{authornamehash}{f3854859599334c89718631654286377}
+      \strng{authorfullhash}{f6f9c1112c64fc2415d2ce83bfbd3c17}
+      \strng{authorfullhashraw}{f6f9c1112c64fc2415d2ce83bfbd3c17}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{A description is given of new deep-learning tools that analyse experimental micrographs of crystallization experiments to enable the automation of outcome classification, crystal detection and determination of locations to dispense compounds for fragment-based drug discovery at Diamond Light Source., A group of three deep-learning tools, referred to collectively as CHiMP (Crystal Hits in My Plate), were created for analysis of micrographs of protein crystallization experiments at the Diamond Light Source (DLS) synchrotron, UK. The first tool, a classification network, assigns images into categories relating to experimental outcomes. The other two tools are networks that perform both object detection and instance segmentation, resulting in masks of individual crystals in the first case and masks of crystallization droplets in addition to crystals in the second case, allowing the positions and sizes of these entities to be recorded. The creation of these tools used transfer learning, where weights from a pre-trained deep-learning network were used as a starting point and repurposed by further training on a relatively small set of data. Two of the tools are now integrated at the VMXi macromolecular crystallography beamline at DLS, where they have the potential to absolve the need for any user input, both for monitoring crystallization experiments and for triggering in situ data collections. The third is being integrated into the XChem fragment-based drug-discovery screening platform, also at DLS, to allow the automatic targeting of acoustic compound dispensing into crystallization droplets.}
+      \field{issn}{2059-7983}
+      \field{journaltitle}{Acta Crystallographica Section D: Structural Biology}
+      \field{month}{10}
+      \field{number}{Pt 10}
+      \field{shorttitle}{{CHiMP}}
+      \field{title}{{CHiMP}: deep-learning tools trained on protein crystallization micrographs to enable automation of experiments}
+      \field{urlday}{27}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{80}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{744\bibrangedash 764}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1107/S2059798324009276
+      \endverb
+      \verb{urlraw}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC11448919/
+      \endverb
+      \verb{url}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC11448919/
       \endverb
     \endentry
     \entry{Kirkwood2015}{article}{}{}
@@ -2688,6 +2999,119 @@
       \verb 10.1107/S0907444905033202
       \endverb
       \keyw{Ammonium Sulfate,Crystallization,Crystallography,X-Ray,Database Management Systems,Databases,Factual,Databases,Protein,Polyethylene Glycols,Terminology as Topic}
+    \endentry
+    \entry{Rives2021}{article}{}{}
+      \name{author}{11}{}{%
+        {{un=0,uniquepart=base,hash=77c951217a087dd3f5981a0a79a87222}{%
+           family={Rives},
+           familyi={R\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=da5c8b718ba12127f53fc1f899600a79}{%
+           family={Meier},
+           familyi={M\bibinitperiod},
+           given={Joshua},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=21e17f70ffb714b5a29005c2a54cec93}{%
+           family={Sercu},
+           familyi={S\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7248a724d5b9c938f0548c4190670225}{%
+           family={Goyal},
+           familyi={G\bibinitperiod},
+           given={Siddharth},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c40352c194e60a3ef458ee7e8685afb5}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Zeming},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=249e46ca35f12b4af5a5440812627786}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d88c28182afb70b00173f1941543c0dd}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Demi},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b13aa2bad5258fa5ef7a733f2d305a49}{%
+           family={Ott},
+           familyi={O\bibinitperiod},
+           given={Myle},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0eae2d56a9cbb037c64028d6573877a7}{%
+           family={Zitnick},
+           familyi={Z\bibinitperiod},
+           given={C.\bibnamedelimi Lawrence},
+           giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e9e85766c666f77671e38d1698140090}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Jerry},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a6784304d1cc890b2cb6c6c7f2f3fd76}{%
+           family={Fergus},
+           familyi={F\bibinitperiod},
+           given={Rob},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Proceedings of the National Academy of Sciences}%
+      }
+      \strng{namehash}{7c95cea6349a7985f77e5b3fcc494ed6}
+      \strng{fullhash}{292a283f55142c3b83270343322f26e3}
+      \strng{fullhashraw}{292a283f55142c3b83270343322f26e3}
+      \strng{bibnamehash}{292a283f55142c3b83270343322f26e3}
+      \strng{authorbibnamehash}{292a283f55142c3b83270343322f26e3}
+      \strng{authornamehash}{7c95cea6349a7985f77e5b3fcc494ed6}
+      \strng{authorfullhash}{292a283f55142c3b83270343322f26e3}
+      \strng{authorfullhashraw}{292a283f55142c3b83270343322f26e3}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In the field of artificial intelligence, a combination of scale in data and model capacity enabled by unsupervised learning has led to major advances in representation learning and statistical generation. In the life sciences, the anticipated growth of sequencing promises unprecedented data on natural sequence diversity. Protein language modeling at the scale of evolution is a logical step toward predictive and generative artificial intelligence for biology. To this end, we use unsupervised learning to train a deep contextual language model on 86 billion amino acids across 250 million protein sequences spanning evolutionary diversity. The resulting model contains information about biological properties in its representations. The representations are learned from sequence data alone. The learned representation space has a multiscale organization reflecting structure from the level of biochemical properties of amino acids to remote homology of proteins. Information about secondary and tertiary structure is encoded in the representations and can be identified by linear projections. Representation learning produces features that generalize across a range of applications, enabling state-of-the-art supervised prediction of mutational effect and secondary structure and improving state-of-the-art features for long-range contact prediction.}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{month}{4}
+      \field{number}{15}
+      \field{title}{Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences}
+      \field{urlday}{6}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{118}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{e2016239118}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1073/pnas.2016239118
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:https\://www.pnas.org/doi/pdf/10.1073/pnas.2016239118:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.pnas.org/doi/full/10.1073/pnas.2016239118
+      \endverb
+      \verb{url}
+      \verb https://www.pnas.org/doi/full/10.1073/pnas.2016239118
+      \endverb
     \endentry
     \entry{Terwilliger2024}{article}{}{}
       \name{author}{11}{}{%
