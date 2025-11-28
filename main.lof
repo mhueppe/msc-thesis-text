@@ -50,22 +50,32 @@
 \contentsline {subfigure}{\numberline {b}{\ignorespaces Surface feature ks distance of chemicals}}{27}{figure.caption.57}%
 \contentsline {figure}{\numberline {3.17}{\ignorespaces Scores: 0.99, 0.97, 0.90, 0.3}}{28}{figure.caption.60}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Sequence Embedding for protein information and pH}}{30}{figure.caption.64}%
+\contentsline {subfigure}{\numberline {a}{\ignorespaces Protein sequence embedding}}{30}{figure.caption.64}%
+\contentsline {subfigure}{\numberline {b}{\ignorespaces pH sequence embedding}}{30}{figure.caption.64}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Relation of protein to condition}}{31}{figure.caption.65}%
+\contentsline {subfigure}{\numberline {a}{\ignorespaces \gls {peg} co-occurence}}{31}{figure.caption.65}%
+\contentsline {subfigure}{\numberline {b}{\ignorespaces Protein vs. pH/temperature}}{31}{figure.caption.65}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Surface point cloud auto-encoder examples}}{32}{figure.caption.67}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Condition Embedding Analysis}}{34}{figure.caption.70}%
+\contentsline {subfigure}{\numberline {a}{\ignorespaces Condition Embedding}}{34}{figure.caption.70}%
+\contentsline {subfigure}{\numberline {b}{\ignorespaces Cosine Similarity Analysis}}{34}{figure.caption.70}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Most common crystallization methods}}{35}{figure.caption.69}%
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Temperature / pH correlation with surface features}}{36}{figure.caption.70}%
-\contentsline {figure}{\numberline {A.3}{\ignorespaces Surface feature distributions}}{37}{figure.caption.71}%
-\contentsline {subfigure}{\numberline {a}{\ignorespaces Distributions normalized surface net charge}}{37}{figure.caption.71}%
-\contentsline {subfigure}{\numberline {b}{\ignorespaces Distributions surface entropy}}{37}{figure.caption.71}%
-\contentsline {subfigure}{\numberline {c}{\ignorespaces Distributions SASA skewness}}{37}{figure.caption.71}%
-\contentsline {subfigure}{\numberline {d}{\ignorespaces Distributions side chain fraction}}{37}{figure.caption.71}%
-\contentsline {subfigure}{\numberline {e}{\ignorespaces Distributions normalized roughness}}{37}{figure.caption.71}%
-\contentsline {subfigure}{\numberline {f}{\ignorespaces Distributions hydro polar contrast}}{37}{figure.caption.71}%
-\contentsline {figure}{\numberline {A.4}{\ignorespaces Surface feature distributions}}{38}{figure.caption.72}%
-\contentsline {subfigure}{\numberline {a}{\ignorespaces Distributions normalized surface net charge}}{38}{figure.caption.72}%
-\contentsline {subfigure}{\numberline {b}{\ignorespaces Distributions surface entropy}}{38}{figure.caption.72}%
-\contentsline {subfigure}{\numberline {c}{\ignorespaces Distributions SASA skewness}}{38}{figure.caption.72}%
-\contentsline {subfigure}{\numberline {d}{\ignorespaces Distributions side chain fraction}}{38}{figure.caption.72}%
-\contentsline {subfigure}{\numberline {e}{\ignorespaces Distributions normalized roughness}}{38}{figure.caption.72}%
-\contentsline {subfigure}{\numberline {f}{\ignorespaces Distributions hydro polar contrast}}{38}{figure.caption.72}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Most common crystallization methods}}{39}{figure.caption.74}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Temperature / pH correlation with surface features}}{40}{figure.caption.75}%
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Surface feature distributions}}{41}{figure.caption.76}%
+\contentsline {subfigure}{\numberline {a}{\ignorespaces Distributions normalized surface net charge}}{41}{figure.caption.76}%
+\contentsline {subfigure}{\numberline {b}{\ignorespaces Distributions surface entropy}}{41}{figure.caption.76}%
+\contentsline {subfigure}{\numberline {c}{\ignorespaces Distributions SASA skewness}}{41}{figure.caption.76}%
+\contentsline {subfigure}{\numberline {d}{\ignorespaces Distributions side chain fraction}}{41}{figure.caption.76}%
+\contentsline {subfigure}{\numberline {e}{\ignorespaces Distributions normalized roughness}}{41}{figure.caption.76}%
+\contentsline {subfigure}{\numberline {f}{\ignorespaces Distributions hydro polar contrast}}{41}{figure.caption.76}%
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Surface feature distributions}}{42}{figure.caption.77}%
+\contentsline {subfigure}{\numberline {a}{\ignorespaces Distributions normalized surface net charge}}{42}{figure.caption.77}%
+\contentsline {subfigure}{\numberline {b}{\ignorespaces Distributions surface entropy}}{42}{figure.caption.77}%
+\contentsline {subfigure}{\numberline {c}{\ignorespaces Distributions SASA skewness}}{42}{figure.caption.77}%
+\contentsline {subfigure}{\numberline {d}{\ignorespaces Distributions side chain fraction}}{42}{figure.caption.77}%
+\contentsline {subfigure}{\numberline {e}{\ignorespaces Distributions normalized roughness}}{42}{figure.caption.77}%
+\contentsline {subfigure}{\numberline {f}{\ignorespaces Distributions hydro polar contrast}}{42}{figure.caption.77}%

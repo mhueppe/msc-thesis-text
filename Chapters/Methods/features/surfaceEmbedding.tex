@@ -1,0 +1,31 @@
+\subsection{Surface Embedding}\label{methods/feature_engineering/surface_embedding}
+
+As shown in \autoref{sec:data_analysis/multivariate_analysis}, surface features provide predictive value for determining the crystallization conditions of a protein. It is therefore reasonable for a model to receive some representation of the protein surface. However, the \gls{pdb} does not explicitly store surface information. Instead, the surface is typically estimated using the Shrake–Rupley algorithm. In this method, a probe sphere of fixed radius (often approximating a water molecule) is conceptually rolled across the protein’s van der Waals surface \parencite{Shrake1973}. The protein is treated as a collection of atoms with known radii, and the locus traced by the center of the probe defines the \gls{sasa}.
+
+There are several ways to numerically represent this surface. A prominent approach is \gls{masif} \parencite{Gainza2020}, which introduced a geometric deep-learning framework for extracting “surface fingerprints.”
+\gls{masif} represents protein surfaces as triangular meshes derived from the solvent-accessible surface. Each vertex is annotated with geometric features, such as curvature, normals, and geodesic distances and physicochemical features, including electrostatics and hydropathy. These features are processed using geometric convolutional networks, which operate on patches extracted from the surface.
+\gls{masif} demonstrated that such surface descriptors are powerful for predicting protein-protein interaction sites, ligand binding regions, and molecular complementarity. However, mesh-based representations come with drawbacks. They require expensive precomputation of meshes and vertex-level features, geometric convolutions on meshes are computationally heavy, and the pipeline is sensitive to mesh quality.
+
+To address these limitations \textcite{Sverrisson2020} proposed \gls{dmasif} a differential, point-based alternative. Instead of precomputing meshes, \gls{dmasif} generates point clouds directly from atomic coordinates using differentiable surface estimation techniques. This eliminates the need for mesh extraction and feature preprocessing.
+\gls{dmasif} then applies learned continuous convolution kernels over local neighborhoods in the point cloud. These kernels operate on both geometric cues (normals, curvature estimates) and chemical features inferred from nearby atoms. Because the surface is built on the fly and does not depend on mesh discretization, the method is significantly faster, more memory-efficient, and easier to integrate into end-to-end learning pipelines.
+
+The authors show that \gls{dmasif} achieves equal or superior performance to \gls{masif} on tasks such as protein–protein interface prediction, ligand binding site identification, and binding partner retrieval—while running up to an order of magnitude faster. Their results highlight that surface-based learning benefits from flexible, differentiable representations and that mesh-free methods provide a scalable direction for modeling protein structure.
+
+\begin{figure}[h!]
+	\centering		
+	\begin{subfigure}[t]{0.45\linewidth}
+		\centering
+		\includegraphics[width=\linewidth]{../msc-thesis-code/data/dataExploration/plots/reconstruction}
+	\end{subfigure}
+	\begin{subfigure}[t]{0.45\linewidth}
+		\centering
+		\includegraphics[width=\linewidth]{../msc-thesis-code/data/dataExploration/plots/reconstruction2}
+	\end{subfigure}
+	\caption[Surface point cloud auto-encoder examples]{Examples of original (blue) and latent space reconstructed protein surface (red) using a custom protein point cloud auto-encoder. The general surface is captured well which means the latent embedding captures enough information about the surface to be successfully reconstructed.}
+	\label{fig:proteinPointCloudAutoencoder}
+\end{figure}
+
+
+To represent the protein surface in this thesis, \gls{dmasif} was chosen for its computational efficiency. However, running continuous convolution kernels on the generated point clouds remains costly and increases the model size. To mitigate this, a separate model was introduced based on the point cloud autoencoder proposed by \textcite{Yan2023}.
+
+In this architecture, a point cloud encoder compresses the surface point cloud into a low-dimensional latent vector by progressively aggregating geometric and spatial features from the input points. A decoder then reconstructs the point cloud from this latent representation by predicting a set of points that approximates the original surface. Through reconstruction training, the encoder learns to extract a compact yet informative embedding of the protein surface, which can be used efficiently during downstream prediction tasks without requiring the full \gls{dmasif} convolution pipeline. \autoref{fig:proteinPointCloudAutoencoder} shows examples of the original protein surfaces (blue) and their reconstructions (red) obtained from a 128-dimensional latent vector. After optimization of the reconstruction loss, the autoencoder successfully learns a latent representation that preserves the overall geometry of the surface, enabling accurate and sufficiently detailed reconstructions.

@@ -77,38 +77,6 @@
       \verb https://www.sciencedirect.com/science/article/pii/0022024888903028
       \endverb
     \endentry
-    \entry{Devlin2019}{misc}{}{}
-      \list{publisher}{1}{%
-        {arXiv}%
-      }
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labeltitlesource}{title}
-      \field{abstract}{We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers. Unlike recent language representation models, BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT model can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications. BERT is conceptually simple and empirically powerful. It obtains new state-of-the-art results on eleven natural language processing tasks, including pushing the GLUE score to 80.5\% (7.7\% point absolute improvement), MultiNLI accuracy to 86.7\% (4.6\% absolute improvement), SQuAD v1.1 question answering Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1 (5.1 point absolute improvement).}
-      \field{month}{5}
-      \field{note}{arXiv:1810.04805 [cs]}
-      \field{title}{{BERT}: {Pre}-training of {Deep} {Bidirectional} {Transformers} for {Language} {Understanding}}
-      \field{urlday}{27}
-      \field{urlmonth}{11}
-      \field{urlyear}{2025}
-      \field{year}{2019}
-      \field{urldateera}{ce}
-      \verb{doi}
-      \verb 10.48550/arXiv.1810.04805
-      \endverb
-      \verb{file}
-      \verb Preprint PDF:2019 - BERT_ Pre Training of Deep Bidirectional Transformers for Language Understanding.pdf:PDF:http\://arxiv.org/pdf/1810.04805v2
-      \endverb
-      \verb{urlraw}
-      \verb http://arxiv.org/abs/1810.04805
-      \endverb
-      \verb{url}
-      \verb http://arxiv.org/abs/1810.04805
-      \endverb
-      \keyw{Computer Science - Computation and Language}
-    \endentry
     \entry{Chayen2001}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=ae7a77010be85d472a4505d87f62d8c5}{%
@@ -167,6 +135,100 @@
       \verb https://www.sciencedirect.com/science/article/pii/S0022024801012039
       \endverb
       \keyw{A1.Biocrystallization,A1.Nucleation,A1.Surfaces,B1.Biological macromolecules,B1. Lysozyme,B1.Proteins}
+    \endentry
+    \entry{Gainza2020}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=1a9fc988a5f77ccee00c5d1f45cbdba5}{%
+           family={Gainza},
+           familyi={G\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c2d94a178a59beea25f96b0c7f5b03da}{%
+           family={Sverrisson},
+           familyi={S\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=088055f86e6b25e7fe98a71c2035ef43}{%
+           family={Monti},
+           familyi={M\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0d6ebeea7575ebbe6de481820b17ce79}{%
+           family={Rodolà},
+           familyi={R\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=373820ed5dc49d4a83e328076a4d061b}{%
+           family={Boscaini},
+           familyi={B\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3378643ad337f0831df40a3159bd8e23}{%
+           family={Bronstein},
+           familyi={B\bibinitperiod},
+           given={M.\bibnamedelimi M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=25be7ad971aac470dd6c5a7105bf55b3}{%
+           family={Correia},
+           familyi={C\bibinitperiod},
+           given={B.\bibnamedelimi E.},
+           giveni={B\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{1778a794a97f4497602dd7105df67341}
+      \strng{fullhash}{c0b7f7e339c39cbff616cda163525bbf}
+      \strng{fullhashraw}{c0b7f7e339c39cbff616cda163525bbf}
+      \strng{bibnamehash}{c0b7f7e339c39cbff616cda163525bbf}
+      \strng{authorbibnamehash}{c0b7f7e339c39cbff616cda163525bbf}
+      \strng{authornamehash}{1778a794a97f4497602dd7105df67341}
+      \strng{authorfullhash}{c0b7f7e339c39cbff616cda163525bbf}
+      \strng{authorfullhashraw}{c0b7f7e339c39cbff616cda163525bbf}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Predicting interactions between proteins and other biomolecules solely based on structure remains a challenge in biology. A high-level representation of protein structure, the molecular surface, displays patterns of chemical and geometric features that fingerprint a protein’s modes of interactions with other biomolecules. We hypothesize that proteins participating in similar interactions may share common fingerprints, independent of their evolutionary history. Fingerprints may be difficult to grasp by visual analysis but could be learned from large-scale datasets. We present MaSIF (molecular surface interaction fingerprinting), a conceptual framework based on a geometric deep learning method to capture fingerprints that are important for specific biomolecular interactions. We showcase MaSIF with three prediction challenges: protein pocket-ligand prediction, protein–protein interaction site prediction and ultrafast scanning of protein surfaces for prediction of protein–protein complexes. We anticipate that our conceptual framework will lead to improvements in our understanding of protein function and design.}
+      \field{issn}{1548-7105}
+      \field{journaltitle}{Nature Methods}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{Deciphering interaction fingerprints from protein molecular surfaces using geometric deep learning}
+      \field{urlday}{28}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{17}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \field{pages}{184\bibrangedash 192}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1038/s41592-019-0666-6
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:Gainza2020 - Deciphering Interaction Fingerprints from Protein Molecular Surfaces Using Geometric Deep Learning.pdf:PDF:https\://www.nature.com/articles/s41592-019-0666-6.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41592-019-0666-6
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41592-019-0666-6
+      \endverb
+      \keyw{Machine learning,Protein function predictions,Protein structure predictions,Proteins}
     \endentry
     \entry{Ghosh2023}{article}{}{}
       \name{author}{1}{}{%
@@ -1433,6 +1495,137 @@
       \verb https://www.pnas.org/doi/full/10.1073/pnas.2016239118
       \endverb
     \endentry
+    \entry{Shrake1973}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=dbe010d321e5351f6eac2e9887610189}{%
+           family={Shrake},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f22bcdc1c8d1fc5bb83de8b04d85aae6}{%
+           family={Rupley},
+           familyi={R\bibinitperiod},
+           given={J.\bibnamedelimi A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c13232736f2ec00e39f3406509f86160}
+      \strng{fullhash}{c13232736f2ec00e39f3406509f86160}
+      \strng{fullhashraw}{c13232736f2ec00e39f3406509f86160}
+      \strng{bibnamehash}{c13232736f2ec00e39f3406509f86160}
+      \strng{authorbibnamehash}{c13232736f2ec00e39f3406509f86160}
+      \strng{authornamehash}{c13232736f2ec00e39f3406509f86160}
+      \strng{authorfullhash}{c13232736f2ec00e39f3406509f86160}
+      \strng{authorfullhashraw}{c13232736f2ec00e39f3406509f86160}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A computer program is described for calculating the environment and the exposure to solvent of atoms of a protein. The computation is based on the atomic co-ordinates of the protein and on assumptions like those of Lee \& Richards (1971). Results for lysozyme and insulin are presented. Changes in exposure to solvent and in the nature of contacts that develop through folding, association reactions and crystallization are described numerically. The computations suggest several generalizations. (a) Lattice contacts within the protein crystal are characterized by a significantly smaller involvement of non-polar side chains and a proportionately greater involvement of ionizable side chains than is found for protein folding or for protein association reactions important for biological function, (b) In helical regions the carbonyl oxygen of the first residue in the helix has high probability of being shielded from solvent, (c) Glycine is among the residues having exposure least affected by folding; this accords with the expectation that it lies at bends of the peptide chain on the surface of the molecule.}
+      \field{issn}{0022-2836}
+      \field{journaltitle}{Journal of Molecular Biology}
+      \field{month}{9}
+      \field{number}{2}
+      \field{title}{Environment and exposure to solvent of protein atoms. {Lysozyme} and insulin}
+      \field{urlday}{28}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{79}
+      \field{year}{1973}
+      \field{urldateera}{ce}
+      \field{pages}{351\bibrangedash 371}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1016/0022-2836(73)90011-9
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:https\://www.sciencedirect.com/science/article/pii/0022283673900119/pdf?md5=3895ee6e9c4ab6f65bbd1c60464b4533&pid=1-s2.0-0022283673900119-main.pdf&isDTMRedir=Y:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/0022283673900119
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/0022283673900119
+      \endverb
+    \endentry
+    \entry{Sverrisson2020}{report}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=633425219f9c7ae113278834aad2f823}{%
+           family={Sverrisson},
+           familyi={S\bibinitperiod},
+           given={Freyr},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e7a326d1eb18178c7016ac80ecb9e809}{%
+           family={Feydy},
+           familyi={F\bibinitperiod},
+           given={Jean},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cfac0a90e7842366bd0d9bb5d7d7fe62}{%
+           family={Correia},
+           familyi={C\bibinitperiod},
+           given={Bruno\bibnamedelima E.},
+           giveni={B\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a0c6e9e0629d03c0bfec15575c55c598}{%
+           family={Bronstein},
+           familyi={B\bibinitperiod},
+           given={Michael\bibnamedelima M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {bioRxiv}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{1092c68c87afa167c9ed9ba341f817e6}
+      \strng{fullhash}{e451599176b8e39522e350f9a38f8e66}
+      \strng{fullhashraw}{e451599176b8e39522e350f9a38f8e66}
+      \strng{bibnamehash}{e451599176b8e39522e350f9a38f8e66}
+      \strng{authorbibnamehash}{e451599176b8e39522e350f9a38f8e66}
+      \strng{authornamehash}{1092c68c87afa167c9ed9ba341f817e6}
+      \strng{authorfullhash}{e451599176b8e39522e350f9a38f8e66}
+      \strng{authorfullhashraw}{e451599176b8e39522e350f9a38f8e66}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Proteins’ biological functions are defined by the geometric and chemical structure of their 3D molecular surfaces. Recent works have shown that geometric deep learning can be used on mesh-based representations of proteins to identify potential functional sites, such as binding targets for potential drugs. Unfortunately though, the use of meshes as the underlying representation for protein structure has multiple drawbacks including the need to pre-compute the input features and mesh connectivities. This becomes a bottleneck for many important tasks in protein science. In this paper, we present a new framework for deep learning on protein structures that addresses these limitations. Among the key advantages of our method are the computation and sampling of the molecular surface on-the-fly from the underlying atomic point cloud and a novel efficient geometric convolutional layer. As a result, we are able to process large collections of proteins in an end-to-end fashion, taking as the sole input the raw 3D coordinates and chemical types of their atoms, eliminating the need for any hand-crafted pre-computed features. To showcase the performance of our approach, we test it on two tasks in the field of protein structural bioinformatics: the identification of interaction sites and the prediction of protein-protein interactions. On both tasks, we achieve state-of-the-art performance with much faster run times and fewer parameters than previous models. These results will considerably ease the deployment of deep learning methods in protein science and open the door for end-to-end differentiable approaches in protein modeling tasks such as function prediction and design.}
+      \field{chapter}{New Results}
+      \field{month}{12}
+      \field{note}{Type: article}
+      \field{title}{Fast end-to-end learning on protein surfaces}
+      \field{type}{techreport}
+      \field{urlday}{6}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \field{pages}{2020.12.28.424589}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1101/2020.12.28.424589
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:https\://www.biorxiv.org/content/biorxiv/early/2020/12/29/2020.12.28.424589.full.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.biorxiv.org/content/10.1101/2020.12.28.424589v1
+      \endverb
+      \verb{url}
+      \verb https://www.biorxiv.org/content/10.1101/2020.12.28.424589v1
+      \endverb
+    \endentry
     \entry{Terwilliger2024}{article}{}{}
       \name{author}{11}{}{%
         {{un=0,uniquepart=base,hash=4446e1f3e24795e7ea7b1adf8afa5be2}{%
@@ -1551,6 +1744,92 @@
       \endverb
       \keyw{Protein analysis,Protein structure predictions,X-ray crystallography}
     \endentry
+    \entry{Wang2022}{article}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=cce05cab2c437e9c128f853684ee3137}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Liang},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a44174a97a52d8b64289ef831cb1ac37}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Nan},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=026d1f57876191243f47c0ec47352891}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Xiaolong},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4004dbf348d942ab3cd1859ce702127f}{%
+           family={Jiao},
+           familyi={J\bibinitperiod},
+           given={Binxing},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=312f531e29a4681ac2abc9a6ebcde92a}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Linjun},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fffb2e1d40009032d73404c4f8e287ec}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Daxin},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=91d8356734700015f7c8f8a7303609f3}{%
+           family={Majumder},
+           familyi={M\bibinitperiod},
+           given={Rangan},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e5bfd490d91c5d1b935092ce3132a083}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Furu},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e9012e3e3adcfce14161e542a312bb44}
+      \strng{fullhash}{b5e540a233ffb4679ee19ed42a818ac4}
+      \strng{fullhashraw}{b5e540a233ffb4679ee19ed42a818ac4}
+      \strng{bibnamehash}{b5e540a233ffb4679ee19ed42a818ac4}
+      \strng{authorbibnamehash}{b5e540a233ffb4679ee19ed42a818ac4}
+      \strng{authornamehash}{e9012e3e3adcfce14161e542a312bb44}
+      \strng{authorfullhash}{b5e540a233ffb4679ee19ed42a818ac4}
+      \strng{authorfullhashraw}{b5e540a233ffb4679ee19ed42a818ac4}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper presents E5, a family of state-of-the-art text embeddings that transfer well to a wide range of tasks. The model is trained in a contrastive manner with weak supervision signals from our curated large-scale text pair dataset (called CCPairs). E5 can be readily used as a general-purpose embedding model for any tasks requiring a single-vector representation of texts such as retrieval, clustering, and classification, achieving strong performance in both zero-shot and fine-tuned settings. We conduct extensive evaluations on 56 datasets from the BEIR and MTEB benchmarks. For zero-shot settings, E5 is the first model that outperforms the strong BM25 baseline on the BEIR retrieval benchmark without using any labeled data. When fine-tuned, E5 obtains the best results on the MTEB benchmark, beating existing embedding models with 40x more parameters.}
+      \field{annotation}{[TLDR] E5 is the first model that outperforms the strong BM25 baseline on the BEIR retrieval benchmark without using any labeled data, and when fine-tuned, E5 obtains the best results on the MTEB benchmark, beating existing embedding models with 40x more parameters.}
+      \field{journaltitle}{ArXiv}
+      \field{month}{12}
+      \field{title}{Text {Embeddings} by {Weakly}-{Supervised} {Contrastive} {Pre}-training}
+      \field{urlday}{28}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Full Text PDF:Wang2022 - Text Embeddings by Weakly Supervised Contrastive Pre Training.pdf:PDF:https\://arxiv.org/pdf/2212.03533.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.semanticscholar.org/paper/Text-Embeddings-by-Weakly-Supervised-Contrastive-Wang-Yang/5a3c1afe73d8bcc8288d17cb17be2baec8a98464
+      \endverb
+      \verb{url}
+      \verb https://www.semanticscholar.org/paper/Text-Embeddings-by-Weakly-Supervised-Contrastive-Wang-Yang/5a3c1afe73d8bcc8288d17cb17be2baec8a98464
+      \endverb
+    \endentry
     \entry{Wilson2014}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=80d4d72427847aa1bef71b0276b88f4f}{%
@@ -1613,6 +1892,86 @@
       \endverb
       \verb{url}
       \verb //journals.iucr.org/paper?en5549
+      \endverb
+    \endentry
+    \entry{Yan2023}{misc}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=033f1ce145f4b80a07bd0384c83378f7}{%
+           family={Yan},
+           familyi={Y\bibinitperiod},
+           given={Siming},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d62e7ffcc209c139873ba89bd1be906d}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Zhenpei},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2f73f7048f4647dd5c65b4c4630d00e0}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Haoxiang},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c7a8ba28ba2aa71662ac2a98c63398bd}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Chen},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9f61f4d20d3ca9e53e445d91a7663b0d}{%
+           family={Guan},
+           familyi={G\bibinitperiod},
+           given={Li},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dab70d591a330d9a459610be40d59923}{%
+           family={Kang},
+           familyi={K\bibinitperiod},
+           given={Hao},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=46d2f1df658204626b940f778e0f7e82}{%
+           family={Hua},
+           familyi={H\bibinitperiod},
+           given={Gang},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=90296b22383e2e87596451120ca7e80b}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Qixing},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7e92604b62776613853b2e9f2eae5e72}
+      \strng{fullhash}{c13154c61526040264d8e68324c21dd8}
+      \strng{fullhashraw}{c13154c61526040264d8e68324c21dd8}
+      \strng{bibnamehash}{c13154c61526040264d8e68324c21dd8}
+      \strng{authorbibnamehash}{c13154c61526040264d8e68324c21dd8}
+      \strng{authornamehash}{7e92604b62776613853b2e9f2eae5e72}
+      \strng{authorfullhash}{c13154c61526040264d8e68324c21dd8}
+      \strng{authorfullhashraw}{c13154c61526040264d8e68324c21dd8}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.CV}
+      \field{eprinttype}{arXiv}
+      \field{title}{Implicit Autoencoder for Point-Cloud Self-Supervised Representation Learning}
+      \field{year}{2023}
+      \verb{eprint}
+      \verb 2201.00785
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2201.00785
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2201.00785
       \endverb
     \endentry
     \entry{Zhang2022}{article}{}{}
@@ -1757,38 +2116,6 @@
       \verb https://www.sciencedirect.com/science/article/pii/0022024888903028
       \endverb
     \endentry
-    \entry{Devlin2019}{misc}{}{}
-      \list{publisher}{1}{%
-        {arXiv}%
-      }
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labeltitlesource}{title}
-      \field{abstract}{We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers. Unlike recent language representation models, BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT model can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications. BERT is conceptually simple and empirically powerful. It obtains new state-of-the-art results on eleven natural language processing tasks, including pushing the GLUE score to 80.5\% (7.7\% point absolute improvement), MultiNLI accuracy to 86.7\% (4.6\% absolute improvement), SQuAD v1.1 question answering Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1 (5.1 point absolute improvement).}
-      \field{month}{5}
-      \field{note}{arXiv:1810.04805 [cs]}
-      \field{title}{{BERT}: {Pre}-training of {Deep} {Bidirectional} {Transformers} for {Language} {Understanding}}
-      \field{urlday}{27}
-      \field{urlmonth}{11}
-      \field{urlyear}{2025}
-      \field{year}{2019}
-      \field{urldateera}{ce}
-      \verb{doi}
-      \verb 10.48550/arXiv.1810.04805
-      \endverb
-      \verb{file}
-      \verb Preprint PDF:2019 - BERT_ Pre Training of Deep Bidirectional Transformers for Language Understanding.pdf:PDF:http\://arxiv.org/pdf/1810.04805v2
-      \endverb
-      \verb{urlraw}
-      \verb http://arxiv.org/abs/1810.04805
-      \endverb
-      \verb{url}
-      \verb http://arxiv.org/abs/1810.04805
-      \endverb
-      \keyw{Computer Science - Computation and Language}
-    \endentry
     \entry{Chayen2001}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=ae7a77010be85d472a4505d87f62d8c5}{%
@@ -1847,6 +2174,100 @@
       \verb https://www.sciencedirect.com/science/article/pii/S0022024801012039
       \endverb
       \keyw{A1.Biocrystallization,A1.Nucleation,A1.Surfaces,B1.Biological macromolecules,B1. Lysozyme,B1.Proteins}
+    \endentry
+    \entry{Gainza2020}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=1a9fc988a5f77ccee00c5d1f45cbdba5}{%
+           family={Gainza},
+           familyi={G\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c2d94a178a59beea25f96b0c7f5b03da}{%
+           family={Sverrisson},
+           familyi={S\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=088055f86e6b25e7fe98a71c2035ef43}{%
+           family={Monti},
+           familyi={M\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0d6ebeea7575ebbe6de481820b17ce79}{%
+           family={Rodolà},
+           familyi={R\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=373820ed5dc49d4a83e328076a4d061b}{%
+           family={Boscaini},
+           familyi={B\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3378643ad337f0831df40a3159bd8e23}{%
+           family={Bronstein},
+           familyi={B\bibinitperiod},
+           given={M.\bibnamedelimi M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=25be7ad971aac470dd6c5a7105bf55b3}{%
+           family={Correia},
+           familyi={C\bibinitperiod},
+           given={B.\bibnamedelimi E.},
+           giveni={B\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{1778a794a97f4497602dd7105df67341}
+      \strng{fullhash}{c0b7f7e339c39cbff616cda163525bbf}
+      \strng{fullhashraw}{c0b7f7e339c39cbff616cda163525bbf}
+      \strng{bibnamehash}{c0b7f7e339c39cbff616cda163525bbf}
+      \strng{authorbibnamehash}{c0b7f7e339c39cbff616cda163525bbf}
+      \strng{authornamehash}{1778a794a97f4497602dd7105df67341}
+      \strng{authorfullhash}{c0b7f7e339c39cbff616cda163525bbf}
+      \strng{authorfullhashraw}{c0b7f7e339c39cbff616cda163525bbf}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Predicting interactions between proteins and other biomolecules solely based on structure remains a challenge in biology. A high-level representation of protein structure, the molecular surface, displays patterns of chemical and geometric features that fingerprint a protein’s modes of interactions with other biomolecules. We hypothesize that proteins participating in similar interactions may share common fingerprints, independent of their evolutionary history. Fingerprints may be difficult to grasp by visual analysis but could be learned from large-scale datasets. We present MaSIF (molecular surface interaction fingerprinting), a conceptual framework based on a geometric deep learning method to capture fingerprints that are important for specific biomolecular interactions. We showcase MaSIF with three prediction challenges: protein pocket-ligand prediction, protein–protein interaction site prediction and ultrafast scanning of protein surfaces for prediction of protein–protein complexes. We anticipate that our conceptual framework will lead to improvements in our understanding of protein function and design.}
+      \field{issn}{1548-7105}
+      \field{journaltitle}{Nature Methods}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{Deciphering interaction fingerprints from protein molecular surfaces using geometric deep learning}
+      \field{urlday}{28}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{17}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \field{pages}{184\bibrangedash 192}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1038/s41592-019-0666-6
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:Gainza2020 - Deciphering Interaction Fingerprints from Protein Molecular Surfaces Using Geometric Deep Learning.pdf:PDF:https\://www.nature.com/articles/s41592-019-0666-6.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41592-019-0666-6
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41592-019-0666-6
+      \endverb
+      \keyw{Machine learning,Protein function predictions,Protein structure predictions,Proteins}
     \endentry
     \entry{Ghosh2023}{article}{}{}
       \name{author}{1}{}{%
@@ -3113,6 +3534,137 @@
       \verb https://www.pnas.org/doi/full/10.1073/pnas.2016239118
       \endverb
     \endentry
+    \entry{Shrake1973}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=dbe010d321e5351f6eac2e9887610189}{%
+           family={Shrake},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f22bcdc1c8d1fc5bb83de8b04d85aae6}{%
+           family={Rupley},
+           familyi={R\bibinitperiod},
+           given={J.\bibnamedelimi A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c13232736f2ec00e39f3406509f86160}
+      \strng{fullhash}{c13232736f2ec00e39f3406509f86160}
+      \strng{fullhashraw}{c13232736f2ec00e39f3406509f86160}
+      \strng{bibnamehash}{c13232736f2ec00e39f3406509f86160}
+      \strng{authorbibnamehash}{c13232736f2ec00e39f3406509f86160}
+      \strng{authornamehash}{c13232736f2ec00e39f3406509f86160}
+      \strng{authorfullhash}{c13232736f2ec00e39f3406509f86160}
+      \strng{authorfullhashraw}{c13232736f2ec00e39f3406509f86160}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A computer program is described for calculating the environment and the exposure to solvent of atoms of a protein. The computation is based on the atomic co-ordinates of the protein and on assumptions like those of Lee \& Richards (1971). Results for lysozyme and insulin are presented. Changes in exposure to solvent and in the nature of contacts that develop through folding, association reactions and crystallization are described numerically. The computations suggest several generalizations. (a) Lattice contacts within the protein crystal are characterized by a significantly smaller involvement of non-polar side chains and a proportionately greater involvement of ionizable side chains than is found for protein folding or for protein association reactions important for biological function, (b) In helical regions the carbonyl oxygen of the first residue in the helix has high probability of being shielded from solvent, (c) Glycine is among the residues having exposure least affected by folding; this accords with the expectation that it lies at bends of the peptide chain on the surface of the molecule.}
+      \field{issn}{0022-2836}
+      \field{journaltitle}{Journal of Molecular Biology}
+      \field{month}{9}
+      \field{number}{2}
+      \field{title}{Environment and exposure to solvent of protein atoms. {Lysozyme} and insulin}
+      \field{urlday}{28}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{79}
+      \field{year}{1973}
+      \field{urldateera}{ce}
+      \field{pages}{351\bibrangedash 371}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1016/0022-2836(73)90011-9
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:https\://www.sciencedirect.com/science/article/pii/0022283673900119/pdf?md5=3895ee6e9c4ab6f65bbd1c60464b4533&pid=1-s2.0-0022283673900119-main.pdf&isDTMRedir=Y:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/0022283673900119
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/0022283673900119
+      \endverb
+    \endentry
+    \entry{Sverrisson2020}{report}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=633425219f9c7ae113278834aad2f823}{%
+           family={Sverrisson},
+           familyi={S\bibinitperiod},
+           given={Freyr},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e7a326d1eb18178c7016ac80ecb9e809}{%
+           family={Feydy},
+           familyi={F\bibinitperiod},
+           given={Jean},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cfac0a90e7842366bd0d9bb5d7d7fe62}{%
+           family={Correia},
+           familyi={C\bibinitperiod},
+           given={Bruno\bibnamedelima E.},
+           giveni={B\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a0c6e9e0629d03c0bfec15575c55c598}{%
+           family={Bronstein},
+           familyi={B\bibinitperiod},
+           given={Michael\bibnamedelima M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {bioRxiv}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{1092c68c87afa167c9ed9ba341f817e6}
+      \strng{fullhash}{e451599176b8e39522e350f9a38f8e66}
+      \strng{fullhashraw}{e451599176b8e39522e350f9a38f8e66}
+      \strng{bibnamehash}{e451599176b8e39522e350f9a38f8e66}
+      \strng{authorbibnamehash}{e451599176b8e39522e350f9a38f8e66}
+      \strng{authornamehash}{1092c68c87afa167c9ed9ba341f817e6}
+      \strng{authorfullhash}{e451599176b8e39522e350f9a38f8e66}
+      \strng{authorfullhashraw}{e451599176b8e39522e350f9a38f8e66}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Proteins’ biological functions are defined by the geometric and chemical structure of their 3D molecular surfaces. Recent works have shown that geometric deep learning can be used on mesh-based representations of proteins to identify potential functional sites, such as binding targets for potential drugs. Unfortunately though, the use of meshes as the underlying representation for protein structure has multiple drawbacks including the need to pre-compute the input features and mesh connectivities. This becomes a bottleneck for many important tasks in protein science. In this paper, we present a new framework for deep learning on protein structures that addresses these limitations. Among the key advantages of our method are the computation and sampling of the molecular surface on-the-fly from the underlying atomic point cloud and a novel efficient geometric convolutional layer. As a result, we are able to process large collections of proteins in an end-to-end fashion, taking as the sole input the raw 3D coordinates and chemical types of their atoms, eliminating the need for any hand-crafted pre-computed features. To showcase the performance of our approach, we test it on two tasks in the field of protein structural bioinformatics: the identification of interaction sites and the prediction of protein-protein interactions. On both tasks, we achieve state-of-the-art performance with much faster run times and fewer parameters than previous models. These results will considerably ease the deployment of deep learning methods in protein science and open the door for end-to-end differentiable approaches in protein modeling tasks such as function prediction and design.}
+      \field{chapter}{New Results}
+      \field{month}{12}
+      \field{note}{Type: article}
+      \field{title}{Fast end-to-end learning on protein surfaces}
+      \field{type}{techreport}
+      \field{urlday}{6}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \field{pages}{2020.12.28.424589}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1101/2020.12.28.424589
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:https\://www.biorxiv.org/content/biorxiv/early/2020/12/29/2020.12.28.424589.full.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.biorxiv.org/content/10.1101/2020.12.28.424589v1
+      \endverb
+      \verb{url}
+      \verb https://www.biorxiv.org/content/10.1101/2020.12.28.424589v1
+      \endverb
+    \endentry
     \entry{Terwilliger2024}{article}{}{}
       \name{author}{11}{}{%
         {{un=0,uniquepart=base,hash=4446e1f3e24795e7ea7b1adf8afa5be2}{%
@@ -3231,6 +3783,92 @@
       \endverb
       \keyw{Protein analysis,Protein structure predictions,X-ray crystallography}
     \endentry
+    \entry{Wang2022}{article}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=cce05cab2c437e9c128f853684ee3137}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Liang},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a44174a97a52d8b64289ef831cb1ac37}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Nan},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=026d1f57876191243f47c0ec47352891}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Xiaolong},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4004dbf348d942ab3cd1859ce702127f}{%
+           family={Jiao},
+           familyi={J\bibinitperiod},
+           given={Binxing},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=312f531e29a4681ac2abc9a6ebcde92a}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Linjun},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fffb2e1d40009032d73404c4f8e287ec}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Daxin},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=91d8356734700015f7c8f8a7303609f3}{%
+           family={Majumder},
+           familyi={M\bibinitperiod},
+           given={Rangan},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e5bfd490d91c5d1b935092ce3132a083}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Furu},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e9012e3e3adcfce14161e542a312bb44}
+      \strng{fullhash}{b5e540a233ffb4679ee19ed42a818ac4}
+      \strng{fullhashraw}{b5e540a233ffb4679ee19ed42a818ac4}
+      \strng{bibnamehash}{b5e540a233ffb4679ee19ed42a818ac4}
+      \strng{authorbibnamehash}{b5e540a233ffb4679ee19ed42a818ac4}
+      \strng{authornamehash}{e9012e3e3adcfce14161e542a312bb44}
+      \strng{authorfullhash}{b5e540a233ffb4679ee19ed42a818ac4}
+      \strng{authorfullhashraw}{b5e540a233ffb4679ee19ed42a818ac4}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper presents E5, a family of state-of-the-art text embeddings that transfer well to a wide range of tasks. The model is trained in a contrastive manner with weak supervision signals from our curated large-scale text pair dataset (called CCPairs). E5 can be readily used as a general-purpose embedding model for any tasks requiring a single-vector representation of texts such as retrieval, clustering, and classification, achieving strong performance in both zero-shot and fine-tuned settings. We conduct extensive evaluations on 56 datasets from the BEIR and MTEB benchmarks. For zero-shot settings, E5 is the first model that outperforms the strong BM25 baseline on the BEIR retrieval benchmark without using any labeled data. When fine-tuned, E5 obtains the best results on the MTEB benchmark, beating existing embedding models with 40x more parameters.}
+      \field{annotation}{[TLDR] E5 is the first model that outperforms the strong BM25 baseline on the BEIR retrieval benchmark without using any labeled data, and when fine-tuned, E5 obtains the best results on the MTEB benchmark, beating existing embedding models with 40x more parameters.}
+      \field{journaltitle}{ArXiv}
+      \field{month}{12}
+      \field{title}{Text {Embeddings} by {Weakly}-{Supervised} {Contrastive} {Pre}-training}
+      \field{urlday}{28}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Full Text PDF:Wang2022 - Text Embeddings by Weakly Supervised Contrastive Pre Training.pdf:PDF:https\://arxiv.org/pdf/2212.03533.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.semanticscholar.org/paper/Text-Embeddings-by-Weakly-Supervised-Contrastive-Wang-Yang/5a3c1afe73d8bcc8288d17cb17be2baec8a98464
+      \endverb
+      \verb{url}
+      \verb https://www.semanticscholar.org/paper/Text-Embeddings-by-Weakly-Supervised-Contrastive-Wang-Yang/5a3c1afe73d8bcc8288d17cb17be2baec8a98464
+      \endverb
+    \endentry
     \entry{Wilson2014}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=80d4d72427847aa1bef71b0276b88f4f}{%
@@ -3293,6 +3931,86 @@
       \endverb
       \verb{url}
       \verb //journals.iucr.org/paper?en5549
+      \endverb
+    \endentry
+    \entry{Yan2023}{misc}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=033f1ce145f4b80a07bd0384c83378f7}{%
+           family={Yan},
+           familyi={Y\bibinitperiod},
+           given={Siming},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d62e7ffcc209c139873ba89bd1be906d}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Zhenpei},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2f73f7048f4647dd5c65b4c4630d00e0}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Haoxiang},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c7a8ba28ba2aa71662ac2a98c63398bd}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Chen},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9f61f4d20d3ca9e53e445d91a7663b0d}{%
+           family={Guan},
+           familyi={G\bibinitperiod},
+           given={Li},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dab70d591a330d9a459610be40d59923}{%
+           family={Kang},
+           familyi={K\bibinitperiod},
+           given={Hao},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=46d2f1df658204626b940f778e0f7e82}{%
+           family={Hua},
+           familyi={H\bibinitperiod},
+           given={Gang},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=90296b22383e2e87596451120ca7e80b}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Qixing},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7e92604b62776613853b2e9f2eae5e72}
+      \strng{fullhash}{c13154c61526040264d8e68324c21dd8}
+      \strng{fullhashraw}{c13154c61526040264d8e68324c21dd8}
+      \strng{bibnamehash}{c13154c61526040264d8e68324c21dd8}
+      \strng{authorbibnamehash}{c13154c61526040264d8e68324c21dd8}
+      \strng{authornamehash}{7e92604b62776613853b2e9f2eae5e72}
+      \strng{authorfullhash}{c13154c61526040264d8e68324c21dd8}
+      \strng{authorfullhashraw}{c13154c61526040264d8e68324c21dd8}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.CV}
+      \field{eprinttype}{arXiv}
+      \field{title}{Implicit Autoencoder for Point-Cloud Self-Supervised Representation Learning}
+      \field{year}{2023}
+      \verb{eprint}
+      \verb 2201.00785
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2201.00785
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2201.00785
       \endverb
     \endentry
     \entry{Zhang2022}{article}{}{}

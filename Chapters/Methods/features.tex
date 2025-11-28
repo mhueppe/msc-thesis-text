@@ -3,16 +3,8 @@ To enable the model to capture the complex relationships between proteins and cr
 
 In the following sections, I introduce each of these feature representations and describe how they were generated and integrated into the overall modeling pipeline.
 
-\subsection{Sequence Embedding}\label{methods/feature_engineering/sequence_embedding}
+\input{Chapters/Methods/features/sequenceEmbedding}
 
-\textcite{Rives2021} present the \gls{esm} a large-scale protein language modles that demonstrates how biological structure and function can be directly learned from the raw amino-acid sequences. The idea is that protein sequences contain sufficient statistical and evolutionary signal for a model, trained purely through self-supervised learning, to infer aspects of structure, function and mutational constraints. 
+\input{Chapters/Methods/features/surfaceEmbedding}
 
-The model is transformer based and follows the same architectural principles as \gls{bert} presented by \textcite{Devlin2019}. Similarly, it has multiple layers of self-attention where each layer attends over all amino acids in the sequence, allowing the model to capture long-range dependencies that are crucial in protein folding. The input tokens are individual amino acids, and the model outputs a contextualized embedding for each residue as well as a sequence-level embedding obtained by averaging or pooling across positions. 
-The model was trained using a masked language modeling objective on a dataset of \roughly 250 million protein sequences sampled from UniRef. During training a fraction of amino acids is randomly masked. The goal of the model is to predict the correct amino acid at each masked position. By minimizing the prediction error the model aims to understand inherent structures in the protein space. 
-\textcite{Rives2021} shows that model implicitly leans evolutionary conservation, co-variation between residues, family-specific sequence constraints and patterns associated with secondary and tertiary structure. 
-The model is available in several parameter scales, with the largest variant containing 650 million parameters. For this thesis, embeddings were generated for all proteins in the dataset using \glspl{esm} of different sizes. Specifically, representations were computed using models with 35 million, 150 million, and 650 million parameters to assess the effect of model size on downstream performance.
-
-\subsection{Surface Embedding}\label{methods/feature_engineering/surface_embedding}
-
-\subsection{Label Embedding}\label{methods/feature_engineering/label_embedding}
-
+\input{Chapters/Methods/features/conditionEmbedding}

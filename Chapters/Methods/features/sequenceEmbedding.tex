@@ -1,0 +1,58 @@
+\subsection{Sequence Embedding}\label{methods/feature_engineering/sequence_embedding}
+
+\textcite{Rives2021} present the \gls{esm} a large-scale protein language modles that demonstrates how biological structure and function can be directly learned from the raw amino-acid sequences. The idea is that protein sequences contain sufficient statistical and evolutionary signal for a model, trained purely through self-supervised learning, to infer aspects of structure, function and mutational constraints. 
+
+The model is transformer based and follows the same architectural principles as \gls{bert} presented by \textcite{Devlin2019}. Similarly, it has multiple layers of self-attention where each layer attends over all amino acids in the sequence, allowing the model to capture long-range dependencies that are crucial in protein folding. The input tokens are individual amino acids, and the model outputs a contextualized embedding for each residue as well as a sequence-level embedding obtained by averaging or pooling across positions. 
+The model was trained using a masked language modeling objective on a dataset of \roughly 250 million protein sequences sampled from UniRef. During training a fraction of amino acids is randomly masked. The goal of the model is to predict the correct amino acid at each masked position. By minimizing the prediction error the model aims to understand inherent structures in the protein space. 
+\textcite{Rives2021} shows that model implicitly leans evolutionary conservation, co-variation between residues, family-specific sequence constraints and patterns associated with secondary and tertiary structure. 
+The model is available in several parameter scales, with the largest variant containing 650 million parameters. For this thesis, embeddings were generated for all proteins in the dataset using \glspl{esm} of different sizes. Specifically, representations were computed using models with 35 million, 150 million, and 650 million parameters to assess the effect of model size on downstream performance.
+
+\begin{figure}[h!]
+	\centering		
+	\begin{subfigure}[t]{0.495\linewidth}
+		\centering
+		\includegraphics[width=\linewidth]{../msc-thesis-code/data/dataExploration/plots/proteinEmbedding}
+		\caption[Protein sequence embedding]{ }
+		\label{fig:proteinEmbedding}
+	\end{subfigure}
+	\begin{subfigure}[t]{0.495\linewidth}
+		\centering
+		\includegraphics[width=\linewidth]{../msc-thesis-code/data/dataExploration/plots/pHEmbedding}
+		\caption[pH sequence embedding]{ }
+		\label{fig:pHEmbedding}
+	\end{subfigure}
+	\caption[Sequence Embedding for protein information and pH]{The figures show a t-SNE projection of \gls{esm} sequence embeddings for proteins in the dataset, with points colored by protein identity in \autoref{fig:proteinEmbedding} and pH in \autoref{fig:pHEmbedding}. Sequences cluster tightly by protein, indicating that the embedding captures strong protein-specific and evolutionary signals. While clusters are present the effect is weaker for pH values.}	
+	\label{fig:sequenceEmbeddingHumology}
+\end{figure}
+
+To assess the representational quality of the sequence embeddings used in this thesis, the high-dimensional output of the \gls{esm} protein language model was projected into two dimensions using t-SNE. The resulting visualization \autoref{fig:proteinEmbedding} shows a clear clustering of sequences according to their protein identity. Each protein forms a compact region in the embedding space, while different proteins occupy distinct, non-overlapping areas. This demonstrates that the ESM embeddings capture protein-specific information robustly, even after strong dimensionality reduction. In other words, the embedding space is structured in a way that preserves biological similarity: sequences from the same protein end up close together because the language model encodes their shared evolutionary and biochemical features.
+
+This property is critically important for the modelling tasks in this thesis. Since the goal is to connect protein characteristics to crystallization outcomes and conditions, the embedding must reliably encode the underlying protein identity and its associated biochemical properties. The observed clustering confirms that the ESM model provides a stable and meaningful representation on which downstream predictors can operate.
+
+\autoref{fig:pHEmbedding} shows the same embedding colored by the crystallization pH associated with each data point, the effect is less pronounced but still informative. This indicates that the embedding contains signals related to the physicochemical environments in which the proteins crystallize. 
+
+\begin{figure}[h!]
+	\centering		
+	\begin{subfigure}[t]{0.495\linewidth}
+		\centering
+		\includegraphics[width=\linewidth]{../msc-thesis-code/data/dataExploration/plots/proteinVsCompound}
+		\caption[\gls{peg} co-occurence]{ }
+		\label{fig:cooccurencePegProtein}
+	\end{subfigure}
+	\begin{subfigure}[t]{0.495\linewidth}
+		\centering
+		\includegraphics[width=\linewidth]{../msc-thesis-code/data/dataExploration/plots/proteinDistributionpH_temp}
+		\caption[Protein vs. pH/temperature]{ }
+		\label{fig:proteinVspHTemperature}
+	\end{subfigure}
+	\caption[Relation of protein to condition]{The relationship between proteins and their crystallization conditions. \autoref{fig:cooccurencePegProtein} shows normalized co-occurrences of common proteins and compounds, correcting for overall compound frequency. Higher values indicate more likely protein-compound combinations. The matrix reveals clear associations. Likewise, \autoref{fig:proteinVspHTemperature} shows strong protein-specific preferences for crystallization pH and temperature.}	
+	\label{fig:proteinVsPEGComparison}
+\end{figure}
+
+The clustering observed in \autoref{fig:pHEmbedding} must be interpreted with respect to the protein-condition relationships shown in \autoref{fig:proteinVspHTemperature}. Many proteins exhibit strong intrinsic preferences for specific pH ranges and temperatures, meaning that part of the structure seen in the embedding may reflect biological regularities rather than the embedding learning pH information directly. This raises the question of whether the embedding encodes pH explicitly, or whether the clusters merely mirror the underlying association between certain proteins and the pH values at which they typically crystallize.
+
+A similar pattern emerges for crystallization compounds. \autoref{fig:cooccurencePegProtein} illustrates the normalized co-occurrence of proteins with common compounds. Normalization by the overall compound frequency prevents abundant compounds from dominating the matrix and highlights true protein-compound relationships. Higher values indicate that a protein is disproportionately likely to crystallize in cocktails containing a given compound.
+
+For example, \href{https://www.uniprot.org/uniprotkb/P11838/entry}{CARP\_CRYPA}, a peptidase A1 protein found in the  \href{https://www.uniprot.org/taxonomy/5116}{Cryphonectria parasitica (Chestnut blight fungus)}, shows pronounced preference for crystallization conditions containing PEG 4000 and sodium acetate. A well-trained model should therefore learn to recommend cocktails with these components when presented with sequence features characteristic of this protein. The matrix also reveals that some proteins crystallize with a narrow and well-defined set of compounds, while others are compatible with a broader spectrum of crystallization agents.
+
+Together, these observations support the use of ESM embeddings as a foundation for the predictive models developed in this thesis. The embeddings encode protein identity strongly, ensuring that the model can distinguish different proteins and simultaneously retain secondary signals related to crystallization conditions such as pH. This dual structure provides a rich feature basis from which downstream models can learn relationships between protein characteristics and crystallization success.
