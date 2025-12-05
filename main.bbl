@@ -77,6 +77,75 @@
       \verb https://www.sciencedirect.com/science/article/pii/0022024888903028
       \endverb
     \endentry
+    \entry{Bergfors2009}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f667212dd44b5442d125c3072f4ef404}{%
+           family={Bergfors},
+           familyi={B\bibinitperiod},
+           given={Terese\bibnamedelima M},
+           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Internat'l University Line}%
+      }
+      \strng{namehash}{f667212dd44b5442d125c3072f4ef404}
+      \strng{fullhash}{f667212dd44b5442d125c3072f4ef404}
+      \strng{fullhashraw}{f667212dd44b5442d125c3072f4ef404}
+      \strng{bibnamehash}{f667212dd44b5442d125c3072f4ef404}
+      \strng{authorbibnamehash}{f667212dd44b5442d125c3072f4ef404}
+      \strng{authornamehash}{f667212dd44b5442d125c3072f4ef404}
+      \strng{authorfullhash}{f667212dd44b5442d125c3072f4ef404}
+      \strng{authorfullhashraw}{f667212dd44b5442d125c3072f4ef404}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Protein crystallization}
+      \field{year}{2009}
+    \endentry
+    \entry{Bijelic2018}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b2292207411d9cd55040598e76af39b7}{%
+           family={Bijelic},
+           familyi={B\bibinitperiod},
+           given={Aleksandar},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ff763fe376bd7fee013b7a82401f9cb5}{%
+           family={Rompel},
+           familyi={R\bibinitperiod},
+           given={Annette},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7195bdf055d1dedff8e57c12ac6a80ee}
+      \strng{fullhash}{7195bdf055d1dedff8e57c12ac6a80ee}
+      \strng{fullhashraw}{7195bdf055d1dedff8e57c12ac6a80ee}
+      \strng{bibnamehash}{7195bdf055d1dedff8e57c12ac6a80ee}
+      \strng{authorbibnamehash}{7195bdf055d1dedff8e57c12ac6a80ee}
+      \strng{authornamehash}{7195bdf055d1dedff8e57c12ac6a80ee}
+      \strng{authorfullhash}{7195bdf055d1dedff8e57c12ac6a80ee}
+      \strng{authorfullhashraw}{7195bdf055d1dedff8e57c12ac6a80ee}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ChemTexts}
+      \field{month}{08}
+      \field{title}{Polyoxometalates: more than a phasing tool in protein crystallography}
+      \field{volume}{4}
+      \field{year}{2018}
+      \verb{doi}
+      \verb 10.1007/s40828-018-0064-1
+      \endverb
+    \endentry
     \entry{Chayen2001}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=ae7a77010be85d472a4505d87f62d8c5}{%
@@ -1495,6 +1564,97 @@
       \verb https://www.pnas.org/doi/full/10.1073/pnas.2016239118
       \endverb
     \endentry
+    \entry{Rubinson2000}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=450fb8b166aef8a8dd1ce404efc0fde1}{%
+           family={Rubinson},
+           familyi={R\bibinitperiod},
+           given={K.\bibnamedelimi A.},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8538f9ac8ba770caec1050ffdafc6050}{%
+           family={Ladner},
+           familyi={L\bibinitperiod},
+           given={J.\bibnamedelimi E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=987335860f4ba39c2042e1b97f691788}{%
+           family={Tordova},
+           familyi={T\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d3757b71022659df10efb7fe4309cabe}{%
+           family={Gilliland},
+           familyi={G\bibinitperiod},
+           given={G.\bibnamedelimi L.},
+           giveni={G\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \strng{namehash}{e7ea867486ae01a1441058db58814237}
+      \strng{fullhash}{f431a58d3aef0df3e10e980b3f6e05d2}
+      \strng{fullhashraw}{f431a58d3aef0df3e10e980b3f6e05d2}
+      \strng{bibnamehash}{f431a58d3aef0df3e10e980b3f6e05d2}
+      \strng{authorbibnamehash}{f431a58d3aef0df3e10e980b3f6e05d2}
+      \strng{authornamehash}{e7ea867486ae01a1441058db58814237}
+      \strng{authorfullhash}{f431a58d3aef0df3e10e980b3f6e05d2}
+      \strng{authorfullhashraw}{f431a58d3aef0df3e10e980b3f6e05d2}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Quality data collection for macromolecular cryocrystallography requires suppressing the formation of crystalline or microcrystalline ice that may result from flash-freezing crystals. Described here is the use of lithium formate, lithium chloride and other highly soluble salts for forming ice-ring-free aqueous glasses upon cooling from ambient temperature to 100 K. These cryosalts are a new class of cryoprotectants that are shown to be effective with a variety of commonly used crystallization solutions and with proteins crystallized under different conditions. The influence of cryosalts on crystal mosaicity and diffraction resolution is comparable with or superior to traditional organic cryoprotectants.}
+      \field{issn}{0907-4449}
+      \field{journaltitle}{Acta Crystallographica. Section D, Biological Crystallography}
+      \field{month}{8}
+      \field{number}{Pt 8}
+      \field{shorttitle}{Cryosalts}
+      \field{title}{Cryosalts: suppression of ice formation in macromolecular crystallography}
+      \field{volume}{56}
+      \field{year}{2000}
+      \field{pages}{996\bibrangedash 1001}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1107/s0907444900007587
+      \endverb
+      \keyw{Cryoprotective Agents,Crystallography,X-Ray,Formates,Freezing,Ice,Lithium Chloride,Macromolecular Substances,Muramidase,Ribonucleases,Salts}
+    \endentry
+    \entry{Rupp2009}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0808701f7e8c5d4796e3094fc791fea4}{%
+           family={Rupp},
+           familyi={R\bibinitperiod},
+           given={Bernhard},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Garland Science}%
+      }
+      \strng{namehash}{0808701f7e8c5d4796e3094fc791fea4}
+      \strng{fullhash}{0808701f7e8c5d4796e3094fc791fea4}
+      \strng{fullhashraw}{0808701f7e8c5d4796e3094fc791fea4}
+      \strng{bibnamehash}{0808701f7e8c5d4796e3094fc791fea4}
+      \strng{authorbibnamehash}{0808701f7e8c5d4796e3094fc791fea4}
+      \strng{authornamehash}{0808701f7e8c5d4796e3094fc791fea4}
+      \strng{authorfullhash}{0808701f7e8c5d4796e3094fc791fea4}
+      \strng{authorfullhashraw}{0808701f7e8c5d4796e3094fc791fea4}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Biomolecular crystallography: principles, practice, and application to structural biology}
+      \field{year}{2009}
+    \endentry
     \entry{Shrake1973}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=dbe010d321e5351f6eac2e9887610189}{%
@@ -1973,6 +2133,77 @@
       \verb{url}
       \verb https://arxiv.org/abs/2201.00785
       \endverb
+    \endentry
+    \entry{Yuan2023}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=8a078498c0d2c29b7088c890624a48d5}{%
+           family={Yuan},
+           familyi={Y\bibinitperiod},
+           given={Mingzhi},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d33373a81dbbb9f0e1efd59c5f9c4c78}{%
+           family={Shen},
+           familyi={S\bibinitperiod},
+           given={Ao},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cbdb46bf5ffd347447918075df275ad9}{%
+           family={Fu},
+           familyi={F\bibinitperiod},
+           given={Kexue},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8d6a70c221e85eb4a185c7907f960dbc}{%
+           family={Guan},
+           familyi={G\bibinitperiod},
+           given={Jiaming},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3ad3c32f9299896950c3001c52184c92}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Yingfan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fad3747d42a586a1075c58169533efb6}{%
+           family={Qiao},
+           familyi={Q\bibinitperiod},
+           given={Qin},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3072e3af98ad540cb79482de8676fe08}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Manning},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{fe68d1e9fb8758cbc934846479b0ead6}
+      \strng{fullhash}{2657ddd0a005624c3cbfb077aa335cd9}
+      \strng{fullhashraw}{2657ddd0a005624c3cbfb077aa335cd9}
+      \strng{bibnamehash}{2657ddd0a005624c3cbfb077aa335cd9}
+      \strng{authorbibnamehash}{2657ddd0a005624c3cbfb077aa335cd9}
+      \strng{authornamehash}{fe68d1e9fb8758cbc934846479b0ead6}
+      \strng{authorfullhash}{2657ddd0a005624c3cbfb077aa335cd9}
+      \strng{authorfullhashraw}{2657ddd0a005624c3cbfb077aa335cd9}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bioinformatics}
+      \field{number}{12}
+      \field{title}{ProteinMAE: masked autoencoder for protein surface self-supervised learning}
+      \field{volume}{39}
+      \field{year}{2023}
+      \field{pages}{btad724}
+      \range{pages}{-1}
     \endentry
     \entry{Zhang2022}{article}{}{}
       \name{author}{5}{}{%
@@ -2116,6 +2347,75 @@
       \verb https://www.sciencedirect.com/science/article/pii/0022024888903028
       \endverb
     \endentry
+    \entry{Bergfors2009}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f667212dd44b5442d125c3072f4ef404}{%
+           family={Bergfors},
+           familyi={B\bibinitperiod},
+           given={Terese\bibnamedelima M},
+           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Internat'l University Line}%
+      }
+      \strng{namehash}{f667212dd44b5442d125c3072f4ef404}
+      \strng{fullhash}{f667212dd44b5442d125c3072f4ef404}
+      \strng{fullhashraw}{f667212dd44b5442d125c3072f4ef404}
+      \strng{bibnamehash}{f667212dd44b5442d125c3072f4ef404}
+      \strng{authorbibnamehash}{f667212dd44b5442d125c3072f4ef404}
+      \strng{authornamehash}{f667212dd44b5442d125c3072f4ef404}
+      \strng{authorfullhash}{f667212dd44b5442d125c3072f4ef404}
+      \strng{authorfullhashraw}{f667212dd44b5442d125c3072f4ef404}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Protein crystallization}
+      \field{year}{2009}
+    \endentry
+    \entry{Bijelic2018}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b2292207411d9cd55040598e76af39b7}{%
+           family={Bijelic},
+           familyi={B\bibinitperiod},
+           given={Aleksandar},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ff763fe376bd7fee013b7a82401f9cb5}{%
+           family={Rompel},
+           familyi={R\bibinitperiod},
+           given={Annette},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7195bdf055d1dedff8e57c12ac6a80ee}
+      \strng{fullhash}{7195bdf055d1dedff8e57c12ac6a80ee}
+      \strng{fullhashraw}{7195bdf055d1dedff8e57c12ac6a80ee}
+      \strng{bibnamehash}{7195bdf055d1dedff8e57c12ac6a80ee}
+      \strng{authorbibnamehash}{7195bdf055d1dedff8e57c12ac6a80ee}
+      \strng{authornamehash}{7195bdf055d1dedff8e57c12ac6a80ee}
+      \strng{authorfullhash}{7195bdf055d1dedff8e57c12ac6a80ee}
+      \strng{authorfullhashraw}{7195bdf055d1dedff8e57c12ac6a80ee}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ChemTexts}
+      \field{month}{08}
+      \field{title}{Polyoxometalates: more than a phasing tool in protein crystallography}
+      \field{volume}{4}
+      \field{year}{2018}
+      \verb{doi}
+      \verb 10.1007/s40828-018-0064-1
+      \endverb
+    \endentry
     \entry{Chayen2001}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=ae7a77010be85d472a4505d87f62d8c5}{%
@@ -3534,6 +3834,97 @@
       \verb https://www.pnas.org/doi/full/10.1073/pnas.2016239118
       \endverb
     \endentry
+    \entry{Rubinson2000}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=450fb8b166aef8a8dd1ce404efc0fde1}{%
+           family={Rubinson},
+           familyi={R\bibinitperiod},
+           given={K.\bibnamedelimi A.},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8538f9ac8ba770caec1050ffdafc6050}{%
+           family={Ladner},
+           familyi={L\bibinitperiod},
+           given={J.\bibnamedelimi E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=987335860f4ba39c2042e1b97f691788}{%
+           family={Tordova},
+           familyi={T\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d3757b71022659df10efb7fe4309cabe}{%
+           family={Gilliland},
+           familyi={G\bibinitperiod},
+           given={G.\bibnamedelimi L.},
+           giveni={G\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \strng{namehash}{e7ea867486ae01a1441058db58814237}
+      \strng{fullhash}{f431a58d3aef0df3e10e980b3f6e05d2}
+      \strng{fullhashraw}{f431a58d3aef0df3e10e980b3f6e05d2}
+      \strng{bibnamehash}{f431a58d3aef0df3e10e980b3f6e05d2}
+      \strng{authorbibnamehash}{f431a58d3aef0df3e10e980b3f6e05d2}
+      \strng{authornamehash}{e7ea867486ae01a1441058db58814237}
+      \strng{authorfullhash}{f431a58d3aef0df3e10e980b3f6e05d2}
+      \strng{authorfullhashraw}{f431a58d3aef0df3e10e980b3f6e05d2}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Quality data collection for macromolecular cryocrystallography requires suppressing the formation of crystalline or microcrystalline ice that may result from flash-freezing crystals. Described here is the use of lithium formate, lithium chloride and other highly soluble salts for forming ice-ring-free aqueous glasses upon cooling from ambient temperature to 100 K. These cryosalts are a new class of cryoprotectants that are shown to be effective with a variety of commonly used crystallization solutions and with proteins crystallized under different conditions. The influence of cryosalts on crystal mosaicity and diffraction resolution is comparable with or superior to traditional organic cryoprotectants.}
+      \field{issn}{0907-4449}
+      \field{journaltitle}{Acta Crystallographica. Section D, Biological Crystallography}
+      \field{month}{8}
+      \field{number}{Pt 8}
+      \field{shorttitle}{Cryosalts}
+      \field{title}{Cryosalts: suppression of ice formation in macromolecular crystallography}
+      \field{volume}{56}
+      \field{year}{2000}
+      \field{pages}{996\bibrangedash 1001}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1107/s0907444900007587
+      \endverb
+      \keyw{Cryoprotective Agents,Crystallography,X-Ray,Formates,Freezing,Ice,Lithium Chloride,Macromolecular Substances,Muramidase,Ribonucleases,Salts}
+    \endentry
+    \entry{Rupp2009}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0808701f7e8c5d4796e3094fc791fea4}{%
+           family={Rupp},
+           familyi={R\bibinitperiod},
+           given={Bernhard},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Garland Science}%
+      }
+      \strng{namehash}{0808701f7e8c5d4796e3094fc791fea4}
+      \strng{fullhash}{0808701f7e8c5d4796e3094fc791fea4}
+      \strng{fullhashraw}{0808701f7e8c5d4796e3094fc791fea4}
+      \strng{bibnamehash}{0808701f7e8c5d4796e3094fc791fea4}
+      \strng{authorbibnamehash}{0808701f7e8c5d4796e3094fc791fea4}
+      \strng{authornamehash}{0808701f7e8c5d4796e3094fc791fea4}
+      \strng{authorfullhash}{0808701f7e8c5d4796e3094fc791fea4}
+      \strng{authorfullhashraw}{0808701f7e8c5d4796e3094fc791fea4}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Biomolecular crystallography: principles, practice, and application to structural biology}
+      \field{year}{2009}
+    \endentry
     \entry{Shrake1973}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=dbe010d321e5351f6eac2e9887610189}{%
@@ -4012,6 +4403,77 @@
       \verb{url}
       \verb https://arxiv.org/abs/2201.00785
       \endverb
+    \endentry
+    \entry{Yuan2023}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=8a078498c0d2c29b7088c890624a48d5}{%
+           family={Yuan},
+           familyi={Y\bibinitperiod},
+           given={Mingzhi},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d33373a81dbbb9f0e1efd59c5f9c4c78}{%
+           family={Shen},
+           familyi={S\bibinitperiod},
+           given={Ao},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cbdb46bf5ffd347447918075df275ad9}{%
+           family={Fu},
+           familyi={F\bibinitperiod},
+           given={Kexue},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8d6a70c221e85eb4a185c7907f960dbc}{%
+           family={Guan},
+           familyi={G\bibinitperiod},
+           given={Jiaming},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3ad3c32f9299896950c3001c52184c92}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Yingfan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fad3747d42a586a1075c58169533efb6}{%
+           family={Qiao},
+           familyi={Q\bibinitperiod},
+           given={Qin},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3072e3af98ad540cb79482de8676fe08}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Manning},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{fe68d1e9fb8758cbc934846479b0ead6}
+      \strng{fullhash}{2657ddd0a005624c3cbfb077aa335cd9}
+      \strng{fullhashraw}{2657ddd0a005624c3cbfb077aa335cd9}
+      \strng{bibnamehash}{2657ddd0a005624c3cbfb077aa335cd9}
+      \strng{authorbibnamehash}{2657ddd0a005624c3cbfb077aa335cd9}
+      \strng{authornamehash}{fe68d1e9fb8758cbc934846479b0ead6}
+      \strng{authorfullhash}{2657ddd0a005624c3cbfb077aa335cd9}
+      \strng{authorfullhashraw}{2657ddd0a005624c3cbfb077aa335cd9}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bioinformatics}
+      \field{number}{12}
+      \field{title}{ProteinMAE: masked autoencoder for protein surface self-supervised learning}
+      \field{volume}{39}
+      \field{year}{2023}
+      \field{pages}{btad724}
+      \range{pages}{-1}
     \endentry
     \entry{Zhang2022}{article}{}{}
       \name{author}{5}{}{%

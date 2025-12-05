@@ -1,0 +1,3 @@
+\section{Data encoding}\label{methods/data_normalization}
+
+The number of \glspl{peg} was padded to two. This captures 99.9\% of the data. With 65\% the majority of conditions only specify one \gls{peg}. 33\% do not specify any \gls{peg} and only 2.2\% percent specify 2. While there are samples which capture more (up to 12 different \glspl{peg}) those were removed to keep the peg vector minimal. For the samples which had more than two the pegs with the highest concentration were used. Similarly, the maximum number of compounds was chosen to be 6 capturing around 98\% of the data. Even though some conditions presented cocktails with up to 29 unique chemicals. Chemicals that did not have an associated concentration value were alnso ommitted. 

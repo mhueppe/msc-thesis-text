@@ -1,3 +1,4 @@
+
 \section{CRIMS}\label{sec:crims}
 In addition to the Protein Data Bank–derived dataset described in \autoref{sec:protein_database}, I incorporated a second, complementary data source: the \gls{crims} used at the \gls{embl}. \gls{crims} is a laboratory information system designed to record, track, and analyze crystallization experiments performed on-site, particularly those carried out at synchrotron beamlines. Unlike large public repositories, \gls{crims} captures local experimental outcomes for a defined set of proteins studied within a specific laboratory environment. However, the data that is recorded at \gls{embl} and other crystallization beamline providers using \gls{crims} is not public. Consequently, the number of proteins represented is smaller as it only covers proteins crystallized from the Itzen work group. However, the data quality and experimental granularity are substantially higher.
 
@@ -7,12 +8,8 @@ The crystallization drops are systematically monitored over time. Automated imag
 
 For the purposes of this thesis, \gls{crims} therefore serves as a critical validation dataset. It allows us to test whether a model trained on sequence- and surface-derived features can generalize beyond predicting which chemicals tend to appear in successful \gls{pdb} crystallizations and instead evaluate the actual effectiveness of crystallization conditions for specific proteins. As a result, \gls{crims} provides a robust, experimentally grounded benchmark for assessing the model's ability to distinguish productive from non-productive crystallization conditions.
 
-\subsection{Acquisition}
-Unfortunately, \gls{crims} does not provide a bulk download option for crystallization experiment data. For this reason, a custom web scraper and parser were implemented. Because \gls{crims} is not a static website its content dynamically changes based on user interactions. The scraper had to simulate a real user session and systematically “check out” each crystallization plate. For every condition on each plate, both the chemical formulation and all available time-resolved images were extracted.
 
-These images were required to obtain an objective quality assessment of each crystallization condition. To this end, a convolutional neural network developed by \textcite{King2024} was applied to score the probability that a crystal is present in a given drop. \autoref{fig:crystallization_drops_example} shows representative examples of these crystallization drops alongside their predicted scores. The model exhibits high sensitivity, meaning false negatives are extremely rare. This behavior is desirable in crystallization screening, where failing to detect a true crystal is far more problematic than incorrectly flagging a non-crystal image as positive.
-
-\begin{figure}[h!]
+\begin{figure}[t]
 	\centering
 	% Row 1
 	\begin{subfigure}[b]{0.24\textwidth}
@@ -27,6 +24,11 @@ These images were required to obtain an objective quality assessment of each cry
 	\begin{subfigure}[b]{0.24\textwidth}
 		\includegraphics[width=\textwidth]{media/FORMULATRIX_SD30010708_4_07-10-2025_06_04_01_00_99_Vis}
 	\end{subfigure}				
-	\caption{Scores: 0.99, 0.97, 0.90, 0.3}
+	\caption[\gls{crims} examples]{Scores: 0.99, 0.97, 0.90, 0.3}
 	\label{fig:crystallization_drops_example}
 \end{figure}
+
+
+Unfortunately, \gls{crims} does not provide a bulk download option for crystallization experiment data. For this reason, a custom web scraper and parser were implemented. Because \gls{crims} is not a static website its content dynamically changes based on user interactions. The scraper had to simulate a real user session and systematically “check out” each crystallization plate. For every condition on each plate, both the chemical formulation and all available time-resolved images were extracted.
+
+These images were required to obtain an objective quality assessment of each crystallization condition. To this end, a convolutional neural network developed by \textcite{King2024} was applied to score the probability that a crystal is present in a given drop. \autoref{fig:crystallization_drops_example} shows representative examples of these crystallization drops alongside their predicted scores. The model exhibits high sensitivity, meaning false negatives are extremely rare. This behavior is desirable in crystallization screening, where failing to detect a true crystal is far more problematic than incorrectly flagging a non-crystal image as positive.

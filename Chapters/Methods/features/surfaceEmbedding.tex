@@ -29,3 +29,22 @@ The authors show that \gls{dmasif} achieves equal or superior performance to \gl
 To represent the protein surface in this thesis, \gls{dmasif} was chosen for its computational efficiency. However, running continuous convolution kernels on the generated point clouds remains costly and increases the model size. To mitigate this, a separate model was introduced based on the point cloud autoencoder proposed by \textcite{Yan2023}.
 
 In this architecture, a point cloud encoder compresses the surface point cloud into a low-dimensional latent vector by progressively aggregating geometric and spatial features from the input points. A decoder then reconstructs the point cloud from this latent representation by predicting a set of points that approximates the original surface. Through reconstruction training, the encoder learns to extract a compact yet informative embedding of the protein surface, which can be used efficiently during downstream prediction tasks without requiring the full \gls{dmasif} convolution pipeline. \autoref{fig:proteinPointCloudAutoencoder} shows examples of the original protein surfaces (blue) and their reconstructions (red) obtained from a 128-dimensional latent vector. After optimization of the reconstruction loss, the autoencoder successfully learns a latent representation that preserves the overall geometry of the surface, enabling accurate and sufficiently detailed reconstructions.
+
+\begin{figure}[h]
+	\centering		
+	\begin{subfigure}[t]{0.25\linewidth}
+		\centering
+		\includegraphics[width=\linewidth]{Media/binding_site9ewo}
+	\end{subfigure}
+	\begin{subfigure}[t]{0.25\linewidth}
+		\centering
+		\includegraphics[width=\linewidth]{Media/binding_site2fz3}
+	\end{subfigure}
+	\caption[Binding Site Prediction]{Prediction of binding sites for the protein \href{https://www.rcsb.org/structure/9EWO}{9EWO} and \href{https://www.rcsb.org/structure/2FZ3}{2FZ3}. The red highlighted spots represent parts of the surface that, according to the ProteinMAE presented by \textcite{Yuan2023}, are likely binding sites.}
+	\label{fig:bindingSitePrediction}
+\end{figure}
+
+\textcite{Yuan2023} implement a similar approach called ProteinMAE, a self-supervised framework that learns protein surface representations from large amounts of unlabeled structural data. After pretraining, the model is fine-tuned for downstream tasks such as binding-site identification, pocket classification, and protein–protein interaction prediction. Experiments show that ProteinMAE improves performance across all tasks, achieves results comparable to state-of-the-art methods, and does so with significantly lower memory requirements. 
+Protein crystals are ordered lattices of the same protein. Accordingly, it is important to know how the protein interacts with itself. For this the protein-protein prediction as well as the binding site down stream tasks are of interest. In addition to the surface embedding created by the ProteinMAE, the downstream model proposed by \textcite{Yuan2023} for binding site prediction was included to the input space to improve the inductive bias of the models towards protein surface interactions. 
+\autoref{fig:bindingSitePrediction} shows downstream binding site predictions made from the ProteinMAE embedding. 
+

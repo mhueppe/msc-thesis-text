@@ -1,81 +1,85 @@
 \babel@toc {english}{}\relax 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Protein Crystallization basics}}{6}{figure.caption.20}%
+\contentsline {subfigure}{\numberline {a}{\ignorespaces Protein crystallization phase diagram}}{6}{figure.caption.20}%
+\contentsline {subfigure}{\numberline {b}{\ignorespaces Hanging Drop Vapor Diffusion}}{6}{figure.caption.20}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Restructured protein database schema}}{9}{figure.caption.26}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Parsing Quality estimated by unique chemical names}}{14}{figure.caption.35}%
-\contentsline {subfigure}{\numberline {a}{\ignorespaces Appearances of unique chemical names}}{14}{figure.caption.35}%
-\contentsline {subfigure}{\numberline {b}{\ignorespaces Dataset coverage vs.\ frequency thresholds}}{14}{figure.caption.35}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Parsing Quality for numerical values}}{15}{figure.caption.36}%
-\contentsline {subfigure}{\numberline {a}{\ignorespaces Parsed pH vs. entered pH}}{15}{figure.caption.36}%
-\contentsline {subfigure}{\numberline {b}{\ignorespaces Parsed temperature vs. entered temperature}}{15}{figure.caption.36}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces \gls {peg} Unit analysis}}{15}{figure.caption.37}%
-\contentsline {subfigure}{\numberline {a}{\ignorespaces Unit specification}}{15}{figure.caption.37}%
-\contentsline {subfigure}{\numberline {b}{\ignorespaces Ratio of unit specifications against Molecular weight}}{15}{figure.caption.37}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Sequence Length and Atom count Distribution}}{17}{figure.caption.44}%
-\contentsline {subfigure}{\numberline {a}{\ignorespaces Sequence Length Distribution}}{17}{figure.caption.44}%
-\contentsline {subfigure}{\numberline {b}{\ignorespaces Atom count Distribution}}{17}{figure.caption.44}%
-\contentsline {subfigure}{\numberline {c}{\ignorespaces Atom count vs. Sequence Length}}{17}{figure.caption.44}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Residue analysis in protein sequences}}{18}{figure.caption.45}%
-\contentsline {subfigure}{\numberline {a}{\ignorespaces Residue distribution}}{18}{figure.caption.45}%
-\contentsline {subfigure}{\numberline {b}{\ignorespaces Observed vs. Predicted Occurrences of Residues}}{18}{figure.caption.45}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Distributions of sequence-derived features}}{19}{figure.caption.46}%
-\contentsline {subfigure}{\numberline {a}{\ignorespaces Kyte-Doolittle hydropathy distribution}}{19}{figure.caption.46}%
-\contentsline {subfigure}{\numberline {b}{\ignorespaces Aromaticity distribution}}{19}{figure.caption.46}%
-\contentsline {subfigure}{\numberline {c}{\ignorespaces Isoelectric point distribution}}{19}{figure.caption.46}%
-\contentsline {subfigure}{\numberline {d}{\ignorespaces Molecular weight distribution}}{19}{figure.caption.46}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Derived surface feature distributions}}{20}{figure.caption.47}%
-\contentsline {subfigure}{\numberline {a}{\ignorespaces Apolar and Polar Surface Atoms}}{20}{figure.caption.47}%
-\contentsline {subfigure}{\numberline {b}{\ignorespaces Surface feature comparison}}{20}{figure.caption.47}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Temperature and pH distributions}}{21}{figure.caption.49}%
-\contentsline {subfigure}{\numberline {a}{\ignorespaces Temperature Distribution}}{21}{figure.caption.49}%
-\contentsline {subfigure}{\numberline {b}{\ignorespaces pH Distribution}}{21}{figure.caption.49}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces General Cocktail composition}}{22}{figure.caption.50}%
-\contentsline {subfigure}{\numberline {a}{\ignorespaces Number of compounds in a cocktail}}{22}{figure.caption.50}%
-\contentsline {subfigure}{\numberline {b}{\ignorespaces Most common compounds with concentration}}{22}{figure.caption.50}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Most common compounds with concentrations}}{23}{figure.caption.51}%
-\contentsline {subfigure}{\numberline {a}{\ignorespaces Most common PEGs}}{23}{figure.caption.51}%
-\contentsline {subfigure}{\numberline {b}{\ignorespaces Most common chemicals}}{23}{figure.caption.51}%
-\contentsline {subfigure}{\numberline {a}{\ignorespaces Most common cocktails}}{24}{figure.caption.52}%
-\contentsline {subfigure}{\numberline {b}{\ignorespaces Cocktail classes}}{24}{figure.caption.52}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Most common 5-compound subsets}}{24}{figure.caption.53}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Distribution analysis}}{25}{figure.caption.55}%
-\contentsline {subfigure}{\numberline {a}{\ignorespaces Surface entropy distribution of different chemicals}}{25}{figure.caption.55}%
-\contentsline {subfigure}{\numberline {b}{\ignorespaces Kyte-Doolittle hydropathy vs. Aromaticity for salt, buffer and \gls {peg}}}{25}{figure.caption.55}%
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Distribution analysis}}{26}{figure.caption.56}%
-\contentsline {subfigure}{\numberline {a}{\ignorespaces Difference in average sequence feature for chemicals}}{26}{figure.caption.56}%
-\contentsline {subfigure}{\numberline {b}{\ignorespaces Difference in average surface feature for chemicals}}{26}{figure.caption.56}%
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Distribution difference}}{27}{figure.caption.57}%
-\contentsline {subfigure}{\numberline {a}{\ignorespaces Sequence feature ks distance of chemicals}}{27}{figure.caption.57}%
-\contentsline {subfigure}{\numberline {b}{\ignorespaces Surface feature ks distance of chemicals}}{27}{figure.caption.57}%
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Scores: 0.99, 0.97, 0.90, 0.3}}{28}{figure.caption.60}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Restructured protein database schema}}{13}{figure.caption.30}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Parsing Quality estimated by unique chemical names}}{18}{figure.caption.39}%
+\contentsline {subfigure}{\numberline {a}{\ignorespaces Appearances of unique chemical names}}{18}{figure.caption.39}%
+\contentsline {subfigure}{\numberline {b}{\ignorespaces Dataset coverage vs.\ frequency thresholds}}{18}{figure.caption.39}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Parsing Quality for numerical values}}{19}{figure.caption.40}%
+\contentsline {subfigure}{\numberline {a}{\ignorespaces Parsed pH vs. entered pH}}{19}{figure.caption.40}%
+\contentsline {subfigure}{\numberline {b}{\ignorespaces Parsed temperature vs. entered temperature}}{19}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces \gls {peg} Unit analysis}}{19}{figure.caption.41}%
+\contentsline {subfigure}{\numberline {a}{\ignorespaces Unit specification}}{19}{figure.caption.41}%
+\contentsline {subfigure}{\numberline {b}{\ignorespaces Ratio of unit specifications against Molecular weight}}{19}{figure.caption.41}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Sequence Length and Atom count Distribution}}{21}{figure.caption.48}%
+\contentsline {subfigure}{\numberline {a}{\ignorespaces Sequence Length Distribution}}{21}{figure.caption.48}%
+\contentsline {subfigure}{\numberline {b}{\ignorespaces Atom count Distribution}}{21}{figure.caption.48}%
+\contentsline {subfigure}{\numberline {c}{\ignorespaces Atom count vs. Sequence Length}}{21}{figure.caption.48}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Residue analysis in protein sequences}}{23}{figure.caption.49}%
+\contentsline {subfigure}{\numberline {a}{\ignorespaces Residue distribution}}{23}{figure.caption.49}%
+\contentsline {subfigure}{\numberline {b}{\ignorespaces Observed vs. Predicted Occurrences of Residues}}{23}{figure.caption.49}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Distributions of sequence-derived features}}{24}{figure.caption.50}%
+\contentsline {subfigure}{\numberline {a}{\ignorespaces Kyte-Doolittle hydropathy distribution}}{24}{figure.caption.50}%
+\contentsline {subfigure}{\numberline {b}{\ignorespaces Aromaticity distribution}}{24}{figure.caption.50}%
+\contentsline {subfigure}{\numberline {c}{\ignorespaces Isoelectric point distribution}}{24}{figure.caption.50}%
+\contentsline {subfigure}{\numberline {d}{\ignorespaces Molecular weight distribution}}{24}{figure.caption.50}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Derived surface feature distributions}}{25}{figure.caption.51}%
+\contentsline {subfigure}{\numberline {a}{\ignorespaces Apolar and Polar Surface Atoms}}{25}{figure.caption.51}%
+\contentsline {subfigure}{\numberline {b}{\ignorespaces Surface feature comparison}}{25}{figure.caption.51}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Temperature and pH distributions}}{25}{figure.caption.53}%
+\contentsline {subfigure}{\numberline {a}{\ignorespaces Temperature Distribution}}{25}{figure.caption.53}%
+\contentsline {subfigure}{\numberline {b}{\ignorespaces pH Distribution}}{25}{figure.caption.53}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces General Cocktail composition}}{26}{figure.caption.54}%
+\contentsline {subfigure}{\numberline {a}{\ignorespaces Number of compounds in a cocktail}}{26}{figure.caption.54}%
+\contentsline {subfigure}{\numberline {b}{\ignorespaces Most common compounds with concentration}}{26}{figure.caption.54}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Most common compounds with concentrations}}{27}{figure.caption.55}%
+\contentsline {subfigure}{\numberline {a}{\ignorespaces Most common PEGs}}{27}{figure.caption.55}%
+\contentsline {subfigure}{\numberline {b}{\ignorespaces Most common chemicals}}{27}{figure.caption.55}%
+\contentsline {subfigure}{\numberline {a}{\ignorespaces Most common cocktails}}{28}{figure.caption.56}%
+\contentsline {subfigure}{\numberline {b}{\ignorespaces Cocktail classes}}{28}{figure.caption.56}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Most common 5-compound subsets}}{28}{figure.caption.57}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Distribution analysis}}{29}{figure.caption.59}%
+\contentsline {subfigure}{\numberline {a}{\ignorespaces Surface entropy distribution of different chemicals}}{29}{figure.caption.59}%
+\contentsline {subfigure}{\numberline {b}{\ignorespaces Kyte-Doolittle hydropathy vs. Aromaticity for salt, buffer and \gls {peg}}}{29}{figure.caption.59}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Distribution analysis}}{30}{figure.caption.60}%
+\contentsline {subfigure}{\numberline {a}{\ignorespaces Difference in average sequence feature for chemicals}}{30}{figure.caption.60}%
+\contentsline {subfigure}{\numberline {b}{\ignorespaces Difference in average surface feature for chemicals}}{30}{figure.caption.60}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Distribution difference}}{31}{figure.caption.61}%
+\contentsline {subfigure}{\numberline {a}{\ignorespaces Sequence feature ks distance of chemicals}}{31}{figure.caption.61}%
+\contentsline {subfigure}{\numberline {b}{\ignorespaces Surface feature ks distance of chemicals}}{31}{figure.caption.61}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces \gls {crims} examples}}{32}{figure.caption.63}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Sequence Embedding for protein information and pH}}{30}{figure.caption.64}%
-\contentsline {subfigure}{\numberline {a}{\ignorespaces Protein sequence embedding}}{30}{figure.caption.64}%
-\contentsline {subfigure}{\numberline {b}{\ignorespaces pH sequence embedding}}{30}{figure.caption.64}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Relation of protein to condition}}{31}{figure.caption.65}%
-\contentsline {subfigure}{\numberline {a}{\ignorespaces \gls {peg} co-occurence}}{31}{figure.caption.65}%
-\contentsline {subfigure}{\numberline {b}{\ignorespaces Protein vs. pH/temperature}}{31}{figure.caption.65}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Surface point cloud auto-encoder examples}}{32}{figure.caption.67}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Condition Embedding Analysis}}{34}{figure.caption.70}%
-\contentsline {subfigure}{\numberline {a}{\ignorespaces Condition Embedding}}{34}{figure.caption.70}%
-\contentsline {subfigure}{\numberline {b}{\ignorespaces Cosine Similarity Analysis}}{34}{figure.caption.70}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Sequence Embedding for protein information and pH}}{36}{figure.caption.67}%
+\contentsline {subfigure}{\numberline {a}{\ignorespaces Protein sequence embedding}}{36}{figure.caption.67}%
+\contentsline {subfigure}{\numberline {b}{\ignorespaces pH sequence embedding}}{36}{figure.caption.67}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Relation of protein to condition}}{37}{figure.caption.68}%
+\contentsline {subfigure}{\numberline {a}{\ignorespaces \gls {peg} co-occurence}}{37}{figure.caption.68}%
+\contentsline {subfigure}{\numberline {b}{\ignorespaces Protein vs. pH/temperature}}{37}{figure.caption.68}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Surface point cloud auto-encoder examples}}{38}{figure.caption.70}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Binding Site Prediction}}{39}{figure.caption.71}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Condition Embedding Analysis}}{41}{figure.caption.74}%
+\contentsline {subfigure}{\numberline {a}{\ignorespaces Condition Embedding}}{41}{figure.caption.74}%
+\contentsline {subfigure}{\numberline {b}{\ignorespaces Cosine Similarity Analysis}}{41}{figure.caption.74}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Most common crystallization methods}}{39}{figure.caption.74}%
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Temperature / pH correlation with surface features}}{40}{figure.caption.75}%
-\contentsline {figure}{\numberline {A.3}{\ignorespaces Surface feature distributions}}{41}{figure.caption.76}%
-\contentsline {subfigure}{\numberline {a}{\ignorespaces Distributions normalized surface net charge}}{41}{figure.caption.76}%
-\contentsline {subfigure}{\numberline {b}{\ignorespaces Distributions surface entropy}}{41}{figure.caption.76}%
-\contentsline {subfigure}{\numberline {c}{\ignorespaces Distributions SASA skewness}}{41}{figure.caption.76}%
-\contentsline {subfigure}{\numberline {d}{\ignorespaces Distributions side chain fraction}}{41}{figure.caption.76}%
-\contentsline {subfigure}{\numberline {e}{\ignorespaces Distributions normalized roughness}}{41}{figure.caption.76}%
-\contentsline {subfigure}{\numberline {f}{\ignorespaces Distributions hydro polar contrast}}{41}{figure.caption.76}%
-\contentsline {figure}{\numberline {A.4}{\ignorespaces Surface feature distributions}}{42}{figure.caption.77}%
-\contentsline {subfigure}{\numberline {a}{\ignorespaces Distributions normalized surface net charge}}{42}{figure.caption.77}%
-\contentsline {subfigure}{\numberline {b}{\ignorespaces Distributions surface entropy}}{42}{figure.caption.77}%
-\contentsline {subfigure}{\numberline {c}{\ignorespaces Distributions SASA skewness}}{42}{figure.caption.77}%
-\contentsline {subfigure}{\numberline {d}{\ignorespaces Distributions side chain fraction}}{42}{figure.caption.77}%
-\contentsline {subfigure}{\numberline {e}{\ignorespaces Distributions normalized roughness}}{42}{figure.caption.77}%
-\contentsline {subfigure}{\numberline {f}{\ignorespaces Distributions hydro polar contrast}}{42}{figure.caption.77}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Most common crystallization methods}}{47}{figure.caption.79}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Temperature / pH correlation with surface features}}{48}{figure.caption.80}%
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Surface feature distributions}}{49}{figure.caption.81}%
+\contentsline {subfigure}{\numberline {a}{\ignorespaces Distributions normalized surface net charge}}{49}{figure.caption.81}%
+\contentsline {subfigure}{\numberline {b}{\ignorespaces Distributions surface entropy}}{49}{figure.caption.81}%
+\contentsline {subfigure}{\numberline {c}{\ignorespaces Distributions SASA skewness}}{49}{figure.caption.81}%
+\contentsline {subfigure}{\numberline {d}{\ignorespaces Distributions side chain fraction}}{49}{figure.caption.81}%
+\contentsline {subfigure}{\numberline {e}{\ignorespaces Distributions normalized roughness}}{49}{figure.caption.81}%
+\contentsline {subfigure}{\numberline {f}{\ignorespaces Distributions hydro polar contrast}}{49}{figure.caption.81}%
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Surface feature distributions}}{50}{figure.caption.82}%
+\contentsline {subfigure}{\numberline {a}{\ignorespaces Distributions normalized surface net charge}}{50}{figure.caption.82}%
+\contentsline {subfigure}{\numberline {b}{\ignorespaces Distributions surface entropy}}{50}{figure.caption.82}%
+\contentsline {subfigure}{\numberline {c}{\ignorespaces Distributions SASA skewness}}{50}{figure.caption.82}%
+\contentsline {subfigure}{\numberline {d}{\ignorespaces Distributions side chain fraction}}{50}{figure.caption.82}%
+\contentsline {subfigure}{\numberline {e}{\ignorespaces Distributions normalized roughness}}{50}{figure.caption.82}%
+\contentsline {subfigure}{\numberline {f}{\ignorespaces Distributions hydro polar contrast}}{50}{figure.caption.82}%
