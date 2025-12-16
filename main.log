@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.7)  5 DEC 2025 14:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.7)  11 DEC 2025 19:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1790,20 +1790,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 191--192
 [4
 
 ]
-
-[5]
-
-[6
-
-]
 --------------------
  Abstract
 --------------------
 
 
-[7]
+[5
 
-[8
+]
+
+[6
 
 ]
 --------------------
@@ -1811,9 +1807,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 191--192
 --------------------
 
 
-[9]
+[7]
 
-[10
+[8
 
 ] (main.toc
 Overfull \hbox (0.406pt too wide) in paragraph at lines 6--6
@@ -1829,15 +1825,15 @@ e-quence (and Struc-
 
 
 
-[11])
+[9])
 \tf@toc=\write10
 \openout10 = `main.toc'.
 
 
 
-[12] (main.lof
+[10] (main.lof
 
-[13
+[11
 
 ])
 \tf@lof=\write11
@@ -1845,11 +1841,19 @@ e-quence (and Struc-
 
 
 
-[14] (main.lot)
+[12] (main.lot)
 \tf@lot=\write12
 \openout12 = `main.lot'.
 
  (main.gls) (main.acr
+
+[13
+
+]
+
+[14
+
+])
 
 [15
 
@@ -1857,19 +1861,11 @@ e-quence (and Struc-
 
 [16
 
-])
-
-[17
-
 ]
+
+[17]
 
 [18
-
-]
-
-[19]
-
-[20
 
 ]
 --------------------
@@ -1877,9 +1873,9 @@ e-quence (and Struc-
 --------------------
 
 
-[21]
+[19]
 
-[22
+[20
 
 ]
 \openout2 = `Chapters/Introduction.aux'.
@@ -1937,23 +1933,25 @@ liza-tion con-di-tions. In their work,
 
  (Chapters/Background.tex
 Chapter 2.
-<Figures/phaseDiagram.pdf, id=564, 174.6525pt x 166.6225pt>
+(Chapters/Background/Proteins.tex)
+(Chapters/Background/ProteinCrystallization.tex
+<Figures/phaseDiagram.pdf, id=561, 174.6525pt x 166.6225pt>
 File: Figures/phaseDiagram.pdf Graphic file (type pdf)
 <use Figures/phaseDiagram.pdf>
-Package pdftex.def Info: Figures/phaseDiagram.pdf  used on input line 19.
+Package pdftex.def Info: Figures/phaseDiagram.pdf  used on input line 13.
 (pdftex.def)             Requested size: 193.93222pt x 185.02689pt.
 
-Underfull \hbox (badness 1360) in paragraph at lines 20--20
+Underfull \hbox (badness 1360) in paragraph at lines 14--14
  \T1/ppl/m/n/9 tal-liza-tion il-lus-trat-ing how pro-tein con-cen-tra- 
  []
 
-<Figures/hangingDrop.pdf, id=567, 189.70876pt x 132.495pt>
+<Figures/hangingDrop.pdf, id=564, 189.70876pt x 132.495pt>
 File: Figures/hangingDrop.pdf Graphic file (type pdf)
 <use Figures/hangingDrop.pdf>
-Package pdftex.def Info: Figures/hangingDrop.pdf  used on input line 26.
+Package pdftex.def Info: Figures/hangingDrop.pdf  used on input line 20.
 (pdftex.def)             Requested size: 193.93222pt x 135.44836pt.
 Package hyperref Info: bookmark level for unknown subfigure defaults to 0 on in
-put line 30.
+put line 24.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1971,13 +1969,13 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 pdfTeX warning: pdflatex.exe (file ./Figures/hangingDrop.pdf): PDF inclusion: m
 ultiple pdfs with page group included in a single page
 >]
-Overfull \hbox (5.24918pt too wide) in paragraph at lines 53--54
+Overfull \hbox (5.24918pt too wide) in paragraph at lines 47--48
 []\T1/ppl/m/n/10.95 The over-ar-ch-ing goal in crys-tal-liza-tion ex-per-i-ment
 s is to iden-tify con-di-tions where
  []
 
 
-Overfull \hbox (27.66394pt too wide) in paragraph at lines 64--65
+Overfull \hbox (27.66394pt too wide) in paragraph at lines 58--59
 []\T1/ppl/m/n/10.95 With the ad-vent of au-to-mated crys-tal-liza-tion screen-i
 ng plat-forms and high-throughput
  []
@@ -1985,19 +1983,19 @@ ng plat-forms and high-throughput
 
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 71--74
+Underfull \hbox (badness 10000) in paragraph at lines 65--68
 
  []
 
 
-Overfull \hbox (16.68593pt too wide) in paragraph at lines 76--77
+Overfull \hbox (16.68593pt too wide) in paragraph at lines 70--71
 \T1/ppl/m/n/10.95 on the pro-tein sur-face, shift-ing the bal-ance be-tween pro
 -tein^^Uprotein and pro-tein^^Usolvent
  []
 
 
 
-[8])
+[8]) (Chapters/Background/MachineLearning.tex))
 
 [9]
 \openout2 = `Chapters/Data.aux'.
@@ -2108,7 +2106,7 @@ Underfull \hbox (badness 2229) in paragraph at lines 17--17
 
 [17]
 <../msc-thesis-code/data/dataExploration/plots/occurencesDistribution.pdf, id=7
-21, 272.60757pt x 273.04916pt>
+20, 272.60757pt x 273.04916pt>
 File: ../msc-thesis-code/data/dataExploration/plots/occurencesDistribution.pdf 
 Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/occurencesDistribution.pdf>
@@ -2125,7 +2123,7 @@ Underfull \hbox (badness 1259) in paragraph at lines 59--59
  \T1/ppl/m/n/9 only once^^Vlikely due to ty-po- 
  []
 
-<../msc-thesis-code/data/dataExploration/plots/coverageByThreshold.pdf, id=722,
+<../msc-thesis-code/data/dataExploration/plots/coverageByThreshold.pdf, id=721,
  505.89pt x 289.08pt>
 File: ../msc-thesis-code/data/dataExploration/plots/coverageByThreshold.pdf Gra
 phic file (type pdf)
@@ -2133,7 +2131,7 @@ phic file (type pdf)
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/coverage
 ByThreshold.pdf  used on input line 65.
 (pdftex.def)             Requested size: 258.57835pt x 147.75966pt.
-<../msc-thesis-code/data/dataExploration/plots/phGivenVsParsedpH.pdf, id=731, 3
+<../msc-thesis-code/data/dataExploration/plots/phGivenVsParsedpH.pdf, id=730, 3
 61.35pt x 289.08pt>
 File: ../msc-thesis-code/data/dataExploration/plots/phGivenVsParsedpH.pdf Graph
 ic file (type pdf)
@@ -2142,7 +2140,7 @@ Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/phGivenV
 sParsedpH.pdf  used on input line 80.
 (pdftex.def)             Requested size: 197.56958pt x 158.05493pt.
 <../msc-thesis-code/data/dataExploration/plots/tempGivenVsParsedTemp.pdf, id=73
-2, 361.35pt x 289.08pt>
+1, 361.35pt x 289.08pt>
 File: ../msc-thesis-code/data/dataExploration/plots/tempGivenVsParsedTemp.pdf G
 raphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/tempGivenVsParsedTemp.pdf>
@@ -2157,7 +2155,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [18 <../msc-thesis-code/data/dataExploration/plots/occurencesDistribution.pdf> 
 <../msc-thesis-code/data/dataExploration/plots/coverageByThreshold.pdf>]
 <../msc-thesis-code/data/dataExploration/plots/classifiedConcentration.pdf, id=
-823, 359.93723pt x 272.42433pt>
+822, 359.93723pt x 272.42433pt>
 File: ../msc-thesis-code/data/dataExploration/plots/classifiedConcentration.pdf
  Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/classifiedConcentration.pdf>
@@ -2166,7 +2164,7 @@ Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/classifi
 edConcentration.pdf  used on input line 107.
 (pdftex.def)             Requested size: 197.56958pt x 149.5387pt.
 <../msc-thesis-code/data/dataExploration/plots/weight_per_volume_specification_
-ratio.pdf, id=824, 361.35pt x 289.08pt>
+ratio.pdf, id=823, 361.35pt x 289.08pt>
 File: ../msc-thesis-code/data/dataExploration/plots/weight_per_volume_specifica
 tion_ratio.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/weight_per_volume_specificat
@@ -2194,7 +2192,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  []
 
-<../msc-thesis-code/data/dataExploration/plots/sequenceLength.pdf, id=986, 289.
+<../msc-thesis-code/data/dataExploration/plots/sequenceLength.pdf, id=985, 289.
 08pt x 361.35pt>
 File: ../msc-thesis-code/data/dataExploration/plots/sequenceLength.pdf Graphic 
 file (type pdf)
@@ -2202,7 +2200,7 @@ file (type pdf)
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/sequence
 Length.pdf  used on input line 35.
 (pdftex.def)             Requested size: 129.29225pt x 161.61353pt.
-<../msc-thesis-code/data/dataExploration/plots/atomCount.pdf, id=987, 289.08pt 
+<../msc-thesis-code/data/dataExploration/plots/atomCount.pdf, id=986, 289.08pt 
 x 361.35pt>
 File: ../msc-thesis-code/data/dataExploration/plots/atomCount.pdf Graphic file 
 (type pdf)
@@ -2211,7 +2209,7 @@ Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/atomCoun
 t.pdf  used on input line 41.
 (pdftex.def)             Requested size: 129.29225pt x 161.61353pt.
 <../msc-thesis-code/data/dataExploration/plots/atomCountVsSequenceLength.pdf, i
-d=988, 289.08pt x 361.35pt>
+d=987, 289.08pt x 361.35pt>
 File: ../msc-thesis-code/data/dataExploration/plots/atomCountVsSequenceLength.p
 df Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/atomCountVsSequenceLength.pd
@@ -2224,7 +2222,7 @@ tVsSequenceLength.pdf  used on input line 47.
 [21 <../msc-thesis-code/data/dataExploration/plots/sequenceLength.pdf> <../msc-
 thesis-code/data/dataExploration/plots/atomCount.pdf> <../msc-thesis-code/data/
 dataExploration/plots/atomCountVsSequenceLength.pdf>]
-<../msc-thesis-code/data/dataExploration/plots/aminoAcidOccurence.pdf, id=1116,
+<../msc-thesis-code/data/dataExploration/plots/aminoAcidOccurence.pdf, id=1114,
  361.35pt x 361.35pt>
 File: ../msc-thesis-code/data/dataExploration/plots/aminoAcidOccurence.pdf Grap
 hic file (type pdf)
@@ -2233,7 +2231,7 @@ Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/aminoAci
 dOccurence.pdf  used on input line 72.
 (pdftex.def)             Requested size: 197.97646pt x 197.9767pt.
 <../msc-thesis-code/data/dataExploration/plots/observedVsPredictedAminoAcidCoun
-t.pdf, id=1117, 361.35pt x 361.35pt>
+t.pdf, id=1115, 361.35pt x 361.35pt>
 File: ../msc-thesis-code/data/dataExploration/plots/observedVsPredictedAminoAci
 dCount.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/observedVsPredictedAminoAcid
@@ -2254,7 +2252,7 @@ anon-i-cal pat-terns emerge strongly
 
 
 [22]
-<../msc-thesis-code/data/dataExploration/plots/gravyHist.pdf, id=1129, 462.5279
+<../msc-thesis-code/data/dataExploration/plots/gravyHist.pdf, id=1127, 462.5279
 8pt x 346.89601pt>
 File: ../msc-thesis-code/data/dataExploration/plots/gravyHist.pdf Graphic file 
 (type pdf)
@@ -2262,7 +2260,7 @@ File: ../msc-thesis-code/data/dataExploration/plots/gravyHist.pdf Graphic file
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/gravyHis
 t.pdf  used on input line 97.
 (pdftex.def)             Requested size: 199.99242pt x 149.99341pt.
-<../msc-thesis-code/data/dataExploration/plots/aromHist.pdf, id=1130, 462.52798
+<../msc-thesis-code/data/dataExploration/plots/aromHist.pdf, id=1128, 462.52798
 pt x 346.89601pt>
 File: ../msc-thesis-code/data/dataExploration/plots/aromHist.pdf Graphic file (
 type pdf)
@@ -2270,7 +2268,7 @@ type pdf)
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/aromHist
 .pdf  used on input line 103.
 (pdftex.def)             Requested size: 199.99242pt x 149.99341pt.
-<../msc-thesis-code/data/dataExploration/plots/pIHist.pdf, id=1131, 462.52798pt
+<../msc-thesis-code/data/dataExploration/plots/pIHist.pdf, id=1129, 462.52798pt
  x 346.89601pt>
 File: ../msc-thesis-code/data/dataExploration/plots/pIHist.pdf Graphic file (ty
 pe pdf)
@@ -2278,7 +2276,7 @@ pe pdf)
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/pIHist.p
 df  used on input line 109.
 (pdftex.def)             Requested size: 199.99242pt x 149.99341pt.
-<../msc-thesis-code/data/dataExploration/plots/mwHist.pdf, id=1132, 462.52798pt
+<../msc-thesis-code/data/dataExploration/plots/mwHist.pdf, id=1130, 462.52798pt
  x 346.89601pt>
 File: ../msc-thesis-code/data/dataExploration/plots/mwHist.pdf Graphic file (ty
 pe pdf)
@@ -2291,7 +2289,7 @@ df  used on input line 115.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 <../msc-thesis-code/data/dataExploration/plots/distribution_apolar_vs_polar.pdf
-, id=1140, 462.52798pt x 346.89601pt>
+, id=1138, 462.52798pt x 346.89601pt>
 File: ../msc-thesis-code/data/dataExploration/plots/distribution_apolar_vs_pola
 r.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/distribution_apolar_vs_polar
@@ -2300,7 +2298,7 @@ Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/distribu
 tion_apolar_vs_polar.pdf  used on input line 135.
 (pdftex.def)             Requested size: 199.99242pt x 149.99341pt.
 <../msc-thesis-code/data/dataExploration/plots/distribution_surface_information
-.pdf, id=1141, 433.62pt x 433.62pt>
+.pdf, id=1139, 433.62pt x 433.62pt>
 File: ../msc-thesis-code/data/dataExploration/plots/distribution_surface_inform
 ation.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/distribution_surface_informa
@@ -2317,7 +2315,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 msc-thesis-code/data/dataExploration/plots/observedVsPredictedAminoAcidCount.pd
 f>]
 <../msc-thesis-code/data/dataExploration/plots/temperatureDistribution.pdf, id=
-1165, 462.52798pt x 346.89601pt>
+1164, 462.52798pt x 346.89601pt>
 File: ../msc-thesis-code/data/dataExploration/plots/temperatureDistribution.pdf
  Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/temperatureDistribution.pdf>
@@ -2325,7 +2323,7 @@ File: ../msc-thesis-code/data/dataExploration/plots/temperatureDistribution.pdf
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/temperat
 ureDistribution.pdf  used on input line 165.
 (pdftex.def)             Requested size: 199.99242pt x 149.99341pt.
-<../msc-thesis-code/data/dataExploration/plots/phDistribution.pdf, id=1166, 462
+<../msc-thesis-code/data/dataExploration/plots/phDistribution.pdf, id=1165, 462
 .52798pt x 346.89601pt>
 File: ../msc-thesis-code/data/dataExploration/plots/phDistribution.pdf Graphic 
 file (type pdf)
@@ -2349,7 +2347,7 @@ st.pdf>]
 mation.pdf> <../msc-thesis-code/data/dataExploration/plots/temperatureDistribut
 ion.pdf> <../msc-thesis-code/data/dataExploration/plots/phDistribution.pdf>]
 <../msc-thesis-code/data/dataExploration/plots/nCompoundsDistribution.pdf, id=1
-436, 289.08pt x 289.08pt>
+435, 289.08pt x 289.08pt>
 File: ../msc-thesis-code/data/dataExploration/plots/nCompoundsDistribution.pdf 
 Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/nCompoundsDistribution.pdf>
@@ -2357,7 +2355,7 @@ Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/nCompoun
 dsDistribution.pdf  used on input line 187.
 (pdftex.def)             Requested size: 169.69147pt x 169.69116pt.
 <../msc-thesis-code/data/dataExploration/plots/mostCommonchemicalCompounds_with
-ConcentrationGiven.pdf, id=1437, 446.53575pt x 330.45013pt>
+ConcentrationGiven.pdf, id=1436, 446.53575pt x 330.45013pt>
 File: ../msc-thesis-code/data/dataExploration/plots/mostCommonchemicalCompounds
 _withConcentrationGiven.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/mostCommonchemicalCompounds_
@@ -2371,7 +2369,7 @@ onchemicalCompounds_withConcentrationGiven.pdf  used on input line 194.
 <../msc-thesis-code/data/dataExploration/plots/mostCommonchemicalCompounds_with
 ConcentrationGiven.pdf>]
 <../msc-thesis-code/data/dataExploration/plots/most_common_pegs_with_concentrat
-ion_point.pdf, id=1527, 446.38832pt x 330.96603pt>
+ion_point.pdf, id=1526, 446.38832pt x 330.96603pt>
 File: ../msc-thesis-code/data/dataExploration/plots/most_common_pegs_with_conce
 ntration_point.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/most_common_pegs_with_concen
@@ -2380,29 +2378,34 @@ Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/most_com
 mon_pegs_with_concentration_point.pdf  used on input line 211.
 (pdftex.def)             Requested size: 193.93222pt x 143.78725pt.
 <../msc-thesis-code/data/dataExploration/plots/most_common_chem_with_concentrat
-ion_point.pdf, id=1528, 436.69049pt x 330.98026pt>
+ion_point.pdf, id=1527, 437.39662pt x 330.98026pt>
 File: ../msc-thesis-code/data/dataExploration/plots/most_common_chem_with_conce
 ntration_point.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/most_common_chem_with_concen
 tration_point.pdf>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/most_com
 mon_chem_with_concentration_point.pdf  used on input line 218.
-(pdftex.def)             Requested size: 193.93222pt x 146.98524pt.
+(pdftex.def)             Requested size: 193.93222pt x 146.74788pt.
 
 Overfull \hbox (2.48471pt too wide) in paragraph at lines 228--229
 \T1/ppl/m/n/10.95 im-por-tant dif-fer-ences make this cat-e-gory sub-stan-tiall
 y more chal-leng-ing from a mod-
  []
 
+
+
+[27 <../msc-thesis-code/data/dataExploration/plots/most_common_pegs_with_concen
+tration_point.pdf> <../msc-thesis-code/data/dataExploration/plots/most_common_c
+hem_with_concentration_point.pdf>]
 <../msc-thesis-code/data/dataExploration/plots/commonChemCombinations.pdf, id=1
-549, 445.84003pt x 330.88618pt>
+633, 445.84003pt x 330.88618pt>
 File: ../msc-thesis-code/data/dataExploration/plots/commonChemCombinations.pdf 
 Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/commonChemCombinations.pdf>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/commonCh
 emCombinations.pdf  used on input line 238.
 (pdftex.def)             Requested size: 193.93222pt x 143.92926pt.
-<../msc-thesis-code/data/dataExploration/plots/commonChemClasses.pdf, id=1550, 
+<../msc-thesis-code/data/dataExploration/plots/commonChemClasses.pdf, id=1634, 
 450.43906pt x 330.88618pt>
 File: ../msc-thesis-code/data/dataExploration/plots/commonChemClasses.pdf Graph
 ic file (type pdf)
@@ -2416,12 +2419,7 @@ Underfull \hbox (badness 2698) in paragraph at lines 246--246
 al 
  []
 
-
-
-[27 <../msc-thesis-code/data/dataExploration/plots/most_common_pegs_with_concen
-tration_point.pdf> <../msc-thesis-code/data/dataExploration/plots/most_common_c
-hem_with_concentration_point.pdf>]
-<../msc-thesis-code/data/dataExploration/plots/mostCommonPartners.pdf, id=1634,
+<../msc-thesis-code/data/dataExploration/plots/mostCommonPartners.pdf, id=1641,
  867.24pt x 361.35pt>
 File: ../msc-thesis-code/data/dataExploration/plots/mostCommonPartners.pdf Grap
 hic file (type pdf)
@@ -2441,7 +2439,7 @@ Overfull \hbox (5.75317pt too wide) in paragraph at lines 266--1
  []
 
 <../msc-thesis-code/data/dataExploration/plots/surface_entropy_fraction_VsChem.
-pdf, id=1764, 361.35pt x 325.215pt>
+pdf, id=1771, 361.35pt x 325.215pt>
 File: ../msc-thesis-code/data/dataExploration/plots/surface_entropy_fraction_Vs
 Chem.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/surface_entropy_fraction_VsC
@@ -2449,7 +2447,7 @@ hem.pdf>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/surface_
 entropy_fraction_VsChem.pdf  used on input line 9.
 (pdftex.def)             Requested size: 199.99242pt x 179.99525pt.
-<../msc-thesis-code/data/dataExploration/plots/2d_hist_plot.pdf, id=1765, 325.2
+<../msc-thesis-code/data/dataExploration/plots/2d_hist_plot.pdf, id=1772, 325.2
 15pt x 325.215pt>
 File: ../msc-thesis-code/data/dataExploration/plots/2d_hist_plot.pdf Graphic fi
 le (type pdf)
@@ -2458,12 +2456,11 @@ Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/2d_hist_
 plot.pdf  used on input line 15.
 (pdftex.def)             Requested size: 199.99242pt x 199.9986pt.
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[29 <../msc-thesis-code/data/dataExploration/plots/surface_entropy_fraction_VsC
-hem.pdf> <../msc-thesis-code/data/dataExploration/plots/2d_hist_plot.pdf>]
 <../msc-thesis-code/data/dataExploration/plots/surfaceCompoundDistributions_sas
 a_skewness_hydrophobic_surface_fraction_surface_entropy_fraction_net_charge_nor
-malized.pdf, id=1853, 505.89pt x 361.35pt>
+malized.pdf, id=1779, 505.89pt x 361.35pt>
 File: ../msc-thesis-code/data/dataExploration/plots/surfaceCompoundDistribution
 s_sasa_skewness_hydrophobic_surface_fraction_surface_entropy_fraction_net_charg
 e_normalized.pdf Graphic file (type pdf)
@@ -2475,7 +2472,7 @@ ompoundDistributions_sasa_skewness_hydrophobic_surface_fraction_surface_entropy
 _fraction_net_charge_normalized.pdf  used on input line 32.
 (pdftex.def)             Requested size: 199.99242pt x 142.85023pt.
 <../msc-thesis-code/data/dataExploration/plots/sequenceChemDistributions_pI_mw_
-arom_gravy.pdf, id=1854, 505.89pt x 361.35pt>
+arom_gravy.pdf, id=1780, 505.89pt x 361.35pt>
 File: ../msc-thesis-code/data/dataExploration/plots/sequenceChemDistributions_p
 I_mw_arom_gravy.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/sequenceChemDistributions_pI
@@ -2483,6 +2480,9 @@ _mw_arom_gravy.pdf>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/sequence
 ChemDistributions_pI_mw_arom_gravy.pdf  used on input line 38.
 (pdftex.def)             Requested size: 199.99242pt x 142.85023pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 Overfull \hbox (9.73312pt too wide) in paragraph at lines 50--51
 \T1/ppl/m/n/10.95 the hy-dropho-bic sur-face frac-tion quan-ti-fies how much of
@@ -2495,8 +2495,11 @@ Overfull \hbox (6.76566pt too wide) in paragraph at lines 50--51
 -i-cal ten-den-cies even though
  []
 
+
+
+[29]
 <../msc-thesis-code/data/dataExploration/plots/ks_distance_all_sequence.pdf, id
-=1863, 397.485pt x 397.485pt>
+=1795, 397.485pt x 397.485pt>
 File: ../msc-thesis-code/data/dataExploration/plots/ks_distance_all_sequence.pd
 f Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/ks_distance_all_sequence.pdf
@@ -2504,7 +2507,7 @@ f Graphic file (type pdf)
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/ks_dista
 nce_all_sequence.pdf  used on input line 57.
 (pdftex.def)             Requested size: 199.99242pt x 199.99748pt.
-<../msc-thesis-code/data/dataExploration/plots/ks_distance_all.pdf, id=1864, 43
+<../msc-thesis-code/data/dataExploration/plots/ks_distance_all.pdf, id=1796, 43
 3.62pt x 433.62pt>
 File: ../msc-thesis-code/data/dataExploration/plots/ks_distance_all.pdf Graphic
  file (type pdf)
@@ -2513,18 +2516,21 @@ Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/ks_dista
 nce_all.pdf  used on input line 63.
 (pdftex.def)             Requested size: 199.99242pt x 199.99033pt.
 
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
-[30 <../msc-thesis-code/data/dataExploration/plots/surfaceCompoundDistributions
-_sasa_skewness_hydrophobic_surface_fraction_surface_entropy_fraction_net_charge
-_normalized.pdf> <../msc-thesis-code/data/dataExploration/plots/sequenceChemDis
-tributions_pI_mw_arom_gravy.pdf>])) (Chapters/Data/CRIMS.tex
+[30 <../msc-thesis-code/data/dataExploration/plots/surface_entropy_fraction_VsC
+hem.pdf> <../msc-thesis-code/data/dataExploration/plots/2d_hist_plot.pdf> <../m
+sc-thesis-code/data/dataExploration/plots/surfaceCompoundDistributions_sasa_ske
+wness_hydrophobic_surface_fraction_surface_entropy_fraction_net_charge_normaliz
+ed.pdf> <../msc-thesis-code/data/dataExploration/plots/sequenceChemDistribution
+s_pI_mw_arom_gravy.pdf>])) (Chapters/Data/CRIMS.tex
 
 [31 <../msc-thesis-code/data/dataExploration/plots/ks_distance_all_sequence.pdf
 > <../msc-thesis-code/data/dataExploration/plots/ks_distance_all.pdf>]
-<media/FORMULATRIX_SD30010705_2_01-10-2025_03_03_01_00_99_Vis-1.jpg, id=2088, 1
+<media/FORMULATRIX_SD30010705_2_01-10-2025_03_03_01_00_99_Vis-1.jpg, id=2096, 1
 727.70468pt x 1445.4pt>
 File: media/FORMULATRIX_SD30010705_2_01-10-2025_03_03_01_00_99_Vis-1.jpg Graphi
 c file (type jpg)
@@ -2532,7 +2538,7 @@ c file (type jpg)
 Package pdftex.def Info: media/FORMULATRIX_SD30010705_2_01-10-2025_03_03_01_00_
 99_Vis-1.jpg  used on input line 16.
 (pdftex.def)             Requested size: 96.9692pt x 81.11829pt.
-<media/FORMULATRIX_SD30010708_4_07-10-2025_10_06_01_00_99_Vis.jpg, id=2089, 172
+<media/FORMULATRIX_SD30010708_4_07-10-2025_10_06_01_00_99_Vis.jpg, id=2097, 172
 7.70468pt x 1445.4pt>
 File: media/FORMULATRIX_SD30010708_4_07-10-2025_10_06_01_00_99_Vis.jpg Graphic 
 file (type jpg)
@@ -2540,7 +2546,7 @@ file (type jpg)
 Package pdftex.def Info: media/FORMULATRIX_SD30010708_4_07-10-2025_10_06_01_00_
 99_Vis.jpg  used on input line 19.
 (pdftex.def)             Requested size: 96.9692pt x 81.11829pt.
-<media/FORMULATRIX_SD30010708_4_07-10-2025_12_08_01_00_99_Vis.jpg, id=2090, 172
+<media/FORMULATRIX_SD30010708_4_07-10-2025_12_08_01_00_99_Vis.jpg, id=2098, 172
 7.70468pt x 1445.4pt>
 File: media/FORMULATRIX_SD30010708_4_07-10-2025_12_08_01_00_99_Vis.jpg Graphic 
 file (type jpg)
@@ -2548,7 +2554,7 @@ file (type jpg)
 Package pdftex.def Info: media/FORMULATRIX_SD30010708_4_07-10-2025_12_08_01_00_
 99_Vis.jpg  used on input line 22.
 (pdftex.def)             Requested size: 96.9692pt x 81.11829pt.
-<media/FORMULATRIX_SD30010708_4_07-10-2025_06_04_01_00_99_Vis.jpg, id=2091, 172
+<media/FORMULATRIX_SD30010708_4_07-10-2025_06_04_01_00_99_Vis.jpg, id=2099, 172
 7.70468pt x 1445.4pt>
 File: media/FORMULATRIX_SD30010708_4_07-10-2025_06_04_01_00_99_Vis.jpg Graphic 
 file (type jpg)
@@ -2594,7 +2600,7 @@ Overfull \hbox (0.95178pt too wide) in paragraph at lines 5--9
 n where
  []
 
-<../msc-thesis-code/data/dataExploration/plots/proteinEmbedding.pdf, id=2115, 4
+<../msc-thesis-code/data/dataExploration/plots/proteinEmbedding.pdf, id=2122, 4
 33.62pt x 289.08pt>
 File: ../msc-thesis-code/data/dataExploration/plots/proteinEmbedding.pdf Graphi
 c file (type pdf)
@@ -2602,7 +2608,7 @@ c file (type pdf)
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/proteinE
 mbedding.pdf  used on input line 14.
 (pdftex.def)             Requested size: 199.99242pt x 133.32687pt.
-<../msc-thesis-code/data/dataExploration/plots/pHEmbedding.pdf, id=2116, 462.52
+<../msc-thesis-code/data/dataExploration/plots/pHEmbedding.pdf, id=2123, 462.52
 798pt x 346.89601pt>
 File: ../msc-thesis-code/data/dataExploration/plots/pHEmbedding.pdf Graphic fil
 e (type pdf)
@@ -2622,7 +2628,7 @@ Overfull \hbox (4.33513pt too wide) in paragraph at lines 28--29
 
 
 [35]
-<../msc-thesis-code/data/dataExploration/plots/proteinVsCompound.pdf, id=2131, 
+<../msc-thesis-code/data/dataExploration/plots/proteinVsCompound.pdf, id=2139, 
 413.44223pt x 424.2638pt>
 File: ../msc-thesis-code/data/dataExploration/plots/proteinVsCompound.pdf Graph
 ic file (type pdf)
@@ -2631,7 +2637,7 @@ Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/proteinV
 sCompound.pdf  used on input line 38.
 (pdftex.def)             Requested size: 199.99242pt x 205.22389pt.
 <../msc-thesis-code/data/dataExploration/plots/proteinDistributionpH_temp.pdf, 
-id=2132, 433.62pt x 433.62pt>
+id=2140, 433.62pt x 433.62pt>
 File: ../msc-thesis-code/data/dataExploration/plots/proteinDistributionpH_temp.
 pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/proteinDistributionpH_temp.p
@@ -2657,7 +2663,7 @@ t/10.95 et al\T1/ppl/m/n/10.95 . ([][]2020[][]) pro-posed [][][]dif-fer-en-tiab
 le molec-
  []
 
-<../msc-thesis-code/data/dataExploration/plots/reconstruction.png, id=2350, 363
+<../msc-thesis-code/data/dataExploration/plots/reconstruction.png, id=2358, 363
 .2858pt x 158.09062pt>
 File: ../msc-thesis-code/data/dataExploration/plots/reconstruction.png Graphic 
 file (type png)
@@ -2665,7 +2671,7 @@ file (type png)
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/reconstr
 uction.png  used on input line 18.
 (pdftex.def)             Requested size: 181.81184pt x 79.11748pt.
-<../msc-thesis-code/data/dataExploration/plots/reconstruction2.png, id=2352, 36
+<../msc-thesis-code/data/dataExploration/plots/reconstruction2.png, id=2360, 36
 3.2858pt x 158.09062pt>
 File: ../msc-thesis-code/data/dataExploration/plots/reconstruction2.png Graphic
  file (type png)
@@ -2677,18 +2683,18 @@ uction2.png  used on input line 22.
 
 [38 <../msc-thesis-code/data/dataExploration/plots/reconstruction.png> <../msc-
 thesis-code/data/dataExploration/plots/reconstruction2.png>]
-<Media/binding_site9ewo.png, id=2367, 680.5425pt x 737.75626pt>
+<Media/binding_site9ewo.png, id=2375, 680.5425pt x 737.75626pt>
 File: Media/binding_site9ewo.png Graphic file (type png)
 <use Media/binding_site9ewo.png>
 Package pdftex.def Info: Media/binding_site9ewo.png  used on input line 37.
 (pdftex.def)             Requested size: 101.00726pt x 109.49916pt.
-<Media/binding_site2fz3.png, id=2368, 680.5425pt x 737.75626pt>
+<Media/binding_site2fz3.png, id=2376, 680.5425pt x 737.75626pt>
 File: Media/binding_site2fz3.png Graphic file (type png)
 <use Media/binding_site2fz3.png>
 Package pdftex.def Info: Media/binding_site2fz3.png  used on input line 41.
 (pdftex.def)             Requested size: 101.00726pt x 109.49916pt.
 
-Overfull \hbox (16.92398pt too wide) in paragraph at lines 47--49
+Overfull \hbox (16.92398pt too wide) in paragraph at lines 47--50
 [][]\T1/ppl/m/n/10.95 Yuan \T1/ppl/m/it/10.95 et al\T1/ppl/m/n/10.95 . ([][]202
 3[][]) im-ple-ment a sim-i-lar ap-proach called Pro-tein-MAE, a self-supervised
 
@@ -2702,7 +2708,7 @@ LaTeX Warning: Reference `tab:conditionExamples' on page 40 undefined on input
 line 36.
 
 <../msc-thesis-code/data/dataExploration/plots/conditionEmbedding_new.pdf, id=2
-391, 345.42236pt x 345.34018pt>
+399, 345.42236pt x 345.34018pt>
 File: ../msc-thesis-code/data/dataExploration/plots/conditionEmbedding_new.pdf 
 Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/conditionEmbedding_new.pdf>
@@ -2710,7 +2716,7 @@ Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/conditio
 nEmbedding_new.pdf  used on input line 41.
 (pdftex.def)             Requested size: 199.99242pt x 199.94965pt.
 <../msc-thesis-code/data/dataExploration/plots/cosineSimilarityHeatmapCondition
-Set.pdf, id=2392, 361.35pt x 361.35pt>
+Set.pdf, id=2400, 361.35pt x 361.35pt>
 File: ../msc-thesis-code/data/dataExploration/plots/cosineSimilarityHeatmapCond
 itionSet.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/cosineSimilarityHeatmapCondi
@@ -2774,7 +2780,7 @@ Chapter 6.
 ]
 Appendix A.
 <../msc-thesis-code/data/dataExploration/plots/employmentMethodDistribution.pdf
-, id=2483, 462.52798pt x 346.89601pt>
+, id=2491, 462.52798pt x 346.89601pt>
 File: ../msc-thesis-code/data/dataExploration/plots/employmentMethodDistributio
 n.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/employmentMethodDistribution
@@ -2782,7 +2788,7 @@ n.pdf Graphic file (type pdf)
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/employme
 ntMethodDistribution.pdf  used on input line 7.
 (pdftex.def)             Requested size: 404.02908pt x 303.03569pt.
-<../msc-thesis-code/data/dataExploration/plots/correlation_ph_temp.pdf, id=2484
+<../msc-thesis-code/data/dataExploration/plots/correlation_ph_temp.pdf, id=2492
 , 578.16pt x 433.62pt>
 File: ../msc-thesis-code/data/dataExploration/plots/correlation_ph_temp.pdf Gra
 phic file (type pdf)
@@ -2795,7 +2801,7 @@ ion_ph_temp.pdf  used on input line 15.
 [47 <../msc-thesis-code/data/dataExploration/plots/employmentMethodDistribution
 .pdf>]
 <../msc-thesis-code/data/dataExploration/plots/net_charge_normalizedVsChem.pdf,
- id=2535, 462.52798pt x 346.89601pt>
+ id=2544, 462.52798pt x 346.89601pt>
 File: ../msc-thesis-code/data/dataExploration/plots/net_charge_normalizedVsChem
 .pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/net_charge_normalizedVsChem.
@@ -2804,7 +2810,7 @@ Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/net_char
 ge_normalizedVsChem.pdf  used on input line 25.
 (pdftex.def)             Requested size: 197.97646pt x 148.48483pt.
 <../msc-thesis-code/data/dataExploration/plots/surface_entropy_fractionVsChem.p
-df, id=2536, 462.52798pt x 346.89601pt>
+df, id=2545, 462.52798pt x 346.89601pt>
 File: ../msc-thesis-code/data/dataExploration/plots/surface_entropy_fractionVsC
 hem.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/surface_entropy_fractionVsCh
@@ -2812,7 +2818,7 @@ em.pdf>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/surface_
 entropy_fractionVsChem.pdf  used on input line 32.
 (pdftex.def)             Requested size: 197.97646pt x 148.48483pt.
-<../msc-thesis-code/data/dataExploration/plots/sasa_skewnessVsChem.pdf, id=2537
+<../msc-thesis-code/data/dataExploration/plots/sasa_skewnessVsChem.pdf, id=2546
 , 462.52798pt x 346.89601pt>
 File: ../msc-thesis-code/data/dataExploration/plots/sasa_skewnessVsChem.pdf Gra
 phic file (type pdf)
@@ -2821,7 +2827,7 @@ Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/sasa_ske
 wnessVsChem.pdf  used on input line 38.
 (pdftex.def)             Requested size: 197.97646pt x 148.48483pt.
 <../msc-thesis-code/data/dataExploration/plots/sidechain_fractionVsChem.pdf, id
-=2538, 462.52798pt x 346.89601pt>
+=2547, 462.52798pt x 346.89601pt>
 File: ../msc-thesis-code/data/dataExploration/plots/sidechain_fractionVsChem.pd
 f Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/sidechain_fractionVsChem.pdf
@@ -2829,7 +2835,7 @@ f Graphic file (type pdf)
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/sidechai
 n_fractionVsChem.pdf  used on input line 45.
 (pdftex.def)             Requested size: 197.97646pt x 148.48483pt.
-<../msc-thesis-code/data/dataExploration/plots/roughnessVsChem.pdf, id=2539, 46
+<../msc-thesis-code/data/dataExploration/plots/roughnessVsChem.pdf, id=2548, 46
 2.52798pt x 346.89601pt>
 File: ../msc-thesis-code/data/dataExploration/plots/roughnessVsChem.pdf Graphic
  file (type pdf)
@@ -2838,7 +2844,7 @@ Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/roughnes
 sVsChem.pdf  used on input line 51.
 (pdftex.def)             Requested size: 197.97646pt x 148.48483pt.
 <../msc-thesis-code/data/dataExploration/plots/hydro_polar_contrastVsChem.pdf, 
-id=2540, 462.52798pt x 346.89601pt>
+id=2549, 462.52798pt x 346.89601pt>
 File: ../msc-thesis-code/data/dataExploration/plots/hydro_polar_contrastVsChem.
 pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/hydro_polar_contrastVsChem.p
@@ -2851,7 +2857,7 @@ lar_contrastVsChem.pdf  used on input line 58.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 <../msc-thesis-code/data/dataExploration/plots/net_charge_normalized_ks_distanc
-e.pdf, id=2541, 433.62pt x 433.62pt>
+e.pdf, id=2550, 433.62pt x 433.62pt>
 File: ../msc-thesis-code/data/dataExploration/plots/net_charge_normalized_ks_di
 stance.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/net_charge_normalized_ks_dis
@@ -2860,7 +2866,7 @@ Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/net_char
 ge_normalized_ks_distance.pdf  used on input line 71.
 (pdftex.def)             Requested size: 197.97646pt x 197.9789pt.
 <../msc-thesis-code/data/dataExploration/plots/surface_entropy_fraction_ks_dist
-ance.pdf, id=2542, 433.62pt x 433.62pt>
+ance.pdf, id=2551, 433.62pt x 433.62pt>
 File: ../msc-thesis-code/data/dataExploration/plots/surface_entropy_fraction_ks
 _distance.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/surface_entropy_fraction_ks_
@@ -2869,7 +2875,7 @@ Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/surface_
 entropy_fraction_ks_distance.pdf  used on input line 78.
 (pdftex.def)             Requested size: 197.97646pt x 197.9789pt.
 <../msc-thesis-code/data/dataExploration/plots/sasa_skewness_ks_distance.pdf, i
-d=2543, 433.62pt x 433.62pt>
+d=2552, 433.62pt x 433.62pt>
 File: ../msc-thesis-code/data/dataExploration/plots/sasa_skewness_ks_distance.p
 df Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/sasa_skewness_ks_distance.pd
@@ -2878,7 +2884,7 @@ Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/sasa_ske
 wness_ks_distance.pdf  used on input line 84.
 (pdftex.def)             Requested size: 197.97646pt x 197.9789pt.
 <../msc-thesis-code/data/dataExploration/plots/sidechain_fraction_ks_distance.p
-df, id=2544, 433.62pt x 433.62pt>
+df, id=2553, 433.62pt x 433.62pt>
 File: ../msc-thesis-code/data/dataExploration/plots/sidechain_fraction_ks_dista
 nce.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/sidechain_fraction_ks_distan
@@ -2887,7 +2893,7 @@ Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/sidechai
 n_fraction_ks_distance.pdf  used on input line 91.
 (pdftex.def)             Requested size: 197.97646pt x 197.9789pt.
 <../msc-thesis-code/data/dataExploration/plots/roughness_ks_distance.pdf, id=25
-45, 433.62pt x 433.62pt>
+54, 433.62pt x 433.62pt>
 File: ../msc-thesis-code/data/dataExploration/plots/roughness_ks_distance.pdf G
 raphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/roughness_ks_distance.pdf>
@@ -2895,7 +2901,7 @@ Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/roughnes
 s_ks_distance.pdf  used on input line 97.
 (pdftex.def)             Requested size: 197.97646pt x 197.9789pt.
 <../msc-thesis-code/data/dataExploration/plots/hydro_polar_contrast_ks_distance
-.pdf, id=2546, 433.62pt x 433.62pt>
+.pdf, id=2555, 433.62pt x 433.62pt>
 File: ../msc-thesis-code/data/dataExploration/plots/hydro_polar_contrast_ks_dis
 tance.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/hydro_polar_contrast_ks_dist
@@ -2930,14 +2936,14 @@ ontrast_ks_distance.pdf>]
 
 
 ]
-Overfull \hbox (5.51721pt too wide) in paragraph at lines 294--294
+Overfull \hbox (5.51721pt too wide) in paragraph at lines 284--284
 \T1/ppl/m/it/10.95 tal-log-ra-phy\T1/ppl/m/n/10.95 , \T1/ppl/m/it/10.95 61\T1/p
 pl/m/n/10.95 (Pt 12), 1662^^U1669. [][]$https : / / doi . org / 10 . 1107 / S09
 07444905033202$[][] 
  []
 
 
-Overfull \hbox (2.32585pt too wide) in paragraph at lines 294--294
+Overfull \hbox (2.32585pt too wide) in paragraph at lines 284--284
 [][]\T1/ppl/m/n/10.95 Rupp, B. (2009). \T1/ppl/m/it/10.95 Biomolec-u-lar crys-t
 al-log-ra-phy: Prin-ci-ples, prac-tice, and ap-pli-ca-tion to struc-
  []
@@ -2958,7 +2964,7 @@ L3 programming layer <2020/03/25>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F5879F2760DDA831F0070728E7AC56B9;6074.
+(rerunfilecheck)             Checksum: 7F777513CE403D17F4715BA163084476;6212.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                main
@@ -2969,11 +2975,11 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 62719 strings out of 468149
- 1493018 string characters out of 5431083
- 2429510 words of memory out of 5000000
- 90233 multiletter control sequences out of 15000+600000
- 701206 words of font info for 169 fonts, out of 8000000 for 9000
+ 62747 strings out of 468149
+ 1494320 string characters out of 5431083
+ 2429552 words of memory out of 5000000
+ 90250 multiletter control sequences out of 15000+600000
+ 701463 words of font info for 170 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  143i,20n,137p,2517b,5181s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
@@ -3008,9 +3014,9 @@ b><C:/Users/michi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a
 r8a.pfb><C:/Users/michi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/
 uplr8a.pfb><C:/Users/michi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palati
 no/uplri8a.pfb>
-Output written on main.pdf (75 pages, 6863499 bytes).
+Output written on main.pdf (73 pages, 6864521 bytes).
 PDF statistics:
- 3298 PDF objects out of 3580 (max. 8388607)
- 207 named destinations out of 1000 (max. 500000)
- 659 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3307 PDF objects out of 3580 (max. 8388607)
+ 206 named destinations out of 1000 (max. 500000)
+ 667 words of extra memory for PDF output out of 10000 (max. 10000000)
 

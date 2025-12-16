@@ -1,23 +1,23 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'main.blg'
-[85] biber-MSWIN64:342> INFO - === 
-[124] Biber.pm:421> INFO - Reading 'main.bcf'
-[223] Biber.pm:1002> INFO - Found 32 citekeys in bib section 0
-[234] Biber.pm:4487> INFO - Processing section 0
-[241] Biber.pm:4678> INFO - Looking for bibtex file 'references.bib' for section 0
-[328] bibtex.pm:1713> INFO - LaTeX decoding ...
-[406] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
-[518] Utils.pm:479> ERROR - Name "Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova" has too many commas, skipping entry 'Devlin2019'
-[608] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[609] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[609] Biber.pm:4307> INFO - Sorting list 'apa/apasortcite//global/global/global' of type 'entry' with template 'apa' and locale 'en-US'
-[609] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
-[664] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[664] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[664] Biber.pm:4307> INFO - Sorting list 'apa/global//global/global/global' of type 'entry' with template 'apa' and locale 'en-US'
-[664] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
-[693] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[763] bbl.pm:779> INFO - Output to main.bbl
-[763] Biber.pm:132> WARN - Entry with key 'Devlin2019' in section '0' is cited and found but not created (likely due to sourcemap)
-[763] Biber.pm:134> INFO - WARNINGS: 1
-[763] Biber.pm:137> INFO - ERRORS: 1
+[176] biber-MSWIN64:342> INFO - === 
+[233] Biber.pm:421> INFO - Reading 'main.bcf'
+[483] Biber.pm:1002> INFO - Found 32 citekeys in bib section 0
+[516] Biber.pm:4487> INFO - Processing section 0
+[531] Biber.pm:4678> INFO - Looking for bibtex file 'references.bib' for section 0
+[611] bibtex.pm:1713> INFO - LaTeX decoding ...
+[773] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
+[1107] Utils.pm:479> ERROR - Name "Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova" has too many commas, skipping entry 'Devlin2019'
+[1353] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1353] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1353] Biber.pm:4307> INFO - Sorting list 'apa/apasortcite//global/global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[1353] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[1483] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1484] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1484] Biber.pm:4307> INFO - Sorting list 'apa/global//global/global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[1484] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[1571] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[1705] bbl.pm:779> INFO - Output to main.bbl
+[1706] Biber.pm:132> WARN - Entry with key 'Devlin2019' in section '0' is cited and found but not created (likely due to sourcemap)
+[1706] Biber.pm:134> INFO - WARNINGS: 1
+[1706] Biber.pm:137> INFO - ERRORS: 1
