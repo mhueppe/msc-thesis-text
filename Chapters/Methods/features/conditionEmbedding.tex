@@ -1,7 +1,43 @@
 \subsection{Condition Embedding}\label{methods/feature_engineering/condition_embedding}
 
-To embed crystallization conditions in a semantically meaningful way, this thesis employs the E5 sentence transformer architecture, a family of text-embedding models designed for high-quality retrieval and semantic similarity tasks. E5 models follow the dual-encoder paradigm introduced in the original work by \textcite{Wang2022}. In this framework, text is processed by a Transformer encoder that outputs a dense vector representation. These vectors are optimized so that semantically related texts lie close together in embedding space, while unrelated texts are pushed apart.
+To embed crystallization conditions in a meaningful way, this thesis employs two methods. Firstly, a numerical feature representative and a semantic vector representative. 
 
+\subsubsection{Feature vector}
+The numerical feature representative was created using the following procedure. After parsing the condition from the free text a nomenclature was defined of valid chemicals. For all of the chemicals in that dictionary the \gls{smiles} notation was defined. 
+Introduced by \cite{Weininger1988}, \gls{smiles} is a text-based chemical notation designed for computational processing. It represents a molecule as a linear string of ASCII characters encoding its underlying molecular graph, including atoms, bond types, branching, ring closures, and formal charges. Thus, \gls{smiles} captures the connectivity and chemical structure of a compound in a machine-readable format.
+
+For example, ammonium sulfate ($(NH_4)_2SO_4$) is represented as: $$[NH4+].[NH4+].[O-]S(=O)(=O)[O-]$$
+
+Dots indicate non-covalently connected species, here two ammonium ions and one sulfate ion. Charged atoms are written in square brackets, such as `[NH4+]` for the ammonium ion. The sulfate ion is encoded by specifying sulfur as the central atom (`S`), double-bonded oxygens using `=O`, and negatively charged oxygens as `[O-]`.
+
+Overall, \gls{smiles} provides a compact representation of molecular structure by describing the atoms and their connectivity rather than their spatial arrangement, making it well suited for computational modeling and machine learning applications.
+
+The \gls{smiles} code for the chemicals was tracked down using \href{https://pubchem.ncbi.nlm.nih.gov/}{PubChem}. \href{https://pubchem.ncbi.nlm.nih.gov/}{PubChem} is a database of chemical information managed by the U.S. National Institutes of Health and captures structures, physical properties of small molecules. 
+
+Using the \gls{smiles} representation, the following molecular descriptors are extracted for each chemical (computed with RDKit): 
+\begin{itemize}
+	\itemsep0em 
+	\item \textbf{Molecular Weight (MolWt):} Total molecular mass in Daltons (g/mol).
+	\item \textbf{Heavy Atom Count:} Number of non-hydrogen atoms.
+	\item \textbf{TPSA:} Topological polar surface area; a proxy for polarity and hydrogen-bonding capacity.
+	\item \textbf{HBD:} Number of hydrogen-bond donors.
+	\item \textbf{HBA:} Number of hydrogen-bond acceptors.
+	\item \textbf{LogP:} Estimated octanol/water partition coefficient; a proxy for hydrophobicity.
+	\item \textbf{MR:} Molar refractivity; relates to polarizability and molecular volume.
+	\item \textbf{RotB:} Number of rotatable bonds; a measure of molecular flexibility.
+	\item \textbf{RingCount:} Number of rings in the molecular graph.
+	\item \textbf{FractionCSP3:} Fraction of carbon atoms in sp\textsuperscript{3} hybridization; indicates 3D character/saturation.
+	\item \textbf{Formal Charge:} Net formal charge of the molecule.
+	\item \textbf{NCount:} Number of nitrogen atoms.
+	\item \textbf{OCount:} Number of oxygen atoms.
+	\item \textbf{SCount:} Number of sulfur atoms.
+	\item \textbf{HalogenCount:} Number of halogen atoms (F, Cl, Br, I).
+\end{itemize}
+
+Additionally, each compound is also represented by a Morgan fingerprint derived from its \gls{smiles} representation. \citet{Morgan1965} defines circular substructure descriptors that capture local atom environments around each atom up to a given radius. By hashing these substructures into a fixed-length bit vector, they provide a continuous representation of molecular topology suitable for machine learning. This way, functional groups, aromatic rings, local polarity patterns, repeating structural motifs and substructure frequencies can be encoded. In this work, a count-based Morgan fingerprints of length 2048 and radius 2 is chosen. In the traditional (binary) Morgan fingerprint, the hashing procedure encodes only whether a particular circular substructure is present in the molecule. In contrast, the count-based variant additionally records how often each substructure occurs. Instead of a binary indicator (0/1), each fingerprint dimension therefore contains the frequency of the corresponding hashed substructure, allowing repeated structural motifs to be represented more explicitly.
+
+\subsubsection{Semantic representation}
+The E5 sentence transformer architecture, a family of text-embedding models designed for high-quality retrieval and semantic similarity tasks. E5 models follow the dual-encoder paradigm introduced in the original work by \textcite{Wang2022}. In this framework, text is processed by a Transformer encoder that outputs a dense vector representation. These vectors are optimized so that semantically related texts lie close together in embedding space, while unrelated texts are pushed apart.
 
 The starting was the pre-trained e5-small-v2 model. During fine-tuning, E5 uses contrastive learning, where pairs of texts are treated as positive or negative examples. The model is trained with an InfoNCE-style loss, encouraging the embeddings of matching or semantically equivalent texts to become similar. In the original E5 formulation, these positives come from paired query–document texts. In this thesis, the same principle is adapted to crystallization conditions.
 

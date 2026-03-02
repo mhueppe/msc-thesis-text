@@ -19,6 +19,69 @@
 
 \refsection{0}
   \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{Abrahams2019}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=471f6c061eed92c0f47f2fb6babed14f}{%
+           family={Abrahams},
+           familyi={A\bibinitperiod},
+           given={G.\bibnamedelimi J.},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=030b2531b6b9f5580cc0eabb6d8cc405}{%
+           family={Newman},
+           familyi={N\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {International Union of Crystallography}%
+      }
+      \strng{namehash}{83c7d87e46290706401546bed4d62d35}
+      \strng{fullhash}{83c7d87e46290706401546bed4d62d35}
+      \strng{fullhashraw}{83c7d87e46290706401546bed4d62d35}
+      \strng{bibnamehash}{83c7d87e46290706401546bed4d62d35}
+      \strng{authorbibnamehash}{83c7d87e46290706401546bed4d62d35}
+      \strng{authornamehash}{83c7d87e46290706401546bed4d62d35}
+      \strng{authorfullhash}{83c7d87e46290706401546bed4d62d35}
+      \strng{authorfullhashraw}{83c7d87e46290706401546bed4d62d35}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Crystallization is in many cases a critical step for solving the three-dimensional structure of a protein molecule. Determining which set of chemicals to use in the initial screen is typically agnostic of the protein under investigation; however, crystallization efficiency could potentially be improved if this were not the case. Previous work has assumed that sequence similarity may provide useful information about appropriate crystallization cocktails; however, the authors are not aware of any quantitative verification of this assumption. This research investigates whether, given current information, one can detect any correlation between sequence similarity and crystallization cocktails. BLAST was used to quantitate the similarity between protein sequences in the Protein Data Bank, and this was compared with three estimations of the chemical similarities of the respective crystallization cocktails. No correlation was detected between proteins of similar (but not identical) sequence and their crystallization cocktails, suggesting that methods of determining screens based on this assumption are unlikely to result in screens that are better than those currently in use.}
+      \field{issn}{2053-230X}
+      \field{journaltitle}{Acta Crystallographica Section F: Structural Biology Communications}
+      \field{month}{3}
+      \field{number}{3}
+      \field{title}{{BLASTing} away preconceptions in crystallization trials}
+      \field{urlday}{20}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{75}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{184\bibrangedash 192}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1107/S2053230X19000141
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:https\://journals.iucr.org/f/issues/2019/03/00/rl5170/rl5170.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.iucr.org/f/issues/2019/03/00/rl5170/
+      \endverb
+      \verb{url}
+      \verb https://journals.iucr.org/f/issues/2019/03/00/rl5170/
+      \endverb
+    \endentry
     \entry{Ataka1988}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=885736d0f63722d536d0071037ec197b}{%
@@ -183,9 +246,9 @@
       \field{number}{1}
       \field{series}{Proceedings of the {Eighth} {International} {Conference} on {Crystalliza} tion of {Biological} {Macromolecules}}
       \field{title}{Is lysozyme really the ideal model protein?}
-      \field{urlday}{17}
-      \field{urlmonth}{11}
-      \field{urlyear}{2025}
+      \field{urlday}{16}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
       \field{volume}{232}
       \field{year}{2001}
       \field{urldateera}{ce}
@@ -204,6 +267,229 @@
       \verb https://www.sciencedirect.com/science/article/pii/S0022024801012039
       \endverb
       \keyw{A1.Biocrystallization,A1.Nucleation,A1.Surfaces,B1.Biological macromolecules,B1. Lysozyme,B1.Proteins}
+    \endentry
+    \entry{Cumbaa2010}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=2ef2178176db3c2768b5619cd3812009}{%
+           family={Cumbaa},
+           familyi={C\bibinitperiod},
+           given={Christian\bibnamedelima A.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f32ede9e3858b822d1964730ac04189c}{%
+           family={Jurisica},
+           familyi={J\bibinitperiod},
+           given={Igor},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{7d80872d79c981e960b6f19f6250bea3}
+      \strng{fullhash}{7d80872d79c981e960b6f19f6250bea3}
+      \strng{fullhashraw}{7d80872d79c981e960b6f19f6250bea3}
+      \strng{bibnamehash}{7d80872d79c981e960b6f19f6250bea3}
+      \strng{authorbibnamehash}{7d80872d79c981e960b6f19f6250bea3}
+      \strng{authornamehash}{7d80872d79c981e960b6f19f6250bea3}
+      \strng{authorfullhash}{7d80872d79c981e960b6f19f6250bea3}
+      \strng{authorfullhashraw}{7d80872d79c981e960b6f19f6250bea3}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We have developed an image-analysis and classification system for automatically scoring images from high-throughput protein crystallization trials. Image analysis for this system is performed by the Help Conquer Cancer (HCC) project on the World Community Grid. HCC calculates 12,375 distinct image features on microbatch-under-oil images from the Hauptman-Woodward Medical Research Institute’s High-Throughput Screening Laboratory. Using HCC-computed image features and a massive training set of 165,351 hand-scored images, we have trained multiple Random Forest classifiers that accurately recognize multiple crystallization outcomes, including crystals, clear drops, precipitate, and others. The system successfully recognizes 80\% of crystal-bearing images, 89\% of precipitate images, and 98\% of clear drops.}
+      \field{issn}{1570-0267}
+      \field{journaltitle}{Journal of Structural and Functional Genomics}
+      \field{month}{3}
+      \field{number}{1}
+      \field{title}{Protein crystallization analysis on the {World} {Community} {Grid}}
+      \field{urlday}{1}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{11}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \field{pages}{61\bibrangedash 69}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1007/s10969-009-9076-9
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:Cumbaa2010 - Protein Crystallization Analysis on the World Community Grid.pdf:PDF:https\://link.springer.com/content/pdf/10.1007%2Fs10969-009-9076-9.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s10969-009-9076-9
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s10969-009-9076-9
+      \endverb
+      \keyw{Image analysis,High-throughput protein crystallization}
+    \endentry
+    \entry{Desbois2013}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=061df87c3eedcc43488b650e23923262}{%
+           family={Desbois},
+           familyi={D\bibinitperiod},
+           given={Sebastien},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7d63187dae2a77960d28f71f563ba954}{%
+           family={Seabrook},
+           familyi={S\bibinitperiod},
+           given={Shane\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bde45bf5ec10ea0c63441a4d107c1074}{%
+           family={Newman},
+           familyi={N\bibinitperiod},
+           given={Janet},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{83b65e7575e896eb9b2d43f5ed551996}
+      \strng{fullhash}{1579cd3d6f92c8f76dcca8d78ccb31c4}
+      \strng{fullhashraw}{1579cd3d6f92c8f76dcca8d78ccb31c4}
+      \strng{bibnamehash}{1579cd3d6f92c8f76dcca8d78ccb31c4}
+      \strng{authorbibnamehash}{1579cd3d6f92c8f76dcca8d78ccb31c4}
+      \strng{authornamehash}{83b65e7575e896eb9b2d43f5ed551996}
+      \strng{authorfullhash}{1579cd3d6f92c8f76dcca8d78ccb31c4}
+      \strng{authorfullhashraw}{1579cd3d6f92c8f76dcca8d78ccb31c4}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The use of UV imaging as a means of locating protein crystals is a fairly new tool, however not suitable for all protein crystallization trials. Practical examples of the strengths and some of the pitfalls of the technology are presented., High-throughput imaging of protein crystallization experiments with ultraviolet (UV) light has recently become commercially available and can enable crystallographers to differentiate between crystals of protein and those of salt, as the visualization of protein crystals is based on intrinsic tryptophan fluorescence. Unfortunately, UV imaging is not a panacea, as some protein crystals will not fluoresce under UV excitation and some salt crystals are UV-fluorescently active. As a new technology, there is little experience within the general community on how to use this technology effectively and what caveats to look out for. Here, an attempt is made to identify some of the common problems that may arise using UV-imaging technology by examining test proteins, common crystallization reagents and a range of proteins by assessing their UV–Vis absorbance spectra. Some pointers are offered as to which systems may not be appropriate for this methodology.}
+      \field{issn}{1744-3091}
+      \field{journaltitle}{Acta Crystallographica Section F}
+      \field{month}{1}
+      \field{number}{Pt 2}
+      \field{title}{Some practical guidelines for {UV} imaging in the protein crystallization laboratory}
+      \field{urlday}{1}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{69}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \field{pages}{201\bibrangedash 208}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1107/S1744309112048634
+      \endverb
+      \verb{urlraw}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC3564629/
+      \endverb
+      \verb{url}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC3564629/
+      \endverb
+    \endentry
+    \entry{Devlin2019}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=13202969e372bc82318f9629cbdd199b}{%
+           family={Devlin},
+           familyi={D\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a45784fe7163b45f11d166564f5d24b6}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={Ming-Wei},
+           giveni={M\bibinithyphendelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8dde73b4194f5bc4230c4808f3fc1534}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Kenton},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b92aa283415413bb8d2a1548716d0c7d}{%
+           family={Toutanova},
+           familyi={T\bibinitperiod},
+           given={Kristina},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{ad8e2e2a80d28ade21e86852b804fc9b}
+      \strng{fullhash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{fullhashraw}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{bibnamehash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{authorbibnamehash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{authornamehash}{ad8e2e2a80d28ade21e86852b804fc9b}
+      \strng{authorfullhash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{authorfullhashraw}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers. Unlike recent language representation models, BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT model can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications. BERT is conceptually simple and empirically powerful. It obtains new state-of-the-art results on eleven natural language processing tasks, including pushing the GLUE score to 80.5\% (7.7\% point absolute improvement), MultiNLI accuracy to 86.7\% (4.6\% absolute improvement), SQuAD v1.1 question answering Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1 (5.1 point absolute improvement).}
+      \field{month}{5}
+      \field{note}{arXiv:1810.04805 [cs]}
+      \field{title}{{BERT}: {Pre}-training of {Deep} {Bidirectional} {Transformers} for {Language} {Understanding}}
+      \field{urlday}{27}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.1810.04805
+      \endverb
+      \verb{file}
+      \verb Preprint PDF:2019 - BERT_ Pre Training of Deep Bidirectional Transformers for Language Understanding.pdf:PDF:http\://arxiv.org/pdf/1810.04805v2
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1810.04805
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1810.04805
+      \endverb
+      \keyw{Computer Science - Computation and Language}
+    \endentry
+    \entry{embl_website}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8167ca0ede70368987326b9034e98060}{%
+           family={{EMBL}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{8167ca0ede70368987326b9034e98060}
+      \strng{fullhash}{8167ca0ede70368987326b9034e98060}
+      \strng{fullhashraw}{8167ca0ede70368987326b9034e98060}
+      \strng{bibnamehash}{8167ca0ede70368987326b9034e98060}
+      \strng{authorbibnamehash}{8167ca0ede70368987326b9034e98060}
+      \strng{authornamehash}{8167ca0ede70368987326b9034e98060}
+      \strng{authorfullhash}{8167ca0ede70368987326b9034e98060}
+      \strng{authorfullhashraw}{8167ca0ede70368987326b9034e98060}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{European Molecular Biology Laboratory (EMBL)}
+      \field{urlday}{1}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.embl.org
+      \endverb
+      \verb{url}
+      \verb https://www.embl.org
+      \endverb
     \endentry
     \entry{Gainza2020}{article}{}{}
       \name{author}{7}{}{%
@@ -356,6 +642,65 @@
       \verb https://www.mdpi.com/2227-9717/11/7/2148
       \endverb
       \keyw{crystallization,micro-volume,high-throughput,protein,membrane}
+    \endentry
+    \entry{Heinzinger2023}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=2bdd42359f11105bd7655dbe9af7a040}{%
+           family={Heinzinger},
+           familyi={H\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=029f1e63bf00a5c83af14890bb261b08}{%
+           family={Weissenow},
+           familyi={W\bibinitperiod},
+           given={K},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=87098efa99fb58a8035be8a4a87f4623}{%
+           family={Sanchez},
+           familyi={S\bibinitperiod},
+           given={JG},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=611089b8fabdabb9d7a5446fdba0d4ac}{%
+           family={Henkel},
+           familyi={H\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d7638cec814f1771bc24445e030b0a0e}{%
+           family={Steinegger},
+           familyi={S\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=73de0d118c40c2c243d3753b96811aa3}{%
+           family={Rost},
+           familyi={R\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{dc03162b2f2ac103025987b33fb58b62}
+      \strng{fullhash}{cec5a5de73ca68fa61a60fdd0d27f22a}
+      \strng{fullhashraw}{cec5a5de73ca68fa61a60fdd0d27f22a}
+      \strng{bibnamehash}{cec5a5de73ca68fa61a60fdd0d27f22a}
+      \strng{authorbibnamehash}{cec5a5de73ca68fa61a60fdd0d27f22a}
+      \strng{authornamehash}{dc03162b2f2ac103025987b33fb58b62}
+      \strng{authorfullhash}{cec5a5de73ca68fa61a60fdd0d27f22a}
+      \strng{authorfullhashraw}{cec5a5de73ca68fa61a60fdd0d27f22a}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{URL https://www. biorxiv. org/content/early/2023/07/25/2023.07}
+      \field{title}{Prostt5: Bilingual language model for protein sequence and structure. bioRxiv, 2023}
+      \field{volume}{23}
+      \field{year}{2023}
     \endentry
     \entry{Iwai2008}{article}{}{}
       \name{author}{6}{}{%
@@ -746,6 +1091,54 @@
       \verb{doi}
       \verb 10.1038/s41586-021-03819-2
       \endverb
+    \endentry
+    \entry{Kantardjieff2004}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=496c2f69af607b85f4906a9aa62bc9d0}{%
+           family={Kantardjieff},
+           familyi={K\bibinitperiod},
+           given={Katherine\bibnamedelima A.},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0808701f7e8c5d4796e3094fc791fea4}{%
+           family={Rupp},
+           familyi={R\bibinitperiod},
+           given={Bernhard},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \strng{namehash}{dc70e50c75248051833863981c40ea33}
+      \strng{fullhash}{dc70e50c75248051833863981c40ea33}
+      \strng{fullhashraw}{dc70e50c75248051833863981c40ea33}
+      \strng{bibnamehash}{dc70e50c75248051833863981c40ea33}
+      \strng{authorbibnamehash}{dc70e50c75248051833863981c40ea33}
+      \strng{authornamehash}{dc70e50c75248051833863981c40ea33}
+      \strng{authorfullhash}{dc70e50c75248051833863981c40ea33}
+      \strng{authorfullhashraw}{dc70e50c75248051833863981c40ea33}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{MOTIVATION: Increased efficiency in initial crystallization screening reduces cost and material requirements in structural genomics. Because pH is one of the few consistently reported parameters in the Protein Data Bank (PDB), the isoelectric point (pI) of a protein has been explored as a useful indirect predictor for the optimal choice of range and distribution of the pH sampling in crystallization trials. RESULTS: We have analyzed 9596 unique protein crystal forms from the August 2003 PDB and have found a significant relationship between the calculated pI of successfully crystallized proteins and the difference between pI and reported pH at which they were crystallized. These preferences provide strong prior information for the design of crystallization screening experiments with significantly increased efficiency and corresponding reduction in material requirements, leading to potential cost savings of millions of US\$ for structural genomics projects involving high-throughput crystallographic structure determination. AVAILABILITY: A prototype example of a screen design and efficiency estimator program, CrysPred, is available at http://www-structure.llnl.gov/cryspred/}
+      \field{issn}{1367-4803}
+      \field{journaltitle}{Bioinformatics (Oxford, England)}
+      \field{month}{9}
+      \field{number}{14}
+      \field{title}{Protein isoelectric point as a predictor for increased crystallization screening efficiency}
+      \field{volume}{20}
+      \field{year}{2004}
+      \field{pages}{2162\bibrangedash 2168}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1093/bioinformatics/bth066
+      \endverb
+      \keyw{Computer Simulation,Crystallization,Crystallography,Databases,Protein,Isoelectric Point,Models,Chemical,Models,Molecular,Models,Statistical,Protein Conformation,Proteins,Sensitivity and Specificity,Sequence Analysis,Protein}
     \endentry
     \entry{King2024}{article}{}{}
       \name{author}{4}{}{%
@@ -1397,6 +1790,132 @@
       \field{pages}{i24\bibrangedash i33}
       \range{pages}{-1}
     \endentry
+    \entry{Morgan1965}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9b343445001ebcd12c6b854bc583be8b}{%
+           family={Morgan},
+           familyi={M\bibinitperiod},
+           given={H.\bibnamedelimi L.},
+           giveni={H\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Chemical Society}%
+      }
+      \strng{namehash}{9b343445001ebcd12c6b854bc583be8b}
+      \strng{fullhash}{9b343445001ebcd12c6b854bc583be8b}
+      \strng{fullhashraw}{9b343445001ebcd12c6b854bc583be8b}
+      \strng{bibnamehash}{9b343445001ebcd12c6b854bc583be8b}
+      \strng{authorbibnamehash}{9b343445001ebcd12c6b854bc583be8b}
+      \strng{authornamehash}{9b343445001ebcd12c6b854bc583be8b}
+      \strng{authorfullhash}{9b343445001ebcd12c6b854bc583be8b}
+      \strng{authorfullhashraw}{9b343445001ebcd12c6b854bc583be8b}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0021-9576}
+      \field{journaltitle}{Journal of Chemical Documentation}
+      \field{month}{5}
+      \field{number}{2}
+      \field{title}{The {Generation} of a {Unique} {Machine} {Description} for {Chemical} {Structures}-{A} {Technique} {Developed} at {Chemical} {Abstracts} {Service}.}
+      \field{urlday}{2}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{5}
+      \field{year}{1965}
+      \field{urldateera}{ce}
+      \field{pages}{107\bibrangedash 113}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1021/c160017a018
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:https\://pubs.acs.org/doi/pdf/10.1021/c160017a018:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1021/c160017a018
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1021/c160017a018
+      \endverb
+    \endentry
+    \entry{Newman2010}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=bde45bf5ec10ea0c63441a4d107c1074}{%
+           family={Newman},
+           familyi={N\bibinitperiod},
+           given={Janet},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b0ee60c7d735f921467a312682c7deb6}{%
+           family={Fazio},
+           familyi={F\bibinitperiod},
+           given={Vincent\bibnamedelima J.},
+           giveni={V\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1d5f83769b181d973258bb3a4441ceaa}{%
+           family={Lawson},
+           familyi={L\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cb1db13855c7cf4c42a6f7fbb2dae9fd}{%
+           family={Peat},
+           familyi={P\bibinitperiod},
+           given={Thomas\bibnamedelima S.},
+           giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Chemical Society}%
+      }
+      \strng{namehash}{b3fdce2a579f4ef661c401e637739388}
+      \strng{fullhash}{928cf8d2d3ac2c5027fde10d42beb469}
+      \strng{fullhashraw}{928cf8d2d3ac2c5027fde10d42beb469}
+      \strng{bibnamehash}{928cf8d2d3ac2c5027fde10d42beb469}
+      \strng{authorbibnamehash}{928cf8d2d3ac2c5027fde10d42beb469}
+      \strng{authornamehash}{b3fdce2a579f4ef661c401e637739388}
+      \strng{authorfullhash}{928cf8d2d3ac2c5027fde10d42beb469}
+      \strng{authorfullhashraw}{928cf8d2d3ac2c5027fde10d42beb469}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{We have created the C6 Web Tool that uses an underlying metric to compare the chemical similarity of two crystallization conditions and by extension the similarity of two crystallization screens. With over 220 crystallization screens currently available for purchase, it is difficult to know what each screen contains and when it is appropriate to use that screen. The C6 Web Tool can be found at http://c6.csiro.au and is available to the crystallization community at no charge. In addition to measuring the similarity of conditions and kits, the C6 Web Tool also provides the means to examine the conditions of a crystallization kit (or kits) in novel ways. Using the C6 Web Tool, researchers can efficiently select appropriate screens to use throughout the various stages of a crystallization project.}
+      \field{issn}{1528-7483}
+      \field{journaltitle}{Crystal Growth \& Design}
+      \field{month}{6}
+      \field{number}{6}
+      \field{shorttitle}{The {C6} {Web} {Tool}}
+      \field{title}{The {C6} {Web} {Tool}: {A} {Resource} for the {Rational} {Selection} of {Crystallization} {Conditions}}
+      \field{urlday}{12}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{volume}{10}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \field{pages}{2785\bibrangedash 2792}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1021/cg1004209
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:https\://pubs.acs.org/doi/pdf/10.1021/cg1004209:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1021/cg1004209
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1021/cg1004209
+      \endverb
+    \endentry
     \entry{Peat2005}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=cb1db13855c7cf4c42a6f7fbb2dae9fd}{%
@@ -1904,6 +2423,108 @@
       \endverb
       \keyw{Protein analysis,Protein structure predictions,X-ray crystallography}
     \endentry
+    \entry{Kempen2024}{article}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=52a2fcaf984482f0d21cea41dc0ae952}{%
+           family={Kempen},
+           familyi={K\bibinitperiod},
+           given={Michel},
+           giveni={M\bibinitperiod},
+           givenun=0,
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=6667a7b23d91ffc5e8dc2c4032bf1eeb}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Stephanie\bibnamedelima S.},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4d1a783d7b767ce455353747dc89be6c}{%
+           family={Tumescheit},
+           familyi={T\bibinitperiod},
+           given={Charlotte},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2dac539cd49fcc48ee89ea09ce5e40c3}{%
+           family={Mirdita},
+           familyi={M\bibinitperiod},
+           given={Milot},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5a6f8561f16c7c642dadad82bca1508a}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Jeongjae},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3c92bbb2c82c6d624367921c0f3ee2f1}{%
+           family={Gilchrist},
+           familyi={G\bibinitperiod},
+           given={Cameron\bibnamedelimb L.\bibnamedelimi M.},
+           giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e67661e270ffc979f77600b3904f2e9c}{%
+           family={Söding},
+           familyi={S\bibinitperiod},
+           given={Johannes},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c06ac6a6fdcf2ee2092d61fc58c1f21b}{%
+           family={Steinegger},
+           familyi={S\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{3a67143ca2a3149b4aa2915830fbfb54}
+      \strng{fullhash}{d09b260342de4938876878cfa74812be}
+      \strng{fullhashraw}{d09b260342de4938876878cfa74812be}
+      \strng{bibnamehash}{d09b260342de4938876878cfa74812be}
+      \strng{authorbibnamehash}{d09b260342de4938876878cfa74812be}
+      \strng{authornamehash}{3a67143ca2a3149b4aa2915830fbfb54}
+      \strng{authorfullhash}{d09b260342de4938876878cfa74812be}
+      \strng{authorfullhashraw}{d09b260342de4938876878cfa74812be}
+      \field{sortinit}{v}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{As structure prediction methods are generating millions of publicly available protein structures, searching these databases is becoming a bottleneck. Foldseek aligns the structure of a query protein against a database by describing tertiary amino acid interactions within proteins as sequences over a structural alphabet. Foldseek decreases computation times by four to five orders of magnitude with 86\%, 88\% and 133\% of the sensitivities of Dali, TM-align and CE, respectively.}
+      \field{issn}{1546-1696}
+      \field{journaltitle}{Nature Biotechnology}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{Fast and accurate protein structure search with {Foldseek}}
+      \field{urlday}{2}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{42}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{243\bibrangedash 246}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1038/s41587-023-01773-0
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:Kempen2024 - Fast and Accurate Protein Structure Search with Foldseek.pdf:PDF:https\://www.nature.com/articles/s41587-023-01773-0.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41587-023-01773-0
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41587-023-01773-0
+      \endverb
+      \keyw{Computational biology and bioinformatics,Software,Structural biology}
+    \endentry
     \entry{Wang2022}{article}{}{}
       \name{author}{8}{}{%
         {{un=0,uniquepart=base,hash=cce05cab2c437e9c128f853684ee3137}{%
@@ -1988,6 +2609,59 @@
       \endverb
       \verb{url}
       \verb https://www.semanticscholar.org/paper/Text-Embeddings-by-Weakly-Supervised-Contrastive-Wang-Yang/5a3c1afe73d8bcc8288d17cb17be2baec8a98464
+      \endverb
+    \endentry
+    \entry{Weininger1988}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8396687b96e64d23dac029daee2916d2}{%
+           family={Weininger},
+           familyi={W\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Chemical Society}%
+      }
+      \strng{namehash}{8396687b96e64d23dac029daee2916d2}
+      \strng{fullhash}{8396687b96e64d23dac029daee2916d2}
+      \strng{fullhashraw}{8396687b96e64d23dac029daee2916d2}
+      \strng{bibnamehash}{8396687b96e64d23dac029daee2916d2}
+      \strng{authorbibnamehash}{8396687b96e64d23dac029daee2916d2}
+      \strng{authornamehash}{8396687b96e64d23dac029daee2916d2}
+      \strng{authorfullhash}{8396687b96e64d23dac029daee2916d2}
+      \strng{authorfullhashraw}{8396687b96e64d23dac029daee2916d2}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0095-2338}
+      \field{journaltitle}{Journal of Chemical Information and Computer Sciences}
+      \field{month}{2}
+      \field{number}{1}
+      \field{title}{{SMILES}, a chemical language and information system. 1. {Introduction} to methodology and encoding rules}
+      \field{urlday}{2}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{28}
+      \field{year}{1988}
+      \field{urldateera}{ce}
+      \field{pages}{31\bibrangedash 36}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1021/ci00057a005
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:https\://pubs.acs.org/doi/pdf/10.1021/ci00057a005:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1021/ci00057a005
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1021/ci00057a005
       \endverb
     \endentry
     \entry{Wilson2014}{article}{}{}
@@ -2289,6 +2963,69 @@
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global/global}
+    \entry{Abrahams2019}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=471f6c061eed92c0f47f2fb6babed14f}{%
+           family={Abrahams},
+           familyi={A\bibinitperiod},
+           given={G.\bibnamedelimi J.},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=030b2531b6b9f5580cc0eabb6d8cc405}{%
+           family={Newman},
+           familyi={N\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {International Union of Crystallography}%
+      }
+      \strng{namehash}{83c7d87e46290706401546bed4d62d35}
+      \strng{fullhash}{83c7d87e46290706401546bed4d62d35}
+      \strng{fullhashraw}{83c7d87e46290706401546bed4d62d35}
+      \strng{bibnamehash}{83c7d87e46290706401546bed4d62d35}
+      \strng{authorbibnamehash}{83c7d87e46290706401546bed4d62d35}
+      \strng{authornamehash}{83c7d87e46290706401546bed4d62d35}
+      \strng{authorfullhash}{83c7d87e46290706401546bed4d62d35}
+      \strng{authorfullhashraw}{83c7d87e46290706401546bed4d62d35}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Crystallization is in many cases a critical step for solving the three-dimensional structure of a protein molecule. Determining which set of chemicals to use in the initial screen is typically agnostic of the protein under investigation; however, crystallization efficiency could potentially be improved if this were not the case. Previous work has assumed that sequence similarity may provide useful information about appropriate crystallization cocktails; however, the authors are not aware of any quantitative verification of this assumption. This research investigates whether, given current information, one can detect any correlation between sequence similarity and crystallization cocktails. BLAST was used to quantitate the similarity between protein sequences in the Protein Data Bank, and this was compared with three estimations of the chemical similarities of the respective crystallization cocktails. No correlation was detected between proteins of similar (but not identical) sequence and their crystallization cocktails, suggesting that methods of determining screens based on this assumption are unlikely to result in screens that are better than those currently in use.}
+      \field{issn}{2053-230X}
+      \field{journaltitle}{Acta Crystallographica Section F: Structural Biology Communications}
+      \field{month}{3}
+      \field{number}{3}
+      \field{title}{{BLASTing} away preconceptions in crystallization trials}
+      \field{urlday}{20}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{75}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{184\bibrangedash 192}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1107/S2053230X19000141
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:https\://journals.iucr.org/f/issues/2019/03/00/rl5170/rl5170.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.iucr.org/f/issues/2019/03/00/rl5170/
+      \endverb
+      \verb{url}
+      \verb https://journals.iucr.org/f/issues/2019/03/00/rl5170/
+      \endverb
+    \endentry
     \entry{Ataka1988}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=885736d0f63722d536d0071037ec197b}{%
@@ -2453,9 +3190,9 @@
       \field{number}{1}
       \field{series}{Proceedings of the {Eighth} {International} {Conference} on {Crystalliza} tion of {Biological} {Macromolecules}}
       \field{title}{Is lysozyme really the ideal model protein?}
-      \field{urlday}{17}
-      \field{urlmonth}{11}
-      \field{urlyear}{2025}
+      \field{urlday}{16}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
       \field{volume}{232}
       \field{year}{2001}
       \field{urldateera}{ce}
@@ -2474,6 +3211,229 @@
       \verb https://www.sciencedirect.com/science/article/pii/S0022024801012039
       \endverb
       \keyw{A1.Biocrystallization,A1.Nucleation,A1.Surfaces,B1.Biological macromolecules,B1. Lysozyme,B1.Proteins}
+    \endentry
+    \entry{Cumbaa2010}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=2ef2178176db3c2768b5619cd3812009}{%
+           family={Cumbaa},
+           familyi={C\bibinitperiod},
+           given={Christian\bibnamedelima A.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f32ede9e3858b822d1964730ac04189c}{%
+           family={Jurisica},
+           familyi={J\bibinitperiod},
+           given={Igor},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{7d80872d79c981e960b6f19f6250bea3}
+      \strng{fullhash}{7d80872d79c981e960b6f19f6250bea3}
+      \strng{fullhashraw}{7d80872d79c981e960b6f19f6250bea3}
+      \strng{bibnamehash}{7d80872d79c981e960b6f19f6250bea3}
+      \strng{authorbibnamehash}{7d80872d79c981e960b6f19f6250bea3}
+      \strng{authornamehash}{7d80872d79c981e960b6f19f6250bea3}
+      \strng{authorfullhash}{7d80872d79c981e960b6f19f6250bea3}
+      \strng{authorfullhashraw}{7d80872d79c981e960b6f19f6250bea3}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We have developed an image-analysis and classification system for automatically scoring images from high-throughput protein crystallization trials. Image analysis for this system is performed by the Help Conquer Cancer (HCC) project on the World Community Grid. HCC calculates 12,375 distinct image features on microbatch-under-oil images from the Hauptman-Woodward Medical Research Institute’s High-Throughput Screening Laboratory. Using HCC-computed image features and a massive training set of 165,351 hand-scored images, we have trained multiple Random Forest classifiers that accurately recognize multiple crystallization outcomes, including crystals, clear drops, precipitate, and others. The system successfully recognizes 80\% of crystal-bearing images, 89\% of precipitate images, and 98\% of clear drops.}
+      \field{issn}{1570-0267}
+      \field{journaltitle}{Journal of Structural and Functional Genomics}
+      \field{month}{3}
+      \field{number}{1}
+      \field{title}{Protein crystallization analysis on the {World} {Community} {Grid}}
+      \field{urlday}{1}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{11}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \field{pages}{61\bibrangedash 69}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1007/s10969-009-9076-9
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:Cumbaa2010 - Protein Crystallization Analysis on the World Community Grid.pdf:PDF:https\://link.springer.com/content/pdf/10.1007%2Fs10969-009-9076-9.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s10969-009-9076-9
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s10969-009-9076-9
+      \endverb
+      \keyw{Image analysis,High-throughput protein crystallization}
+    \endentry
+    \entry{Desbois2013}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=061df87c3eedcc43488b650e23923262}{%
+           family={Desbois},
+           familyi={D\bibinitperiod},
+           given={Sebastien},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7d63187dae2a77960d28f71f563ba954}{%
+           family={Seabrook},
+           familyi={S\bibinitperiod},
+           given={Shane\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bde45bf5ec10ea0c63441a4d107c1074}{%
+           family={Newman},
+           familyi={N\bibinitperiod},
+           given={Janet},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{83b65e7575e896eb9b2d43f5ed551996}
+      \strng{fullhash}{1579cd3d6f92c8f76dcca8d78ccb31c4}
+      \strng{fullhashraw}{1579cd3d6f92c8f76dcca8d78ccb31c4}
+      \strng{bibnamehash}{1579cd3d6f92c8f76dcca8d78ccb31c4}
+      \strng{authorbibnamehash}{1579cd3d6f92c8f76dcca8d78ccb31c4}
+      \strng{authornamehash}{83b65e7575e896eb9b2d43f5ed551996}
+      \strng{authorfullhash}{1579cd3d6f92c8f76dcca8d78ccb31c4}
+      \strng{authorfullhashraw}{1579cd3d6f92c8f76dcca8d78ccb31c4}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The use of UV imaging as a means of locating protein crystals is a fairly new tool, however not suitable for all protein crystallization trials. Practical examples of the strengths and some of the pitfalls of the technology are presented., High-throughput imaging of protein crystallization experiments with ultraviolet (UV) light has recently become commercially available and can enable crystallographers to differentiate between crystals of protein and those of salt, as the visualization of protein crystals is based on intrinsic tryptophan fluorescence. Unfortunately, UV imaging is not a panacea, as some protein crystals will not fluoresce under UV excitation and some salt crystals are UV-fluorescently active. As a new technology, there is little experience within the general community on how to use this technology effectively and what caveats to look out for. Here, an attempt is made to identify some of the common problems that may arise using UV-imaging technology by examining test proteins, common crystallization reagents and a range of proteins by assessing their UV–Vis absorbance spectra. Some pointers are offered as to which systems may not be appropriate for this methodology.}
+      \field{issn}{1744-3091}
+      \field{journaltitle}{Acta Crystallographica Section F}
+      \field{month}{1}
+      \field{number}{Pt 2}
+      \field{title}{Some practical guidelines for {UV} imaging in the protein crystallization laboratory}
+      \field{urlday}{1}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{69}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \field{pages}{201\bibrangedash 208}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1107/S1744309112048634
+      \endverb
+      \verb{urlraw}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC3564629/
+      \endverb
+      \verb{url}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC3564629/
+      \endverb
+    \endentry
+    \entry{Devlin2019}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=13202969e372bc82318f9629cbdd199b}{%
+           family={Devlin},
+           familyi={D\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a45784fe7163b45f11d166564f5d24b6}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={Ming-Wei},
+           giveni={M\bibinithyphendelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8dde73b4194f5bc4230c4808f3fc1534}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Kenton},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b92aa283415413bb8d2a1548716d0c7d}{%
+           family={Toutanova},
+           familyi={T\bibinitperiod},
+           given={Kristina},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{ad8e2e2a80d28ade21e86852b804fc9b}
+      \strng{fullhash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{fullhashraw}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{bibnamehash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{authorbibnamehash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{authornamehash}{ad8e2e2a80d28ade21e86852b804fc9b}
+      \strng{authorfullhash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{authorfullhashraw}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers. Unlike recent language representation models, BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT model can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications. BERT is conceptually simple and empirically powerful. It obtains new state-of-the-art results on eleven natural language processing tasks, including pushing the GLUE score to 80.5\% (7.7\% point absolute improvement), MultiNLI accuracy to 86.7\% (4.6\% absolute improvement), SQuAD v1.1 question answering Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1 (5.1 point absolute improvement).}
+      \field{month}{5}
+      \field{note}{arXiv:1810.04805 [cs]}
+      \field{title}{{BERT}: {Pre}-training of {Deep} {Bidirectional} {Transformers} for {Language} {Understanding}}
+      \field{urlday}{27}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.1810.04805
+      \endverb
+      \verb{file}
+      \verb Preprint PDF:2019 - BERT_ Pre Training of Deep Bidirectional Transformers for Language Understanding.pdf:PDF:http\://arxiv.org/pdf/1810.04805v2
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1810.04805
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1810.04805
+      \endverb
+      \keyw{Computer Science - Computation and Language}
+    \endentry
+    \entry{embl_website}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8167ca0ede70368987326b9034e98060}{%
+           family={{EMBL}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{8167ca0ede70368987326b9034e98060}
+      \strng{fullhash}{8167ca0ede70368987326b9034e98060}
+      \strng{fullhashraw}{8167ca0ede70368987326b9034e98060}
+      \strng{bibnamehash}{8167ca0ede70368987326b9034e98060}
+      \strng{authorbibnamehash}{8167ca0ede70368987326b9034e98060}
+      \strng{authornamehash}{8167ca0ede70368987326b9034e98060}
+      \strng{authorfullhash}{8167ca0ede70368987326b9034e98060}
+      \strng{authorfullhashraw}{8167ca0ede70368987326b9034e98060}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{European Molecular Biology Laboratory (EMBL)}
+      \field{urlday}{1}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.embl.org
+      \endverb
+      \verb{url}
+      \verb https://www.embl.org
+      \endverb
     \endentry
     \entry{Gainza2020}{article}{}{}
       \name{author}{7}{}{%
@@ -2626,6 +3586,65 @@
       \verb https://www.mdpi.com/2227-9717/11/7/2148
       \endverb
       \keyw{crystallization,micro-volume,high-throughput,protein,membrane}
+    \endentry
+    \entry{Heinzinger2023}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=2bdd42359f11105bd7655dbe9af7a040}{%
+           family={Heinzinger},
+           familyi={H\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=029f1e63bf00a5c83af14890bb261b08}{%
+           family={Weissenow},
+           familyi={W\bibinitperiod},
+           given={K},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=87098efa99fb58a8035be8a4a87f4623}{%
+           family={Sanchez},
+           familyi={S\bibinitperiod},
+           given={JG},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=611089b8fabdabb9d7a5446fdba0d4ac}{%
+           family={Henkel},
+           familyi={H\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d7638cec814f1771bc24445e030b0a0e}{%
+           family={Steinegger},
+           familyi={S\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=73de0d118c40c2c243d3753b96811aa3}{%
+           family={Rost},
+           familyi={R\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{dc03162b2f2ac103025987b33fb58b62}
+      \strng{fullhash}{cec5a5de73ca68fa61a60fdd0d27f22a}
+      \strng{fullhashraw}{cec5a5de73ca68fa61a60fdd0d27f22a}
+      \strng{bibnamehash}{cec5a5de73ca68fa61a60fdd0d27f22a}
+      \strng{authorbibnamehash}{cec5a5de73ca68fa61a60fdd0d27f22a}
+      \strng{authornamehash}{dc03162b2f2ac103025987b33fb58b62}
+      \strng{authorfullhash}{cec5a5de73ca68fa61a60fdd0d27f22a}
+      \strng{authorfullhashraw}{cec5a5de73ca68fa61a60fdd0d27f22a}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{URL https://www. biorxiv. org/content/early/2023/07/25/2023.07}
+      \field{title}{Prostt5: Bilingual language model for protein sequence and structure. bioRxiv, 2023}
+      \field{volume}{23}
+      \field{year}{2023}
     \endentry
     \entry{Iwai2008}{article}{}{}
       \name{author}{6}{}{%
@@ -3016,6 +4035,54 @@
       \verb{doi}
       \verb 10.1038/s41586-021-03819-2
       \endverb
+    \endentry
+    \entry{Kantardjieff2004}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=496c2f69af607b85f4906a9aa62bc9d0}{%
+           family={Kantardjieff},
+           familyi={K\bibinitperiod},
+           given={Katherine\bibnamedelima A.},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0808701f7e8c5d4796e3094fc791fea4}{%
+           family={Rupp},
+           familyi={R\bibinitperiod},
+           given={Bernhard},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \strng{namehash}{dc70e50c75248051833863981c40ea33}
+      \strng{fullhash}{dc70e50c75248051833863981c40ea33}
+      \strng{fullhashraw}{dc70e50c75248051833863981c40ea33}
+      \strng{bibnamehash}{dc70e50c75248051833863981c40ea33}
+      \strng{authorbibnamehash}{dc70e50c75248051833863981c40ea33}
+      \strng{authornamehash}{dc70e50c75248051833863981c40ea33}
+      \strng{authorfullhash}{dc70e50c75248051833863981c40ea33}
+      \strng{authorfullhashraw}{dc70e50c75248051833863981c40ea33}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{MOTIVATION: Increased efficiency in initial crystallization screening reduces cost and material requirements in structural genomics. Because pH is one of the few consistently reported parameters in the Protein Data Bank (PDB), the isoelectric point (pI) of a protein has been explored as a useful indirect predictor for the optimal choice of range and distribution of the pH sampling in crystallization trials. RESULTS: We have analyzed 9596 unique protein crystal forms from the August 2003 PDB and have found a significant relationship between the calculated pI of successfully crystallized proteins and the difference between pI and reported pH at which they were crystallized. These preferences provide strong prior information for the design of crystallization screening experiments with significantly increased efficiency and corresponding reduction in material requirements, leading to potential cost savings of millions of US\$ for structural genomics projects involving high-throughput crystallographic structure determination. AVAILABILITY: A prototype example of a screen design and efficiency estimator program, CrysPred, is available at http://www-structure.llnl.gov/cryspred/}
+      \field{issn}{1367-4803}
+      \field{journaltitle}{Bioinformatics (Oxford, England)}
+      \field{month}{9}
+      \field{number}{14}
+      \field{title}{Protein isoelectric point as a predictor for increased crystallization screening efficiency}
+      \field{volume}{20}
+      \field{year}{2004}
+      \field{pages}{2162\bibrangedash 2168}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1093/bioinformatics/bth066
+      \endverb
+      \keyw{Computer Simulation,Crystallization,Crystallography,Databases,Protein,Isoelectric Point,Models,Chemical,Models,Molecular,Models,Statistical,Protein Conformation,Proteins,Sensitivity and Specificity,Sequence Analysis,Protein}
     \endentry
     \entry{King2024}{article}{}{}
       \name{author}{4}{}{%
@@ -3667,6 +4734,132 @@
       \field{pages}{i24\bibrangedash i33}
       \range{pages}{-1}
     \endentry
+    \entry{Morgan1965}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9b343445001ebcd12c6b854bc583be8b}{%
+           family={Morgan},
+           familyi={M\bibinitperiod},
+           given={H.\bibnamedelimi L.},
+           giveni={H\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Chemical Society}%
+      }
+      \strng{namehash}{9b343445001ebcd12c6b854bc583be8b}
+      \strng{fullhash}{9b343445001ebcd12c6b854bc583be8b}
+      \strng{fullhashraw}{9b343445001ebcd12c6b854bc583be8b}
+      \strng{bibnamehash}{9b343445001ebcd12c6b854bc583be8b}
+      \strng{authorbibnamehash}{9b343445001ebcd12c6b854bc583be8b}
+      \strng{authornamehash}{9b343445001ebcd12c6b854bc583be8b}
+      \strng{authorfullhash}{9b343445001ebcd12c6b854bc583be8b}
+      \strng{authorfullhashraw}{9b343445001ebcd12c6b854bc583be8b}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0021-9576}
+      \field{journaltitle}{Journal of Chemical Documentation}
+      \field{month}{5}
+      \field{number}{2}
+      \field{title}{The {Generation} of a {Unique} {Machine} {Description} for {Chemical} {Structures}-{A} {Technique} {Developed} at {Chemical} {Abstracts} {Service}.}
+      \field{urlday}{2}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{5}
+      \field{year}{1965}
+      \field{urldateera}{ce}
+      \field{pages}{107\bibrangedash 113}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1021/c160017a018
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:https\://pubs.acs.org/doi/pdf/10.1021/c160017a018:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1021/c160017a018
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1021/c160017a018
+      \endverb
+    \endentry
+    \entry{Newman2010}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=bde45bf5ec10ea0c63441a4d107c1074}{%
+           family={Newman},
+           familyi={N\bibinitperiod},
+           given={Janet},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b0ee60c7d735f921467a312682c7deb6}{%
+           family={Fazio},
+           familyi={F\bibinitperiod},
+           given={Vincent\bibnamedelima J.},
+           giveni={V\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1d5f83769b181d973258bb3a4441ceaa}{%
+           family={Lawson},
+           familyi={L\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cb1db13855c7cf4c42a6f7fbb2dae9fd}{%
+           family={Peat},
+           familyi={P\bibinitperiod},
+           given={Thomas\bibnamedelima S.},
+           giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Chemical Society}%
+      }
+      \strng{namehash}{b3fdce2a579f4ef661c401e637739388}
+      \strng{fullhash}{928cf8d2d3ac2c5027fde10d42beb469}
+      \strng{fullhashraw}{928cf8d2d3ac2c5027fde10d42beb469}
+      \strng{bibnamehash}{928cf8d2d3ac2c5027fde10d42beb469}
+      \strng{authorbibnamehash}{928cf8d2d3ac2c5027fde10d42beb469}
+      \strng{authornamehash}{b3fdce2a579f4ef661c401e637739388}
+      \strng{authorfullhash}{928cf8d2d3ac2c5027fde10d42beb469}
+      \strng{authorfullhashraw}{928cf8d2d3ac2c5027fde10d42beb469}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{We have created the C6 Web Tool that uses an underlying metric to compare the chemical similarity of two crystallization conditions and by extension the similarity of two crystallization screens. With over 220 crystallization screens currently available for purchase, it is difficult to know what each screen contains and when it is appropriate to use that screen. The C6 Web Tool can be found at http://c6.csiro.au and is available to the crystallization community at no charge. In addition to measuring the similarity of conditions and kits, the C6 Web Tool also provides the means to examine the conditions of a crystallization kit (or kits) in novel ways. Using the C6 Web Tool, researchers can efficiently select appropriate screens to use throughout the various stages of a crystallization project.}
+      \field{issn}{1528-7483}
+      \field{journaltitle}{Crystal Growth \& Design}
+      \field{month}{6}
+      \field{number}{6}
+      \field{shorttitle}{The {C6} {Web} {Tool}}
+      \field{title}{The {C6} {Web} {Tool}: {A} {Resource} for the {Rational} {Selection} of {Crystallization} {Conditions}}
+      \field{urlday}{12}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{volume}{10}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \field{pages}{2785\bibrangedash 2792}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1021/cg1004209
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:https\://pubs.acs.org/doi/pdf/10.1021/cg1004209:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1021/cg1004209
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1021/cg1004209
+      \endverb
+    \endentry
     \entry{Peat2005}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=cb1db13855c7cf4c42a6f7fbb2dae9fd}{%
@@ -4174,6 +5367,108 @@
       \endverb
       \keyw{Protein analysis,Protein structure predictions,X-ray crystallography}
     \endentry
+    \entry{Kempen2024}{article}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=52a2fcaf984482f0d21cea41dc0ae952}{%
+           family={Kempen},
+           familyi={K\bibinitperiod},
+           given={Michel},
+           giveni={M\bibinitperiod},
+           givenun=0,
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=6667a7b23d91ffc5e8dc2c4032bf1eeb}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Stephanie\bibnamedelima S.},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4d1a783d7b767ce455353747dc89be6c}{%
+           family={Tumescheit},
+           familyi={T\bibinitperiod},
+           given={Charlotte},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2dac539cd49fcc48ee89ea09ce5e40c3}{%
+           family={Mirdita},
+           familyi={M\bibinitperiod},
+           given={Milot},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5a6f8561f16c7c642dadad82bca1508a}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Jeongjae},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3c92bbb2c82c6d624367921c0f3ee2f1}{%
+           family={Gilchrist},
+           familyi={G\bibinitperiod},
+           given={Cameron\bibnamedelimb L.\bibnamedelimi M.},
+           giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e67661e270ffc979f77600b3904f2e9c}{%
+           family={Söding},
+           familyi={S\bibinitperiod},
+           given={Johannes},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c06ac6a6fdcf2ee2092d61fc58c1f21b}{%
+           family={Steinegger},
+           familyi={S\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{3a67143ca2a3149b4aa2915830fbfb54}
+      \strng{fullhash}{d09b260342de4938876878cfa74812be}
+      \strng{fullhashraw}{d09b260342de4938876878cfa74812be}
+      \strng{bibnamehash}{d09b260342de4938876878cfa74812be}
+      \strng{authorbibnamehash}{d09b260342de4938876878cfa74812be}
+      \strng{authornamehash}{3a67143ca2a3149b4aa2915830fbfb54}
+      \strng{authorfullhash}{d09b260342de4938876878cfa74812be}
+      \strng{authorfullhashraw}{d09b260342de4938876878cfa74812be}
+      \field{sortinit}{v}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{As structure prediction methods are generating millions of publicly available protein structures, searching these databases is becoming a bottleneck. Foldseek aligns the structure of a query protein against a database by describing tertiary amino acid interactions within proteins as sequences over a structural alphabet. Foldseek decreases computation times by four to five orders of magnitude with 86\%, 88\% and 133\% of the sensitivities of Dali, TM-align and CE, respectively.}
+      \field{issn}{1546-1696}
+      \field{journaltitle}{Nature Biotechnology}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{Fast and accurate protein structure search with {Foldseek}}
+      \field{urlday}{2}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{42}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{243\bibrangedash 246}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1038/s41587-023-01773-0
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:Kempen2024 - Fast and Accurate Protein Structure Search with Foldseek.pdf:PDF:https\://www.nature.com/articles/s41587-023-01773-0.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41587-023-01773-0
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41587-023-01773-0
+      \endverb
+      \keyw{Computational biology and bioinformatics,Software,Structural biology}
+    \endentry
     \entry{Wang2022}{article}{}{}
       \name{author}{8}{}{%
         {{un=0,uniquepart=base,hash=cce05cab2c437e9c128f853684ee3137}{%
@@ -4258,6 +5553,59 @@
       \endverb
       \verb{url}
       \verb https://www.semanticscholar.org/paper/Text-Embeddings-by-Weakly-Supervised-Contrastive-Wang-Yang/5a3c1afe73d8bcc8288d17cb17be2baec8a98464
+      \endverb
+    \endentry
+    \entry{Weininger1988}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8396687b96e64d23dac029daee2916d2}{%
+           family={Weininger},
+           familyi={W\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Chemical Society}%
+      }
+      \strng{namehash}{8396687b96e64d23dac029daee2916d2}
+      \strng{fullhash}{8396687b96e64d23dac029daee2916d2}
+      \strng{fullhashraw}{8396687b96e64d23dac029daee2916d2}
+      \strng{bibnamehash}{8396687b96e64d23dac029daee2916d2}
+      \strng{authorbibnamehash}{8396687b96e64d23dac029daee2916d2}
+      \strng{authornamehash}{8396687b96e64d23dac029daee2916d2}
+      \strng{authorfullhash}{8396687b96e64d23dac029daee2916d2}
+      \strng{authorfullhashraw}{8396687b96e64d23dac029daee2916d2}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0095-2338}
+      \field{journaltitle}{Journal of Chemical Information and Computer Sciences}
+      \field{month}{2}
+      \field{number}{1}
+      \field{title}{{SMILES}, a chemical language and information system. 1. {Introduction} to methodology and encoding rules}
+      \field{urlday}{2}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{28}
+      \field{year}{1988}
+      \field{urldateera}{ce}
+      \field{pages}{31\bibrangedash 36}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1021/ci00057a005
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:https\://pubs.acs.org/doi/pdf/10.1021/ci00057a005:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1021/ci00057a005
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1021/ci00057a005
       \endverb
     \endentry
     \entry{Wilson2014}{article}{}{}

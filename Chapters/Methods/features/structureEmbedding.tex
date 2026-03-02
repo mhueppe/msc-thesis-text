@@ -1,0 +1,35 @@
+\subsection{Structure Embedding}\label{methods/feature_engineering/structure_embedding}
+
+To represent the structure of a given protein the \gls{prostT5} presented by \citet{Heinzinger2023}, model was used. \gls{prostT5} is a version of the ProtT5 model finetuned to adapt to the task of bidirectional translation of sequence and structure. \autoref{fig:prostT5Architecture} illustrates the overall pipeline of the protein language model. \gls{prostT5} is meant to enable direct translation of the amino acid sequence of a protein and it's structure. The structure here is represented using the 3Di a structure alphabet developed by Foldseek to enable efficient structural humolgy search \citep{Kempen2024}. 
+
+A target protein structure is discretized into a sequence over the 3Di structural alphabet. Each token in the 3Di sequence represents the local tertiary interaction geometry of a residue with its nearest neighbor in three-dimensional space. The alphabet consists of 20 discrete states that were optimized to maximize structural information content and search sensitivity.
+
+A target protein structure is discretized into a sequence over the 3Di structural alphabet. Each token in the 3Di sequence represents the local \emph{tertiary interaction geometry} of a residue with its nearest neighbor in three-dimensional space. The alphabet consists of 20 discrete states that were optimized to maximize structural information content and search sensitivity.
+
+For every residue $i$ in a structure, the nearest spatial neighbor $j$ is identified based on a residue-specific virtual center. The local interaction between residues $i$ and $j$ is then described using a 10-dimensional feature vector consisting of angular features, the Euclidean distance between residues, and sequence-distance features. This continuous descriptor vector is subsequently discretized into one of the 20 3Di states using a trained encoder.
+
+In particular \citet{Kempen2024}, the 3Di alphabet was not manually designed but learned using a vector-quantized variational autoencoder (VQ-VAE). The network consists of an encoder and a decoder, with a discrete bottleneck in between representing the latent 3Di space. Each of the 20 characters in the 3Di alphabet corresponds to a learned centroid in this latent space. During discretization, a new descriptor vector is mapped to the nearest centroid, yielding its corresponding 3Di symbol.
+
+Because continuous geometric information is quantized into a finite set of discrete states, the representation is inherently lossy. Nevertheless, the authors demonstrate that structure homology search based on 3Di sequences achieves sensitivity comparable to state-of-the-art structural alignment methods, while being orders of magnitude $faster$.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\linewidth]{media/ProstT5.png}
+    \caption{Description of ProstT5 pipeline}{The figure visualizes the training, architectre and inference pipeline of \gls{prostT5}.}
+    \label{fig:prostT5Architecture}
+\end{figure}
+
+Fig. 1: Sketch of ProstT5. Model architecture: ProstT5 is a T5-based encoder-decoder model initialized with weights of the
+ProtT5 model6. Pre-training: Foldseek1 transferred protein 3D coordinates into 3Di tokens, i.e., 1D descriptions of 3D structure
+that assign each residue in a protein into one of twenty states described by a 1D string of letters. We used 17 million (17M)
+high-quality, non-redundant and diverse 3D predictions from AFDB33. ProtT5 was leveraged as an already pre-trained starting
+point for translating between 1D sequence (amino acids, AA) and 3D structure (3Di). Firstly, we applied the original pre-training
+objective of ProtT5 (span-based denoising) to both, AAs and 3Di, to teach the model the new 3Di tokens while avoiding
+catastrophic forgetting of AAs. Secondly, we continued to train the resulting model to translate between AAs and 3Di and vice
+versa. The final model, ProstT5 (Protein structure-sequence T5) extracts the information in its internal embeddings that can be
+input into downstream applications. This includes established feature extraction using only the encoder6, or bi-directional
+translation, either from AAs to 3Di (“folding”) or from 3Di to AAs (“inverse folding”). Inference: bi-directional translation from AA
+to 3Di (AA→3Di) or 3Di→AA can be conducted using either the encoder-decoder mode, necessitating token-wise
+decoder-inference or through an optimized inference mode, where 3Di tokens are directly predicted through a convolutional
+neural network from the encoder-embedding. The optimized 3Di inference mode results in a three orders of magnitude
+speedup over 3Di extraction from predicted protein structures (Fig. 2).
