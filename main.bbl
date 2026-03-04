@@ -457,6 +457,129 @@
       \endverb
       \keyw{Computer Science - Computation and Language}
     \endentry
+    \entry{Elnaggar2021}{report}{}{}
+      \name{author}{12}{}{%
+        {{un=0,uniquepart=base,hash=ffe73c593e2a87fe360a38cbda274f31}{%
+           family={Elnaggar},
+           familyi={E\bibinitperiod},
+           given={Ahmed},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c04fca9e06da18cb002f115133913d24}{%
+           family={Heinzinger},
+           familyi={H\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=381edeaec659df830008a0b2d8646834}{%
+           family={Dallago},
+           familyi={D\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f4f7b453c6235e072a10a092abf0ae74}{%
+           family={Rehawi},
+           familyi={R\bibinitperiod},
+           given={Ghalia},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b2eccb185095fccfeb40fdffd8b2105f}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2fd2982e30ebcec93ec1cf76e0d797fd}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Llion},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ef99e5f5de2e799b18169a1945451fdd}{%
+           family={Gibbs},
+           familyi={G\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fe3319a4eb730f5484bfff0eb08493f4}{%
+           family={Feher},
+           familyi={F\bibinitperiod},
+           given={Tamas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6f148a1f82c1e04b4a3ef4350c3f0ad5}{%
+           family={Angerer},
+           familyi={A\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c06ac6a6fdcf2ee2092d61fc58c1f21b}{%
+           family={Steinegger},
+           familyi={S\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c0d55bd9ed798928c283ce5b8563638c}{%
+           family={Bhowmik},
+           familyi={B\bibinitperiod},
+           given={Debsindhu},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=66106370d9aa16054179da646f7df55c}{%
+           family={Rost},
+           familyi={R\bibinitperiod},
+           given={Burkhard},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {bioRxiv}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{65ca48ebfe01fff7e9b3d9e91ff50edf}
+      \strng{fullhash}{0450fad06debec0ac91ad0ecb49028a0}
+      \strng{fullhashraw}{0450fad06debec0ac91ad0ecb49028a0}
+      \strng{bibnamehash}{0450fad06debec0ac91ad0ecb49028a0}
+      \strng{authorbibnamehash}{0450fad06debec0ac91ad0ecb49028a0}
+      \strng{authornamehash}{65ca48ebfe01fff7e9b3d9e91ff50edf}
+      \strng{authorfullhash}{0450fad06debec0ac91ad0ecb49028a0}
+      \strng{authorfullhashraw}{0450fad06debec0ac91ad0ecb49028a0}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Computational biology and bioinformatics provide vast data gold-mines from protein sequences, ideal for Language Models taken from NLP. These LMs reach for new prediction frontiers at low inference costs. Here, we trained two auto-regressive models (Transformer-XL, XLNet) and four auto-encoder models (BERT, Albert, Electra, T5) on data from UniRef and BFD containing up to 393 billion amino acids. The LMs were trained on the Summit supercomputer using 5616 GPUs and TPU Pod up-to 1024 cores. Dimensionality reduction revealed that the raw protein LM-embeddings from unlabeled data captured some biophysical features of protein sequences. We validated the advantage of using the embeddings as exclusive input for several subsequent tasks. The first was a per-residue prediction of protein secondary structure (3-state accuracy Q3=81\%-87\%); the second were per-protein predictions of protein sub-cellular localization (ten-state accuracy: Q10=81\%) and membrane vs. water-soluble (2-state accuracy Q2=91\%). For the per-residue predictions the transfer of the most informative embeddings (ProtT5) for the first time outperformed the state-of-the-art without using evolutionary information thereby bypassing expensive database searches. Taken together, the results implied that protein LMs learned some of the grammar of the language of life. To facilitate future work, we released our models at https://github.com/agemagician/ProtTrans.}
+      \field{chapter}{New Results}
+      \field{month}{5}
+      \field{note}{Type: article}
+      \field{shorttitle}{{ProtTrans}}
+      \field{title}{{ProtTrans}: {Towards} {Cracking} the {Language} of {Life}’s {Code} {Through} {Self}-{Supervised} {Learning}}
+      \field{type}{techreport}
+      \field{urlday}{3}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{2020.07.12.199554}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1101/2020.07.12.199554
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:Elnaggar2021 - ProtTrans_ Towards Cracking the Language of Life’s Code through Self Supervised Learning.pdf:PDF:https\://www.biorxiv.org/content/biorxiv/early/2021/05/04/2020.07.12.199554.full.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.biorxiv.org/content/10.1101/2020.07.12.199554v3
+      \endverb
+      \verb{url}
+      \verb https://www.biorxiv.org/content/10.1101/2020.07.12.199554v3
+      \endverb
+    \endentry
     \entry{embl_website}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8167ca0ede70368987326b9034e98060}{%
@@ -1842,6 +1965,64 @@
       \verb{url}
       \verb https://doi.org/10.1021/c160017a018
       \endverb
+    \endentry
+    \entry{Nanev2018}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3aca7685bbb61e68abcf0f4d0359bf69}{%
+           family={Nanev},
+           familyi={N\bibinitperiod},
+           given={Christo\bibnamedelima N.},
+           giveni={C\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{3aca7685bbb61e68abcf0f4d0359bf69}
+      \strng{fullhash}{3aca7685bbb61e68abcf0f4d0359bf69}
+      \strng{fullhashraw}{3aca7685bbb61e68abcf0f4d0359bf69}
+      \strng{bibnamehash}{3aca7685bbb61e68abcf0f4d0359bf69}
+      \strng{authorbibnamehash}{3aca7685bbb61e68abcf0f4d0359bf69}
+      \strng{authornamehash}{3aca7685bbb61e68abcf0f4d0359bf69}
+      \strng{authorfullhash}{3aca7685bbb61e68abcf0f4d0359bf69}
+      \strng{authorfullhashraw}{3aca7685bbb61e68abcf0f4d0359bf69}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper reviews investigations on protein crystallization. It aims to present a comprehensive rather than complete account of recent studies and efforts to elucidate the most intimate mechanisms of protein crystal nucleation. It is emphasized that both physical and biochemical factors are at play during this process. Recently-discovered molecular scale pathways for protein crystal nucleation are considered first. The bond selection during protein crystal lattice formation, which is a typical biochemically-conditioned peculiarity of the crystallization process, is revisited. Novel approaches allow us to quantitatively describe some protein crystallization cases. Additional light is shed on the protein crystal nucleation in pores and crevices by employing the so-called EBDE method (equilibration between crystal bond and destructive energies). Also, protein crystal nucleation in solution flow is considered.}
+      \field{issn}{2073-4352}
+      \field{journaltitle}{Crystals}
+      \field{month}{11}
+      \field{number}{11}
+      \field{title}{Peculiarities of {Protein} {Crystal} {Nucleation} and {Growth}}
+      \field{urlday}{4}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{8}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \field{pages}{422}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/cryst8110422
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:https\://www.mdpi.com/2073-4352/8/11/422/pdf?version=1541742600:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2073-4352/8/11/422
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2073-4352/8/11/422
+      \endverb
+      \keyw{protein crystallization,biochemical aspects of the protein crystal nucleation,classical and two-step crystal nucleation mechanisms,bond selection during protein crystallization,equilibration between crystal bond and destructive energies,protein crystal nucleation in pores,crystallization in solution flow}
     \endentry
     \entry{Newman2010}{article}{}{}
       \name{author}{4}{}{%
@@ -3401,6 +3582,129 @@
       \endverb
       \keyw{Computer Science - Computation and Language}
     \endentry
+    \entry{Elnaggar2021}{report}{}{}
+      \name{author}{12}{}{%
+        {{un=0,uniquepart=base,hash=ffe73c593e2a87fe360a38cbda274f31}{%
+           family={Elnaggar},
+           familyi={E\bibinitperiod},
+           given={Ahmed},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c04fca9e06da18cb002f115133913d24}{%
+           family={Heinzinger},
+           familyi={H\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=381edeaec659df830008a0b2d8646834}{%
+           family={Dallago},
+           familyi={D\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f4f7b453c6235e072a10a092abf0ae74}{%
+           family={Rehawi},
+           familyi={R\bibinitperiod},
+           given={Ghalia},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b2eccb185095fccfeb40fdffd8b2105f}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2fd2982e30ebcec93ec1cf76e0d797fd}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Llion},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ef99e5f5de2e799b18169a1945451fdd}{%
+           family={Gibbs},
+           familyi={G\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fe3319a4eb730f5484bfff0eb08493f4}{%
+           family={Feher},
+           familyi={F\bibinitperiod},
+           given={Tamas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6f148a1f82c1e04b4a3ef4350c3f0ad5}{%
+           family={Angerer},
+           familyi={A\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c06ac6a6fdcf2ee2092d61fc58c1f21b}{%
+           family={Steinegger},
+           familyi={S\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c0d55bd9ed798928c283ce5b8563638c}{%
+           family={Bhowmik},
+           familyi={B\bibinitperiod},
+           given={Debsindhu},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=66106370d9aa16054179da646f7df55c}{%
+           family={Rost},
+           familyi={R\bibinitperiod},
+           given={Burkhard},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {bioRxiv}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{65ca48ebfe01fff7e9b3d9e91ff50edf}
+      \strng{fullhash}{0450fad06debec0ac91ad0ecb49028a0}
+      \strng{fullhashraw}{0450fad06debec0ac91ad0ecb49028a0}
+      \strng{bibnamehash}{0450fad06debec0ac91ad0ecb49028a0}
+      \strng{authorbibnamehash}{0450fad06debec0ac91ad0ecb49028a0}
+      \strng{authornamehash}{65ca48ebfe01fff7e9b3d9e91ff50edf}
+      \strng{authorfullhash}{0450fad06debec0ac91ad0ecb49028a0}
+      \strng{authorfullhashraw}{0450fad06debec0ac91ad0ecb49028a0}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Computational biology and bioinformatics provide vast data gold-mines from protein sequences, ideal for Language Models taken from NLP. These LMs reach for new prediction frontiers at low inference costs. Here, we trained two auto-regressive models (Transformer-XL, XLNet) and four auto-encoder models (BERT, Albert, Electra, T5) on data from UniRef and BFD containing up to 393 billion amino acids. The LMs were trained on the Summit supercomputer using 5616 GPUs and TPU Pod up-to 1024 cores. Dimensionality reduction revealed that the raw protein LM-embeddings from unlabeled data captured some biophysical features of protein sequences. We validated the advantage of using the embeddings as exclusive input for several subsequent tasks. The first was a per-residue prediction of protein secondary structure (3-state accuracy Q3=81\%-87\%); the second were per-protein predictions of protein sub-cellular localization (ten-state accuracy: Q10=81\%) and membrane vs. water-soluble (2-state accuracy Q2=91\%). For the per-residue predictions the transfer of the most informative embeddings (ProtT5) for the first time outperformed the state-of-the-art without using evolutionary information thereby bypassing expensive database searches. Taken together, the results implied that protein LMs learned some of the grammar of the language of life. To facilitate future work, we released our models at https://github.com/agemagician/ProtTrans.}
+      \field{chapter}{New Results}
+      \field{month}{5}
+      \field{note}{Type: article}
+      \field{shorttitle}{{ProtTrans}}
+      \field{title}{{ProtTrans}: {Towards} {Cracking} the {Language} of {Life}’s {Code} {Through} {Self}-{Supervised} {Learning}}
+      \field{type}{techreport}
+      \field{urlday}{3}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{2020.07.12.199554}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1101/2020.07.12.199554
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:Elnaggar2021 - ProtTrans_ Towards Cracking the Language of Life’s Code through Self Supervised Learning.pdf:PDF:https\://www.biorxiv.org/content/biorxiv/early/2021/05/04/2020.07.12.199554.full.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.biorxiv.org/content/10.1101/2020.07.12.199554v3
+      \endverb
+      \verb{url}
+      \verb https://www.biorxiv.org/content/10.1101/2020.07.12.199554v3
+      \endverb
+    \endentry
     \entry{embl_website}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8167ca0ede70368987326b9034e98060}{%
@@ -4786,6 +5090,64 @@
       \verb{url}
       \verb https://doi.org/10.1021/c160017a018
       \endverb
+    \endentry
+    \entry{Nanev2018}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3aca7685bbb61e68abcf0f4d0359bf69}{%
+           family={Nanev},
+           familyi={N\bibinitperiod},
+           given={Christo\bibnamedelima N.},
+           giveni={C\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{3aca7685bbb61e68abcf0f4d0359bf69}
+      \strng{fullhash}{3aca7685bbb61e68abcf0f4d0359bf69}
+      \strng{fullhashraw}{3aca7685bbb61e68abcf0f4d0359bf69}
+      \strng{bibnamehash}{3aca7685bbb61e68abcf0f4d0359bf69}
+      \strng{authorbibnamehash}{3aca7685bbb61e68abcf0f4d0359bf69}
+      \strng{authornamehash}{3aca7685bbb61e68abcf0f4d0359bf69}
+      \strng{authorfullhash}{3aca7685bbb61e68abcf0f4d0359bf69}
+      \strng{authorfullhashraw}{3aca7685bbb61e68abcf0f4d0359bf69}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper reviews investigations on protein crystallization. It aims to present a comprehensive rather than complete account of recent studies and efforts to elucidate the most intimate mechanisms of protein crystal nucleation. It is emphasized that both physical and biochemical factors are at play during this process. Recently-discovered molecular scale pathways for protein crystal nucleation are considered first. The bond selection during protein crystal lattice formation, which is a typical biochemically-conditioned peculiarity of the crystallization process, is revisited. Novel approaches allow us to quantitatively describe some protein crystallization cases. Additional light is shed on the protein crystal nucleation in pores and crevices by employing the so-called EBDE method (equilibration between crystal bond and destructive energies). Also, protein crystal nucleation in solution flow is considered.}
+      \field{issn}{2073-4352}
+      \field{journaltitle}{Crystals}
+      \field{month}{11}
+      \field{number}{11}
+      \field{title}{Peculiarities of {Protein} {Crystal} {Nucleation} and {Growth}}
+      \field{urlday}{4}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{8}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \field{pages}{422}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/cryst8110422
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:https\://www.mdpi.com/2073-4352/8/11/422/pdf?version=1541742600:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2073-4352/8/11/422
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2073-4352/8/11/422
+      \endverb
+      \keyw{protein crystallization,biochemical aspects of the protein crystal nucleation,classical and two-step crystal nucleation mechanisms,bond selection during protein crystallization,equilibration between crystal bond and destructive energies,protein crystal nucleation in pores,crystallization in solution flow}
     \endentry
     \entry{Newman2010}{article}{}{}
       \name{author}{4}{}{%

@@ -40,7 +40,7 @@ headsepline, % Uncomment to get a line under the header
 
 \usepackage[utf8]{inputenc} % Required for inputting international characters
 \usepackage[T1]{fontenc} % Output font encoding for international characters
-
+\usepackage{longtable}
 \usepackage{mathpazo} % Use the Palatino font by default
 
 \usepackage[backend=biber,style=apa, natbib=true]{biblatex}
@@ -57,7 +57,7 @@ headsepline, % Uncomment to get a line under the header
 \definecolor{ukeblue_highlight}{RGB}{0, 73, 146}
 \definecolor{neutralyellow}{RGB}{244, 199, 120}
 \usepackage{forest}
-
+\usepackage{multirow}
 \usepackage[autostyle=true]{csquotes} % Required to generate language-dependent quotes in the bibliography
 \setcounter{secnumdepth}{3}
 \setcounter{tocdepth}{3}
@@ -274,7 +274,7 @@ The acknowledgments and the people to thank go here, don't forget to include you
 % Uncomment the lines as you write the Appendices
 
 \include{Appendices/AppendixA}
-%\include{Appendices/AppendixB}
+\include{Appendices/AppendixB}
 %\include{Appendices/AppendixC}
 
 %----------------------------------------------------------------------------------------

@@ -844,14 +844,6 @@
   volume  = {23},
 }
 
-@online{embl_website,
-  author       = {{EMBL}},
-  title        = {European Molecular Biology Laboratory (EMBL)},
-  year         = {2026},
-  url          = {https://www.embl.org},
-  urldate      = {2026-03-01}
-}
-
  
 @Article{Cumbaa2010,
   author   = {Cumbaa, Christian A. and Jurisica, Igor},
@@ -870,6 +862,14 @@
   language = {en},
   url      = {https://doi.org/10.1007/s10969-009-9076-9},
   urldate  = {2026-03-01},
+}
+
+@online{embl_website,
+  author       = {{EMBL}},
+  title        = {European Molecular Biology Laboratory (EMBL)},
+  year         = {2026},
+  url          = {https://www.embl.org},
+  urldate      = {2026-03-01}
 }
 
  
@@ -967,6 +967,48 @@
   publisher = {Nature Publishing Group},
   url       = {https://www.nature.com/articles/s41587-023-01773-0},
   urldate   = {2026-03-02},
+}
+
+ 
+@TechReport{Elnaggar2021,
+  author     = {Elnaggar, Ahmed and Heinzinger, Michael and Dallago, Christian and Rehawi, Ghalia and Wang, Yu and Jones, Llion and Gibbs, Tom and Feher, Tamas and Angerer, Christoph and Steinegger, Martin and Bhowmik, Debsindhu and Rost, Burkhard},
+  title      = {{ProtTrans}: {Towards} {Cracking} the {Language} of {Life}’s {Code} {Through} {Self}-{Supervised} {Learning}},
+  year       = {2021},
+  month      = may,
+  note       = {Type: article},
+  abstract   = {Computational biology and bioinformatics provide vast data gold-mines from protein sequences, ideal for Language Models taken from NLP. These LMs reach for new prediction frontiers at low inference costs. Here, we trained two auto-regressive models (Transformer-XL, XLNet) and four auto-encoder models (BERT, Albert, Electra, T5) on data from UniRef and BFD containing up to 393 billion amino acids. The LMs were trained on the Summit supercomputer using 5616 GPUs and TPU Pod up-to 1024 cores. Dimensionality reduction revealed that the raw protein LM-embeddings from unlabeled data captured some biophysical features of protein sequences. We validated the advantage of using the embeddings as exclusive input for several subsequent tasks. The first was a per-residue prediction of protein secondary structure (3-state accuracy Q3=81\%-87\%); the second were per-protein predictions of protein sub-cellular localization (ten-state accuracy: Q10=81\%) and membrane vs. water-soluble (2-state accuracy Q2=91\%). For the per-residue predictions the transfer of the most informative embeddings (ProtT5) for the first time outperformed the state-of-the-art without using evolutionary information thereby bypassing expensive database searches. Taken together, the results implied that protein LMs learned some of the grammar of the language of life. To facilitate future work, we released our models at https://github.com/agemagician/ProtTrans.},
+  chapter    = {New Results},
+  copyright  = {© 2021, Posted by Cold Spring Harbor Laboratory. This pre-print is available under a Creative Commons License (Attribution-NonCommercial-NoDerivs 4.0 International), CC BY-NC-ND 4.0, as described at http://creativecommons.org/licenses/by-nc-nd/4.0/},
+  doi        = {10.1101/2020.07.12.199554},
+  file       = {Full Text PDF:Elnaggar2021 - ProtTrans_ Towards Cracking the Language of Life’s Code through Self Supervised Learning.pdf:PDF:https\://www.biorxiv.org/content/biorxiv/early/2021/05/04/2020.07.12.199554.full.pdf},
+  language   = {en},
+  pages      = {2020.07.12.199554},
+  school     = {bioRxiv},
+  shorttitle = {{ProtTrans}},
+  url        = {https://www.biorxiv.org/content/10.1101/2020.07.12.199554v3},
+  urldate    = {2026-03-03},
+}
+
+ 
+@Article{Nanev2018,
+  author    = {Nanev, Christo N.},
+  journal   = {Crystals},
+  title     = {Peculiarities of {Protein} {Crystal} {Nucleation} and {Growth}},
+  year      = {2018},
+  issn      = {2073-4352},
+  month     = nov,
+  number    = {11},
+  pages     = {422},
+  volume    = {8},
+  abstract  = {This paper reviews investigations on protein crystallization. It aims to present a comprehensive rather than complete account of recent studies and efforts to elucidate the most intimate mechanisms of protein crystal nucleation. It is emphasized that both physical and biochemical factors are at play during this process. Recently-discovered molecular scale pathways for protein crystal nucleation are considered first. The bond selection during protein crystal lattice formation, which is a typical biochemically-conditioned peculiarity of the crystallization process, is revisited. Novel approaches allow us to quantitatively describe some protein crystallization cases. Additional light is shed on the protein crystal nucleation in pores and crevices by employing the so-called EBDE method (equilibration between crystal bond and destructive energies). Also, protein crystal nucleation in solution flow is considered.},
+  copyright = {http://creativecommons.org/licenses/by/3.0/},
+  doi       = {10.3390/cryst8110422},
+  file      = {Full Text PDF:https\://www.mdpi.com/2073-4352/8/11/422/pdf?version=1541742600:application/pdf},
+  keywords  = {protein crystallization, biochemical aspects of the protein crystal nucleation, classical and two-step crystal nucleation mechanisms, bond selection during protein crystallization, equilibration between crystal bond and destructive energies, protein crystal nucleation in pores, crystallization in solution flow},
+  language  = {en},
+  publisher = {Multidisciplinary Digital Publishing Institute},
+  url       = {https://www.mdpi.com/2073-4352/8/11/422},
+  urldate   = {2026-03-04},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

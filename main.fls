@@ -351,6 +351,8 @@ INPUT C:\Users\michi\AppData\Local\Programs\MiKTeX\tex\latex\trimspaces\trimspac
 INPUT C:\Users\michi\AppData\Local\Programs\MiKTeX\tex\latex\trimspaces\trimspaces.sty
 INPUT C:\Users\michi\AppData\Local\Programs\MiKTeX\tex\latex\inlinedef\inlinedef.sty
 INPUT C:\Users\michi\AppData\Local\Programs\MiKTeX\tex\latex\inlinedef\inlinedef.sty
+INPUT C:\Users\michi\AppData\Local\Programs\MiKTeX\tex\latex\multirow\multirow.sty
+INPUT C:\Users\michi\AppData\Local\Programs\MiKTeX\tex\latex\multirow\multirow.sty
 INPUT C:\Users\michi\AppData\Local\Programs\MiKTeX\tex\latex\csquotes\csquotes.sty
 INPUT C:\Users\michi\AppData\Local\Programs\MiKTeX\tex\latex\csquotes\csquotes.sty
 INPUT C:\Users\michi\AppData\Local\Programs\MiKTeX\tex\latex\csquotes\csquotes.def
@@ -476,6 +478,9 @@ INPUT Chapters\Discussion.aux
 INPUT .\Appendices\AppendixA.aux
 INPUT .\Appendices\AppendixA.aux
 INPUT Appendices\AppendixA.aux
+INPUT .\Appendices\AppendixB.aux
+INPUT .\Appendices\AppendixB.aux
+INPUT Appendices\AppendixB.aux
 OUTPUT main.aux
 INPUT C:\Users\michi\AppData\Local\Programs\MiKTeX\tex\latex\translations\dicts\translations-basic-dictionary-english.trsl
 INPUT C:\Users\michi\AppData\Local\Programs\MiKTeX\tex\latex\translations\dicts\translations-basic-dictionary-english.trsl
@@ -1193,6 +1198,12 @@ INPUT ..\msc-thesis-code\data\dataExploration\plots\hydro_polar_contrast_ks_dist
 INPUT ..\msc-thesis-code\data\dataExploration\plots\hydro_polar_contrast_ks_distance.pdf
 INPUT ..\msc-thesis-code\data\dataExploration\plots\hydro_polar_contrast_ks_distance.pdf
 INPUT ..\msc-thesis-code\data\dataExploration\plots\hydro_polar_contrast_ks_distance.pdf
+INPUT .\Appendices\AppendixB.tex
+INPUT .\Appendices\AppendixB.tex
+OUTPUT Appendices\AppendixB.aux
+INPUT .\Appendices\AppendixB.tex
+INPUT .\Appendices\AppendixB.tex
+INPUT Appendices\AppendixB.tex
 INPUT main.aux
 INPUT .\Chapters\Introduction.aux
 INPUT .\Chapters\Introduction.aux
@@ -1215,6 +1226,9 @@ INPUT Chapters\Discussion.aux
 INPUT .\Appendices\AppendixA.aux
 INPUT .\Appendices\AppendixA.aux
 INPUT Appendices\AppendixA.aux
+INPUT .\Appendices\AppendixB.aux
+INPUT .\Appendices\AppendixB.aux
+INPUT Appendices\AppendixB.aux
 INPUT .\main.out
 INPUT .\main.out
 INPUT main.run.xml

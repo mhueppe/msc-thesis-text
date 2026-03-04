@@ -40,7 +40,7 @@
 \contentsline {section}{\numberline {3.4}CRIMS}{33}{section.67}%
 \contentsline {subsection}{\numberline {3.4.1}Data Acquisition}{34}{subsection.68}%
 \contentsline {subsection}{\numberline {3.4.2}Confirmation of protein crystals}{36}{subsection.70}%
-\contentsline {subsection}{\numberline {3.4.3}Data Analysis \& Quality assesment}{36}{subsection.72}%
+\contentsline {subsection}{\numberline {3.4.3}Data Analysis \& Quality assesment}{37}{subsection.72}%
 \contentsline {chapter}{\numberline {4}Methods}{39}{chapter.74}%
 \contentsline {section}{\numberline {4.1}Feature Engineering}{39}{section.75}%
 \contentsline {subsection}{\numberline {4.1.1}Sequence Embedding}{39}{subsection.76}%
@@ -51,9 +51,11 @@
 \contentsline {subsubsection}{\numberline {4.1.4.2}Semantic representation}{46}{subsubsection.86}%
 \contentsline {section}{\numberline {4.2}Data encoding}{48}{section.89}%
 \contentsline {section}{\numberline {4.3}Training}{48}{section.90}%
-\contentsline {subsection}{\numberline {4.3.1}Configuration}{48}{subsection.91}%
-\contentsline {subsection}{\numberline {4.3.2}Optimization}{48}{subsection.92}%
-\contentsline {chapter}{\numberline {5}Results}{49}{chapter.93}%
-\contentsline {chapter}{\numberline {6}Discussion}{51}{chapter.94}%
-\contentsline {chapter}{\numberline {A}Data Appendix}{53}{appendix.95}%
-\contentsline {chapter}{Bibliography}{57}{appendix*.100}%
+\contentsline {subsection}{\numberline {4.3.1}Data split}{48}{subsection.91}%
+\contentsline {subsection}{\numberline {4.3.2}Configuration}{50}{subsection.92}%
+\contentsline {subsection}{\numberline {4.3.3}Optimization}{50}{subsection.93}%
+\contentsline {chapter}{\numberline {5}Results}{51}{chapter.94}%
+\contentsline {chapter}{\numberline {6}Discussion}{53}{chapter.95}%
+\contentsline {chapter}{\numberline {A}Data Appendix}{55}{appendix.96}%
+\contentsline {chapter}{\numberline {B}Methods Appendix}{59}{appendix.101}%
+\contentsline {chapter}{Bibliography}{61}{appendix*.102}%

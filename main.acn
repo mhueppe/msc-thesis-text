@@ -14,6 +14,7 @@
 \glossaryentry{SASA?\glossentry{sasa}|setentrycounter[]{page}"\glsnumberformat}{i}
 \glossaryentry{SMILES?\glossentry{smiles}|setentrycounter[]{page}"\glsnumberformat}{i}
 \glossaryentry{ML?\glossentry{ml}|setentrycounter[]{page}"\glsnumberformat}{i}
+\glossaryentry{MW?\glossentry{mw}|setentrycounter[]{page}"\glsnumberformat}{i}
 \glossaryentry{MaSIF?\glossentry{masif}|setentrycounter[]{page}"\glsnumberformat}{i}
 \glossaryentry{MASCL?\glossentry{mascl}|setentrycounter[]{page}"\glsnumberformat}{i}
 \glossaryentry{pI?\glossentry{pi}|setentrycounter[]{page}"\glsnumberformat}{i}
@@ -143,6 +144,7 @@
 \glossaryentry{CRIMS?\glossentry{crims}|setentrycounter[]{page}"\glsnumberformat}{35}
 \glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{35}
 \glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{35}
+\glossaryentry{CRIMS?\glossentry{crims}|setentrycounter[]{page}"\glsnumberformat}{35}
 \glossaryentry{ML?\glossentry{ml}|setentrycounter[]{page}"\glsnumberformat}{36}
 \glossaryentry{EMBL?\glossentry{embl}|setentrycounter[]{page}"\glsnumberformat}{36}
 \glossaryentry{UV?\glossentry{uv}|setentrycounter[]{page}"\glsnumberformat}{36}
@@ -150,10 +152,10 @@
 \glossaryentry{UV?\glossentry{uv}|setentrycounter[]{page}"\glsnumberformat}{36}
 \glossaryentry{UV?\glossentry{uv}|setentrycounter[]{page}"\glsnumberformat}{36}
 \glossaryentry{UV?\glossentry{uv}|setentrycounter[]{page}"\glsnumberformat}{36}
-\glossaryentry{PDB?\glossentry{pdb}|setentrycounter[]{page}"\glsnumberformat}{36}
-\glossaryentry{CRIMS?\glossentry{crims}|setentrycounter[]{page}"\glsnumberformat}{36}
 \glossaryentry{UV?\glossentry{uv}|setentrycounter[]{page}"\glsnumberformat}{37}
 \glossaryentry{UV?\glossentry{uv}|setentrycounter[]{page}"\glsnumberformat}{37}
+\glossaryentry{PDB?\glossentry{pdb}|setentrycounter[]{page}"\glsnumberformat}{37}
+\glossaryentry{CRIMS?\glossentry{crims}|setentrycounter[]{page}"\glsnumberformat}{37}
 \glossaryentry{CRIMS?\glossentry{crims}|setentrycounter[]{page}"\glsnumberformat}{37}
 \glossaryentry{CRIMS?\glossentry{crims}|setentrycounter[]{page}"\glsnumberformat}{37}
 \glossaryentry{CRIMS?\glossentry{crims}|setentrycounter[]{page}"\glsnumberformat}{37}
@@ -183,8 +185,12 @@
 \glossaryentry{dMaSIF?\glossentry{dmasif}|setentrycounter[]{page}"\glsnumberformat}{43}
 \glossaryentry{ProstT5?\glossentry{prostT5}|setentrycounter[]{page}"\glsnumberformat}{43}
 \glossaryentry{ProstT5?\glossentry{prostT5}|setentrycounter[]{page}"\glsnumberformat}{43}
-\glossaryentry{ProstT5?\glossentry{prostT5}|setentrycounter[]{page}"\glsnumberformat}{43}
 \glossaryentry{ProstT5?\glossentry{prostT5}|setentrycounter[]{page}"\glsnumberformat}{44}
+\glossaryentry{ProstT5?\glossentry{prostT5}|setentrycounter[]{page}"\glsnumberformat}{44}
+\glossaryentry{ProstT5?\glossentry{prostT5}|setentrycounter[]{page}"\glsnumberformat}{44}
+\glossaryentry{ProstT5?\glossentry{prostT5}|setentrycounter[]{page}"\glsnumberformat}{44}
+\glossaryentry{ProstT5?\glossentry{prostT5}|setentrycounter[]{page}"\glsnumberformat}{44}
+\glossaryentry{ProstT5?\glossentry{prostT5}|setentrycounter[]{page}"\glsnumberformat}{45}
 \glossaryentry{SMILES?\glossentry{smiles}|setentrycounter[]{page}"\glsnumberformat}{45}
 \glossaryentry{SMILES?\glossentry{smiles}|setentrycounter[]{page}"\glsnumberformat}{45}
 \glossaryentry{SMILES?\glossentry{smiles}|setentrycounter[]{page}"\glsnumberformat}{45}
@@ -197,3 +203,13 @@
 \glossaryentry{PEG?\glossentry{peg}|setentrycounter[]{page}"\glsnumberformat}{48}
 \glossaryentry{PEG?\glossentry{peg}|setentrycounter[]{page}"\glsnumberformat}{48}
 \glossaryentry{PEG?\glossentry{peg}|setentrycounter[]{page}"\glsnumberformat}{48}
+\glossaryentry{PDB?\glossentry{pdb}|setentrycounter[]{page}"\glsnumberformat}{48}
+\glossaryentry{CRIMS?\glossentry{crims}|setentrycounter[]{page}"\glsnumberformat}{48}
+\glossaryentry{PDB?\glossentry{pdb}|setentrycounter[]{page}"\glsnumberformat}{48}
+\glossaryentry{PDB?\glossentry{pdb}|setentrycounter[]{page}"\glsnumberformat}{49}
+\glossaryentry{PDB?\glossentry{pdb}|setentrycounter[]{page}"\glsnumberformat}{49}
+\glossaryentry{PDB?\glossentry{pdb}|setentrycounter[]{page}"\glsnumberformat}{49}
+\glossaryentry{CRIMS?\glossentry{crims}|setentrycounter[]{page}"\glsnumberformat}{49}
+\glossaryentry{MW?\glossentry{mw}|setentrycounter[]{page}"\glsnumberformat}{59}
+\glossaryentry{pI?\glossentry{pi}|setentrycounter[]{page}"\glsnumberformat}{59}
+\glossaryentry{ESM?\glossentry{esm}|setentrycounter[]{page}"\glsnumberformat}{59}

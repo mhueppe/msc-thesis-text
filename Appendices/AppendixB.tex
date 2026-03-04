@@ -1,0 +1,73 @@
+% Appendix Template
+
+\chapter{Methods Appendix}\label{app:methods} % Main appendix title
+
+\begin{longtable}{|p{1.5cm}||p{5cm}|p{8cm}|}
+\hline
+Length & Name & Description \\
+\hline
+\endfirsthead
+
+\hline
+Length & Name & Description \\[4pt]
+\hline
+\endhead
+\multicolumn{3}{c}{\textbf{Sequence features}} \\[4pt]  % section header
+\hline
+1 & \texttt{length} & Number of residues in the protein sequence \\
+\hline
+1 & \texttt{\gls{mw}} & Molecular weight of the protein in Daltons, calculated from the amino acid composition \\
+\hline
+1 & \texttt{\gls{pi}} & Isoelectric point; the pH at which the protein has zero net electrical charge  \\
+\hline
+1 & \texttt{arom} & Aromaticity; fraction of amino acids that are aromatic (F, W, Y) in the sequence  \\
+\hline
+1 & \texttt{grvy} & Grand Average of Hydropathy; average hydrophobicity of the sequence, indicating overall hydrophobic vs. hydrophilic character \\
+\hline
+1 &\texttt{frac\_acidic} & Fraction of acidic amino acids (D, E) in the sequence  \\
+\hline
+1 &\texttt{frac\_basic} & Fraction of basic amino acids (K, R, H) in the sequence  \\
+\hline
+1 &\texttt{net\_charge\_pH\_7} & Estimated net electrical charge of the protein at pH 7 \\
+\hline
+1 &\texttt{instability\_index} & Empirical score predicting in vitro prtein stability; values $\ge$ 40 suggest instability\\
+\hline
+1 &\texttt{frac\_unknown} & Fraction of residues in the sequence that are unknown or non-canonical amino acids \\
+\hline
+1 &\texttt{A, C, D, ..., V, W, Y} & Count of each canonical amino acid in the sequence (e.g. \texttt{A}=number of alanine residues)  \\[4pt]
+\hline
+\hline
+\multicolumn{3}{c}{\textbf{Sequence Embedding}} \\[4pt]
+\hline
+480/ 640/ 1280 &\texttt{sequence\_embedding} & Sequence embedding created by the \gls{esm} model esm2\_t12\_35M\_UR50D/ esm2\_t30\_150M\_UR50D/ esm2\_t33\_650M\_UR50D \\[4pt]
+
+\hline
+\hline
+\multicolumn{3}{c}{\textbf{Surface features}} \\[4pt]
+\hline
+1 & \texttt{total\_area} & Total molecular surface area of the protein (typically in \AA$^2$) \\
+\hline
+1 & \texttt{n\_atoms} & Number of atoms in the (processed) structure used for feature computation \\
+\hline
+1 & \texttt{roughness} & Surface roughness / irregularity measure (higher = more corrugated surface) \\
+\hline
+1 & \texttt{apolar} & Apolar (hydrophobic) solvent-accessible surface area component \\
+\hline
+1 & \texttt{polar} & Polar solvent-accessible surface area component \\
+\hline
+1 & \texttt{sidechain\_fraction} & Fraction of surface area contributed by side chains (vs. backbone) \\
+\hline
+1 & \texttt{hydro\_polar\_contrast} & Contrast between hydrophobic and polar surface exposure (higher = stronger separation) \\
+\hline
+1 & \texttt{sasa\_skewness} & Skewness of the per-residue SASA distribution (asymmetry of exposure across residues) \\
+\hline
+1 & \texttt{hydrophobic\_surface\_fraction} & Fraction of total surface area that is hydrophobic / apolar \\
+\hline
+1 & \texttt{surface\_entropy\_fraction} & Fraction of surface residues with high side-chain conformational entropy (often flexible residues) \\
+\hline
+1 & \texttt{net\_charge\_raw} & Net charge computed from the sequence/structure without normalization \\
+\hline
+1 & \texttt{net\_charge\_normalized} & Net charge normalized (e.g., by length or surface area) for size-independent comparison \\
+\hline
+
+\end{longtable}
