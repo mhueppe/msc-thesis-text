@@ -82,6 +82,137 @@
       \verb https://journals.iucr.org/f/issues/2019/03/00/rl5170/
       \endverb
     \endentry
+    \entry{Ahmadi2024}{misc}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=a3b9920002977f62e467858a3c538fed}{%
+           family={Ahmadi},
+           familyi={A\bibinitperiod},
+           given={Amir\bibnamedelima Ali},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8c61cee08ef53fcc6dda2a09ca7f2864}{%
+           family={Chaudhry},
+           familyi={C\bibinitperiod},
+           given={Abraar},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=431bd9dd337a989068e7b6522fbbfdf1}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Jeffrey},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9825c5144f95d0a494aa88531df32784}
+      \strng{fullhash}{ea0309aeb3235a9a8f46a1a87d1e3b64}
+      \strng{fullhashraw}{ea0309aeb3235a9a8f46a1a87d1e3b64}
+      \strng{bibnamehash}{ea0309aeb3235a9a8f46a1a87d1e3b64}
+      \strng{authorbibnamehash}{ea0309aeb3235a9a8f46a1a87d1e3b64}
+      \strng{authornamehash}{9825c5144f95d0a494aa88531df32784}
+      \strng{authorfullhash}{ea0309aeb3235a9a8f46a1a87d1e3b64}
+      \strng{authorfullhashraw}{ea0309aeb3235a9a8f46a1a87d1e3b64}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{math.OC}
+      \field{eprinttype}{arXiv}
+      \field{title}{Higher-Order Newton Methods with Polynomial Work per Iteration}
+      \field{year}{2024}
+      \verb{eprint}
+      \verb 2311.06374
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2311.06374
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2311.06374
+      \endverb
+    \endentry
+    \entry{Akiba2019}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=2939d0d5b491018f7cc7812609071a79}{%
+           family={Akiba},
+           familyi={A\bibinitperiod},
+           given={Takuya},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=92311081bb41fd01eb1ce06f61805909}{%
+           family={Sano},
+           familyi={S\bibinitperiod},
+           given={Shotaro},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a841fb8471f00b147fdd8954fb01c03f}{%
+           family={Yanase},
+           familyi={Y\bibinitperiod},
+           given={Toshihiko},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=db73c7d77457602e9a75d75bbe181aba}{%
+           family={Ohta},
+           familyi={O\bibinitperiod},
+           given={Takeru},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d18b784f7f35111bc05bcbd245a34ce7}{%
+           family={Koyama},
+           familyi={K\bibinitperiod},
+           given={Masanori},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{0da4c5b8107cb83a6bd4ba0c9b294621}
+      \strng{fullhash}{6a8f61fd5680dbd348b2b27b4a54d0d8}
+      \strng{fullhashraw}{6a8f61fd5680dbd348b2b27b4a54d0d8}
+      \strng{bibnamehash}{6a8f61fd5680dbd348b2b27b4a54d0d8}
+      \strng{authorbibnamehash}{6a8f61fd5680dbd348b2b27b4a54d0d8}
+      \strng{authornamehash}{0da4c5b8107cb83a6bd4ba0c9b294621}
+      \strng{authorfullhash}{6a8f61fd5680dbd348b2b27b4a54d0d8}
+      \strng{authorfullhashraw}{6a8f61fd5680dbd348b2b27b4a54d0d8}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The purpose of this study is to introduce new design-criteria for next-generation hyperparameter optimization software. The criteria we propose include (1) define-by-run API that allows users to construct the parameter search space dynamically, (2) efficient implementation of both searching and pruning strategies, and (3) easy-to-setup, versatile architecture that can be deployed for various purposes, ranging from scalable distributed computing to light-weight experiment conducted via interactive interface. In order to prove our point, we will introduce Optuna, an optimization software which is a culmination of our effort in the development of a next generation optimization software. As an optimization software designed with define-by-run principle, Optuna is particularly the first of its kind. We will present the design-techniques that became necessary in the development of the software that meets the above criteria, and demonstrate the power of our new design through experimental results and real world applications. Our software is available under the MIT license (https://github.com/pfnet/optuna/).}
+      \field{isbn}{9781450362016}
+      \field{journaltitle}{Proceedings of the 25th {ACM} {SIGKDD} {International} {Conference} on {Knowledge} {Discovery} \& {Data} {Mining}}
+      \field{month}{7}
+      \field{series}{{KDD} '19}
+      \field{shorttitle}{Optuna}
+      \field{title}{Optuna: {A} {Next}-generation {Hyperparameter} {Optimization} {Framework}}
+      \field{urlday}{10}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{2623\bibrangedash 2631}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1145/3292500.3330701
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:https\://dl.acm.org/doi/pdf/10.1145/3292500.3330701?download=true:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.1145/3292500.3330701
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/3292500.3330701
+      \endverb
+    \endentry
     \entry{Ataka1988}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=885736d0f63722d536d0071037ec197b}{%
@@ -209,6 +340,97 @@
       \verb 10.1007/s40828-018-0064-1
       \endverb
     \endentry
+    \entry{Campello2013}{inbook}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=382d8e986b9afdbfedb661be5cf9ce33}{%
+           family={Campello},
+           familyi={C\bibinitperiod},
+           given={Ricardo\bibnamedelimb J.\bibnamedelimi G.\bibnamedelimi B.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8608b4a10cbfee7eb81b652407a3305a}{%
+           family={Moulavi},
+           familyi={M\bibinitperiod},
+           given={Davoud},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e155d1575870b682f3029b1ee02ff893}{%
+           family={Sander},
+           familyi={S\bibinitperiod},
+           given={Joerg},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{5}{}{%
+        {{hash=56af930e1f5e2c9a791b71e7b347c0ba}{%
+           family={Pei},
+           familyi={P\bibinitperiod},
+           given={Jian},
+           giveni={J\bibinitperiod}}}%
+        {{hash=42b42d9d10bbc93b4d7dbd5b26a8cfdf}{%
+           family={Tseng},
+           familyi={T\bibinitperiod},
+           given={Vincent\bibnamedelima S.},
+           giveni={V\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=259f81b9fe9f9737014c9eb11c08df15}{%
+           family={Cao},
+           familyi={C\bibinitperiod},
+           given={Longbing},
+           giveni={L\bibinitperiod}}}%
+        {{hash=d26f438bb203e0655769b9af6932fe72}{%
+           family={Motoda},
+           familyi={M\bibinitperiod},
+           given={Hiroshi},
+           giveni={H\bibinitperiod}}}%
+        {{hash=06023c96555b95e222d92ae0de2c2291}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Guandong},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{94fdd8ebcd18f5033949784c42c9c2ba}
+      \strng{fullhash}{84276f8f7e0bd597fd1ee130e754f627}
+      \strng{fullhashraw}{84276f8f7e0bd597fd1ee130e754f627}
+      \strng{bibnamehash}{84276f8f7e0bd597fd1ee130e754f627}
+      \strng{authorbibnamehash}{84276f8f7e0bd597fd1ee130e754f627}
+      \strng{authornamehash}{94fdd8ebcd18f5033949784c42c9c2ba}
+      \strng{authorfullhash}{84276f8f7e0bd597fd1ee130e754f627}
+      \strng{authorfullhashraw}{84276f8f7e0bd597fd1ee130e754f627}
+      \strng{editorbibnamehash}{c4e66fdf2ee9ba6df93fd5fff6f7da5e}
+      \strng{editornamehash}{0f7210bb6168b72933fbd7a462c750c1}
+      \strng{editorfullhash}{c4e66fdf2ee9ba6df93fd5fff6f7da5e}
+      \strng{editorfullhashraw}{c4e66fdf2ee9ba6df93fd5fff6f7da5e}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We propose a theoretically and practically improved density-based, hierarchical clustering method, providing a clustering hierarchy from which a simplified tree of significant clusters can be constructed. For obtaining a “flat” partition consisting of only the most significant clusters (possibly corresponding to different density thresholds), we propose a novel cluster stability measure, formalize the problem of maximizing the overall stability of selected clusters, and formulate an algorithm that computes an optimal solution to this problem. We demonstrate that our approach outperforms the current, state-of-the-art, density-based clustering methods on a wide variety of real world data.}
+      \field{booktitle}{Advances in {Knowledge} {Discovery} and {Data} {Mining}}
+      \field{isbn}{9783642374562}
+      \field{title}{Density-{Based} {Clustering} {Based} on {Hierarchical} {Density} {Estimates}}
+      \field{year}{2013}
+      \field{pages}{160\bibrangedash 172}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1007/978-3-642-37456-2_14
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:Campello2013 - Density Based Clustering Based on Hierarchical Density Estimates.pdf:PDF:https\://link.springer.com/content/pdf/10.1007%2F978-3-642-37456-2_14.pdf
+      \endverb
+      \keyw{Minimum Span Tree,Cluster Tree,Density Threshold,Hierarchical Cluster Method,Core Object}
+    \endentry
     \entry{Chayen2001}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=ae7a77010be85d472a4505d87f62d8c5}{%
@@ -267,6 +489,64 @@
       \verb https://www.sciencedirect.com/science/article/pii/S0022024801012039
       \endverb
       \keyw{A1.Biocrystallization,A1.Nucleation,A1.Surfaces,B1.Biological macromolecules,B1. Lysozyme,B1.Proteins}
+    \endentry
+    \entry{Chen2016}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=48461ccdf50ba5a54e29a354aa734c0b}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Tianqi},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c9ab8ac486d7f85ac914b1a8e51e512b}{%
+           family={Guestrin},
+           familyi={G\bibinitperiod},
+           given={Carlos},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f79ceb030bcf791e5521f87ac6ada03b}
+      \strng{fullhash}{f79ceb030bcf791e5521f87ac6ada03b}
+      \strng{fullhashraw}{f79ceb030bcf791e5521f87ac6ada03b}
+      \strng{bibnamehash}{f79ceb030bcf791e5521f87ac6ada03b}
+      \strng{authorbibnamehash}{f79ceb030bcf791e5521f87ac6ada03b}
+      \strng{authornamehash}{f79ceb030bcf791e5521f87ac6ada03b}
+      \strng{authorfullhash}{f79ceb030bcf791e5521f87ac6ada03b}
+      \strng{authorfullhashraw}{f79ceb030bcf791e5521f87ac6ada03b}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Tree boosting is a highly effective and widely used machine learning method. In this paper, we describe a scalable end-to-end tree boosting system called XGBoost, which is used widely by data scientists to achieve state-of-the-art results on many machine learning challenges. We propose a novel sparsity-aware algorithm for sparse data and weighted quantile sketch for approximate tree learning. More importantly, we provide insights on cache access patterns, data compression and sharding to build a scalable tree boosting system. By combining these insights, XGBoost scales beyond billions of examples using far fewer resources than existing systems.}
+      \field{annotation}{Comment: KDD'16 changed all figures to type1}
+      \field{journaltitle}{Proceedings of the 22nd {ACM} {SIGKDD} {International} {Conference} on {Knowledge} {Discovery} and {Data} {Mining}}
+      \field{month}{8}
+      \field{note}{arXiv:1603.02754 [cs]}
+      \field{shorttitle}{{XGBoost}}
+      \field{title}{{XGBoost}: {A} {Scalable} {Tree} {Boosting} {System}}
+      \field{urlday}{7}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{785\bibrangedash 794}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1145/2939672.2939785
+      \endverb
+      \verb{file}
+      \verb Preprint PDF:Chen2016 - XGBoost_ a Scalable Tree Boosting System.pdf:PDF:http\://arxiv.org/pdf/1603.02754v3
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1603.02754
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1603.02754
+      \endverb
+      \keyw{Computer Science - Machine Learning}
     \endentry
     \entry{Cumbaa2010}{article}{}{}
       \name{author}{2}{}{%
@@ -457,6 +737,129 @@
       \endverb
       \keyw{Computer Science - Computation and Language}
     \endentry
+    \entry{Elnaggar2021}{report}{}{}
+      \name{author}{12}{}{%
+        {{un=0,uniquepart=base,hash=ffe73c593e2a87fe360a38cbda274f31}{%
+           family={Elnaggar},
+           familyi={E\bibinitperiod},
+           given={Ahmed},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c04fca9e06da18cb002f115133913d24}{%
+           family={Heinzinger},
+           familyi={H\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=381edeaec659df830008a0b2d8646834}{%
+           family={Dallago},
+           familyi={D\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f4f7b453c6235e072a10a092abf0ae74}{%
+           family={Rehawi},
+           familyi={R\bibinitperiod},
+           given={Ghalia},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b2eccb185095fccfeb40fdffd8b2105f}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2fd2982e30ebcec93ec1cf76e0d797fd}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Llion},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ef99e5f5de2e799b18169a1945451fdd}{%
+           family={Gibbs},
+           familyi={G\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fe3319a4eb730f5484bfff0eb08493f4}{%
+           family={Feher},
+           familyi={F\bibinitperiod},
+           given={Tamas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6f148a1f82c1e04b4a3ef4350c3f0ad5}{%
+           family={Angerer},
+           familyi={A\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c06ac6a6fdcf2ee2092d61fc58c1f21b}{%
+           family={Steinegger},
+           familyi={S\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c0d55bd9ed798928c283ce5b8563638c}{%
+           family={Bhowmik},
+           familyi={B\bibinitperiod},
+           given={Debsindhu},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=66106370d9aa16054179da646f7df55c}{%
+           family={Rost},
+           familyi={R\bibinitperiod},
+           given={Burkhard},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {bioRxiv}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{65ca48ebfe01fff7e9b3d9e91ff50edf}
+      \strng{fullhash}{0450fad06debec0ac91ad0ecb49028a0}
+      \strng{fullhashraw}{0450fad06debec0ac91ad0ecb49028a0}
+      \strng{bibnamehash}{0450fad06debec0ac91ad0ecb49028a0}
+      \strng{authorbibnamehash}{0450fad06debec0ac91ad0ecb49028a0}
+      \strng{authornamehash}{65ca48ebfe01fff7e9b3d9e91ff50edf}
+      \strng{authorfullhash}{0450fad06debec0ac91ad0ecb49028a0}
+      \strng{authorfullhashraw}{0450fad06debec0ac91ad0ecb49028a0}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Computational biology and bioinformatics provide vast data gold-mines from protein sequences, ideal for Language Models taken from NLP. These LMs reach for new prediction frontiers at low inference costs. Here, we trained two auto-regressive models (Transformer-XL, XLNet) and four auto-encoder models (BERT, Albert, Electra, T5) on data from UniRef and BFD containing up to 393 billion amino acids. The LMs were trained on the Summit supercomputer using 5616 GPUs and TPU Pod up-to 1024 cores. Dimensionality reduction revealed that the raw protein LM-embeddings from unlabeled data captured some biophysical features of protein sequences. We validated the advantage of using the embeddings as exclusive input for several subsequent tasks. The first was a per-residue prediction of protein secondary structure (3-state accuracy Q3=81\%-87\%); the second were per-protein predictions of protein sub-cellular localization (ten-state accuracy: Q10=81\%) and membrane vs. water-soluble (2-state accuracy Q2=91\%). For the per-residue predictions the transfer of the most informative embeddings (ProtT5) for the first time outperformed the state-of-the-art without using evolutionary information thereby bypassing expensive database searches. Taken together, the results implied that protein LMs learned some of the grammar of the language of life. To facilitate future work, we released our models at https://github.com/agemagician/ProtTrans.}
+      \field{chapter}{New Results}
+      \field{month}{5}
+      \field{note}{Type: article}
+      \field{shorttitle}{{ProtTrans}}
+      \field{title}{{ProtTrans}: {Towards} {Cracking} the {Language} of {Life}’s {Code} {Through} {Self}-{Supervised} {Learning}}
+      \field{type}{techreport}
+      \field{urlday}{3}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{2020.07.12.199554}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1101/2020.07.12.199554
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:Elnaggar2021 - ProtTrans_ Towards Cracking the Language of Life’s Code through Self Supervised Learning.pdf:PDF:https\://www.biorxiv.org/content/biorxiv/early/2021/05/04/2020.07.12.199554.full.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.biorxiv.org/content/10.1101/2020.07.12.199554v3
+      \endverb
+      \verb{url}
+      \verb https://www.biorxiv.org/content/10.1101/2020.07.12.199554v3
+      \endverb
+    \endentry
     \entry{embl_website}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8167ca0ede70368987326b9034e98060}{%
@@ -642,6 +1045,65 @@
       \verb https://www.mdpi.com/2227-9717/11/7/2148
       \endverb
       \keyw{crystallization,micro-volume,high-throughput,protein,membrane}
+    \endentry
+    \entry{Heinzinger2023}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=2bdd42359f11105bd7655dbe9af7a040}{%
+           family={Heinzinger},
+           familyi={H\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=029f1e63bf00a5c83af14890bb261b08}{%
+           family={Weissenow},
+           familyi={W\bibinitperiod},
+           given={K},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=87098efa99fb58a8035be8a4a87f4623}{%
+           family={Sanchez},
+           familyi={S\bibinitperiod},
+           given={JG},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=611089b8fabdabb9d7a5446fdba0d4ac}{%
+           family={Henkel},
+           familyi={H\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d7638cec814f1771bc24445e030b0a0e}{%
+           family={Steinegger},
+           familyi={S\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=73de0d118c40c2c243d3753b96811aa3}{%
+           family={Rost},
+           familyi={R\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{dc03162b2f2ac103025987b33fb58b62}
+      \strng{fullhash}{cec5a5de73ca68fa61a60fdd0d27f22a}
+      \strng{fullhashraw}{cec5a5de73ca68fa61a60fdd0d27f22a}
+      \strng{bibnamehash}{cec5a5de73ca68fa61a60fdd0d27f22a}
+      \strng{authorbibnamehash}{cec5a5de73ca68fa61a60fdd0d27f22a}
+      \strng{authornamehash}{dc03162b2f2ac103025987b33fb58b62}
+      \strng{authorfullhash}{cec5a5de73ca68fa61a60fdd0d27f22a}
+      \strng{authorfullhashraw}{cec5a5de73ca68fa61a60fdd0d27f22a}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{URL https://www. biorxiv. org/content/early/2023/07/25/2023.07}
+      \field{title}{Prostt5: Bilingual language model for protein sequence and structure. bioRxiv, 2023}
+      \field{volume}{23}
+      \field{year}{2023}
     \endentry
     \entry{Iwai2008}{article}{}{}
       \name{author}{6}{}{%
@@ -1731,6 +2193,117 @@
       \field{pages}{i24\bibrangedash i33}
       \range{pages}{-1}
     \endentry
+    \entry{Morgan1965}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9b343445001ebcd12c6b854bc583be8b}{%
+           family={Morgan},
+           familyi={M\bibinitperiod},
+           given={H.\bibnamedelimi L.},
+           giveni={H\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Chemical Society}%
+      }
+      \strng{namehash}{9b343445001ebcd12c6b854bc583be8b}
+      \strng{fullhash}{9b343445001ebcd12c6b854bc583be8b}
+      \strng{fullhashraw}{9b343445001ebcd12c6b854bc583be8b}
+      \strng{bibnamehash}{9b343445001ebcd12c6b854bc583be8b}
+      \strng{authorbibnamehash}{9b343445001ebcd12c6b854bc583be8b}
+      \strng{authornamehash}{9b343445001ebcd12c6b854bc583be8b}
+      \strng{authorfullhash}{9b343445001ebcd12c6b854bc583be8b}
+      \strng{authorfullhashraw}{9b343445001ebcd12c6b854bc583be8b}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0021-9576}
+      \field{journaltitle}{Journal of Chemical Documentation}
+      \field{month}{5}
+      \field{number}{2}
+      \field{title}{The {Generation} of a {Unique} {Machine} {Description} for {Chemical} {Structures}-{A} {Technique} {Developed} at {Chemical} {Abstracts} {Service}.}
+      \field{urlday}{2}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{5}
+      \field{year}{1965}
+      \field{urldateera}{ce}
+      \field{pages}{107\bibrangedash 113}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1021/c160017a018
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:https\://pubs.acs.org/doi/pdf/10.1021/c160017a018:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1021/c160017a018
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1021/c160017a018
+      \endverb
+    \endentry
+    \entry{Nanev2018}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3aca7685bbb61e68abcf0f4d0359bf69}{%
+           family={Nanev},
+           familyi={N\bibinitperiod},
+           given={Christo\bibnamedelima N.},
+           giveni={C\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{3aca7685bbb61e68abcf0f4d0359bf69}
+      \strng{fullhash}{3aca7685bbb61e68abcf0f4d0359bf69}
+      \strng{fullhashraw}{3aca7685bbb61e68abcf0f4d0359bf69}
+      \strng{bibnamehash}{3aca7685bbb61e68abcf0f4d0359bf69}
+      \strng{authorbibnamehash}{3aca7685bbb61e68abcf0f4d0359bf69}
+      \strng{authornamehash}{3aca7685bbb61e68abcf0f4d0359bf69}
+      \strng{authorfullhash}{3aca7685bbb61e68abcf0f4d0359bf69}
+      \strng{authorfullhashraw}{3aca7685bbb61e68abcf0f4d0359bf69}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper reviews investigations on protein crystallization. It aims to present a comprehensive rather than complete account of recent studies and efforts to elucidate the most intimate mechanisms of protein crystal nucleation. It is emphasized that both physical and biochemical factors are at play during this process. Recently-discovered molecular scale pathways for protein crystal nucleation are considered first. The bond selection during protein crystal lattice formation, which is a typical biochemically-conditioned peculiarity of the crystallization process, is revisited. Novel approaches allow us to quantitatively describe some protein crystallization cases. Additional light is shed on the protein crystal nucleation in pores and crevices by employing the so-called EBDE method (equilibration between crystal bond and destructive energies). Also, protein crystal nucleation in solution flow is considered.}
+      \field{issn}{2073-4352}
+      \field{journaltitle}{Crystals}
+      \field{month}{11}
+      \field{number}{11}
+      \field{title}{Peculiarities of {Protein} {Crystal} {Nucleation} and {Growth}}
+      \field{urlday}{4}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{8}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \field{pages}{422}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/cryst8110422
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:https\://www.mdpi.com/2073-4352/8/11/422/pdf?version=1541742600:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2073-4352/8/11/422
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2073-4352/8/11/422
+      \endverb
+      \keyw{protein crystallization,biochemical aspects of the protein crystal nucleation,classical and two-step crystal nucleation mechanisms,bond selection during protein crystallization,equilibration between crystal bond and destructive energies,protein crystal nucleation in pores,crystallization in solution flow}
+    \endentry
     \entry{Newman2010}{article}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=bde45bf5ec10ea0c63441a4d107c1074}{%
@@ -2311,6 +2884,108 @@
       \endverb
       \keyw{Protein analysis,Protein structure predictions,X-ray crystallography}
     \endentry
+    \entry{Kempen2024}{article}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=52a2fcaf984482f0d21cea41dc0ae952}{%
+           family={Kempen},
+           familyi={K\bibinitperiod},
+           given={Michel},
+           giveni={M\bibinitperiod},
+           givenun=0,
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=6667a7b23d91ffc5e8dc2c4032bf1eeb}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Stephanie\bibnamedelima S.},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4d1a783d7b767ce455353747dc89be6c}{%
+           family={Tumescheit},
+           familyi={T\bibinitperiod},
+           given={Charlotte},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2dac539cd49fcc48ee89ea09ce5e40c3}{%
+           family={Mirdita},
+           familyi={M\bibinitperiod},
+           given={Milot},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5a6f8561f16c7c642dadad82bca1508a}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Jeongjae},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3c92bbb2c82c6d624367921c0f3ee2f1}{%
+           family={Gilchrist},
+           familyi={G\bibinitperiod},
+           given={Cameron\bibnamedelimb L.\bibnamedelimi M.},
+           giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e67661e270ffc979f77600b3904f2e9c}{%
+           family={Söding},
+           familyi={S\bibinitperiod},
+           given={Johannes},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c06ac6a6fdcf2ee2092d61fc58c1f21b}{%
+           family={Steinegger},
+           familyi={S\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{3a67143ca2a3149b4aa2915830fbfb54}
+      \strng{fullhash}{d09b260342de4938876878cfa74812be}
+      \strng{fullhashraw}{d09b260342de4938876878cfa74812be}
+      \strng{bibnamehash}{d09b260342de4938876878cfa74812be}
+      \strng{authorbibnamehash}{d09b260342de4938876878cfa74812be}
+      \strng{authornamehash}{3a67143ca2a3149b4aa2915830fbfb54}
+      \strng{authorfullhash}{d09b260342de4938876878cfa74812be}
+      \strng{authorfullhashraw}{d09b260342de4938876878cfa74812be}
+      \field{sortinit}{v}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{As structure prediction methods are generating millions of publicly available protein structures, searching these databases is becoming a bottleneck. Foldseek aligns the structure of a query protein against a database by describing tertiary amino acid interactions within proteins as sequences over a structural alphabet. Foldseek decreases computation times by four to five orders of magnitude with 86\%, 88\% and 133\% of the sensitivities of Dali, TM-align and CE, respectively.}
+      \field{issn}{1546-1696}
+      \field{journaltitle}{Nature Biotechnology}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{Fast and accurate protein structure search with {Foldseek}}
+      \field{urlday}{2}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{42}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{243\bibrangedash 246}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1038/s41587-023-01773-0
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:Kempen2024 - Fast and Accurate Protein Structure Search with Foldseek.pdf:PDF:https\://www.nature.com/articles/s41587-023-01773-0.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41587-023-01773-0
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41587-023-01773-0
+      \endverb
+      \keyw{Computational biology and bioinformatics,Software,Structural biology}
+    \endentry
     \entry{Wang2022}{article}{}{}
       \name{author}{8}{}{%
         {{un=0,uniquepart=base,hash=cce05cab2c437e9c128f853684ee3137}{%
@@ -2395,6 +3070,59 @@
       \endverb
       \verb{url}
       \verb https://www.semanticscholar.org/paper/Text-Embeddings-by-Weakly-Supervised-Contrastive-Wang-Yang/5a3c1afe73d8bcc8288d17cb17be2baec8a98464
+      \endverb
+    \endentry
+    \entry{Weininger1988}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8396687b96e64d23dac029daee2916d2}{%
+           family={Weininger},
+           familyi={W\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Chemical Society}%
+      }
+      \strng{namehash}{8396687b96e64d23dac029daee2916d2}
+      \strng{fullhash}{8396687b96e64d23dac029daee2916d2}
+      \strng{fullhashraw}{8396687b96e64d23dac029daee2916d2}
+      \strng{bibnamehash}{8396687b96e64d23dac029daee2916d2}
+      \strng{authorbibnamehash}{8396687b96e64d23dac029daee2916d2}
+      \strng{authornamehash}{8396687b96e64d23dac029daee2916d2}
+      \strng{authorfullhash}{8396687b96e64d23dac029daee2916d2}
+      \strng{authorfullhashraw}{8396687b96e64d23dac029daee2916d2}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0095-2338}
+      \field{journaltitle}{Journal of Chemical Information and Computer Sciences}
+      \field{month}{2}
+      \field{number}{1}
+      \field{title}{{SMILES}, a chemical language and information system. 1. {Introduction} to methodology and encoding rules}
+      \field{urlday}{2}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{28}
+      \field{year}{1988}
+      \field{urldateera}{ce}
+      \field{pages}{31\bibrangedash 36}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1021/ci00057a005
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:https\://pubs.acs.org/doi/pdf/10.1021/ci00057a005:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1021/ci00057a005
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1021/ci00057a005
       \endverb
     \endentry
     \entry{Wilson2014}{article}{}{}
@@ -2759,6 +3487,137 @@
       \verb https://journals.iucr.org/f/issues/2019/03/00/rl5170/
       \endverb
     \endentry
+    \entry{Ahmadi2024}{misc}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=a3b9920002977f62e467858a3c538fed}{%
+           family={Ahmadi},
+           familyi={A\bibinitperiod},
+           given={Amir\bibnamedelima Ali},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8c61cee08ef53fcc6dda2a09ca7f2864}{%
+           family={Chaudhry},
+           familyi={C\bibinitperiod},
+           given={Abraar},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=431bd9dd337a989068e7b6522fbbfdf1}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Jeffrey},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9825c5144f95d0a494aa88531df32784}
+      \strng{fullhash}{ea0309aeb3235a9a8f46a1a87d1e3b64}
+      \strng{fullhashraw}{ea0309aeb3235a9a8f46a1a87d1e3b64}
+      \strng{bibnamehash}{ea0309aeb3235a9a8f46a1a87d1e3b64}
+      \strng{authorbibnamehash}{ea0309aeb3235a9a8f46a1a87d1e3b64}
+      \strng{authornamehash}{9825c5144f95d0a494aa88531df32784}
+      \strng{authorfullhash}{ea0309aeb3235a9a8f46a1a87d1e3b64}
+      \strng{authorfullhashraw}{ea0309aeb3235a9a8f46a1a87d1e3b64}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{math.OC}
+      \field{eprinttype}{arXiv}
+      \field{title}{Higher-Order Newton Methods with Polynomial Work per Iteration}
+      \field{year}{2024}
+      \verb{eprint}
+      \verb 2311.06374
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2311.06374
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2311.06374
+      \endverb
+    \endentry
+    \entry{Akiba2019}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=2939d0d5b491018f7cc7812609071a79}{%
+           family={Akiba},
+           familyi={A\bibinitperiod},
+           given={Takuya},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=92311081bb41fd01eb1ce06f61805909}{%
+           family={Sano},
+           familyi={S\bibinitperiod},
+           given={Shotaro},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a841fb8471f00b147fdd8954fb01c03f}{%
+           family={Yanase},
+           familyi={Y\bibinitperiod},
+           given={Toshihiko},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=db73c7d77457602e9a75d75bbe181aba}{%
+           family={Ohta},
+           familyi={O\bibinitperiod},
+           given={Takeru},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d18b784f7f35111bc05bcbd245a34ce7}{%
+           family={Koyama},
+           familyi={K\bibinitperiod},
+           given={Masanori},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{0da4c5b8107cb83a6bd4ba0c9b294621}
+      \strng{fullhash}{6a8f61fd5680dbd348b2b27b4a54d0d8}
+      \strng{fullhashraw}{6a8f61fd5680dbd348b2b27b4a54d0d8}
+      \strng{bibnamehash}{6a8f61fd5680dbd348b2b27b4a54d0d8}
+      \strng{authorbibnamehash}{6a8f61fd5680dbd348b2b27b4a54d0d8}
+      \strng{authornamehash}{0da4c5b8107cb83a6bd4ba0c9b294621}
+      \strng{authorfullhash}{6a8f61fd5680dbd348b2b27b4a54d0d8}
+      \strng{authorfullhashraw}{6a8f61fd5680dbd348b2b27b4a54d0d8}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The purpose of this study is to introduce new design-criteria for next-generation hyperparameter optimization software. The criteria we propose include (1) define-by-run API that allows users to construct the parameter search space dynamically, (2) efficient implementation of both searching and pruning strategies, and (3) easy-to-setup, versatile architecture that can be deployed for various purposes, ranging from scalable distributed computing to light-weight experiment conducted via interactive interface. In order to prove our point, we will introduce Optuna, an optimization software which is a culmination of our effort in the development of a next generation optimization software. As an optimization software designed with define-by-run principle, Optuna is particularly the first of its kind. We will present the design-techniques that became necessary in the development of the software that meets the above criteria, and demonstrate the power of our new design through experimental results and real world applications. Our software is available under the MIT license (https://github.com/pfnet/optuna/).}
+      \field{isbn}{9781450362016}
+      \field{journaltitle}{Proceedings of the 25th {ACM} {SIGKDD} {International} {Conference} on {Knowledge} {Discovery} \& {Data} {Mining}}
+      \field{month}{7}
+      \field{series}{{KDD} '19}
+      \field{shorttitle}{Optuna}
+      \field{title}{Optuna: {A} {Next}-generation {Hyperparameter} {Optimization} {Framework}}
+      \field{urlday}{10}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{2623\bibrangedash 2631}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1145/3292500.3330701
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:https\://dl.acm.org/doi/pdf/10.1145/3292500.3330701?download=true:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.1145/3292500.3330701
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/3292500.3330701
+      \endverb
+    \endentry
     \entry{Ataka1988}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=885736d0f63722d536d0071037ec197b}{%
@@ -2886,6 +3745,97 @@
       \verb 10.1007/s40828-018-0064-1
       \endverb
     \endentry
+    \entry{Campello2013}{inbook}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=382d8e986b9afdbfedb661be5cf9ce33}{%
+           family={Campello},
+           familyi={C\bibinitperiod},
+           given={Ricardo\bibnamedelimb J.\bibnamedelimi G.\bibnamedelimi B.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8608b4a10cbfee7eb81b652407a3305a}{%
+           family={Moulavi},
+           familyi={M\bibinitperiod},
+           given={Davoud},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e155d1575870b682f3029b1ee02ff893}{%
+           family={Sander},
+           familyi={S\bibinitperiod},
+           given={Joerg},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{5}{}{%
+        {{hash=56af930e1f5e2c9a791b71e7b347c0ba}{%
+           family={Pei},
+           familyi={P\bibinitperiod},
+           given={Jian},
+           giveni={J\bibinitperiod}}}%
+        {{hash=42b42d9d10bbc93b4d7dbd5b26a8cfdf}{%
+           family={Tseng},
+           familyi={T\bibinitperiod},
+           given={Vincent\bibnamedelima S.},
+           giveni={V\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=259f81b9fe9f9737014c9eb11c08df15}{%
+           family={Cao},
+           familyi={C\bibinitperiod},
+           given={Longbing},
+           giveni={L\bibinitperiod}}}%
+        {{hash=d26f438bb203e0655769b9af6932fe72}{%
+           family={Motoda},
+           familyi={M\bibinitperiod},
+           given={Hiroshi},
+           giveni={H\bibinitperiod}}}%
+        {{hash=06023c96555b95e222d92ae0de2c2291}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Guandong},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{94fdd8ebcd18f5033949784c42c9c2ba}
+      \strng{fullhash}{84276f8f7e0bd597fd1ee130e754f627}
+      \strng{fullhashraw}{84276f8f7e0bd597fd1ee130e754f627}
+      \strng{bibnamehash}{84276f8f7e0bd597fd1ee130e754f627}
+      \strng{authorbibnamehash}{84276f8f7e0bd597fd1ee130e754f627}
+      \strng{authornamehash}{94fdd8ebcd18f5033949784c42c9c2ba}
+      \strng{authorfullhash}{84276f8f7e0bd597fd1ee130e754f627}
+      \strng{authorfullhashraw}{84276f8f7e0bd597fd1ee130e754f627}
+      \strng{editorbibnamehash}{c4e66fdf2ee9ba6df93fd5fff6f7da5e}
+      \strng{editornamehash}{0f7210bb6168b72933fbd7a462c750c1}
+      \strng{editorfullhash}{c4e66fdf2ee9ba6df93fd5fff6f7da5e}
+      \strng{editorfullhashraw}{c4e66fdf2ee9ba6df93fd5fff6f7da5e}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We propose a theoretically and practically improved density-based, hierarchical clustering method, providing a clustering hierarchy from which a simplified tree of significant clusters can be constructed. For obtaining a “flat” partition consisting of only the most significant clusters (possibly corresponding to different density thresholds), we propose a novel cluster stability measure, formalize the problem of maximizing the overall stability of selected clusters, and formulate an algorithm that computes an optimal solution to this problem. We demonstrate that our approach outperforms the current, state-of-the-art, density-based clustering methods on a wide variety of real world data.}
+      \field{booktitle}{Advances in {Knowledge} {Discovery} and {Data} {Mining}}
+      \field{isbn}{9783642374562}
+      \field{title}{Density-{Based} {Clustering} {Based} on {Hierarchical} {Density} {Estimates}}
+      \field{year}{2013}
+      \field{pages}{160\bibrangedash 172}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1007/978-3-642-37456-2_14
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:Campello2013 - Density Based Clustering Based on Hierarchical Density Estimates.pdf:PDF:https\://link.springer.com/content/pdf/10.1007%2F978-3-642-37456-2_14.pdf
+      \endverb
+      \keyw{Minimum Span Tree,Cluster Tree,Density Threshold,Hierarchical Cluster Method,Core Object}
+    \endentry
     \entry{Chayen2001}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=ae7a77010be85d472a4505d87f62d8c5}{%
@@ -2944,6 +3894,64 @@
       \verb https://www.sciencedirect.com/science/article/pii/S0022024801012039
       \endverb
       \keyw{A1.Biocrystallization,A1.Nucleation,A1.Surfaces,B1.Biological macromolecules,B1. Lysozyme,B1.Proteins}
+    \endentry
+    \entry{Chen2016}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=48461ccdf50ba5a54e29a354aa734c0b}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Tianqi},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c9ab8ac486d7f85ac914b1a8e51e512b}{%
+           family={Guestrin},
+           familyi={G\bibinitperiod},
+           given={Carlos},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f79ceb030bcf791e5521f87ac6ada03b}
+      \strng{fullhash}{f79ceb030bcf791e5521f87ac6ada03b}
+      \strng{fullhashraw}{f79ceb030bcf791e5521f87ac6ada03b}
+      \strng{bibnamehash}{f79ceb030bcf791e5521f87ac6ada03b}
+      \strng{authorbibnamehash}{f79ceb030bcf791e5521f87ac6ada03b}
+      \strng{authornamehash}{f79ceb030bcf791e5521f87ac6ada03b}
+      \strng{authorfullhash}{f79ceb030bcf791e5521f87ac6ada03b}
+      \strng{authorfullhashraw}{f79ceb030bcf791e5521f87ac6ada03b}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Tree boosting is a highly effective and widely used machine learning method. In this paper, we describe a scalable end-to-end tree boosting system called XGBoost, which is used widely by data scientists to achieve state-of-the-art results on many machine learning challenges. We propose a novel sparsity-aware algorithm for sparse data and weighted quantile sketch for approximate tree learning. More importantly, we provide insights on cache access patterns, data compression and sharding to build a scalable tree boosting system. By combining these insights, XGBoost scales beyond billions of examples using far fewer resources than existing systems.}
+      \field{annotation}{Comment: KDD'16 changed all figures to type1}
+      \field{journaltitle}{Proceedings of the 22nd {ACM} {SIGKDD} {International} {Conference} on {Knowledge} {Discovery} and {Data} {Mining}}
+      \field{month}{8}
+      \field{note}{arXiv:1603.02754 [cs]}
+      \field{shorttitle}{{XGBoost}}
+      \field{title}{{XGBoost}: {A} {Scalable} {Tree} {Boosting} {System}}
+      \field{urlday}{7}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{785\bibrangedash 794}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1145/2939672.2939785
+      \endverb
+      \verb{file}
+      \verb Preprint PDF:Chen2016 - XGBoost_ a Scalable Tree Boosting System.pdf:PDF:http\://arxiv.org/pdf/1603.02754v3
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1603.02754
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1603.02754
+      \endverb
+      \keyw{Computer Science - Machine Learning}
     \endentry
     \entry{Cumbaa2010}{article}{}{}
       \name{author}{2}{}{%
@@ -3134,6 +4142,129 @@
       \endverb
       \keyw{Computer Science - Computation and Language}
     \endentry
+    \entry{Elnaggar2021}{report}{}{}
+      \name{author}{12}{}{%
+        {{un=0,uniquepart=base,hash=ffe73c593e2a87fe360a38cbda274f31}{%
+           family={Elnaggar},
+           familyi={E\bibinitperiod},
+           given={Ahmed},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c04fca9e06da18cb002f115133913d24}{%
+           family={Heinzinger},
+           familyi={H\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=381edeaec659df830008a0b2d8646834}{%
+           family={Dallago},
+           familyi={D\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f4f7b453c6235e072a10a092abf0ae74}{%
+           family={Rehawi},
+           familyi={R\bibinitperiod},
+           given={Ghalia},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b2eccb185095fccfeb40fdffd8b2105f}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2fd2982e30ebcec93ec1cf76e0d797fd}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Llion},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ef99e5f5de2e799b18169a1945451fdd}{%
+           family={Gibbs},
+           familyi={G\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fe3319a4eb730f5484bfff0eb08493f4}{%
+           family={Feher},
+           familyi={F\bibinitperiod},
+           given={Tamas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6f148a1f82c1e04b4a3ef4350c3f0ad5}{%
+           family={Angerer},
+           familyi={A\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c06ac6a6fdcf2ee2092d61fc58c1f21b}{%
+           family={Steinegger},
+           familyi={S\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c0d55bd9ed798928c283ce5b8563638c}{%
+           family={Bhowmik},
+           familyi={B\bibinitperiod},
+           given={Debsindhu},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=66106370d9aa16054179da646f7df55c}{%
+           family={Rost},
+           familyi={R\bibinitperiod},
+           given={Burkhard},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {bioRxiv}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{65ca48ebfe01fff7e9b3d9e91ff50edf}
+      \strng{fullhash}{0450fad06debec0ac91ad0ecb49028a0}
+      \strng{fullhashraw}{0450fad06debec0ac91ad0ecb49028a0}
+      \strng{bibnamehash}{0450fad06debec0ac91ad0ecb49028a0}
+      \strng{authorbibnamehash}{0450fad06debec0ac91ad0ecb49028a0}
+      \strng{authornamehash}{65ca48ebfe01fff7e9b3d9e91ff50edf}
+      \strng{authorfullhash}{0450fad06debec0ac91ad0ecb49028a0}
+      \strng{authorfullhashraw}{0450fad06debec0ac91ad0ecb49028a0}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Computational biology and bioinformatics provide vast data gold-mines from protein sequences, ideal for Language Models taken from NLP. These LMs reach for new prediction frontiers at low inference costs. Here, we trained two auto-regressive models (Transformer-XL, XLNet) and four auto-encoder models (BERT, Albert, Electra, T5) on data from UniRef and BFD containing up to 393 billion amino acids. The LMs were trained on the Summit supercomputer using 5616 GPUs and TPU Pod up-to 1024 cores. Dimensionality reduction revealed that the raw protein LM-embeddings from unlabeled data captured some biophysical features of protein sequences. We validated the advantage of using the embeddings as exclusive input for several subsequent tasks. The first was a per-residue prediction of protein secondary structure (3-state accuracy Q3=81\%-87\%); the second were per-protein predictions of protein sub-cellular localization (ten-state accuracy: Q10=81\%) and membrane vs. water-soluble (2-state accuracy Q2=91\%). For the per-residue predictions the transfer of the most informative embeddings (ProtT5) for the first time outperformed the state-of-the-art without using evolutionary information thereby bypassing expensive database searches. Taken together, the results implied that protein LMs learned some of the grammar of the language of life. To facilitate future work, we released our models at https://github.com/agemagician/ProtTrans.}
+      \field{chapter}{New Results}
+      \field{month}{5}
+      \field{note}{Type: article}
+      \field{shorttitle}{{ProtTrans}}
+      \field{title}{{ProtTrans}: {Towards} {Cracking} the {Language} of {Life}’s {Code} {Through} {Self}-{Supervised} {Learning}}
+      \field{type}{techreport}
+      \field{urlday}{3}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{2020.07.12.199554}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1101/2020.07.12.199554
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:Elnaggar2021 - ProtTrans_ Towards Cracking the Language of Life’s Code through Self Supervised Learning.pdf:PDF:https\://www.biorxiv.org/content/biorxiv/early/2021/05/04/2020.07.12.199554.full.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.biorxiv.org/content/10.1101/2020.07.12.199554v3
+      \endverb
+      \verb{url}
+      \verb https://www.biorxiv.org/content/10.1101/2020.07.12.199554v3
+      \endverb
+    \endentry
     \entry{embl_website}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8167ca0ede70368987326b9034e98060}{%
@@ -3319,6 +4450,65 @@
       \verb https://www.mdpi.com/2227-9717/11/7/2148
       \endverb
       \keyw{crystallization,micro-volume,high-throughput,protein,membrane}
+    \endentry
+    \entry{Heinzinger2023}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=2bdd42359f11105bd7655dbe9af7a040}{%
+           family={Heinzinger},
+           familyi={H\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=029f1e63bf00a5c83af14890bb261b08}{%
+           family={Weissenow},
+           familyi={W\bibinitperiod},
+           given={K},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=87098efa99fb58a8035be8a4a87f4623}{%
+           family={Sanchez},
+           familyi={S\bibinitperiod},
+           given={JG},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=611089b8fabdabb9d7a5446fdba0d4ac}{%
+           family={Henkel},
+           familyi={H\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d7638cec814f1771bc24445e030b0a0e}{%
+           family={Steinegger},
+           familyi={S\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=73de0d118c40c2c243d3753b96811aa3}{%
+           family={Rost},
+           familyi={R\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{dc03162b2f2ac103025987b33fb58b62}
+      \strng{fullhash}{cec5a5de73ca68fa61a60fdd0d27f22a}
+      \strng{fullhashraw}{cec5a5de73ca68fa61a60fdd0d27f22a}
+      \strng{bibnamehash}{cec5a5de73ca68fa61a60fdd0d27f22a}
+      \strng{authorbibnamehash}{cec5a5de73ca68fa61a60fdd0d27f22a}
+      \strng{authornamehash}{dc03162b2f2ac103025987b33fb58b62}
+      \strng{authorfullhash}{cec5a5de73ca68fa61a60fdd0d27f22a}
+      \strng{authorfullhashraw}{cec5a5de73ca68fa61a60fdd0d27f22a}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{URL https://www. biorxiv. org/content/early/2023/07/25/2023.07}
+      \field{title}{Prostt5: Bilingual language model for protein sequence and structure. bioRxiv, 2023}
+      \field{volume}{23}
+      \field{year}{2023}
     \endentry
     \entry{Iwai2008}{article}{}{}
       \name{author}{6}{}{%
@@ -4408,6 +5598,117 @@
       \field{pages}{i24\bibrangedash i33}
       \range{pages}{-1}
     \endentry
+    \entry{Morgan1965}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9b343445001ebcd12c6b854bc583be8b}{%
+           family={Morgan},
+           familyi={M\bibinitperiod},
+           given={H.\bibnamedelimi L.},
+           giveni={H\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Chemical Society}%
+      }
+      \strng{namehash}{9b343445001ebcd12c6b854bc583be8b}
+      \strng{fullhash}{9b343445001ebcd12c6b854bc583be8b}
+      \strng{fullhashraw}{9b343445001ebcd12c6b854bc583be8b}
+      \strng{bibnamehash}{9b343445001ebcd12c6b854bc583be8b}
+      \strng{authorbibnamehash}{9b343445001ebcd12c6b854bc583be8b}
+      \strng{authornamehash}{9b343445001ebcd12c6b854bc583be8b}
+      \strng{authorfullhash}{9b343445001ebcd12c6b854bc583be8b}
+      \strng{authorfullhashraw}{9b343445001ebcd12c6b854bc583be8b}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0021-9576}
+      \field{journaltitle}{Journal of Chemical Documentation}
+      \field{month}{5}
+      \field{number}{2}
+      \field{title}{The {Generation} of a {Unique} {Machine} {Description} for {Chemical} {Structures}-{A} {Technique} {Developed} at {Chemical} {Abstracts} {Service}.}
+      \field{urlday}{2}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{5}
+      \field{year}{1965}
+      \field{urldateera}{ce}
+      \field{pages}{107\bibrangedash 113}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1021/c160017a018
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:https\://pubs.acs.org/doi/pdf/10.1021/c160017a018:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1021/c160017a018
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1021/c160017a018
+      \endverb
+    \endentry
+    \entry{Nanev2018}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3aca7685bbb61e68abcf0f4d0359bf69}{%
+           family={Nanev},
+           familyi={N\bibinitperiod},
+           given={Christo\bibnamedelima N.},
+           giveni={C\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{3aca7685bbb61e68abcf0f4d0359bf69}
+      \strng{fullhash}{3aca7685bbb61e68abcf0f4d0359bf69}
+      \strng{fullhashraw}{3aca7685bbb61e68abcf0f4d0359bf69}
+      \strng{bibnamehash}{3aca7685bbb61e68abcf0f4d0359bf69}
+      \strng{authorbibnamehash}{3aca7685bbb61e68abcf0f4d0359bf69}
+      \strng{authornamehash}{3aca7685bbb61e68abcf0f4d0359bf69}
+      \strng{authorfullhash}{3aca7685bbb61e68abcf0f4d0359bf69}
+      \strng{authorfullhashraw}{3aca7685bbb61e68abcf0f4d0359bf69}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper reviews investigations on protein crystallization. It aims to present a comprehensive rather than complete account of recent studies and efforts to elucidate the most intimate mechanisms of protein crystal nucleation. It is emphasized that both physical and biochemical factors are at play during this process. Recently-discovered molecular scale pathways for protein crystal nucleation are considered first. The bond selection during protein crystal lattice formation, which is a typical biochemically-conditioned peculiarity of the crystallization process, is revisited. Novel approaches allow us to quantitatively describe some protein crystallization cases. Additional light is shed on the protein crystal nucleation in pores and crevices by employing the so-called EBDE method (equilibration between crystal bond and destructive energies). Also, protein crystal nucleation in solution flow is considered.}
+      \field{issn}{2073-4352}
+      \field{journaltitle}{Crystals}
+      \field{month}{11}
+      \field{number}{11}
+      \field{title}{Peculiarities of {Protein} {Crystal} {Nucleation} and {Growth}}
+      \field{urlday}{4}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{8}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \field{pages}{422}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/cryst8110422
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:https\://www.mdpi.com/2073-4352/8/11/422/pdf?version=1541742600:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2073-4352/8/11/422
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2073-4352/8/11/422
+      \endverb
+      \keyw{protein crystallization,biochemical aspects of the protein crystal nucleation,classical and two-step crystal nucleation mechanisms,bond selection during protein crystallization,equilibration between crystal bond and destructive energies,protein crystal nucleation in pores,crystallization in solution flow}
+    \endentry
     \entry{Newman2010}{article}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=bde45bf5ec10ea0c63441a4d107c1074}{%
@@ -4988,6 +6289,108 @@
       \endverb
       \keyw{Protein analysis,Protein structure predictions,X-ray crystallography}
     \endentry
+    \entry{Kempen2024}{article}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=52a2fcaf984482f0d21cea41dc0ae952}{%
+           family={Kempen},
+           familyi={K\bibinitperiod},
+           given={Michel},
+           giveni={M\bibinitperiod},
+           givenun=0,
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=6667a7b23d91ffc5e8dc2c4032bf1eeb}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Stephanie\bibnamedelima S.},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4d1a783d7b767ce455353747dc89be6c}{%
+           family={Tumescheit},
+           familyi={T\bibinitperiod},
+           given={Charlotte},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2dac539cd49fcc48ee89ea09ce5e40c3}{%
+           family={Mirdita},
+           familyi={M\bibinitperiod},
+           given={Milot},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5a6f8561f16c7c642dadad82bca1508a}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Jeongjae},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3c92bbb2c82c6d624367921c0f3ee2f1}{%
+           family={Gilchrist},
+           familyi={G\bibinitperiod},
+           given={Cameron\bibnamedelimb L.\bibnamedelimi M.},
+           giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e67661e270ffc979f77600b3904f2e9c}{%
+           family={Söding},
+           familyi={S\bibinitperiod},
+           given={Johannes},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c06ac6a6fdcf2ee2092d61fc58c1f21b}{%
+           family={Steinegger},
+           familyi={S\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{3a67143ca2a3149b4aa2915830fbfb54}
+      \strng{fullhash}{d09b260342de4938876878cfa74812be}
+      \strng{fullhashraw}{d09b260342de4938876878cfa74812be}
+      \strng{bibnamehash}{d09b260342de4938876878cfa74812be}
+      \strng{authorbibnamehash}{d09b260342de4938876878cfa74812be}
+      \strng{authornamehash}{3a67143ca2a3149b4aa2915830fbfb54}
+      \strng{authorfullhash}{d09b260342de4938876878cfa74812be}
+      \strng{authorfullhashraw}{d09b260342de4938876878cfa74812be}
+      \field{sortinit}{v}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{As structure prediction methods are generating millions of publicly available protein structures, searching these databases is becoming a bottleneck. Foldseek aligns the structure of a query protein against a database by describing tertiary amino acid interactions within proteins as sequences over a structural alphabet. Foldseek decreases computation times by four to five orders of magnitude with 86\%, 88\% and 133\% of the sensitivities of Dali, TM-align and CE, respectively.}
+      \field{issn}{1546-1696}
+      \field{journaltitle}{Nature Biotechnology}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{Fast and accurate protein structure search with {Foldseek}}
+      \field{urlday}{2}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{42}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{243\bibrangedash 246}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1038/s41587-023-01773-0
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:Kempen2024 - Fast and Accurate Protein Structure Search with Foldseek.pdf:PDF:https\://www.nature.com/articles/s41587-023-01773-0.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41587-023-01773-0
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41587-023-01773-0
+      \endverb
+      \keyw{Computational biology and bioinformatics,Software,Structural biology}
+    \endentry
     \entry{Wang2022}{article}{}{}
       \name{author}{8}{}{%
         {{un=0,uniquepart=base,hash=cce05cab2c437e9c128f853684ee3137}{%
@@ -5072,6 +6475,59 @@
       \endverb
       \verb{url}
       \verb https://www.semanticscholar.org/paper/Text-Embeddings-by-Weakly-Supervised-Contrastive-Wang-Yang/5a3c1afe73d8bcc8288d17cb17be2baec8a98464
+      \endverb
+    \endentry
+    \entry{Weininger1988}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8396687b96e64d23dac029daee2916d2}{%
+           family={Weininger},
+           familyi={W\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Chemical Society}%
+      }
+      \strng{namehash}{8396687b96e64d23dac029daee2916d2}
+      \strng{fullhash}{8396687b96e64d23dac029daee2916d2}
+      \strng{fullhashraw}{8396687b96e64d23dac029daee2916d2}
+      \strng{bibnamehash}{8396687b96e64d23dac029daee2916d2}
+      \strng{authorbibnamehash}{8396687b96e64d23dac029daee2916d2}
+      \strng{authornamehash}{8396687b96e64d23dac029daee2916d2}
+      \strng{authorfullhash}{8396687b96e64d23dac029daee2916d2}
+      \strng{authorfullhashraw}{8396687b96e64d23dac029daee2916d2}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0095-2338}
+      \field{journaltitle}{Journal of Chemical Information and Computer Sciences}
+      \field{month}{2}
+      \field{number}{1}
+      \field{title}{{SMILES}, a chemical language and information system. 1. {Introduction} to methodology and encoding rules}
+      \field{urlday}{2}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{28}
+      \field{year}{1988}
+      \field{urldateera}{ce}
+      \field{pages}{31\bibrangedash 36}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1021/ci00057a005
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:https\://pubs.acs.org/doi/pdf/10.1021/ci00057a005:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1021/ci00057a005
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1021/ci00057a005
       \endverb
     \endentry
     \entry{Wilson2014}{article}{}{}

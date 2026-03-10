@@ -1,0 +1,59 @@
+\subsection{Data split}
+Neither the \gls{pdb} nor the \gls{crims} dataset can be split into training and validation sets using a simple random split. Two main characteristics of these datasets make such an approach inappropriate. The following describes the two employed informed splits to avoid data leakage to enable a condfident report in generalization performance.
+
+\subsubsection{Protein-based trainings split}
+
+First, the \gls{pdb} is highly redundant. The same protein is often deposited multiple times in the database, for example with different resolutions, slightly modified constructs, ligand bindings, or other experimental variations. At the time the data for this thesis was collected, the \gls{pdb} contained approximately 197,000 structure entries, but these corresponded to only about 89,000 unique proteins. Some proteins appear extremely frequently. For instance, the proteins R1AB\_SARS2 and LYSC\_CHICK had 2631 and 1258 associated structure files respectively.
+
+
+This redundancy has important implications for machine learning. As shown in \autoref{fig:proteinVsPEGComparison}, proteins tend to be highly selective with respect to their crystallization conditions. This selectivity arises from two main factors. First, the same protein often crystallizes reproducibly under similar conditions due to its structural and physicochemical properties. Second, once a successful crystallization condition has been reported in the \gls{pdb}, subsequent experiments frequently begin their condition search near previously successful conditions. This creates a strong bias linking specific proteins to specific crystallization conditions.
+
+Although the protein name or identifier is not explicitly included as an input feature, the model can still indirectly learn protein identity through the protein sequence embedding. As illustrated in \autoref{fig:proteinEmbedding}, proteins form strong clusters in embedding space, indicating that the model could easily memorize protein-specific condition relationships. If a random split were used, it would therefore be very likely that the same protein—or even the same protein–condition pair—would appear in both the training and validation sets. Such data leakage would lead to overly optimistic performance estimates, as the model could simply recall previously seen patterns rather than learning generalizable relationships.
+
+However, avoiding leakage by splitting only by protein identity is also insufficient. While the exact determinants of crystallization conditions are not fully understood, it is well established that properties such as protein structure, surface chemistry, and charge distribution strongly influence crystal lattice formation \citep{Nanev2018}. Since these properties are inexplicitly encoded in the amino acid sequence, proteins with similar sequences might share similar crystallization behavior. Consequently, if closely related proteins appear in both training and validation sets, the model may still benefit from indirect information leakage through sequence similarity. It should be noted that recent studies challenge the assumption that sequence similarity necessarily implies similarity in crystallization conditions. For example, \citet{Abrahams2019} and \citet{Liao2025} argue that proteins with similar sequences can still exhibit substantially different crystallization behavior, suggesting that sequence similarity alone may not be a reliable predictor of crystallization conditions. Nevertheless, in order to ensure a rigorous validation procedure and to minimize any potential data leakage between training and validation sets, sequence-based clustering is still employed when constructing the data splits. 
+
+To address this issue, an additional level of separation based on sequence similarity clustering is required. A common strategy is to cluster proteins according to their sequence similarity and then ensure that proteins from the same cluster are assigned exclusively to either the training or the validation set. This ensures that the model cannot rely on closely related homologous proteins when making predictions.
+
+For this purpose, sequence similarity clusters generated with MMseqs2 were used. Both the \gls{pdb} and \gls{crims} proteins were clustered at multiple sequence identity thresholds: 30, 40, 50, 70, 90, 95, and 100\% sequence identity. The clustering was performed using the easy-cluster algorithm of MMseqs2, which efficiently groups sequences into clusters based on pairwise sequence similarity. In this procedure, sequences are compared using fast k-mer based prefiltering followed by sequence alignment. Proteins are assigned to the same cluster if their sequence identity exceeds the specified threshold while satisfying coverage constraints (here using parameters c=0.8, cov-mode=0, and identity threshold ID=N). This ensures that sequences within a cluster share a minimum level of alignment coverage and sequence identity.
+
+Lower identity thresholds produce broader clusters that group together more distantly related proteins, while higher thresholds result in tighter clusters containing only very similar or nearly identical sequences. Consequently, the 30\% identity clustering represents the most challenging evaluation scenario, as proteins in the validation set share only weak homology with proteins seen during training. In contrast, the 100\% identity clustering is the most permissive setting, where proteins in the validation set may be nearly identical to those present in the training set.
+
+From an inference perspective, these splits correspond to different assumptions about the model's applicability. If the model performs well on the 30\% sequence identity split, it suggests that the model can infer crystallization conditions for proteins even when no closely related homologs are present in the training data. This would indicate strong generalization capability. On the other hand, strong performance on the 100\% identity split only demonstrates that the model can reproduce crystallization conditions for proteins that are essentially identical to proteins already present in the training set.
+
+Evaluating the model across multiple sequence identity thresholds therefore provides a more comprehensive understanding of its generalization behavior, ranging from near-memorization scenarios to genuinely novel protein prediction tasks. \autoref{fig:train_test_split} depicts a schematic illustration. 
+
+\subsubsection{Condition-based trainings split}
+
+Finally, for the \gls{crims} data not only a protein based split should be used but also a condition specific split. The task performed on the \gls{crims} dataset is rephrased. Instead of generalizing across proteins the aim is to generalize to new conditions for a previously set of protein and condition combinations. The training and validation data consit of the same protein but other conditions. However, it is a valid assumption that the same protein will crystallize under conditions that are highly similar to each other. For this reason the training and validation split should take the condition similarity into account as well. 
+This is done using a condition similarity based splitting strategy. Instead of randomly assigning individual samples to training and validation sets, chemically similar conditions are grouped together and entire groups are assigned to either split. This prevents the model from learning trivial similarities between nearly identical conditions. 
+
+Each crystallization condition is represented using a numerical feature representation derived from the encoded condition information. The representation consists of three components, namely a vector representation describing the chemical composition of the condition (cf. \autoref{sec:methods/feature_engineering/condition_embedding}) along its concentration and the pH value of the crystallization buffer.
+This representation allows conditions to be compared in a continuous feature space.
+
+To quantify the similarity between conditions, a pairwise distance matrix is computed. The distance between two conditions is defined as a weighted combination of three components:
+
+\begin{itemize}
+\itemsep0em
+\item Cosine distance between the chemical representation vectors.
+\item Normalized absolute difference in pH values.
+\item Normalized absolute difference in chemical concentrations (computed in log-scale).
+\end{itemize}
+
+The final distance is calculated as a weighted sum of these components, allowing chemical composition, pH, and concentration differences to contribute jointly to the similarity measure. After manual checking an equal weight for all components was determined as the best fitting. 
+
+Using the computed distance matrix, the conditions are grouped into clusters using \gls{hdbscan} \citep{Campello2013}. This algorithm groups together conditions that are close in the defined chemical feature space while allowing for clusters of varying density and size.
+
+Each unique crystallization condition is assigned to a cluster representing a group of chemically similar conditions.
+After clustering, each condition receives a cluster identifier corresponding to the cluster with the highest membership probability. This results in a mapping from each crystallization condition to a condition cluster. Note that traditionally \gls{hdbscan} employs outlier detection and does not assign them a cluster. Due to custom optimization screens and the nature of the shotgun approach of crystallization plates about 30\% of conditions have no assigned cluster. Since the aim is avoid similar conditions in both training and validation data these outliers can be assigned an arbitrary or completly new cluster. To avoid even minimal data leakage the closest cluster was used for outlier assignment.
+
+The dataset is then split based on these condition clusters. Instead of randomly sampling individual condition entries, entire clusters of conditions are assigned either to the training set or the validation set. Consequently, all samples belonging to the same condition cluster remain in the same split.
+
+This ensures that the validation set contains chemically distinct conditions that were not observed during training, providing a more realistic evaluation of the model's ability to generalize to new crystallization conditions. A shematic illustration emphasizing the difference to the other technique is seen in \autoref{fig:train_test_split}.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\textwidth]{media/train_test_split_vis}
+	\caption[Schematic illustration of the dataset splitting strategy]{The figure shows an illustration of the two splitting techniques. For the \gls{pdb} only per protein similarity was split. For the \gls{crims} dataset either split was employed dependent on the task.}
+	\label{fig:train_test_split}
+\end{figure} 
+

@@ -20,42 +20,50 @@
 \contentsline {section}{\numberline {2.2}Machine Learning}{11}{section.26}%
 \contentsline {section}{\numberline {2.3}Neural Networks}{11}{section.27}%
 \contentsline {section}{\numberline {2.4}Extreme Gradient Boosting}{11}{section.28}%
-\contentsline {section}{\numberline {2.5}Positive Unlabeled Learning}{11}{section.29}%
-\contentsline {chapter}{\numberline {3}Data}{13}{chapter.30}%
-\contentsline {section}{\numberline {3.1}The Protein database}{13}{section.31}%
-\contentsline {subsection}{\numberline {3.1.1}Acquisition}{13}{subsection.32}%
-\contentsline {subsection}{\numberline {3.1.2}Format}{13}{subsection.33}%
-\contentsline {subsection}{\numberline {3.1.3}Structure}{14}{subsection.34}%
-\contentsline {subsection}{\numberline {3.1.4}Description}{15}{subsection.36}%
-\contentsline {section}{\numberline {3.2}Details Parsing}{17}{section.40}%
-\contentsline {subsection}{\numberline {3.2.1}Pipeline}{18}{subsection.42}%
-\contentsline {subsection}{\numberline {3.2.2}Parsing Quality}{19}{subsection.43}%
-\contentsline {section}{\numberline {3.3}Data Analysis}{22}{section.47}%
-\contentsline {subsection}{\numberline {3.3.1}Univariate Analysis}{22}{subsection.48}%
-\contentsline {subsubsection}{\numberline {3.3.1.1}Protein features}{22}{subsubsection.49}%
-\contentsline {paragraph}{Sequence construction.}{22}{section*.50}%
-\contentsline {paragraph}{Justification of the representation.}{23}{section*.52}%
-\contentsline {subsubsection}{\numberline {3.3.1.2}Condition}{26}{subsubsection.57}%
-\contentsline {subsection}{\numberline {3.3.2}Multivariate Analysis}{31}{subsection.63}%
-\contentsline {section}{\numberline {3.4}CRIMS}{33}{section.67}%
-\contentsline {subsection}{\numberline {3.4.1}Data Acquisition}{34}{subsection.68}%
-\contentsline {subsection}{\numberline {3.4.2}Confirmation of protein crystals}{36}{subsection.70}%
-\contentsline {subsection}{\numberline {3.4.3}Data Analysis \& Quality assesment}{37}{subsection.72}%
-\contentsline {chapter}{\numberline {4}Methods}{39}{chapter.74}%
-\contentsline {section}{\numberline {4.1}Feature Engineering}{39}{section.75}%
-\contentsline {subsection}{\numberline {4.1.1}Sequence Embedding}{39}{subsection.76}%
-\contentsline {subsection}{\numberline {4.1.2}Surface Embedding}{41}{subsection.79}%
-\contentsline {subsection}{\numberline {4.1.3}Structure Embedding}{43}{subsection.82}%
-\contentsline {subsection}{\numberline {4.1.4}Condition Embedding}{45}{subsection.84}%
-\contentsline {subsubsection}{\numberline {4.1.4.1}Feature vector}{45}{subsubsection.85}%
-\contentsline {subsubsection}{\numberline {4.1.4.2}Semantic representation}{46}{subsubsection.86}%
-\contentsline {section}{\numberline {4.2}Data encoding}{48}{section.89}%
-\contentsline {section}{\numberline {4.3}Training}{48}{section.90}%
-\contentsline {subsection}{\numberline {4.3.1}Data split}{48}{subsection.91}%
-\contentsline {subsection}{\numberline {4.3.2}Configuration}{50}{subsection.92}%
-\contentsline {subsection}{\numberline {4.3.3}Optimization}{50}{subsection.93}%
-\contentsline {chapter}{\numberline {5}Results}{51}{chapter.94}%
-\contentsline {chapter}{\numberline {6}Discussion}{53}{chapter.95}%
-\contentsline {chapter}{\numberline {A}Data Appendix}{55}{appendix.96}%
-\contentsline {chapter}{\numberline {B}Methods Appendix}{59}{appendix.101}%
-\contentsline {chapter}{Bibliography}{61}{appendix*.102}%
+\contentsline {subsection}{\numberline {2.4.1}Gradient Boosting Framework}{11}{subsection.29}%
+\contentsline {subsection}{\numberline {2.4.2}Regularized Objective Function}{12}{subsection.30}%
+\contentsline {subsection}{\numberline {2.4.3}Second-Order Gradient Optimization}{13}{subsection.31}%
+\contentsline {subsection}{\numberline {2.4.4}Tree Structure Optimization}{13}{subsection.32}%
+\contentsline {subsection}{\numberline {2.4.5}Computational Optimizations}{14}{subsection.33}%
+\contentsline {section}{\numberline {2.5}Positive Unlabeled Learning}{14}{section.34}%
+\contentsline {chapter}{\numberline {3}Data}{15}{chapter.35}%
+\contentsline {section}{\numberline {3.1}The Protein database}{15}{section.36}%
+\contentsline {subsection}{\numberline {3.1.1}Acquisition}{15}{subsection.37}%
+\contentsline {subsection}{\numberline {3.1.2}Format}{15}{subsection.38}%
+\contentsline {subsection}{\numberline {3.1.3}Structure}{16}{subsection.39}%
+\contentsline {subsection}{\numberline {3.1.4}Description}{17}{subsection.41}%
+\contentsline {section}{\numberline {3.2}Details Parsing}{19}{section.45}%
+\contentsline {subsection}{\numberline {3.2.1}Pipeline}{20}{subsection.47}%
+\contentsline {subsection}{\numberline {3.2.2}Parsing Quality}{21}{subsection.48}%
+\contentsline {section}{\numberline {3.3}Data Analysis}{24}{section.52}%
+\contentsline {subsection}{\numberline {3.3.1}Univariate Analysis}{24}{subsection.53}%
+\contentsline {subsubsection}{\numberline {3.3.1.1}Protein features}{24}{subsubsection.54}%
+\contentsline {paragraph}{Sequence construction.}{24}{section*.55}%
+\contentsline {paragraph}{Justification of the representation.}{25}{section*.57}%
+\contentsline {subsubsection}{\numberline {3.3.1.2}Condition}{28}{subsubsection.62}%
+\contentsline {subsection}{\numberline {3.3.2}Multivariate Analysis}{33}{subsection.68}%
+\contentsline {section}{\numberline {3.4}CRIMS}{35}{section.72}%
+\contentsline {subsection}{\numberline {3.4.1}Data Acquisition}{36}{subsection.73}%
+\contentsline {subsection}{\numberline {3.4.2}Confirmation of protein crystals}{38}{subsection.75}%
+\contentsline {subsection}{\numberline {3.4.3}Data Analysis \& Quality assesment}{39}{subsection.77}%
+\contentsline {chapter}{\numberline {4}Methods}{41}{chapter.79}%
+\contentsline {section}{\numberline {4.1}Feature Engineering}{41}{section.80}%
+\contentsline {subsection}{\numberline {4.1.1}Sequence Information}{41}{subsection.81}%
+\contentsline {subsection}{\numberline {4.1.2}Sequence Embedding}{42}{subsection.82}%
+\contentsline {subsection}{\numberline {4.1.3}Surface Embedding}{44}{subsection.85}%
+\contentsline {subsection}{\numberline {4.1.4}Surface Information}{46}{subsection.88}%
+\contentsline {subsection}{\numberline {4.1.5}Structure Embedding}{47}{subsection.89}%
+\contentsline {subsection}{\numberline {4.1.6}Condition Embedding}{48}{subsection.91}%
+\contentsline {subsubsection}{\numberline {4.1.6.1}Feature vector}{49}{subsubsection.92}%
+\contentsline {subsubsection}{\numberline {4.1.6.2}Semantic representation}{50}{subsubsection.93}%
+\contentsline {section}{\numberline {4.2}Training}{52}{section.96}%
+\contentsline {subsection}{\numberline {4.2.1}Data split}{52}{subsection.97}%
+\contentsline {subsubsection}{\numberline {4.2.1.1}Protein-based trainings split}{52}{subsubsection.98}%
+\contentsline {subsubsection}{\numberline {4.2.1.2}Condition-based trainings split}{54}{subsubsection.99}%
+\contentsline {subsection}{\numberline {4.2.2}Hyperparameter Tuning}{55}{subsection.101}%
+\contentsline {subsection}{\numberline {4.2.3}Evaluation metrics}{56}{subsection.102}%
+\contentsline {chapter}{\numberline {5}Results}{57}{chapter.103}%
+\contentsline {chapter}{\numberline {6}Discussion}{59}{chapter.104}%
+\contentsline {chapter}{\numberline {A}Data Appendix}{61}{appendix.105}%
+\contentsline {chapter}{\numberline {B}Methods Appendix}{65}{appendix.110}%
+\contentsline {chapter}{Bibliography}{69}{appendix*.131}%

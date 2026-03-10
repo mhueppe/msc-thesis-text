@@ -1,0 +1,25 @@
+\subsection{Sequence Information}\label{sec:methods/feature_engineering/sequenceInformation}
+
+The lowest representation of a protein experimenters have access to is the sequence of the protein to be crystallized. The protein sequence represents the starting point of the inference. While nuanced information such as protein-protein interaction cannot be directly retrieved from the sequence it still carries low-level information about the protein. These features describe global physicochemical properties of the protein, which may influence protein stability, solubility, and intermolecular interactions during crystallization. All features were computed from the primary amino acid sequence using the RdKit.
+
+\textbf{Sequence Length} denotes the number of residues in the protein sequence. Protein size influences structural complexity and flexibility, which may affect crystallization.
+
+\textbf{Molecular Weight} of the protein, computed from its amino acid composition, can influence crystallization behavior given the increased conformational complexity of larger proteins. 
+
+\textbf{Isoelectric Point} represents the pH at which the protein carries zero net charge. Reduced electrostatic repulsion between molecules near the isoelectric point may facilitate crystal packing.
+
+\textbf{Aromaticity} denotes the fraction of aromatic residues (F, W, Y) in the sequence. Aromatic residues participate in stacking interactions and hydrophobic contacts that can stabilize intermolecular contacts in structure relevant in a crystal lattice \citep{Burley1985}.
+
+\textbf{Grand Average of Hydropathy Score} measures the mean hydrophobicity of the sequence based on the Kyte-Doolittle hydropathy scale. Hydrophobicity influences protein solubility and intermolecular interactions relevant for crystallization \citep{PriceII2009}.
+
+\textbf{Fraction of Acidic Residues} denotes the fraction of acidic residues (D, E). These residues contribute negative charges that affect electrostatic interactions and solubility \citep{PriceII2009}.
+
+\textbf{Fraction of Basic Residues} denotes the fraction of basic residues (K, R, H), which contribute positive charges and influence electrostatic interactions between protein molecules \citep{PriceII2009}.
+
+\textbf{Net Charge at pH 7} estimates the net charge of the protein at neutral pH. The overall charge affects protein solubility and intermolecular repulsion in solution.
+
+\textbf{Instability Index} is an empirical measure derived from dipeptide composition that predicts in vitro protein stability. 
+
+\textbf{Fraction of Unknown Residues} denotes the fraction of non-canonical or unknown residues in the sequence, which may indicate incomplete sequence information.
+
+\textbf{Amino Acid Composition} represents the number of occurrences of each the canonical amino acids in the sequence. Amino acid composition reflects global sequence properties such as hydrophobicity, charge distribution, and structural propensity \citep{PriceII2009}.

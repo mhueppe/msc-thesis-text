@@ -34,12 +34,12 @@ Length & Name & Description \\[4pt]
 \hline
 1 &\texttt{frac\_unknown} & Fraction of residues in the sequence that are unknown or non-canonical amino acids \\
 \hline
-1 &\texttt{A, C, D, ..., V, W, Y} & Count of each canonical amino acid in the sequence (e.g. \texttt{A}=number of alanine residues)  \\[4pt]
+20 &\texttt{A, C, D, ..., V, W, Y} & Count of each canonical amino acid in the sequence (e.g. \texttt{A}=number of alanine residues)  \\[4pt]
 \hline
 \hline
-\multicolumn{3}{c}{\textbf{Sequence Embedding}} \\[4pt]
+\multicolumn{3}{c}{\textbf{Sequence Embedding} (see: \ref{sec:methods/feature_engineering/sequence_embedding})} \\[4pt]
 \hline
-480/ 640/ 1280 &\texttt{sequence\_embedding} & Sequence embedding created by the \gls{esm} model esm2\_t12\_35M\_UR50D/ esm2\_t30\_150M\_UR50D/ esm2\_t33\_650M\_UR50D \\[4pt]
+480/ 640/ 1280 &\texttt{sequence\_embedding} & Sequence embedding created by the \gls{esm} model esm2\_t12\_35M\_UR50D/ esm2\_t30\_150M\_UR50D/ esm2\_t33\_650M\_UR50D\\[4pt]
 
 \hline
 \hline
@@ -61,7 +61,7 @@ Length & Name & Description \\[4pt]
 \hline
 1 & \texttt{sasa\_skewness} & Skewness of the per-residue SASA distribution (asymmetry of exposure across residues) \\
 \hline
-1 & \texttt{hydrophobic\_surface\_fraction} & Fraction of total surface area that is hydrophobic / apolar \\
+1 & \texttt{hydrophobic\_surface\_ fraction} & Fraction of total surface area that is hydrophobic / apolar \\
 \hline
 1 & \texttt{surface\_entropy\_fraction} & Fraction of surface residues with high side-chain conformational entropy (often flexible residues) \\
 \hline
@@ -69,5 +69,59 @@ Length & Name & Description \\[4pt]
 \hline
 1 & \texttt{net\_charge\_normalized} & Net charge normalized (e.g., by length or surface area) for size-independent comparison \\
 \hline
-
+\hline
+\multicolumn{3}{c}{\textbf{Surface Embedding} (\ref{sec:methods/feature_engineering/surface_embedding})} \\[4pt]
+\hline
+2048 &\texttt{surface\_embedding} & Surface Embedding created from the Surface Autoencoder \\ \hline
+2048 &\texttt{binding\_sites} & Prediction of possible binding sites \\[4pt]
+\hline
+\hline
+\multicolumn{3}{c}{\textbf{Structure Embedding} (\ref{sec:methods/feature_engineering/structure_embedding})} \\[4pt]
+\hline
+1024 &\texttt{sequence\_embedding} & Sequence embedding from the \gls{prostT5} model \\ \hline
+1024 &\texttt{structure\_embedding} & Structure embedding from the \gls{prostT5} model \\[4pt]
+\hline
+\hline
+\multicolumn{3}{c}{\textbf{Condition Features} (\ref{sec:methods/feature_engineering/condition_embedding})} \\[4pt]
+\hline
+1 & \texttt{molecular\_weight} & Total molecular mass in Daltons \\ \hline
+1 & \texttt{heavy\_atom\_count} & Number of non-hydrogen atoms \\ \hline
+1 & \texttt{TPSA} & Topological polar surface area; a proxy for polartiy and hydrogen bonding capacity \\ \hline
+1 & \texttt{HBD} & Number of hydrogen-bond donors \\ \hline
+1 & \texttt{HBA} & Number of hydorgen-bond acceptors \\ \hline
+1 & \texttt{LogP} & Estimated octanol/water partition coefficient; a proxy for hydrophobicity \\ \hline
+1 & \texttt{MR} & Molar refractivity; relates to polarizability and molecular volume \\ \hline
+1 & \texttt{RotT} & Number of rotable bonds; a measure of molecular flexibilty \\ \hline
+1 & \texttt{ring\_count} & Number of rings in the molecular graph \\ \hline
+1 & \texttt{fraction\_csp3} & Fraction of carbon atoms in $sp^3$ hydridization; indicates 3D character/saturation\\ \hline
+1 & \texttt{formal\_charge} & Net formal charge of the molecule \\ \hline
+1 & \texttt{n\_count} & Number of nitrogen atoms \\ \hline
+1 & \texttt{o\_count} & Number of oxygen atoms \\ \hline
+1 & \texttt{s\_count} & Number of sulfur atoms \\ \hline
+1 & \texttt{halogen\_count} & Number of halogen atoms (F, Cl, Br, I) \\ \hline
+1024 & \texttt{morgan\_fingerprint} & Sparse morgan fingerprint where each index is associated to the number of appearances of a certain molecular substructrue \\
+\label{tab:feature_table}
 \end{longtable}
+
+
+\begin{lstlisting}[caption=Optuna search setup, label=lst:optuna_study]
+    "objective": "binary:logistic",
+    "eval_metric": "aucpr",
+    "tree_method": "hist",
+    "device": "cpu",
+
+    "learning_rate": suggest_float(1e-3, 3e-1, log=True),
+    "max_depth": suggest_int(3, 10),
+    "min_child_weight": suggest_float(1e-2, 1e2, log=True),
+    "gamma": suggest_float(1e-8, 10.0, log=True),
+
+    "subsample": suggest_float(0.5, 1.0),
+    "colsample_bytree": suggest_float(0.5, 1.0),
+    "colsample_bynode": suggest_float(0.5, 1.0),
+
+    "reg_lambda": suggest_float(1e-3, 1e2, log=True),
+    "reg_alpha": suggest_float(1e-8, 10.0, log=True),
+
+    "max_bin": suggest_categorical([64, 128, 256, 512]),
+    "n_estimators": 5000
+\end{lstlisting}

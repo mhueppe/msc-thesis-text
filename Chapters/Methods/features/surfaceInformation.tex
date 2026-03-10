@@ -1,0 +1,27 @@
+\subsection{Surface Information}\label{sec:methods/feature_engineering/surfaceInformation}
+Surface properties of proteins provide additional information beyond the primary sequence, as crystallization is strongly influenced by intermolecular contacts formed at the molecular surface. Features derived from the solvent-accessible surface capture geometric and physicochemical characteristics. These properties influence how protein molecules interact in solution and how they can pack within a crystal lattice \citep{Derewenda2006}.
+All computations were done using FreeSASA. For proteins in the \gls{crims} dataset, structural features were derived from AlphaFold-predicted structures. For the \gls{pdb} dataset, the experimentally determined structures were used directly. Due to time constraints, no additional structure prediction was performed for the \gls{pdb} proteins.
+
+\textbf{Total Surface Area} denotes the total solvent-accessible molecular surface area of the protein (typically in \AA$^2$). Surface area influences the extent of intermolecular contacts that can form during crystal packing.
+
+\textbf{Number of Atoms} represents the number of atoms in the processed structure used for feature computation. This value reflects the structural size and resolution of the model used for surface calculations.
+
+\textbf{Surface Roughness} quantifies the irregularity or corrugation of the molecular surface. Highly irregular surfaces may influence how proteins pack together within a crystal lattice \citep{Kramer2012}.
+
+\textbf{Apolar Surface Area} measures the solvent-accessible surface area contributed by hydrophobic atoms. Hydrophobic surface patches often participate in intermolecular contacts that stabilize crystal packing \citep{Kramer2012}.
+
+\textbf{Polar Surface Area} measures the solvent-accessible surface area contributed by polar atoms. Polar regions influence hydrogen bonding and electrostatic interactions between neighboring molecules \citep{Kramer2012}.
+
+\textbf{Side-Chain Surface Fraction} denotes the fraction of the surface area contributed by amino acid side chains relative to the backbone. Side chains are typically more variable and may mediate intermolecular contacts.
+
+\textbf{Hydrophobic–Polar Contrast} quantifies the contrast between hydrophobic and polar surface exposure. Strong separation of hydrophobic and polar regions may promote specific packing interactions \citep{Kramer2012}.
+
+\textbf{SASA Skewness} describes the skewness of the per-residue solvent-accessible surface area distribution. This captures whether surface exposure is concentrated in a few residues or more evenly distributed.
+
+\textbf{Hydrophobic Surface Fraction} denotes the fraction of the total surface area that is hydrophobic. Hydrophobic surface regions frequently contribute to protein–protein interactions in crystal lattices \citep{Kramer2012}.
+
+\textbf{Surface Entropy Fraction} measures the fraction of surface residues with high side-chain conformational entropy. Flexible residues can hinder crystallization due to increased structural disorder.
+
+\textbf{Net Charge (Raw)} represents the total net charge of the protein computed from the structure or sequence without normalization.
+
+\textbf{Normalized Net Charge} denotes the net charge normalized by a size-related quantity such as sequence length or surface area, enabling size-independent comparison across proteins.

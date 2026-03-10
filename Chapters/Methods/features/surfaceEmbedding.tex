@@ -1,4 +1,4 @@
-\subsection{Surface Embedding}\label{methods/feature_engineering/surface_embedding}
+\subsection{Surface Embedding}\label{sec:methods/feature_engineering/surface_embedding}
 
 As shown in \autoref{sec:data_analysis/multivariate_analysis}, surface features provide predictive value for determining the crystallization conditions of a protein. It is therefore reasonable for a model to receive some representation of the protein surface. However, the \gls{pdb} does not explicitly store surface information. Instead, the surface is typically estimated using the Shrake–Rupley algorithm. In this method, a probe sphere of fixed radius (often approximating a water molecule) is conceptually rolled across the protein’s van der Waals surface \parencite{Shrake1973}. The protein is treated as a collection of atoms with known radii, and the locus traced by the center of the probe defines the \gls{sasa}.
 
