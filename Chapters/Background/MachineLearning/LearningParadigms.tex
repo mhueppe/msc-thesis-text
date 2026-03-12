@@ -1,0 +1,43 @@
+\subsection{Learning paradigms}\label{sec:background/machine_learning/learning_paradigms}
+
+\paragraph{Supervised Learning}
+As explained by \cite{Mohri2018} in supervised learning, a model is trained using a dataset consisting of input features and corresponding target labels. The goal of the learning algorithm is to estimate a function that maps input variables to output labels, allowing the model to generalize to previously unseen examples.
+
+The training of the model can be formulated as an empirical risk minimization problem. 
+Given a training dataset 
+\[
+\mathcal{D} = \{(x_i, y_i)\}_{i=1}^{N},
+\]
+where \(x_i \in \mathcal{X}\) denotes an input sample and \(y_i \in \mathcal{Y}\) the corresponding target label, the goal is to learn the optimal model parameters \(\theta\).
+
+This is achieved by minimizing the empirical loss over the training data:
+
+\[
+\hat{\theta} = \arg\min_{\theta} \frac{1}{N}\sum_{i=1}^{N} \mathcal{L}(f_\theta(x_i), y_i).
+\]
+
+Here, \(f_\theta\) denotes a parameterized model with parameters \(\theta\). The function \(\mathcal{L}(\cdot,\cdot)\) is a loss function that measures the discrepancy between the model prediction \(f_\theta(x_i)\) and the true target value \(y_i\). Common examples include the cross-entropy loss for classification tasks and the mean squared error for regression tasks.
+
+The term inside the summation computes the loss for a single training example, while the average over all \(N\) samples represents the empirical risk. The operator \(\arg\min_{\theta}\) denotes the parameter values that minimize this empirical risk. The resulting parameter estimate \(\hat{\theta}\) therefore corresponds to the model that best fits the training data according to the chosen loss function.
+
+For the task of finding optimal crystallization conditions, the input features are derived from the protein sequence. Labels are represented by crystallization condition, where 0 and 1 are used to represent no-/crystal. 
+
+Supervised learning approaches rely heavily on the availability of high-quality labeled datasets. In practice, obtaining reliable negative labels for crystallization experiments can be difficult, which introduces challenges for standard supervised learning formulations. Non-working conditions are often disregarded which makes supervised learning the wrong approach, since a model can only learn if there is variance in the dataset. This is due to label bias which occurs if the model learns more about the distribution of the label than the features in the input. For example, if only positive labels are present (as the case for the \gls{pdb} dataset) the model could achieve perfect performance by predicting that every protein-condition combination results in a crystal, which is far from the truth. In these cases other learning paradigms have to be used. 
+
+\paragraph{Positive-Unlabeled Learning}
+
+\gls{pu} learning tries to solve this problem by removing the assumption that just because a protein has not been reported to work under certain condition that this condition would not have been successful. Instead, non-reported trials simply reflect insufficient exploration of the experimental condition space or suboptimal experimental parameters. This reflects the label space of the \gls{pdb} much better since crystallographers often report the successful condition that is easiest to replicate even though others might have produces just as good crystals.
+
+This situation leads to a learning scenario where only a subset of positive examples is explicitly labeled, while the remaining data points are unlabeled and may contain both positive and negative instances. 
+
+In \gls{pu} learning, the training dataset can be represented as
+
+\[
+\mathcal{D} = P \cup U,
+\]
+
+where $P$ denotes the set of labeled positive examples and $U$ represents the set of unlabeled samples. The unlabeled set typically contains a mixture of positive and negative instances whose true labels are unknown. The goal of PU learning methods is to estimate a classifier that can distinguish positive from negative examples while accounting for the uncertainty in the unlabeled data.
+
+PU learning methods typically rely on one of several strategies, including identifying reliable negative examples within the unlabeled set, estimating class priors, or adapting risk minimization frameworks to handle partially labeled data. These techniques have been successfully applied in various domains such as bioinformatics, information retrieval, and medical data analysis.
+
+In the context of protein crystallization prediction, PU learning provides a natural framework for modeling experimental screening data. Crystallization datasets often contain reliable records of successful crystallization conditions, while the large number of unsuccessful or unobserved conditions cannot be confidently labeled as true negatives. By leveraging positive examples and treating the remaining data as unlabeled, PU learning methods can exploit larger datasets and potentially improve predictive performance compared to traditional supervised approaches.

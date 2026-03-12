@@ -1,8 +1,8 @@
-\section{Extreme Gradient Boosting}\label{sec:xgBoost}
+\subsection{Extreme Gradient Boosting}\label{sec:xgBoost}
 
 \citet{Chen2016} developed \gls{xgBoost}, a scalable implementation of gradient boosted decision trees that has become one of the most widely used machine learning algorithms for structured data. It extends the traditional gradient boosting framework by introducing regularization, efficient tree construction algorithms, and system-level optimizations that enable the method to scale to very large datasets \citep{Chen2016}. The algorithm constructs an ensemble of decision trees in an additive manner, where each new tree is trained to correct the prediction errors of the existing ensemble.
 
-\subsection{Gradient Boosting Framework}
+\paragraph{Gradient Boosting Framework}
 
 Gradient boosting is an ensemble learning technique that builds a model as a sum of weak learners, typically decision trees. Given a dataset
 \[
@@ -24,7 +24,7 @@ Instead of fitting all trees at once, gradient boosting constructs the model seq
 
 The goal is to minimize a differentiable loss function $l(y_i,\hat{y}_i)$ that measures the difference between predictions and true values.
 
-\subsection{Regularized Objective Function}\label{sec:xgBoost/regularization}
+\paragraph{Regularized Objective Function}\label{sec:xgBoost/regularization}
 
 A key contribution of \gls{xgBoost} is the introduction of a regularized objective function that controls model complexity and helps prevent overfitting \citep{Chen2016}. The objective function is defined as
 
@@ -42,7 +42,7 @@ For a regression tree with $T$ leaves and leaf weights $w$, the regularization t
 \Omega(f) = \gamma T + \frac{1}{2}\lambda \sum_{j=1}^{T} w_j^2.
 \]
 
-The parameter $\gamma$ penalizes the number of leaves, while $\lambda$ controls the magnitude of the leaf weights. This regularization encourages simpler tree structures and improves generalization performance. Both $\gamma$ and $\lambda$ are hyparameters that can be tuned for during training. The standard default for $\gamma$ is 0 while for $\lambda$ it is 1. While this means that tree complexity is per default not explicitly penalized through this regularization term trees do still do not grow arbitrarily large due to other regularization techniques. Specifally, \gls{xgBoost} incorporates the following methods to avoid overfitting:
+The parameter $\gamma$ penalizes the number of leaves, while $\lambda$ controls the magnitude of the leaf weights. This regularization encourages simpler tree structures and improves generalization performance. Both $\gamma$ and $\lambda$ are hyperparameters that can be tuned for during training. The standard default for $\gamma$ is 0 while for $\lambda$ it is 1. While this means that tree complexity is per default not explicitly penalized through this regularization term trees do still do not grow arbitrarily large due to other regularization techniques. Specifically, \gls{xgBoost} incorporates the following methods to avoid overfitting:
 
 \begin{itemize}
 \item \textbf{Shrinkage (learning rate)}: After each iteration, the contribution of the newly added tree is scaled by a factor $\eta$. This slows down learning and improves model robustness. Default is 0.3.
@@ -54,7 +54,7 @@ The parameter $\gamma$ penalizes the number of leaves, while $\lambda$ controls 
 \item \textbf{Minium child weight}: Prevents splits on tiny sample subsets by requiring each split to reduce the global loss at least by this amount. 
 \end{itemize}
 
-\subsection{Second-Order Gradient Optimization}
+\paragraph{Second-Order Gradient Optimization}
 
 Since the objective depends on functions rather than simple parameters, \gls{xgBoost} optimizes it using an additive training strategy. At iteration $t$, the objective is approximated using a second-order Taylor expansion around the current prediction:
 
@@ -82,7 +82,7 @@ represent the first and second derivatives of the loss function with respect to 
 
 Using these gradient statistics allows \gls{xgBoost} to perform efficient optimization and more accurate split evaluation compared to methods that only use first-order gradients. Since Higher-order Taylor expansions can approximate global aspects of the loss function they could in principle provide a more accurate approximation. However, \gls{xgBoost} uses a second-order expansion because it results in a quadratic objective that can be optimized efficiently. This allows the optimal leaf weights and split gains to be computed in closed form using simple sums of gradients and Hessians. Higher-order expansions would significantly increase computational complexity while providing little practical benefit. While work has implemented that higher-order newton methods the required polynomial work per iteration is a reason why these have not found use in the standard \gls{xgBoost} \citep{Ahmadi2024}. 
 
-\subsection{Tree Structure Optimization}
+\paragraph{Tree Structure Optimization}
 
 Each tree partitions the dataset into $T$ leaves. Let $I_j$ denote the set of samples assigned to leaf $j$. The optimal weight for leaf $j$ can be computed analytically as
 
@@ -107,7 +107,7 @@ Substituting this value into the objective yields the quality score of a tree st
 This formulation enables efficient evaluation of candidate splits during tree construction. The algorithm greedily searches for splits that maximize the reduction in the objective function, which corresponds to the improvement in model performance.
 
 
-\subsection{Computational Optimizations}
+\paragraph{Computational Optimizations}
 
 Beyond the algorithmic improvements, \gls{xgBoost} introduces several system-level optimizations that allow efficient training on large datasets. These include sparsity-aware tree learning, approximate split finding using quantile sketches, cache-aware memory access patterns, and distributed training capabilities \cite{Chen2016}.  These optimizations enable the algorithm to scale to billions of training examples while maintaining high predictive performance.Especially sparsity-aware tree learning is of interest for this thesis since the label i.e. the crystallization condition is highly irregular. The minority of all conditions specify a pH value, a precipitant, a buffer or a salt. Even less mention a concentration for all these chemicals. While missing data imputation is a common technique in machine learning it is bound to make assumptions of the dataset. 
 

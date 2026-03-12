@@ -2,68 +2,77 @@
 \contentsline {chapter}{Declaration of Authorship}{iii}{section*.1}%
 \contentsline {chapter}{Abstract}{v}{section*.2}%
 \contentsline {chapter}{Acknowledgements}{vii}{section*.3}%
-\contentsline {chapter}{Acronyms}{xv}{section*.7}%
-\contentsline {chapter}{\numberline {1}Decoding the Crystal Recipe: Predicting Protein Crystallization Conditions via Machine Learning}{1}{chapter.11}%
-\contentsline {section}{\numberline {1.1}Introduction}{1}{section.12}%
-\contentsline {section}{\numberline {1.2}Related Works}{2}{section.13}%
-\contentsline {subsection}{\numberline {1.2.1}Challenge of X-ray Crystallography}{2}{subsection.14}%
-\contentsline {subsection}{\numberline {1.2.2}Predicting Protein Crystallization}{2}{subsection.15}%
-\contentsline {subsection}{\numberline {1.2.3}Predicting Crystallization pH}{3}{subsection.16}%
-\contentsline {subsection}{\numberline {1.2.4}Predicting Crystallization Chemicals}{3}{subsection.17}%
-\contentsline {chapter}{\numberline {2}Background}{7}{chapter.18}%
-\contentsline {section}{\numberline {2.1}Protein Crystallization}{7}{section.19}%
-\contentsline {subsection}{\numberline {2.1.1}Crystal Growth}{7}{subsection.20}%
-\contentsline {subsection}{\numberline {2.1.2}Crystallization cocktails}{9}{subsection.22}%
-\contentsline {subsubsection}{\numberline {2.1.2.1}Organic precipitants}{10}{subsubsection.23}%
-\contentsline {subsubsection}{\numberline {2.1.2.2}Salts}{10}{subsubsection.24}%
-\contentsline {subsubsection}{\numberline {2.1.2.3}Buffers}{11}{subsubsection.25}%
-\contentsline {section}{\numberline {2.2}Machine Learning}{11}{section.26}%
-\contentsline {section}{\numberline {2.3}Neural Networks}{11}{section.27}%
-\contentsline {section}{\numberline {2.4}Extreme Gradient Boosting}{11}{section.28}%
-\contentsline {subsection}{\numberline {2.4.1}Gradient Boosting Framework}{11}{subsection.29}%
-\contentsline {subsection}{\numberline {2.4.2}Regularized Objective Function}{12}{subsection.30}%
-\contentsline {subsection}{\numberline {2.4.3}Second-Order Gradient Optimization}{13}{subsection.31}%
-\contentsline {subsection}{\numberline {2.4.4}Tree Structure Optimization}{13}{subsection.32}%
-\contentsline {subsection}{\numberline {2.4.5}Computational Optimizations}{14}{subsection.33}%
-\contentsline {section}{\numberline {2.5}Positive Unlabeled Learning}{14}{section.34}%
-\contentsline {chapter}{\numberline {3}Data}{15}{chapter.35}%
-\contentsline {section}{\numberline {3.1}The Protein database}{15}{section.36}%
-\contentsline {subsection}{\numberline {3.1.1}Acquisition}{15}{subsection.37}%
-\contentsline {subsection}{\numberline {3.1.2}Format}{15}{subsection.38}%
-\contentsline {subsection}{\numberline {3.1.3}Structure}{16}{subsection.39}%
-\contentsline {subsection}{\numberline {3.1.4}Description}{17}{subsection.41}%
-\contentsline {section}{\numberline {3.2}Details Parsing}{19}{section.45}%
-\contentsline {subsection}{\numberline {3.2.1}Pipeline}{20}{subsection.47}%
-\contentsline {subsection}{\numberline {3.2.2}Parsing Quality}{21}{subsection.48}%
-\contentsline {section}{\numberline {3.3}Data Analysis}{24}{section.52}%
-\contentsline {subsection}{\numberline {3.3.1}Univariate Analysis}{24}{subsection.53}%
-\contentsline {subsubsection}{\numberline {3.3.1.1}Protein features}{24}{subsubsection.54}%
-\contentsline {paragraph}{Sequence construction.}{24}{section*.55}%
-\contentsline {paragraph}{Justification of the representation.}{25}{section*.57}%
-\contentsline {subsubsection}{\numberline {3.3.1.2}Condition}{28}{subsubsection.62}%
-\contentsline {subsection}{\numberline {3.3.2}Multivariate Analysis}{33}{subsection.68}%
-\contentsline {section}{\numberline {3.4}CRIMS}{35}{section.72}%
-\contentsline {subsection}{\numberline {3.4.1}Data Acquisition}{36}{subsection.73}%
-\contentsline {subsection}{\numberline {3.4.2}Confirmation of protein crystals}{38}{subsection.75}%
-\contentsline {subsection}{\numberline {3.4.3}Data Analysis \& Quality assesment}{39}{subsection.77}%
-\contentsline {chapter}{\numberline {4}Methods}{41}{chapter.79}%
-\contentsline {section}{\numberline {4.1}Feature Engineering}{41}{section.80}%
-\contentsline {subsection}{\numberline {4.1.1}Sequence Information}{41}{subsection.81}%
-\contentsline {subsection}{\numberline {4.1.2}Sequence Embedding}{42}{subsection.82}%
-\contentsline {subsection}{\numberline {4.1.3}Surface Embedding}{44}{subsection.85}%
-\contentsline {subsection}{\numberline {4.1.4}Surface Information}{46}{subsection.88}%
-\contentsline {subsection}{\numberline {4.1.5}Structure Embedding}{47}{subsection.89}%
-\contentsline {subsection}{\numberline {4.1.6}Condition Embedding}{48}{subsection.91}%
-\contentsline {subsubsection}{\numberline {4.1.6.1}Feature vector}{49}{subsubsection.92}%
-\contentsline {subsubsection}{\numberline {4.1.6.2}Semantic representation}{50}{subsubsection.93}%
-\contentsline {section}{\numberline {4.2}Training}{52}{section.96}%
-\contentsline {subsection}{\numberline {4.2.1}Data split}{52}{subsection.97}%
-\contentsline {subsubsection}{\numberline {4.2.1.1}Protein-based trainings split}{52}{subsubsection.98}%
-\contentsline {subsubsection}{\numberline {4.2.1.2}Condition-based trainings split}{54}{subsubsection.99}%
-\contentsline {subsection}{\numberline {4.2.2}Hyperparameter Tuning}{55}{subsection.101}%
-\contentsline {subsection}{\numberline {4.2.3}Evaluation metrics}{56}{subsection.102}%
-\contentsline {chapter}{\numberline {5}Results}{57}{chapter.103}%
-\contentsline {chapter}{\numberline {6}Discussion}{59}{chapter.104}%
-\contentsline {chapter}{\numberline {A}Data Appendix}{61}{appendix.105}%
-\contentsline {chapter}{\numberline {B}Methods Appendix}{65}{appendix.110}%
-\contentsline {chapter}{Bibliography}{69}{appendix*.131}%
+\contentsline {chapter}{List of Acronyms}{xv}{section*.7}%
+\contentsline {chapter}{\numberline {1}Decoding the Crystal Recipe: Predicting Protein Crystallization Conditions via Machine Learning}{1}{chapter.10}%
+\contentsline {section}{\numberline {1.1}Introduction}{1}{section.11}%
+\contentsline {section}{\numberline {1.2}Related Works}{2}{section.12}%
+\contentsline {subsection}{\numberline {1.2.1}Challenge of X-ray Crystallography}{2}{subsection.13}%
+\contentsline {subsection}{\numberline {1.2.2}Predicting Protein Crystallization}{2}{subsection.14}%
+\contentsline {subsection}{\numberline {1.2.3}Predicting Crystallization pH}{3}{subsection.15}%
+\contentsline {subsection}{\numberline {1.2.4}Predicting Crystallization Chemicals}{3}{subsection.16}%
+\contentsline {chapter}{\numberline {2}Background}{7}{chapter.17}%
+\contentsline {section}{\numberline {2.1}Protein Crystallization}{7}{section.18}%
+\contentsline {subsection}{\numberline {2.1.1}Crystal Growth}{7}{subsection.19}%
+\contentsline {subsection}{\numberline {2.1.2}Crystallization cocktails}{9}{subsection.21}%
+\contentsline {paragraph}{Organic precipitants}{10}{section*.22}%
+\contentsline {paragraph}{Salts}{10}{section*.23}%
+\contentsline {paragraph}{Buffers}{11}{section*.24}%
+\contentsline {section}{\numberline {2.2}Machine Learning}{11}{section.25}%
+\contentsline {subsection}{\numberline {2.2.1}Learning paradigms}{11}{subsection.26}%
+\contentsline {paragraph}{Supervised Learning}{11}{section*.27}%
+\contentsline {paragraph}{Positive-Unlabeled Learning}{12}{section*.28}%
+\contentsline {subsection}{\numberline {2.2.2}Extreme Gradient Boosting}{13}{subsection.29}%
+\contentsline {paragraph}{Gradient Boosting Framework}{13}{section*.30}%
+\contentsline {paragraph}{Regularized Objective Function}{14}{section*.31}%
+\contentsline {paragraph}{Second-Order Gradient Optimization}{14}{section*.32}%
+\contentsline {paragraph}{Tree Structure Optimization}{15}{section*.33}%
+\contentsline {paragraph}{Computational Optimizations}{15}{section*.34}%
+\contentsline {chapter}{\numberline {3}Data}{17}{chapter.35}%
+\contentsline {section}{\numberline {3.1}The Protein database}{17}{section.36}%
+\contentsline {subsection}{\numberline {3.1.1}Acquisition}{17}{subsection.37}%
+\contentsline {subsection}{\numberline {3.1.2}Format}{17}{subsection.38}%
+\contentsline {subsection}{\numberline {3.1.3}Structure}{18}{subsection.39}%
+\contentsline {subsection}{\numberline {3.1.4}Description}{19}{subsection.41}%
+\contentsline {section}{\numberline {3.2}Details Parsing}{21}{section.45}%
+\contentsline {subsection}{\numberline {3.2.1}Pipeline}{22}{subsection.47}%
+\contentsline {subsection}{\numberline {3.2.2}Parsing Quality}{23}{subsection.48}%
+\contentsline {section}{\numberline {3.3}Data Analysis}{26}{section.52}%
+\contentsline {subsection}{\numberline {3.3.1}Univariate Analysis}{26}{subsection.53}%
+\contentsline {subsubsection}{\numberline {3.3.1.1}Protein features}{26}{subsubsection.54}%
+\contentsline {paragraph}{Sequence construction.}{26}{section*.55}%
+\contentsline {paragraph}{Justification of the representation.}{27}{section*.57}%
+\contentsline {subsubsection}{\numberline {3.3.1.2}Condition}{30}{subsubsection.62}%
+\contentsline {subsection}{\numberline {3.3.2}Multivariate Analysis}{35}{subsection.68}%
+\contentsline {section}{\numberline {3.4}Crystallization Information Management System}{37}{section.72}%
+\contentsline {subsection}{\numberline {3.4.1}Data Acquisition}{38}{subsection.73}%
+\contentsline {subsection}{\numberline {3.4.2}Confirmation of protein crystals}{40}{subsection.75}%
+\contentsline {subsection}{\numberline {3.4.3}Data Analysis \& Quality assessment}{41}{subsection.77}%
+\contentsline {chapter}{\numberline {4}Methods}{43}{chapter.79}%
+\contentsline {section}{\numberline {4.1}Feature Engineering}{43}{section.80}%
+\contentsline {subsection}{\numberline {4.1.1}Sequence Information}{43}{subsection.81}%
+\contentsline {subsection}{\numberline {4.1.2}Sequence Embedding}{44}{subsection.82}%
+\contentsline {subsection}{\numberline {4.1.3}Surface Embedding}{46}{subsection.85}%
+\contentsline {subsection}{\numberline {4.1.4}Surface Information}{48}{subsection.88}%
+\contentsline {subsection}{\numberline {4.1.5}Structure Embedding}{49}{subsection.89}%
+\contentsline {subsection}{\numberline {4.1.6}Condition Embedding}{50}{subsection.91}%
+\contentsline {subsubsection}{\numberline {4.1.6.1}Feature vector}{51}{subsubsection.92}%
+\contentsline {subsubsection}{\numberline {4.1.6.2}Semantic representation}{52}{subsubsection.93}%
+\contentsline {section}{\numberline {4.2}Training}{54}{section.96}%
+\contentsline {subsection}{\numberline {4.2.1}Data split}{54}{subsection.97}%
+\contentsline {subsubsection}{\numberline {4.2.1.1}Protein-based trainings split}{54}{subsubsection.98}%
+\contentsline {subsubsection}{\numberline {4.2.1.2}Condition-based trainings split}{56}{subsubsection.99}%
+\contentsline {subsection}{\numberline {4.2.2}Hyperparameter Tuning}{57}{subsection.101}%
+\contentsline {subsection}{\numberline {4.2.3}Evaluation Metrics}{58}{subsection.102}%
+\contentsline {paragraph}{Confusion Matrix}{59}{section*.103}%
+\contentsline {paragraph}{Recall (Sensitivity)}{59}{section*.104}%
+\contentsline {paragraph}{Accuracy}{60}{section*.106}%
+\contentsline {paragraph}{Balanced Accuracy}{60}{section*.108}%
+\contentsline {paragraph}{Precision}{60}{section*.110}%
+\contentsline {paragraph}{F1 Score}{60}{section*.112}%
+\contentsline {paragraph}{Threshold Analysis}{60}{section*.114}%
+\contentsline {paragraph}{Recall–Specificity Trade-off}{60}{section*.115}%
+\contentsline {chapter}{\numberline {5}Results}{63}{chapter.116}%
+\contentsline {chapter}{\numberline {6}Discussion}{65}{chapter.117}%
+\contentsline {chapter}{\numberline {A}Data Appendix}{67}{appendix.118}%
+\contentsline {chapter}{\numberline {B}Methods Appendix}{71}{appendix.123}%
+\contentsline {chapter}{Bibliography}{75}{appendix*.144}%

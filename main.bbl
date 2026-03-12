@@ -2368,6 +2368,48 @@
       \field{pages}{i24\bibrangedash i33}
       \range{pages}{-1}
     \endentry
+    \entry{Mohri2018}{book}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=8298c87c77cd46a5b2b7e799ba087945}{%
+           family={Mohri},
+           familyi={M\bibinitperiod},
+           given={Mehryar},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7aef26bccf2dba53f4b3c49adfb2983e}{%
+           family={Rostamizadeh},
+           familyi={R\bibinitperiod},
+           given={Afshin},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=70e0fe957473b80f1b1b5dcb8e99d31e}{%
+           family={Talwalkar},
+           familyi={T\bibinitperiod},
+           given={Ameet},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MIT press}%
+      }
+      \strng{namehash}{ef4abc05345f1a2c0e80aa006bf900e9}
+      \strng{fullhash}{79f7790e383ae556514d27a942686512}
+      \strng{fullhashraw}{79f7790e383ae556514d27a942686512}
+      \strng{bibnamehash}{79f7790e383ae556514d27a942686512}
+      \strng{authorbibnamehash}{79f7790e383ae556514d27a942686512}
+      \strng{authornamehash}{ef4abc05345f1a2c0e80aa006bf900e9}
+      \strng{authorfullhash}{79f7790e383ae556514d27a942686512}
+      \strng{authorfullhashraw}{79f7790e383ae556514d27a942686512}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Foundations of machine learning}
+      \field{year}{2018}
+    \endentry
     \entry{Morgan1965}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=9b343445001ebcd12c6b854bc583be8b}{%
@@ -6125,6 +6167,48 @@
       \field{year}{2011}
       \field{pages}{i24\bibrangedash i33}
       \range{pages}{-1}
+    \endentry
+    \entry{Mohri2018}{book}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=8298c87c77cd46a5b2b7e799ba087945}{%
+           family={Mohri},
+           familyi={M\bibinitperiod},
+           given={Mehryar},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7aef26bccf2dba53f4b3c49adfb2983e}{%
+           family={Rostamizadeh},
+           familyi={R\bibinitperiod},
+           given={Afshin},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=70e0fe957473b80f1b1b5dcb8e99d31e}{%
+           family={Talwalkar},
+           familyi={T\bibinitperiod},
+           given={Ameet},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MIT press}%
+      }
+      \strng{namehash}{ef4abc05345f1a2c0e80aa006bf900e9}
+      \strng{fullhash}{79f7790e383ae556514d27a942686512}
+      \strng{fullhashraw}{79f7790e383ae556514d27a942686512}
+      \strng{bibnamehash}{79f7790e383ae556514d27a942686512}
+      \strng{authorbibnamehash}{79f7790e383ae556514d27a942686512}
+      \strng{authornamehash}{ef4abc05345f1a2c0e80aa006bf900e9}
+      \strng{authorfullhash}{79f7790e383ae556514d27a942686512}
+      \strng{authorfullhashraw}{79f7790e383ae556514d27a942686512}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Foundations of machine learning}
+      \field{year}{2018}
     \endentry
     \entry{Morgan1965}{article}{}{}
       \name{author}{1}{}{%

@@ -340,6 +340,66 @@
       \verb 10.1007/s40828-018-0064-1
       \endverb
     \endentry
+    \entry{Burley1985}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b52f41f632631427544db40d604b6e44}{%
+           family={Burley},
+           familyi={B\bibinitperiod},
+           given={S.\bibnamedelimi K.},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f20953640d94541cefbd4c28739069e2}{%
+           family={Petsko},
+           familyi={P\bibinitperiod},
+           given={G.\bibnamedelimi A.},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Association for the Advancement of Science}%
+      }
+      \strng{namehash}{9089c99c904c3d12884912c65b9c862f}
+      \strng{fullhash}{9089c99c904c3d12884912c65b9c862f}
+      \strng{fullhashraw}{9089c99c904c3d12884912c65b9c862f}
+      \strng{bibnamehash}{9089c99c904c3d12884912c65b9c862f}
+      \strng{authorbibnamehash}{9089c99c904c3d12884912c65b9c862f}
+      \strng{authornamehash}{9089c99c904c3d12884912c65b9c862f}
+      \strng{authorfullhash}{9089c99c904c3d12884912c65b9c862f}
+      \strng{authorfullhashraw}{9089c99c904c3d12884912c65b9c862f}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Analysis of neighboring aromatic groups in four biphenyl peptides or peptide analogs and 34 proteins reveals a specific aromatic-aromatic interaction. Aromatic pairs ({<} 7 Å between phenyl ring centroids) were analyzed for the frequency of pair type, their interaction geometry (separation and dihedral angle), their nonbonded interaction energy, the secondary structural locations of interacting residues, their environment, and their conservation in related molecules. The results indicate that on average about 60 percent of aromatic side chains in proteins are involved in aromatic pairs, 80 percent of which form networks of three or more interacting aromatic side chains. Phenyl ring centroids are separated by a preferential distance of between 4.5 and 7 Å, and dihedral angles approaching 90° are most common. Nonbonded potential energy calculations indicate that a typical aromatic-aromatic interaction has an energy of between -1 and -2 kilocalories per mole. The free energy contribution of the interaction depends on the environment of the aromatic pair. Buried or partially buried pairs constitute 80 percent of the surveyed sample and contribute a free energy of between -0.6 and -1.3 kilocalories per mole to the stability of the protein's structure at physiologic temperature. Of the proteins surveyed, 80 percent of these energetically favorable interactions stabilize tertiary structure, and 20 percent stabilize quaternary structure. Conservation of the interaction in related molecules is particularly striking.}
+      \field{journaltitle}{Science}
+      \field{month}{7}
+      \field{number}{4708}
+      \field{shorttitle}{Aromatic-{Aromatic} {Interaction}}
+      \field{title}{Aromatic-{Aromatic} {Interaction}: {A} {Mechanism} of {Protein} {Structure} {Stabilization}}
+      \field{urlday}{10}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{229}
+      \field{year}{1985}
+      \field{urldateera}{ce}
+      \field{pages}{23\bibrangedash 28}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1126/science.3892686
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:https\://www.science.org/doi/pdf/10.1126/science.3892686:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.science.org/doi/10.1126/science.3892686
+      \endverb
+      \verb{url}
+      \verb https://www.science.org/doi/10.1126/science.3892686
+      \endverb
+    \endentry
     \entry{Campello2013}{inbook}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=382d8e986b9afdbfedb661be5cf9ce33}{%
@@ -608,6 +668,54 @@
       \verb https://doi.org/10.1007/s10969-009-9076-9
       \endverb
       \keyw{Image analysis,High-throughput protein crystallization}
+    \endentry
+    \entry{Derewenda2006}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=a118ed06a84e8aae2b487bc3d57dae81}{%
+           family={Derewenda},
+           familyi={D\bibinitperiod},
+           given={Zygmunt\bibnamedelima S.},
+           giveni={Z\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e41af71cc89877ded0aefd6681910883}{%
+           family={Vekilov},
+           familyi={V\bibinitperiod},
+           given={Peter\bibnamedelima G.},
+           giveni={P\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \strng{namehash}{5d7852585b4f8cd4610a3f7184be38b4}
+      \strng{fullhash}{5d7852585b4f8cd4610a3f7184be38b4}
+      \strng{fullhashraw}{5d7852585b4f8cd4610a3f7184be38b4}
+      \strng{bibnamehash}{5d7852585b4f8cd4610a3f7184be38b4}
+      \strng{authorbibnamehash}{5d7852585b4f8cd4610a3f7184be38b4}
+      \strng{authornamehash}{5d7852585b4f8cd4610a3f7184be38b4}
+      \strng{authorfullhash}{5d7852585b4f8cd4610a3f7184be38b4}
+      \strng{authorfullhashraw}{5d7852585b4f8cd4610a3f7184be38b4}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Protein crystallization remains a key limiting step in the characterization of the atomic structures of proteins and their complexes by X-ray diffraction methods. Current data indicate that standard screening procedures applied to soluble well folded prokaryotic proteins yield X-ray diffraction crystals with an approximately 20\% success rate and for eukaryotic proteins this figure may be significantly lower. Protein crystallization is predominantly dependent on entropic effects and the driving force appears to be the release of ordered water from the sites of crystal contacts. This is countered by the entropic cost of ordering of protein molecules and by the loss of conformational freedom of side chains involved in the crystal contacts. Mutational surface engineering designed to create patches with low conformational entropy and thereby conducive to formation of crystal contacts promises to be an effective tool allowing direct enhancement of the success rate of macromolecular crystallization.}
+      \field{issn}{0907-4449}
+      \field{journaltitle}{Acta Crystallographica. Section D, Biological Crystallography}
+      \field{month}{1}
+      \field{number}{Pt 1}
+      \field{title}{Entropy and surface engineering in protein crystallization}
+      \field{volume}{62}
+      \field{year}{2006}
+      \field{pages}{116\bibrangedash 124}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1107/S0907444905035237
+      \endverb
+      \keyw{Crystallization,Crystallography,X-Ray,Entropy,Mutation,Protein Engineering,Protein Structure,Tertiary,Proteins,Thermodynamics}
     \endentry
     \entry{Desbois2013}{article}{}{}
       \name{author}{3}{}{%
@@ -1676,6 +1784,73 @@
       \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4410668/
       \endverb
     \endentry
+    \entry{Kramer2012}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=c915e65c47d81581defb481e7a162473}{%
+           family={Kramer},
+           familyi={K\bibinitperiod},
+           given={Ryan\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fe388af2e4df269ca3b1369463e5457d}{%
+           family={Shende},
+           familyi={S\bibinitperiod},
+           given={Varad\bibnamedelima R.},
+           giveni={V\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1fdfe9f2c50c2757f91dec8f04c627b7}{%
+           family={Motl},
+           familyi={M\bibinitperiod},
+           given={Nicole},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1e14a79972bf64d8fbfc25439a06061b}{%
+           family={Pace},
+           familyi={P\bibinitperiod},
+           given={C.\bibnamedelimi Nick},
+           giveni={C\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a01e8744b94719e64a8b7f5f923f5722}{%
+           family={Scholtz},
+           familyi={S\bibinitperiod},
+           given={J.\bibnamedelimi Martin},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \strng{namehash}{2b096cbee72f8de6fda0c977c02ce9a3}
+      \strng{fullhash}{534ca81e22006b955c3a93bfc27e474a}
+      \strng{fullhashraw}{534ca81e22006b955c3a93bfc27e474a}
+      \strng{bibnamehash}{534ca81e22006b955c3a93bfc27e474a}
+      \strng{authorbibnamehash}{534ca81e22006b955c3a93bfc27e474a}
+      \strng{authornamehash}{2b096cbee72f8de6fda0c977c02ce9a3}
+      \strng{authorfullhash}{534ca81e22006b955c3a93bfc27e474a}
+      \strng{authorfullhashraw}{534ca81e22006b955c3a93bfc27e474a}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Protein solubility is a problem for many protein chemists, including structural biologists and developers of protein pharmaceuticals. Knowledge about how intrinsic factors influence solubility is limited due to the difficulty of obtaining quantitative solubility measurements. Solubility measurements in buffer alone are difficult to reproduce, because gels or supersaturated solutions often form, making it impossible to determine solubility values for many proteins. Protein precipitants can be used to obtain comparative solubility measurements and, in some cases, estimations of solubility in buffer alone. Protein precipitants fall into three broad classes: salts, long-chain polymers, and organic solvents. Here, we compare the use of representatives from two classes of precipitants, ammonium sulfate and polyethylene glycol 8000, by measuring the solubility of seven proteins. We find that increased negative surface charge correlates strongly with increased protein solubility and may be due to strong binding of water by the acidic amino acids. We also find that the solubility results obtained for the two different precipitants agree closely with each other, suggesting that the two precipitants probe similar properties that are relevant to solubility in buffer alone.}
+      \field{issn}{1542-0086}
+      \field{journaltitle}{Biophysical Journal}
+      \field{month}{4}
+      \field{number}{8}
+      \field{shorttitle}{Toward a molecular understanding of protein solubility}
+      \field{title}{Toward a molecular understanding of protein solubility: increased negative surface charge correlates with increased solubility}
+      \field{volume}{102}
+      \field{year}{2012}
+      \field{pages}{1907\bibrangedash 1915}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/j.bpj.2012.01.060
+      \endverb
+      \keyw{Ammonium Sulfate,Animals,Humans,Polyethylene Glycols,Protein Stability,Proteins,Solubility,Surface Properties}
+    \endentry
     \entry{Kurgan2009}{article}{}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=50f361a43b3ea2f367585851e0268c9e}{%
@@ -2193,6 +2368,48 @@
       \field{pages}{i24\bibrangedash i33}
       \range{pages}{-1}
     \endentry
+    \entry{Mohri2018}{book}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=8298c87c77cd46a5b2b7e799ba087945}{%
+           family={Mohri},
+           familyi={M\bibinitperiod},
+           given={Mehryar},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7aef26bccf2dba53f4b3c49adfb2983e}{%
+           family={Rostamizadeh},
+           familyi={R\bibinitperiod},
+           given={Afshin},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=70e0fe957473b80f1b1b5dcb8e99d31e}{%
+           family={Talwalkar},
+           familyi={T\bibinitperiod},
+           given={Ameet},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MIT press}%
+      }
+      \strng{namehash}{ef4abc05345f1a2c0e80aa006bf900e9}
+      \strng{fullhash}{79f7790e383ae556514d27a942686512}
+      \strng{fullhashraw}{79f7790e383ae556514d27a942686512}
+      \strng{bibnamehash}{79f7790e383ae556514d27a942686512}
+      \strng{authorbibnamehash}{79f7790e383ae556514d27a942686512}
+      \strng{authornamehash}{ef4abc05345f1a2c0e80aa006bf900e9}
+      \strng{authorfullhash}{79f7790e383ae556514d27a942686512}
+      \strng{authorfullhashraw}{79f7790e383ae556514d27a942686512}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Foundations of machine learning}
+      \field{year}{2018}
+    \endentry
     \entry{Morgan1965}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=9b343445001ebcd12c6b854bc583be8b}{%
@@ -2430,6 +2647,184 @@
       \verb 10.1107/S0907444905033202
       \endverb
       \keyw{Ammonium Sulfate,Crystallization,Crystallography,X-Ray,Database Management Systems,Databases,Factual,Databases,Protein,Polyethylene Glycols,Terminology as Topic}
+    \endentry
+    \entry{PriceII2009}{article}{}{}
+      \name{author}{21}{}{%
+        {{un=0,uniquepart=base,hash=42e5c32b0daea0eecc8b8db4c2bd5718}{%
+           family={Price\bibnamedelima II},
+           familyi={P\bibinitperiod\bibinitdelim I\bibinitperiod},
+           given={W.\bibnamedelimi Nicholson},
+           giveni={W\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f532a47a63f16b583c4455dea6a8018e}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yang},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=546f732faf8ac1724799247ea5a3266f}{%
+           family={Handelman},
+           familyi={H\bibinitperiod},
+           given={Samuel\bibnamedelima K.},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b37b74633d4c75da695aa9fdbfa24fbe}{%
+           family={Neely},
+           familyi={N\bibinitperiod},
+           given={Helen},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=30a0fb1864f6aa52ffb3766d6656b4d3}{%
+           family={Manor},
+           familyi={M\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=38f0889dc7c0a2730cade179916df28d}{%
+           family={Karlin},
+           familyi={K\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=55aa97c81c852adaaab171536f66fd12}{%
+           family={Nair},
+           familyi={N\bibinitperiod},
+           given={Rajesh},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b9b82cebc2f44820a25db204aead0230}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Jinfeng},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=63b2348ec12a3c3afb946921fc60ae3d}{%
+           family={Baran},
+           familyi={B\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=562b8dae3c07b17cb29dca7d568cdf20}{%
+           family={Everett},
+           familyi={E\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c49560711490f278fa9209e098361217}{%
+           family={Tong},
+           familyi={T\bibinitperiod},
+           given={Saichiu\bibnamedelima N.},
+           giveni={S\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e3a9f37d3655daf8061ee755cfea7cad}{%
+           family={Forouhar},
+           familyi={F\bibinitperiod},
+           given={Farhad},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bfffa950fa32a33abbd1f3439abd08c9}{%
+           family={Swaminathan},
+           familyi={S\bibinitperiod},
+           given={Swarup\bibnamedelima S.},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=50415f89d8475fae2a0d803213206af6}{%
+           family={Acton},
+           familyi={A\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3dabe604f7bcef0efd427908d13517c5}{%
+           family={Xiao},
+           familyi={X\bibinitperiod},
+           given={Rong},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ff6d7dde662a4ae0518f061c6aed0fe6}{%
+           family={Luft},
+           familyi={L\bibinitperiod},
+           given={Joseph\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=737f6539a5e6f4bfb2cc9b3c453d5c9d}{%
+           family={Lauricella},
+           familyi={L\bibinitperiod},
+           given={Angela},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ce3262dff8e8ca6ac47f068463666306}{%
+           family={DeTitta},
+           familyi={D\bibinitperiod},
+           given={George\bibnamedelima T.},
+           giveni={G\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=66106370d9aa16054179da646f7df55c}{%
+           family={Rost},
+           familyi={R\bibinitperiod},
+           given={Burkhard},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=99bc06a86f3ba8ce3ff3ff29d76dcbcd}{%
+           family={Montelione},
+           familyi={M\bibinitperiod},
+           given={Gaetano\bibnamedelima T.},
+           giveni={G\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4b8e602f3e0b155081d26bdf4d3e2871}{%
+           family={Hunt},
+           familyi={H\bibinitperiod},
+           given={John\bibnamedelima F.},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{2fccb694658a74c54b905d6d3cf60bf9}
+      \strng{fullhash}{84e885c28fefb545d2889be4d4192829}
+      \strng{fullhashraw}{84e885c28fefb545d2889be4d4192829}
+      \strng{bibnamehash}{bef39471717eb0d0357c475e4d867107}
+      \strng{authorbibnamehash}{bef39471717eb0d0357c475e4d867107}
+      \strng{authornamehash}{2fccb694658a74c54b905d6d3cf60bf9}
+      \strng{authorfullhash}{84e885c28fefb545d2889be4d4192829}
+      \strng{authorfullhashraw}{84e885c28fefb545d2889be4d4192829}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The physical properties that determine the propensity of a protein to form a well-ordered crystal suitable for structure determination are poorly understood. An analysis of large-scale crystallization results generated by a structural genomics consortium highlights the importance of low-entropy surface features capable of mediating protein-protein interactions.}
+      \field{issn}{1546-1696}
+      \field{journaltitle}{Nature Biotechnology}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Understanding the physical properties that control protein crystallization by analysis of large-scale experimental data}
+      \field{urlday}{10}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{27}
+      \field{year}{2009}
+      \field{urldateera}{ce}
+      \field{pages}{51\bibrangedash 57}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1038/nbt.1514
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:PriceII2009 - Understanding the Physical Properties That Control Protein Crystallization by Analysis of Large Scale Experimental Data.pdf:PDF:https\://www.nature.com/articles/nbt.1514.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/nbt.1514
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/nbt.1514
+      \endverb
+      \keyw{Life Sciences,general,Biotechnology,Biomedicine,general,Agriculture,Biomedical Engineering/Biotechnology,Bioinformatics}
     \endentry
     \entry{Rives2021}{article}{}{}
       \name{author}{11}{}{%
@@ -3745,6 +4140,66 @@
       \verb 10.1007/s40828-018-0064-1
       \endverb
     \endentry
+    \entry{Burley1985}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b52f41f632631427544db40d604b6e44}{%
+           family={Burley},
+           familyi={B\bibinitperiod},
+           given={S.\bibnamedelimi K.},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f20953640d94541cefbd4c28739069e2}{%
+           family={Petsko},
+           familyi={P\bibinitperiod},
+           given={G.\bibnamedelimi A.},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Association for the Advancement of Science}%
+      }
+      \strng{namehash}{9089c99c904c3d12884912c65b9c862f}
+      \strng{fullhash}{9089c99c904c3d12884912c65b9c862f}
+      \strng{fullhashraw}{9089c99c904c3d12884912c65b9c862f}
+      \strng{bibnamehash}{9089c99c904c3d12884912c65b9c862f}
+      \strng{authorbibnamehash}{9089c99c904c3d12884912c65b9c862f}
+      \strng{authornamehash}{9089c99c904c3d12884912c65b9c862f}
+      \strng{authorfullhash}{9089c99c904c3d12884912c65b9c862f}
+      \strng{authorfullhashraw}{9089c99c904c3d12884912c65b9c862f}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Analysis of neighboring aromatic groups in four biphenyl peptides or peptide analogs and 34 proteins reveals a specific aromatic-aromatic interaction. Aromatic pairs ({<} 7 Å between phenyl ring centroids) were analyzed for the frequency of pair type, their interaction geometry (separation and dihedral angle), their nonbonded interaction energy, the secondary structural locations of interacting residues, their environment, and their conservation in related molecules. The results indicate that on average about 60 percent of aromatic side chains in proteins are involved in aromatic pairs, 80 percent of which form networks of three or more interacting aromatic side chains. Phenyl ring centroids are separated by a preferential distance of between 4.5 and 7 Å, and dihedral angles approaching 90° are most common. Nonbonded potential energy calculations indicate that a typical aromatic-aromatic interaction has an energy of between -1 and -2 kilocalories per mole. The free energy contribution of the interaction depends on the environment of the aromatic pair. Buried or partially buried pairs constitute 80 percent of the surveyed sample and contribute a free energy of between -0.6 and -1.3 kilocalories per mole to the stability of the protein's structure at physiologic temperature. Of the proteins surveyed, 80 percent of these energetically favorable interactions stabilize tertiary structure, and 20 percent stabilize quaternary structure. Conservation of the interaction in related molecules is particularly striking.}
+      \field{journaltitle}{Science}
+      \field{month}{7}
+      \field{number}{4708}
+      \field{shorttitle}{Aromatic-{Aromatic} {Interaction}}
+      \field{title}{Aromatic-{Aromatic} {Interaction}: {A} {Mechanism} of {Protein} {Structure} {Stabilization}}
+      \field{urlday}{10}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{229}
+      \field{year}{1985}
+      \field{urldateera}{ce}
+      \field{pages}{23\bibrangedash 28}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1126/science.3892686
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:https\://www.science.org/doi/pdf/10.1126/science.3892686:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.science.org/doi/10.1126/science.3892686
+      \endverb
+      \verb{url}
+      \verb https://www.science.org/doi/10.1126/science.3892686
+      \endverb
+    \endentry
     \entry{Campello2013}{inbook}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=382d8e986b9afdbfedb661be5cf9ce33}{%
@@ -4013,6 +4468,54 @@
       \verb https://doi.org/10.1007/s10969-009-9076-9
       \endverb
       \keyw{Image analysis,High-throughput protein crystallization}
+    \endentry
+    \entry{Derewenda2006}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=a118ed06a84e8aae2b487bc3d57dae81}{%
+           family={Derewenda},
+           familyi={D\bibinitperiod},
+           given={Zygmunt\bibnamedelima S.},
+           giveni={Z\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e41af71cc89877ded0aefd6681910883}{%
+           family={Vekilov},
+           familyi={V\bibinitperiod},
+           given={Peter\bibnamedelima G.},
+           giveni={P\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \strng{namehash}{5d7852585b4f8cd4610a3f7184be38b4}
+      \strng{fullhash}{5d7852585b4f8cd4610a3f7184be38b4}
+      \strng{fullhashraw}{5d7852585b4f8cd4610a3f7184be38b4}
+      \strng{bibnamehash}{5d7852585b4f8cd4610a3f7184be38b4}
+      \strng{authorbibnamehash}{5d7852585b4f8cd4610a3f7184be38b4}
+      \strng{authornamehash}{5d7852585b4f8cd4610a3f7184be38b4}
+      \strng{authorfullhash}{5d7852585b4f8cd4610a3f7184be38b4}
+      \strng{authorfullhashraw}{5d7852585b4f8cd4610a3f7184be38b4}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Protein crystallization remains a key limiting step in the characterization of the atomic structures of proteins and their complexes by X-ray diffraction methods. Current data indicate that standard screening procedures applied to soluble well folded prokaryotic proteins yield X-ray diffraction crystals with an approximately 20\% success rate and for eukaryotic proteins this figure may be significantly lower. Protein crystallization is predominantly dependent on entropic effects and the driving force appears to be the release of ordered water from the sites of crystal contacts. This is countered by the entropic cost of ordering of protein molecules and by the loss of conformational freedom of side chains involved in the crystal contacts. Mutational surface engineering designed to create patches with low conformational entropy and thereby conducive to formation of crystal contacts promises to be an effective tool allowing direct enhancement of the success rate of macromolecular crystallization.}
+      \field{issn}{0907-4449}
+      \field{journaltitle}{Acta Crystallographica. Section D, Biological Crystallography}
+      \field{month}{1}
+      \field{number}{Pt 1}
+      \field{title}{Entropy and surface engineering in protein crystallization}
+      \field{volume}{62}
+      \field{year}{2006}
+      \field{pages}{116\bibrangedash 124}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1107/S0907444905035237
+      \endverb
+      \keyw{Crystallization,Crystallography,X-Ray,Entropy,Mutation,Protein Engineering,Protein Structure,Tertiary,Proteins,Thermodynamics}
     \endentry
     \entry{Desbois2013}{article}{}{}
       \name{author}{3}{}{%
@@ -5081,6 +5584,73 @@
       \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4410668/
       \endverb
     \endentry
+    \entry{Kramer2012}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=c915e65c47d81581defb481e7a162473}{%
+           family={Kramer},
+           familyi={K\bibinitperiod},
+           given={Ryan\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fe388af2e4df269ca3b1369463e5457d}{%
+           family={Shende},
+           familyi={S\bibinitperiod},
+           given={Varad\bibnamedelima R.},
+           giveni={V\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1fdfe9f2c50c2757f91dec8f04c627b7}{%
+           family={Motl},
+           familyi={M\bibinitperiod},
+           given={Nicole},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1e14a79972bf64d8fbfc25439a06061b}{%
+           family={Pace},
+           familyi={P\bibinitperiod},
+           given={C.\bibnamedelimi Nick},
+           giveni={C\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a01e8744b94719e64a8b7f5f923f5722}{%
+           family={Scholtz},
+           familyi={S\bibinitperiod},
+           given={J.\bibnamedelimi Martin},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \strng{namehash}{2b096cbee72f8de6fda0c977c02ce9a3}
+      \strng{fullhash}{534ca81e22006b955c3a93bfc27e474a}
+      \strng{fullhashraw}{534ca81e22006b955c3a93bfc27e474a}
+      \strng{bibnamehash}{534ca81e22006b955c3a93bfc27e474a}
+      \strng{authorbibnamehash}{534ca81e22006b955c3a93bfc27e474a}
+      \strng{authornamehash}{2b096cbee72f8de6fda0c977c02ce9a3}
+      \strng{authorfullhash}{534ca81e22006b955c3a93bfc27e474a}
+      \strng{authorfullhashraw}{534ca81e22006b955c3a93bfc27e474a}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Protein solubility is a problem for many protein chemists, including structural biologists and developers of protein pharmaceuticals. Knowledge about how intrinsic factors influence solubility is limited due to the difficulty of obtaining quantitative solubility measurements. Solubility measurements in buffer alone are difficult to reproduce, because gels or supersaturated solutions often form, making it impossible to determine solubility values for many proteins. Protein precipitants can be used to obtain comparative solubility measurements and, in some cases, estimations of solubility in buffer alone. Protein precipitants fall into three broad classes: salts, long-chain polymers, and organic solvents. Here, we compare the use of representatives from two classes of precipitants, ammonium sulfate and polyethylene glycol 8000, by measuring the solubility of seven proteins. We find that increased negative surface charge correlates strongly with increased protein solubility and may be due to strong binding of water by the acidic amino acids. We also find that the solubility results obtained for the two different precipitants agree closely with each other, suggesting that the two precipitants probe similar properties that are relevant to solubility in buffer alone.}
+      \field{issn}{1542-0086}
+      \field{journaltitle}{Biophysical Journal}
+      \field{month}{4}
+      \field{number}{8}
+      \field{shorttitle}{Toward a molecular understanding of protein solubility}
+      \field{title}{Toward a molecular understanding of protein solubility: increased negative surface charge correlates with increased solubility}
+      \field{volume}{102}
+      \field{year}{2012}
+      \field{pages}{1907\bibrangedash 1915}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/j.bpj.2012.01.060
+      \endverb
+      \keyw{Ammonium Sulfate,Animals,Humans,Polyethylene Glycols,Protein Stability,Proteins,Solubility,Surface Properties}
+    \endentry
     \entry{Kurgan2009}{article}{}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=50f361a43b3ea2f367585851e0268c9e}{%
@@ -5598,6 +6168,48 @@
       \field{pages}{i24\bibrangedash i33}
       \range{pages}{-1}
     \endentry
+    \entry{Mohri2018}{book}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=8298c87c77cd46a5b2b7e799ba087945}{%
+           family={Mohri},
+           familyi={M\bibinitperiod},
+           given={Mehryar},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7aef26bccf2dba53f4b3c49adfb2983e}{%
+           family={Rostamizadeh},
+           familyi={R\bibinitperiod},
+           given={Afshin},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=70e0fe957473b80f1b1b5dcb8e99d31e}{%
+           family={Talwalkar},
+           familyi={T\bibinitperiod},
+           given={Ameet},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MIT press}%
+      }
+      \strng{namehash}{ef4abc05345f1a2c0e80aa006bf900e9}
+      \strng{fullhash}{79f7790e383ae556514d27a942686512}
+      \strng{fullhashraw}{79f7790e383ae556514d27a942686512}
+      \strng{bibnamehash}{79f7790e383ae556514d27a942686512}
+      \strng{authorbibnamehash}{79f7790e383ae556514d27a942686512}
+      \strng{authornamehash}{ef4abc05345f1a2c0e80aa006bf900e9}
+      \strng{authorfullhash}{79f7790e383ae556514d27a942686512}
+      \strng{authorfullhashraw}{79f7790e383ae556514d27a942686512}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Foundations of machine learning}
+      \field{year}{2018}
+    \endentry
     \entry{Morgan1965}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=9b343445001ebcd12c6b854bc583be8b}{%
@@ -5835,6 +6447,184 @@
       \verb 10.1107/S0907444905033202
       \endverb
       \keyw{Ammonium Sulfate,Crystallization,Crystallography,X-Ray,Database Management Systems,Databases,Factual,Databases,Protein,Polyethylene Glycols,Terminology as Topic}
+    \endentry
+    \entry{PriceII2009}{article}{}{}
+      \name{author}{21}{}{%
+        {{un=0,uniquepart=base,hash=42e5c32b0daea0eecc8b8db4c2bd5718}{%
+           family={Price\bibnamedelima II},
+           familyi={P\bibinitperiod\bibinitdelim I\bibinitperiod},
+           given={W.\bibnamedelimi Nicholson},
+           giveni={W\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f532a47a63f16b583c4455dea6a8018e}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yang},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=546f732faf8ac1724799247ea5a3266f}{%
+           family={Handelman},
+           familyi={H\bibinitperiod},
+           given={Samuel\bibnamedelima K.},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b37b74633d4c75da695aa9fdbfa24fbe}{%
+           family={Neely},
+           familyi={N\bibinitperiod},
+           given={Helen},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=30a0fb1864f6aa52ffb3766d6656b4d3}{%
+           family={Manor},
+           familyi={M\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=38f0889dc7c0a2730cade179916df28d}{%
+           family={Karlin},
+           familyi={K\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=55aa97c81c852adaaab171536f66fd12}{%
+           family={Nair},
+           familyi={N\bibinitperiod},
+           given={Rajesh},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b9b82cebc2f44820a25db204aead0230}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Jinfeng},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=63b2348ec12a3c3afb946921fc60ae3d}{%
+           family={Baran},
+           familyi={B\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=562b8dae3c07b17cb29dca7d568cdf20}{%
+           family={Everett},
+           familyi={E\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c49560711490f278fa9209e098361217}{%
+           family={Tong},
+           familyi={T\bibinitperiod},
+           given={Saichiu\bibnamedelima N.},
+           giveni={S\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e3a9f37d3655daf8061ee755cfea7cad}{%
+           family={Forouhar},
+           familyi={F\bibinitperiod},
+           given={Farhad},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bfffa950fa32a33abbd1f3439abd08c9}{%
+           family={Swaminathan},
+           familyi={S\bibinitperiod},
+           given={Swarup\bibnamedelima S.},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=50415f89d8475fae2a0d803213206af6}{%
+           family={Acton},
+           familyi={A\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3dabe604f7bcef0efd427908d13517c5}{%
+           family={Xiao},
+           familyi={X\bibinitperiod},
+           given={Rong},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ff6d7dde662a4ae0518f061c6aed0fe6}{%
+           family={Luft},
+           familyi={L\bibinitperiod},
+           given={Joseph\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=737f6539a5e6f4bfb2cc9b3c453d5c9d}{%
+           family={Lauricella},
+           familyi={L\bibinitperiod},
+           given={Angela},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ce3262dff8e8ca6ac47f068463666306}{%
+           family={DeTitta},
+           familyi={D\bibinitperiod},
+           given={George\bibnamedelima T.},
+           giveni={G\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=66106370d9aa16054179da646f7df55c}{%
+           family={Rost},
+           familyi={R\bibinitperiod},
+           given={Burkhard},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=99bc06a86f3ba8ce3ff3ff29d76dcbcd}{%
+           family={Montelione},
+           familyi={M\bibinitperiod},
+           given={Gaetano\bibnamedelima T.},
+           giveni={G\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4b8e602f3e0b155081d26bdf4d3e2871}{%
+           family={Hunt},
+           familyi={H\bibinitperiod},
+           given={John\bibnamedelima F.},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{2fccb694658a74c54b905d6d3cf60bf9}
+      \strng{fullhash}{84e885c28fefb545d2889be4d4192829}
+      \strng{fullhashraw}{84e885c28fefb545d2889be4d4192829}
+      \strng{bibnamehash}{bef39471717eb0d0357c475e4d867107}
+      \strng{authorbibnamehash}{bef39471717eb0d0357c475e4d867107}
+      \strng{authornamehash}{2fccb694658a74c54b905d6d3cf60bf9}
+      \strng{authorfullhash}{84e885c28fefb545d2889be4d4192829}
+      \strng{authorfullhashraw}{84e885c28fefb545d2889be4d4192829}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The physical properties that determine the propensity of a protein to form a well-ordered crystal suitable for structure determination are poorly understood. An analysis of large-scale crystallization results generated by a structural genomics consortium highlights the importance of low-entropy surface features capable of mediating protein-protein interactions.}
+      \field{issn}{1546-1696}
+      \field{journaltitle}{Nature Biotechnology}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Understanding the physical properties that control protein crystallization by analysis of large-scale experimental data}
+      \field{urlday}{10}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{27}
+      \field{year}{2009}
+      \field{urldateera}{ce}
+      \field{pages}{51\bibrangedash 57}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1038/nbt.1514
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:PriceII2009 - Understanding the Physical Properties That Control Protein Crystallization by Analysis of Large Scale Experimental Data.pdf:PDF:https\://www.nature.com/articles/nbt.1514.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/nbt.1514
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/nbt.1514
+      \endverb
+      \keyw{Life Sciences,general,Biotechnology,Biomedicine,general,Agriculture,Biomedical Engineering/Biotechnology,Bioinformatics}
     \endentry
     \entry{Rives2021}{article}{}{}
       \name{author}{11}{}{%

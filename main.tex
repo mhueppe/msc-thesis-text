@@ -88,7 +88,7 @@ headsepline, % Uncomment to get a line under the header
 \usepackage{subcaption}
 \captionsetup[subfigure]{list=true}
 
-\usepackage[toc, acronym]{glossaries}
+\usepackage[toc, acronym,nonumberlist]{glossaries}
 \renewcommand{\glsnamefont}[1]{\textbf{#1}}
 \newcommand{\roughly}{\raisebox{0.1ex}{\textasciitilde}}
 \providecommand*{\subsubsectionautorefname}{Subsubsection}
@@ -229,15 +229,11 @@ The acknowledgments and the people to thank go here, don't forget to include you
 
 \listoftables % Prints the list of tables
 
-\printglossaries
+\setglossarystyle{long}
+\printglossary[type=\acronymtype,title={List of Acronyms}]
 %----------------------------------------------------------------------------------------
 %	ABBREVIATIONS
 %----------------------------------------------------------------------------------------
-
-\begin{abbreviations}{ll} % Include a list of abbreviations (a table of two columns)
-
-\end{abbreviations}
-
 
 %----------------------------------------------------------------------------------------
 %	DEDICATION

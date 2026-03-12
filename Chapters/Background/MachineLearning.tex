@@ -1,8 +1,12 @@
 \section{Machine Learning}\label{sec:machine_learning}
+Even though protein crystallization has been discovered about 150 years ago and has been used for decades, the relationship between protein properties and successful crystallization conditions is still poorly understood \citep{McPherson2013}. This hints to complex and nonlinear relations between protein features and crystallization outcomes.
 
+At the same time, modern crystallization screening experiments generate large amounts of data, as hundreds or thousands of different conditions may be tested for a single protein. This combination of high-dimensional experimental spaces and unclear underlying relationships makes the problem well suited for \gls{ml} approaches, which can learn patterns directly from data.
 
-\input{Chapters/Background/MachineLearning/NeuralNetworks}
+In the following the different employed learning paradigms are explored as well as used \gls{ml} algorithm. In this work, several \gls{ml} models were evaluated, including neural networks and random forests. Based on the observed performance, gradient boosting methods, specifically \gls{xgBoost}, were selected as the primary model for further analysis.
+
+\input{Chapters/Background/MachineLearning/LearningParadigms}
+
+% \input{Chapters/Background/MachineLearning/NeuralNetworks}
 
 \input{Chapters/Background/MachineLearning/XGBoost}
-
-\input{Chapters/Background/MachineLearning/PULearning}

@@ -1,1 +1,79 @@
-\subsection{Evaluation metrics}
+\subsection{Evaluation Metrics}
+
+The central challenge in macromolecular crystallography is the large number of experiments that must typically be performed in order to identify a suitable crystallization condition. Because laboratory experiments are costly and time-consuming, reducing the number of required trials is the main objective in this thesis.
+
+A straightforward formulation of this task would be to predict the optimal crystallization condition directly for a given protein. While such an approach would be highly valuable in practice, it is also extremely challenging. A single protein can crystallize under a wide variety of chemically distinct conditions involving different buffers, salts, precipitants, and pH values \citep{Liao2025}. Consequently, it is often difficult to define a single optimal condition.
+
+In practice, crystallographers frequently report only one successful crystallization condition to the \gls{pdb}, often selecting the condition that is easiest to reproduce experimentally. As a result, the \gls{pdb} contains only positive crystallization outcomes and lacks explicit negative examples. In contrast, experimental screening data, such as the \gls{crims} dataset described in \autoref{sec:crims}, contains numerous unsuccessful trials. As illustrated in \autoref{fig:crims_categorical_analysis}, the vast majority of experiments do not lead to crystal formation, resulting in a highly imbalanced dataset with far more negative than positive observations.
+
+This imbalance has important implications for both model design and evaluation. The task can be reformulated as a binary classification problem: given a protein and a candidate crystallization condition, the model predicts whether the experiment is likely to produce a crystal. Because successful crystallization events are rare, standard evaluation metrics such as overall accuracy can provide misleading assessments of model performance. A classifier that simply predicts failure for every condition would achieve high accuracy while being practically useless.
+
+Evaluation metrics that account for class imbalance and emphasize the detection of positive outcomes are particularly important. In the context of crystallization screening, missing a potentially successful condition (a false negative) is more detrimental than testing a condition that ultimately fails (a false positive). Similar to the image classification model presented in \autoref{sec:crims/confirmation_protein_crystals} a sensitivity is more valuable than sensibility. Therefore, metrics that measure the ability of the model to correctly identify positive outcomes, such as positive recall, are of special interest.
+
+In the following, the metrics and visualizations used to evaluate the binary classification models are described.
+
+\paragraph{Confusion Matrix}
+The confusion matrix provides a comprehensive overview of the predictions made by a binary classifier. It summarizes the number of correctly and incorrectly classified samples in four categories:
+
+\begin{itemize}
+	\itemsep0em
+    \item \gls{tp}: successful crystallization conditions correctly predicted as successful.
+    \item \gls{fn}: unsuccessful conditions incorrectly predicted as successful.
+    \item \gls{tn}: unsuccessful conditions correctly predicted as unsuccessful.
+    \item \gls{fp}: successful conditions incorrectly predicted as unsuccessful.
+\end{itemize}
+
+From these quantities, several informative performance metrics can be derived. In the context of crystallization prediction, false negatives are particularly undesirable because they correspond to potentially viable crystallization conditions that would be discarded by the model.
+
+\paragraph{Recall (Sensitivity)}
+Recall, also referred to as the \gls{tpr} or sensitivity, measures the proportion of actual positive samples that are correctly identified:
+
+\begin{equation}
+\text{Recall} = \frac{TP}{TP + FN}.
+\end{equation}
+
+A high positive recall indicates that the model successfully identifies most of the conditions that lead to crystal formation. 
+
+\paragraph{Accuracy}
+Accuracy measures the proportion of correctly classified samples:
+
+\begin{equation}
+\text{Accuracy} = \frac{TP + TN}{TP + TN + FP + FN}.
+\end{equation}
+
+While accuracy is widely used, it is not well suited for strongly imbalanced datasets.
+
+\paragraph{Balanced Accuracy}
+Balanced accuracy addresses the limitation of a highly biased model by computing the average recall across both classes using the \gls{tpr} and the \gls{tnr}:
+
+\begin{equation}
+\text{Balanced Accuracy} = \frac{\text{TPR} + \text{TNR}}{2}.
+\end{equation}
+
+This metric ensures that performance on both classes contributes equally to the final score and therefore provides a more informative evaluation in the presence of class imbalance.
+
+\paragraph{Precision}
+Precision quantifies how many predicted positive samples are actually correct:
+
+\begin{equation}
+\text{Precision} = \frac{TP}{TP + FP}.
+\end{equation}
+
+High precision indicates that predicted successful crystallization conditions are reliable, reducing the number of unnecessary experiments that are expected to fail.
+
+\paragraph{F1 Score}
+The F1 score combines precision and recall into a single metric by computing their harmonic mean:
+
+\begin{equation}
+F_1 = 2 \cdot \frac{\text{Precision} \cdot \text{Recall}}{\text{Precision} + \text{Recall}}.
+\end{equation}
+
+Macro-averaged and weighted variants of the F1 score are used to account for class imbalance and provide a more balanced view of model performance across both classes.
+
+\paragraph{Threshold Analysis}
+The models used in this work output probabilities that indicate how likely a given crystallization condition is to produce a crystal. To convert these probabilities into binary predictions, a decision threshold must be chosen.
+
+Different thresholds result in different trade-offs between detecting successful crystallization conditions and avoiding false positives. To analyze this behavior, model performance was evaluated across a range of thresholds. In particular, the positive recall, \gls{tnr} (specificity), and balanced accuracy were plotted as functions of the decision threshold. This analysis allows the identification of thresholds that provide a desirable balance between discovering potential crystallization conditions and limiting unnecessary experiments.
+
+\paragraph{Recall–Specificity Trade-off}
+To further illustrate the trade-off between detecting successful crystallization conditions and rejecting unsuccessful ones, recall was plotted against the \gls{tnr} across varying thresholds. This visualization highlights how increasing sensitivity to positive outcomes typically reduces specificity, and vice versa. Such analyzes provide insight into how the model can be tuned depending on whether the experimental objective prioritizes discovering as many potential crystallization conditions as possible or minimizing the number of failed experiments.
