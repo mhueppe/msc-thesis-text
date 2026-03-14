@@ -26,9 +26,8 @@ Supervised learning approaches rely heavily on the availability of high-quality 
 
 \paragraph{Positive-Unlabeled Learning}
 
-\gls{pu} learning tries to solve this problem by removing the assumption that just because a protein has not been reported to work under certain condition that this condition would not have been successful. Instead, non-reported trials simply reflect insufficient exploration of the experimental condition space or suboptimal experimental parameters. This reflects the label space of the \gls{pdb} much better since crystallographers often report the successful condition that is easiest to replicate even though others might have produces just as good crystals.
-
-This situation leads to a learning scenario where only a subset of positive examples is explicitly labeled, while the remaining data points are unlabeled and may contain both positive and negative instances. 
+\gls{pu} learning tries to solve this problem by removing the assumption that not reported conditions equate to non-crystal bearing conditions. Instead, non-reported trials simply reflect insufficient exploration of the experimental condition space or suboptimal experimental parameters. This reflects the label space of the \gls{pdb} much better since crystallographers often report the successful condition that is easiest to replicate even though others might have produces just as good crystals.
+Only a subset of positive examples is explicitly labeled, while the remaining data points are unlabeled and may contain both positive and negative instances. 
 
 In \gls{pu} learning, the training dataset can be represented as
 
@@ -36,8 +35,8 @@ In \gls{pu} learning, the training dataset can be represented as
 \mathcal{D} = P \cup U,
 \]
 
-where $P$ denotes the set of labeled positive examples and $U$ represents the set of unlabeled samples. The unlabeled set typically contains a mixture of positive and negative instances whose true labels are unknown. The goal of PU learning methods is to estimate a classifier that can distinguish positive from negative examples while accounting for the uncertainty in the unlabeled data.
+where $P$ denotes the set of labeled positive examples and $U$ represents the set of unlabeled samples. The unlabeled set typically contains a mixture of positive and negative instances whose true labels are unknown. The goal of \gls{pu} learning methods is to estimate a classifier that can distinguish positive from negative examples while accounting for the uncertainty in the unlabeled data \citet{Bekker2020}.
 
-PU learning methods typically rely on one of several strategies, including identifying reliable negative examples within the unlabeled set, estimating class priors, or adapting risk minimization frameworks to handle partially labeled data. These techniques have been successfully applied in various domains such as bioinformatics, information retrieval, and medical data analysis.
+\gls{pu} learning methods typically rely on one of several strategies, including identifying reliable negative examples within the unlabeled set, estimating class priors, or adapting risk minimization frameworks to handle partially labeled data. These techniques have been successfully applied in various domains such as bioinformatics, information retrieval, and medical data analysis \citet{Bekker2020}. 
 
-In the context of protein crystallization prediction, PU learning provides a natural framework for modeling experimental screening data. Crystallization datasets often contain reliable records of successful crystallization conditions, while the large number of unsuccessful or unobserved conditions cannot be confidently labeled as true negatives. By leveraging positive examples and treating the remaining data as unlabeled, PU learning methods can exploit larger datasets and potentially improve predictive performance compared to traditional supervised approaches.
+In the context of protein crystallization prediction, \gls{pu} learning provides a natural framework for modeling experimental screening data. Crystallization datasets often contain reliable records of successful crystallization conditions, while the large number of unsuccessful or unobserved conditions cannot be confidently labeled as true negatives. By leveraging positive examples and treating the remaining data as unlabeled, \gls{pu} learning methods can exploit larger datasets and potentially improve predictive performance compared to traditional supervised approaches without making false assumptions.

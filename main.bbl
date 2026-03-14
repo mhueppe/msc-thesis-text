@@ -271,6 +271,67 @@
       \verb https://www.sciencedirect.com/science/article/pii/0022024888903028
       \endverb
     \endentry
+    \entry{Bekker2020}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=4dc984cf6898dbfc99c7354aabd8920b}{%
+           family={Bekker},
+           familyi={B\bibinitperiod},
+           given={Jessa},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5f9ed160b91c65c59a8d61af7f1e5017}{%
+           family={Davis},
+           familyi={D\bibinitperiod},
+           given={Jesse},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c9b4913a28812ab3a5c40608b9131540}
+      \strng{fullhash}{c9b4913a28812ab3a5c40608b9131540}
+      \strng{fullhashraw}{c9b4913a28812ab3a5c40608b9131540}
+      \strng{bibnamehash}{c9b4913a28812ab3a5c40608b9131540}
+      \strng{authorbibnamehash}{c9b4913a28812ab3a5c40608b9131540}
+      \strng{authornamehash}{c9b4913a28812ab3a5c40608b9131540}
+      \strng{authorfullhash}{c9b4913a28812ab3a5c40608b9131540}
+      \strng{authorfullhashraw}{c9b4913a28812ab3a5c40608b9131540}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Learning from positive and unlabeled data or PU learning is the setting where a learner only has access to positive examples and unlabeled data. The assumption is that the unlabeled data can contain both positive and negative examples. This setting has attracted increasing interest within the machine learning literature as this type of data naturally arises in applications such as medical diagnosis and knowledge base completion. This article provides a survey of the current state of the art in PU learning. It proposes seven key research questions that commonly arise in this field and provides a broad overview of how the field has tried to address them.}
+      \field{annotation}{Comment: There was a typo in section 2.4. The fraction of labeled examples in the single-training-set scenario should be {$\alpha$}c, and not {$\alpha$}e(x) as was written in the previous version}
+      \field{issn}{0885-6125, 1573-0565}
+      \field{journaltitle}{Machine Learning}
+      \field{month}{4}
+      \field{note}{arXiv:1811.04820 [cs]}
+      \field{number}{4}
+      \field{shorttitle}{Learning from positive and unlabeled data}
+      \field{title}{Learning from positive and unlabeled data: a survey}
+      \field{urlday}{10}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{109}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \field{pages}{719\bibrangedash 760}
+      \range{pages}{42}
+      \verb{doi}
+      \verb 10.1007/s10994-020-05877-5
+      \endverb
+      \verb{file}
+      \verb Preprint PDF:Bekker2020 - Learning from Positive and Unlabeled Data_ a Survey.pdf:PDF:http\://arxiv.org/pdf/1811.04820v3
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1811.04820
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1811.04820
+      \endverb
+      \keyw{Computer Science - Machine Learning,Statistics - Machine Learning}
+    \endentry
     \entry{Bergfors2009}{book}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=f667212dd44b5442d125c3072f4ef404}{%
@@ -4070,6 +4131,67 @@
       \verb{url}
       \verb https://www.sciencedirect.com/science/article/pii/0022024888903028
       \endverb
+    \endentry
+    \entry{Bekker2020}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=4dc984cf6898dbfc99c7354aabd8920b}{%
+           family={Bekker},
+           familyi={B\bibinitperiod},
+           given={Jessa},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5f9ed160b91c65c59a8d61af7f1e5017}{%
+           family={Davis},
+           familyi={D\bibinitperiod},
+           given={Jesse},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c9b4913a28812ab3a5c40608b9131540}
+      \strng{fullhash}{c9b4913a28812ab3a5c40608b9131540}
+      \strng{fullhashraw}{c9b4913a28812ab3a5c40608b9131540}
+      \strng{bibnamehash}{c9b4913a28812ab3a5c40608b9131540}
+      \strng{authorbibnamehash}{c9b4913a28812ab3a5c40608b9131540}
+      \strng{authornamehash}{c9b4913a28812ab3a5c40608b9131540}
+      \strng{authorfullhash}{c9b4913a28812ab3a5c40608b9131540}
+      \strng{authorfullhashraw}{c9b4913a28812ab3a5c40608b9131540}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Learning from positive and unlabeled data or PU learning is the setting where a learner only has access to positive examples and unlabeled data. The assumption is that the unlabeled data can contain both positive and negative examples. This setting has attracted increasing interest within the machine learning literature as this type of data naturally arises in applications such as medical diagnosis and knowledge base completion. This article provides a survey of the current state of the art in PU learning. It proposes seven key research questions that commonly arise in this field and provides a broad overview of how the field has tried to address them.}
+      \field{annotation}{Comment: There was a typo in section 2.4. The fraction of labeled examples in the single-training-set scenario should be {$\alpha$}c, and not {$\alpha$}e(x) as was written in the previous version}
+      \field{issn}{0885-6125, 1573-0565}
+      \field{journaltitle}{Machine Learning}
+      \field{month}{4}
+      \field{note}{arXiv:1811.04820 [cs]}
+      \field{number}{4}
+      \field{shorttitle}{Learning from positive and unlabeled data}
+      \field{title}{Learning from positive and unlabeled data: a survey}
+      \field{urlday}{10}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{109}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \field{pages}{719\bibrangedash 760}
+      \range{pages}{42}
+      \verb{doi}
+      \verb 10.1007/s10994-020-05877-5
+      \endverb
+      \verb{file}
+      \verb Preprint PDF:Bekker2020 - Learning from Positive and Unlabeled Data_ a Survey.pdf:PDF:http\://arxiv.org/pdf/1811.04820v3
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1811.04820
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1811.04820
+      \endverb
+      \keyw{Computer Science - Machine Learning,Statistics - Machine Learning}
     \endentry
     \entry{Bergfors2009}{book}{}{}
       \name{author}{1}{}{%
