@@ -1,1 +1,39 @@
 \section{Hyperparameter Tuning} 
+
+\paragraph{Model Performance vs. Model Size}
+Figure~\ref{fig:model_scaling} illustrates the relationship between model size and performance for both training and validation, evaluated using \gls{auc} and Top-1 accuracy. 
+
+As model size increases, both training and validation performance initially improve in an approximately linear fashion. This indicates that larger models are able to better capture underlying patterns in the data, leading to consistent gains in generalization performance up to a certain point.
+
+However, beyond a critical model size (around $1.1 \times 10^6$ parameters in this experiment), this trend diverges. While training performance continues to increase nearly linearly, validation performance saturates and begins to decline. This behavior is a clear indication of overfitting: the model becomes increasingly specialized to the training data and loses its ability to generalize to unseen data.
+
+The results demonstrate a regime of beneficial scaling where performance grows roughly linearly with model size, followed by a transition into overfitting where further increases in capacity harm validation performance despite continued improvements on the training set.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{../msc-thesis-code/data/dataExploration/plots/model_sizes}
+	\caption[Model size influence on Performance]{Figure shows \gls{auc} and Top 1 score in relation to model size.}
+	\label{fig:model_scaling}
+\end{figure} 
+
+
+\paragraph{Hyperparameter Importance}
+Other than the number of parameters there are a lot of hyperparameters that can be tuned to improve generalization performance. To better understand which hyperparameters have the strongest influence on model performance, a feature importance analysis was conducted using \texttt{Optuna}'s built-in importance estimation. The results are summarized in \autoref{fig:feature_importances}.
+
+The analysis reveals that the most influential parameter is the \textit{condition embedding dimension}, which accounts for the largest share of importance. This indicates that the capacity of the condition representation is critical for model performance, likely because it directly determines how well complex chemical conditions can be encoded in the shared embedding space.
+
+The second most important parameter is the \textit{symmetric loss weight}, highlighting the relevance of balancing the protein-to-condition and condition-to-protein objectives. This suggests that properly weighting both directions of the contrastive loss is essential for learning a well-structured embedding space.
+
+Regularization-related parameters, such as \textit{condition tower dropout}, also exhibit a notable impact, indicating that controlling overfitting in the condition branch is particularly important. In contrast, architectural parameters of the protein representation, such as the structure embedding output dimension and sequence embedding hidden size, have a more moderate influence.
+
+Interestingly, optimization-related parameters, including the learning rate and number of steps per epoch, show comparatively low importance. This suggests that model performance is more sensitive to representation capacity and loss design than to fine-tuning of the optimization process.
+
+Overall, the results indicate that the model's performance is primarily driven by 1. the expressiveness of the condition encoding, 2. the design of the contrastive objective, and 3. appropriate regularization, while lower-level optimization parameters play a secondary role.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.6\textwidth]{../msc-thesis-code/data/dataExploration/plots/hyperparameter_importances}
+	\caption[Hypeparameter feature importance]{Figure shows hyperparameter feature importances.}
+	\label{fig:feature_importances}
+\end{figure} 
+

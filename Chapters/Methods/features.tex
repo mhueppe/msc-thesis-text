@@ -1,4 +1,4 @@
-\section{Feature Engineering}\label{methods/feature_engineering}
+\section{Feature Engineering}\label{sec:methods/feature_engineering}
 To enable the model to capture the complex relationships between proteins and crystallization conditions, multiple types of feature representations were constructed. In addition to traditional features derived from the sequence and surface of the protein multiple deep-learning based embeddings are employed. These include sequence-based and structure aware embeddings generated with established protein language models, a geometric surface representation derived using a fast sampling framework, and a contrastive language embedding and feature vector of the crystallization labels themselves. Together, these complementary feature types provide information from protein sequence, structure, surface and condition descriptors. An exhaustive list of all features provided to the model is listed in \autoref{tab:feature_table}.
 
 In the following sections, I introduce each of these feature representations and describe how they were generated and integrated into the overall modeling pipeline.

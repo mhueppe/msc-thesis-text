@@ -50,7 +50,7 @@ headsepline, % Uncomment to get a line under the header
 \usepackage{hyperref}
 \addbibresource{references.bib} % The filename of the bibliography
 \usepackage{tikz}
-\usetikzlibrary{positioning,arrows.meta}
+\usetikzlibrary{fit,positioning,arrows.meta, backgrounds}
 
 \definecolor{uhhred}{RGB}{144, 74, 77}
 \definecolor{uhhred_highlight}{RGB}{226, 0, 26}
@@ -96,6 +96,8 @@ headsepline, % Uncomment to get a line under the header
 \usepackage{subcaption}
 % Generate the glossary
 \usepackage{datetime}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,calc}
 \makeglossaries
 \input{Misc/glossary}
 \input{Misc/acronyms}
@@ -211,14 +213,6 @@ The Thesis Abstract is written here (and usually kept to just this page). The pa
 \end{abstract}
 
 %----------------------------------------------------------------------------------------
-%	ACKNOWLEDGEMENTS
-%----------------------------------------------------------------------------------------
-
-\begin{acknowledgements}
-\addchaptertocentry{\acknowledgementname} % Add the acknowledgements to the table of contents
-\end{acknowledgements}
-
-%----------------------------------------------------------------------------------------
 %	LIST OF CONTENTS/FIGURES/TABLES PAGES
 %----------------------------------------------------------------------------------------
 
@@ -269,7 +263,7 @@ The Thesis Abstract is written here (and usually kept to just this page). The pa
 
 \include{Appendices/AppendixA}
 \include{Appendices/AppendixB}
-%\include{Appendices/AppendixC}
+\include{Appendices/AppendixC}
 
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY

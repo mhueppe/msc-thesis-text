@@ -1,7 +1,7 @@
-\subsection{Data split}
+\section{Data split}
 Neither the \gls{pdb} nor the \gls{crims} dataset can be split into training and validation sets using a simple random split. Two main characteristics of these datasets make such an approach inappropriate. The following describes the two employed informed splits to avoid data leakage to enable a confident report in generalization performance.
 
-\subsubsection{Protein-based trainings split}
+\subsection{Protein-based trainings split}
 
 First, the \gls{pdb} is highly redundant. The same protein is often deposited multiple times in the database, for example with different resolutions, slightly modified constructs, ligand bindings, or other experimental variations. At the time the data for this thesis was collected, the \gls{pdb} contained approximately 197,000 structure entries, but these corresponded to only about 89,000 unique proteins. Some proteins appear extremely frequently. For instance, the proteins R1AB\_SARS2 and LYSC\_CHICK had 2631 and 1258 associated structure files respectively.
 
@@ -22,7 +22,7 @@ From an inference perspective, these splits correspond to different assumptions 
 
 Evaluating the model across multiple sequence identity thresholds therefore provides a more comprehensive understanding of its generalization behavior, ranging from near-memorization scenarios to genuinely novel protein prediction tasks. \autoref{fig:train_test_split} depicts a schematic illustration. 
 
-\subsubsection{Condition-based trainings split}
+\subsection{Condition-based trainings split}
 
 Finally, for the \gls{crims} data not only a protein based split should be used but also a condition specific split. The task performed on the \gls{crims} dataset is rephrased. Instead of generalizing across proteins the aim is to generalize to new conditions for a set of protein and condition combinations. The training and validation data consist of the same protein but other conditions. However, it is a valid assumption that the same protein will crystallize under conditions that are highly similar to each other. For this reason the training and validation split should take the condition similarity into account as well. 
 This is done using a condition similarity based splitting strategy. Instead of randomly assigning individual samples to training and validation sets, chemically similar conditions are grouped together, and entire groups are assigned to either split. This prevents the model from learning trivial similarities between nearly identical conditions. 

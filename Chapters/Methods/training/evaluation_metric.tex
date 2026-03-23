@@ -1,4 +1,4 @@
-\subsection{Evaluation Metrics}
+\subsection{Evaluation Metrics}\label{sec:methods/evaluation_metrics}
 
 The central challenge in macromolecular crystallography is the large number of experiments that must typically be performed in order to identify a suitable crystallization condition. Because laboratory experiments are costly and time-consuming, reducing the number of required trials is the main objective in this thesis.
 
@@ -6,74 +6,136 @@ A straightforward formulation of this task would be to predict the optimal cryst
 
 In practice, crystallographers frequently report only one successful crystallization condition to the \gls{pdb}, often selecting the condition that is easiest to reproduce experimentally. As a result, the \gls{pdb} contains only positive crystallization outcomes and lacks explicit negative examples. In contrast, experimental screening data, such as the \gls{crims} dataset described in \autoref{sec:crims}, contains numerous unsuccessful trials. As illustrated in \autoref{fig:crims_categorical_analysis}, the vast majority of experiments do not lead to crystal formation, resulting in a highly imbalanced dataset with far more negative than positive observations.
 
-This imbalance has important implications for both model design and evaluation. The task can be reformulated as a binary classification problem: given a protein and a candidate crystallization condition, the model predicts whether the experiment is likely to produce a crystal. Because successful crystallization events are rare, standard evaluation metrics such as overall accuracy can provide misleading assessments of model performance. A classifier that simply predicts failure for every condition would achieve high accuracy while being practically useless.
+This imbalance has important implications for both model design and evaluation. The task can be either reformulated as 1. a binary classification problem: given a protein and a candidate crystallization condition, the model predicts whether the experiment is likely to produce a crystal or 2. a ranking problem where for a given protein the conditions that are most likely to result in crystals should have a high score.
 
-Evaluation metrics that account for class imbalance and emphasize the detection of positive outcomes are particularly important. In the context of crystallization screening, missing a potentially successful condition (a false negative) is more detrimental than testing a condition that ultimately fails (a false positive). Similar to the image classification model presented in \autoref{sec:crims/confirmation_protein_crystals} a sensitivity is more valuable than sensibility. Therefore, metrics that measure the ability of the model to correctly identify positive outcomes, such as positive recall, are of special interest.
+\paragraph{Top-$N$ Accuracy.}
+To evaluate how effectively the model prioritizes promising crystallization conditions, we use the Top-$N$ accuracy (e.g., Top-1 or Top-5). For a given protein, the model ranks a set of candidate conditions according to their predicted scores. A prediction is considered correct if at least one of the known successful conditions appears within the top $N$ ranked candidates.
 
-In the following, the metrics and visualizations used to evaluate the binary classification models are described.
-
-\paragraph{Confusion Matrix}
-The confusion matrix provides a comprehensive overview of the predictions made by a binary classifier. It summarizes the number of correctly and incorrectly classified samples in four categories:
-
-\begin{itemize}
-	\itemsep0em
-    \item \gls{tp}: successful crystallization conditions correctly predicted as successful.
-    \item \gls{fn}: unsuccessful conditions incorrectly predicted as successful.
-    \item \gls{tn}: unsuccessful conditions correctly predicted as unsuccessful.
-    \item \gls{fp}: successful conditions incorrectly predicted as unsuccessful.
-\end{itemize}
-
-From these quantities, several informative performance metrics can be derived. In the context of crystallization prediction, false negatives are particularly undesirable because they correspond to potentially viable crystallization conditions that would be discarded by the model.
-
-\paragraph{Recall (Sensitivity)}
-Recall, also referred to as the \gls{tpr} or sensitivity, measures the proportion of actual positive samples that are correctly identified:
-
+Formally, let $\pi(i)$ denote the ranked list of conditions for protein $i$. The Top-$N$ accuracy is defined as:
 \begin{equation}
-\text{Recall} = \frac{TP}{TP + FN}.
+    \text{Top-}N = \frac{1}{B} \sum_{i=1}^{B}
+    \mathbb{I}\left(\exists\, j \in \pi_N(i) \text{ such that } y_{ij} = 1 \right),
+\end{equation}
+where $\pi_N(i)$ denotes the top $N$ ranked conditions and $y_{ij}$ indicates whether condition $j$ is a valid positive for protein $i$.
+
+This metric directly reflects the practical use case: reducing the number of experiments by ensuring that successful conditions are ranked among the first few suggestions.
+
+\paragraph{Mean Margin.}
+While Top-$N$ accuracy captures ranking quality at the top of the list, it does not provide information about the overall separation between positive and negative samples. To quantify this, we compute the mean margin between positive and negative scores:
+\begin{equation}
+    \text{Mean Margin} =
+    \mathbb{E}[s^{+}] - \mathbb{E}[s^{-}],
+\end{equation}
+where $s^{+}$ denotes scores of positive (i.e., experimentally successful) protein--condition pairs and $s^{-}$ denotes scores of negative pairs.
+
+A larger margin indicates that the model assigns consistently higher scores to valid conditions than to invalid ones, reflecting a well-structured embedding space. Conversely, a small margin suggests poor separability and unreliable rankings.
+
+\paragraph{Area Under the ROC Curve (AUC).}
+To assess the global discriminative ability of the model, we compute the Area Under the Receiver Operating Characteristic Curve (AUC). This metric evaluates how well the model distinguishes between positive and negative pairs across all possible score thresholds.
+
+Given a set of scores $s$ and corresponding binary labels $y \in \{0,1\}$, the AUC can be interpreted as the probability that a randomly chosen positive pair receives a higher score than a randomly chosen negative pair:
+\begin{equation}
+    \text{AUC} = \mathbb{P}(s^{+} > s^{-}).
 \end{equation}
 
-A high positive recall indicates that the model successfully identifies most of the conditions that lead to crystal formation. 
+In the context of in-batch evaluation, positive samples correspond to the diagonal elements of the score matrix (i.e., paired protein--condition samples), while negatives are given by off-diagonal elements that do not correspond to valid positives.
 
-\paragraph{Accuracy}
-Accuracy measures the proportion of correctly classified samples:
+Unlike Top-$N$ accuracy, AUC evaluates the overall ranking quality across the entire score distribution and is less sensitive to class imbalance. It therefore provides a complementary perspective on model performance.
 
-\begin{equation}
-\text{Accuracy} = \frac{TP + TN}{TP + TN + FP + FN}.
-\end{equation}
+Together, these metrics capture different aspects of the ranking task. Top-$N$ accuracy reflects practical usability in reducing experimental effort, mean margin measures the separation of the learned representations, and AUC evaluates global discriminative performance. Using all three provides a comprehensive assessment of the model's ability to prioritize promising crystallization conditions.
 
-While accuracy is widely used, it is not well suited for strongly imbalanced datasets.
 
-\paragraph{Balanced Accuracy}
-Balanced accuracy addresses the limitation of a highly biased model by computing the average recall across both classes using the \gls{tpr} and the \gls{tnr}:
 
-\begin{equation}
-\text{Balanced Accuracy} = \frac{\text{TPR} + \text{TNR}}{2}.
-\end{equation}
 
-This metric ensures that performance on both classes contributes equally to the final score and therefore provides a more informative evaluation in the presence of class imbalance.
 
-\paragraph{Precision}
-Precision quantifies how many predicted positive samples are actually correct:
 
-\begin{equation}
-\text{Precision} = \frac{TP}{TP + FP}.
-\end{equation}
 
-High precision indicates that predicted successful crystallization conditions are reliable, reducing the number of unnecessary experiments that are expected to fail.
 
-\paragraph{F1 Score}
-The F1 score combines precision and recall into a single metric by computing their harmonic mean:
 
-\begin{equation}
-F_1 = 2 \cdot \frac{\text{Precision} \cdot \text{Recall}}{\text{Precision} + \text{Recall}}.
-\end{equation}
 
-Macro-averaged and weighted variants of the F1 score are used to account for class imbalance and provide a more balanced view of model performance across both classes.
 
-\paragraph{Threshold Analysis}
-The models used in this work output probabilities that indicate how likely a given crystallization condition is to produce a crystal. To convert these probabilities into binary predictions, a decision threshold must be chosen.
 
-Different thresholds result in different trade-offs between detecting successful crystallization conditions and avoiding false positives. To analyze this behavior, model performance was evaluated across a range of thresholds. In particular, the positive recall, \gls{tnr} (specificity), and balanced accuracy were plotted as functions of the decision threshold. This analysis allows the identification of thresholds that provide a desirable balance between discovering potential crystallization conditions and limiting unnecessary experiments.
 
-\paragraph{Recall–Specificity Trade-off}
-To further illustrate the trade-off between detecting successful crystallization conditions and rejecting unsuccessful ones, recall was plotted against the \gls{tnr} across varying thresholds. This visualization highlights how increasing sensitivity to positive outcomes typically reduces specificity, and vice versa. Such analyzes provide insight into how the model can be tuned depending on whether the experimental objective prioritizes discovering as many potential crystallization conditions as possible or minimizing the number of failed experiments.
+
+% Because successful crystallization events are rare, standard evaluation metrics such as overall accuracy can provide misleading assessments of model performance. A classifier that simply predicts failure for every condition would achieve high accuracy while being practically useless.
+
+% Evaluation metrics that account for class imbalance and emphasize the detection of positive outcomes are particularly important. In the context of crystallization screening, missing a potentially successful condition (a false negative) is more detrimental than testing a condition that ultimately fails (a false positive). Similar to the image classification model presented in \autoref{sec:crims/confirmation_protein_crystals} a sensitivity is more valuable than sensibility. Therefore, metrics that measure the ability of the model to correctly identify positive outcomes, such as positive recall, are of special interest.
+
+% In the following, the metrics and visualizations used to evaluate the binary classification models are described.
+
+% \paragraph{Confusion Matrix}
+% The confusion matrix provides a comprehensive overview of the predictions made by a binary classifier. It summarizes the number of correctly and incorrectly classified samples in four categories:
+
+% \begin{itemize}
+% 	\itemsep0em
+%     \item \gls{tp}: successful crystallization conditions correctly predicted as successful.
+%     \item \gls{fn}: unsuccessful conditions incorrectly predicted as successful.
+%     \item \gls{tn}: unsuccessful conditions correctly predicted as unsuccessful.
+%     \item \gls{fp}: successful conditions incorrectly predicted as unsuccessful.
+% \end{itemize}
+
+% From these quantities, several informative performance metrics can be derived. In the context of crystallization prediction, false negatives are particularly undesirable because they correspond to potentially viable crystallization conditions that would be discarded by the model.
+
+% \paragraph{Recall (Sensitivity)}
+% Recall, also referred to as the \gls{tpr} or sensitivity, measures the proportion of actual positive samples that are correctly identified:
+
+% \begin{equation}
+% \text{Recall} = \frac{TP}{TP + FN}.
+% \end{equation}
+
+% A high positive recall indicates that the model successfully identifies most of the conditions that lead to crystal formation. 
+
+% \paragraph{Balanced Accuracy}
+% Often times Accuracy is the default metric to evaluate the proportion of correctly classified samples. However, it is not well suited for strongly imbalanced datasets.
+% Balanced accuracy addresses the limitation of a highly biased model by computing the average recall across both classes using the \gls{tpr} and the \gls{tnr}:
+
+% \begin{equation}
+% \text{Balanced Accuracy} = \frac{\text{TPR} + \text{TNR}}{2}.
+% \end{equation}
+
+% This metric ensures that performance on both classes contributes equally to the final score and therefore provides a more informative evaluation in the presence of class imbalance.
+
+% \paragraph{Precision}
+% Precision quantifies how many predicted positive samples are actually correct:
+
+% \begin{equation}
+% \text{Precision} = \frac{TP}{TP + FP}.
+% \end{equation}
+
+% High precision indicates that predicted successful crystallization conditions are reliable, reducing the number of unnecessary experiments that are expected to fail.
+
+% \paragraph{F1 Score}
+% The F1 score combines precision and recall into a single metric by computing their harmonic mean:
+
+% \begin{equation}
+% F_1 = 2 \cdot \frac{\text{Precision} \cdot \text{Recall}}{\text{Precision} + \text{Recall}}.
+% \end{equation}
+
+% Macro-averaged and weighted variants of the F1 score are used to account for class imbalance and provide a more balanced view of model performance across both classes.
+
+% \paragraph{\gls{roc}}
+% The \gls{roc} curve visualizes the performance of a binary classifier across different decision thresholds. It plots the \gls{tpr} on the y-axis against the \gls{fpr} on the x-axis.
+
+% Each point on the \gls{roc} curve corresponds to a specific classification threshold. The employed classification models output a continuous confidence score between 0 and 1 representing the probability that a sample belongs to the positive class. To convert this score into a discrete class prediction, a threshold must be chosen. A common default is 0.5, meaning that predictions above this value are classified as positive and those below as negative.
+
+% By varying this threshold from 0 to 1, different trade-offs between correctly identifying positive samples and incorrectly classifying negative samples emerge. The \gls{roc} curve captures this relationship:
+
+% Threshold = 1: No sample is classified as positive. Consequently, both the \gls{tpr} and the \gls{fpr} are 0.
+
+% Threshold = 0: All samples are classified as positive. In this case, both the \gls{tpr} and the \gls{fpr} are 1.
+
+% Thus, the \gls{roc} curve illustrates how the classifier’s sensitivity and \gls{fpr} change as the threshold is adjusted.
+
+% A point at approximately (0.5,0.5) corresponds to a classifier that performs no better than random guessing. Therefore, the diagonal line from (0,0) to (1,1) represents the random baseline. Classifiers with useful predictive power produce \gls{roc} curves that lie above this diagonal.
+
+% An ideal classifier would achieve a point close to (0,1), meaning a high true positive rate while maintaining a low false positive rate. In general, the further the \gls{roc} curve lies above the diagonal baseline, the better the classifier distinguishes between the two classes. Therefore, the \gls{auroc} provides a single aggregated measure of the classifier’s performance over all possible classification thresholds.
+
+% Similar to the \gls{roc} curve, the \gls{pr} curve evaluates classifier performance across different classification thresholds. The \gls{pr} curve plots \emph{precision} against \emph{recall}. 
+
+% As with the \gls{roc} curve, each point on the \gls{pr} curve corresponds to a particular classification threshold applied to the predicted probability scores. By varying the threshold from 0 to 1, different trade-offs between precision and recall arise. A low threshold leads to many samples being classified as positive, which increases recall but may decrease precision due to a higher number of false positives. Conversely, a high threshold results in fewer predicted positives, which may increase precision while reducing recall. However, this is only true if the model attributes higher scores to actual crystal conditions making it a good aggregation of score distribution.
+
+% The \gls{auprc} provides a single summary statistic that reflects the classifier’s ability to identify positive samples while maintaining high precision. Unlike the \gls{roc} curve, the baseline performance of the \gls{pr} curve depends on the class distribution. For highly imbalanced datasets where positive samples are rare, the baseline precision corresponds to the fraction of positive samples in the dataset.
+
+% Both \gls{auroc} and \gls{auprc} are important evaluation metrics, particularly for imbalanced classification problems. The \gls{auroc} measures how well the classifier separates positive and negative samples independent of a specific threshold and is therefore useful for assessing the overall ranking ability of the model. However, in scenarios where the positive class is rare, the \gls{roc} curve may appear optimistic because it considers the false positive rate relative to the total number of negative samples. 
+
+% In contrast, the \gls{pr} curve focuses directly on the performance of the positive class by examining the relationship between precision and recall. As a result, \gls{auprc} provides a more informative evaluation when the primary objective is, as it is in this thesis, to correctly identify rare positive instances while limiting false discoveries. For this reason, both \gls{auroc} and \gls{auprc} are reported to provide complementary perspectives on classifier performance.

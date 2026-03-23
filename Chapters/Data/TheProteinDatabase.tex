@@ -2,10 +2,10 @@
 The \gls{pdb} is the central repository for experimentally determined three-dimensional structures of proteins, nucleic acids, and complexes. As of 2025, it contains over 220{,}000 entries, the majority of which are proteins solved via X-ray crystallography. Each entry includes not only the atomic coordinates of the protein structure but also extensive metadata about the experimental conditions used during crystallization.
 The following outlines the data \hyperref[sec:protein_database/acquisition]{acquisition}, \hyperref[sec:protein_database/format]{format}, and \hyperref[sec:protein_database/structure]{structure} to enable data preprocessing and analysis. 
 
-\subsection{Acquisition}\label{sec:protein_database/acquisition}
+\paragraph{Acquisition}\label{sec:protein_database/acquisition}
 Using the RCSB Search API, all entries solved by X-ray diffraction (about 80\%) were queried. Entries that did not contain any information about the crystallization at all or the entry was otherwise incomplete were not downloaded. A Python script then converted these identifiers into download links for the mmCIF files (.cif.gz), wrote them to text files, and split the list into several parts to enable parallel downloads via wget. The complete set of structures was downloaded in compressed mmCIF format and stored locally (after decompression to .cif where needed). Due to the large number of entries, the download process took approximately two days. However, the total download time naturally depends on the available internet bandwidth.
 
-\subsection{Format}\label{sec:protein_database/format}
+\subsection*{Format}\label{sec:protein_database/format}
 The \gls{pdb} provides structural data in two formats: PDB and CIF. The newer CIF format was chosen because, unlike the fixed-width PDB format, it does not impose size limitations on large structures. In addition, it can represent complex features such as branched carbohydrates and offers greater detail and flexibility than its predecessor.
 The data items are in the format of '\_' + category name + '.' + attribute name. Data categories can be either saved in either key-value or in tabular format. These can be easily parsed into a column vector as is in CSV files. For example the crystallization conditions are saved in key-value format and look like the following for 3P4V: 
 
@@ -43,7 +43,7 @@ A category is stored in tabular format when a token defines multiple values. In 
 	ATOM   4    O  O   . VAL A 1 1   ? 8.805   17.011  5.943   1.00 37.68 ...
 \end{verbatim}
 
-\subsection{Structure}\label{sec:protein_database/structure}
+\subsection*{Structure}\label{sec:protein_database/structure}
 
 In structural biology, one rarely needs to work with all proteins deposited in the \gls{pdb}. Consequently, the \gls{pdb} is designed as an entry-oriented resource: users typically retrieve and parse the complete dataset for a single protein of interest. This design is well aligned with the standard workflow in structural biology, where researchers focus on a small number of proteins but require all available structural, experimental, and metadata associated with those entries.
 
@@ -71,7 +71,7 @@ The restructured database format is depicted in \autoref{fig:proteinDatabaseStru
 	\label{fig:proteinDatabaseStructure}
 \end{figure}
 
-\subsection{Description}
+\paragraph{Description}
 After filtering for majorly incomplete entries the total number of deposited proteins was 196743 as of 01.09.2025. 
 Each of these entries has around 700 attributes across 68 categories. However, as mentioned before the minority of these attributes/categories is of importance when predicting crystallization conditions. 
 More specifically, the important categories and their attributes are the following: 

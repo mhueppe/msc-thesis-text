@@ -1,1 +1,32 @@
 \section{Neural Networks}\label{sec:neural_networks}
+
+\glspl{ann} are parametric models composed of layers of interconnected computational units (neurons). Each neuron computes a weighted sum of its inputs followed by a non-linear activation function. Formally, for a layer $l$, the forward pass can be written as:
+\begin{equation}
+    \mathbf{h}^{(l)} = \sigma\left(\mathbf{W}^{(l)} \mathbf{h}^{(l-1)} + \mathbf{b}^{(l)}\right),
+\end{equation}
+where $\mathbf{W}^{(l)}$ and $\mathbf{b}^{(l)}$ are the weights and biases, $\sigma(\cdot)$ is a non-linear activation function, and $\mathbf{h}^{(l)}$ denotes the activations of layer $l$.
+
+The network defines a function $f_\theta(x)$ parameterized by $\theta = \{\mathbf{W}, \mathbf{b}\}$, which is optimized to minimize a loss function $\mathcal{L}(f_\theta(x), y)$ over a dataset. Learning corresponds to adjusting the parameters such that the network produces outputs close to the target values.
+
+\paragraph{Backpropagation}
+
+Training neural networks is typically performed using gradient-based optimization, where parameters are updated using the gradient of the loss function with respect to the weights. The backpropagation algorithm efficiently computes these gradients by applying the chain rule of calculus through the network layers \citet{Schmidhuber2015}.
+
+For a given loss $\mathcal{L}$, the gradient with respect to a weight $w_{ij}^{(l)}$ is:
+\begin{equation}
+    \frac{\partial \mathcal{L}}{\partial w_{ij}^{(l)}} = \delta_j^{(l)} \, h_i^{(l-1)},
+\end{equation}
+where $\delta_j^{(l)}$ is the error signal at neuron $j$ in layer $l$, defined recursively as:
+\begin{equation}
+    \delta^{(l)} = \left( \mathbf{W}^{(l+1)^\top} \delta^{(l+1)} \right) \odot \sigma'\left(\mathbf{z}^{(l)}\right),
+\end{equation}
+with $\odot$ denoting element-wise multiplication and $\mathbf{z}^{(l)}$ the pre-activation values.
+
+The parameters are then updated using gradient descent:
+\begin{equation}
+    \theta \leftarrow \theta - \eta \nabla_\theta \mathcal{L},
+\end{equation}
+where $\eta$ is the learning rate.
+
+Backpropagation enables efficient credit assignment across multiple layers by propagating error signals from the output layer to earlier layers. This process allows deep networks to learn hierarchical feature representations, where lower layers capture simple patterns and higher layers encode more abstract concepts \citet{Schmidhuber2015}. However, training deep networks can be challenging due to issues such as vanishing or exploding gradients, which affect how effectively gradients propagate through many layers.
+In summary, neural networks learn by iteratively adjusting their parameters to minimize a loss function, using backpropagation to compute gradients efficiently. This combination of layered structure and gradient-based optimization forms the foundation of modern deep learning methods. Given their ability to learn complex features they are well suited for this task. 

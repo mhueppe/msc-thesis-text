@@ -1,1 +1,40 @@
 \section{Interpretation} 
+
+
+\paragraph{Influence of Cluster Similarity on Generalization}
+
+
+\autoref{fig:cluster_similarity_performance} shows the model performance (\gls{auc} and Top-1 accuracy) as a function of cluster similarity between training and validation data. A clear relationship between similarity and generalization performance can be observed.
+
+When the cluster similarity is high (i.e., proteins in the training and validation sets are very similar), the model achieves its best validation performance. This indicates that the model is able to effectively leverage learned representations when the validation data is drawn from a distribution closely aligned with the training data.
+
+However, as the similarity constraint becomes stricter and the overlap between training and validation proteins decreases, performance drops noticeably. In particular, when enforcing low similarity (e.g., ensuring that proteins differ by at least $70\%$), both \gls{auc} and Top-1 scores degrade. This demonstrates a reduced generalization capability: the model struggles to transfer learned knowledge to structurally dissimilar proteins.
+
+This behavior can be explained by the structure of the input space, as illustrated in \autoref{fig:sequenceEmbeddingHumology} and \autoref{fig:proteinVsPEGComparison}. The protein embeddings form well-separated clusters, indicating that proteins with similar sequences or properties are grouped closely together in the embedding space. Furthermore, these clusters correlate with experimental conditions, suggesting that the model can partially rely on protein identity as a proxy for predicting outcomes.
+
+As a result, when training and validation data share similar clusters, the model benefits from this implicit clustering structure and performs well. In contrast, when validation proteins belong to distant or previously unseen clusters, the model cannot rely on these learned associations, leading to a drop in performance. This highlights that the model has learned cluster-specific patterns rather than fully generalizable representations, which explains the observed decrease in generalization power under low-similarity conditions.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{../msc-thesis-code/data/dataExploration/plots/humology}
+	\caption[Cluster Similarity]{Figure shows \gls{auc} and Top 1 score in relation to cluster humology.}
+	\label{fig:cluster_similarity_performance}
+\end{figure} 
+
+\paragraph{Ablation Study}
+\autoref{fig:ablationStudy} presents the results of the ablation study, where individual input features are removed to assess their contribution to model performance. The evaluation is shown in terms of mean margin and \gls{auc} for both training and validation data.
+
+Across both metrics, disabling the \textit{structure embedding} leads to the most significant drop in performance. In particular, both mean margin and \gls{auc} decrease sharply on the training as well as the validation set, indicating that structural information provides the most critical signal for distinguishing compatible from incompatible conditions. This suggests that the geometric and spatial features of the protein implicitly encoded in the embedding are essential for the models' capability to rank crystallization conditions.
+
+Removing \textit{sequence information} also results in a noticeable performance degradation, especially compared to removing the sequence embedding alone. This indicates that explicit sequence-derived features contribute additional information beyond learned embeddings. In contrast, disabling the \textit{sequence embedding} leads to only a minor decrease, suggesting that its contribution is less critical in the presence of other features.
+
+The removal of \textit{surface information} results in a moderate performance drop, particularly on the validation set, indicating that surface-level features provide useful but not dominant information. In this ablation study only one feature type was removed at a time. Meaning while surface features might be important they might also be incorporated in the sequence or structure embedding. Overall, the ranking of feature importance based on performance degradation is: structure embedding $>$ sequence information $>$ surface information $>$ sequence embedding. The low importance of sequence embedding suggests that the model is able to learn beyond the homology artifact explored earlier. 
+
+Finally, the gap between training and validation performance persists across all ablations, but becomes most pronounced when important features are removed. This further highlights the role of these features in enabling robust generalization.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{../msc-thesis-code/data/dataExploration/plots/ablationStudy}
+	\caption[Ablation Study]{Figure shows \gls{auc} and Top 1 score for the ablation study.}
+	\label{fig:ablationStudy}
+\end{figure} 

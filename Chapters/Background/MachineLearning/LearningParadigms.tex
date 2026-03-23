@@ -1,6 +1,4 @@
-\subsection{Learning paradigms}\label{sec:background/machine_learning/learning_paradigms}
-
-\paragraph{Supervised Learning}
+\section{Supervised Learning}
 As explained by \cite{Mohri2018} in supervised learning, a model is trained using a dataset consisting of input features and corresponding target labels. The goal of the learning algorithm is to estimate a function that maps input variables to output labels, allowing the model to generalize to previously unseen examples.
 
 The training of the model can be formulated as an empirical risk minimization problem. 
@@ -24,19 +22,75 @@ For the task of finding optimal crystallization conditions, the input features a
 
 Supervised learning approaches rely heavily on the availability of high-quality labeled datasets. In practice, obtaining reliable negative labels for crystallization experiments can be difficult, which introduces challenges for standard supervised learning formulations. Non-working conditions are often disregarded which makes supervised learning the wrong approach, since a model can only learn if there is variance in the dataset. This is due to label bias which occurs if the model learns more about the distribution of the label than the features in the input. For example, if only positive labels are present (as the case for the \gls{pdb} dataset) the model could achieve perfect performance by predicting that every protein-condition combination results in a crystal, which is far from the truth. In these cases other learning paradigms have to be used. 
 
-\paragraph{Positive-Unlabeled Learning}
+\section{Contrastive Learning} \label{sec:contrastive_learning}
 
-\gls{pu} learning tries to solve this problem by removing the assumption that not reported conditions equate to non-crystal bearing conditions. Instead, non-reported trials simply reflect insufficient exploration of the experimental condition space or suboptimal experimental parameters. This reflects the label space of the \gls{pdb} much better since crystallographers often report the successful condition that is easiest to replicate even though others might have produces just as good crystals.
-Only a subset of positive examples is explicitly labeled, while the remaining data points are unlabeled and may contain both positive and negative instances. 
+Contrastive learning has emerged as a powerful paradigm for representation learning, particularly in self-supervised settings where labeled data is scarce. Instead of learning from explicit labels, contrastive methods learn representations by comparing samples and enforcing similarity relationships in an embedding space. As seen in later sections contrastive learning can be especially useful if the labels are insufficient. The core idea is to bring representations of similar samples closer while pushing dissimilar samples apart. This section follows the unified framework explored in \citet{LeKhac2020}.
 
-In \gls{pu} learning, the training dataset can be represented as
+Let $x \in \mathcal{X}$ denote an input sample. Contrastive learning defines two types of pairs:
+\begin{itemize}
+    \item \textbf{Positive pairs} $(x, x^+)$: semantically similar samples
+    \item \textbf{Negative pairs} $(x, x^-)$: dissimilar samples
+\end{itemize}
 
-\[
-\mathcal{D} = P \cup U,
-\]
+The goal is to learn a representation function $f_\theta: \mathcal{X} \rightarrow \mathbb{R}^d$ such that:
+\begin{equation}
+\text{sim}(f_\theta(x), f_\theta(x^+)) \gg \text{sim}(f_\theta(x), f_\theta(x^-))
+\end{equation}
 
-where $P$ denotes the set of labeled positive examples and $U$ represents the set of unlabeled samples. The unlabeled set typically contains a mixture of positive and negative instances whose true labels are unknown. The goal of \gls{pu} learning methods is to estimate a classifier that can distinguish positive from negative examples while accounting for the uncertainty in the unlabeled data \citet{Bekker2020}.
+This is typically achieved by optimizing a contrastive loss over a batch of such pairs.
 
-\gls{pu} learning methods typically rely on one of several strategies, including identifying reliable negative examples within the unlabeled set, estimating class priors, or adapting risk minimization frameworks to handle partially labeled data. These techniques have been successfully applied in various domains such as bioinformatics, information retrieval, and medical data analysis \citet{Bekker2020}. 
+The general framework consists of four key components \cite{LeKhac2020}:
 
-In the context of protein crystallization prediction, \gls{pu} learning provides a natural framework for modeling experimental screening data. Crystallization datasets often contain reliable records of successful crystallization conditions, while the large number of unsuccessful or unobserved conditions cannot be confidently labeled as true negatives. By leveraging positive examples and treating the remaining data as unlabeled, \gls{pu} learning methods can exploit larger datasets and potentially improve predictive performance compared to traditional supervised approaches without making false assumptions.
+\paragraph{(1) Data Augmentation and Pair Construction}
+Given an input $x$, two stochastic transformations $t, t' \sim \mathcal{T}$ generate two correlated views:
+\begin{equation}
+x_q = t(x), \quad x_k = t'(x)
+\end{equation}
+These form a positive pair, while samples from other inputs act as negatives.
+
+\paragraph{(2) Encoder}
+A neural network encoder $e(\cdot)$ maps inputs to representations:
+\begin{equation}
+v = e(x), \quad v \in \mathbb{R}^d
+\end{equation}
+The encoder is and is trained to extract meaningful features.
+
+\paragraph{(3) Projection Head}
+A projection function $h(\cdot)$ maps representations to a latent space where contrastive loss is applied:
+\begin{equation}
+z = h(v), \quad z \in \mathbb{R}^{d'}
+\end{equation}
+This separation allows the encoder to retain general features while the projection head specializes for the contrastive objective.
+
+\paragraph{(4) Contrastive Loss}
+The learning signal is provided by a loss function that enforces similarity constraints between embeddings.
+
+\paragraph{Training Objective}
+
+A widely used loss is the InfoNCE loss \cite{LeKhac2020}, defined for a positive pair $(z_i, z_i^+)$ among $K$ negative samples as:
+\begin{equation}
+\mathcal{L}_i = - \log \frac{\exp(\text{sim}(z_i, z_i^+)/\tau)}
+{\sum_{j=0}^{K} \exp(\text{sim}(z_i, z_j)/\tau)}
+\end{equation}
+
+where:
+\begin{itemize}
+    \item $\text{sim}(a,b) = a^\top b$ or cosine similarity
+    \item $\tau$ is a temperature parameter controlling sharpness
+\end{itemize}
+
+This objective can be interpreted as a $(K+1)$-way ranking problem where the model must identify the correct positive sample among negatives. For this task this means the aim is for a given protein to score conditions resulting in a crystal higher than those who are less likely to. 
+
+A common instantiation is the \textit{instance discrimination} task, where each sample is treated as its own class. Positive pairs are generated via augmentations of the same instance, while negatives come from different instances. The model thus learns invariance to transformations while preserving instance-level distinctions. For a given protein, positive samples can be generated from experimentally validated conditions by applying small perturbations, such as slight changes in concentration or pH, whereas negative samples are drawn from the global pool of all other conditions.
+
+Crucially, the choice of augmentations defines the invariances encoded in the learned representation. Strong augmentations prevent trivial solutions and encourage semantic feature learning. However, since proteins are extremely sensitive to slight changes in condition large perturbations can create false positives and hinder training. 
+Often contrastive learning relies on defining a similarity distribution $p^+(x^+|x)$ and a dissimilarity distribution $p^-(x^-|x)$. 
+Training proceeds by sampling mini-batches containing multiple positive and negative pairs. A common problem is representation collapse, where all inputs map to the same representation. This can be avoided using temperature scaling, diversity in batches.
+Contrastive learning provides a general framework for learning representations by comparing samples rather than predicting labels. Its effectiveness stems from:
+\begin{itemize}
+    \item Flexible definition of similarity
+    \item Strong inductive bias via augmentations
+    \item Scalable training with large negative sets
+\end{itemize}
+
+Contrastive learning is well-suited for this task since the end goal is to effectively rank conditions for a given protein. 

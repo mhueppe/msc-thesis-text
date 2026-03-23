@@ -1,0 +1,161 @@
+\section{Model Architecture}
+\label{sec:methods/model_architecture}
+\begin{figure}[h]
+\centering
+\resizebox{\textwidth}{!}{
+\begin{tikzpicture}[
+    font=\scriptsize,
+    >=latex,
+    box/.style={draw, rounded corners, align=center, text width=2.2cm, minimum height=0.8cm, fill=white},
+    smallbox/.style={draw, rounded corners, align=center, text width=2.0cm, minimum height=0.7cm, fill=white},
+    group/.style={draw, rounded corners, thick, inner sep=5pt, fill=uhhred},
+    groupProtein/.style={draw, rounded corners, thick, inner sep=5pt, fill=ukeblue},
+    towerboxProtein/.style={draw, rounded corners, thick, fill=ukeblue, inner sep=5pt},
+    towerboxCondition/.style={draw, rounded corners, thick, fill=uhhred, inner sep=5pt},
+    arrow/.style={->, thick}
+]
+
+% ===================== PROTEIN INPUT =====================
+\node[smallbox] (seqinfo) at (0,0) {Sequence\\information};
+\node[smallbox] (seqemb) at (2.6,0) {Sequence\\embedding};
+\node[smallbox] (surfinfo) at (5.2,0) {Surface\\information};
+
+\node[smallbox] (surfemb) at (0,-1.2) {Surface\\embedding};
+\node[smallbox] (bind) at (2.6,-1.2) {Binding\\sites};
+\node[smallbox] (structfeat) at (5.2,-1.2) {Structure\\features};
+
+% ===================== PROTEIN TOWER =====================
+\node[box] (protenc) at (2.6,-3.0) {Protein\\encoders};
+\node[box] (protfuse) at (2.6,-4.3) {Fusion /\\Protein tower};
+\node[box] (protemb) at (2.6,-5.6) {Protein embedding\\$z_p$};
+
+% ===================== CONDITION INPUT =====================
+\node[smallbox] (ph) at (11,0) {pH};
+\node[smallbox] (tokens) at (13.6,0) {Condition\\tokens};
+\node[smallbox] (condfeat) at (11,-1.2) {Condition\\features};
+\node[smallbox] (conc) at (13.6,-1.2) {Concentration};
+
+% ===================== CONDITION TOWER =====================
+\node[box] (condenc) at (12.3,-3.0) {Condition\\encoders};
+\node[box] (condfuse) at (12.3,-4.3) {Fusion /\\Condition tower};
+\node[box] (condemb) at (12.3,-5.6) {Condition embedding\\$z_c$};
+
+% ===================== SCORING =====================
+\node[box, text width=2.5cm] (score) at (7.45,-7.2)
+{Dot product /\\cosine similarity};
+
+\node[box, text width=2.5cm] (rank) at (7.45,-8.5)
+{Compatibility score\\and ranking};
+
+% ===================== BACKGROUND =====================
+\begin{pgfonlayer}{background}
+\node[groupProtein, fit=(seqinfo)(seqemb)(surfinfo)(surfemb)(bind)(structfeat),
+      label={[font=\small]above:Protein Input}] (proteinin) {};
+
+\node[towerboxProtein, fit=(protenc)(protfuse)(protemb),
+      label={[font=\small]above:Protein Tower}] (proteintower) {};
+
+\node[group, fit=(ph)(tokens)(condfeat)(conc),
+      label={[font=\small]above:Condition Input}] (condin) {};
+
+\node[towerboxCondition, fit=(condenc)(condfuse)(condemb),
+      label={[font=\small]above:Condition Tower}] (conditiontower) {};
+\end{pgfonlayer}
+
+% ===================== ARROWS =====================
+\draw[arrow] (proteinin.south) -- (protenc.north);
+\draw[arrow] (protenc) -- (protfuse);
+\draw[arrow] (protfuse) -- (protemb);
+
+\draw[arrow] (condin.south) -- (condenc.north);
+\draw[arrow] (condenc) -- (condfuse);
+\draw[arrow] (condfuse) -- (condemb);
+
+\draw[arrow] (protemb.south east) -- (score.west);
+\draw[arrow] (condemb.south west) -- (score.east);
+\draw[arrow] (score) -- (rank);
+
+\end{tikzpicture}
+}
+\caption{Simplified overview of the proposed two-tower architecture. Protein-related inputs are grouped and passed through the protein tower, while condition-related inputs are grouped and passed through the condition tower. The resulting embeddings are compared using a similarity-based scoring function to rank candidate conditions.}
+\label{fig:model_architecture}
+\end{figure}
+
+The proposed model follows a \emph{two-tower ranking architecture} in which proteins and crystallization conditions are encoded separately into a shared latent space. The final compatibility score is computed as the dot product between the normalized protein and condition embeddings. This design is well suited for retrieval and ranking tasks because both sides can be embedded independently and compared efficiently.
+
+The architecture is designed around three principles. First, it handles \emph{heterogeneous multimodal inputs} by assigning each modality a dedicated encoder. Second, it uses \emph{late fusion} through separate towers, which keeps the representation learning for proteins and conditions modular and scalable. Third, the normalized shared embedding space provides a natural basis for \emph{retrieval and ranking}, which is particularly useful when many candidate conditions must be evaluated for each protein.
+
+An important advantage of this design is that domain-specific features, pretrained embeddings, and set-structured inputs such as surface points or token lists can be combined in a unified framework. At the same time, the two-tower formulation keeps inference efficient because protein and condition representations do not need to be recomputed jointly for every pair.
+
+The overarching model can be described as follows:
+Let $x_p$ denote the protein input and $x_c$ the condition input. The model learns two functions
+\begin{equation}
+    f_p(x_p) \in \mathbb{R}^{d_t}, \qquad f_c(x_c) \in \mathbb{R}^{d_t},
+\end{equation}
+where $d_t$ is the tower dimension. Both outputs are $\ell_2$-normalized:
+\begin{equation}
+    \hat{z}_p = \frac{f_p(x_p)}{\|f_p(x_p)\|_2}, \qquad
+    \hat{z}_c = \frac{f_c(x_c)}{\|f_c(x_c)\|_2}.
+\end{equation}
+The final score is then
+\begin{equation}
+    s(x_p, x_c) = \hat{z}_p^\top \hat{z}_c,
+\end{equation}
+which corresponds to the cosine similarity between the two embeddings. High scores indicate that a condition is predicted to be compatible with a protein.
+
+\subsection{Protein Tower}
+
+The protein tower integrates feature branches for every feature type presented in \autoref{sec:methods/feature_engineering}.
+Each modality is first processed by its own branch-specific encoder. For low-dimensional tabular inputs, the model uses a \gls{mlp}. For high-dimensional pretrained embeddings, a separate head MLP with dropout is used. If enabled, layer normalization is applied before these heads.
+
+Formally, if the active protein branches produce vectors
+\begin{equation}
+    h^{(1)}_p, h^{(2)}_p, \dots, h^{(m)}_p,
+\end{equation}
+they are concatenated into one joint representation
+\begin{equation}
+    h_p = \mathrm{concat}\!\left(h^{(1)}_p, h^{(2)}_p, \dots, h^{(m)}_p\right).
+\end{equation}
+This concatenated vector is passed through a shared protein tower:
+\begin{equation}
+    z_p = W_{p,2} \, \phi\!\left(\mathrm{LN}\!\left(W_{p,1} h_p + b_{p,1}\right)\right) + b_{p,2},
+\end{equation}
+where $\phi(\cdot)$ denotes the GELU activation, $\mathrm{LN}$ denotes layer normalization, and dropout is applied after the first hidden transformation. The output $z_p$ is finally normalized to unit length. Each of these feature branches is encoded independently by an MLP or head MLP before fusion into the protein tower.
+
+\subsection{Condition Tower}
+
+The condition tower combines pH, chemical condition tokens, condition-level numerical features, and concentration information. Its purpose is to transform a heterogeneous description of a crystallization condition into a dense representation in the same latent space as the protein tower.
+The chemical condition encoder combines three sources of information. As described in \autoref{sec:methods/feature_engineering/condition_embedding}, a dense numerical condition features and Morgan fingerprints. Additionally, the pH, concentration and tokens of the chemicals.
+Each token represents a unique chemical. Each condition may contain a variable-length list of tokens. These are embedded via a learnable embedding table:
+\begin{equation}
+    e_i = E[t_i],
+\end{equation}
+where $t_i$ is the $i$-th token and $E$ is the token embedding matrix. The embedded tokens are further transformed with a residual MLP. Because token sequences have variable length, padded elements are masked and the token representation is obtained using a masked mean:
+\begin{equation}
+    h_{\text{tok}} =
+    \frac{\sum_{i=1}^{T} m_i \tilde{e}_i}{\sum_{i=1}^{T} m_i},
+\end{equation}
+where $m_i \in \{0,1\}$ indicates whether a token is valid. This prevents padding from influencing the pooled representation.
+The numerical condition vector, the pH as well as the concentration are all encoded by an associated \gls{mlp} and concatenated and mapped to the final chemical condition vector through a fusion MLP.
+The pH embedding and chemical condition embedding are also concatenated and projected by the condition tower.
+As in the protein tower, the output is finally normalized.
+
+\paragraph{Generic MLP Blocks}
+
+A central component of the architecture is a configurable MLP block used throughout the model. Given an input $x$, an MLP applies a sequence of affine transformations, optional layer normalization, a non-linear activation, and optional dropout:
+\begin{equation}
+    h^{(l+1)} = \mathrm{Dropout}\!\left(\phi\!\left(\mathrm{LN}(W^{(l)} h^{(l)} + b^{(l)})\right)\right).
+\end{equation}
+The implementation supports ReLU, GELU, and SiLU activations. Some branches optionally use residual connections:
+\begin{equation}
+    y = \mathrm{MLP}(x) + x,
+\end{equation}
+which helps preserve information and stabilize optimization when input and output dimensions are equal.
+
+\paragraph{Scoring Function and Ranking Interpretation}
+
+After obtaining the normalized protein and condition representations, the model computes a single scalar compatibility score using the dot product:
+\begin{equation}
+    s = \hat{z}_p^\top \hat{z}_c.
+\end{equation}
+Because both embeddings are normalized, this score lies in the cosine-similarity space. The model can therefore be interpreted as a ranking model: for a fixed protein, multiple candidate conditions can be embedded independently and ranked by decreasing score. Likewise, condition embeddings can be precomputed and reused efficiently during inference.

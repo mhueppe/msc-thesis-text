@@ -4,7 +4,7 @@ One approach to obtain a numerical representation of chemical compounds is token
 
 Despite these advantages, purely token-based representations require the model to infer chemical properties solely from contextual co-occurrence patterns of tokens within the dataset. This limits the extent to which the representation explicitly reflects underlying physicochemical characteristics. To embed crystallization conditions in a more physically meaningful manner, this thesis therefore adopts two additional representation strategies: (1) a numerical feature representation derived from physicochemical descriptors, and (2) a semantic vector representation that captures contextual relationships between chemicals in the dataset.
 
-\subsubsection{Feature vector}
+\subsubsection*^{Feature vector}
 The numerical feature representative was created using the following procedure. After parsing the condition from the free text a nomenclature was defined of valid chemicals. For all the chemicals in that dictionary the \gls{smiles} notation was defined. 
 Introduced by \cite{Weininger1988}, \gls{smiles} is a text-based chemical notation designed for computational processing. It represents a molecule as a linear string of ASCII characters encoding its underlying molecular graph, including atoms, bond types, branching, ring closures, and formal charges. Thus, \gls{smiles} captures the connectivity and chemical structure of a compound in a machine-readable format.
 

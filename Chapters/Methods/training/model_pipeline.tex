@@ -1,0 +1,68 @@
+\subsection{Training Procedure}\label{sec:training}
+
+The model is trained using a contrastive ranking objective within a two-tower architecture. The goal is to learn a shared embedding space in which compatible protein--condition pairs have high similarity, while incompatible pairs are separated.
+Each training batch consists of $B$ paired samples:
+\begin{equation}
+    \{(x_p^{(i)}, x_c^{(i)})\}_{i=1}^{B},
+\end{equation}
+where $x_p^{(i)}$ denotes the protein features and $x_c^{(i)}$ the corresponding crystallization condition. Each condition is additionally associated with a unique identifier $c^{(i)}$.
+
+As seen in \autoref{fig:mostcommoncocktails} in \autoref{sec:data_analysis} some conditions occure multiple. This means that unlike standard contrastive setups, batches may contain duplicate conditions. Using standard batch contrastive learning the diagonal in a batch is optimized i.e. duplicates in a batch would be turned into false negatives. To accomodate this in the designed setup the duplicates are explicitly leveraged during training by treating all identical conditions as valid positives. This is done by comparing the conditions based on their chemical composition and pH. 
+As described in \autoref{sec:methods/model_architecture} for each batch, protein and condition inputs are encoded independently using the two towers:
+\begin{equation}
+    z_p^{(i)} = f_p(x_p^{(i)}), \qquad
+    z_c^{(j)} = f_c(x_c^{(j)}).
+\end{equation}
+
+Both embeddings are $\ell_2$-normalized, and a full pairwise similarity matrix is computed:
+\begin{equation}
+    S_{ij} = \frac{z_p^{(i)}}{\|z_p^{(i)}\|_2}^\top
+             \frac{z_c^{(j)}}{\|z_c^{(j)}\|_2}.
+\end{equation}
+
+This results in a $B \times B$ score matrix where each row corresponds to a protein and each column to a condition.
+On this score matrix a mask is employed to mask-out loss for duplicate conditions. Thus, all conditions in the batch with the same identifier are treated as valid positives for a given protein.
+
+The training objective is based on a multi-positive variant of the InfoNCE loss. For each anchor $i$, the probability assigned to its positives is:
+\begin{equation}
+    p_{ij} = \frac{\exp(S_{ij} / \tau)}
+    {\sum_{k=1}^{B} \exp(S_{ik} / \tau)},
+\end{equation}
+where $\tau$ is a temperature parameter controlling the sharpness of the distribution.
+
+The row-wise loss (protein-to-condition direction) is defined as:
+\begin{equation}
+    \mathcal{L}_{\text{row}} =
+    - \frac{1}{B} \sum_{i=1}^{B}
+    \frac{1}{|P(i)|}
+    \sum_{j \in P(i)} \log p_{ij},
+\end{equation}
+where $P(i)$ denotes the set of positive indices for anchor $i$.
+
+Similarly, a column-wise loss (condition-to-protein direction) is computed:
+\begin{equation}
+    \mathcal{L}_{\text{col}} =
+    - \frac{1}{B} \sum_{j=1}^{B}
+    \frac{1}{|Q(j)|}
+    \sum_{i \in Q(j)} \log p_{ij},
+\end{equation}
+where $Q(j)$ denotes all proteins associated with condition $j$.
+
+The final symmetric loss is a weighted combination:
+\begin{equation}
+    \mathcal{L}_{\text{rank}} =
+    (1 - \lambda)\, \mathcal{L}_{\text{row}} +
+    \lambda\, \mathcal{L}_{\text{col}},
+\end{equation}
+where $\lambda \in [0,1]$ controls the relative importance of both directions.
+
+This symmetric formulation ensures that 1. proteins retrieve all compatible conditions and 2. conditions retrieve all associated proteins.
+In addition to the ranking loss, an auxiliary contrastive regularization term is applied to the protein embeddings. 
+
+All non-positive pairs within a batch are implicitly treated as negatives. This yields $O(B^2)$ training pairs without additional sampling. The effectiveness of this approach depends on sufficiently large and diverse batches.
+In addition to loss and performance metrics, gradient norms of individual model components are monitored to ensure stable optimization across different branches of the architecture.
+At inference time, protein and condition embeddings can be computed independently. Given a protein embedding $z_p$, candidate conditions $\{z_c^{(j)}\}$ are ranked according to:
+\begin{equation}
+    s_j = z_p^\top z_c^{(j)}.
+\end{equation}
+This enables efficient retrieval of suitable crystallization conditions from large candidate sets.
