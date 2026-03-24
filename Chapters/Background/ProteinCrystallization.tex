@@ -1,6 +1,10 @@
+\section{Introduction to Protein Crystallization}\label{sec:protein_crystallization}
+\paragraph{Challenge of X-ray Crystallography}
+As stated, crystallizing a protein is often the bottleneck in X-ray crystallography. Only a small fraction (roughly 2–10\%) of proteins produce diffraction-quality crystals, meaning over 90\% of crystallization trials fail \parencite{Mall2025}. This trial-and-error process is costly, where $>$70\% of the total expense in structure determination is spent on attempts not producing crystals of diffraction quality \parencite{Mall2025}. Achieving crystals requires finding the right crystallization conditions (e.g. precipitant chemicals, salts, pH, temperature), but currently these must be determined empirically by screening hundreds or thousands of conditions, which demands a lot of protein \parencite{McPherson2013}. This reality motivates computational approaches to predict either whether a protein is likely to crystallize (crystallization propensity) or even which specific conditions might lead to crystals. The former is a widely researched topic with models such as CrystalP2 \parencite{Kurgan2009} or PPCPred \parencite{Mizianty2011}, the latter however has received little to no attention \parencite{Jin2022}.  While crystallization robots have eased the burden of manual search, discovering optimal conditions still means testing thousands of solutions, wasting protein in the process \parencite{Wilson2014}.
+Any such predictive model could significantly reduce experimental screening, saving time and cost.
+In the following the process of protein crystallization is further presented. 
 
-\section{Protein Crystallization}\label{sec:protein_crystallization}
-To properly implement a machine learning model with the goal to aid with protein crystallization by predicting optimal crystallization condition it is of need to understand what protein crystallization is and what is understood about the process that leads to protein crystals. 
+To properly implement a machine learning model with the goal to aid with protein crystallization by predicting optimal crystallization condition it is crucial to understand what protein crystallization is and what is understood about the process that leads to protein crystals. 
 The following sections will be largely following the research shared by \citet{McPherson2013} in "Introduction to protein crystallization", \citet{Bergfors2009} in "Protein Crystallization" and "Biomolecular crystallography: principles, practice, and application to structural biology" \parencite{Rupp2009}. 
 
 Proteins can be represented in a variety of ways. Typically, protein representations are distinguished into multiple levels. The primary structure is defined by the amino-acid sequence and specifies the combination of 20 residues a protein is made from. It encodes the physicochemical properties that determine folding behavior. Secondary-structure is captured through the combination of $\alpha$-helices and $\beta$-sheets which emerge from local interactions within residues. Tertiary structure on the other hand result from long-range stabilization involving hydrophobic packing, salt brides, and hydrogen bonding. For crystallization, not all structural aspects are equally relevant. Properties that influence intermolecular packing, such as the distribution of charged or hydrophobic residues, the presence of flexible loops, and the existence of intrinsically disordered regions play a decisive role. Surface patches with high conformational entropy can hinder the formation of ordered contacts, while rigid and well-folded domains generally crystallize more readily. It is crucial to understand which structural features influence crystallization to implement a predictive model for optimal crystallization conditions. 
@@ -11,17 +15,17 @@ Proteins can be represented in a variety of ways. Typically, protein representat
 	\begin{subfigure}[t]{0.48\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{Figures/phaseDiagram}
-		\caption[Protein crystallization phase diagram]{Schematic phase diagram of protein crystallization illustrating how protein concentration and precipitant concentration define regions of undersaturation, supersaturation, metastable crystal growth, nucleation, and amorphous precipitation. Controlled manipulation of these parameters is required to drive the system into the crystallization-competent supersaturated regime (inspired by \textcite{Bijelic2018}).}
+		\caption[Protein crystallization phase diagram]{ }
 		\label{fig:phasediagram}
 	\end{subfigure}
 	\hspace{0.1cm}
 	\begin{subfigure}[t]{0.48\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{Figures/hangingDrop}
-		\caption[Hanging Drop Vapor Diffusion]{In the hanging-drop vapor diffusion a well with the crystallization cocktail (the combination of precipitants, additives, detergents, etc.) is mixed with the protein on a glass slide (typically 1:1 ratio). Then the slide is turned facing the well. The construct is sealed. The vapor diffuses into the well which increases the concentration in the drop. The drop is observed for possible crystal formation. Inspired by \textcite{Rupp2009}.}
+		\caption[Hanging Drop Vapor Diffusion]{ }
 		\label{fig:hangingdrop}
 	\end{subfigure}
-	\caption[Protein Crystallization basics]{ }	
+	\caption[Protein Crystallization basics]{\autoref{fig:phasediagram} shows a schematic phase diagram of protein crystallization illustrating how protein concentration and precipitant concentration define regions of undersaturation, supersaturation, metastable crystal growth, nucleation, and amorphous precipitation. Controlled manipulation of these parameters is required to drive the system into the crystallization-competent supersaturated regime (inspired by \textcite{Bijelic2018}). \autoref{fig:hangingdrop} depicts the hanging-drop vapor diffusion, in which a well with the crystallization cocktail (the combination of precipitants, additives, detergents, etc.) is mixed with the protein on a glass slide (typically 1:1 ratio). Then the slide is turned facing the well. The construct is sealed. The vapor diffuses into the well which increases the concentration in the drop. The drop is observed for possible crystal formation. Inspired by \textcite{Rupp2009}.}	
 	\label{fig:proteinCrystallizationBasics}
 \end{figure}
 
@@ -38,6 +42,7 @@ As the protein or precipitant concentration increases, the system approaches the
 The supersaturated state is further subdivided into distinct zones that control the behavior of the proteins \parencite{Bijelic2018}. 
 
 \begin{itemize}
+	\itemsep0em
 	\item Metastable zone: Supersaturation is sufficient to support crystal growth but insufficient for spontaneous nucleation. Crystals introduced into this zone (e.g., by seeding) will grow in a controlled manner, making this region ideal for obtaining large, well-ordered crystals.
 	\item Nucleation (labile) zone: Supersaturation is high enough to overcome the nucleation barrier, allowing new crystal nuclei to form. However, rapid nucleation often leads to many small crystals rather than a few large ones.
 	\item Precipitation or amorphous zone: At very high supersaturation, the driving force becomes too strong for orderly packing. Instead of forming a stable nucleus, the protein collapses into a disordered, amorphous solid. This outcome is undesirable because it competes with crystallization and consumes material without generating diffraction-quality crystals.
@@ -52,7 +57,7 @@ At the start of the experiment, the precipitant concentration in the droplet is 
 
 As the drop becomes more concentrated, the system eventually leaves the under-saturation zone and crosses the protein’s solubility limit under these new conditions. When this point is reached, the solution enters the supersaturated state. As discussed this is the thermodynamic prerequisite for crystallization. If the supersaturation level falls within the nucleation zone of the phase diagram, initial ordered molecular clusters may form, ultimately giving rise to protein crystals. 
 
-\subsection{Crystallization cocktails}
+\subsubsection*{Crystallization cocktails}
 As discussed previously and illustrated in \autoref{fig:phasediagram}, one of the key control parameters in promoting protein crystallization is the crystallization cocktail. This mixture of chemical components is added to the protein mother liquor to manipulate solubility and ultimately drive the system into a supersaturated state, where nucleation and crystal growth become possible. \textcite{Rupp2009} categorizes crystallization reagents into several functional classes, the most common being precipitants, buffers, and additives. A typical crystallization condition includes at least one precipitant, often combined with various salts, pH-adjusting buffers, and specialized additives that influence protein stability or intermolecular interactions.
 
 With the advent of automated crystallization screening platforms and high-throughput beamline facilities, the standard strategy for identifying suitable crystallization conditions relies on exploring a broad segment of the chemical space using commercial 96-well sparse-matrix screens. These screens are designed to sample a wide diversity of precipitants, pH values, ionic strengths, and additive types. Initial hits are refined through optimization screens, where individual chemical parameters are systematically adjusted to improve crystal size and diffraction quality.
@@ -67,7 +72,7 @@ The effect of \glspl{peg} also depends strongly on molecular weight: Low–molec
 Because \glspl{peg} are chemically inert, stable, and easy to handle, they are compatible with a wide variety of proteins and buffer conditions, making them a cornerstone of modern crystallization strategies.\\
 
 \paragraph{Salts}
-The effect of salts arises from the interaction of ions with charged and polar residues on the protein surface, shifting the balance between protein–protein and protein–solvent interactions. At low ionic strength, salts can increase protein solubility through salting-in, which screens repulsive charges and stabilizes the soluble state. As salt concentration increases, the competition for water molecules intensifies, hydrophobic interactions become stronger, and solubility decreases, resulting in salting-out and the promotion of supersaturation \parencite{Rupp2009}.
+The effect of salts arises from the interaction of ions with charged and polar residues on the protein surface, shifting the balance between protein–protein and protein–solvent interactions. At low ionic strength, salts can increase protein solubility through salting-in, which reduces repulsive charges and stabilizes the soluble state. As salt concentration increases, the competition for water molecules intensifies, hydrophobic interactions become stronger, and solubility decreases, resulting in salting-out and the promotion of supersaturation \parencite{Rupp2009}.
 
 At sufficiently high concentrations, certain salts also serve as cryoprotectants, preventing ice formation during flash-cooling and thereby preserving crystal order during X-ray diffraction experiments \parencite{Rubinson2000}. This dual functionality further underscores the importance of carefully tuning salt concentration in both crystallization and data collection workflows.
 

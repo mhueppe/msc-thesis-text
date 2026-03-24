@@ -24,7 +24,7 @@ Supervised learning approaches rely heavily on the availability of high-quality 
 
 \section{Contrastive Learning} \label{sec:contrastive_learning}
 
-Contrastive learning has emerged as a powerful paradigm for representation learning, particularly in self-supervised settings where labeled data is scarce. Instead of learning from explicit labels, contrastive methods learn representations by comparing samples and enforcing similarity relationships in an embedding space. As seen in later sections contrastive learning can be especially useful if the labels are insufficient. The core idea is to bring representations of similar samples closer while pushing dissimilar samples apart. This section follows the unified framework explored in \citet{LeKhac2020}.
+Contrastive learning has emerged as a powerful paradigm for representation learning, particularly in self-supervised settings where labeled data is scarce. Instead of learning from explicit labels, contrastive methods learn representations by comparing samples and enforcing similarity relationships in an embedding space. As seen in later sections contrastive learning can be especially useful if the labels are insufficient. The core idea is to bring representations of similar samples closer while pushing dissimilar samples apart. This section follows the unified framework explored by \citet{LeKhac2020}.
 
 Let $x \in \mathcal{X}$ denote an input sample. Contrastive learning defines two types of pairs:
 \begin{itemize}
@@ -37,9 +37,7 @@ The goal is to learn a representation function $f_\theta: \mathcal{X} \rightarro
 \text{sim}(f_\theta(x), f_\theta(x^+)) \gg \text{sim}(f_\theta(x), f_\theta(x^-))
 \end{equation}
 
-This is typically achieved by optimizing a contrastive loss over a batch of such pairs.
-
-The general framework consists of four key components \cite{LeKhac2020}:
+This is typically achieved by optimizing a contrastive loss over a batch of such pairs. The general framework consists of four key components \citep{LeKhac2020}:
 
 \paragraph{(1) Data Augmentation and Pair Construction}
 Given an input $x$, two stochastic transformations $t, t' \sim \mathcal{T}$ generate two correlated views:
@@ -53,7 +51,7 @@ A neural network encoder $e(\cdot)$ maps inputs to representations:
 \begin{equation}
 v = e(x), \quad v \in \mathbb{R}^d
 \end{equation}
-The encoder is and is trained to extract meaningful features.
+The encoder is trained to extract meaningful features.
 
 \paragraph{(3) Projection Head}
 A projection function $h(\cdot)$ maps representations to a latent space where contrastive loss is applied:
@@ -67,7 +65,7 @@ The learning signal is provided by a loss function that enforces similarity cons
 
 \paragraph{Training Objective}
 
-A widely used loss is the InfoNCE loss \cite{LeKhac2020}, defined for a positive pair $(z_i, z_i^+)$ among $K$ negative samples as:
+A widely used loss is the InfoNCE loss \citep{LeKhac2020}, defined for a positive pair $(z_i, z_i^+)$ among $K$ negative samples as:
 \begin{equation}
 \mathcal{L}_i = - \log \frac{\exp(\text{sim}(z_i, z_i^+)/\tau)}
 {\sum_{j=0}^{K} \exp(\text{sim}(z_i, z_j)/\tau)}

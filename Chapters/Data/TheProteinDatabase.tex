@@ -7,41 +7,11 @@ Using the RCSB Search API, all entries solved by X-ray diffraction (about 80\%) 
 
 \subsection*{Format}\label{sec:protein_database/format}
 The \gls{pdb} provides structural data in two formats: PDB and CIF. The newer CIF format was chosen because, unlike the fixed-width PDB format, it does not impose size limitations on large structures. In addition, it can represent complex features such as branched carbohydrates and offers greater detail and flexibility than its predecessor.
-The data items are in the format of '\_' + category name + '.' + attribute name. Data categories can be either saved in either key-value or in tabular format. These can be easily parsed into a column vector as is in CSV files. For example the crystallization conditions are saved in key-value format and look like the following for 3P4V: 
+The data items are in the format of '\_' + category name + '.' + attribute name. Data categories can be either saved in either key-value or in tabular format. These can be easily parsed into a column vector as is in CSV files. For example the crystallization conditions are saved in key-value format an example is depicted in \autoref{lst:example_file} in \autoref{app:data}.
 
-\begin{verbatim}
-	_exptl_crystal_grow.crystal_id      1
-	_exptl_crystal_grow.method          'VAPOR DIFFUSION, SITTING DROP'
-	_exptl_crystal_grow.apparatus       None
-	_exptl_crystal_grow.atmosphere      None
-	_exptl_crystal_grow.pH              9.5
-	_exptl_crystal_grow.temp            298.0
-	_exptl_crystal_grow.pdbx_details    '3.2M (NH4)2SO4, 0.1M Glycine, ...'
-	_exptl_crystal_grow.time            None
-\end{verbatim}
 
-A category is stored in tabular format when a token defines multiple values. In this case, loop\_ is followed by rows of data-item names, with data values separated by whitespace. Notably, the protein’s structural information i.e., the atom\_sites category is represented in this format, as shown in the following example:
 
-\begin{verbatim}
-	loop_
-	_atom_site.group_PDB
-	_atom_site.id
-	_atom_site.type_symbol
-	_atom_site.label_atom_id
-	_atom_site.label_alt_id
-	_atom_site.label_comp_id
-	_atom_site.label_asym_id
-	_atom_site.label_entity_id
-	_atom_site.label_seq_id
-	_atom_site.pdbx_PDB_ins_code
-	_atom_site.Cartn_x
-	_atom_site.Cartn_y
-	_atom_site.Cartn_z 
-	ATOM   1    N  N   . VAL A 1 1   ? 6.204   16.869  4.854   1.00 49.05 ...
-	ATOM   2    C  CA  . VAL A 1 1   ? 6.913   17.759  4.607   1.00 43.14 ...
-	ATOM   3    C  C   . VAL A 1 1   ? 8.504   17.378  4.797   1.00 24.80 ...
-	ATOM   4    O  O   . VAL A 1 1   ? 8.805   17.011  5.943   1.00 37.68 ...
-\end{verbatim}
+A category is stored in tabular format when a token defines multiple values. In this case, loop\_ is followed by rows of data-item names, with data values separated by whitespace. Notably, the protein’s structural information i.e., the atom\_sites category is represented in this format, as shown in \autoref{lst:feature_example} in \autoref{app:data}.
 
 \subsection*{Structure}\label{sec:protein_database/structure}
 

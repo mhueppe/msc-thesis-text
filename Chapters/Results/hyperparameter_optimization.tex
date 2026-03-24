@@ -1,7 +1,7 @@
-\section{Hyperparameter Tuning} 
+\section{Hyperparameter Tuning}\label{sec:results/hyperparameter_tuning}
 
 \paragraph{Model Performance vs. Model Size}
-Figure~\ref{fig:model_scaling} illustrates the relationship between model size and performance for both training and validation, evaluated using \gls{auc} and Top-1 accuracy. 
+\citet{Kaplan2020} present scaling laws which emphasize the effect of model size to its performance. To assess whether increasing model complexity leads to improved performance for this task, the model was evaluated across a range of parameter sizes. \autoref{fig:model_scaling} illustrates the relationship between model size and performance for both training and validation, evaluated using \gls{auc} and Top-1 accuracy. 
 
 As model size increases, both training and validation performance initially improve in an approximately linear fashion. This indicates that larger models are able to better capture underlying patterns in the data, leading to consistent gains in generalization performance up to a certain point.
 
@@ -12,7 +12,7 @@ The results demonstrate a regime of beneficial scaling where performance grows r
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{../msc-thesis-code/data/dataExploration/plots/model_sizes}
-	\caption[Model size influence on Performance]{Figure shows \gls{auc} and Top 1 score in relation to model size.}
+	\caption[Model size influence on Performance]{Figure shows \gls{auc} and Top 1 score in relation to model size. The performance increases with more neurons until overfitting starts.}
 	\label{fig:model_scaling}
 \end{figure} 
 
@@ -33,7 +33,7 @@ Overall, the results indicate that the model's performance is primarily driven b
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.6\textwidth]{../msc-thesis-code/data/dataExploration/plots/hyperparameter_importances}
-	\caption[Hypeparameter feature importance]{Figure shows hyperparameter feature importances.}
+	\caption[Hyperparameter feature importance]{Figure shows hyperparameter feature importances. Features relating to the condition and the structure are of highest importance.}
 	\label{fig:feature_importances}
 \end{figure} 
 

@@ -10,7 +10,7 @@ The network defines a function $f_\theta(x)$ parameterized by $\theta = \{\mathb
 
 \paragraph{Backpropagation}
 
-Training neural networks is typically performed using gradient-based optimization, where parameters are updated using the gradient of the loss function with respect to the weights. The backpropagation algorithm efficiently computes these gradients by applying the chain rule of calculus through the network layers \citet{Schmidhuber2015}.
+Training neural networks is typically performed using gradient-based optimization, where parameters are updated using the gradient of the loss function with respect to the weights. The backpropagation algorithm efficiently computes these gradients by applying the chain rule through the network layers \citet{Schmidhuber2015}.
 
 For a given loss $\mathcal{L}$, the gradient with respect to a weight $w_{ij}^{(l)}$ is:
 \begin{equation}
@@ -28,5 +28,5 @@ The parameters are then updated using gradient descent:
 \end{equation}
 where $\eta$ is the learning rate.
 
-Backpropagation enables efficient credit assignment across multiple layers by propagating error signals from the output layer to earlier layers. This process allows deep networks to learn hierarchical feature representations, where lower layers capture simple patterns and higher layers encode more abstract concepts \citet{Schmidhuber2015}. However, training deep networks can be challenging due to issues such as vanishing or exploding gradients, which affect how effectively gradients propagate through many layers.
+Backpropagation enables efficient credit assignment across multiple layers by propagating error signals from the output layer to earlier layers. This process allows deep networks to learn hierarchical feature representations, where lower layers capture simple patterns and higher layers encode more abstract concepts \citep{Schmidhuber2015}. However, training deep networks can be challenging due to issues such as vanishing or exploding gradients, which affect how effectively gradients propagate through many layers.
 In summary, neural networks learn by iteratively adjusting their parameters to minimize a loss function, using backpropagation to compute gradients efficiently. This combination of layered structure and gradient-based optimization forms the foundation of modern deep learning methods. Given their ability to learn complex features they are well suited for this task. 

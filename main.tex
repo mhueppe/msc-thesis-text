@@ -86,7 +86,7 @@ headsepline, % Uncomment to get a line under the header
 }
 \usepackage{tabularx}
 \usepackage{subcaption}
-\captionsetup[subfigure]{list=true}
+\captionsetup[subfigure]{list=false}
 
 \usepackage[toc, acronym,nonumberlist]{glossaries}
 \renewcommand{\glsnamefont}[1]{\textbf{#1}}
@@ -116,7 +116,7 @@ headsepline, % Uncomment to get a line under the header
 \keywords{} % Keywords for your thesis, this is not currently used anywhere in the template, print it elsewhere with \keywordnames
 \university{\href{https://www.uni-hamburg.de/}{Universtiy of Hamburg}} % Your university's name and URL, this is used in the title page and abstract, print it elsewhere with \univname
 \department{\href{https://www.inf.uni-hamburg.de/}{Department of Computer Science}} % Your department's name and URL, this is used in the title page and abstract, print it elsewhere with \deptname
-\group{\href{https://www.zbh.uni-hamburg.de/personen/mlbi.html}{Machine Learning in Bio Informatics}} % Your research group's name and URL, this is used in the title page, print it elsewhere with \groupname
+\group{\href{https://www.zbh.uni-hamburg.de/personen/mlbi.html}{Machine Learning in Bioinformatics}} % Your research group's name and URL, this is used in the title page, print it elsewhere with \groupname
 \faculty{\href{http://faculty.university.com}{Faculty Name}} % Your faculty's name and URL, this is used in the title page and abstract, print it elsewhere with \facname
 
 \AtBeginDocument{
@@ -209,8 +209,29 @@ headsepline, % Uncomment to get a line under the header
 
 \begin{abstract}
 \addchaptertocentry{\abstractname} % Add the abstract to the table of contents
-The Thesis Abstract is written here (and usually kept to just this page). The page is kept centered vertically so can expand into the blank space above the title too\ldots
+Protein crystallization remains a critical bottleneck in structural biology, as identifying suitable crystallization conditions is largely empirical, time-consuming, and associated with high failure rates. While recent advances in protein structure prediction have significantly improved access to structural information, they do not eliminate the need for experimentally determined crystal structures. This thesis investigates whether machine learning can be used to predict protein crystallization conditions directly from protein-derived features, thereby reducing the experimental search space.
+
+To address this problem, a large-scale dataset was constructed from the \gls{pdb}, comprising nearly 200,000 protein structures along with their associated crystallization metadata. A comprehensive data processing pipeline was developed to transform heterogeneous and partially incomplete experimental records into a structured, machine-readable representation of crystallization conditions. Multiple feature modalities were explored, including sequence-based descriptors, learned sequence embeddings, structural information, and surface-derived properties.
+
+Given the scarcity of reliable negative labels in crystallization data, this work adopts a contrastive learning framework to model the relationship between proteins and crystallization conditions. A two-tower architecture is proposed, where protein and condition representations are learned jointly in a shared embedding space and compared using a similarity-based scoring function. In addition, classical supervised learning approaches, including gradient boosting methods, are evaluated as baselines.
+
+Experimental results demonstrate that the proposed approach captures meaningful relationships between protein features and crystallization conditions, enabling the ranking of candidate conditions for a given protein. While exact prediction of optimal conditions remains challenging due to the high dimensionality and inherent stochasticity of crystallization, the model shows potential to narrow down the experimental search space.
+
+Overall, this work highlights the feasibility of leveraging machine learning for condition prediction in protein crystallization and provides a foundation for future research integrating structural, physicochemical, and experimental data to guide crystallization experiments more efficiently.
 \end{abstract}
+
+\begin{acknowledgements}
+\addchaptertocentry{\acknowledgementname}
+I would like to express my heartfelt gratitude to the individuals who have contributed to the successful completion of this thesis.\\
+First and foremost, I would like to extend my appreciation to Dr. Michael Hecht-Bucher.  His support, guidance, and expertise in the fields of structural biology and bioinformatics have been instrumental throughout the entire process. His mentorship has greatly enhanced the quality of my work and understanding of the topics covered.\\
+I am also grateful to Prof. Dr. Gordon Fabian Kern, for the support in machine learning and bioinformatics and his supervision in this thesis. \\
+Moreover, I would like to thank Prof. Dr. Aymelt Itzen for welcoming me into his research group despite my background in a different field, for providing access to laboratory-generated data, and for sharing his expertise in structural biology. \\
+A special note of appreciation goes to the Itzen Lab in general for welcoming me into the group and their help in tracking down their crystallization data of past years. Their involvement and cooperation have made the assumptions about real life practicality of the system possible, and their voluntary contribution is sincerely appreciated.\\
+Lastly, I would like to extend a huge thank you to my family and friends for their support. \\
+My sincere thanks to all of the above for being a part of this thesis and making this a truly rewarding learning experience.\\
+
+\end{acknowledgements}
+
 
 %----------------------------------------------------------------------------------------
 %	LIST OF CONTENTS/FIGURES/TABLES PAGES
@@ -245,7 +266,6 @@ The Thesis Abstract is written here (and usually kept to just this page). The pa
 
 
 \include{Chapters/Introduction}
-\include{Chapters/Background}
 \include{Chapters/Data}
 \include{Chapters/Methods}
 \include{Chapters/Results}

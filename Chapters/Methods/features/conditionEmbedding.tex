@@ -1,10 +1,9 @@
 \subsection{Condition Embedding}\label{sec:methods/feature_engineering/condition_embedding}
 
-One approach to obtain a numerical representation of chemical compounds is tokenization, a technique commonly used in natural language processing (NLP) that converts strings into sequences of integer values representing discrete tokens. The simplest tokenization strategy assigns each chemical compound a unique identifier, effectively treating each compound as an independent token. However, chemical nomenclature and representations often contain meaningful substrings, such as prefixes (e.g., mono- or di-) and suffixes (e.g., -ate), which encode chemically relevant information. Consequently, a more expressive approach is substring tokenization, where compounds are decomposed into smaller chemical subunits that can be represented individually.
+One approach to obtain a numerical representation of chemical compounds is tokenization, a technique commonly used in natural language processing, that converts strings into sequences of integer values representing discrete tokens. The simplest tokenization strategy assigns each chemical compound a unique identifier, effectively treating each compound as an independent token. However, chemical nomenclature and representations often contain meaningful substrings, such as prefixes (e.g., mono- or di-) and suffixes (e.g., -ate), which encode chemically relevant information. Consequently, a more expressive approach is substring tokenization, where compounds are decomposed into smaller chemical subunits that can be represented individually.
 
-Despite these advantages, purely token-based representations require the model to infer chemical properties solely from contextual co-occurrence patterns of tokens within the dataset. This limits the extent to which the representation explicitly reflects underlying physicochemical characteristics. To embed crystallization conditions in a more physically meaningful manner, this thesis therefore adopts two additional representation strategies: (1) a numerical feature representation derived from physicochemical descriptors, and (2) a semantic vector representation that captures contextual relationships between chemicals in the dataset.
+Despite these advantages, purely token-based representations require the model to infer chemical properties solely from contextual co-occurrence patterns of tokens within the dataset. This limits the extent to which the representation explicitly reflects underlying physicochemical characteristics. To embed crystallization conditions in a more physically meaningful manner, this thesis therefore adopts an additional representation strategy. Namely, a numerical feature representation derived from physicochemical descriptors.
 
-\subsubsection*^{Feature vector}
 The numerical feature representative was created using the following procedure. After parsing the condition from the free text a nomenclature was defined of valid chemicals. For all the chemicals in that dictionary the \gls{smiles} notation was defined. 
 Introduced by \cite{Weininger1988}, \gls{smiles} is a text-based chemical notation designed for computational processing. It represents a molecule as a linear string of ASCII characters encoding its underlying molecular graph, including atoms, bond types, branching, ring closures, and formal charges. Thus, \gls{smiles} captures the connectivity and chemical structure of a compound in a machine-readable format.
 
@@ -19,64 +18,3 @@ The \gls{smiles} code for the chemicals was tracked down using \href{https://pub
 Using the \gls{smiles} representation, a multitude of molecular descriptors are extracted for each chemical. These aim to properly represent the physical properties of the chemicals, the features, all computed with RDKit, can be found in \autoref{tab:feature_table} in \autoref{app:methods}.
 
 Additionally, each compound is also represented by a Morgan fingerprint derived from its \gls{smiles} representation. \citet{Morgan1965} defines circular substructure descriptors that capture local atom environments around each atom up to a given radius. By hashing these substructures into a fixed-length bit vector, they provide a continuous representation of molecular topology suitable for machine learning. This way, functional groups, aromatic rings, local polarity patterns, repeating structural motifs and substructure frequencies can be encoded. In this work, a count-based Morgan fingerprints of length 2048 and radius 2 is chosen. The hashing procedure in the traditional (binary) Morgan fingerprint only encodes whether a particular circular substructure is present in the molecule or not. In contrast, the count-based variant additionally records how often each substructure occurs. Instead of a binary indicator (0/1), each fingerprint dimension therefore contains the frequency of the corresponding hashed substructure, allowing repeated structural motifs to be represented more explicitly.
-
-\subsubsection{Semantic representation}
-The E5 sentence transformer architecture, a family of text-embedding models designed for high-quality retrieval and semantic similarity tasks. E5 models follow the dual-encoder paradigm introduced in the original work by \textcite{Wang2022}. In this framework, text is processed by a Transformer encoder that outputs a dense vector representation. These vectors are optimized so that semantically related texts lie close together in embedding space, while unrelated texts are pushed apart.
-
-The starting was the pre-trained e5-small-v2 model. During fine-tuning, E5 uses contrastive learning, where pairs of texts are treated as positive or negative examples. The model is trained with an InfoNCE-style loss, encouraging the embeddings of matching or semantically equivalent texts to become similar. In the original E5 formulation, these positives come from paired query–document texts. In this thesis, the same principle is adapted to crystallization conditions.
-
-For each free-text crystallization condition, the corresponding “label” is a parsed canonical representation containing only structured components such as compound names, concentrations, pH, and temperature obtained by the parsing paradigm described in \autoref{sec:data_parsing}. The free-text description and its canonical counterpart form a positive pair, while all other condition–label pairs act as negatives. This training setup directs the model to learn the underlying chemical relations between textual descriptions and their structured physical parameters.
-
-\begin{table}[h]
-	\centering
-	\renewcommand{\arraystretch}{0.8} % reduce row height
-	\begin{tabular}{c|l|c}
-		\textbf{ID} & \textbf{Components} & \textbf{pH} \\ \hline
-		1  & sodium malonate, PEG 3350 & 7.0 \\
-		2  & potassium thiocyanate, PEG MME 2000 & None \\
-		3  & -- & 7.0 \\
-		4  & magnesium acetate, sodium cacodylate, PEG 8000 & 6.5 \\
-		5  & sodium acetate, sodium formate & 4.6 \\
-		6  & potassium sodium tartrate, PEG 3350 & None \\
-		7  & ammonium citrate tribasic, PEG 3350 & 7.0 \\
-		8  & sodium formate, PEG 3350 & None \\
-		9  & MES, PEG 20000 & 6.5 \\
-		10 & ammonium sulfate, bis-tris, PEG 3350 & 5.5 \\
-		11 & sodium acetate, sodium cacodylate, PEG 8000 & 6.5 \\
-		12 & bis-tris, PEG 3350 & 6.5 \\
-		13 & magnesium formate, PEG 3350 & None \\
-		14 & magnesium sulfate & None \\
-		15 & bis-tris, PEG 3350 & 5.5 \\
-	\end{tabular}
-	\caption[Condition Examples]{Different conditions parsed from the free text in the \gls{pdb}}
-	\label{tab:conditionExamples}
-\end{table}
-
-
-To evaluate how well the model captures the underlying similarity between crystallization conditions, I compared 15 condition sets against each other using both a t-SNE visualization and a cosine-similarity heatmap. For each condition, I selected 20 free-text descriptions that were maximally different from one another while still mapping to the same underlying condition set. The conditions are specified in \autoref{tab:conditionExamples}. 
-\begin{figure}[h!]
-	\centering		
-	\begin{subfigure}[t]{0.495\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{../msc-thesis-code/data/dataExploration/plots/conditionEmbedding_new}
-		\caption[Condition Embedding]{ }
-		\label{fig:conditionEmbedding}
-	\end{subfigure}
-	\begin{subfigure}[t]{0.495\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{../msc-thesis-code/data/dataExploration/plots/cosineSimilarityHeatmapConditionSet}
-		\caption[Cosine Similarity Analysis]{ }
-		\label{fig:cosineSimilarityHeatmapConditionSet}
-	\end{subfigure}
-	\caption[Condition Embedding Analysis]{\autoref{fig:conditionEmbedding} shows the t-SNE–reduced embeddings of the condition sets listed in \autoref{tab:conditionExamples}.
-		\autoref{fig:cosineSimilarityHeatmapConditionSet} displays the pairwise cosine similarities between condition sets.
-		For each condition, 20 free-text samples were generated that all mapped to the same underlying condition set.
-		As shown, the resulting embeddings form well-separated clusters in which samples belonging to the same condition set exhibit the highest mutual similarity.}	
-	\label{fig:conditionEmbeddingAnalysis}
-\end{figure}
-
-As shown in \autoref{fig:conditionEmbedding}, these free-text variants form tight clusters in the t-SNE–reduced embedding space, demonstrating that the model consistently recognizes the same condition despite substantial variation in wording. This is further reflected in the cosine similarity matrix in \autoref{fig:cosineSimilarityHeatmapConditionSet}, where samples belonging to the same condition set exhibit the highest mutual similarity.
-
-Importantly, the embedding space also preserves meaningful chemical relationships between different conditions. Condition pairs that differ only by closely related compounds cluster in proximity—for example, conditions 8 and 13 (sodium formate vs. magnesium formate) and conditions 4 and 11 (magnesium acetate vs. sodium acetate). This indicates that the model captures not only textual similarity but also chemical interchangeability among related components. Overall, the results suggest that the embedding is largely agnostic to the specific way a condition is expressed in free text while still reflecting chemically relevant similarities between distinct condition sets.
-
-As a result, the model produces embeddings that capture the essential chemical and experimental features of crystallization conditions. Free-text descriptions that encode similar compounds, concentration ranges, or physicochemical properties are embedded close to one another, enabling meaningful comparison, clustering, and downstream prediction. 

@@ -1,12 +1,14 @@
 \section{Evaluation} \label{sec:results/evaluation}
 
-\subsection{Contrastive Performance}
-In order to assess both classification quality and practical applicability the performance of the model was evaluated using the metrics described in \autoref{sec:methods/evaluation_metrics}. Evaluation was performed on both the training and test sets to assess generalization performance.
+As presented in \autoref{sec:protein_database} and \autoref{sec:crims} two distinct datasets have prepared. While the \gls{pdb} offers a high variety in proteins the condition variance is comparatively small with a high bias towards certain chemicals (cf. \autoref{sec:data_analysis}). As mentioned before the biggest issue of the \gls{pdb} is the lack of negative data. The \gls{crims} dataset presents the contrary, the protein variance is small while the condition variance and number of negatives is large. The evaluation is thus split in two. First the performance of the contrastive task on the \gls{pdb} is explored in \autoref{sec:results/evaluation/contrastive_performance}, then the model is applied to the \gls{crims} data set in \autoref{sec:results/evaluation/gold_performance}. 
+
+\subsection{Contrastive Performance}\label{sec:results/evaluation/contrastive_performance}
+In order to assess both ranking quality and practical applicability the performance of the model was evaluated using the metrics described in \autoref{sec:methods/evaluation_metrics}. Evaluation was performed on both the training and test sets to assess generalization performance.
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{../msc-thesis-code/data/dataExploration/plots/prediction_score_distribution}
-	\caption[Score Distribution]{Distribution of scores}
+	\caption[Score Distribution]{The figure shows the distribution of scores given by the model for the actual reported conditions and the negatives in the batch. To show generalization power both training and test performance are depcited.}
 	\label{fig:score_distribution}
 \end{figure} 
 
@@ -23,7 +25,7 @@ Overall, the figure demonstrates that the model learns a meaningful scoring func
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{../msc-thesis-code/data/dataExploration/plots/roc_confusion_pdb.pdf}
-	\caption[Confusion Matrices]{Illustration of the prediction performance using confusion matrices.}
+	\caption[Confusion Matrices]{By employing a threshold to the scores the task can be reformulated to a classification task. The performance is shown in the figure. The \gls{roc} curve shows the trade-off between sensitivity and specificity. Even with weak generalization to unseen the data the model performs better than random. This is also depicted in the left confusion matrices which.}
 	\label{fig:roc_confusion}
 \end{figure} 
 
@@ -36,73 +38,67 @@ The confusion matrices provide a complementary view by showing classification pe
 
 This degradation can be partially attributed to the threshold selection strategy. Since the threshold is optimized on the training set, it is inherently biased towards that distribution and may not transfer optimally to unseen data. Furthermore, as in the ranking setting, the presence of hard negatives in the batch can lead to ambiguous scores near the decision boundary, increasing misclassification rates.
 
-\subsection{Gold Performance}
-The distribution of predicted probabilities for the positive and negative classes is shown in \autoref{fig:score_distribution}. The model outputs a confidence score between 0 and 1 representing the probability that a sample belongs to the crystal class.
+\subsection{Gold Performance}\label{sec:results/evaluation/gold_performance}
 
-On the training data, the predicted scores show a clearer separation between the two classes, with crystal samples generally receiving higher probability values. In contrast, the validation data exhibits a stronger overlap between the score distributions of the two classes. This indicates that while the model is able to learn discriminative patterns during training, the separation between classes becomes less pronounced on unseen data. The shape of the distributions is of interest as well. In the training data the confidence values for the negative samples are densely clustered around 0.45, whereas the scores for the positive values have a higher range from 0.5 to 0.65. This suggests that, at least in the training data, the model is more confident in certain samples belonging to the crystal class than others. The opposite is true for the test case. The crystal scores are clustered around 0.52. In both training and test set the confidence values of the models are fairly close to 0.5 i.e. the model is generally not confident in its prediction. This emphasizes the difficulty in separating crystal conditions from unsuccessful ones based on protein information. 
+To assess how well the model generalizes to real-world crystallization outcomes, the model was evaluated on the \gls{crims} dataset, which contains true experimentally validated positive and negative conditions.
 
-The dashed vertical line in the figure represents the decision threshold used to convert predicted probabilities into binary class labels.
+The distribution of predicted probabilities for the positive and negative classes is shown in \autoref{fig:score_distribution_curves}. The figure mirrors \autoref{fig:score_distribution}, with dashed lines indicating the mean of each distribution. As expected, successful crystallization conditions (positive class) receive higher scores on average than unsuccessful ones (negative class). The difference between the two means is comparable to that observed on the \gls{pdb} dataset under the contrastive learning setup.
+
+When aggregating predictions across all proteins, the separation between the distributions becomes more apparent. The positive class exhibits a pronounced peak around 0.3, whereas the negative class shows a similar but noticeably smaller peak. Overall, the negative distribution is shifted towards lower scores, indicating that the model assigns lower confidence to unsuccessful conditions. 
+
+This shift suggests that the model trained on \gls{pdb} using a contrastive objective successfully generalizes to the \gls{crims} dataset, despite the latter containing true negatives rather than inferred ones. In other words, the learned representation captures meaningful signals related to crystallization success. However, the substantial overlap between the distributions also indicates that false positives remain common, meaning that while the model ranks conditions reasonably well, it is not yet highly discriminative.
+
+\autoref{fig:score_distribution_curves} further presents the \gls{roc} and \gls{pr} curves, including their respective areas under the curve (\gls{auc}). The curves represent the mean performance across all proteins, with shaded regions indicating the standard deviation and thus the variability between proteins.
+
+The \gls{roc} curve lies consistently above the random baseline, achieving an \gls{auc} of 0.664 compared to the random expectation of 0.5. This indicates that the model is able to distinguish between positive and negative conditions better than chance. However, the relatively large variance highlights that performance is not uniform across proteins—some proteins are predicted much more reliably than others.
+
+A similar pattern is observed for the \gls{pr} curve, where variability is even more pronounced. This is expected due to class imbalance and the sensitivity of precision-recall metrics to it. Nevertheless, the model achieves an average performance that is more than twice as high as the random baseline, demonstrating that it provides meaningful ranking information even under challenging conditions.
+
+Overall, these results indicate that the contrastive learning approach transfers effectively to unseen experimental data, capturing relevant structure in the problem. At the same time, the observed overlap in score distributions and the high inter-protein variance suggest that further improvements are needed to achieve robust and consistently strong predictions across all proteins. The improvement of the performance from this dataset to the test dataset for the \gls{pdb} dataset can be explained by the batch dependence of the contrastive learning approach. As the difficulty of differentiating conditions relates to how similar the conditions in the batches are. This means that the ratio of false negatives is realistically much larger for the \gls{pdb} dataset. 
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=\textwidth]{../msc-thesis-code/data/dataExploration/plots/roc_confusion_pdb.pdf}
-	\caption[Confusion Matrices]{Illustration of the prediction performance using confusion matrices.}
-	\label{fig:confusion_matrices}
+	\includegraphics[width=\textwidth]{../msc-thesis-code/data/dataExploration/plots/score_distribution_roc_pr_curve_crims.pdf}
+	\caption[Score distribution and \gls{crims} analysis]{The figure is an illustration of the score distribution and the resulting \gls{roc} and \gls{pr} curves. The score distribution includes all proteins showing higher scores for the crystal conditions than unsuccessful ones. Both the \gls{roc} curve and the \gls{pr} curve show the average over all protein with the standard deviation included. Both emphasize the performance of the model being better than random. However, the precision of the model is much worse in comparison the specificity/sensitvity.}
+	\label{fig:score_distribution_curves}
 \end{figure} 
 
+Using the threshold derived on the \gls{pdb} dataset, the scoring task can be reformulated as a binary classification problem on the \gls{crims} dataset.
 
-On the training set, the model correctly identifies the majority of crystal samples while also correctly classifying a substantial portion of non-crystal samples. On the validation set, a similar pattern is observed, although with a higher rate of misclassification. In particular, some non-crystal samples are predicted as crystals, resulting in false positives. While an ideal confusion matrix would show perfect classification along the diagonal, falsely predicting a non-crystallizing condition as a crystal condition is less problematic than missing true crystal conditions. Since the goal is to reduce the experimental search space, it is important to eliminate as many non-productive conditions as possible while retaining a high proportion of true crystal conditions.
-Thus, the cost of missing a crystal condition is higher than misclassifying an unsuccessful one. 
-The test confusion matrix can be loosely read as:  73\% of crystal conditions were found while eliminating 57\% of nonsuccessful ones. Using a standard 5 plates $\times$ 96 condition setup and the distribution displayed in \autoref{fig:crims_categorical_analysis} this can be loosely translated to the following. From the 480 tested around \roughly 5 conditions present crystals. The model would find \roughly 4 of those while removing \roughly 270 unsuccessful conditions. In comparison, a random baseline would find 2.5 while only cutting 240. While small the advantage is still present. 
+A quantitative summary of model performance across several classification metrics is shown in \autoref{fig:model_performance}. The evaluated metrics include balanced accuracy, macro-averaged F1 score, weighted F1 score, macro precision, macro recall, recall for the positive class, as well as \gls{auroc} and \gls{auprc}. For reference, an empirical random baseline is included.
 
-Overall, the confusion matrices show that the model is capable of detecting crystal samples and reduce the condition search space. However, classification errors increase on the validation data. 
+Overall, the model demonstrates consistent improvements over the random baseline across most metrics. In particular, balanced accuracy, \gls{auroc}, and \gls{auprc} provide the most informative summary of performance, as they are less sensitive to class imbalance. The balanced accuracy of approximately 0.65 and \gls{auroc} of around 0.64 indicate that the model reliably distinguishes between crystallizing and non-crystallizing conditions better than chance.
+
+In contrast, the macro F1 score is lower than the random baseline. This can be attributed to poor precision on the minority (crystal) class, as already suggested by the score distribution in \autoref{fig:score_distribution_curves}. The discrepancy between macro and weighted F1 scores further highlights the strong class imbalance: while the macro F1 treats both classes equally, the weighted F1 is dominated by the negative class, which occurs \roughly 90 times as frequently. The substantially higher weighted F1 therefore indicates that the model performs well on the majority class but struggles to achieve balanced performance across both classes.
+
+Recall for the positive class captures the proportion of true crystallization conditions that are correctly identified. The model achieves a relatively high recall, meaning that it successfully recovers a large fraction of crystal-forming conditions. However, this must be interpreted together with precision-related metrics, as a trivial classifier predicting all samples as positive would achieve perfect recall without being useful. The combination of recall, balanced accuracy, and \gls{auroc} suggests that the model achieves a meaningful trade-off between sensitivity and specificity. This mirrors the finding presented in \autoref{fig:score_distribution_curves}.
+
+The \gls{auprc} provides an additional perspective tailored to imbalanced settings. Since the baseline of the precision-recall curve corresponds to the positive class frequency, the normalized \gls{auprc} shown in \autoref{fig:model_performance} reflects performance relative to this baseline. The model achieves roughly a 2.3-fold improvement over random, indicating that it substantially enriches for true crystal conditions compared to random selection, even though absolute precision remains low.
+
+\autoref{fig:model_performance} also includes the normalized confusion matrix, which provides a more intuitive interpretation of classification behavior. Ideally, all mass would lie on the diagonal, indicating perfect predictions. In this application, however, the costs of errors are asymmetric: missing a true crystal condition is more detrimental than incorrectly selecting a non-crystallizing condition, as the goal is to reduce the experimental search space without discarding promising candidates.
+
+The confusion matrix shows that approximately 71\% of crystal conditions are correctly identified, while about 65\% of non-crystallizing conditions are correctly rejected. This indicates that the model is able to retain most relevant conditions while eliminating a substantial portion of unproductive ones.
+
+To provide a practical interpretation, consider a standard setup of 5 plates with 96 conditions each (480 total conditions). Based on the distribution in \autoref{fig:crims_categorical_analysis}, roughly 5.3 conditions would produce crystals. The model would identify approximately 3.8 of these while discarding around 309 unsuccessful conditions. In comparison, a random baseline that evaluates only half of the conditions would identify about 2.5 crystal conditions while eliminating only 240 unsuccessful ones. Although the absolute gain is modest, the model provides a clear advantage in prioritizing experimental effort.
+
+Overall, these results demonstrate that the model is capable of identifying crystallization conditions and reducing the experimental search space. However, the degradation in performance on validation data and the remaining class imbalance effects indicate that further improvements are necessary to achieve robust and consistently high classification performance.
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=\textwidth]{../msc-thesis-code/data/dataExploration/plots/model_performance}
-	\caption[Model Performance]{The figure illustrates the performance of the model on various metrics.}
+	\includegraphics[width=\textwidth]{../msc-thesis-code/data/dataExploration/plots/model_performance_per_protein_cm}
+	\caption[Model Performance]{The figure illustrates the performance of the model on various metrics. Both the actual performance and a random baseline is included. The model outperforms the random baseline in almost all metrics. The confusion matrix emphasizes the models bias towards crystal conditions but overall good performance.}
 	\label{fig:model_performance}
 \end{figure} 
 
-A quantitative summary of model performance across several evaluation metrics is provided in \autoref{fig:model_performance}. As described in \autoref{sec:methods/evaluation_metrics} the evaluated metrics include balanced accuracy, macro-averaged F1 score, weighted F1 score, macro precision, macro recall, and recall for the positive class. A dashed horizontal line indicates the expected performance of a random classifier.
-The overall performance of the model can be best described using the balanced accuracy, \gls{auroc} and the \gls{auprc}
+To further demonstrate the practical applicability of the model in a realistic screening scenario, predictions were simulated on a full crystallization plate. The results are shown in \autoref{fig:plate_predictions}, where the true outcomes are compared with the model predictions. Each cell represents a different condition. Each cell has three shelves attributed with different additions to the protein solution as presented in \autoref{fig:crims_categorical_analysis}. Generally, it can be seen that the model has difficulty distinguishing between the different additives. This is likely due to the limited examples in the \gls{pdb} dataset. 
+The visualization shows that the model successfully identifies multiple wells containing crystals while also predicting additional wells as potential crystal candidates. Although some false positives occur, the predicted plate pattern captures a substantial portion of the true crystallization events.
 
-Except for F1 macro/weighted, the model consistently outperforms the random baseline on all metrics in the test set. This is likely due to the poor precision of the null class as already observed in \autoref{fig:confusion_matrices}. The weighted F1 score is much higher than the macro F1 score, suggesting that the model's performance is influenced by the imbalanced class distribution within the dataset. In the weighted F1 score, the contribution of each class is weighted according to its frequency in the dataset. As the negative class occurs more than 40 times as often as the crystal class, the weighted F1 score is dominated by the performance on the negative class. 
-The difference between these two metrics therefore highlights the effect of class imbalance on the evaluation.
-
-Recall for the positive class measures the proportion of crystallization conditions that are correctly identified by the model. In other words, it quantifies how many of the true crystal-forming conditions are captured by the classifier. As shown, the model successfully identifies a large fraction of the positive samples. However, recall should not be interpreted in isolation. A biased classifier that predicts the positive class for every sample would achieve a recall of 1 while providing no meaningful discrimination.
-
-Therefore, recall must be interpreted together with other evaluation metrics. In particular, the balanced accuracy of 0.65 and \gls{auroc} of 0.64 indicate that the classifier performs better than random guessing while accounting for the class imbalance present in the dataset.
-
-The \gls{auprc} provides an additional perspective that is particularly informative for imbalanced classification problems. The baseline of the precision-recall curve corresponds to the fraction of positive samples in the dataset. The y-axis here shows not the raw score but rather the score in relation to the baseline. The obtained \gls{auprc} indicates that the model is approximately 1.7 times more effective at identifying crystallization conditions than a random classifier.
-
-A performance gap between training and validation metrics is observable, indicating that the model achieves stronger performance on the training data compared to unseen samples. This difference suggests moderate overfitting, which is expected given the complexity of the prediction task.
-
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=0.8\textwidth]{../msc-thesis-code/data/dataExploration/plots/roc_pr_curves}
-
-	\caption[\gls{roc} and Precision Recall Curve]{\gls{roc} and Precision Recall Curve}
-	\label{fig:roc_pr_curves}
-\end{figure} 
-
-To evaluate the discriminative ability of the model independently of a specific classification threshold, \gls{roc} and \gls{pr} curves are illustrated in \autoref{fig:roc_pr_curves}.
-
-The test \gls{roc} curve achieves a \gls{auroc}  of approximately 0.65 at a threshold of 0.58. The training performance peaks at a threshold of 0.39. This suggest that in the model is typically too conservative on the training data.
-
-The \gls{pr} curve provides a complementary evaluation that is particularly informative in the presence of class imbalance. The validation average precision score remains above the random baseline, confirming that the model captures predictive signal beyond random guessing. However, it should be noticed that the precision is highly dependent on the threshold and drops quickly. 
-
-Together, these curves demonstrate that the model is capable of distinguishing between crystal and non-crystal samples, although the predictive confidence is highly sensitive to different thresholds.
+This simulation demonstrates that the model can highlight wells with a higher likelihood of containing crystals, potentially assisting researchers in prioritizing wells for manual inspection during crystallization experiments.
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{../msc-thesis-code/data/dataExploration/plots/plate_predictions}	
-	\caption[Plate predictions]{Plate predictions for SD30009504}
+	\caption[Plate predictions]{The figure shows the predictions made by the model for plate SD30009504. Many of the actual conditions are found with multiple false positives. The model has difficulties differentiating between shelf additions.}
 	\label{fig:plate_predictions}
 \end{figure} 
 
-To assess the practical applicability of the model in a realistic screening scenario, predictions were simulated on a full crystallization plate. The results are shown in \autoref{fig:plate_predictions}, where the true outcomes are compared with the model predictions. Each cell represents a different condition. Each cell has three shelves attributed with different additions to the protein solution as presented in \autoref{fig:crims_categorical_analysis}. Generally, it can be seen that the model has difficulty distinguishing between the different additives. This is likely due to the limited examples in the dataset. 
-
-The visualization shows that the model successfully identifies multiple wells containing crystals while also predicting additional wells as potential crystal candidates. Although some false positives occur, the predicted plate pattern captures a substantial portion of the true crystallization events.
-
-This simulation demonstrates that the model can highlight wells with a higher likelihood of containing crystals, potentially assisting researchers in prioritizing wells for manual inspection during crystallization experiments.

@@ -1,4 +1,61 @@
-\chapter{Discussion} % Main chapter title
+\chapter{Discussion} \label{chapter:discussion} 
 
-\label{chapter:discussion} 
+This thesis shows that machine learning can capture meaningful relationships between protein features and crystallization conditions despite the complexity of the underlying process. The proposed contrastive learning framework improves over random baselines and helps reduce the experimental search space. However, limitations arise from data quality, problem formulation, and the intrinsic difficulty of crystallization.
 
+\subsection*{Interpretation of Results}
+
+The model consistently outperforms random selection, indicating that it learns non-trivial protein–condition relationships. The \roughly2.3-fold enrichment in \gls{auprc} suggests that the embedding space captures relevant biochemical patterns.
+
+Practically, the model can prioritize promising conditions, recovering most successful ones while filtering many unsuccessful candidates. This supports its role as a ranking tool rather than a strict classifier. The observed high recall but lower precision reflects an appropriate bias, as missing viable conditions is more costly than testing additional negatives.
+Consistent with \citet{Abrahams2019}, sequence similarity alone is insufficient. This work also improves upon \citet{Lee2019} by using a protein-aware split. While useful signals are learned, accurate prediction of exact conditions remains out of reach, reinforcing the need for experimental validation.
+However, performance drops on unseen data, with reduced separation between positive and negative samples. This indicates limited generalization and insufficiently discriminative representations, particularly for chemically similar conditions.
+
+
+\subsection*{Impact of Data Characteristics}
+
+Dataset properties strongly influence performance. The \gls{pdb} offers scale and diversity but lacks negative samples and is biased toward successful conditions, limiting boundary learning. The \gls{crims} dataset provides explicit negatives but covers fewer proteins. Together, they highlight the trade-off between diversity and label balance.
+
+Redundancy in the \gls{pdb} introduces risks of memorization, even with clustering-based splits. Additionally, the condition space is highly imbalanced, with frequent chemicals (e.g., \glspl{peg}) dominating. While contrastive learning mitigates this, such biases are difficult to eliminate entirely.
+
+The ablation studies provide useful estimates of feature importance. However, they are generally less precise than importance measures derived from methods such as tree-based algorithms and should be interpreted as such. 
+
+\subsection*{Methodological Considerations}
+
+The use of contrastive learning proves to be a suitable approach for this problem, particularly given the scarcity of reliable negative labels in the \gls{pdb}. By framing the task as a ranking problem, the model avoids the pitfalls of traditional supervised learning in imbalanced settings and focuses on relative compatibility between proteins and conditions. However, this learning paradigm underlies a relatively aggressive assumption. This assumption is that the probability of having true negative samples in a batch is much lower than false negatives. It is not known whether another condition would be able to crystallize a certain protein. This is merely the assumption that this approach is based on. While the assumption is very like to be true given the small success rate of crystallization condition (cf. \autoref{fig:crims_categorical_analysis}) it is unknown nonetheless. 
+
+Additionally, contrastive learning introduces its own challenges. The effectiveness of the approach depends heavily on the quality of positive and negative pair construction. In this work, negatives are sampled from within batches, which may include chemically similar conditions that are not truly negative. This can blur the distinction between positive and negative samples and limit the model’s ability to learn sharp decision boundaries. A method that softens this assumption would be \gls{pu} learning. This paradigm was tested as well but with much weaker results. 
+
+Moreover, the representation of crystallization conditions remains a critical bottleneck. While the use of structured embeddings improves over raw text representations, it may still fail to capture complex interactions between chemical components, concentrations, and environmental factors. The chemical understanding of the model is strongly tied to the observed conditions in the training dataset. Additives are often explicitly stated in the free text which results in an observed difficulty in distinguishing between similar additives in plate-level predictions further supports this limitation. Despite its limitations, the model demonstrates clear practical value as a decision-support tool in crystallization experiments. By ranking conditions and enriching for likely successful outcomes, it can reduce the number of experiments required to identify promising crystallization setups. Even modest improvements in prioritization can translate into significant savings in time, cost, and protein material.
+
+\section{Limitations}
+
+Several limitations of this work should be acknowledged:
+
+\begin{itemize}\itemsep0em
+    \item \textbf{Data limitations}: The lack of negative samples in the \gls{pdb} and limited protein diversity in \gls{crims} restrict the model’s ability to generalize.
+    \item \textbf{Bias in condition space}: Over representation of common chemicals may bias predictions toward frequently observed conditions.
+    \item \textbf{Model generalization}: Performance degradation on unseen data indicates overfitting and limited transferability
+    \item \textbf{Representation limitations}: Current embeddings may not fully capture the complexity of crystallization chemistry.
+    \item \textbf{Evaluation constraints}: The absence of standardized benchmarks for condition prediction makes it difficult to compare results directly with prior work.
+\end{itemize}
+
+Importantly, the model should not be interpreted as a definitive predictor of crystallization success. Instead, it is best viewed as a filtering mechanism that narrows down the search space and guides experimental design. In this role, the tolerance for false positives is acceptable, provided that true positives are retained at a high rate. 
+
+\section{Future Work}
+
+Future research directions can be broadly categorized into data, modeling, and application improvements:
+
+\begin{itemize} \itemsep0em
+    \item \textbf{Data integration}: Combining multiple datasets and incorporating failed experiments could significantly improve learning.
+    \item \textbf{Incorporation of structural information}: The ablation study showed importance of the protein structure. This should be further explored using structure models such as Graph-Neural Networks. As the \gls{prostT5} embeddings used are merely a proxy of structure.
+    \item \textbf{Hybrid approaches}: Combining machine learning with physics-based simulations or docking methods may yield more accurate predictions.
+    \item \textbf{De-Novo Prediction}: Rather than scoring  combinations of protein and condition and thereby simulating a screen it would be also of interest to only have the protein as input and directly predicting the most optimal conditions. 
+    \item \textbf{Real life validation}: It would be of interest to see if the predictions hold up in real new trials as well. 
+    \item \textbf{Protein analysis}: As seen on the \gls{crims} validation the performance varies between singular proteins. A systematic analysis to determine what makes certain proteins easier to score than others should be done to improve model interpretation.
+\end{itemize}
+
+\subsection*{Conclusion}
+
+Machine learning can support crystallization condition prediction by extracting patterns from experimental data and improving over random screening. While not yet sufficient for full automation, it provides practical benefits and highlights key directions for future work.
+
+Overall, protein crystallization remains a complex, high-dimensional problem requiring improved models, richer datasets, and deeper integration of biochemical knowledge.

@@ -350,97 +350,6 @@
       \verb https://www.science.org/doi/10.1126/science.3892686
       \endverb
     \endentry
-    \entry{Campello2013}{inbook}{}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=382d8e986b9afdbfedb661be5cf9ce33}{%
-           family={Campello},
-           familyi={C\bibinitperiod},
-           given={Ricardo\bibnamedelimb J.\bibnamedelimi G.\bibnamedelimi B.},
-           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim B\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=8608b4a10cbfee7eb81b652407a3305a}{%
-           family={Moulavi},
-           familyi={M\bibinitperiod},
-           given={Davoud},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e155d1575870b682f3029b1ee02ff893}{%
-           family={Sander},
-           familyi={S\bibinitperiod},
-           given={Joerg},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-      }
-      \name{editor}{5}{}{%
-        {{hash=56af930e1f5e2c9a791b71e7b347c0ba}{%
-           family={Pei},
-           familyi={P\bibinitperiod},
-           given={Jian},
-           giveni={J\bibinitperiod}}}%
-        {{hash=42b42d9d10bbc93b4d7dbd5b26a8cfdf}{%
-           family={Tseng},
-           familyi={T\bibinitperiod},
-           given={Vincent\bibnamedelima S.},
-           giveni={V\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-        {{hash=259f81b9fe9f9737014c9eb11c08df15}{%
-           family={Cao},
-           familyi={C\bibinitperiod},
-           given={Longbing},
-           giveni={L\bibinitperiod}}}%
-        {{hash=d26f438bb203e0655769b9af6932fe72}{%
-           family={Motoda},
-           familyi={M\bibinitperiod},
-           given={Hiroshi},
-           giveni={H\bibinitperiod}}}%
-        {{hash=06023c96555b95e222d92ae0de2c2291}{%
-           family={Xu},
-           familyi={X\bibinitperiod},
-           given={Guandong},
-           giveni={G\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \list{location}{1}{%
-        {Berlin, Heidelberg}%
-      }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{94fdd8ebcd18f5033949784c42c9c2ba}
-      \strng{fullhash}{84276f8f7e0bd597fd1ee130e754f627}
-      \strng{fullhashraw}{84276f8f7e0bd597fd1ee130e754f627}
-      \strng{bibnamehash}{84276f8f7e0bd597fd1ee130e754f627}
-      \strng{authorbibnamehash}{84276f8f7e0bd597fd1ee130e754f627}
-      \strng{authornamehash}{94fdd8ebcd18f5033949784c42c9c2ba}
-      \strng{authorfullhash}{84276f8f7e0bd597fd1ee130e754f627}
-      \strng{authorfullhashraw}{84276f8f7e0bd597fd1ee130e754f627}
-      \strng{editorbibnamehash}{c4e66fdf2ee9ba6df93fd5fff6f7da5e}
-      \strng{editornamehash}{0f7210bb6168b72933fbd7a462c750c1}
-      \strng{editorfullhash}{c4e66fdf2ee9ba6df93fd5fff6f7da5e}
-      \strng{editorfullhashraw}{c4e66fdf2ee9ba6df93fd5fff6f7da5e}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{We propose a theoretically and practically improved density-based, hierarchical clustering method, providing a clustering hierarchy from which a simplified tree of significant clusters can be constructed. For obtaining a “flat” partition consisting of only the most significant clusters (possibly corresponding to different density thresholds), we propose a novel cluster stability measure, formalize the problem of maximizing the overall stability of selected clusters, and formulate an algorithm that computes an optimal solution to this problem. We demonstrate that our approach outperforms the current, state-of-the-art, density-based clustering methods on a wide variety of real world data.}
-      \field{booktitle}{Advances in {Knowledge} {Discovery} and {Data} {Mining}}
-      \field{isbn}{9783642374562}
-      \field{title}{Density-{Based} {Clustering} {Based} on {Hierarchical} {Density} {Estimates}}
-      \field{year}{2013}
-      \field{pages}{160\bibrangedash 172}
-      \range{pages}{13}
-      \verb{doi}
-      \verb 10.1007/978-3-642-37456-2_14
-      \endverb
-      \verb{file}
-      \verb Full Text PDF:Campello2013 - Density Based Clustering Based on Hierarchical Density Estimates.pdf:PDF:https\://link.springer.com/content/pdf/10.1007%2F978-3-642-37456-2_14.pdf
-      \endverb
-      \keyw{Minimum Span Tree,Cluster Tree,Density Threshold,Hierarchical Cluster Method,Core Object}
-    \endentry
     \entry{Chayen2001}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=ae7a77010be85d472a4505d87f62d8c5}{%
@@ -1542,6 +1451,98 @@
       \verb 10.1093/bioinformatics/bth066
       \endverb
       \keyw{Computer Simulation,Crystallization,Crystallography,Databases,Protein,Isoelectric Point,Models,Chemical,Models,Molecular,Models,Statistical,Protein Conformation,Proteins,Sensitivity and Specificity,Sequence Analysis,Protein}
+    \endentry
+    \entry{Kaplan2020}{misc}{}{}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=9e85370e215d552f72c95a2b63a37802}{%
+           family={Kaplan},
+           familyi={K\bibinitperiod},
+           given={Jared},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b51e7c5fe92844f39ce52b8a5fa5675f}{%
+           family={McCandlish},
+           familyi={M\bibinitperiod},
+           given={Sam},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eb1d3044b466619459c76843f0e98bb9}{%
+           family={Henighan},
+           familyi={H\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7c16e8d36475e58d4f2d161e6ecb7704}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Tom\bibnamedelima B.},
+           giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=01f70651539bbd7dccc01e86ed9c78c3}{%
+           family={Chess},
+           familyi={C\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5c2f5c2e6d4a9ec8681377f8a8e5e6af}{%
+           family={Child},
+           familyi={C\bibinitperiod},
+           given={Rewon},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7006ca8c1ce969019b89de50fece60dd}{%
+           family={Gray},
+           familyi={G\bibinitperiod},
+           given={Scott},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a812c46caad94fc8701be37871f303ba}{%
+           family={Radford},
+           familyi={R\bibinitperiod},
+           given={Alec},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=495187f3a2c93ddb8083bd18a5702527}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Jeffrey},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1e6adbf36ab730cd5fdadb838b4d2667}{%
+           family={Amodei},
+           familyi={A\bibinitperiod},
+           given={Dario},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b2dab6d559c573eed2d134686678fe84}
+      \strng{fullhash}{e6d1bc69376f936360a0a70ddcc99051}
+      \strng{fullhashraw}{e6d1bc69376f936360a0a70ddcc99051}
+      \strng{bibnamehash}{e6d1bc69376f936360a0a70ddcc99051}
+      \strng{authorbibnamehash}{e6d1bc69376f936360a0a70ddcc99051}
+      \strng{authornamehash}{b2dab6d559c573eed2d134686678fe84}
+      \strng{authorfullhash}{e6d1bc69376f936360a0a70ddcc99051}
+      \strng{authorfullhashraw}{e6d1bc69376f936360a0a70ddcc99051}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.LG}
+      \field{eprinttype}{arXiv}
+      \field{title}{Scaling Laws for Neural Language Models}
+      \field{year}{2020}
+      \verb{eprint}
+      \verb 2001.08361
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2001.08361
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2001.08361
+      \endverb
     \endentry
     \entry{King2024}{article}{}{}
       \name{author}{4}{}{%
@@ -3391,92 +3392,6 @@
       \verb https://www.nature.com/articles/s41587-023-01773-0
       \endverb
       \keyw{Computational biology and bioinformatics,Software,Structural biology}
-    \endentry
-    \entry{Wang2022}{article}{}{}
-      \name{author}{8}{}{%
-        {{un=0,uniquepart=base,hash=cce05cab2c437e9c128f853684ee3137}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Liang},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a44174a97a52d8b64289ef831cb1ac37}{%
-           family={Yang},
-           familyi={Y\bibinitperiod},
-           given={Nan},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=026d1f57876191243f47c0ec47352891}{%
-           family={Huang},
-           familyi={H\bibinitperiod},
-           given={Xiaolong},
-           giveni={X\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=4004dbf348d942ab3cd1859ce702127f}{%
-           family={Jiao},
-           familyi={J\bibinitperiod},
-           given={Binxing},
-           giveni={B\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=312f531e29a4681ac2abc9a6ebcde92a}{%
-           family={Yang},
-           familyi={Y\bibinitperiod},
-           given={Linjun},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=fffb2e1d40009032d73404c4f8e287ec}{%
-           family={Jiang},
-           familyi={J\bibinitperiod},
-           given={Daxin},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=91d8356734700015f7c8f8a7303609f3}{%
-           family={Majumder},
-           familyi={M\bibinitperiod},
-           given={Rangan},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e5bfd490d91c5d1b935092ce3132a083}{%
-           family={Wei},
-           familyi={W\bibinitperiod},
-           given={Furu},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{e9012e3e3adcfce14161e542a312bb44}
-      \strng{fullhash}{b5e540a233ffb4679ee19ed42a818ac4}
-      \strng{fullhashraw}{b5e540a233ffb4679ee19ed42a818ac4}
-      \strng{bibnamehash}{b5e540a233ffb4679ee19ed42a818ac4}
-      \strng{authorbibnamehash}{b5e540a233ffb4679ee19ed42a818ac4}
-      \strng{authornamehash}{e9012e3e3adcfce14161e542a312bb44}
-      \strng{authorfullhash}{b5e540a233ffb4679ee19ed42a818ac4}
-      \strng{authorfullhashraw}{b5e540a233ffb4679ee19ed42a818ac4}
-      \field{sortinit}{W}
-      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{This paper presents E5, a family of state-of-the-art text embeddings that transfer well to a wide range of tasks. The model is trained in a contrastive manner with weak supervision signals from our curated large-scale text pair dataset (called CCPairs). E5 can be readily used as a general-purpose embedding model for any tasks requiring a single-vector representation of texts such as retrieval, clustering, and classification, achieving strong performance in both zero-shot and fine-tuned settings. We conduct extensive evaluations on 56 datasets from the BEIR and MTEB benchmarks. For zero-shot settings, E5 is the first model that outperforms the strong BM25 baseline on the BEIR retrieval benchmark without using any labeled data. When fine-tuned, E5 obtains the best results on the MTEB benchmark, beating existing embedding models with 40x more parameters.}
-      \field{annotation}{[TLDR] E5 is the first model that outperforms the strong BM25 baseline on the BEIR retrieval benchmark without using any labeled data, and when fine-tuned, E5 obtains the best results on the MTEB benchmark, beating existing embedding models with 40x more parameters.}
-      \field{journaltitle}{ArXiv}
-      \field{month}{12}
-      \field{title}{Text {Embeddings} by {Weakly}-{Supervised} {Contrastive} {Pre}-training}
-      \field{urlday}{28}
-      \field{urlmonth}{11}
-      \field{urlyear}{2025}
-      \field{year}{2022}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb Full Text PDF:Wang2022 - Text Embeddings by Weakly Supervised Contrastive Pre Training.pdf:PDF:https\://arxiv.org/pdf/2212.03533.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://www.semanticscholar.org/paper/Text-Embeddings-by-Weakly-Supervised-Contrastive-Wang-Yang/5a3c1afe73d8bcc8288d17cb17be2baec8a98464
-      \endverb
-      \verb{url}
-      \verb https://www.semanticscholar.org/paper/Text-Embeddings-by-Weakly-Supervised-Contrastive-Wang-Yang/5a3c1afe73d8bcc8288d17cb17be2baec8a98464
-      \endverb
     \endentry
     \entry{Weininger1988}{article}{}{}
       \name{author}{1}{}{%
@@ -4161,97 +4076,6 @@
       \verb https://www.science.org/doi/10.1126/science.3892686
       \endverb
     \endentry
-    \entry{Campello2013}{inbook}{}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=382d8e986b9afdbfedb661be5cf9ce33}{%
-           family={Campello},
-           familyi={C\bibinitperiod},
-           given={Ricardo\bibnamedelimb J.\bibnamedelimi G.\bibnamedelimi B.},
-           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim B\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=8608b4a10cbfee7eb81b652407a3305a}{%
-           family={Moulavi},
-           familyi={M\bibinitperiod},
-           given={Davoud},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e155d1575870b682f3029b1ee02ff893}{%
-           family={Sander},
-           familyi={S\bibinitperiod},
-           given={Joerg},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-      }
-      \name{editor}{5}{}{%
-        {{hash=56af930e1f5e2c9a791b71e7b347c0ba}{%
-           family={Pei},
-           familyi={P\bibinitperiod},
-           given={Jian},
-           giveni={J\bibinitperiod}}}%
-        {{hash=42b42d9d10bbc93b4d7dbd5b26a8cfdf}{%
-           family={Tseng},
-           familyi={T\bibinitperiod},
-           given={Vincent\bibnamedelima S.},
-           giveni={V\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-        {{hash=259f81b9fe9f9737014c9eb11c08df15}{%
-           family={Cao},
-           familyi={C\bibinitperiod},
-           given={Longbing},
-           giveni={L\bibinitperiod}}}%
-        {{hash=d26f438bb203e0655769b9af6932fe72}{%
-           family={Motoda},
-           familyi={M\bibinitperiod},
-           given={Hiroshi},
-           giveni={H\bibinitperiod}}}%
-        {{hash=06023c96555b95e222d92ae0de2c2291}{%
-           family={Xu},
-           familyi={X\bibinitperiod},
-           given={Guandong},
-           giveni={G\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \list{location}{1}{%
-        {Berlin, Heidelberg}%
-      }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{94fdd8ebcd18f5033949784c42c9c2ba}
-      \strng{fullhash}{84276f8f7e0bd597fd1ee130e754f627}
-      \strng{fullhashraw}{84276f8f7e0bd597fd1ee130e754f627}
-      \strng{bibnamehash}{84276f8f7e0bd597fd1ee130e754f627}
-      \strng{authorbibnamehash}{84276f8f7e0bd597fd1ee130e754f627}
-      \strng{authornamehash}{94fdd8ebcd18f5033949784c42c9c2ba}
-      \strng{authorfullhash}{84276f8f7e0bd597fd1ee130e754f627}
-      \strng{authorfullhashraw}{84276f8f7e0bd597fd1ee130e754f627}
-      \strng{editorbibnamehash}{c4e66fdf2ee9ba6df93fd5fff6f7da5e}
-      \strng{editornamehash}{0f7210bb6168b72933fbd7a462c750c1}
-      \strng{editorfullhash}{c4e66fdf2ee9ba6df93fd5fff6f7da5e}
-      \strng{editorfullhashraw}{c4e66fdf2ee9ba6df93fd5fff6f7da5e}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{We propose a theoretically and practically improved density-based, hierarchical clustering method, providing a clustering hierarchy from which a simplified tree of significant clusters can be constructed. For obtaining a “flat” partition consisting of only the most significant clusters (possibly corresponding to different density thresholds), we propose a novel cluster stability measure, formalize the problem of maximizing the overall stability of selected clusters, and formulate an algorithm that computes an optimal solution to this problem. We demonstrate that our approach outperforms the current, state-of-the-art, density-based clustering methods on a wide variety of real world data.}
-      \field{booktitle}{Advances in {Knowledge} {Discovery} and {Data} {Mining}}
-      \field{isbn}{9783642374562}
-      \field{title}{Density-{Based} {Clustering} {Based} on {Hierarchical} {Density} {Estimates}}
-      \field{year}{2013}
-      \field{pages}{160\bibrangedash 172}
-      \range{pages}{13}
-      \verb{doi}
-      \verb 10.1007/978-3-642-37456-2_14
-      \endverb
-      \verb{file}
-      \verb Full Text PDF:Campello2013 - Density Based Clustering Based on Hierarchical Density Estimates.pdf:PDF:https\://link.springer.com/content/pdf/10.1007%2F978-3-642-37456-2_14.pdf
-      \endverb
-      \keyw{Minimum Span Tree,Cluster Tree,Density Threshold,Hierarchical Cluster Method,Core Object}
-    \endentry
     \entry{Chayen2001}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=ae7a77010be85d472a4505d87f62d8c5}{%
@@ -5353,6 +5177,98 @@
       \verb 10.1093/bioinformatics/bth066
       \endverb
       \keyw{Computer Simulation,Crystallization,Crystallography,Databases,Protein,Isoelectric Point,Models,Chemical,Models,Molecular,Models,Statistical,Protein Conformation,Proteins,Sensitivity and Specificity,Sequence Analysis,Protein}
+    \endentry
+    \entry{Kaplan2020}{misc}{}{}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=9e85370e215d552f72c95a2b63a37802}{%
+           family={Kaplan},
+           familyi={K\bibinitperiod},
+           given={Jared},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b51e7c5fe92844f39ce52b8a5fa5675f}{%
+           family={McCandlish},
+           familyi={M\bibinitperiod},
+           given={Sam},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eb1d3044b466619459c76843f0e98bb9}{%
+           family={Henighan},
+           familyi={H\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7c16e8d36475e58d4f2d161e6ecb7704}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Tom\bibnamedelima B.},
+           giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=01f70651539bbd7dccc01e86ed9c78c3}{%
+           family={Chess},
+           familyi={C\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5c2f5c2e6d4a9ec8681377f8a8e5e6af}{%
+           family={Child},
+           familyi={C\bibinitperiod},
+           given={Rewon},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7006ca8c1ce969019b89de50fece60dd}{%
+           family={Gray},
+           familyi={G\bibinitperiod},
+           given={Scott},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a812c46caad94fc8701be37871f303ba}{%
+           family={Radford},
+           familyi={R\bibinitperiod},
+           given={Alec},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=495187f3a2c93ddb8083bd18a5702527}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Jeffrey},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1e6adbf36ab730cd5fdadb838b4d2667}{%
+           family={Amodei},
+           familyi={A\bibinitperiod},
+           given={Dario},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b2dab6d559c573eed2d134686678fe84}
+      \strng{fullhash}{e6d1bc69376f936360a0a70ddcc99051}
+      \strng{fullhashraw}{e6d1bc69376f936360a0a70ddcc99051}
+      \strng{bibnamehash}{e6d1bc69376f936360a0a70ddcc99051}
+      \strng{authorbibnamehash}{e6d1bc69376f936360a0a70ddcc99051}
+      \strng{authornamehash}{b2dab6d559c573eed2d134686678fe84}
+      \strng{authorfullhash}{e6d1bc69376f936360a0a70ddcc99051}
+      \strng{authorfullhashraw}{e6d1bc69376f936360a0a70ddcc99051}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.LG}
+      \field{eprinttype}{arXiv}
+      \field{title}{Scaling Laws for Neural Language Models}
+      \field{year}{2020}
+      \verb{eprint}
+      \verb 2001.08361
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2001.08361
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2001.08361
+      \endverb
     \endentry
     \entry{King2024}{article}{}{}
       \name{author}{4}{}{%
@@ -7202,92 +7118,6 @@
       \verb https://www.nature.com/articles/s41587-023-01773-0
       \endverb
       \keyw{Computational biology and bioinformatics,Software,Structural biology}
-    \endentry
-    \entry{Wang2022}{article}{}{}
-      \name{author}{8}{}{%
-        {{un=0,uniquepart=base,hash=cce05cab2c437e9c128f853684ee3137}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Liang},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a44174a97a52d8b64289ef831cb1ac37}{%
-           family={Yang},
-           familyi={Y\bibinitperiod},
-           given={Nan},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=026d1f57876191243f47c0ec47352891}{%
-           family={Huang},
-           familyi={H\bibinitperiod},
-           given={Xiaolong},
-           giveni={X\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=4004dbf348d942ab3cd1859ce702127f}{%
-           family={Jiao},
-           familyi={J\bibinitperiod},
-           given={Binxing},
-           giveni={B\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=312f531e29a4681ac2abc9a6ebcde92a}{%
-           family={Yang},
-           familyi={Y\bibinitperiod},
-           given={Linjun},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=fffb2e1d40009032d73404c4f8e287ec}{%
-           family={Jiang},
-           familyi={J\bibinitperiod},
-           given={Daxin},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=91d8356734700015f7c8f8a7303609f3}{%
-           family={Majumder},
-           familyi={M\bibinitperiod},
-           given={Rangan},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e5bfd490d91c5d1b935092ce3132a083}{%
-           family={Wei},
-           familyi={W\bibinitperiod},
-           given={Furu},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{e9012e3e3adcfce14161e542a312bb44}
-      \strng{fullhash}{b5e540a233ffb4679ee19ed42a818ac4}
-      \strng{fullhashraw}{b5e540a233ffb4679ee19ed42a818ac4}
-      \strng{bibnamehash}{b5e540a233ffb4679ee19ed42a818ac4}
-      \strng{authorbibnamehash}{b5e540a233ffb4679ee19ed42a818ac4}
-      \strng{authornamehash}{e9012e3e3adcfce14161e542a312bb44}
-      \strng{authorfullhash}{b5e540a233ffb4679ee19ed42a818ac4}
-      \strng{authorfullhashraw}{b5e540a233ffb4679ee19ed42a818ac4}
-      \field{sortinit}{W}
-      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{This paper presents E5, a family of state-of-the-art text embeddings that transfer well to a wide range of tasks. The model is trained in a contrastive manner with weak supervision signals from our curated large-scale text pair dataset (called CCPairs). E5 can be readily used as a general-purpose embedding model for any tasks requiring a single-vector representation of texts such as retrieval, clustering, and classification, achieving strong performance in both zero-shot and fine-tuned settings. We conduct extensive evaluations on 56 datasets from the BEIR and MTEB benchmarks. For zero-shot settings, E5 is the first model that outperforms the strong BM25 baseline on the BEIR retrieval benchmark without using any labeled data. When fine-tuned, E5 obtains the best results on the MTEB benchmark, beating existing embedding models with 40x more parameters.}
-      \field{annotation}{[TLDR] E5 is the first model that outperforms the strong BM25 baseline on the BEIR retrieval benchmark without using any labeled data, and when fine-tuned, E5 obtains the best results on the MTEB benchmark, beating existing embedding models with 40x more parameters.}
-      \field{journaltitle}{ArXiv}
-      \field{month}{12}
-      \field{title}{Text {Embeddings} by {Weakly}-{Supervised} {Contrastive} {Pre}-training}
-      \field{urlday}{28}
-      \field{urlmonth}{11}
-      \field{urlyear}{2025}
-      \field{year}{2022}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb Full Text PDF:Wang2022 - Text Embeddings by Weakly Supervised Contrastive Pre Training.pdf:PDF:https\://arxiv.org/pdf/2212.03533.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://www.semanticscholar.org/paper/Text-Embeddings-by-Weakly-Supervised-Contrastive-Wang-Yang/5a3c1afe73d8bcc8288d17cb17be2baec8a98464
-      \endverb
-      \verb{url}
-      \verb https://www.semanticscholar.org/paper/Text-Embeddings-by-Weakly-Supervised-Contrastive-Wang-Yang/5a3c1afe73d8bcc8288d17cb17be2baec8a98464
-      \endverb
     \endentry
     \entry{Weininger1988}{article}{}{}
       \name{author}{1}{}{%
