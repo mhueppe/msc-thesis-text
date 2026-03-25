@@ -44,7 +44,7 @@ headsepline, % Uncomment to get a line under the header
 \usepackage{listings}
 \usepackage{mathpazo} % Use the Palatino font by default
 
-\usepackage[backend=biber,style=apa, natbib=true]{biblatex}
+\usepackage[backend=biber,style=apa,natbib=true]{biblatex}
 \DefineBibliographyStrings{english}{andothers = {\emph{et al}\adddot}}
 \usepackage{float}
 \usepackage{hyperref}
@@ -88,7 +88,7 @@ headsepline, % Uncomment to get a line under the header
 \usepackage{subcaption}
 \captionsetup[subfigure]{list=false}
 
-\usepackage[toc, acronym,nonumberlist]{glossaries}
+\usepackage[toc, acronym, nonumberlist]{glossaries}
 \renewcommand{\glsnamefont}[1]{\textbf{#1}}
 \newcommand{\roughly}{\raisebox{0.1ex}{\textasciitilde}}
 \providecommand*{\subsubsectionautorefname}{Subsubsection}
@@ -109,12 +109,12 @@ headsepline, % Uncomment to get a line under the header
 \supervisor{Prof. Dr. Fabian Michael Kern} % Your supervisor's name, this is used in the title page, print it elsewhere with \supname
 \examiner{} % Your examiner's name, this is not currently used anywhere in the template, print it elsewhere with \examname
 \degree{Master of Science} % Your degree name, this is used in the title page and abstract, print it elsewhere with \degreename
-\author{Michael \textsc{Hüppe}} % Your name, this is used in the title page and abstract, print it elsewhere with \authorname
+\author{Michael \textsc{Hüppe}, 7785252} % Your name, this is used in the title page and abstract, print it elsewhere with \authorname
 \addresses{} % Your address, this is not currently used anywhere in the template, print it elsewhere with \addressname
 \newcommand{\aymeltItzen}{\href{https://www.uke.de/allgemein/arztprofile-und-wissenschaftlerprofile/wissenschaftlerprofilseite_aymelt_itzen.html}{ Prof. Dr. Aymelt Itzen }}
 \subject{Computer Science} % Your subject area, this is not currently used anywhere in the template, print it elsewhere with \subjectname
 \keywords{} % Keywords for your thesis, this is not currently used anywhere in the template, print it elsewhere with \keywordnames
-\university{\href{https://www.uni-hamburg.de/}{Universtiy of Hamburg}} % Your university's name and URL, this is used in the title page and abstract, print it elsewhere with \univname
+\university{\href{https://www.uni-hamburg.de/}{University of Hamburg}} % Your university's name and URL, this is used in the title page and abstract, print it elsewhere with \univname
 \department{\href{https://www.inf.uni-hamburg.de/}{Department of Computer Science}} % Your department's name and URL, this is used in the title page and abstract, print it elsewhere with \deptname
 \group{\href{https://www.zbh.uni-hamburg.de/personen/mlbi.html}{Machine Learning in Bioinformatics}} % Your research group's name and URL, this is used in the title page, print it elsewhere with \groupname
 \faculty{\href{http://faculty.university.com}{Faculty Name}} % Your faculty's name and URL, this is used in the title page and abstract, print it elsewhere with \facname
@@ -125,7 +125,6 @@ headsepline, % Uncomment to get a line under the header
 \hypersetup{pdfkeywords=\keywordnames} % Set the PDF's keywords to your keywords
 }
 
-\glsaddall
 \begin{document}
 
 \frontmatter % Use roman page numbering style (i, ii, iii, iv...) for the pre-content pages
@@ -166,7 +165,7 @@ headsepline, % Uncomment to get a line under the header
 
 \large \textit{A thesis submitted in fulfillment of the requirements\\ for the degree of \degreename}\\[0.3cm] % University requirement text
 \textit{in the}\\[0.4cm]
-\groupname\\\deptname\\[2cm] % Research group name and department name
+MIN-Faculty \\\deptname\\[2cm] % Research group name and department name
  
 \vfill
 
@@ -183,17 +182,11 @@ headsepline, % Uncomment to get a line under the header
 
 \begin{declaration}
 \addchaptertocentry{\authorshipname} % Add the declaration to the table of contents
-\noindent I, \authorname, declare that this thesis titled, \enquote{\ttitle} and the work presented in it are my own. I confirm that:
+Hiermit versichere ich an Eides statt, dass ich die vorliegende Arbeit im Masterstudiengang Informatik
+selbstständig verfasst und keine anderen als die angegebenen Hilfsmittel –- insbesondere keine im Quellenverzeichnis nicht benannten Internet-Quellen –- benutzt habe. Alle Stellen, die wörtlich oder sinngemäß aus Veröffentlichungen entnommen wurden, sind als solche kenntlich gemacht. Ich versichere weiterhin, dass ich die Arbeit vorher nicht in einem anderen Prüfungsverfahren eingereicht habe. Sofern im Zuge der Erstellung der vorliegenden Abschlussarbeit generative Künstliche Intelligenz (gKI) basierte elektronische Hilfsmittel verwendet wurden, versichere ich, dass meine eigene Leistung im Vordergrund stand und dass eine vollständige Dokumentation aller verwendeten Hilfsmittel gemäß der Guten Wissenschaftlichen Praxis vorliegt. Ich trage die Verantwortung für eventuell durch die gKI generierte fehlerhafte oder verzerrte Inhalte, fehlerhafte Referenzen, Verstöße gegen das Datenschutz- und Urheberrecht oder Plagiate. 
 
-\begin{itemize} 
-\item This work was done wholly or mainly while in candidature for a research degree at this University.
-\item Where any part of this thesis has previously been submitted for a degree or any other qualification at this University or any other institution, this has been clearly stated.
-\item Where I have consulted the published work of others, this is always clearly attributed.
-\item Where I have quoted from the work of others, the source is always given. With the exception of such quotations, this thesis is entirely my own work.
-\item I have acknowledged all main sources of help.
-\item Where the thesis is based on work done by myself jointly with others, I have made clear exactly what was done by others and what I have contributed myself.\\
-\end{itemize}
- 
+
+
 \noindent Signed:\\
 \rule[0.5em]{25em}{0.5pt} % This prints a line for the signature
  
@@ -213,9 +206,9 @@ Protein crystallization remains a critical bottleneck in structural biology, as 
 
 To address this problem, a large-scale dataset was constructed from the \gls{pdb}, comprising nearly 200,000 protein structures along with their associated crystallization metadata. A comprehensive data processing pipeline was developed to transform heterogeneous and partially incomplete experimental records into a structured, machine-readable representation of crystallization conditions. Multiple feature modalities were explored, including sequence-based descriptors, learned sequence embeddings, structural information, and surface-derived properties.
 
-Given the scarcity of reliable negative labels in crystallization data, this work adopts a contrastive learning framework to model the relationship between proteins and crystallization conditions. A two-tower architecture is proposed, where protein and condition representations are learned jointly in a shared embedding space and compared using a similarity-based scoring function. In addition, classical supervised learning approaches, including gradient boosting methods, are evaluated as baselines.
+Given the scarcity of reliable negative labels in crystallization data, this work adopts a contrastive learning framework to model the relationship between proteins and crystallization conditions. By using this approach the task is reformulated from crystallization condition prediction to a ranking problem over a discrete condition space. A two-tower architecture is proposed, where protein and condition representations are learned jointly in a shared embedding space and compared using a similarity-based scoring function. 
 
-Experimental results demonstrate that the proposed approach captures meaningful relationships between protein features and crystallization conditions, enabling the ranking of candidate conditions for a given protein. While exact prediction of optimal conditions remains challenging due to the high dimensionality and inherent stochasticity of crystallization, the model shows potential to narrow down the experimental search space.
+Sequence similarity based splitting and the scoring of past experimental results demonstrate that the proposed approach captures meaningful relationships between protein features and crystallization conditions. This enables the ranking of candidate conditions for an unseen protein. While exact prediction of optimal conditions remains challenging due to the high dimensionality and inherent stochasticity of crystallization, the model shows potential to narrow down the experimental search space.
 
 Overall, this work highlights the feasibility of leveraging machine learning for condition prediction in protein crystallization and provides a foundation for future research integrating structural, physicochemical, and experimental data to guide crystallization experiments more efficiently.
 \end{abstract}

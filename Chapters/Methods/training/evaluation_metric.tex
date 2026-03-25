@@ -7,6 +7,7 @@ A straightforward formulation of this task would be to predict the optimal cryst
 In practice, crystallographers frequently report only one successful crystallization condition to the \gls{pdb}, often selecting the condition that is easiest to reproduce experimentally. As a result, the \gls{pdb} contains only positive crystallization outcomes and lacks explicit negative examples. In contrast, experimental screening data, such as the \gls{crims} dataset described in \autoref{sec:crims}, contains numerous unsuccessful trials. As illustrated in \autoref{fig:crims_categorical_analysis}, the vast majority of experiments do not lead to crystal formation, resulting in a highly imbalanced dataset with far more negative than positive observations.
 
 This imbalance has important implications for both model design and evaluation. The task can be either reformulated as 1. a binary classification problem: given a protein and a candidate crystallization condition, the model predicts whether the experiment is likely to produce a crystal or 2. a ranking problem where for a given protein the conditions that are most likely to result in crystals should have a high score.
+While the latter represents the employed paradigm the former is used in addition to make results easier to interpret. The scoring metrics are as follows: 
 
 \paragraph{Top-$N$ Accuracy.}
 To evaluate how effectively the model prioritizes promising crystallization conditions, we use the Top-$N$ accuracy (e.g., Top-1 or Top-5). For a given protein, the model ranks a set of candidate conditions according to their predicted scores. A prediction is considered correct if at least one of the known successful conditions appears within the top $N$ ranked candidates.
@@ -30,19 +31,22 @@ where $s^{+}$ denotes scores of positive (i.e., experimentally successful) prote
 
 A larger margin indicates that the model assigns consistently higher scores to valid conditions than to invalid ones, reflecting a well-structured embedding space. Conversely, a small margin suggests poor separability and unreliable rankings.
 
-\paragraph{Area Under the ROC Curve (AUC).}
-To assess the global discriminative ability of the model, we compute the Area Under the Receiver Operating Characteristic Curve (AUC). This metric evaluates how well the model distinguishes between positive and negative pairs across all possible score thresholds.
+After translating the scores of the model the task is reformulated as a classification task and uses following metrics: 
 
-Given a set of scores $s$ and corresponding binary labels $y \in \{0,1\}$, the AUC can be interpreted as the probability that a randomly chosen positive pair receives a higher score than a randomly chosen negative pair:
+\paragraph{\gls{auroc}}
+To assess the global discriminative ability of the model, we compute the \gls{auroc} or just \gls{auc}. This metric evaluates how well the model distinguishes between positive and negative pairs across all possible score thresholds.
+
+Given a set of scores $s$ and corresponding binary labels $y \in \{0,1\}$, the \gls{auc} can be interpreted as the probability that a randomly chosen positive pair receives a higher score than a randomly chosen negative pair:
 \begin{equation}
     \text{AUC} = \mathbb{P}(s^{+} > s^{-}).
 \end{equation}
 
 In the context of in-batch evaluation, positive samples correspond to the diagonal elements of the score matrix (i.e., paired protein--condition samples), while negatives are given by off-diagonal elements that do not correspond to valid positives.
 
-Unlike Top-$N$ accuracy, AUC evaluates the overall ranking quality across the entire score distribution and is less sensitive to class imbalance. It therefore provides a complementary perspective on model performance.
+Unlike Top-$N$ accuracy, \gls{auc} evaluates the overall ranking quality across the entire score distribution and is less sensitive to class imbalance. It therefore provides a complementary perspective on model performance.
+In addition, other standard classification metrics, including balanced accuracy, precision, recall, and F1-score, to assess performance under class imbalance. Furthermore, the \gls{pr} curve and corresponding \gls{auc} is analyzed, which provides a more informative evaluation in the presence of skewed class distributions.
 
-Together, these metrics capture different aspects of the ranking task. Top-$N$ accuracy reflects practical usability in reducing experimental effort, mean margin measures the separation of the learned representations, and AUC evaluates global discriminative performance. Using all three provides a comprehensive assessment of the model's ability to prioritize promising crystallization conditions.
+Together, these metrics capture different aspects of the ranking task. Top-$N$ accuracy reflects practical usability in reducing experimental effort, mean margin measures the separation of the learned representations, and \gls{auc} evaluates global discriminative performance. Using all three provides a comprehensive assessment of the model's ability to prioritize promising crystallization conditions.
 
 
 

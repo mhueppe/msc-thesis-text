@@ -19,33 +19,33 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Sequence Embedding for protein information and pH}}{41}{figure.caption.84}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Relation of protein to condition}}{42}{figure.caption.85}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Surface point cloud auto-encoder examples}}{43}{figure.caption.87}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Surface point cloud auto-encoder examples}}{44}{figure.caption.87}%
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Binding Site Prediction}}{44}{figure.caption.88}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Simplified overview of the proposed two-tower architecture. Protein-related inputs are grouped and passed through the protein tower, while condition-related inputs are grouped and passed through the condition tower. The resulting embeddings are compared using a similarity-based scoring function to rank candidate conditions.}}{48}{figure.caption.93}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Simplified overview of the two-tower architecture}}{48}{figure.caption.93}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Score Distribution}}{58}{figure.caption.131}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Confusion Matrices}}{58}{figure.caption.132}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Score distribution and \gls {crims} analysis}}{60}{figure.caption.134}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Model Performance}}{62}{figure.caption.135}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Plate predictions}}{62}{figure.caption.136}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Model size influence on Performance}}{63}{figure.caption.139}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Hyperparameter feature importance}}{64}{figure.caption.141}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Cluster Similarity}}{65}{figure.caption.144}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Ablation Study}}{66}{figure.caption.146}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Data proportion Study}}{68}{figure.caption.148}%
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Parsing Quality for numerical values}}{74}{figure.caption.185}%
-\contentsline {figure}{\numberline {A.7}{\ignorespaces Temperature / pH correlation with surface features}}{74}{figure.caption.191}%
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Distributions of sequence-derived features}}{75}{figure.caption.186}%
-\contentsline {figure}{\numberline {A.8}{\ignorespaces Number of unique counts per protein}}{75}{figure.caption.192}%
-\contentsline {figure}{\numberline {A.3}{\ignorespaces Temperature and pH distributions}}{76}{figure.caption.187}%
-\contentsline {figure}{\numberline {A.4}{\ignorespaces \gls {peg} Unit analysis}}{76}{figure.caption.188}%
-\contentsline {figure}{\numberline {A.5}{\ignorespaces Residue analysis in protein sequences}}{77}{figure.caption.189}%
-\contentsline {figure}{\numberline {A.6}{\ignorespaces Most common crystallization methods}}{77}{figure.caption.190}%
-\contentsline {figure}{\numberline {A.9}{\ignorespaces Surface feature distributions}}{78}{figure.caption.193}%
-\contentsline {figure}{\numberline {A.10}{\ignorespaces Surface feature distributions}}{79}{figure.caption.194}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Score Distribution}}{58}{figure.caption.132}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Confusion Matrices}}{58}{figure.caption.133}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Score distribution and \gls {crims} analysis}}{60}{figure.caption.135}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Model Performance}}{62}{figure.caption.136}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Plate predictions}}{62}{figure.caption.137}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Model size influence on Performance}}{63}{figure.caption.140}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Hyperparameter feature importance}}{64}{figure.caption.142}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Cluster Similarity}}{65}{figure.caption.145}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Ablation Study}}{66}{figure.caption.147}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Data proportion Study}}{68}{figure.caption.149}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {C.1}{\ignorespaces Recall at Top K}}{85}{figure.caption.218}%
-\contentsline {figure}{\numberline {C.2}{\ignorespaces Interference Ablation Study}}{86}{figure.caption.219}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Parsing Quality for numerical values}}{74}{figure.caption.186}%
+\contentsline {figure}{\numberline {A.7}{\ignorespaces Temperature / pH correlation with surface features}}{74}{figure.caption.192}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Distributions of sequence-derived features}}{75}{figure.caption.187}%
+\contentsline {figure}{\numberline {A.8}{\ignorespaces Number of unique counts per protein}}{75}{figure.caption.193}%
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Temperature and pH distributions}}{76}{figure.caption.188}%
+\contentsline {figure}{\numberline {A.4}{\ignorespaces \gls {peg} Unit analysis}}{76}{figure.caption.189}%
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Residue analysis in protein sequences}}{77}{figure.caption.190}%
+\contentsline {figure}{\numberline {A.6}{\ignorespaces Most common crystallization methods}}{77}{figure.caption.191}%
+\contentsline {figure}{\numberline {A.9}{\ignorespaces Surface feature distributions}}{78}{figure.caption.194}%
+\contentsline {figure}{\numberline {A.10}{\ignorespaces Surface feature distributions}}{79}{figure.caption.195}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Recall at Top K}}{85}{figure.caption.219}%
+\contentsline {figure}{\numberline {C.2}{\ignorespaces Interference Ablation Study}}{85}{figure.caption.220}%

@@ -1,4 +1,4 @@
-\section{Supervised Learning}
+\subsection{Supervised Learning}
 As explained by \cite{Mohri2018} in supervised learning, a model is trained using a dataset consisting of input features and corresponding target labels. The goal of the learning algorithm is to estimate a function that maps input variables to output labels, allowing the model to generalize to previously unseen examples.
 
 The training of the model can be formulated as an empirical risk minimization problem. 
@@ -22,7 +22,7 @@ For the task of finding optimal crystallization conditions, the input features a
 
 Supervised learning approaches rely heavily on the availability of high-quality labeled datasets. In practice, obtaining reliable negative labels for crystallization experiments can be difficult, which introduces challenges for standard supervised learning formulations. Non-working conditions are often disregarded which makes supervised learning the wrong approach, since a model can only learn if there is variance in the dataset. This is due to label bias which occurs if the model learns more about the distribution of the label than the features in the input. For example, if only positive labels are present (as the case for the \gls{pdb} dataset) the model could achieve perfect performance by predicting that every protein-condition combination results in a crystal, which is far from the truth. In these cases other learning paradigms have to be used. 
 
-\section{Contrastive Learning} \label{sec:contrastive_learning}
+\subsection{Contrastive Learning} \label{sec:contrastive_learning}
 
 Contrastive learning has emerged as a powerful paradigm for representation learning, particularly in self-supervised settings where labeled data is scarce. Instead of learning from explicit labels, contrastive methods learn representations by comparing samples and enforcing similarity relationships in an embedding space. As seen in later sections contrastive learning can be especially useful if the labels are insufficient. The core idea is to bring representations of similar samples closer while pushing dissimilar samples apart. This section follows the unified framework explored by \citet{LeKhac2020}.
 
