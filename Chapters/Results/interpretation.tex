@@ -13,7 +13,11 @@ As a result, when training and validation data share similar clusters, the model
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=\textwidth]{../msc-thesis-code/data/dataExploration/plots/humology}
+	\begin{overpic}[width=\textwidth, tics=10]{../msc-thesis-code/data/dataExploration/plots/humology}
+		\put(23,-2.5){\small (A)}
+		\put(73,-2.5){\small (B)}
+	\end{overpic}
+	\vspace{0.005cm}
 	\caption[Cluster Similarity]{The Figure shows \gls{auc} and Top 1 score in relation to cluster homology. The model has difficulties generalizing towards models that are completely different from the ones in the training dataset.}
 	\label{fig:cluster_similarity_performance}
 \end{figure} 
@@ -28,37 +32,48 @@ Removing \textit{sequence information} also results in a noticeable performance 
 
 The removal of \textit{surface information} results in a moderate performance drop, particularly on the validation set, indicating that surface-level features provide useful but not dominant information. In this ablation study only one feature type was removed at a time. Meaning while surface features might be important they might also be incorporated in the sequence or structure embedding. Overall, the ranking of feature importance based on performance degradation is: structure embedding $>$ sequence information $>$ surface information $>$ sequence embedding. The low importance of sequence embedding suggests that the model is able to learn beyond the homology artifact explored earlier. 
 
+In addition to the ablation study, a selection study was conducted to investigate the minimal feature set required for the model to maintain performance. The result can be is illustrated in \autoref{fig:dependencyStudy} in \autoref{app:results}. In contrast to the ablation setting this study isolates each feature group by training the model with only a single feature type at a time.
+
+The results are consistent with the findings from the ablation study. In particular, structure embeddings emerge as the most informative feature. This reinforces their central role in the model.
+
+Interestingly, sequence embeddings also retain a notable amount of predictive power when used alone, performing substantially better than several other individual feature groups. This observation contrasts with the ablation study, where removing sequence embeddings from the full feature set had only a minor impact on performance.
+
+This discrepancy suggests an important interaction effect:
+while the \gls{esm} embeddings do encode relevant information, much of this information appears to be redundant with other feature groups. Consequently, when all features are combined, the marginal contribution of sequence embeddings is limited. However, in isolation, they can still provide meaningful signal, indicating that they capture overlapping, but not entirely unique, information. The overall lower performance in the dependency study suggest that interactions between feature groups are important as well. 
+
 Finally, the gap between training and validation performance persists across all ablations, but becomes most pronounced when important features are removed. This further highlights the role of these features in enabling robust generalization.
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=\textwidth]{../msc-thesis-code/data/dataExploration/plots/ablationStudy_without_surface.pdf}
-	\caption[Ablation Study]{Figure shows \gls{auc} and Top 1 score for the ablation study. Performance decreases strongest when removing structure features.}
+	\begin{overpic}[width=\textwidth, tics=10]{../msc-thesis-code/data/dataExploration/plots/ablationStudy_without_surface}
+		\put(23,-2.5){\small (A)}
+		\put(73,-2.5){\small (B)}
+	\end{overpic}
+	\vspace{0.005cm}
+	\caption[Ablation Study]{Figure shows \gls{auc} and Top 1 score for the ablation study. Performance decreases strongest when removing structure features. Every removal (except sequence embedding) significantly (p < 0.01 ANOVA) reduces the performance metric.}
 	\label{fig:ablationStudy}
 \end{figure} 
 
 \subsubsection*{Impact of Data Composition on Model Performance}\label{sec:results/interpretation/data_ratio}
+To better understand how training set size and composition affect model performance, an additional ablation study was conducted in which only a fraction of the available training data was used for training. After constructing the training and validation split based on cluster similarity, the training set was further subsampled using proportions ranging from $10\%$ to $100\%$. A ratio of $0.1$, for example, indicates that only $10\%$ of the training proteins are retained.
 
-To better understand how the amount and composition of training data influence model performance, another ablation study in which only a fraction of the available training data is used was performed. After constructing the training and validation split based on cluster similarity, the training set is further subsampled by varying proportions ranging from $10\%$ to $100\%$. A ratio of $0.1$, for instance, indicates that only $10\%$ of the available training data is used for model training.
+Importantly, this subsampling was not performed uniformly at random. Instead, proteins were ranked according to their frequency in the dataset, and subsets were constructed either from the most frequently occurring proteins (\textit{top}) or from the least frequent proteins (\textit{bottom}). Because the dataset exhibits a strongly imbalanced protein frequency distribution, this distinction has a substantial effect on the resulting number of samples. As shown in the right panel of \autoref{fig:dataRatioStudy}, the top-ranked proteins already account for a large fraction of all samples at very small protein ratios, whereas the bottom-ranked proteins contribute only few samples until a large fraction of proteins is included. In other words, a small \textit{top} subset can contain approximately as many samples as a very large \textit{bottom} subset. The number of duplicated entries for the top 15 proteins which causes this effect can be seen in \autoref{fig:most_common_proteins} in \autoref{app:data}. 
 
-Importantly, this subsampling is not performed uniformly at random. Instead, proteins are ranked by their frequency in the dataset, and subsets are constructed either from the most frequently occurring proteins (\textit{top}) or from the least frequent ones (\textit{bottom}). This distinction is crucial, as the dataset exhibits a highly imbalanced distribution of protein occurrences. The most common protein (R1AB\_SARS2) has 2349 unique entries making up around 1.6\% of the entire dataset. Similar holds for proteins such as CAH2\_HUMAN (1141/0.8\%) or LYSC\_CHICK (1089/0.76\%). The most common ones are depicted in \autoref{fig:most_common_proteins}.
-This relation is illustrated in the right panel of \autoref{fig:dataRatioStudy}, the top $10\%$ of proteins already account for approximately the same number of unique samples as nearly $95\%$ of the least frequent proteins. Thus, the \textit{top} and \textit{bottom} subsets differ not only in protein identity and variance but also substantially in the number of associated conditions.
+The left and middle panels of \autoref{fig:dataRatioStudy} show the resulting model performance in terms of Top1 and \gls{auroc}. Performance appears to increase with higher protein ratio for both subset types. However, the two curves differ substantially: the \textit{top} subsets generally achieve stronger performance at small ratios than the \textit{bottom} subsets. This is expected, since the \textit{top} subset has the same variance in protein with a higher variance in condition per protein. However, the effect is not related to the number of samples.
 
-\autoref{fig:dataRatioStudy} consists of three panels. The left and middle panel illustrate the relation between data ratio and performance for the mean-margin between distributions and \gls{auroc}. The red curve corresponds to the \textit{top} subset (frequent proteins), whereas the blue curve represents the \textit{bottom} subset (rare proteins). The right panel illustrates the relationship between the selected data ratio and the resulting number of unique samples for both \textit{top} and \textit{bottom} subsets. 
+To disentangle the effect of protein ratio from the effect of sample count, \autoref{fig:ratio_samples} in \autoref{app:results} visualizes the same performance metrics against the number of unique samples instead of the proportion of selected proteins. Under this representation, a pattern becomes visible: performance does not follow a simple monotonic relationship with the number of samples alone. In particular, the \textit{bottom} subsets can achieve comparable or even better performance than \textit{top} subsets at similar or smaller sample counts.
 
-Across both performance metrics, a consistent trend emerges: models trained on the \textit{top} subset achieve higher performance than those trained on the \textit{bottom} subset for nearly all data ratios. This difference is particularly pronounced at low data ratios. Increasing the amount of training data improves performance in both settings, but the gain for the \textit{bottom} subset is gradual and approximately linear, whereas the number of samples in the corresponding subset increases exponentially, as seen in the right panel.
-This mismatch is central for interpreting the figure. If model performance were determined primarily by the raw number of available samples, then the performance curve of the \textit{bottom} subset should roughly mirror the sample-count curve. 
-This suggests that model performance is not driven mainly by sample count alone. Rather, the results indicate that \textbf{protein-level structure and repeated observations per protein are particularly important}. The most frequent proteins contribute many related samples, allowing the model to learn stable and protein-specific patterns. In contrast, the \textit{bottom} subset contains many proteins with very limited representation, so even when the total number of samples becomes large, those samples are distributed across many sparsely observed proteins. As a result, the model receives less consistent information about each individual protein and cannot exploit protein-specific regularities to the same extent.
-
-Importantly, this effect should not simply be attributed to greater condition diversity in the \textit{top} subset. In the \gls{pdb}, repeated entries for common proteins often do not correspond to fully independent condition regimes. Instead, they are frequently small variations of the same biological system, such as mutants, ligand-bound forms, or complexes with interaction partners. Thus, the strong performance of the \textit{top} subset is unlikely to arise merely because it covers a broader range of experimental conditions. Rather, it indicates that repeated and closely related observations around the same proteins are highly informative for the model.
-
-Taken together, the figure suggests that \textbf{protein variance is more important than raw condition count alone}. Importantly, the model does not appear to benefit simply from seeing more samples in aggregate. Instead, it benefits from seeing enough samples associated with the same or closely related proteins to learn robust protein-conditioned decision boundaries. 
-Overall, the experiment shows that the model relies strongly on protein-specific information. While additional samples are beneficial, their usefulness depends heavily on how they are distributed across proteins. This is highlighted when looking at the proportion 0.9. Even though the bottom 90 percent of the dataset cover only around 38\% of all entries the performance is comparable to the top mode 90\% which includes 98\% of all entries.
+This suggests that the dominant factor is not merely the number of available samples, but rather the diversity of proteins represented in those samples. The \textit{top} subsets are dominated by a small number of highly frequent proteins and therefore contain many repeated observations of the same proteins under varying conditions. In contrast, the \textit{bottom} subsets contain a broader range of protein identities per sample budget, even though each individual protein is observed less often. The fact that these subsets remain competitive when performance is plotted against unique sample count indicates that exposure to a more diverse set of proteins is more beneficial than repeatedly observing the same proteins with variations.
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=\textwidth]{../msc-thesis-code/data/dataExploration/plots/dataProportionPerformance.pdf}
-	\caption[Data proportion Study]{Figure shows the relation of performance to data ratio for different selection modes. Proteins are sorted based on he number of times they appear in the \gls{pdb}. The mode "Top"/"Bottom" selects the most/least common proteins. While absolute count of unique numbers of samples is important (as seen by the difference between the modes) the variance of proteins seems to be more important. This is illustrated by the linear increase in performance different to the exponential one illustrated in the right plot.}
+	\begin{overpic}[width=\textwidth, tics=10]{../msc-thesis-code/data/dataExploration/plots/dataProportionPerformance}
+		\put(18,-3){\small (A)}
+		\put(50,-3){\small (B)}
+		\put(83,-3){\small (C)}
+	\end{overpic}
+	\vspace{0.005cm}
+	\caption[Data proportion Study]{Figure shows the relation of performance to data ratio for different selection modes. Proteins are sorted based on the number of times they appear in the \gls{pdb}. The mode "Top"/"Bottom" selects the most/least common proteins. While absolute count of unique numbers of samples is important (as seen by the difference between the modes) the variance of proteins seems to be more important. This is illustrated by the linear increase in performance different to the exponential one illustrated in the right plot.}
 	\label{fig:dataRatioStudy}
 \end{figure} 
 

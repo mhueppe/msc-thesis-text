@@ -1,6 +1,6 @@
-\subsection{Training Procedure}\label{sec:methods/training}
+\subsection{Training Procedure}\label{sec:methods/training/pipeline}
 
-The model is trained using a contrastive ranking objective within a two-tower architecture. The goal is to learn a shared embedding space in which compatible protein--condition pairs have high similarity, while incompatible pairs are separated.
+The model is trained using a contrastive ranking objective within a two-module architecture. The goal is to learn a shared embedding space in which compatible protein--condition pairs have high similarity, while incompatible pairs are separated.
 Each training batch consists of $B$ paired samples:
 \begin{equation}
     \{(x_p^{(i)}, x_c^{(i)})\}_{i=1}^{B},
@@ -8,7 +8,7 @@ Each training batch consists of $B$ paired samples:
 where $x_p^{(i)}$ denotes the protein features and $x_c^{(i)}$ the corresponding crystallization condition. Each condition is additionally associated with a unique identifier $c^{(i)}$.
 
 As seen in \autoref{fig:mostcommoncocktails} in \autoref{sec:data_analysis} some conditions occure multiple. This means that unlike standard contrastive setups, batches may contain duplicate conditions. Using standard batch contrastive learning the diagonal in a batch is optimized i.e. duplicates in a batch would be turned into false negatives. To accomodate this in the designed setup the duplicates are explicitly leveraged during training by treating all identical conditions as valid positives. This is done by comparing the conditions based on their chemical composition and pH. 
-As described in \autoref{sec:methods/model_architecture} for each batch, protein and condition inputs are encoded independently using the two towers:
+As described in \autoref{sec:methods/model_architecture} for each batch, protein and condition inputs are encoded independently using the two modules:
 \begin{equation}
     z_p^{(i)} = f_p(x_p^{(i)}), \qquad
     z_c^{(j)} = f_c(x_c^{(j)}).

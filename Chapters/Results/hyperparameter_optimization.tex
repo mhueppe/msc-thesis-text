@@ -11,11 +11,14 @@ The results demonstrate a regime of beneficial scaling where performance grows r
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=\textwidth]{../msc-thesis-code/data/dataExploration/plots/model_sizes}
-	\caption[Model size influence on Performance]{Figure shows \gls{auc} and Top 1 score in relation to model size. The performance increases with more neurons until overfitting starts.}
+	\begin{overpic}[width=\textwidth, tics=10]{../msc-thesis-code/data/dataExploration/plots/model_sizes}
+		\put(23,-2.5){\small (A)}
+		\put(73,-2.5){\small (B)}
+	\end{overpic}
+	\vspace{0.005cm}
+	\caption[Model size influence on Performance]{Figure shows \gls{auc} (A) and Top 1 score (B) in relation to model size. The performance increases with more neurons until overfitting starts.}
 	\label{fig:model_scaling}
-\end{figure} 
-
+\end{figure}
 
 \paragraph{Hyperparameter Importance}
 Other than the number of parameters there are a lot of hyperparameters that can be tuned to improve generalization performance. To better understand which hyperparameters have the strongest influence on model performance, a feature importance analysis was conducted using \texttt{Optuna}'s built-in importance estimation. The results are summarized in \autoref{fig:feature_importances}.
@@ -24,7 +27,7 @@ The analysis reveals that the most influential parameter is the \textit{conditio
 
 The second most important parameter is the \textit{symmetric loss weight}, highlighting the relevance of balancing the protein-to-condition and condition-to-protein objectives. This suggests that properly weighting both directions of the contrastive loss is essential for learning a well-structured embedding space.
 
-Regularization-related parameters, such as \textit{condition tower dropout}, also exhibit a notable impact, indicating that controlling overfitting in the condition branch is particularly important. In contrast, architectural parameters of the protein representation, such as the structure embedding output dimension and sequence embedding hidden size, have a more moderate influence.
+Regularization-related parameters, such as \textit{condition module dropout}, also exhibit a notable impact, indicating that controlling overfitting in the condition branch is particularly important. In contrast, architectural parameters of the protein representation, such as the structure embedding output dimension and sequence embedding hidden size, have a more moderate influence.
 
 Interestingly, optimization-related parameters, including the learning rate and number of steps per epoch, show comparatively low importance. This suggests that model performance is more sensitive to representation capacity and loss design than to fine-tuning of the optimization process.
 

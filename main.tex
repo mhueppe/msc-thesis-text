@@ -43,7 +43,7 @@ headsepline, % Uncomment to get a line under the header
 \usepackage{longtable}
 \usepackage{listings}
 \usepackage{mathpazo} % Use the Palatino font by default
-
+\usepackage{overpic}
 \usepackage[backend=biber,style=apa,natbib=true]{biblatex}
 \DefineBibliographyStrings{english}{andothers = {\emph{et al}\adddot}}
 \usepackage{float}
@@ -71,6 +71,8 @@ headsepline, % Uncomment to get a line under the header
 \newcommandx{\info}[2][1=]{\todo[linecolor=OliveGreen,backgroundcolor=OliveGreen!25,bordercolor=OliveGreen,#1]{#2}}
 \newcommandx{\improvement}[2][1=]{\todo[linecolor=Plum,backgroundcolor=Plum!25,bordercolor=Plum,#1]{#2}}
 \newcommandx{\thiswillnotshow}[2][1=]{\todo[disable,#1]{#2}}
+\usepackage[none]{hyphenat}
+\emergencystretch=3em
 %----------------------------------------------------------------------------------------
 %	MARGIN SETTINGS
 %----------------------------------------------------------------------------------------
@@ -165,7 +167,7 @@ headsepline, % Uncomment to get a line under the header
 
 \large \textit{A thesis submitted in fulfillment of the requirements\\ for the degree of \degreename}\\[0.3cm] % University requirement text
 \textit{in the}\\[0.4cm]
-MIN-Faculty \\\deptname\\[2cm] % Research group name and department name
+MIN-Faculty \\\deptname\\ Computer Science \\ [2cm] % Research group name and department name
  
 \vfill
 
@@ -184,7 +186,7 @@ MIN-Faculty \\\deptname\\[2cm] % Research group name and department name
 \addchaptertocentry{\authorshipname} % Add the declaration to the table of contents
 Hiermit versichere ich an Eides statt, dass ich die vorliegende Arbeit im Masterstudiengang Informatik
 selbstständig verfasst und keine anderen als die angegebenen Hilfsmittel –- insbesondere keine im Quellenverzeichnis nicht benannten Internet-Quellen –- benutzt habe. Alle Stellen, die wörtlich oder sinngemäß aus Veröffentlichungen entnommen wurden, sind als solche kenntlich gemacht. Ich versichere weiterhin, dass ich die Arbeit vorher nicht in einem anderen Prüfungsverfahren eingereicht habe. Sofern im Zuge der Erstellung der vorliegenden Abschlussarbeit generative Künstliche Intelligenz (gKI) basierte elektronische Hilfsmittel verwendet wurden, versichere ich, dass meine eigene Leistung im Vordergrund stand und dass eine vollständige Dokumentation aller verwendeten Hilfsmittel gemäß der Guten Wissenschaftlichen Praxis vorliegt. Ich trage die Verantwortung für eventuell durch die gKI generierte fehlerhafte oder verzerrte Inhalte, fehlerhafte Referenzen, Verstöße gegen das Datenschutz- und Urheberrecht oder Plagiate. 
-
+\vspace{1cm}
 
 
 \noindent Signed:\\
@@ -206,9 +208,9 @@ Protein crystallization remains a critical bottleneck in structural biology, as 
 
 To address this problem, a large-scale dataset was constructed from the \gls{pdb}, comprising nearly 200,000 protein structures along with their associated crystallization metadata. A comprehensive data processing pipeline was developed to transform heterogeneous and partially incomplete experimental records into a structured, machine-readable representation of crystallization conditions. Multiple feature modalities were explored, including sequence-based descriptors, learned sequence embeddings, structural information, and surface-derived properties.
 
-Given the scarcity of reliable negative labels in crystallization data, this work adopts a contrastive learning framework to model the relationship between proteins and crystallization conditions. By using this approach the task is reformulated from crystallization condition prediction to a ranking problem over a discrete condition space. A two-tower architecture is proposed, where protein and condition representations are learned jointly in a shared embedding space and compared using a similarity-based scoring function. 
+Given the scarcity of reliable negative labels in crystallization data, this work adopts a contrastive learning framework to model the relationship between proteins and crystallization conditions. By using this approach the task is reformulated from crystallization condition prediction to a ranking problem over a discrete condition space. A two-module architecture is proposed, where protein and condition representations are learned jointly in a shared embedding space and compared using a similarity-based scoring function. 
 
-Sequence similarity based splitting and the scoring of past experimental results demonstrate that the proposed approach captures meaningful relationships between protein features and crystallization conditions. This enables the ranking of candidate conditions for an unseen protein. While exact prediction of optimal conditions remains challenging due to the high dimensionality and inherent stochasticity of crystallization, the model shows potential to narrow down the experimental search space.
+Sequence similarity based splitting and the scoring of past experimental results demonstrate that the proposed approach captures meaningful relationships between protein features and crystallization conditions. This enables the ranking of candidate conditions for an unseen protein. While exact prediction of optimal conditions remains challenging due to the high dimensionality and difficulty of crystallization, the model shows potential to narrow down the experimental search space by 65\% while still capturing 71\% of crystal conditions.
 
 Overall, this work highlights the feasibility of leveraging machine learning for condition prediction in protein crystallization and provides a foundation for future research integrating structural, physicochemical, and experimental data to guide crystallization experiments more efficiently.
 \end{abstract}
@@ -217,7 +219,7 @@ Overall, this work highlights the feasibility of leveraging machine learning for
 \addchaptertocentry{\acknowledgementname}
 I would like to express my heartfelt gratitude to the individuals who have contributed to the successful completion of this thesis.\\
 First and foremost, I would like to extend my appreciation to Dr. Michael Hecht-Bucher.  His support, guidance, and expertise in the fields of structural biology and bioinformatics have been instrumental throughout the entire process. His mentorship has greatly enhanced the quality of my work and understanding of the topics covered.\\
-I am also grateful to Prof. Dr. Gordon Fabian Kern, for the support in machine learning and bioinformatics and his supervision in this thesis. \\
+I am also grateful to Prof. Dr. Fabian Kern, for the support in machine learning and bioinformatics and his supervision in this thesis. \\
 Moreover, I would like to thank Prof. Dr. Aymelt Itzen for welcoming me into his research group despite my background in a different field, for providing access to laboratory-generated data, and for sharing his expertise in structural biology. \\
 A special note of appreciation goes to the Itzen Lab in general for welcoming me into the group and their help in tracking down their crystallization data of past years. Their involvement and cooperation have made the assumptions about real life practicality of the system possible, and their voluntary contribution is sincerely appreciated.\\
 Lastly, I would like to extend a huge thank you to my family and friends for their support. \\

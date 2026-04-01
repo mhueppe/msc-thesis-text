@@ -2,16 +2,42 @@
 
 \chapter{Results Appendix}\label{app:results} % Main appendix title
 
+% \begin{figure}[h]
+% 	\centering
+% 	\includegraphics[width=0.5\textwidth]{../msc-thesis-code/data/dataExploration/plots/recallAtTopK.pdf}
+% 	\caption[Recall at Top K]{Illustration of the recall performance for different K.}
+% 	\label{fig:recallAtTopK}
+% \end{figure} 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.5\textwidth]{../msc-thesis-code/data/dataExploration/plots/recallAtTopK.pdf}
-	\caption[Recall at Top K]{Illustration of the recall performance for different K.}
-	\label{fig:recallAtTopK}
+	\begin{overpic}[width=\textwidth, tics=10]{../msc-thesis-code/data/dataExploration/plots/ablationStudy}
+		\put(23,-2.5){\small (A)}
+		\put(73,-2.5){\small (B)}
+	\end{overpic}
+	\vspace{0.005cm}
+	\caption[Interference Ablation Study]{Illustration of a complete ablation study. Interestingly, the binding sites vector seem to be interfering with training and performance.}
+	\label{fig:ablationStudyFull}
+\end{figure} 
+
+
+\begin{figure}[h]
+	\centering
+	\begin{overpic}[width=\textwidth, tics=10]{../msc-thesis-code/data/dataExploration/plots/dependencyStudy}
+		\put(23,-2.5){\small (A)}
+		\put(73,-2.5){\small (B)}
+	\end{overpic}
+	\vspace{0.005cm}
+	\caption[Dependency Study]{Illustration of a dependency study. Similar trends to the ablation study is seen where the structure embedding seems to be the most important.}
+	\label{fig:dependencyStudy}
 \end{figure} 
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=\textwidth]{../msc-thesis-code/data/dataExploration/plots/ablationStudy.pdf}
-	\caption[Interference Ablation Study]{Illustration of a complete ablation study. Interestingly, the binding sites vector seem to be intereing with training and performance.}
-	\label{fig:ablationStudyFull}
+	\begin{overpic}[width=\textwidth, tics=10]{../msc-thesis-code/data/dataExploration/plots/sample_ratio_performance}
+		\put(23,-2.5){\small (A)}
+		\put(73,-2.5){\small (B)}
+	\end{overpic}
+	\vspace{0.005cm}
+	\caption[Samples Ratio vs. Performance]{Illustration of performance study in relation to the performance. Even though the number of samples is smaller the performance is higher, which indicates that the sheer number of samples does not drive performance alone.}
+	\label{fig:ratio_samples}
 \end{figure} 

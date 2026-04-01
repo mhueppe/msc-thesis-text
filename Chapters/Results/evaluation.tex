@@ -7,10 +7,15 @@ In order to assess both ranking quality and practical applicability the performa
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=\textwidth]{../msc-thesis-code/data/dataExploration/plots/prediction_score_distribution}
-	\caption[Score Distribution]{The figure shows the distribution of scores given by the model for the actual reported conditions and the negatives in the batch. To show generalization power both training and test performance are depcited.}
+	\begin{overpic}[width=\textwidth,tics=10]{../msc-thesis-code/data/dataExploration/plots/prediction_score_distribution}
+		\put(25,-2.5){\small (A)}
+		\put(76,-2.5){\small (B)}
+	\end{overpic}
+	\vspace{0.005cm}
+	\caption[Score Distribution]{(A) Training distribution. (B) Test distribution. 
+	The figure shows the distribution of scores given by the model for the actual reported conditions and the negatives in the batch.}
 	\label{fig:score_distribution}
-\end{figure} 
+\end{figure}
 
 \autoref{fig:score_distribution} shows the distribution of predicted scores for positive and negative protein-condition pairs on both the training and test sets. The scores correspond to the similarity in the learned embedding space, where higher values indicate a higher predicted compatibility.
 
@@ -24,11 +29,15 @@ Overall, the figure demonstrates that the model learns a meaningful scoring func
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=\textwidth]{../msc-thesis-code/data/dataExploration/plots/roc_confusion_pdb.pdf}
-	\caption[Confusion Matrices]{By employing a threshold to the scores the task can be reformulated to a classification task. The performance is shown in the figure. The \gls{roc} curve shows the trade-off between sensitivity and specificity. Even with weak generalization to unseen the data the model performs better than random. This is also depicted in the left confusion matrices which.}
+	\begin{overpic}[width=\textwidth, tics=10]{../msc-thesis-code/data/dataExploration/plots/roc_confusion_pdb_cropped.pdf}
+		\put(18,-3){\small (A)}
+		\put(50,-3){\small (B)}
+		\put(83,-3){\small (C)}
+	\end{overpic}
+	\vspace{0.005cm}
+	\caption[Confusion Matrices]{By employing a threshold to the scores the task can be reformulated to a classification task. The performance is shown in (A). The \gls{roc} curve shows the trade-off between sensitivity and specificity. Even with weak generalization to unseen the data the model performs better than random. This is also depicted in the left confusion matrices in (B) and (C) which show \gls{tn} and \gls{tp}.}
 	\label{fig:roc_confusion}
-\end{figure} 
-
+\end{figure}
 
 To further assess the model's performance, the continuous similarity scores were converted into a binary classification by applying a threshold. The threshold was selected to maximize performance on the training set. \autoref{fig:roc_confusion} summarizes the resulting \gls{roc} curves and confusion matrices for both training and test data. The matrices display the normalized prediction frequencies for the two classes, averaged across.
 
@@ -58,11 +67,15 @@ Overall, these results indicate that the contrastive learning approach transfers
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=\textwidth]{../msc-thesis-code/data/dataExploration/plots/score_distribution_roc_pr_curve_crims.pdf}
-	\caption[Score distribution and \gls{crims} analysis]{The figure is an illustration of the score distribution and the resulting \gls{roc} and \gls{pr} curves. The score distribution includes all proteins showing higher scores for the crystal conditions than unsuccessful ones. Both the \gls{roc} curve and the \gls{pr} curve show the average over all protein with the standard deviation included. Both emphasize the performance of the model being better than random. However, the precision of the model is much worse in comparison the specificity/sensitvity.}
+	\begin{overpic}[width=\textwidth, tics=10]{../msc-thesis-code/data/dataExploration/plots/score_distribution_roc_pr_curve_crims.pdf}
+		\put(18,-3){\small (A)}
+		\put(50,-3){\small (B)}
+		\put(83,-3){\small (C)}
+	\end{overpic}
+	\vspace{0.005cm}
+	\caption[Score distribution and \gls{crims} analysis]{The figure is an illustration of the score distribution and the resulting \gls{roc} and \gls{pr} curves. (A) The score distribution includes all proteins showing higher scores for the crystal conditions than unsuccessful ones. Both the \gls{roc} curve (B) and the \gls{pr} curve (C) show the average over all protein with the standard deviation included. Both emphasize the performance of the model being better than random. However, the precision of the model is much worse in comparison the specificity/sensitvity.}
 	\label{fig:score_distribution_curves}
-\end{figure} 
-
+\end{figure}
 Using the threshold derived on the \gls{pdb} dataset, the scoring task can be reformulated as a binary classification problem on the \gls{crims} dataset.
 
 A quantitative summary of model performance across several classification metrics is shown in \autoref{fig:model_performance}. The evaluated metrics include balanced accuracy, macro-averaged F1 score, weighted F1 score, macro precision, macro recall, recall for the positive class, as well as \gls{auroc} and \gls{auprc}. For reference, an empirical random baseline is included.
@@ -83,12 +96,18 @@ To provide a practical interpretation, consider a standard setup of 5 plates wit
 
 Overall, these results demonstrate that the model is capable of identifying crystallization conditions and reducing the experimental search space. However, the degradation in performance on validation data and the remaining class imbalance effects indicate that further improvements are necessary to achieve robust and consistently high classification performance.
 
+
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=\textwidth]{../msc-thesis-code/data/dataExploration/plots/model_performance_per_protein_cm}
-	\caption[Model Performance]{The figure illustrates the performance of the model on various metrics. Both the actual performance and a random baseline is included. The model outperforms the random baseline in almost all metrics. The confusion matrix emphasizes the models bias towards crystal conditions but overall good performance.}
+	\begin{overpic}[width=\textwidth, tics=10]{../msc-thesis-code/data/dataExploration/plots/model_performance_per_protein_cm}
+		\put(28,-2.5){\small (A)}
+		\put(65,-2.5){\small (B)}
+		\put(85,-2.5){\small (C)}
+	\end{overpic}
+	\vspace{0.005cm}
+	\caption[Model Performance]{(A) illustrates the performance of the model on various metrics. Both the actual performance and a random baseline is included. The model outperforms the random baseline in almost all metrics including \gls{auprc} (B). The confusion matrix in (C) emphasizes the models bias towards crystal conditions but overall good performance.}
 	\label{fig:model_performance}
-\end{figure} 
+\end{figure}
 
 To further demonstrate the practical applicability of the model in a realistic screening scenario, predictions were simulated on a full crystallization plate. The results are shown in \autoref{fig:plate_predictions}, where the true outcomes are compared with the model predictions. Each cell represents a different condition. Each cell has three shelves attributed with different additions to the protein solution as presented in \autoref{fig:crims_categorical_analysis}. Generally, it can be seen that the model has difficulty distinguishing between the different additives. This is likely due to the limited examples in the \gls{pdb} dataset. 
 The visualization shows that the model successfully identifies multiple wells containing crystals while also predicting additional wells as potential crystal candidates. Although some false positives occur, the predicted plate pattern captures a substantial portion of the true crystallization events.

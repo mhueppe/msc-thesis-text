@@ -9,18 +9,18 @@
 \contentsline {paragraph}{Challenge of X-ray Crystallography}{2}{section*.12}%
 \contentsline {subsection}{\numberline {1.2.1}Crystal Growth}{2}{subsection.13}%
 \contentsline {paragraph}{Organic precipitants}{5}{section*.16}%
-\contentsline {paragraph}{Salts}{5}{section*.17}%
+\contentsline {paragraph}{Salts}{6}{section*.17}%
 \contentsline {paragraph}{Buffers}{6}{section*.18}%
 \contentsline {section}{\numberline {1.3}Introduction to Machine learning and protein crystallization condition prediction}{6}{section.19}%
 \contentsline {subsection}{\numberline {1.3.1}Supervised Learning}{7}{subsection.20}%
-\contentsline {subsection}{\numberline {1.3.2}Contrastive Learning}{7}{subsection.21}%
+\contentsline {subsection}{\numberline {1.3.2}Contrastive Learning}{8}{subsection.21}%
 \contentsline {paragraph}{(1) Data Augmentation and Pair Construction}{8}{section*.23}%
 \contentsline {paragraph}{(2) Encoder}{8}{section*.25}%
 \contentsline {paragraph}{(3) Projection Head}{8}{section*.27}%
 \contentsline {paragraph}{(4) Contrastive Loss}{8}{section*.29}%
 \contentsline {paragraph}{Training Objective}{8}{section*.30}%
 \contentsline {subsection}{\numberline {1.3.3}Neural Networks}{9}{subsection.32}%
-\contentsline {paragraph}{Backpropagation}{9}{section*.34}%
+\contentsline {paragraph}{Backpropagation}{10}{section*.34}%
 \contentsline {chapter}{\numberline {2}Data}{15}{chapter.41}%
 \contentsline {section}{\numberline {2.1}The Protein database}{15}{section.42}%
 \contentsline {paragraph}{Acquisition}{15}{section*.43}%
@@ -30,7 +30,7 @@
 \contentsline {subsection}{\numberline {2.2.2}Parsing Quality}{21}{subsection.54}%
 \contentsline {section}{\numberline {2.3}Data Analysis}{22}{section.56}%
 \contentsline {subsection}{\numberline {2.3.1}Univariate Analysis}{22}{subsection.57}%
-\contentsline {paragraph}{Protein features}{22}{section*.58}%
+\contentsline {paragraph}{Protein features}{23}{section*.58}%
 \contentsline {paragraph}{Sequence construction.}{23}{section*.59}%
 \contentsline {paragraph}{Justification of the representation.}{23}{section*.61}%
 \contentsline {subsubsection}{\numberline {2.3.1.1}Condition}{26}{subsubsection.64}%
@@ -48,8 +48,8 @@
 \contentsline {subsection}{\numberline {3.1.5}Structure Embedding}{46}{subsection.90}%
 \contentsline {subsection}{\numberline {3.1.6}Condition Embedding}{47}{subsection.91}%
 \contentsline {section}{\numberline {3.2}Model Architecture}{48}{section.92}%
-\contentsline {subsection}{\numberline {3.2.1}Protein Tower}{49}{subsection.97}%
-\contentsline {subsection}{\numberline {3.2.2}Condition Tower}{50}{subsection.101}%
+\contentsline {subsection}{\numberline {3.2.1}Protein Module}{49}{subsection.97}%
+\contentsline {subsection}{\numberline {3.2.2}Condition Module}{50}{subsection.101}%
 \contentsline {paragraph}{Generic MLP Blocks}{50}{section*.104}%
 \contentsline {paragraph}{Scoring Function and Ranking Interpretation}{50}{section*.107}%
 \contentsline {section}{\numberline {3.3}Training}{51}{section.109}%
@@ -60,19 +60,19 @@
 \contentsline {subsection}{\numberline {3.4.2}Evaluation Metrics}{54}{subsection.122}%
 \contentsline {paragraph}{Top-$N$ Accuracy.}{55}{section*.123}%
 \contentsline {paragraph}{Mean Margin.}{55}{section*.125}%
-\contentsline {paragraph}{\gls {auroc}}{55}{section*.127}%
+\contentsline {paragraph}{\gls {auroc}}{56}{section*.127}%
 \contentsline {chapter}{\numberline {4}Results}{57}{chapter.129}%
 \contentsline {section}{\numberline {4.1}Evaluation}{57}{section.130}%
 \contentsline {subsection}{\numberline {4.1.1}Contrastive Performance}{57}{subsection.131}%
 \contentsline {subsection}{\numberline {4.1.2}Gold Performance}{59}{subsection.134}%
-\contentsline {section}{\numberline {4.2}Hyperparameter Tuning}{63}{section.138}%
-\contentsline {paragraph}{Model Performance vs. Model Size}{63}{section*.139}%
+\contentsline {section}{\numberline {4.2}Hyperparameter Tuning}{62}{section.138}%
+\contentsline {paragraph}{Model Performance vs. Model Size}{62}{section*.139}%
 \contentsline {paragraph}{Hyperparameter Importance}{63}{section*.141}%
 \contentsline {section}{\numberline {4.3}Interpretation}{64}{section.143}%
 \contentsline {chapter}{\numberline {5}Discussion}{69}{chapter.150}%
 \contentsline {section}{\numberline {5.1}Limitations}{70}{section.154}%
-\contentsline {section}{\numberline {5.2}Future Work}{71}{section.155}%
-\contentsline {chapter}{\numberline {A}Data Appendix}{73}{appendix.157}%
-\contentsline {chapter}{\numberline {B}Methods Appendix}{81}{appendix.196}%
-\contentsline {chapter}{\numberline {C}Results Appendix}{85}{appendix.218}%
-\contentsline {chapter}{Bibliography}{87}{appendix*.221}%
+\contentsline {section}{\numberline {5.2}Future Work}{71}{section.156}%
+\contentsline {chapter}{\numberline {A}Data Appendix}{73}{appendix.158}%
+\contentsline {chapter}{\numberline {B}Methods Appendix}{81}{appendix.197}%
+\contentsline {chapter}{\numberline {C}Results Appendix}{85}{appendix.199}%
+\contentsline {chapter}{Bibliography}{87}{appendix*.203}%

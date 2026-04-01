@@ -2,7 +2,7 @@
 
 To represent the structure of a given protein, the \gls{prostT5} model introduced by \citet{Heinzinger2023} was used. \gls{prostT5} is a fine-tuned version of ProtT5-XL-U50 presented by \citep{Elnaggar2021}. It is adapted for the task of bidirectional translation between protein sequence and structure. 
 
-\gls{prostT5} enables direct translation between an amino acid sequence and its corresponding structural representation. In this framework, protein structure is encoded using the 3Di structural alphabet developed by Foldseek, which was specifically designed to facilitate efficient and sensitive structural homology search \citep{Kempen2024}. The 3Di alphabet provides a discrete, sequence-like representation of tertiary interaction geometries, allowing structural information to be processed using standard sequence-based language modeling techniques.
+\gls{prostT5} enables direct translation between an amino acid sequence and its corresponding structural representation. In this framework, protein structure is encoded using the 3Di structural alphabet developed by Foldseek, where “i” denotes the current residue position in the protein sequence, which was specifically designed to facilitate efficient and sensitive structural homology search \citep{Kempen2024}. The 3Di alphabet provides a discrete, sequence-like representation of tertiary interaction geometries, allowing structural information to be processed using standard sequence-based language modeling techniques.
 
 Each token in the 3Di sequence represents the local tertiary interaction geometry of a residue with its nearest neighbor in three-dimensional space. The alphabet consists of 20 discrete states that were optimized to maximize structural information content and search sensitivity.
 

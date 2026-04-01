@@ -41,6 +41,22 @@ Several limitations of this work should be acknowledged:
 
 Importantly, the model should not be interpreted as a definitive predictor of crystallization success. Instead, it is best viewed as a filtering mechanism that narrows down the search space and guides experimental design. In this role, the tolerance for false positives is acceptable, provided that true positives are retained at a high rate. 
 
+\subsection*{Alternative Approaches}
+During this thesis, several alternative approaches were explored. For brevity, only the final and most promising method is presented in detail; the following summarizes other investigated strategies.
+
+A straightforward formulation, similar to \citet{Lee2019}, treats protein features as input and crystallization conditions as labels in a multi-label classification setting. Conditions can be encoded as multi-hot vectors over a predefined set of compounds. However, this approach assumes that each protein corresponds to a single valid condition, which is not realistic. Additionally, representing compound concentrations is non-trivial.
+
+Treating each compound as a distinct class introduces biologically unsound assumptions, as it ignores chemical similarity (e.g., PEG 3350 vs.\ PEG 4000 vs.\ HEPES). This forces the model to implicitly learn chemical relationships without explicit features, increasing task complexity. Furthermore, the dataset contains approximately 300 unique and often rare compounds making evaluation difficult.
+
+Several refinements were tested. First, compounds were grouped into four categories (precipitant, salt, buffer, other), followed by classification within each group. Second, clustering of conditions was explored to predict optimal clusters instead of individual conditions; however, high variability between conditions prevented meaningful cluster formation.
+
+\gls{pu} learning, as described by \citet{Bekker2020}, was also evaluated, as it aligns well with the problem structure. However, it performed significantly worse than contrastive learning.
+
+Different model architectures, including \gls{xgBoost}, Random Forests, and alternative neural network architectures, were tested. The final two-module architecture consistently yielded the best results.
+
+Finally, alternative representations of chemical cocktails were investigated using learned embeddings (e.g., ChemBERTa-2; \citet{Ahmad2022}). However, manually derived chemical features outperformed these embeddings in this setting.
+
+
 \section{Future Work}
 
 Future research directions can be broadly categorized into data, modeling, and application improvements:
@@ -54,6 +70,7 @@ Future research directions can be broadly categorized into data, modeling, and a
     \item \textbf{Protein analysis}: As seen on the \gls{crims} validation the performance varies between singular proteins. A systematic analysis to determine what makes certain proteins easier to score than others should be done to improve model interpretation.
     \item As shown by \citet{Liao2025} crystal packing behavior and contact sites are most important when suggesting crystallization conditions. Therefore, future work could predict crystal contacts and from that conditions.
 \end{itemize}
+
 
 \subsection*{Conclusion}
 

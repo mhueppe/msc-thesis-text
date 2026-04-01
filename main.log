@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.7)  25 MAR 2026 11:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.7)  1 APR 2026 17:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -305,6 +305,29 @@ Package: listings 2024/09/23 1.10c (Carsten Heinz)
  (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\mathpazo.sty
 Package: mathpazo 2020/03/25 PSNFSS-v9.3 Palatino w/ Pazo Math (D.Puga, WaS) 
 \symupright=\mathgroup4
+) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/overpic\overpic.sty
+Package: overpic 2026/01/06 2.2 picture overlays (RN)
+ (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/eepic\epic.sty
+Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
+\@@multicnt=\count324
+\d@lta=\count325
+\@delta=\dimen194
+\@@delta=\dimen195
+\@gridcnt=\count326
+\@joinkind=\count327
+\@dotgap=\dimen196
+\@ddotgap=\dimen197
+\@x@diff=\count328
+\@y@diff=\count329
+\x@diff=\dimen198
+\y@diff=\dimen199
+\@dotbox=\box70
+\num@segments=\count330
+\num@segmentsi=\count331
+\@datafile=\read3
+)
+\OVP@box=\box71
+\OVP@totalheight=\dimen256
 ) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
  (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
@@ -313,7 +336,7 @@ Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count324
+\lrq@indent=\count332
  (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
@@ -322,49 +345,49 @@ Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count325
-\c@listtotal=\count326
-\c@listcount=\count327
-\c@liststart=\count328
-\c@liststop=\count329
-\c@citecount=\count330
-\c@citetotal=\count331
-\c@multicitecount=\count332
-\c@multicitetotal=\count333
-\c@instcount=\count334
-\c@maxnames=\count335
-\c@minnames=\count336
-\c@maxitems=\count337
-\c@minitems=\count338
-\c@citecounter=\count339
-\c@maxcitecounter=\count340
-\c@savedcitecounter=\count341
-\c@uniquelist=\count342
-\c@uniquename=\count343
-\c@refsection=\count344
-\c@refsegment=\count345
-\c@maxextratitle=\count346
-\c@maxextratitleyear=\count347
-\c@maxextraname=\count348
-\c@maxextradate=\count349
-\c@maxextraalpha=\count350
-\c@abbrvpenalty=\count351
-\c@highnamepenalty=\count352
-\c@lownamepenalty=\count353
-\c@maxparens=\count354
-\c@parenlevel=\count355
-\blx@tempcnta=\count356
-\blx@tempcntb=\count357
-\blx@tempcntc=\count358
-\c@blx@maxsection=\count359
-\blx@maxsegment@0=\count360
-\blx@notetype=\count361
-\blx@parenlevel@text=\count362
-\blx@parenlevel@foot=\count363
-\blx@sectionciteorder@0=\count364
-\blx@sectionciteorderinternal@0=\count365
-\blx@entrysetcounter=\count366
-\blx@biblioinstance=\count367
+\c@tabx@nest=\count333
+\c@listtotal=\count334
+\c@listcount=\count335
+\c@liststart=\count336
+\c@liststop=\count337
+\c@citecount=\count338
+\c@citetotal=\count339
+\c@multicitecount=\count340
+\c@multicitetotal=\count341
+\c@instcount=\count342
+\c@maxnames=\count343
+\c@minnames=\count344
+\c@maxitems=\count345
+\c@minitems=\count346
+\c@citecounter=\count347
+\c@maxcitecounter=\count348
+\c@savedcitecounter=\count349
+\c@uniquelist=\count350
+\c@uniquename=\count351
+\c@refsection=\count352
+\c@refsegment=\count353
+\c@maxextratitle=\count354
+\c@maxextratitleyear=\count355
+\c@maxextraname=\count356
+\c@maxextradate=\count357
+\c@maxextraalpha=\count358
+\c@abbrvpenalty=\count359
+\c@highnamepenalty=\count360
+\c@lownamepenalty=\count361
+\c@maxparens=\count362
+\c@parenlevel=\count363
+\blx@tempcnta=\count364
+\blx@tempcntb=\count365
+\blx@tempcntc=\count366
+\c@blx@maxsection=\count367
+\blx@maxsegment@0=\count368
+\blx@notetype=\count369
+\blx@parenlevel@text=\count370
+\blx@parenlevel@foot=\count371
+\blx@sectionciteorder@0=\count372
+\blx@sectionciteorderinternal@0=\count373
+\blx@entrysetcounter=\count374
+\blx@biblioinstance=\count375
 \labelnumberwidth=\skip58
 \labelalphawidth=\skip59
 \biblabelsep=\skip60
@@ -373,12 +396,12 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \bibinitsep=\skip63
 \bibparsep=\skip64
 \bibhang=\skip65
-\blx@bcfin=\read3
+\blx@bcfin=\read4
 \blx@bcfout=\write3
 \blx@langwohyphens=\language80
-\c@mincomprange=\count368
-\c@maxcomprange=\count369
-\c@mincompwidth=\count370
+\c@mincomprange=\count376
+\c@maxcomprange=\count377
+\c@mincompwidth=\count378
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
@@ -391,84 +414,84 @@ File: apa.dbx 2025/08/27 v9.20 APA biblatex style data model
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count371
-\c@savedafterword=\count372
-\c@annotator=\count373
-\c@savedannotator=\count374
-\c@author=\count375
-\c@savedauthor=\count376
-\c@bookauthor=\count377
-\c@savedbookauthor=\count378
-\c@commentator=\count379
-\c@savedcommentator=\count380
-\c@editor=\count381
-\c@savededitor=\count382
-\c@editora=\count383
-\c@savededitora=\count384
-\c@editorb=\count385
-\c@savededitorb=\count386
-\c@editorc=\count387
-\c@savededitorc=\count388
-\c@foreword=\count389
-\c@savedforeword=\count390
-\c@holder=\count391
-\c@savedholder=\count392
-\c@introduction=\count393
-\c@savedintroduction=\count394
-\c@namea=\count395
-\c@savednamea=\count396
-\c@nameb=\count397
-\c@savednameb=\count398
-\c@namec=\count399
-\c@savednamec=\count400
-\c@translator=\count401
-\c@savedtranslator=\count402
-\c@shortauthor=\count403
-\c@savedshortauthor=\count404
-\c@shorteditor=\count405
-\c@savedshorteditor=\count406
-\c@narrator=\count407
-\c@savednarrator=\count408
-\c@execproducer=\count409
-\c@savedexecproducer=\count410
-\c@execdirector=\count411
-\c@savedexecdirector=\count412
-\c@with=\count413
-\c@savedwith=\count414
-\c@labelname=\count415
-\c@savedlabelname=\count416
-\c@institution=\count417
-\c@savedinstitution=\count418
-\c@lista=\count419
-\c@savedlista=\count420
-\c@listb=\count421
-\c@savedlistb=\count422
-\c@listc=\count423
-\c@savedlistc=\count424
-\c@listd=\count425
-\c@savedlistd=\count426
-\c@liste=\count427
-\c@savedliste=\count428
-\c@listf=\count429
-\c@savedlistf=\count430
-\c@location=\count431
-\c@savedlocation=\count432
-\c@organization=\count433
-\c@savedorganization=\count434
-\c@origlocation=\count435
-\c@savedoriglocation=\count436
-\c@origpublisher=\count437
-\c@savedorigpublisher=\count438
-\c@publisher=\count439
-\c@savedpublisher=\count440
-\c@language=\count441
-\c@savedlanguage=\count442
-\c@origlanguage=\count443
-\c@savedoriglanguage=\count444
-\c@citation=\count445
-\c@savedcitation=\count446
-\c@pageref=\count447
-\c@savedpageref=\count448
+\c@afterword=\count379
+\c@savedafterword=\count380
+\c@annotator=\count381
+\c@savedannotator=\count382
+\c@author=\count383
+\c@savedauthor=\count384
+\c@bookauthor=\count385
+\c@savedbookauthor=\count386
+\c@commentator=\count387
+\c@savedcommentator=\count388
+\c@editor=\count389
+\c@savededitor=\count390
+\c@editora=\count391
+\c@savededitora=\count392
+\c@editorb=\count393
+\c@savededitorb=\count394
+\c@editorc=\count395
+\c@savededitorc=\count396
+\c@foreword=\count397
+\c@savedforeword=\count398
+\c@holder=\count399
+\c@savedholder=\count400
+\c@introduction=\count401
+\c@savedintroduction=\count402
+\c@namea=\count403
+\c@savednamea=\count404
+\c@nameb=\count405
+\c@savednameb=\count406
+\c@namec=\count407
+\c@savednamec=\count408
+\c@translator=\count409
+\c@savedtranslator=\count410
+\c@shortauthor=\count411
+\c@savedshortauthor=\count412
+\c@shorteditor=\count413
+\c@savedshorteditor=\count414
+\c@narrator=\count415
+\c@savednarrator=\count416
+\c@execproducer=\count417
+\c@savedexecproducer=\count418
+\c@execdirector=\count419
+\c@savedexecdirector=\count420
+\c@with=\count421
+\c@savedwith=\count422
+\c@labelname=\count423
+\c@savedlabelname=\count424
+\c@institution=\count425
+\c@savedinstitution=\count426
+\c@lista=\count427
+\c@savedlista=\count428
+\c@listb=\count429
+\c@savedlistb=\count430
+\c@listc=\count431
+\c@savedlistc=\count432
+\c@listd=\count433
+\c@savedlistd=\count434
+\c@liste=\count435
+\c@savedliste=\count436
+\c@listf=\count437
+\c@savedlistf=\count438
+\c@location=\count439
+\c@savedlocation=\count440
+\c@organization=\count441
+\c@savedorganization=\count442
+\c@origlocation=\count443
+\c@savedoriglocation=\count444
+\c@origpublisher=\count445
+\c@savedorigpublisher=\count446
+\c@publisher=\count447
+\c@savedpublisher=\count448
+\c@language=\count449
+\c@savedlanguage=\count450
+\c@origlanguage=\count451
+\c@savedoriglanguage=\count452
+\c@citation=\count453
+\c@savedcitation=\count454
+\c@pageref=\count455
+\c@savedpageref=\count456
 \shorthandwidth=\skip66
 \shortjournalwidth=\skip67
 \shortserieswidth=\skip68
@@ -492,19 +515,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
-\c@textcitecount=\count449
-\c@textcitetotal=\count450
-\c@textcitemaxnames=\count451
-\c@biburlbigbreakpenalty=\count452
-\c@biburlbreakpenalty=\count453
-\c@biburlnumpenalty=\count454
-\c@biburlucpenalty=\count455
-\c@biburllcpenalty=\count456
+\c@textcitecount=\count457
+\c@textcitetotal=\count458
+\c@textcitemaxnames=\count459
+\c@biburlbigbreakpenalty=\count460
+\c@biburlbreakpenalty=\count461
+\c@biburlnumpenalty=\count462
+\c@biburlucpenalty=\count463
+\c@biburllcpenalty=\count464
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count457
+\c@smartand=\count465
 )
 Package biblatex Info: Trying to load natbib compatibility...
 Package biblatex Info: ... file 'blx-natbib.def' found.
@@ -520,8 +543,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
 File: standard.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count458
-\c@bbx:relatedtotal=\count459
+\c@bbx:relatedcount=\count466
+\c@bbx:relatedtotal=\count467
 )
 Package biblatex Info: Delimiter 'nameyeardelim' in context 'bib' already defined, overwriting.
 Package biblatex Info: Delimiter 'nameyeardelim' in context 'biblist' already defined, overwriting.
@@ -565,17 +588,17 @@ Package biblatex Info: ... and expl3
 Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
 )) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count460
+\c@float@type=\count468
 \float@exts=\toks25
-\float@box=\box70
+\float@box=\box72
 \@float@everytoks=\toks26
-\@floatcapt=\box71
+\@floatcapt=\box73
 ) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/floatbytocbasic\floatbytocbasic.sty
 Package: floatbytocbasic 2023-08-16 v1.0 improved float package using tocbasic
  (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\tocbasic.sty
 Package: tocbasic 2025/06/04 v3.45 KOMA-Script package (handling toc-files)
 \scr@dte@tocline@numberwidth=\skip80
-\scr@dte@tocline@numbox=\box72
+\scr@dte@tocline@numbox=\box74
 ) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/xpatch\xpatch.sty
 Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
 )) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
@@ -593,13 +616,13 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count461
+\c@section@level=\count469
 ) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 )
-\@linkdim=\dimen194
-\Hy@linkcounter=\count462
-\Hy@pagecounter=\count463
+\@linkdim=\dimen257
+\Hy@linkcounter=\count470
+\Hy@pagecounter=\count471
  (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -607,7 +630,7 @@ Now handling font encoding PD1 ...
 ) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count464
+\Hy@SavedSpaceFactor=\count472
  (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
@@ -620,17 +643,17 @@ Package hyperref Info: Plain pages OFF on input line 4210.
 Package hyperref Info: Backreferencing OFF on input line 4215.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4462.
-\c@Hy@tempcnt=\count465
+\c@Hy@tempcnt=\count473
 LaTeX Info: Redefining \url on input line 4801.
-\XeTeXLinkMargin=\dimen195
+\XeTeXLinkMargin=\dimen258
  (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count466
-\Field@Width=\dimen196
-\Fld@charsize=\dimen197
+\Fld@menulength=\count474
+\Field@Width=\dimen259
+\Fld@charsize=\dimen260
 Package hyperref Info: Hyper figures OFF on input line 6078.
 Package hyperref Info: Link nesting OFF on input line 6083.
 Package hyperref Info: Hyper index ON on input line 6086.
@@ -638,15 +661,15 @@ Package hyperref Info: backreferencing OFF on input line 6093.
 Package hyperref Info: Link coloring OFF on input line 6098.
 Package hyperref Info: Link coloring with OCG OFF on input line 6103.
 Package hyperref Info: PDF/A mode OFF on input line 6108.
-\Hy@abspage=\count467
-\c@Item=\count468
-\c@Hfootnote=\count469
+\Hy@abspage=\count475
+\c@Item=\count476
+\c@Hfootnote=\count477
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
  (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
 File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
-\Fld@listcount=\count470
-\c@bookmark@seq@number=\count471
+\Fld@listcount=\count478
+\c@bookmark@seq@number=\count479
  (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
 Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
  (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
@@ -657,10 +680,10 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 \Hy@SectionHShift=\skip81
 ) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
 \pgfutil@everybye=\toks27
-\pgfutil@tempdima=\dimen198
-\pgfutil@tempdimb=\dimen199
+\pgfutil@tempdima=\dimen261
+\pgfutil@tempdimb=\dimen262
 ) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
-\pgfutil@abb=\box73
+\pgfutil@abb=\box75
 ) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
 Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
 ))
@@ -673,26 +696,26 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
  (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex
 \pgfkeys@tmptoks=\toks30
 ))
-\pgf@x=\dimen256
-\pgf@y=\dimen257
-\pgf@xa=\dimen258
-\pgf@ya=\dimen259
-\pgf@xb=\dimen260
-\pgf@yb=\dimen261
-\pgf@xc=\dimen262
-\pgf@yc=\dimen263
-\pgf@xd=\dimen264
-\pgf@yd=\dimen265
+\pgf@x=\dimen263
+\pgf@y=\dimen264
+\pgf@xa=\dimen265
+\pgf@ya=\dimen266
+\pgf@xb=\dimen267
+\pgf@yb=\dimen268
+\pgf@xc=\dimen269
+\pgf@yc=\dimen270
+\pgf@xd=\dimen271
+\pgf@yd=\dimen272
 \w@pgf@writea=\write4
-\r@pgf@reada=\read4
-\c@pgf@counta=\count472
-\c@pgf@countb=\count473
-\c@pgf@countc=\count474
-\c@pgf@countd=\count475
+\r@pgf@reada=\read5
+\c@pgf@counta=\count480
+\c@pgf@countb=\count481
+\c@pgf@countc=\count482
+\c@pgf@countd=\count483
 \t@pgf@toka=\toks31
 \t@pgf@tokb=\toks32
 \t@pgf@tokc=\toks33
-\pgf@sys@id@count=\count476
+\pgf@sys@id@count=\count484
  (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
@@ -703,60 +726,59 @@ File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
 File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 ))) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count477
-\pgfsyssoftpath@bigbuffer@items=\count478
+\pgfsyssoftpath@smallbuffer@items=\count485
+\pgfsyssoftpath@bigbuffer@items=\count486
 ) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
 Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
  (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
-\pgfmath@dimen=\dimen266
-\pgfmath@count=\count479
-\pgfmath@box=\box74
+\pgfmath@dimen=\dimen273
+\pgfmath@count=\count487
+\pgfmath@box=\box76
 \pgfmath@toks=\toks34
 \pgfmath@stack@operand=\toks35
 \pgfmath@stack@operation=\toks36
 ) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count480
+\c@pgfmathroundto@lastzeros=\count488
 )) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@picminx=\dimen267
-\pgf@picmaxx=\dimen268
-\pgf@picminy=\dimen269
-\pgf@picmaxy=\dimen270
-\pgf@pathminx=\dimen271
-\pgf@pathmaxx=\dimen272
-\pgf@pathminy=\dimen273
-\pgf@pathmaxy=\dimen274
-\pgf@xx=\dimen275
-\pgf@xy=\dimen276
-\pgf@yx=\dimen277
-\pgf@yy=\dimen278
-\pgf@zx=\dimen279
-\pgf@zy=\dimen280
+\pgf@picminx=\dimen274
+\pgf@picmaxx=\dimen275
+\pgf@picminy=\dimen276
+\pgf@picmaxy=\dimen277
+\pgf@pathminx=\dimen278
+\pgf@pathmaxx=\dimen279
+\pgf@pathminy=\dimen280
+\pgf@pathmaxy=\dimen281
+\pgf@xx=\dimen282
+\pgf@xy=\dimen283
+\pgf@yx=\dimen284
+\pgf@yy=\dimen285
+\pgf@zx=\dimen286
+\pgf@zy=\dimen287
 ) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@path@lastx=\dimen281
-\pgf@path@lasty=\dimen282
-)
-(C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
+\pgf@path@lastx=\dimen288
+\pgf@path@lasty=\dimen289
+) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@shorten@end@additional=\dimen283
-\pgf@shorten@start@additional=\dimen284
+\pgf@shorten@end@additional=\dimen290
+\pgf@shorten@start@additional=\dimen291
 ) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfpic=\box75
-\pgf@hbox=\box76
-\pgf@layerbox@main=\box77
-\pgf@picture@serial@count=\count481
+\pgfpic=\box77
+\pgf@hbox=\box78
+\pgf@layerbox@main=\box79
+\pgf@picture@serial@count=\count489
 ) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgflinewidth=\dimen285
+\pgflinewidth=\dimen292
 ) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@pt@x=\dimen286
-\pgf@pt@y=\dimen287
-\pgf@pt@temp=\dimen288
+\pgf@pt@x=\dimen293
+\pgf@pt@y=\dimen294
+\pgf@pt@temp=\dimen295
 ) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
@@ -765,17 +787,17 @@ File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowsep=\dimen289
+\pgfarrowsep=\dimen296
 ) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@max=\dimen290
-\pgf@sys@shading@range@num=\count482
-\pgf@shadingcount=\count483
+\pgf@max=\dimen297
+\pgf@sys@shading@range@num=\count490
+\pgf@shadingcount=\count491
 ) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfexternal@startupbox=\box78
+\pgfexternal@startupbox=\box80
 ) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
@@ -786,51 +808,51 @@ File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodeparttextbox=\box79
+\pgfnodeparttextbox=\box81
 ) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
-\pgf@nodesepstart=\dimen291
-\pgf@nodesepend=\dimen292
+\pgf@nodesepstart=\dimen298
+\pgf@nodesepend=\dimen299
 ) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
 )) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.sty (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex)) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
-\pgffor@iter=\dimen293
-\pgffor@skip=\dimen294
+\pgffor@iter=\dimen300
+\pgffor@skip=\dimen301
 \pgffor@stack=\toks37
 \pgffor@toks=\toks38
 )) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
  (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count484
-\pgfplotmarksize=\dimen295
+\pgf@plot@mark@count=\count492
+\pgfplotmarksize=\dimen302
 )
-\tikz@lastx=\dimen296
-\tikz@lasty=\dimen297
-\tikz@lastxsaved=\dimen298
-\tikz@lastysaved=\dimen299
-\tikz@lastmovetox=\dimen300
-\tikz@lastmovetoy=\dimen301
-\tikzleveldistance=\dimen302
-\tikzsiblingdistance=\dimen303
-\tikz@figbox=\box80
-\tikz@figbox@bg=\box81
-\tikz@tempbox=\box82
-\tikz@tempbox@bg=\box83
-\tikztreelevel=\count485
-\tikznumberofchildren=\count486
-\tikznumberofcurrentchild=\count487
-\tikz@fig@count=\count488
+\tikz@lastx=\dimen303
+\tikz@lasty=\dimen304
+\tikz@lastxsaved=\dimen305
+\tikz@lastysaved=\dimen306
+\tikz@lastmovetox=\dimen307
+\tikz@lastmovetoy=\dimen308
+\tikzleveldistance=\dimen309
+\tikzsiblingdistance=\dimen310
+\tikz@figbox=\box82
+\tikz@figbox@bg=\box83
+\tikz@tempbox=\box84
+\tikz@tempbox@bg=\box85
+\tikztreelevel=\count493
+\tikznumberofchildren=\count494
+\tikznumberofcurrentchild=\count495
+\tikz@fig@count=\count496
  (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count489
-\pgfmatrixcurrentcolumn=\count490
-\pgf@matrix@numberofcolumns=\count491
+\pgfmatrixcurrentrow=\count497
+\pgfmatrixcurrentcolumn=\count498
+\pgf@matrix@numberofcolumns=\count499
 )
-\tikz@expandcount=\count492
+\tikz@expandcount=\count500
  (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryfit.code.tex
@@ -839,14 +861,14 @@ File: tikzlibraryfit.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryarrows.meta.code.tex
 File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowinset=\dimen304
-\pgfarrowlength=\dimen305
-\pgfarrowwidth=\dimen306
-\pgfarrowlinewidth=\dimen307
+\pgfarrowinset=\dimen311
+\pgfarrowlength=\dimen312
+\pgfarrowwidth=\dimen313
+\pgfarrowlinewidth=\dimen314
 ) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarybackgrounds.code.tex
 File: tikzlibrarybackgrounds.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@layerbox@background=\box84
-\pgf@layerboxsaved@background=\box85
+\pgf@layerbox@background=\box86
+\pgf@layerboxsaved@background=\box87
 ) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/forest\forest.sty
 Package: forest 2017/07/14 v2.1.5 Drawing (linguistic) trees
  (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.code.tex
@@ -855,7 +877,8 @@ File: tikzlibraryshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.geometric.code.tex
 File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.misc.code.tex
+))
+(C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.misc.code.tex
 File: tikzlibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.misc.code.tex
 File: pgflibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -871,30 +894,30 @@ File: pgflibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: tikzlibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.multipart.code.tex
 File: pgflibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodepartlowerbox=\box86
-\pgfnodeparttwobox=\box87
-\pgfnodepartthreebox=\box88
-\pgfnodepartfourbox=\box89
-\pgfnodeparttwentybox=\box90
-\pgfnodepartnineteenbox=\box91
-\pgfnodeparteighteenbox=\box92
-\pgfnodepartseventeenbox=\box93
-\pgfnodepartsixteenbox=\box94
-\pgfnodepartfifteenbox=\box95
-\pgfnodepartfourteenbox=\box96
-\pgfnodepartthirteenbox=\box97
-\pgfnodeparttwelvebox=\box98
-\pgfnodepartelevenbox=\box99
-\pgfnodeparttenbox=\box100
-\pgfnodepartninebox=\box101
-\pgfnodeparteightbox=\box102
-\pgfnodepartsevenbox=\box103
-\pgfnodepartsixbox=\box104
-\pgfnodepartfivebox=\box105
+\pgfnodepartlowerbox=\box88
+\pgfnodeparttwobox=\box89
+\pgfnodepartthreebox=\box90
+\pgfnodepartfourbox=\box91
+\pgfnodeparttwentybox=\box92
+\pgfnodepartnineteenbox=\box93
+\pgfnodeparteighteenbox=\box94
+\pgfnodepartseventeenbox=\box95
+\pgfnodepartsixteenbox=\box96
+\pgfnodepartfifteenbox=\box97
+\pgfnodepartfourteenbox=\box98
+\pgfnodepartthirteenbox=\box99
+\pgfnodeparttwelvebox=\box100
+\pgfnodepartelevenbox=\box101
+\pgfnodeparttenbox=\box102
+\pgfnodepartninebox=\box103
+\pgfnodeparteightbox=\box104
+\pgfnodepartsevenbox=\box105
+\pgfnodepartsixbox=\box106
+\pgfnodepartfivebox=\box107
 ))) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryintersections.code.tex (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryfpu.code.tex)
-\pgf@intersect@solutions=\count493
+\pgf@intersect@solutions=\count501
 ) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/pgfopts\pgfopts.sty
 Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
 \pgfopts@list@add@a@toks=\toks39
@@ -910,68 +933,68 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/inlinedef\inlinedef.sty
 Package: inlinedef 2008/07/10 v1.0 Inlined expansions within definitions
 \ID@toks=\toks42
-\ID@count=\count494
+\ID@count=\count502
 )
 \ID@usercommands=\toks43
-\safeloop@depth=\count495
-\safeRKloop@depth=\count496
-\forest@temp@dimen=\dimen308
-\forest@temp@count=\count497
-\forest@n=\count498
-\forest@temp@global@count=\count499
+\safeloop@depth=\count503
+\safeRKloop@depth=\count504
+\forest@temp@dimen=\dimen315
+\forest@temp@count=\count505
+\forest@n=\count506
+\forest@temp@global@count=\count507
 \forest@temp@toks=\toks44
-\forest@temparray@M=\count500
-\forest@temparray@N=\count501
-\forest@global@temparray@M=\count502
-\forest@global@temparray@N=\count503
-\forest@isnum@count=\count504
-\forest@isdim@nonintpart=\count505
-\forest@isdim@dimen=\dimen309
-\forest@sort@m=\count506
-\forest@sort@k=\count507
-\forest@sort@p=\count508
+\forest@temparray@M=\count508
+\forest@temparray@N=\count509
+\forest@global@temparray@M=\count510
+\forest@global@temparray@N=\count511
+\forest@isnum@count=\count512
+\forest@isdim@nonintpart=\count513
+\forest@isdim@dimen=\dimen316
+\forest@sort@m=\count514
+\forest@sort@k=\count515
+\forest@sort@p=\count516
 \bracket@content=\toks45
 \bracket@afterthought=\toks46
-\forest@node@maxid=\count509
-\forest@process@left@M=\count510
-\forest@process@left@N=\count511
-\forest@process@right@M=\count512
-\forest@process@right@N=\count513
-\forest@process@saved@M=\count514
-\forest@process@saved@N=\count515
-\forest@process@result@M=\count516
-\forest@process@result@N=\count517
-\forest@process@n=\count518
+\forest@node@maxid=\count517
+\forest@process@left@M=\count518
+\forest@process@left@N=\count519
+\forest@process@right@M=\count520
+\forest@process@right@N=\count521
+\forest@process@saved@M=\count522
+\forest@process@saved@N=\count523
+\forest@process@result@M=\count524
+\forest@process@result@N=\count525
+\forest@process@n=\count526
 \forest@nodewalk@branch@toks=\toks47
 \forest@nodewalk@shortsteps@resolution=\toks48
 \forest@do@dynamics=\toks49
-\forest@box=\box106
-\forest@xg=\dimen310
-\forest@yg=\dimen311
-\forest@xs=\dimen312
-\forest@ys=\dimen313
+\forest@box=\box108
+\forest@xg=\dimen317
+\forest@yg=\dimen318
+\forest@xs=\dimen319
+\forest@ys=\dimen320
 \forest@pi@toks=\toks50
 \forest@segment@toks=\toks51
 \forest@PIi@toks=\toks52
 \forest@PIii@toks=\toks53
-\forest@copy@in=\read5
+\forest@copy@in=\read6
 \forest@copy@out=\write5
-\forest@externalize@max@outer@n=\count519
-\forest@externalize@inner@n=\count520
+\forest@externalize@max@outer@n=\count527
+\forest@externalize@inner@n=\count528
 ) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
 \multirow@colwidth=\skip82
-\multirow@cntb=\count521
+\multirow@cntb=\count529
 \multirow@dima=\skip83
-\bigstrutjot=\dimen314
+\bigstrutjot=\dimen321
 ) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
 Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
-\csq@reset=\count522
-\csq@gtype=\count523
-\csq@glevel=\count524
-\csq@qlevel=\count525
-\csq@maxlvl=\count526
-\csq@tshold=\count527
+\csq@reset=\count530
+\csq@gtype=\count531
+\csq@glevel=\count532
+\csq@qlevel=\count533
+\csq@maxlvl=\count534
+\csq@tshold=\count535
 \csq@ltx@everypar=\toks54
  (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
 File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
@@ -990,10 +1013,10 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 \XKV@toks=\toks55
 \XKV@tempa@toks=\toks56
 )
-\XKV@depth=\count528
+\XKV@depth=\count536
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-\xargs@max=\count529
+\xargs@max=\count537
 \xargs@toksa=\toks57
 \xargs@toksb=\toks58
 )
@@ -1008,33 +1031,37 @@ Package: todonotes 2024/01/05 v1.1.7 Todonotes source and documentation.
 Package: todonotes 2024/01/05
  (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
-\calc@Acount=\count530
-\calc@Bcount=\count531
-\calc@Adimen=\dimen315
-\calc@Bdimen=\dimen316
+\calc@Acount=\count538
+\calc@Bcount=\count539
+\calc@Adimen=\dimen322
+\calc@Bdimen=\dimen323
 \calc@Askip=\skip84
 \calc@Bskip=\skip85
 LaTeX Info: Redefining \setlength on input line 86.
 LaTeX Info: Redefining \addtolength on input line 87.
-\calc@Ccount=\count532
+\calc@Ccount=\count540
 \calc@Cskip=\skip86
 )
-\c@@todonotes@numberoftodonotes=\count533
+\c@@todonotes@numberoftodonotes=\count541
+) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/hyphenat\hyphenat.sty
+Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
+\langwohyphens=\language81
+LaTeX Info: Redefining \_ on input line 43.
 ) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
 Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
-\TX@col@width=\dimen317
-\TX@old@table=\dimen318
-\TX@old@col=\dimen319
-\TX@target=\dimen320
-\TX@delta=\dimen321
-\TX@cols=\count534
+\TX@col@width=\dimen324
+\TX@old@table=\dimen325
+\TX@old@col=\dimen326
+\TX@target=\dimen327
+\TX@delta=\dimen328
+\TX@cols=\count542
 \TX@ftn=\toks59
 ) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count535
+\c@subfigure=\count543
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count536
+\c@subtable=\count544
 ) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/base\glossaries.sty
 Package: glossaries 2025/05/14 v4.7 (NLCT)
  (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/mfirstuc\mfirstuc.sty
@@ -1060,51 +1087,51 @@ Package: amsmath 2025/06/16 v2.17y AMS math features
 For additional information on amsmath, use the `?' option.
 (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen322
+\pmbraise@=\dimen329
 ) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count537
+\inf@bad=\count545
 LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count538
-\leftroot@=\count539
+\uproot@=\count546
+\leftroot@=\count547
 LaTeX Info: Redefining \overline on input line 398.
 LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count540
-\DOTSCASE@=\count541
+\classnum@=\count548
+\DOTSCASE@=\count549
 LaTeX Info: Redefining \ldots on input line 495.
 LaTeX Info: Redefining \dots on input line 498.
 LaTeX Info: Redefining \cdots on input line 619.
-\Mathstrutbox@=\box107
-\strutbox@=\box108
+\Mathstrutbox@=\box109
+\strutbox@=\box110
 LaTeX Info: Redefining \big on input line 721.
 LaTeX Info: Redefining \Big on input line 722.
 LaTeX Info: Redefining \bigg on input line 723.
 LaTeX Info: Redefining \Bigg on input line 724.
-\big@size=\dimen323
+\big@size=\dimen330
 LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count542
+\macc@depth=\count550
 LaTeX Info: Redefining \bmod on input line 904.
 LaTeX Info: Redefining \pmod on input line 909.
 LaTeX Info: Redefining \smash on input line 939.
 LaTeX Info: Redefining \relbar on input line 969.
 LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count543
+\c@MaxMatrixCols=\count551
 \dotsspace@=\muskip22
-\c@parentequation=\count544
-\dspbrk@lvl=\count545
+\c@parentequation=\count552
+\dspbrk@lvl=\count553
 \tag@help=\toks62
-\row@=\count546
-\column@=\count547
-\maxfields@=\count548
+\row@=\count554
+\column@=\count555
+\maxfields@=\count556
 \andhelp@=\toks63
-\eqnshift@=\dimen324
-\alignsep@=\dimen325
-\tagshift@=\dimen326
-\tagwidth@=\dimen327
-\totwidth@=\dimen328
-\lineht@=\dimen329
+\eqnshift@=\dimen331
+\alignsep@=\dimen332
+\tagshift@=\dimen333
+\tagwidth@=\dimen334
+\totwidth@=\dimen335
+\lineht@=\dimen336
 \@envbody=\toks64
 \multlinegap=\skip88
 \multlinetaggap=\skip89
@@ -1115,48 +1142,48 @@ LaTeX Info: Redefining \] on input line 2950.
 File: datatool-l3fp.def 2025/04/25 v3.4.1 (NLCT)
 )
 \@dtl@toks=\toks66
-\@dtl@tmpcount=\count549
+\@dtl@tmpcount=\count557
 \dtl@tmplength=\skip90
-\l__datatool_measure_box=\box109
-\dtl@sortresult=\count550
+\l__datatool_measure_box=\box111
+\dtl@sortresult=\count558
  (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-utf8.ldf
 File: datatool-utf8.ldf 2025/04/25 v3.4.1 (NLCT)
 )
-\@dtl@datatype=\count551
-\l__datatool_tmpa_int=\count552
-\l__datatool_tmpb_int=\count553
-\l__datatool_tmpc_int=\count554
-\l__datatool_tmpd_int=\count555
-\l__datatool_count_int=\count556
-\l__datatool_tmp_datatype_int=\count557
-\l__datatool_tmpa_dim=\dimen330
-\l__datatool_tmpb_dim=\dimen331
-\c_datatool_unknown_int=\count558
-\l__datatool_year_int=\count559
-\l__datatool_month_int=\count560
-\l__datatool_day_int=\count561
-\l__datatool_hour_int=\count562
-\l__datatool_minute_int=\count563
-\l__datatool_second_int=\count564
-\l__datatool_tzhour_int=\count565
-\l__datatool_tzminute_int=\count566
-\l__datatool_julian_int=\count567
-\l__datatool_local_julian_int=\count568
-\l__datatool_prefix_int=\count569
-\l__datatool_suffix_int=\count570
-\@dtl@foreach@level=\count571
+\@dtl@datatype=\count559
+\l__datatool_tmpa_int=\count560
+\l__datatool_tmpb_int=\count561
+\l__datatool_tmpc_int=\count562
+\l__datatool_tmpd_int=\count563
+\l__datatool_count_int=\count564
+\l__datatool_tmp_datatype_int=\count565
+\l__datatool_tmpa_dim=\dimen337
+\l__datatool_tmpb_dim=\dimen338
+\c_datatool_unknown_int=\count566
+\l__datatool_year_int=\count567
+\l__datatool_month_int=\count568
+\l__datatool_day_int=\count569
+\l__datatool_hour_int=\count570
+\l__datatool_minute_int=\count571
+\l__datatool_second_int=\count572
+\l__datatool_tzhour_int=\count573
+\l__datatool_tzminute_int=\count574
+\l__datatool_julian_int=\count575
+\l__datatool_local_julian_int=\count576
+\l__datatool_prefix_int=\count577
+\l__datatool_suffix_int=\count578
+\@dtl@foreach@level=\count579
 
 
 Package tracklang Warning: No `datatool' support for dialect `english'  on input line 9908.
 
-\dtl@codeA=\count572
-\dtl@codeB=\count573
+\dtl@codeA=\count580
+\dtl@codeB=\count581
 )
-\gls@level=\count574
+\gls@level=\count582
 \@gls@tmpb=\toks67
 \gls@tmplen=\skip91
-\l__glossaries_tmpa_dim=\dimen332
-\l__glossaries_tmpb_dim=\dimen333
+\l__glossaries_tmpa_dim=\dimen339
+\l__glossaries_tmpb_dim=\dimen340
 \glskeylisttok=\toks68
 \glslabeltok=\toks69
 \glsshorttok=\toks70
@@ -1174,34 +1201,34 @@ Package: glossary-long 2025/05/14 v4.7 (NLCT)
 Package: glossary-super 2025/05/14 v4.7 (NLCT)
  (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/supertabular\supertabular.sty
 Package: supertabular 2024/07/20 v4.2c the supertabular environment
-\c@tracingst=\count575
-\ST@wd=\dimen334
+\c@tracingst=\count583
+\ST@wd=\dimen341
 \ST@rightskip=\skip95
 \ST@leftskip=\skip96
 \ST@parfillskip=\skip97
-\ST@pageleft=\dimen335
-\ST@headht=\dimen336
-\ST@tailht=\dimen337
-\ST@pagesofar=\dimen338
-\ST@pboxht=\dimen339
-\ST@rowht=\dimen340
-\ST@prevht=\dimen341
-\ST@toadd=\dimen342
-\ST@dimen=\dimen343
-\ST@pbox=\box110
+\ST@pageleft=\dimen342
+\ST@headht=\dimen343
+\ST@tailht=\dimen344
+\ST@pagesofar=\dimen345
+\ST@pboxht=\dimen346
+\ST@rowht=\dimen347
+\ST@prevht=\dimen348
+\ST@toadd=\dimen349
+\ST@dimen=\dimen350
+\ST@pbox=\box112
 )) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glossary-tree.sty
 Package: glossary-tree 2025/05/14 v4.7 (NLCT)
-\l__glossaries_tree_max_known_level_int=\count576
-\l__glossaries_tree_offset_dim=\dimen344
-\l__glossaries_tree_namewidth_dim=\dimen345
-\l__glossaries_tree_symbolwidth_dim=\dimen346
-\l__glossaries_tree_prenamesym_width_dim=\dimen347
-\l__glossaries_tree_presubnamesym_width_dim=\dimen348
-\l__glossaries_tree_namewidth_padding_dim=\dimen349
-\l__glossaries_tree_symbolwidth_padding_dim=\dimen350
-\l__glossaries_tree_namesymbolwidth_dim=\dimen351
-\l__glossaries_tree_namesymbolwidth_padding_dim=\dimen352
-\l__glossaries_tree_level_int=\count577
+\l__glossaries_tree_max_known_level_int=\count584
+\l__glossaries_tree_offset_dim=\dimen351
+\l__glossaries_tree_namewidth_dim=\dimen352
+\l__glossaries_tree_symbolwidth_dim=\dimen353
+\l__glossaries_tree_prenamesym_width_dim=\dimen354
+\l__glossaries_tree_presubnamesym_width_dim=\dimen355
+\l__glossaries_tree_namewidth_padding_dim=\dimen356
+\l__glossaries_tree_symbolwidth_padding_dim=\dimen357
+\l__glossaries_tree_namesymbolwidth_dim=\dimen358
+\l__glossaries_tree_namesymbolwidth_padding_dim=\dimen359
+\l__glossaries_tree_level_int=\count585
 \glstreeindent=\skip98
 )) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/datetime\datetime.sty
 Package: datetime 2015/03/20 v2.60 Date Time Package
@@ -1211,39 +1238,39 @@ Package: fmtcount 2025/08/23 v3.11 Displaying the values of LaTeX counters (NT,V
 Package: fcprefix 2012/09/28
  (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/fmtcount\fcnumparser.sty
 Package: fcnumparser 2017/06/15
-\fc@digit@counter=\count578
+\fc@digit@counter=\count586
 ))
-\c@padzeroesN=\count579
-\fc@tmpcatcode=\count580
+\c@padzeroesN=\count587
+\fc@tmpcatcode=\count588
  (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/fmtcount\fc-english.def
 File: fc-english.def 2016/01/12
 )
-\@DT@modctr=\count581
-\@ordinalctr=\count582
-\@orgargctr=\count583
-\@strctr=\count584
-\@tmpstrctr=\count585
-\@DT@loopN=\count586
-\@DT@X=\count587
+\@DT@modctr=\count589
+\@ordinalctr=\count590
+\@orgargctr=\count591
+\@strctr=\count592
+\@tmpstrctr=\count593
+\@DT@loopN=\count594
+\@DT@X=\count595
 ) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/datetime\datetime-defaults.sty
 Package: datetime-defaults 2013/09/10
 )
-\@day=\count588
-\@month=\count589
-\@year=\count590
-\c@HOUR=\count591
-\c@HOURXII=\count592
-\c@MINUTE=\count593
-\c@TOHOUR=\count594
-\c@TOMINUTE=\count595
-\c@SECOND=\count596
-\currenthour=\count597
-\currentminute=\count598
-\currentsecond=\count599
+\@day=\count596
+\@month=\count597
+\@year=\count598
+\c@HOUR=\count599
+\c@HOURXII=\count600
+\c@MINUTE=\count601
+\c@TOHOUR=\count602
+\c@TOMINUTE=\count603
+\c@SECOND=\count604
+\currenthour=\count605
+\currentminute=\count606
+\currentsecond=\count607
 Package datetime Info: No datetime.cfg file found, using default settings on input line 308.
-\@dtctr=\count600
-\dayofyear=\count601
-\dayofweek=\count602
+\@dtctr=\count608
+\dayofyear=\count609
+\dayofweek=\count610
 LaTeX Info: Redefining \today on input line 736.
 \dt@a=\toks72
 \dt@b=\toks73
@@ -1252,59 +1279,59 @@ LaTeX Info: Redefining \today on input line 736.
 \glo@main@file=\write7
 \openout7 = `main.glo'.
 
-Package glossaries Info: Writing glossary file main.glo on input line 101.
+Package glossaries Info: Writing glossary file main.glo on input line 103.
 \glo@acronym@file=\write8
 \openout8 = `main.acn'.
 
-Package glossaries Info: Writing glossary file main.acn on input line 101.
+Package glossaries Info: Writing glossary file main.acn on input line 103.
  (Misc/glossary.tex) (Misc/acronyms.tex)
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 128.
-Package hyperref Info: Option `hypertexnames' set `false' on input line 128.
-Package hyperref Info: Option `colorlinks' set `true' on input line 128.
-Package hyperref Info: Option `unicode' set `true' on input line 128.
-Package hyperref Info: Option `breaklinks' set `true' on input line 128.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 130.
+Package hyperref Info: Option `hypertexnames' set `false' on input line 130.
+Package hyperref Info: Option `colorlinks' set `true' on input line 130.
+Package hyperref Info: Option `unicode' set `true' on input line 130.
+Package hyperref Info: Option `breaklinks' set `true' on input line 130.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
-LaTeX Font Info:    Trying to load font information for T1+ppl on input line 128.
+LaTeX Font Info:    Trying to load font information for T1+ppl on input line 130.
  (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 ) (main.aux (Chapters/Introduction.aux) (Chapters/Data.aux) (Chapters/Methods.aux) (Chapters/Results.aux) (Chapters/Discussion.aux) (Appendices/AppendixA.aux) (Appendices/AppendixB.aux) (Appendices/AppendixC.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
  (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 128.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 130.
  (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count603
-\scratchdimen=\dimen353
-\scratchbox=\box111
-\nofMPsegments=\count604
-\nofMParguments=\count605
+\scratchcounter=\count611
+\scratchdimen=\dimen360
+\scratchbox=\box113
+\nofMPsegments=\count612
+\nofMParguments=\count613
 \everyMPshowfont=\toks74
-\MPscratchCnt=\count606
-\MPscratchDim=\dimen354
-\MPnumerator=\count607
-\makeMPintoPDFobject=\count608
+\MPscratchCnt=\count614
+\MPscratchDim=\dimen361
+\MPnumerator=\count615
+\makeMPintoPDFobject=\count616
 \everyMPtoPDFconversion=\toks75
 ) (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1354,14 +1381,14 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package scrbase Info: activating english \abbrevname on input line 128.
-Package scrbase Info: activating english \byname on input line 128.
-Package scrbase Info: activating english \acknowledgementname on input line 128.
-Package scrbase Info: activating english \authorshipname on input line 128.
-Package scrbase Info: activating english \constantsname on input line 128.
-Package scrbase Info: activating english \symbolsname on input line 128.
-\c@lstlisting=\count609
-Package tocbasic Info: setting babel extension for `lol' on input line 128.
+Package scrbase Info: activating english \abbrevname on input line 130.
+Package scrbase Info: activating english \byname on input line 130.
+Package scrbase Info: activating english \acknowledgementname on input line 130.
+Package scrbase Info: activating english \authorshipname on input line 130.
+Package scrbase Info: activating english \constantsname on input line 130.
+Package scrbase Info: activating english \symbolsname on input line 130.
+\c@lstlisting=\count617
+Package tocbasic Info: setting babel extension for `lol' on input line 130.
 Package biblatex Info: Trying to load language 'english' -> 'english-apa'...
 Package biblatex Info: ... file 'english-apa.lbx' found.
 (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\english-apa.lbx
@@ -1392,9 +1419,9 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
-Package biblatex Info: Reference section=0 on input line 128.
-Package biblatex Info: Reference segment=0 on input line 128.
-Package hyperref Info: Link coloring ON on input line 128.
+Package biblatex Info: Reference section=0 on input line 130.
+Package biblatex Info: Reference segment=0 on input line 130.
+Package hyperref Info: Link coloring ON on input line 130.
  (main.out) (main.out)
 \@outlinefile=\write9
 \openout9 = `main.out'.
@@ -1402,23 +1429,23 @@ Package hyperref Info: Link coloring ON on input line 128.
  (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-english\glossaries-dictionary-English.dict
 Dictionary: glossaries-dictionary, Language: English 
 )
-LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 172.
+LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 174.
  (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
-LaTeX Font Info:    Trying to load font information for OML+zplm on input line 172.
+LaTeX Font Info:    Trying to load font information for OML+zplm on input line 174.
  (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 172.
+LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 174.
  (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 172.
+LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 174.
  (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 172.
+LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 174.
  (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
@@ -1438,13 +1465,23 @@ File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
  Declaration of Authorship
 --------------------
 
-Overfull \hbox (9.65616pt too wide) in paragraph at lines 185--187
-\T1/ppl/m/n/10.95 nen Hil-f-s-mit-tel ^^U- ins-beson-dere keine im Quel-len-verze-ich-nis nicht be-nan-nten Internet-
+Underfull \hbox (badness 1043) in paragraph at lines 187--190
+[]\T1/ppl/m/n/10.95 Hiermit ver-sichere ich an Ei-des statt, dass ich die vor-liegende Ar-beit im
  []
 
 
-Overfull \hbox (14.2663pt too wide) in paragraph at lines 185--187
-\T1/ppl/m/n/10.95 Quellen ^^U- be-nutzt habe. Alle Stellen, die wörtlich oder sin-ngemäÿ aus Veröf-fentlichun-
+Underfull \hbox (badness 3386) in paragraph at lines 187--190
+\T1/ppl/m/n/10.95 angegebe-nen Hil-f-s-mit-tel ^^U- ins-beson-dere keine im Quel-len-verze-ich-nis nicht
+ []
+
+
+Underfull \hbox (badness 1014) in paragraph at lines 187--190
+\T1/ppl/m/n/10.95 be-nan-nten Internet-Quellen ^^U- be-nutzt habe. Alle Stellen, die wörtlich oder
+ []
+
+
+Underfull \hbox (badness 2486) in paragraph at lines 187--190
+\T1/ppl/m/n/10.95 vor-liegen-den Ab-schlus-sar-beit gen-er-a-tive Kün-stliche In-tel-li-genz (gKI) basierte
  []
 
 
@@ -1458,13 +1495,38 @@ Overfull \hbox (14.2663pt too wide) in paragraph at lines 185--187
  Abstract
 --------------------
 
-Overfull \hbox (2.95515pt too wide) in paragraph at lines 207--208
-\T1/ppl/m/n/10.95 into a struc-tured, machine-readable rep-re-sen-ta-tion of crys-tal-liza-tion con-di-tions. Mul-
+Underfull \hbox (badness 2401) in paragraph at lines 207--208
+\T1/ppl/m/n/10.95 Protein crys-tal-liza-tion re-mains a crit-i-cal bot-tle-neck in struc-tural bi-ol-ogy, as
  []
 
 
-Overfull \hbox (4.5538pt too wide) in paragraph at lines 207--208
-\T1/ppl/m/n/10.95 ti-ple fea-ture modal-i-ties were ex-plored, in-clud-ing sequence-based de-scrip-tors, learned
+Underfull \hbox (badness 1424) in paragraph at lines 207--208
+\T1/ppl/m/n/10.95 the-sis in-ves-ti-gates whether ma-chine learn-ing can be used to pre-dict pro-tein
+ []
+
+
+Underfull \hbox (badness 1694) in paragraph at lines 209--210
+[]\T1/ppl/m/n/10.95 To ad-dress this prob-lem, a large-scale dataset was con-structed from the
+ []
+
+
+Underfull \hbox (badness 1152) in paragraph at lines 209--210
+[][][][][]\T1/ppl/m/n/10.95 Pro-tein Data Bank[][] (PDB)[][], com-pris-ing nearly 200,000 pro-tein struc-tures along
+ []
+
+
+Underfull \hbox (badness 1242) in paragraph at lines 209--210
+\T1/ppl/m/n/10.95 pipeline was de-vel-oped to trans-form het-ero-ge-neous and par-tially in-com-plete
+ []
+
+
+Underfull \hbox (badness 4467) in paragraph at lines 209--210
+\T1/ppl/m/n/10.95 ex-per-i-men-tal records into a struc-tured, machine-readable rep-re-sen-ta-tion of
+ []
+
+
+Underfull \hbox (badness 1845) in paragraph at lines 213--214
+[]\T1/ppl/m/n/10.95 Sequence sim-i-lar-ity based split-ting and the scor-ing of past ex-per-i-men-tal
  []
 
 
@@ -1480,7 +1542,12 @@ Overfull \hbox (4.5538pt too wide) in paragraph at lines 207--208
  Acknowledgements
 --------------------
 
-Underfull \hbox (badness 10000) in paragraph at lines 218--225
+Underfull \hbox (badness 1308) in paragraph at lines 220--227
+\T1/ppl/m/n/10.95 I would like to ex-press my heart-felt grat-i-tude to the in-di-vid-u-als who have
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--227
 
  []
 
@@ -1491,6 +1558,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 218--225
 [8
 
 ] (main.toc
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
+ [][] [][][]\T1/ppl/m/n/10.95 Introduction to Ma-chine learn-ing and pro-tein crys-tal-liza-tion 
+ []
+
+
 
 [9])
 \tf@toc=\write10
@@ -1525,6 +1597,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--41
 []|\T1/ppl/m/n/10.95 Crystallization In-for-ma-tion Man-age-ment
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
+[]|\T1/ppl/m/n/10.95 Simplified Molec-u-lar In-put Line En-try
+ []
+
 [15
 
 ])
@@ -1534,6 +1611,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--41
 
  (Chapters/Introduction.tex
 Chapter 1.
+
+Underfull \hbox (badness 1057) in paragraph at lines 9--14
+\T1/ppl/m/n/10.95 Crystallization is cru-cial be-cause struc-tural in-for-ma-tion pro-vides fun-da-men-tal
+ []
+
+
+Overfull \hbox (6.67775pt too wide) in paragraph at lines 9--14
+\T1/ppl/m/n/10.95 in-sights into pro-tein func-tion and in-ter-ac-tions which build the ba-sis of structure-based
+ []
+
+
+Underfull \hbox (badness 1360) in paragraph at lines 9--14
+\T1/ppl/m/n/10.95 ex-per-i-men-tal struc-ture de-ter-mi-na-tion due to its vary-ing lo-cal ac-cu-ra-cies and
+ []
+
+
+Underfull \hbox (badness 1748) in paragraph at lines 9--14
+\T1/ppl/m/n/10.95 the break-throughs brought by Al-phaFold, fur-ther method-olog-i-cal in-no-va-tion
+ []
+
+
+Underfull \hbox (badness 3302) in paragraph at lines 9--14
+\T1/ppl/m/n/10.95 in struc-ture de-ter-mi-na-tion and crys-tal-log-ra-phy re-mains es-sen-tial. Be-yond
+ []
+
 (Chapters/Background/ProteinCrystallization.tex
 
 [1
@@ -1541,6 +1643,20 @@ Chapter 1.
 
 
 ]
+Underfull \hbox (badness 1152) in paragraph at lines 8--10
+\T1/ppl/m/n/10.95 re-search shared by []McPher-son and Gavira ([][]2013[][]) in "In-tro-duc-tion to pro-tein
+ []
+
+
+Underfull \hbox (badness 1337) in paragraph at lines 8--10
+\T1/ppl/m/n/10.95 crys-tal-liza-tion", []Bergfors ([][]2009[][]) in "Pro-tein Crys-tal-liza-tion" and "Biomolec-u-lar
+ []
+
+
+Underfull \hbox (badness 3579) in paragraph at lines 11--12
+[]\T1/ppl/m/n/10.95 Proteins can be rep-re-sented in a va-ri-ety of ways. Typ-i-cally, pro-tein
+ []
+
 <Figures/phaseDiagram.pdf, id=520, 174.6525pt x 166.6225pt>
 File: Figures/phaseDiagram.pdf Graphic file (type pdf)
 <use Figures/phaseDiagram.pdf>
@@ -1552,8 +1668,43 @@ File: Figures/hangingDrop.pdf Graphic file (type pdf)
 Package pdftex.def Info: Figures/hangingDrop.pdf  used on input line 25.
 (pdftex.def)             Requested size: 193.93222pt x 135.44836pt.
 
+Underfull \hbox (badness 3019) in paragraph at lines 34--35
+\T1/ppl/m/n/10.95 Protein crys-tal-liza-tion is the pro-cess by which sol-u-ble macro-molecules are
+ []
+
+
+Underfull \hbox (badness 2334) in paragraph at lines 34--35
+\T1/ppl/m/n/10.95 trans-formed into an or-dered, pe-ri-odic lat-tice suit-able for X-ray or elec-tron
+ []
+
+
+Underfull \hbox (badness 1990) in paragraph at lines 34--35
+\T1/ppl/m/n/10.95 diffrac-tion. Al-though the un-der-ly-ing phys-i-cal prin-ci-ples re-sem-ble those of
+ []
+
+
+Underfull \hbox (badness 7851) in paragraph at lines 34--35
+\T1/ppl/m/n/10.95 small-molecule crys-tal-liza-tion, pro-tein crys-tal-liza-tion is sub-stan-tially more
+ []
+
+
+Underfull \hbox (badness 4229) in paragraph at lines 34--35
+\T1/ppl/m/n/10.95 flex-i-ble con-for-ma-tions, chem-i-cally het-ero-ge-neous sur-faces, and pro-nounced
+ []
+
+
+Underfull \hbox (badness 1097) in paragraph at lines 34--35
+\T1/ppl/m/n/10.95 sen-si-tiv-ity to en-vi-ron-men-tal pa-ram-e-ters. As a re-sult, crys-tal-liza-tion is of-ten
+ []
+
+
 
 [2]
+Underfull \hbox (badness 1127) in paragraph at lines 39--40
+[]\T1/ppl/m/n/10.95 A pro-tein is con-sid-ered sol-u-ble when it re-mains dis-persed as in-di-vid-ual,
+ []
+
+
 
 [3 <./Figures/phaseDiagram.pdf> <./Figures/hangingDrop.pdf
 
@@ -1563,15 +1714,30 @@ LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 47
  (C:\Users\michi\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 )
-Overfull \hbox (5.24918pt too wide) in paragraph at lines 53--54
-[]\T1/ppl/m/n/10.95 The over-ar-ch-ing goal in crys-tal-liza-tion ex-per-i-ments is to iden-tify con-di-tions where
+Underfull \hbox (badness 1681) in paragraph at lines 53--54
+\T1/ppl/m/n/10.95 to-ward the metastable zone, where con-trolled growth pro-duces well-formed
  []
 
 
 
 [4]
-Overfull \hbox (27.66394pt too wide) in paragraph at lines 64--65
-[]\T1/ppl/m/n/10.95 With the ad-vent of au-to-mated crys-tal-liza-tion screen-ing plat-forms and high-throughput
+Underfull \hbox (badness 1348) in paragraph at lines 62--63
+\T1/ppl/m/n/10.95 pa-ram-e-ters in pro-mot-ing pro-tein crys-tal-liza-tion is the crys-tal-liza-tion cock-tail.
+ []
+
+
+Underfull \hbox (badness 5726) in paragraph at lines 64--65
+[]\T1/ppl/m/n/10.95 With the ad-vent of au-to-mated crys-tal-liza-tion screen-ing plat-forms and
+ []
+
+
+Underfull \hbox (badness 1565) in paragraph at lines 64--65
+\T1/ppl/m/n/10.95 chem-i-cal pa-ram-e-ters are sys-tem-at-i-cally ad-justed to im-prove crys-tal size and
+ []
+
+
+Underfull \hbox (badness 5563) in paragraph at lines 69--70
+ []\T1/ppl/b/n/10.95 Organic pre-cip-i-tants[] [][][]\T1/ppl/m/n/10.95 PEG[][] are neu-tral, water-soluble or-ganic polyal-co-hols
  []
 
 
@@ -1582,8 +1748,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 71--74
 
 
 [5]) (Chapters/Background/MachineLearning.tex
+Overfull \hbox (19.91827pt too wide) in paragraph at lines 1--1
+[]\T1/ppl/b/n/14.4 Introduction to Ma-chine learn-ing and pro-tein crys-tal-liza-tion
+ []
+
+
+Underfull \hbox (badness 1577) in paragraph at lines 2--3
+\T1/ppl/m/n/10.95 suc-cess-ful crys-tal-liza-tion con-di-tions is still poorly un-der-stood ([]McPher-son &
+ []
+
+
 
 [6] (Chapters/Background/MachineLearning/LearningParadigms.tex
+Underfull \hbox (badness 1067) in paragraph at lines 27--28
+\T1/ppl/m/n/10.95 Contrastive learn-ing has emerged as a pow-er-ful paradigm for rep-re-sen-ta-tion
+ []
+
+
 
 
 Package scrlayer-scrpage Warning: \headheight to low.
@@ -1604,22 +1785,96 @@ LaTeX Font Info:    Trying to load font information for U+fplmbb on input line 3
 File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
 )
 
-[8]) (Chapters/Background/MachineLearning/NeuralNetworks.tex
+[8]
+Underfull \hbox (badness 1087) in paragraph at lines 84--88
+\T1/ppl/m/n/10.95 en-cour-age se-man-tic fea-ture learn-ing. How-ever, since pro-teins are ex-tremely
+ []
+
+) (Chapters/Background/MachineLearning/NeuralNetworks.tex
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+ []\T1/ppl/b/n/10.95 Backpropagation[] \T1/ppl/m/n/10.95 Train-ing neu-ral net-works is typ-i-cally per-formed us-ing
+ []
+
+
 
 [9])
+Underfull \hbox (badness 1675) in paragraph at lines 31--11
+\T1/ppl/m/n/10.95 by it-er-a-tively ad-just-ing their pa-ram-e-ters to min-i-mize a loss func-tion, us-ing
+ []
+
 LaTeX Info: Symbol \textrightarrow not provided by
             font family ppl in TS1 encoding.
             Default family used instead on input line 21.
 LaTeX Info: Symbol \textrightarrow not provided by
             font family ppl in TS1 encoding.
             Default family used instead on input line 21.
+
+Underfull \hbox (badness 3118) in paragraph at lines 21--22
+[]\T1/ppl/m/it/10.95 DCFCrystal \T1/ppl/m/n/10.95 (2021): cas-caded RF stages (ex-pres-sion \TS1/cmr/m/n/10.95 ^^Y \T1/ppl/m/n/10.95 pu-rifi-ca-tion \TS1/cmr/m/n/10.95 ^^Y
+ []
+
 
 
 [10{C:/Users/michi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+[]\T1/ppl/m/n/10.95 Structure-infused: \T1/ppl/m/it/10.95 SADeep-Cry \T1/ppl/m/n/10.95 (2022) uses autoencoder+self-attention
+ []
+
+
+Underfull \hbox (badness 1796) in paragraph at lines 29--30
+\T1/ppl/m/n/10.95 on se-quence+predicted struc-ture; \T1/ppl/m/it/10.95 GCmapCrys \T1/ppl/m/n/10.95 (2023) em-ploys GNNs on
+ []
+
+
+Underfull \hbox (badness 2042) in paragraph at lines 33--34
+\T1/ppl/m/n/10.95 role, as it strongly in-flu-ences pro-tein sol-u-bil-ity, sur-face charge dis-tri-bu-tion,
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 33--34
+\T1/ppl/m/n/10.95 and in-ter-molec-u-lar in-ter-ac-tions. Un-like gen-eral crys-tal-liza-tion screen-ing, pH
+ []
+
+
+Underfull \hbox (badness 2088) in paragraph at lines 33--34
+\T1/ppl/m/n/10.95 pre-dic-tion con-sti-tutes a con-tin-u-ous, protein-specific re-gres-sion prob-lem, and
+ []
+
+
+Underfull \hbox (badness 1776) in paragraph at lines 38--41
+\T1/ppl/m/n/10.95 are tuned for in tra-di-tional ex-per-i-men-tal screens. Thou-sands of suc-cess-ful
+ []
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 38--41
+\T1/ppl/m/n/10.95 of the [][][]PEG[][] was com-pared. Sec-ond, am-mo-nium sul-fate con-cen-tra-tions were
+ []
+
+
+Underfull \hbox (badness 1158) in paragraph at lines 38--41
+\T1/ppl/m/n/10.95 an-a-lyzed sim-i-larly. Fi-nally, a more com-pre-hen-sive dis-tance met-ric pro-vided
+ []
+
+
 
 [11]
-Overfull \hbox (2.23215pt too wide) in paragraph at lines 42--43
-\T1/ppl/m/n/10.95 molec-u-lar pack-ing in-ter-faces in de-ter-min-ing crys-tal-liza-tion con-di-tions. In their work,
+Underfull \hbox (badness 2913) in paragraph at lines 42--43
+[][]\T1/ppl/m/n/10.95 Liao and Sun ([][]2025[][]) em-pha-size the im-por-tance of crys-tal pack-ing and
+ []
+
+
+Underfull \hbox (badness 1215) in paragraph at lines 42--43
+\T1/ppl/m/n/10.95 a frame-work for sim-u-lat-ing crys-tal pack-ing us-ing Al-phaFold com-bined with
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 48--49
+\T1/ppl/m/n/10.95 recipes for that pro-tein. Es-sen-tially, the model learns as-so-ci-a-tions be-tween
+ []
+
+
+Underfull \hbox (badness 1502) in paragraph at lines 48--49
+\T1/ppl/m/n/10.95 pro-teins, sub-stan-tially bet-ter than ran-dom guess-ing in this high-dimensional
  []
 
 
@@ -1639,6 +1894,11 @@ Overfull \hbox (2.23215pt too wide) in paragraph at lines 42--43
 ]
 Chapter 2.
 (Chapters/Data/TheProteinDatabase.tex
+Underfull \hbox (badness 1052) in paragraph at lines 7--8
+\T1/ppl/m/n/10.95 in com-pressed mm-CIF for-mat and stored lo-cally (af-ter de-com-pres-sion to .cif
+ []
+
+
 
 [15] (Media/databaseStructure.tex
 Overfull \hbox (78.24057pt too wide) in paragraph at lines 70--71
@@ -1646,8 +1906,18 @@ Overfull \hbox (78.24057pt too wide) in paragraph at lines 70--71
  []
 
 )
-Overfull \hbox (4.34651pt too wide) in paragraph at lines 52--61
-\T1/cmtt/m/n/10.95 pdbx_seq_one_letter_code \T1/ppl/m/n/10.95 The poly-mer se-quence in one-letter code, in-clud-ing sym-
+Underfull \hbox (badness 1762) in paragraph at lines 41--41
+ []\T1/ppl/m/sc/10 Figure 2.1: |\T1/ppl/m/n/10 Vi-su-al-iza-tion of the re-struc-tured database for-mat 
+ []
+
+
+Underfull \hbox (badness 3746) in paragraph at lines 52--61
+\T1/cmtt/m/n/10.95 type \T1/ppl/m/n/10.95 Spec-i-fies the poly-mer type, such as polypep-tide(L), DNA, RNA, or
+ []
+
+
+Underfull \hbox (badness 1436) in paragraph at lines 52--61
+\T1/cmtt/m/n/10.95 nstd_-linkage \T1/ppl/m/n/10.95 In-di-cates whether the poly-mer con-tains non-standard chem-i-cal
  []
 
 
@@ -1662,6 +1932,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 65--66
 
  []
 
+
+
+[17]
 LaTeX Info: Symbol \textasciiacute not provided by
             font family ppl in TS1 encoding.
             Default family used instead on input line 68.
@@ -1676,8 +1949,16 @@ Overfull \hbox (5.44394pt too wide) in paragraph at lines 68--83
  []
 
 
+Underfull \hbox (badness 1742) in paragraph at lines 87--92
+\T1/cmtt/m/n/10.95 temp\T1/ppl/m/n/10.95 : Records the tem-per-a-ture at which the crys-tal-liza-tion ex-per-i-ment was
+ []
 
-[17]
+
+Underfull \hbox (badness 4595) in paragraph at lines 87--92
+\T1/ppl/m/n/10.95 pre-cip-i-tants, ad-di-tives, or other con-di-tions im-por-tant for re-pro-duc-ing the
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 87--92
 
  []
@@ -1688,226 +1969,424 @@ Underfull \hbox (badness 2229) in paragraph at lines 17--17
  []
 
 
+Underfull \hbox (badness 4569) in paragraph at lines 17--17
+[]|\T1/ppl/m/n/10.95 100mM sodium ca-cody-late, 100 mM sodium ac-etate, 16-18%
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+\T1/ppl/m/n/10.95 iso-propanol, pH 6.2, VA-POR DIF-FU-SION, SIT-TING DROP,
+ []
+
+
+Underfull \hbox (badness 1997) in paragraph at lines 17--17
+[]|\T1/ppl/m/n/10.95 15-17% PEG 4K 0.2M KCl, pro-tein dial-ysed in 10mM NaOAc
+ []
+
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 1342) in paragraph at lines 22--23
+\T1/ppl/m/n/10.95 con-di-tions are of-ten em-bed-ded in long, narrative-style de-scrip-tions that mix
+ []
+
+
+Underfull \hbox (badness 1533) in paragraph at lines 24--25
+\T1/ppl/m/n/10.95 ne-ces-si-tates nor-mal-iza-tion against a chem-i-cal dic-tio-nary or on-tol-ogy to map
+ []
 
 
 
 [18]
+Underfull \hbox (badness 1509) in paragraph at lines 33--35
+[]\T1/ppl/m/n/10.95 Lynch \T1/ppl/m/it/10.95 et al\T1/ppl/m/n/10.95 . ([][]2020[][]) con-structed a multi-stage ex-trac-tion pipeline de-signed to
+ []
+
+
 
 [19]
+Underfull \hbox (badness 1708) in paragraph at lines 41--42
+[]\T1/ppl/m/n/10.95 For ev-ery vari-ant $\OML/zplm/m/it/10.95 c[]$\T1/ppl/m/n/10.95 , the al-go-rithm se-lected the most sim-i-lar ref-er-ence
+ []
+
+
+Underfull \hbox (badness 1158) in paragraph at lines 41--42
+\T1/ppl/m/n/10.95 chem-i-cal $\OML/zplm/m/it/10.95 c[]$ \T1/ppl/m/n/10.95 and eval-u-ated whether their sim-i-lar-ity ex-ceeded a thresh-old of
+ []
+
+
 
 [20]
-<../msc-thesis-code/data/dataExploration/plots/occurencesDistribution.pdf, id=829, 272.60757pt x 273.04916pt>
+<../msc-thesis-code/data/dataExploration/plots/occurencesDistribution.pdf, id=829, 273.15236pt x 273.04916pt>
 File: ../msc-thesis-code/data/dataExploration/plots/occurencesDistribution.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/occurencesDistribution.pdf>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/occurencesDistribution.pdf  used on input line 58.
-(pdftex.def)             Requested size: 133.33032pt x 133.54942pt.
+(pdftex.def)             Requested size: 133.33032pt x 133.28278pt.
 <../msc-thesis-code/data/dataExploration/plots/coverageByThreshold.pdf, id=830, 505.89pt x 289.08pt>
 File: ../msc-thesis-code/data/dataExploration/plots/coverageByThreshold.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/coverageByThreshold.pdf>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/coverageByThreshold.pdf  used on input line 65.
 (pdftex.def)             Requested size: 258.57835pt x 147.75966pt.
 
+Underfull \hbox (badness 5119) in paragraph at lines 70--70
+ \T1/ppl/m/n/10 chem-i-cal names ex-tracted from free text. Al-though 25,000 
+ []
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 74--75
+\T1/ppl/m/n/10.95 mis-matches shows that they pri-mar-ily come from crys-tal-lo-g-ra-phers re-port-ing
+ []
 
 
 
 [21]) (Chapters/Data/DataAnalysis.tex (Chapters/Data/DataAnalysis/UnivariateAnalysis.tex
 
 [22 <../msc-thesis-code/data/dataExploration/plots/occurencesDistribution.pdf> <../msc-thesis-code/data/dataExploration/plots/coverageByThreshold.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 28--29
+Underfull \hbox (badness 1796) in paragraph at lines 10--11
+ []\T1/ppl/b/n/10.95 Sequence con-struc-tion.[] \T1/ppl/m/n/10.95 Con-struct-ing a sin-gle se-quence rep-re-sen-ta-tion for a
+ []
+
+
+Underfull \hbox (badness 2057) in paragraph at lines 12--14
+[]\T1/ppl/m/n/10.95 First, all poly-mer en-ti-ties in the cor-re-spond-ing [][][]PDB[][] en-try were fil-tered
+ []
+
+
+Underfull \hbox (badness 2285) in paragraph at lines 12--14
+\T1/ppl/m/n/10.95 to re-tain only pro-tein chains, i.e. en-ti-ties an-no-tated as polypep-tide(L) or
+ []
+
+
+Underfull \hbox (badness 6691) in paragraph at lines 29--30
+ []\T1/ppl/b/n/10.95 Justification of the rep-re-sen-ta-tion.[] \T1/ppl/m/n/10.95 Con-cate-na-tion pro-vides a sim-ple yet
+ []
+
+
+Underfull \hbox (badness 1466) in paragraph at lines 29--30
+\T1/ppl/m/n/10.95 ex-pres-sive way of en-cod-ing the sto-i-chiom-e-try and com-po-si-tion of a pro-tein
+ []
+
+
+Underfull \hbox (badness 1383) in paragraph at lines 29--30
+\T1/ppl/m/n/10.95 com-plex in a for-mat that is com-pat-i-ble with sequence-based neu-ral mod-els.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
  []
 
-<../msc-thesis-code/data/dataExploration/plots/sequenceLength.pdf, id=941, 289.08pt x 361.35pt>
+<../msc-thesis-code/data/dataExploration/plots/sequenceLength.pdf, id=937, 289.08pt x 361.35pt>
 File: ../msc-thesis-code/data/dataExploration/plots/sequenceLength.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/sequenceLength.pdf>
-Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/sequenceLength.pdf  used on input line 35.
+Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/sequenceLength.pdf  used on input line 36.
 (pdftex.def)             Requested size: 129.29225pt x 161.61353pt.
-<../msc-thesis-code/data/dataExploration/plots/atomCount.pdf, id=942, 289.08pt x 361.35pt>
+<../msc-thesis-code/data/dataExploration/plots/atomCount.pdf, id=938, 289.08pt x 361.35pt>
 File: ../msc-thesis-code/data/dataExploration/plots/atomCount.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/atomCount.pdf>
-Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/atomCount.pdf  used on input line 41.
+Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/atomCount.pdf  used on input line 42.
 (pdftex.def)             Requested size: 129.29225pt x 161.61353pt.
-<../msc-thesis-code/data/dataExploration/plots/atomCountVsSequenceLength.pdf, id=943, 289.08pt x 361.35pt>
-File: ../msc-thesis-code/data/dataExploration/plots/atomCountVsSequenceLength.pdf Graphic file (type pdf)
-<use ../msc-thesis-code/data/dataExploration/plots/atomCountVsSequenceLength.pdf>
-Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/atomCountVsSequenceLength.pdf  used on input line 47.
-(pdftex.def)             Requested size: 129.29225pt x 161.61353pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+<../msc-thesis-code/data/dataExploration/plots/atomCountVsSequenceLength_new.pdf, id=939, 275.63441pt x 343.56216pt>
+File: ../msc-thesis-code/data/dataExploration/plots/atomCountVsSequenceLength_new.pdf Graphic file (type pdf)
+<use ../msc-thesis-code/data/dataExploration/plots/atomCountVsSequenceLength_new.pdf>
+Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/atomCountVsSequenceLength_new.pdf  used on input line 48.
+(pdftex.def)             Requested size: 129.29225pt x 161.1597pt.
 
 
 [23]
-
-[24 <../msc-thesis-code/data/dataExploration/plots/sequenceLength.pdf> <../msc-thesis-code/data/dataExploration/plots/atomCount.pdf> <../msc-thesis-code/data/dataExploration/plots/atomCountVsSequenceLength.pdf>]
-Overfull \hbox (8.96614pt too wide) in paragraph at lines 68--69
-\T1/ppl/m/n/10.95 sub-stan-tially less of-ten. These pro-por-tions are not ar-bi-trary but re-flect well-established
+Overfull \hbox (5.92856pt too wide) in paragraph at lines 58--59
+[]\T1/ppl/m/n/10.95 These con-sid-er-a-tions in-formed the choice of an up-per cut-off dur-ing pre-pro-cess-ing.
  []
 
 
-Overfull \hbox (0.21707pt too wide) in paragraph at lines 68--69
-\T1/ppl/m/n/10.95 tural sta-bil-ity, and func-tional ver-sa-til-ity. The fact that such canon-i-cal pat-terns emerge
+Underfull \hbox (badness 1067) in paragraph at lines 62--63
+\T1/ppl/m/n/10.95 se-quence length and atom count, with the slope de-ter-mined by the av-er-age
  []
 
 
-Overfull \hbox (7.77281pt too wide) in paragraph at lines 74--75
-\T1/ppl/m/n/10.95 com-pre-hen-sive overview of the bio-chem-i-cal prop-er-ties rep-re-sented within the dataset.
+Underfull \hbox (badness 1502) in paragraph at lines 62--63
+\T1/ppl/m/n/10.95 rea-sons, in-clud-ing in-com-plete struc-tural mod-els, miss-ing den-sity for flex-i-ble
  []
 
-<../msc-thesis-code/data/dataExploration/plots/distribution_apolar_vs_polar.pdf, id=1085, 462.52798pt x 346.89601pt>
-File: ../msc-thesis-code/data/dataExploration/plots/distribution_apolar_vs_polar.pdf Graphic file (type pdf)
-<use ../msc-thesis-code/data/dataExploration/plots/distribution_apolar_vs_polar.pdf>
-Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/distribution_apolar_vs_polar.pdf  used on input line 82.
-(pdftex.def)             Requested size: 199.99242pt x 149.99341pt.
-<../msc-thesis-code/data/dataExploration/plots/distribution_surface_information.pdf, id=1086, 433.62pt x 433.62pt>
-File: ../msc-thesis-code/data/dataExploration/plots/distribution_surface_information.pdf Graphic file (type pdf)
-<use ../msc-thesis-code/data/dataExploration/plots/distribution_surface_information.pdf>
-Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/distribution_surface_information.pdf  used on input line 88.
-(pdftex.def)             Requested size: 199.99242pt x 199.99033pt.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[24 <../msc-thesis-code/data/dataExploration/plots/sequenceLength.pdf> <../msc-thesis-code/data/dataExploration/plots/atomCount.pdf> <../msc-thesis-code/data/dataExploration/plots/atomCountVsSequenceLength_new.pdf>]
+Underfull \hbox (badness 2635) in paragraph at lines 69--70
+\T1/ppl/m/n/10.95 the char-ac-ter-is-tic com-po-si-tion ob-served across di-verse pro-teomes: com-mon
+ []
+
+
+Underfull \hbox (badness 1033) in paragraph at lines 69--70
+\T1/ppl/m/n/10.95 cys-teine ap-pear sub-stan-tially less of-ten. These pro-por-tions are not ar-bi-trary
+ []
 
 
 
 [25]
+<../msc-thesis-code/data/dataExploration/plots/distribution_apolar_vs_polar.pdf, id=1093, 462.52798pt x 346.89601pt>
+File: ../msc-thesis-code/data/dataExploration/plots/distribution_apolar_vs_polar.pdf Graphic file (type pdf)
+<use ../msc-thesis-code/data/dataExploration/plots/distribution_apolar_vs_polar.pdf>
+Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/distribution_apolar_vs_polar.pdf  used on input line 84.
+(pdftex.def)             Requested size: 199.99242pt x 149.99341pt.
+<../msc-thesis-code/data/dataExploration/plots/distribution_surface_information.pdf, id=1094, 433.62pt x 433.62pt>
+File: ../msc-thesis-code/data/dataExploration/plots/distribution_surface_information.pdf Graphic file (type pdf)
+<use ../msc-thesis-code/data/dataExploration/plots/distribution_surface_information.pdf>
+Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/distribution_surface_information.pdf  used on input line 91.
+(pdftex.def)             Requested size: 199.99242pt x 199.99033pt.
+
+Underfull \hbox (badness 1067) in paragraph at lines 97--97
+ \T1/ppl/m/n/10 fea-tures. Ap-o-lar and po-lar sur-face atoms show ap-prox-i-mately 
+ []
+
+
+Underfull \hbox (badness 1661) in paragraph at lines 97--97
+ \T1/ppl/m/n/10 around 1 as seen in [][]Fig-ure 2.4b[][][], while the re-main-ing sur-face 
+ []
+
+
+Underfull \hbox (badness 2707) in paragraph at lines 102--103
+[]\T1/ppl/m/n/10.95 The surface-derived fea-tures pre-sented in [][]Fig-ure 2.4[][][] pro-vide a de-tailed
+ []
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 102--103
+\T1/ppl/m/n/10.95 re-flect-ing the typ-i-cal bal-ance be-tween hy-dropho-bic and hy-drophilic ex-po-sure
+ []
+
+
+Underfull \hbox (badness 2351) in paragraph at lines 104--105
+[]\T1/ppl/m/n/10.95 The broader set of sur-face de-scrip-tors il-lus-trated in [][]Fig-ure 2.4b[][][] fur-ther
+ []
+
+
+Underfull \hbox (badness 1412) in paragraph at lines 109--110
+\T1/ppl/m/n/10.95 After pars-ing, it can be seen that the de-scrip-tions that do not con-tain any
+ []
+
+
 
 [26 <../msc-thesis-code/data/dataExploration/plots/distribution_apolar_vs_polar.pdf> <../msc-thesis-code/data/dataExploration/plots/distribution_surface_information.pdf>]
-<../msc-thesis-code/data/dataExploration/plots/nCompoundsDistribution.pdf, id=1186, 346.89601pt x 346.89601pt>
+Underfull \hbox (badness 1762) in paragraph at lines 113--114
+\T1/ppl/m/n/10.95 vari-abil-ity re-flects gen-uine ex-per-i-men-tal di-ver-sity, as pH strongly in-flu-ences
+ []
+
+<../msc-thesis-code/data/dataExploration/plots/nCompoundsDistribution.pdf, id=1190, 346.89601pt x 346.89601pt>
 File: ../msc-thesis-code/data/dataExploration/plots/nCompoundsDistribution.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/nCompoundsDistribution.pdf>
-Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/nCompoundsDistribution.pdf  used on input line 116.
+Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/nCompoundsDistribution.pdf  used on input line 119.
 (pdftex.def)             Requested size: 169.69147pt x 169.68939pt.
-<../msc-thesis-code/data/dataExploration/plots/mostCommonchemicalCompounds_withConcentrationGiven.pdf, id=1187, 446.53575pt x 330.45013pt>
+<../msc-thesis-code/data/dataExploration/plots/mostCommonchemicalCompounds_withConcentrationGiven.pdf, id=1191, 446.53575pt x 330.45013pt>
 File: ../msc-thesis-code/data/dataExploration/plots/mostCommonchemicalCompounds_withConcentrationGiven.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/mostCommonchemicalCompounds_withConcentrationGiven.pdf>
-Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/mostCommonchemicalCompounds_withConcentrationGiven.pdf  used on input line 123.
+Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/mostCommonchemicalCompounds_withConcentrationGiven.pdf  used on input line 126.
 (pdftex.def)             Requested size: 222.21722pt x 164.44814pt.
+
+Underfull \hbox (badness 3029) in paragraph at lines 135--136
+\T1/ppl/m/n/10.95 level of com-bi-na-to-rial vari-a-tion is rep-re-sen-ta-tive of com-mon crys-tal-liza-tion
+ []
+
 
 
 [27 <../msc-thesis-code/data/dataExploration/plots/nCompoundsDistribution.pdf> <../msc-thesis-code/data/dataExploration/plots/mostCommonchemicalCompounds_withConcentrationGiven.pdf>]
-<../msc-thesis-code/data/dataExploration/plots/most_common_pegs_with_concentration_point.pdf, id=1282, 446.38832pt x 330.96603pt>
+<../msc-thesis-code/data/dataExploration/plots/most_common_pegs_with_concentration_point.pdf, id=1286, 446.38832pt x 330.96603pt>
 File: ../msc-thesis-code/data/dataExploration/plots/most_common_pegs_with_concentration_point.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/most_common_pegs_with_concentration_point.pdf>
-Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/most_common_pegs_with_concentration_point.pdf  used on input line 140.
+Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/most_common_pegs_with_concentration_point.pdf  used on input line 143.
 (pdftex.def)             Requested size: 193.93222pt x 143.78725pt.
-<../msc-thesis-code/data/dataExploration/plots/most_common_chem_with_concentration_point.pdf, id=1283, 446.53575pt x 330.98026pt>
+<../msc-thesis-code/data/dataExploration/plots/most_common_chem_with_concentration_point.pdf, id=1287, 446.53575pt x 330.98026pt>
 File: ../msc-thesis-code/data/dataExploration/plots/most_common_chem_with_concentration_point.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/most_common_chem_with_concentration_point.pdf>
-Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/most_common_chem_with_concentration_point.pdf  used on input line 147.
+Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/most_common_chem_with_concentration_point.pdf  used on input line 150.
 (pdftex.def)             Requested size: 193.93222pt x 143.74292pt.
 
-Overfull \hbox (2.48471pt too wide) in paragraph at lines 157--158
-\T1/ppl/m/n/10.95 im-por-tant dif-fer-ences make this cat-e-gory sub-stan-tially more chal-leng-ing from a mod-
+Underfull \hbox (badness 1038) in paragraph at lines 158--159
+\T1/ppl/m/n/10.95 spe-cific molec-u-lar weights, the con-cen-tra-tions at which these [][][]PEGs[][] are used
+ []
+
+
+Underfull \hbox (badness 1776) in paragraph at lines 158--159
+\T1/ppl/m/n/10.95 are typ-i-cally present at higher con-cen-tra-tions (above 21%), whereas heav-ier
  []
 
 
 
 [28 <../msc-thesis-code/data/dataExploration/plots/most_common_pegs_with_concentration_point.pdf> <../msc-thesis-code/data/dataExploration/plots/most_common_chem_with_concentration_point.pdf>]
-<../msc-thesis-code/data/dataExploration/plots/commonChemCombinations.pdf, id=1391, 445.84003pt x 330.88618pt>
+Overfull \hbox (0.35483pt too wide) in paragraph at lines 162--163
+[]\T1/ppl/m/n/10.95 Second, the con-cen-tra-tion ranges for these non-[][][]PEG[][] com-pounds are con-sid-er-ably
+ []
+
+
+Underfull \hbox (badness 3168) in paragraph at lines 164--165
+[]\T1/ppl/m/n/10.95 Together, these ob-ser-va-tions in-di-cate that the pre-dic-tion of [][][]PEG[][]-related
+ []
+
+
+Underfull \hbox (badness 1418) in paragraph at lines 164--165
+\T1/ppl/m/n/10.95 salts, and ad-di-tives is a more com-plex task with greater com-bi-na-to-rial and
+ []
+
+<../msc-thesis-code/data/dataExploration/plots/commonChemCombinations.pdf, id=1396, 445.84003pt x 330.88618pt>
 File: ../msc-thesis-code/data/dataExploration/plots/commonChemCombinations.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/commonChemCombinations.pdf>
-Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/commonChemCombinations.pdf  used on input line 167.
+Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/commonChemCombinations.pdf  used on input line 170.
 (pdftex.def)             Requested size: 193.93222pt x 143.92926pt.
-<../msc-thesis-code/data/dataExploration/plots/commonChemClasses.pdf, id=1392, 450.43906pt x 330.88618pt>
+<../msc-thesis-code/data/dataExploration/plots/commonChemClasses.pdf, id=1397, 450.43906pt x 330.88618pt>
 File: ../msc-thesis-code/data/dataExploration/plots/commonChemClasses.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/commonChemClasses.pdf>
-Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/commonChemClasses.pdf  used on input line 174.
+Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/commonChemClasses.pdf  used on input line 177.
 (pdftex.def)             Requested size: 193.93222pt x 142.45499pt.
-<../msc-thesis-code/data/dataExploration/plots/mostCommonPartners.pdf, id=1403, 867.24pt x 361.35pt>
+
+Underfull \hbox (badness 1448) in paragraph at lines 185--186
+\T1/ppl/m/n/10.95 multi-compound com-bi-na-tions, il-lus-trat-ing char-ac-ter-is-tic reagent pair-ings and
+ []
+
+<../msc-thesis-code/data/dataExploration/plots/mostCommonPartners.pdf, id=1408, 867.24pt x 361.35pt>
 File: ../msc-thesis-code/data/dataExploration/plots/mostCommonPartners.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/mostCommonPartners.pdf>
-Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/mostCommonPartners.pdf  used on input line 187.
+Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/mostCommonPartners.pdf  used on input line 190.
 (pdftex.def)             Requested size: 404.02908pt x 168.34581pt.
+
+Underfull \hbox (badness 1371) in paragraph at lines 192--192
+ \T1/ppl/m/n/10 plot shows the com-pounds most of-ten co-occurring with them 
+ []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-
-[29 <../msc-thesis-code/data/dataExploration/plots/commonChemCombinations.pdf> <../msc-thesis-code/data/dataExploration/plots/commonChemClasses.pdf>]) (Chapters/Data/DataAnalysis/MultivariateAnalysis.tex
-Overfull \hbox (5.75317pt too wide) in paragraph at lines 196--1
-[]\T1/ppl/m/n/10.95 Together, these anal-y-ses con-firm that the chem-i-cal com-po-si-tions within the dataset
+Underfull \hbox (badness 2253) in paragraph at lines 197--198
+\T1/ppl/m/n/10.95 re-flect-ing well-established for-mu-la-tion strate-gies used to steer crys-tal-liza-tion
  []
 
-<../msc-thesis-code/data/dataExploration/plots/surface_entropy_fraction_VsChem.pdf, id=1492, 361.35pt x 325.215pt>
+
+
+[29 <../msc-thesis-code/data/dataExploration/plots/commonChemCombinations.pdf> <../msc-thesis-code/data/dataExploration/plots/commonChemClasses.pdf>]) (Chapters/Data/DataAnalysis/MultivariateAnalysis.tex
+Underfull \hbox (badness 1337) in paragraph at lines 199--1
+\T1/ppl/m/n/10.95 prac-tice. The dataset pre-serves es-tab-lished chem-i-cal pat-terns while of-fer-ing
+ []
+
+
+Underfull \hbox (badness 4403) in paragraph at lines 199--1
+\T1/ppl/m/n/10.95 suf-fi-cient vari-a-tion for mean-ing-ful learn-ing, en-sur-ing a ro-bust foun-da-tion
+ []
+
+
+Underfull \hbox (badness 1281) in paragraph at lines 199--1
+\T1/ppl/m/n/10.95 for pre-dict-ing crys-tal-liza-tion con-di-tions and un-der-stand-ing reagent syn-er-gies.
+ []
+
+<../msc-thesis-code/data/dataExploration/plots/surface_entropy_fraction_VsChem.pdf, id=1497, 361.35pt x 325.215pt>
 File: ../msc-thesis-code/data/dataExploration/plots/surface_entropy_fraction_VsChem.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/surface_entropy_fraction_VsChem.pdf>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/surface_entropy_fraction_VsChem.pdf  used on input line 9.
 (pdftex.def)             Requested size: 199.99242pt x 179.99525pt.
-<../msc-thesis-code/data/dataExploration/plots/2d_hist_plot.pdf, id=1493, 325.215pt x 325.215pt>
+<../msc-thesis-code/data/dataExploration/plots/2d_hist_plot.pdf, id=1498, 325.215pt x 325.215pt>
 File: ../msc-thesis-code/data/dataExploration/plots/2d_hist_plot.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/2d_hist_plot.pdf>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/2d_hist_plot.pdf  used on input line 15.
 (pdftex.def)             Requested size: 199.99242pt x 199.9986pt.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Underfull \hbox (badness 1810) in paragraph at lines 19--19
+ \T1/ppl/m/n/10 re-gard-ing the pres-ence of par-tic-u-lar chem-i-cals. Al-though the 
+ []
 
-<../msc-thesis-code/data/dataExploration/plots/surfaceCompoundDistributions_sasa_skewness_hydrophobic_surface_fraction_surface_entropy_fraction_net_charge_normalized.pdf, id=1500, 505.89pt x 361.35pt>
-File: ../msc-thesis-code/data/dataExploration/plots/surfaceCompoundDistributions_sasa_skewness_hydrophobic_surface_fraction_surface_entropy_fraction_net_charge_normalized.pdf Graphic file (type pdf)
-<use ../msc-thesis-code/data/dataExploration/plots/surfaceCompoundDistributions_sasa_skewness_hydrophobic_surface_fraction_surface_entropy_fraction_net_charge_normalized.pdf>
-Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/surfaceCompoundDistributions_sasa_skewness_hydrophobic_surface_fraction_surface_entropy_fraction_net_charge_normalized.pdf  used on input line 32.
-(pdftex.def)             Requested size: 199.99242pt x 142.85023pt.
-<../msc-thesis-code/data/dataExploration/plots/sequenceChemDistributions_pI_mw_arom_gravy.pdf, id=1501, 505.89pt x 361.35pt>
-File: ../msc-thesis-code/data/dataExploration/plots/sequenceChemDistributions_pI_mw_arom_gravy.pdf Graphic file (type pdf)
-<use ../msc-thesis-code/data/dataExploration/plots/sequenceChemDistributions_pI_mw_arom_gravy.pdf>
-Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/sequenceChemDistributions_pI_mw_arom_gravy.pdf  used on input line 38.
-(pdftex.def)             Requested size: 199.99242pt x 142.85023pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
 [30 <../msc-thesis-code/data/dataExploration/plots/mostCommonPartners.pdf>]
+<../msc-thesis-code/data/dataExploration/plots/surfaceCompoundDistributions_sasa_skewness_hydrophobic_surface_fraction_surface_entropy_fraction_net_charge_normalized.pdf, id=1550, 505.89pt x 361.35pt>
+File: ../msc-thesis-code/data/dataExploration/plots/surfaceCompoundDistributions_sasa_skewness_hydrophobic_surface_fraction_surface_entropy_fraction_net_charge_normalized.pdf Graphic file (type pdf)
+<use ../msc-thesis-code/data/dataExploration/plots/surfaceCompoundDistributions_sasa_skewness_hydrophobic_surface_fraction_surface_entropy_fraction_net_charge_normalized.pdf>
+Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/surfaceCompoundDistributions_sasa_skewness_hydrophobic_surface_fraction_surface_entropy_fraction_net_charge_normalized.pdf  used on input line 32.
+(pdftex.def)             Requested size: 199.99242pt x 142.85023pt.
+<../msc-thesis-code/data/dataExploration/plots/sequenceChemDistributions_pI_mw_arom_gravy.pdf, id=1551, 505.89pt x 361.35pt>
+File: ../msc-thesis-code/data/dataExploration/plots/sequenceChemDistributions_pI_mw_arom_gravy.pdf Graphic file (type pdf)
+<use ../msc-thesis-code/data/dataExploration/plots/sequenceChemDistributions_pI_mw_arom_gravy.pdf>
+Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/sequenceChemDistributions_pI_mw_arom_gravy.pdf  used on input line 38.
+(pdftex.def)             Requested size: 199.99242pt x 142.85023pt.
+
+Underfull \hbox (badness 1997) in paragraph at lines 42--42
+ []\T1/ppl/m/sc/10 Figure 2.10: |\T1/ppl/m/n/10 The point plot dis-plays the z-score nor-mal-ized 
+ []
+
+
+Underfull \hbox (badness 4156) in paragraph at lines 42--42
+ \T1/ppl/m/n/10 me-dian val-ues of each fea-ture, with stan-dard er-rors, across 
+ []
+
+
 
 [31 <../msc-thesis-code/data/dataExploration/plots/surface_entropy_fraction_VsChem.pdf> <../msc-thesis-code/data/dataExploration/plots/2d_hist_plot.pdf> <../msc-thesis-code/data/dataExploration/plots/surfaceCompoundDistributions_sasa_skewness_hydrophobic_surface_fraction_surface_entropy_fraction_net_charge_normalized.pdf> <../msc-thesis-code/data/dataExploration/plots/sequenceChemDistributions_pI_mw_arom_gravy.pdf>]
-Overfull \hbox (9.73312pt too wide) in paragraph at lines 50--51
-\T1/ppl/m/n/10.95 the hy-dropho-bic sur-face frac-tion quan-ti-fies how much of the pro-tein's solvent-exposed
+Underfull \hbox (badness 2269) in paragraph at lines 50--51
+\T1/ppl/m/n/10.95 from the in-trin-sic hy-dropho-bic-ity of amino acids in the pri-mary se-quence,
  []
 
-
-Overfull \hbox (6.76566pt too wide) in paragraph at lines 50--51
-\T1/ppl/m/n/10.95 quences. Thus, these two fea-tures cap-ture re-lated bio-chem-i-cal ten-den-cies even though
- []
-
-<../msc-thesis-code/data/dataExploration/plots/ks_distance_all_sequence.pdf, id=1739, 397.485pt x 397.485pt>
+<../msc-thesis-code/data/dataExploration/plots/ks_distance_all_sequence.pdf, id=1743, 397.485pt x 397.485pt>
 File: ../msc-thesis-code/data/dataExploration/plots/ks_distance_all_sequence.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/ks_distance_all_sequence.pdf>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/ks_distance_all_sequence.pdf  used on input line 57.
 (pdftex.def)             Requested size: 199.99242pt x 199.99748pt.
-<../msc-thesis-code/data/dataExploration/plots/ks_distance_all.pdf, id=1740, 433.62pt x 433.62pt>
+<../msc-thesis-code/data/dataExploration/plots/ks_distance_all.pdf, id=1744, 433.62pt x 433.62pt>
 File: ../msc-thesis-code/data/dataExploration/plots/ks_distance_all.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/ks_distance_all.pdf>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/ks_distance_all.pdf  used on input line 63.
 (pdftex.def)             Requested size: 199.99242pt x 199.99033pt.
 
+Underfull \hbox (badness 1817) in paragraph at lines 67--67
+ []\T1/ppl/m/sc/10 Figure 2.11: |\T1/ppl/m/n/10 The fig-ure shows the KS dis-tance be-tween the 
+ []
+
+
 
 [32 <../msc-thesis-code/data/dataExploration/plots/ks_distance_all_sequence.pdf> <../msc-thesis-code/data/dataExploration/plots/ks_distance_all.pdf>])) (Chapters/Data/CRIMS.tex
-Overfull \hbox (3.11928pt too wide) in paragraph at lines 3--4
-\T1/ppl/m/n/10.95 The [][][]PDB[][] does not pro-vide neg-a-tive data. Mean-ing for any given en-try to the database
+Underfull \hbox (badness 2134) in paragraph at lines 8--9
+\T1/ppl/m/n/10.95 crys-tal-liza-tion out-comes, which the [][][]PDB[][] in-her-ently lacks. While the [][][]PDB[][]
+ []
+
+
+Underfull \hbox (badness 2111) in paragraph at lines 8--9
+\T1/ppl/m/n/10.95 con-tains only suc-cess-ful crys-tal-liza-tion con-di-tions^^Vi.e., those that yielded a
  []
 
 
 
 [33]
-<media/FORMULATRIX_SD30010705_2_01-10-2025_03_03_01_00_99_Vis-1.jpg, id=1873, 1727.70468pt x 1445.4pt>
+Underfull \hbox (badness 1888) in paragraph at lines 10--11
+\T1/ppl/m/n/10.95 pro-tein en-ti-ties (in-clud-ing com-plexes) that were ex-per-i-men-tally screened for
+ []
+
+
+Underfull \hbox (badness 1688) in paragraph at lines 12--13
+[]\T1/ppl/m/n/10.95 Importantly, pro-tein se-quence in-for-ma-tion is not in-cluded in the [][][]CRIMS[][]
+ []
+
+
+Underfull \hbox (badness 1147) in paragraph at lines 14--15
+\T1/ppl/m/n/10.95 within the [][][]CRIMS[][] en-try pipeline, these de-tails like-wise had to be man-u-ally
+ []
+
+<media/FORMULATRIX_SD30010705_2_01-10-2025_03_03_01_00_99_Vis-1.jpg, id=1872, 1727.70468pt x 1445.4pt>
 File: media/FORMULATRIX_SD30010705_2_01-10-2025_03_03_01_00_99_Vis-1.jpg Graphic file (type jpg)
 <use media/FORMULATRIX_SD30010705_2_01-10-2025_03_03_01_00_99_Vis-1.jpg>
 Package pdftex.def Info: media/FORMULATRIX_SD30010705_2_01-10-2025_03_03_01_00_99_Vis-1.jpg  used on input line 24.
 (pdftex.def)             Requested size: 96.9692pt x 81.11829pt.
-<media/FORMULATRIX_SD30010708_4_07-10-2025_10_06_01_00_99_Vis.jpg, id=1874, 1727.70468pt x 1445.4pt>
+<media/FORMULATRIX_SD30010708_4_07-10-2025_10_06_01_00_99_Vis.jpg, id=1873, 1727.70468pt x 1445.4pt>
 File: media/FORMULATRIX_SD30010708_4_07-10-2025_10_06_01_00_99_Vis.jpg Graphic file (type jpg)
 <use media/FORMULATRIX_SD30010708_4_07-10-2025_10_06_01_00_99_Vis.jpg>
 Package pdftex.def Info: media/FORMULATRIX_SD30010708_4_07-10-2025_10_06_01_00_99_Vis.jpg  used on input line 27.
 (pdftex.def)             Requested size: 96.9692pt x 81.11829pt.
-<media/FORMULATRIX_SD30010708_4_07-10-2025_12_08_01_00_99_Vis.jpg, id=1875, 1727.70468pt x 1445.4pt>
+<media/FORMULATRIX_SD30010708_4_07-10-2025_12_08_01_00_99_Vis.jpg, id=1874, 1727.70468pt x 1445.4pt>
 File: media/FORMULATRIX_SD30010708_4_07-10-2025_12_08_01_00_99_Vis.jpg Graphic file (type jpg)
 <use media/FORMULATRIX_SD30010708_4_07-10-2025_12_08_01_00_99_Vis.jpg>
 Package pdftex.def Info: media/FORMULATRIX_SD30010708_4_07-10-2025_12_08_01_00_99_Vis.jpg  used on input line 30.
 (pdftex.def)             Requested size: 96.9692pt x 81.11829pt.
-<media/FORMULATRIX_SD30010708_4_07-10-2025_06_04_01_00_99_Vis.jpg, id=1876, 1727.70468pt x 1445.4pt>
+<media/FORMULATRIX_SD30010708_4_07-10-2025_06_04_01_00_99_Vis.jpg, id=1875, 1727.70468pt x 1445.4pt>
 File: media/FORMULATRIX_SD30010708_4_07-10-2025_06_04_01_00_99_Vis.jpg Graphic file (type jpg)
 <use media/FORMULATRIX_SD30010708_4_07-10-2025_06_04_01_00_99_Vis.jpg>
 Package pdftex.def Info: media/FORMULATRIX_SD30010708_4_07-10-2025_06_04_01_00_99_Vis.jpg  used on input line 33.
@@ -1915,9 +2394,34 @@ Package pdftex.def Info: media/FORMULATRIX_SD30010708_4_07-10-2025_06_04_01_00_9
 
 
 [34 <./media/FORMULATRIX_SD30010705_2_01-10-2025_03_03_01_00_99_Vis-1.jpg> <./media/FORMULATRIX_SD30010708_4_07-10-2025_10_06_01_00_99_Vis.jpg> <./media/FORMULATRIX_SD30010708_4_07-10-2025_12_08_01_00_99_Vis.jpg> <./media/FORMULATRIX_SD30010708_4_07-10-2025_06_04_01_00_99_Vis.jpg>]
+Underfull \hbox (badness 1168) in paragraph at lines 42--44
+\T1/ppl/m/n/10.95 drops along-side their pre-dicted scores. As shown, the model ex-hibits high
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 45--46
+\T1/ppl/m/n/10.95 Given the high sen-si-tiv-ity the orig-i-nal model was em-ployed to fil-ter out all
+ []
+
+
+Underfull \hbox (badness 2698) in paragraph at lines 49--50
+\T1/ppl/m/n/10.95 crys-tal for-ma-tion, the cor-re-spond-ing con-di-tion was la-beled as a suc-cess-ful
+ []
+
+
+Underfull \hbox (badness 1097) in paragraph at lines 49--50
+\T1/ppl/m/n/10.95 crys-tal-liza-tion con-di-tion. Im-ages ac-quired be-yond this time frame were not
+ []
+
+
+Underfull \hbox (badness 1521) in paragraph at lines 51--52
+[]\T1/ppl/m/n/10.95 Another pos-i-tive as-pect of this cu-rated dataset is that lit-tle pars-ing and
+ []
+
+
 
 [35]
-<media/uv_crystal.png, id=1904, 1939.99782pt x 685.05937pt>
+<media/uv_crystal.png, id=1903, 1939.99782pt x 685.05937pt>
 File: media/uv_crystal.png Graphic file (type png)
 <use media/uv_crystal.png>
 Package pdftex.def Info: media/uv_crystal.png  used on input line 59.
@@ -1925,171 +2429,421 @@ Package pdftex.def Info: media/uv_crystal.png  used on input line 59.
 
 
 [36 <./media/uv_crystal.png>]
-<../msc-thesis-code/data/dataExploration/plots/crims_data_analysis.pdf, id=1924, 867.24pt x 361.35pt>
+Underfull \hbox (badness 2119) in paragraph at lines 73--74
+\T1/ppl/m/n/10.95 As a re-sult, iden-ti-cal protein-condition pairs may be du-pli-cated, ar-ti-fi-cially
+ []
+
+
+Underfull \hbox (badness 1194) in paragraph at lines 73--74
+\T1/ppl/m/n/10.95 in-creas-ing the num-ber of recorded con-di-tions and in-tro-duc-ing false neg-a-tive
+ []
+
+<../msc-thesis-code/data/dataExploration/plots/crims_data_analysis.pdf, id=1923, 867.24pt x 361.35pt>
 File: ../msc-thesis-code/data/dataExploration/plots/crims_data_analysis.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/crims_data_analysis.pdf>
-Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/crims_data_analysis.pdf  used on input line 79.
+Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/crims_data_analysis.pdf  used on input line 78.
 (pdftex.def)             Requested size: 404.02908pt x 168.34581pt.
 
+Underfull \hbox (badness 1881) in paragraph at lines 75--86
+\T1/ppl/m/n/10.95 that crys-tal-liza-tion propen-sity can be mod-eled with-out ex-plic-itly ac-count-ing
+ []
 
-[37 <../msc-thesis-code/data/dataExploration/plots/crims_data_analysis.pdf>]))
+
+
+[37 <../msc-thesis-code/data/dataExploration/plots/crims_data_analysis.pdf>]
+Underfull \hbox (badness 2111) in paragraph at lines 93--94
+[]\T1/ppl/m/n/10.95 Approximately 90% of crys-tal-liza-tion con-di-tions con-tain fewer than four
+ []
+
+
+Underfull \hbox (badness 2521) in paragraph at lines 93--94
+\T1/ppl/m/n/10.95 chem-i-cal com-po-nents, in-di-cat-ing rel-a-tively low com-bi-na-to-rial com-plex-ity ^^V
+ []
+
+))
 
 [38]
 \openout2 = `Chapters/Methods.aux'.
 
  (Chapters/Methods.tex
 Chapter 3.
-(Chapters/Methods/features.tex (Chapters/Methods/features/sequenceInformation.tex
+(Chapters/Methods/features.tex
+Underfull \hbox (badness 1661) in paragraph at lines 2--3
+\T1/ppl/m/n/10.95 To en-able the model to cap-ture the com-plex re-la-tion-ships be-tween pro-teins
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 2--3
+\T1/ppl/m/n/10.95 and crys-tal-liza-tion con-di-tions, mul-ti-ple types of fea-ture rep-re-sen-ta-tions were
+ []
+
+
+Underfull \hbox (badness 5908) in paragraph at lines 2--3
+\T1/ppl/m/n/10.95 These in-clude sequence-based and struc-ture aware em-bed-dings gen-er-ated
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 2--3
+\T1/ppl/m/n/10.95 with es-tab-lished pro-tein lan-guage mod-els, a ge-o-met-ric sur-face rep-re-sen-ta-tion
+ []
+
+
+Underfull \hbox (badness 1824) in paragraph at lines 2--3
+\T1/ppl/m/n/10.95 and fea-ture vec-tor of the crys-tal-liza-tion la-bels them-selves. To-gether, these
+ []
+
+(Chapters/Methods/features/sequenceInformation.tex
 
 [39
 
 
 
 
-])
-Overfull \hbox (4.57564pt too wide) in paragraph at lines 25--7
-\T1/ppl/m/n/10.95 quence prop-er-ties such as hy-dropho-bic-ity, charge dis-tri-bu-tion, and struc-tural propen-
+]
+Underfull \hbox (badness 1533) in paragraph at lines 23--24
+[]\T1/ppl/b/n/10.95 Fraction of Un-known Residues \T1/ppl/m/n/10.95 de-notes the frac-tion of non-canonical or
  []
 
-(Chapters/Methods/features/sequenceEmbedding.tex
+) (Chapters/Methods/features/sequenceEmbedding.tex
 
 [40]
-<../msc-thesis-code/data/dataExploration/plots/proteinEmbedding.pdf, id=2032, 433.62pt x 289.08pt>
+<../msc-thesis-code/data/dataExploration/plots/proteinEmbedding.pdf, id=2030, 433.62pt x 289.08pt>
 File: ../msc-thesis-code/data/dataExploration/plots/proteinEmbedding.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/proteinEmbedding.pdf>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/proteinEmbedding.pdf  used on input line 14.
 (pdftex.def)             Requested size: 199.99242pt x 133.32687pt.
-<../msc-thesis-code/data/dataExploration/plots/pHEmbedding.pdf, id=2033, 462.52798pt x 346.89601pt>
+<../msc-thesis-code/data/dataExploration/plots/pHEmbedding.pdf, id=2031, 462.52798pt x 346.89601pt>
 File: ../msc-thesis-code/data/dataExploration/plots/pHEmbedding.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/pHEmbedding.pdf>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/pHEmbedding.pdf  used on input line 20.
 (pdftex.def)             Requested size: 199.99242pt x 149.99341pt.
 
-Overfull \hbox (4.33513pt too wide) in paragraph at lines 28--29
-\T1/ppl/m/n/10.95 jected into two di-men-sions us-ing t-SNE. The re-sult-ing vi-su-al-iza-tion [][]Fig-ure 3.1a[][][] shows
+Underfull \hbox (badness 1038) in paragraph at lines 28--29
+\T1/ppl/m/n/10.95 this the-sis, the high-dimensional out-put of the [][][]ESM[][] pro-tein lan-guage model
  []
 
-<../msc-thesis-code/data/dataExploration/plots/proteinVsCompound.pdf, id=2043, 413.44223pt x 424.2638pt>
+
+Underfull \hbox (badness 1867) in paragraph at lines 28--29
+\T1/ppl/m/n/10.95 was pro-jected into two di-men-sions us-ing t-SNE. The re-sult-ing vi-su-al-iza-tion
+ []
+
+
+Underfull \hbox (badness 1163) in paragraph at lines 28--29
+\T1/ppl/m/n/10.95 pro-teins oc-cupy dis-tinct, non-overlapping ar-eas. This demon-strates that the
+ []
+
+
+
+[41 <../msc-thesis-code/data/dataExploration/plots/proteinEmbedding.pdf> <../msc-thesis-code/data/dataExploration/plots/pHEmbedding.pdf>]
+<../msc-thesis-code/data/dataExploration/plots/proteinVsCompound.pdf, id=2120, 409.74875pt x 424.2638pt>
 File: ../msc-thesis-code/data/dataExploration/plots/proteinVsCompound.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/proteinVsCompound.pdf>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/proteinVsCompound.pdf  used on input line 38.
-(pdftex.def)             Requested size: 199.99242pt x 205.22389pt.
-<../msc-thesis-code/data/dataExploration/plots/proteinDistributionpH_temp.pdf, id=2044, 433.62pt x 433.62pt>
+(pdftex.def)             Requested size: 199.99242pt x 207.08186pt.
+<../msc-thesis-code/data/dataExploration/plots/proteinDistributionpH_temp.pdf, id=2121, 433.62pt x 433.62pt>
 File: ../msc-thesis-code/data/dataExploration/plots/proteinDistributionpH_temp.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/proteinDistributionpH_temp.pdf>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/proteinDistributionpH_temp.pdf  used on input line 44.
 (pdftex.def)             Requested size: 199.99242pt x 199.99033pt.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-
-[41 <../msc-thesis-code/data/dataExploration/plots/proteinEmbedding.pdf> <../msc-thesis-code/data/dataExploration/plots/pHEmbedding.pdf>]) (Chapters/Methods/features/surfaceEmbedding.tex
-
-[42 <../msc-thesis-code/data/dataExploration/plots/proteinVsCompound.pdf> <../msc-thesis-code/data/dataExploration/plots/proteinDistributionpH_temp.pdf>]
-Overfull \hbox (1.56119pt too wide) in paragraph at lines 9--11
-[]\T1/ppl/m/n/10.95 To ad-dress these lim-i-ta-tions []Sver-ris-son \T1/ppl/m/it/10.95 et al\T1/ppl/m/n/10.95 . ([][]2020[][]) pro-posed [][][]dif-fer-en-tiable molec-
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
+ []\T1/ppl/m/sc/10 Figure 3.2: |\T1/ppl/m/n/10 The re-la-tion-ship be-tween pro-teins and their 
  []
 
-<../msc-thesis-code/data/dataExploration/plots/reconstruction.png, id=2262, 363.2858pt x 158.09062pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
+ \T1/ppl/m/n/10 crys-tal-liza-tion con-di-tions. [][]Fig-ure 3.2a[][][] shows nor-mal-ized 
+ []
+
+
+Underfull \hbox (badness 1571) in paragraph at lines 48--48
+ \T1/ppl/m/n/10 co-occurrences of com-mon pro-teins and com-pounds, cor-rect-ing 
+ []
+
+
+Underfull \hbox (badness 1184) in paragraph at lines 48--48
+ \T1/ppl/m/n/10 for over-all com-pound fre-quency. Higher val-ues in-di-cate more 
+ []
+
+)
+
+[42 <../msc-thesis-code/data/dataExploration/plots/proteinVsCompound.pdf> <../msc-thesis-code/data/dataExploration/plots/proteinDistributionpH_temp.pdf>] (Chapters/Methods/features/surfaceEmbedding.tex
+Underfull \hbox (badness 1874) in paragraph at lines 3--4
+\T1/ppl/m/n/10.95 As shown in [][]sub-sec-tion 2.3.2[][][], sur-face fea-tures pro-vide pre-dic-tive value for
+ []
+
+
+Underfull \hbox (badness 1454) in paragraph at lines 5--8
+[][]\T1/ppl/m/n/10.95 2020[][]), which in-tro-duced a ge-o-met-ric deep-learning frame-work for ex-tract-ing
+ []
+
+
+Underfull \hbox (badness 1681) in paragraph at lines 5--8
+\T1/ppl/m/n/10.95 de-rived from the solvent-accessible sur-face. Each ver-tex is an-no-tated with
+ []
+
+
+Underfull \hbox (badness 1735) in paragraph at lines 5--8
+\T1/ppl/m/n/10.95 ge-o-met-ric fea-tures, such as cur-va-ture, nor-mals, and geodesic dis-tances and
+ []
+
+<../msc-thesis-code/data/dataExploration/plots/reconstruction.png, id=2264, 363.2858pt x 158.09062pt>
 File: ../msc-thesis-code/data/dataExploration/plots/reconstruction.png Graphic file (type png)
 <use ../msc-thesis-code/data/dataExploration/plots/reconstruction.png>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/reconstruction.png  used on input line 18.
 (pdftex.def)             Requested size: 181.81184pt x 79.11748pt.
-<../msc-thesis-code/data/dataExploration/plots/reconstruction2.png, id=2263, 363.2858pt x 158.09062pt>
+<../msc-thesis-code/data/dataExploration/plots/reconstruction2.png, id=2265, 363.2858pt x 158.09062pt>
 File: ../msc-thesis-code/data/dataExploration/plots/reconstruction2.png Graphic file (type png)
 <use ../msc-thesis-code/data/dataExploration/plots/reconstruction2.png>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/reconstruction2.png  used on input line 22.
 (pdftex.def)             Requested size: 181.81184pt x 79.11748pt.
+
+Underfull \hbox (badness 6364) in paragraph at lines 24--24
+ []\T1/ppl/m/sc/10 Figure 3.3: |\T1/ppl/m/n/10 Ex-am-ples of orig-i-nal (blue) and la-tent space 
+ []
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
 [43]
-<Media/binding_site9ewo.png, id=2277, 680.5425pt x 737.75626pt>
+<Media/binding_site9ewo.png, id=2279, 680.5425pt x 737.75626pt>
 File: Media/binding_site9ewo.png Graphic file (type png)
 <use Media/binding_site9ewo.png>
 Package pdftex.def Info: Media/binding_site9ewo.png  used on input line 37.
 (pdftex.def)             Requested size: 101.00726pt x 109.49916pt.
-<Media/binding_site2fz3.png, id=2278, 680.5425pt x 737.75626pt>
+<Media/binding_site2fz3.png, id=2280, 680.5425pt x 737.75626pt>
 File: Media/binding_site2fz3.png Graphic file (type png)
 <use Media/binding_site2fz3.png>
 Package pdftex.def Info: Media/binding_site2fz3.png  used on input line 41.
 (pdftex.def)             Requested size: 101.00726pt x 109.49916pt.
 
-Overfull \hbox (16.92398pt too wide) in paragraph at lines 47--50
-[][]\T1/ppl/m/n/10.95 Yuan \T1/ppl/m/it/10.95 et al\T1/ppl/m/n/10.95 . ([][]2023[][]) im-ple-ment a sim-i-lar ap-proach called Pro-tein-MAE, a self-supervised
+Underfull \hbox (badness 3219) in paragraph at lines 47--50
+[][]\T1/ppl/m/n/10.95 Yuan \T1/ppl/m/it/10.95 et al\T1/ppl/m/n/10.95 . ([][]2023[][]) im-ple-ment a sim-i-lar ap-proach called Pro-tein-MAE, a
+ []
+
+
+Underfull \hbox (badness 4647) in paragraph at lines 47--50
+\T1/ppl/m/n/10.95 self-supervised frame-work that learns pro-tein sur-face rep-re-sen-ta-tions from
+ []
+
+
+Underfull \hbox (badness 1077) in paragraph at lines 47--50
+\T1/ppl/m/n/10.95 large amounts of un-la-beled struc-tural data. Af-ter pre-train-ing, the model is
+ []
+
+
+Underfull \hbox (badness 3029) in paragraph at lines 47--50
+\T1/ppl/m/n/10.95 fine-tuned for down-stream tasks such as binding-site iden-ti-fi-ca-tion, pocket
+ []
+
+
+Underfull \hbox (badness 1874) in paragraph at lines 47--50
+\T1/ppl/m/n/10.95 clas-si-fi-ca-tion, and pro-tein^^Uprotein in-ter-ac-tion pre-dic-tion. Ex-per-i-ments show
+ []
+
+
+Underfull \hbox (badness 6032) in paragraph at lines 47--50
+\T1/ppl/m/n/10.95 that Pro-tein-MAE im-proves per-for-mance across all tasks, achieves re-sults
+ []
+
+
+Underfull \hbox (badness 1215) in paragraph at lines 47--50
+\T1/ppl/m/n/10.95 com-pa-ra-ble to state-of-the-art meth-ods, and does so with sig-nif-i-cantly lower
  []
 
 
 
 [44 <../msc-thesis-code/data/dataExploration/plots/reconstruction.png> <../msc-thesis-code/data/dataExploration/plots/reconstruction2.png> <./Media/binding_site9ewo.png> <./Media/binding_site2fz3.png>]) (Chapters/Methods/features/surfaceInformation.tex
-Overfull \hbox (7.1706pt too wide) in paragraph at lines 21--22
-\T1/ppl/m/n/10.95 is hy-dropho-bic. Hy-dropho-bic sur-face re-gions fre-quently con-tribute to pro-tein^^Uprotein
+Underfull \hbox (badness 1648) in paragraph at lines 2--4
+\T1/ppl/m/n/10.95 se-quence, as crys-tal-liza-tion is strongly in-flu-enced by in-ter-molec-u-lar con-tacts
  []
 
-) (Chapters/Methods/features/structureEmbedding.tex
+
+Underfull \hbox (badness 3158) in paragraph at lines 11--12
+\T1/ppl/m/n/10.95 by hy-dropho-bic atoms. Hy-dropho-bic sur-face patches of-ten par-tic-i-pate in
+ []
+
+
+Underfull \hbox (badness 1997) in paragraph at lines 21--22
+\T1/ppl/m/n/10.95 that is hy-dropho-bic. Hy-dropho-bic sur-face re-gions fre-quently con-tribute to
+ []
+
+)
+Underfull \hbox (badness 1406) in paragraph at lines 27--13
+\T1/ppl/m/n/10.95 quan-tity such as se-quence length or sur-face area, en-abling size-independent
+ []
+
+(Chapters/Methods/features/structureEmbedding.tex
 
 [45]
-Overfull \hbox (14.86841pt too wide) in paragraph at lines 3--4
-\T1/ppl/m/n/10.95 To rep-re-sent the struc-ture of a given pro-tein, the [][][][][]Pro-tein structure-sequence T5[][] (ProstT5)[][]
+Underfull \hbox (badness 1365) in paragraph at lines 5--6
+\T1/ppl/m/n/10.95 is en-coded us-ing the 3Di struc-tural al-pha-bet de-vel-oped by Fold-seek, where
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 5--6
+\T1/ppl/m/n/10.95 ^^Pi^^Q de-notes the cur-rent residue po-si-tion in the pro-tein se-quence, which was
  []
 
 
 
 [46]) (Chapters/Methods/features/conditionEmbedding.tex
+Underfull \hbox (badness 1635) in paragraph at lines 5--6
+\T1/ppl/m/n/10.95 re-flects un-der-ly-ing physic-o-chem-i-cal char-ac-ter-is-tics. To em-bed crys-tal-liza-tion
+ []
+
+
+Underfull \hbox (badness 4927) in paragraph at lines 14--15
+\T1/ppl/m/n/10.95 mak-ing it well suited for com-pu-ta-tional mod-el-ing and ma-chine learn-ing
+ []
+
+
+Underfull \hbox (badness 1590) in paragraph at lines 16--17
+[]\T1/ppl/m/n/10.95 The [][][]SMILES[][] code for the chem-i-cals was tracked down us-ing [][]Pub-Chem[][].
+ []
+
+
 
 [47])) (Chapters/Methods/model_architecture.tex
+Underfull \hbox (badness 1377) in paragraph at lines 80--80
+ []\T1/ppl/m/sc/10 Figure 3.5: |\T1/ppl/m/n/10 Sim-pli-fied overview of the pro-posed two-module 
+ []
+
+
 
 [48]
-Overfull \hbox (9.49228pt too wide) in paragraph at lines 122--124
-\T1/ppl/m/n/10.95 where $\OML/zplm/m/it/10.95 ^^^\OT1/zplm/m/n/10.95 (\OMS/zplm/m/n/10.95 ^^A\OT1/zplm/m/n/10.95 )$ \T1/ppl/m/n/10.95 de-notes the GELU ac-ti-va-tion, $[]$ de-notes layer nor-mal-iza-tion, and dropout
+Underfull \hbox (badness 2512) in paragraph at lines 86--87
+[]\T1/ppl/m/n/10.95 The ar-chi-tec-ture is de-signed around three prin-ci-ples. First, it han-dles
+ []
+
+
+Underfull \hbox (badness 2529) in paragraph at lines 88--89
+[]\T1/ppl/m/n/10.95 An im-por-tant ad-van-tage of this de-sign is that domain-specific fea-tures,
  []
 
 
 
 [49]
-Overfull \hbox (0.9963pt too wide) in paragraph at lines 157--158
- []\T1/ppl/b/n/10.95 Scoring Func-tion and Rank-ing In-ter-pre-ta-tion[] \T1/ppl/m/n/10.95 Af-ter ob-tain-ing the nor-mal-ized pro-
+Underfull \hbox (badness 1132) in paragraph at lines 127--130
+\T1/ppl/m/n/10.95 con-cen-tra-tion and to-kens of the chem-i-cals. Each to-ken rep-re-sents a unique
  []
 
-) (Chapters/Methods/training.tex (Chapters/Methods/training/model_pipeline.tex
 
-[50]
-
-[51]) (Chapters/Methods/training/hyperparameter_tuning.tex
-Overfull \hbox (2.39708pt too wide) in paragraph at lines 9--10
-[]\T1/ppl/m/n/10.95 Additionally, \T1/cmtt/m/n/10.95 Optuna \T1/ppl/m/n/10.95 sup-ports \T1/ppl/m/it/10.95 prun-ing\T1/ppl/m/n/10.95 , which ter-mi-nates un-promis-ing tri-als early
+Underfull \hbox (badness 2990) in paragraph at lines 157--158
+\T1/ppl/m/n/10.95 pro-tein and con-di-tion rep-re-sen-ta-tions, the model com-putes a sin-gle scalar
  []
 
-)) (Chapters/Methods/training/data_split.tex
 
-[52]
 
-[53]) (Chapters/Methods/training/evaluation_metric.tex
+[50]) (Chapters/Methods/training.tex (Chapters/Methods/training/model_pipeline.tex
+
+[51]
+Underfull \hbox (badness 1377) in paragraph at lines 62--65
+\T1/ppl/m/n/10.95 are mon-i-tored to en-sure sta-ble op-ti-miza-tion across dif-fer-ent branches of the
+ []
+
+) (Chapters/Methods/training/hyperparameter_tuning.tex
+Underfull \hbox (badness 1552) in paragraph at lines 3--4
+\T1/ppl/m/n/10.95 Hyperparameter tun-ing was per-formed us-ing [][]\T1/cmtt/m/n/10.95 Optuna[][] \T1/ppl/m/n/10.95 ([]Ak-iba \T1/ppl/m/it/10.95 et al\T1/ppl/m/n/10.95 ., [][]2019[][]) to
+ []
+
+
+Underfull \hbox (badness 1127) in paragraph at lines 3--4
+\T1/ppl/m/n/10.95 rate, reg-u-lar-iza-tion, and ar-chi-tec-tural set-tings), an ef-fi-cient search strat-egy is
+ []
+
+
+
+[52])
+Overfull \hbox (12.70174pt too wide) in paragraph at lines 13--5
+[]\T1/ppl/m/n/10.95 In sum-mary, \T1/cmtt/m/n/10.95 Optuna \T1/ppl/m/n/10.95 pro-vides a flex-i-ble and ef-fi-cient frame-work for hy-per-pa-ram-e-ter
+ []
+
+) (Chapters/Methods/training/data_split.tex
+
+[53]
+Underfull \hbox (badness 3078) in paragraph at lines 19--20
+[]\T1/ppl/m/n/10.95 Lower iden-tity thresh-olds pro-duce broader clus-ters that group to-gether
+ []
+
+) (Chapters/Methods/training/evaluation_metric.tex
+Underfull \hbox (badness 1038) in paragraph at lines 23--1
+\T1/ppl/m/n/10.95 pro-vides a more com-pre-hen-sive un-der-stand-ing of its gen-er-al-iza-tion be-hav-ior,
+ []
+
+
+Underfull \hbox (badness 5431) in paragraph at lines 3--4
+\T1/ppl/m/n/10.95 crys-tal-liza-tion con-di-tion. Be-cause lab-o-ra-tory ex-per-i-ments are costly and
+ []
+
+
 
 [54]
+Overfull \hbox (1.79991pt too wide) in paragraph at lines 7--8
+[]\T1/ppl/m/n/10.95 In prac-tice, crys-tal-lo-g-ra-phers fre-quently re-port only one suc-cess-ful crys-tal-liza-tion
+ []
+
+
+Underfull \hbox (badness 3724) in paragraph at lines 9--11
+[]\T1/ppl/m/n/10.95 This im-bal-ance has im-por-tant im-pli-ca-tions for both model de-sign and
+ []
+
+
 Overfull \hbox (4.73663pt too wide) in paragraph at lines 29--31
 \T1/ppl/m/n/10.95 where $\OML/zplm/m/it/10.95 s[]$ \T1/ppl/m/n/10.95 de-notes scores of pos-i-tive (i.e., ex-per-i-men-tally suc-cess-ful) protein--condition
  []
 
 
+Underfull \hbox (badness 2073) in paragraph at lines 34--35
+[]\T1/ppl/m/n/10.95 After trans-lat-ing the scores of the model the task is re-for-mu-lated as a
+ []
 
-[55]))
+
+
+[55]
+Underfull \hbox (badness 2469) in paragraph at lines 37--38
+ [][][][]\T1/ppl/b/n/10.95 Area un-der the Receiver-Operating Curve (AU-ROC)[][][] \T1/ppl/m/n/10.95 To as-sess the global
+ []
+
+))
 
 [56]
 \openout2 = `Chapters/Results.aux'.
 
  (Chapters/Results.tex
 Chapter 4.
+
+Underfull \hbox (badness 1242) in paragraph at lines 2--3
+\T1/ppl/m/n/10.95 per-for-mance is as-sessed on both the [][][]PDB[][] and [][][]CRIMS[][] datasets, high-light-ing
+ []
+
+
+Underfull \hbox (badness 2318) in paragraph at lines 2--3
+\T1/ppl/m/n/10.95 of model de-sign choices is ex-am-ined through a sys-tem-atic hy-per-pa-ram-e-ter
+ []
+
+
+Underfull \hbox (badness 1226) in paragraph at lines 2--3
+\T1/ppl/m/n/10.95 ef-fects and fea-ture ab-la-tions, to bet-ter un-der-stand the fac-tors driv-ing model
+ []
+
 (Chapters/Results/evaluation.tex
-<../msc-thesis-code/data/dataExploration/plots/prediction_score_distribution.pdf, id=2474, 867.24pt x 289.08pt>
+Underfull \hbox (badness 2393) in paragraph at lines 3--4
+\T1/ppl/m/n/10.95 While the [][][]PDB[][] of-fers a high va-ri-ety in pro-teins the con-di-tion vari-ance is
+ []
+
+
+Underfull \hbox (badness 1210) in paragraph at lines 6--7
+\T1/ppl/m/n/10.95 of the model was eval-u-ated us-ing the met-rics de-scribed in [][]sub-sec-tion 3.4.2[][][].
+ []
+
+<../msc-thesis-code/data/dataExploration/plots/prediction_score_distribution.pdf, id=2477, 867.24pt x 289.08pt>
 File: ../msc-thesis-code/data/dataExploration/plots/prediction_score_distribution.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/prediction_score_distribution.pdf>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/prediction_score_distribution.pdf  used on input line 10.
 (pdftex.def)             Requested size: 404.02908pt x 134.67664pt.
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -2101,96 +2855,160 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 ]
-<../msc-thesis-code/data/dataExploration/plots/roc_confusion_pdb.pdf, id=2481, 867.24pt x 289.08pt>
-File: ../msc-thesis-code/data/dataExploration/plots/roc_confusion_pdb.pdf Graphic file (type pdf)
-<use ../msc-thesis-code/data/dataExploration/plots/roc_confusion_pdb.pdf>
-Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/roc_confusion_pdb.pdf  used on input line 27.
-(pdftex.def)             Requested size: 404.02908pt x 134.67664pt.
+
+pdfTeX warning: pdflatex (file ../msc-thesis-code/data/dataExploration/plots/roc_confusion_pdb_cropped.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<../msc-thesis-code/data/dataExploration/plots/roc_confusion_pdb_cropped.pdf, id=2484, 725.71124pt x 252.44313pt>
+File: ../msc-thesis-code/data/dataExploration/plots/roc_confusion_pdb_cropped.pdf Graphic file (type pdf)
+<use ../msc-thesis-code/data/dataExploration/plots/roc_confusion_pdb_cropped.pdf>
+Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/roc_confusion_pdb_cropped.pdf  used on input line 32.
+(pdftex.def)             Requested size: 404.02908pt x 140.5467pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-[58 <../msc-thesis-code/data/dataExploration/plots/prediction_score_distribution.pdf> <../msc-thesis-code/data/dataExploration/plots/roc_confusion_pdb.pdf>]
+LaTeX Warning: Reference `fig:recallAtTopK' on page 58 undefined on input line 44.
 
-[59]
-<../msc-thesis-code/data/dataExploration/plots/score_distribution_roc_pr_curve_crims.pdf, id=2608, 1047.915pt x 361.35pt>
-File: ../msc-thesis-code/data/dataExploration/plots/score_distribution_roc_pr_curve_crims.pdf Graphic file (type pdf)
-<use ../msc-thesis-code/data/dataExploration/plots/score_distribution_roc_pr_curve_crims.pdf>
-Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/score_distribution_roc_pr_curve_crims.pdf  used on input line 61.
-(pdftex.def)             Requested size: 404.02908pt x 139.31592pt.
 
-Overfull \hbox (9.2403pt too wide) in paragraph at lines 68--69
-\T1/ppl/m/n/10.95 pos-i-tive class, as well as [][][]AU-ROC[][] and [][][]Area un-der the Precision-Recall Curve (AUPRC)[][].
+Underfull \hbox (badness 3386) in paragraph at lines 46--47
+\T1/ppl/m/n/10.95 clas-si-fies $\OT1/ppl/m/n/10.95 75%$ \T1/ppl/m/n/10.95 of pos-i-tive sam-ples (crys-tals) and $\OT1/ppl/m/n/10.95 78%$ \T1/ppl/m/n/10.95 of neg-a-tive sam-ples
  []
 
+
+
+[58 <../msc-thesis-code/data/dataExploration/plots/prediction_score_distribution.pdf>]
+Underfull \hbox (badness 1210) in paragraph at lines 58--59
+\T1/ppl/m/n/10.95 cap-tures mean-ing-ful sig-nals re-lated to crys-tal-liza-tion suc-cess. How-ever, the
+ []
+
+
+
+[59 <../msc-thesis-code/data/dataExploration/plots/roc_confusion_pdb_cropped.pdf>]
+Underfull \hbox (badness 2277) in paragraph at lines 66--67
+\T1/ppl/m/n/10.95 ef-fec-tively to un-seen ex-per-i-men-tal data, cap-tur-ing rel-e-vant struc-ture in the
+ []
+
+<../msc-thesis-code/data/dataExploration/plots/score_distribution_roc_pr_curve_crims.pdf, id=2619, 1047.915pt x 361.35pt>
+File: ../msc-thesis-code/data/dataExploration/plots/score_distribution_roc_pr_curve_crims.pdf Graphic file (type pdf)
+<use ../msc-thesis-code/data/dataExploration/plots/score_distribution_roc_pr_curve_crims.pdf>
+Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/score_distribution_roc_pr_curve_crims.pdf  used on input line 70.
+(pdftex.def)             Requested size: 404.02908pt x 139.31592pt.
 
 
 [60 <../msc-thesis-code/data/dataExploration/plots/score_distribution_roc_pr_curve_crims.pdf>]
-Overfull \hbox (1.5707pt too wide) in paragraph at lines 70--71
-[]\T1/ppl/m/n/10.95 Overall, the model demon-strates con-sis-tent im-prove-ments over the ran-dom base-
+Underfull \hbox (badness 1635) in paragraph at lines 95--96
+\T1/ppl/m/n/10.95 roughly 5.3 con-di-tions would pro-duce crys-tals. The model would iden-tify
  []
 
-<../msc-thesis-code/data/dataExploration/plots/model_performance_per_protein_cm.pdf, id=2694, 939.51pt x 267.39899pt>
-File: ../msc-thesis-code/data/dataExploration/plots/model_performance_per_protein_cm.pdf Graphic file (type pdf)
-<use ../msc-thesis-code/data/dataExploration/plots/model_performance_per_protein_cm.pdf>
-Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/model_performance_per_protein_cm.pdf  used on input line 88.
-(pdftex.def)             Requested size: 404.02908pt x 114.99156pt.
+
+Underfull \hbox (badness 1661) in paragraph at lines 97--98
+\T1/ppl/m/n/10.95 the degra-da-tion in per-for-mance on val-i-da-tion data and the re-main-ing class
+ []
+
 
 
 [61]
-Overfull \hbox (4.05553pt too wide) in paragraph at lines 93--95
-[]\T1/ppl/m/n/10.95 To fur-ther demon-strate the prac-ti-cal ap-pli-ca-bil-ity of the model in a re-al-is-tic screen-
+<../msc-thesis-code/data/dataExploration/plots/model_performance_per_protein_cm.pdf, id=2710, 939.51pt x 267.39899pt>
+File: ../msc-thesis-code/data/dataExploration/plots/model_performance_per_protein_cm.pdf Graphic file (type pdf)
+<use ../msc-thesis-code/data/dataExploration/plots/model_performance_per_protein_cm.pdf>
+Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/model_performance_per_protein_cm.pdf  used on input line 102.
+(pdftex.def)             Requested size: 404.02908pt x 114.99156pt.
+
+Underfull \hbox (badness 1496) in paragraph at lines 108--108
+ \T1/ppl/m/n/10 all met-rics in-clud-ing [][][]AUPRC[][] (B). The con-fu-sion ma-trix in (C) 
  []
 
-
-Overfull \hbox (3.51302pt too wide) in paragraph at lines 96--97
-\T1/ppl/m/n/10.95 like-li-hood of con-tain-ing crys-tals, po-ten-tially as-sist-ing re-searchers in pri-or-i-tiz-ing wells
- []
-
-<../msc-thesis-code/data/dataExploration/plots/plate_predictions.pdf, id=2702, 867.24pt x 289.08pt>
+<../msc-thesis-code/data/dataExploration/plots/plate_predictions.pdf, id=2716, 867.24pt x 289.08pt>
 File: ../msc-thesis-code/data/dataExploration/plots/plate_predictions.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/plate_predictions.pdf>
-Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/plate_predictions.pdf  used on input line 100.
+Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/plate_predictions.pdf  used on input line 119.
 (pdftex.def)             Requested size: 404.02908pt x 134.67664pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 ) (Chapters/Results/hyperparameter_optimization.tex
 
-[62 <../msc-thesis-code/data/dataExploration/plots/model_performance_per_protein_cm.pdf> <../msc-thesis-code/data/dataExploration/plots/plate_predictions.pdf>]
-<../msc-thesis-code/data/dataExploration/plots/model_sizes.pdf, id=2804, 722.7pt x 289.08pt>
+[62 <../msc-thesis-code/data/dataExploration/plots/model_performance_per_protein_cm.pdf>]
+<../msc-thesis-code/data/dataExploration/plots/model_sizes.pdf, id=2779, 722.7pt x 289.08pt>
 File: ../msc-thesis-code/data/dataExploration/plots/model_sizes.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/model_sizes.pdf>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/model_sizes.pdf  used on input line 14.
 (pdftex.def)             Requested size: 404.02908pt x 161.6102pt.
 
 
-[63 <../msc-thesis-code/data/dataExploration/plots/model_sizes.pdf>]
-<../msc-thesis-code/data/dataExploration/plots/hyperparameter_importances.pdf, id=2856, 462.52798pt x 346.89601pt>
+[63 <../msc-thesis-code/data/dataExploration/plots/plate_predictions.pdf> <../msc-thesis-code/data/dataExploration/plots/model_sizes.pdf>]
+Underfull \hbox (badness 3354) in paragraph at lines 28--29
+\T1/ppl/m/n/10.95 the rel-e-vance of bal-anc-ing the protein-to-condition and condition-to-protein
+ []
+
+
+Underfull \hbox (badness 1675) in paragraph at lines 34--35
+\T1/ppl/m/n/10.95 ob-jec-tive, and 3. ap-pro-pri-ate reg-u-lar-iza-tion, while lower-level op-ti-miza-tion
+ []
+
+<../msc-thesis-code/data/dataExploration/plots/hyperparameter_importances.pdf, id=2870, 462.52798pt x 346.89601pt>
 File: ../msc-thesis-code/data/dataExploration/plots/hyperparameter_importances.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/hyperparameter_importances.pdf>
-Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/hyperparameter_importances.pdf  used on input line 35.
+Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/hyperparameter_importances.pdf  used on input line 38.
 (pdftex.def)             Requested size: 242.4199pt x 181.81612pt.
 ) (Chapters/Results/interpretation.tex
+Underfull \hbox (badness 1092) in paragraph at lines 4--5
+\T1/ppl/m/n/10.95 To as-sess how well the model gen-er-al-izes to struc-turally dis-sim-i-lar pro-teins,
+ []
+
+
 
 [64 <../msc-thesis-code/data/dataExploration/plots/hyperparameter_importances.pdf>]
-<../msc-thesis-code/data/dataExploration/plots/humology.pdf, id=2917, 722.7pt x 289.08pt>
+<../msc-thesis-code/data/dataExploration/plots/humology.pdf, id=2931, 722.7pt x 289.08pt>
 File: ../msc-thesis-code/data/dataExploration/plots/humology.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/humology.pdf>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/humology.pdf  used on input line 16.
 (pdftex.def)             Requested size: 404.02908pt x 161.6102pt.
 
+Underfull \hbox (badness 1460) in paragraph at lines 26--28
+\T1/ppl/m/n/10.95 To bet-ter un-der-stand the con-tri-bu-tion of in-di-vid-ual in-put fea-tures to model
+ []
+
+
 
 [65 <../msc-thesis-code/data/dataExploration/plots/humology.pdf>]
-<../msc-thesis-code/data/dataExploration/plots/ablationStudy_without_surface.pdf, id=2974, 939.51pt x 289.08pt>
+Underfull \hbox (badness 1824) in paragraph at lines 29--30
+[]\T1/ppl/m/n/10.95 Across both met-rics, dis-abling the \T1/ppl/m/it/10.95 struc-ture em-bed-ding \T1/ppl/m/n/10.95 leads to the most
+ []
+
+
+Underfull \hbox (badness 4505) in paragraph at lines 31--32
+[]\T1/ppl/m/n/10.95 Removing \T1/ppl/m/it/10.95 se-quence in-for-ma-tion \T1/ppl/m/n/10.95 also re-sults in a no-tice-able per-for-mance
+ []
+
+
+Underfull \hbox (badness 2073) in paragraph at lines 39--40
+\T1/ppl/m/n/10.95 power when used alone, per-form-ing sub-stan-tially bet-ter than sev-eral other
+ []
+
+<../msc-thesis-code/data/dataExploration/plots/ablationStudy_without_surface.pdf, id=2991, 939.51pt x 289.08pt>
 File: ../msc-thesis-code/data/dataExploration/plots/ablationStudy_without_surface.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/ablationStudy_without_surface.pdf>
-Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/ablationStudy_without_surface.pdf  used on input line 35.
+Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/ablationStudy_without_surface.pdf  used on input line 48.
 (pdftex.def)             Requested size: 404.02908pt x 124.3152pt.
 
 
-[66 <../msc-thesis-code/data/dataExploration/plots/ablationStudy_without_surface.pdf>]
+[66]
+Underfull \hbox (badness 3417) in paragraph at lines 58--59
+\T1/ppl/m/n/10.95 To bet-ter un-der-stand how train-ing set size and com-po-si-tion af-fect model
+ []
 
-[67]
-<../msc-thesis-code/data/dataExploration/plots/dataProportionPerformance.pdf, id=3035, 867.24pt x 289.08pt>
+
+Underfull \hbox (badness 2158) in paragraph at lines 58--59
+\T1/ppl/m/n/10.95 per-for-mance, an ad-di-tional ab-la-tion study was con-ducted in which only a
+ []
+
+
+
+[67 <../msc-thesis-code/data/dataExploration/plots/ablationStudy_without_surface.pdf>]
+<../msc-thesis-code/data/dataExploration/plots/dataProportionPerformance.pdf, id=3054, 867.24pt x 289.08pt>
 File: ../msc-thesis-code/data/dataExploration/plots/dataProportionPerformance.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/dataProportionPerformance.pdf>
-Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/dataProportionPerformance.pdf  used on input line 60.
+Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/dataProportionPerformance.pdf  used on input line 70.
 (pdftex.def)             Requested size: 404.02908pt x 134.67664pt.
 ))
 
@@ -2200,6 +3018,11 @@ Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/dataPropo
  (Chapters/Discussion.tex
 Chapter 5.
 
+Underfull \hbox (badness 4531) in paragraph at lines 18--19
+[]\T1/ppl/m/n/10.95 Redundancy in the [][][]PDB[][] in-tro-duces risks of mem-o-riza-tion, even with
+ []
+
+
 
 [69
 
@@ -2207,85 +3030,110 @@ Chapter 5.
 
 
 ]
-Overfull \hbox (5.65047pt too wide) in paragraph at lines 37--38
-[]\T1/ppl/b/n/10.95 Model gen-er-al-iza-tion\T1/ppl/m/n/10.95 : Per-for-mance degra-da-tion on un-seen data in-di-cates over-
+Underfull \hbox (badness 4479) in paragraph at lines 26--27
+[]\T1/ppl/m/n/10.95 Additionally, con-trastive learn-ing in-tro-duces its own chal-lenges. The
+ []
+
+
+Underfull \hbox (badness 3525) in paragraph at lines 28--29
+\T1/ppl/m/n/10.95 bot-tle-neck. While the use of struc-tured em-bed-dings im-proves over raw
+ []
+
+
+Underfull \hbox (badness 3417) in paragraph at lines 39--40
+[]\T1/ppl/b/n/10.95 Evaluation con-straints\T1/ppl/m/n/10.95 : The ab-sence of stan-dard-ized bench-marks for
  []
 
 
 
-[70])
+[70]
+Underfull \hbox (badness 3612) in paragraph at lines 66--67
+[]\T1/ppl/b/n/10.95 Incorporation of struc-tural in-for-ma-tion\T1/ppl/m/n/10.95 : The ab-la-tion study showed
+ []
 
-[71]
+
+Underfull \hbox (badness 3396) in paragraph at lines 67--68
+[]\T1/ppl/b/n/10.95 Hybrid ap-proaches\T1/ppl/m/n/10.95 : Com-bin-ing ma-chine learn-ing with physics-based
+ []
+
+
+Underfull \hbox (badness 1430) in paragraph at lines 68--69
+[]\T1/ppl/b/n/10.95 De-Novo Pre-dic-tion\T1/ppl/m/n/10.95 : Rather than scor-ing com-bi-na-tions of pro-tein and
+ []
+
+
+
+[71])
+
+[72]
 \openout2 = `Appendices/AppendixA.aux'.
 
  (Appendices/AppendixA.tex
-
-[72
-
-
-
-
-]
 Appendix A.
 
-Overfull \hbox (88.7249pt too wide) in paragraph at lines 6--7
+Overfull \hbox (45.9755pt too wide) in paragraph at lines 6--7
 [][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (115.00511pt too wide) in paragraph at lines 11--12
+Overfull \hbox (69.97574pt too wide) in paragraph at lines 11--12
 [][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (36.16447pt too wide) in paragraph at lines 31--32
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+Overfull \hbox (81.97586pt too wide) in paragraph at lines 31--32
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (36.16447pt too wide) in paragraph at lines 32--33
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+Overfull \hbox (81.97586pt too wide) in paragraph at lines 32--33
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (36.16447pt too wide) in paragraph at lines 33--34
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+Overfull \hbox (81.97586pt too wide) in paragraph at lines 33--34
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (36.16447pt too wide) in paragraph at lines 34--35
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+Overfull \hbox (81.97586pt too wide) in paragraph at lines 34--35
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-<../msc-thesis-code/data/dataExploration/plots/phGivenVsParsedpH.pdf, id=3128, 361.35pt x 289.08pt>
+<../msc-thesis-code/data/dataExploration/plots/phGivenVsParsedpH.pdf, id=3158, 361.35pt x 289.08pt>
 File: ../msc-thesis-code/data/dataExploration/plots/phGivenVsParsedpH.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/phGivenVsParsedpH.pdf>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/phGivenVsParsedpH.pdf  used on input line 41.
 (pdftex.def)             Requested size: 197.56958pt x 158.05493pt.
-<../msc-thesis-code/data/dataExploration/plots/tempGivenVsParsedTemp.pdf, id=3129, 361.35pt x 289.08pt>
+<../msc-thesis-code/data/dataExploration/plots/tempGivenVsParsedTemp.pdf, id=3159, 361.35pt x 289.08pt>
 File: ../msc-thesis-code/data/dataExploration/plots/tempGivenVsParsedTemp.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/tempGivenVsParsedTemp.pdf>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/tempGivenVsParsedTemp.pdf  used on input line 48.
 (pdftex.def)             Requested size: 197.56958pt x 158.05493pt.
 
+Underfull \hbox (badness 1092) in paragraph at lines 52--52
+ \T1/ppl/m/n/10 pH val-ues re-ported in free text for dif-fer-ent so-lu-tions leads to 
+ []
+
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../msc-thesis-code/data/dataExploration/plots/gravyHist.pdf, id=3134, 462.52798pt x 346.89601pt>
+<../msc-thesis-code/data/dataExploration/plots/gravyHist.pdf, id=3164, 462.52798pt x 346.89601pt>
 File: ../msc-thesis-code/data/dataExploration/plots/gravyHist.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/gravyHist.pdf>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/gravyHist.pdf  used on input line 61.
 (pdftex.def)             Requested size: 199.99242pt x 149.99341pt.
-<../msc-thesis-code/data/dataExploration/plots/aromHist.pdf, id=3135, 462.52798pt x 346.89601pt>
+<../msc-thesis-code/data/dataExploration/plots/aromHist.pdf, id=3165, 462.52798pt x 346.89601pt>
 File: ../msc-thesis-code/data/dataExploration/plots/aromHist.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/aromHist.pdf>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/aromHist.pdf  used on input line 67.
 (pdftex.def)             Requested size: 199.99242pt x 149.99341pt.
-<../msc-thesis-code/data/dataExploration/plots/pIHist.pdf, id=3136, 462.52798pt x 346.89601pt>
+<../msc-thesis-code/data/dataExploration/plots/pIHist.pdf, id=3166, 462.52798pt x 346.89601pt>
 File: ../msc-thesis-code/data/dataExploration/plots/pIHist.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/pIHist.pdf>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/pIHist.pdf  used on input line 73.
 (pdftex.def)             Requested size: 199.99242pt x 149.99341pt.
-<../msc-thesis-code/data/dataExploration/plots/mwHist.pdf, id=3137, 462.52798pt x 346.89601pt>
+<../msc-thesis-code/data/dataExploration/plots/mwHist.pdf, id=3167, 462.52798pt x 346.89601pt>
 File: ../msc-thesis-code/data/dataExploration/plots/mwHist.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/mwHist.pdf>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/mwHist.pdf  used on input line 79.
@@ -2293,25 +3141,30 @@ Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/mwHist.pd
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../msc-thesis-code/data/dataExploration/plots/temperatureDistribution.pdf, id=3148, 462.52798pt x 346.89601pt>
+<../msc-thesis-code/data/dataExploration/plots/temperatureDistribution.pdf, id=3178, 462.52798pt x 346.89601pt>
 File: ../msc-thesis-code/data/dataExploration/plots/temperatureDistribution.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/temperatureDistribution.pdf>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/temperatureDistribution.pdf  used on input line 95.
 (pdftex.def)             Requested size: 199.99242pt x 149.99341pt.
-<../msc-thesis-code/data/dataExploration/plots/phDistribution.pdf, id=3149, 462.52798pt x 346.89601pt>
+<../msc-thesis-code/data/dataExploration/plots/phDistribution.pdf, id=3179, 462.52798pt x 346.89601pt>
 File: ../msc-thesis-code/data/dataExploration/plots/phDistribution.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/phDistribution.pdf>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/phDistribution.pdf  used on input line 101.
 (pdftex.def)             Requested size: 199.99242pt x 149.99341pt.
 
+Underfull \hbox (badness 1521) in paragraph at lines 105--105
+ []\T1/ppl/m/sc/10 Figure A.3: |\T1/ppl/m/n/10 Dis-tri-bu-tion of nu-mer-i-cal fields in the con-di-tion 
+ []
+
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../msc-thesis-code/data/dataExploration/plots/classifiedConcentration.pdf, id=3154, 359.93723pt x 272.42433pt>
+<../msc-thesis-code/data/dataExploration/plots/classifiedConcentration.pdf, id=3184, 359.93723pt x 272.42433pt>
 File: ../msc-thesis-code/data/dataExploration/plots/classifiedConcentration.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/classifiedConcentration.pdf>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/classifiedConcentration.pdf  used on input line 114.
 (pdftex.def)             Requested size: 197.56958pt x 149.5387pt.
-<../msc-thesis-code/data/dataExploration/plots/weight_per_volume_specification_ratio.pdf, id=3155, 361.35pt x 289.08pt>
+<../msc-thesis-code/data/dataExploration/plots/weight_per_volume_specification_ratio.pdf, id=3185, 361.35pt x 289.08pt>
 File: ../msc-thesis-code/data/dataExploration/plots/weight_per_volume_specification_ratio.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/weight_per_volume_specification_ratio.pdf>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/weight_per_volume_specification_ratio.pdf  used on input line 121.
@@ -2319,12 +3172,12 @@ Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/weight_pe
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../msc-thesis-code/data/dataExploration/plots/aminoAcidOccurence.pdf, id=3160, 361.35pt x 361.35pt>
+<../msc-thesis-code/data/dataExploration/plots/aminoAcidOccurence.pdf, id=3190, 361.35pt x 361.35pt>
 File: ../msc-thesis-code/data/dataExploration/plots/aminoAcidOccurence.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/aminoAcidOccurence.pdf>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/aminoAcidOccurence.pdf  used on input line 133.
 (pdftex.def)             Requested size: 197.97646pt x 197.9767pt.
-<../msc-thesis-code/data/dataExploration/plots/observedVsPredictedAminoAcidCount.pdf, id=3161, 361.35pt x 361.35pt>
+<../msc-thesis-code/data/dataExploration/plots/observedVsPredictedAminoAcidCount.pdf, id=3191, 361.35pt x 361.35pt>
 File: ../msc-thesis-code/data/dataExploration/plots/observedVsPredictedAminoAcidCount.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/observedVsPredictedAminoAcidCount.pdf>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/observedVsPredictedAminoAcidCount.pdf  used on input line 140.
@@ -2332,7 +3185,7 @@ Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/observedV
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../msc-thesis-code/data/dataExploration/plots/employmentMethodDistribution.pdf, id=3166, 462.52798pt x 346.89601pt>
+<../msc-thesis-code/data/dataExploration/plots/employmentMethodDistribution.pdf, id=3196, 462.52798pt x 346.89601pt>
 File: ../msc-thesis-code/data/dataExploration/plots/employmentMethodDistribution.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/employmentMethodDistribution.pdf>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/employmentMethodDistribution.pdf  used on input line 153.
@@ -2340,15 +3193,20 @@ Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/employmen
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<../msc-thesis-code/data/dataExploration/plots/correlation_ph_temp.pdf, id=3167, 578.16pt x 433.62pt>
+<../msc-thesis-code/data/dataExploration/plots/correlation_ph_temp.pdf, id=3197, 578.16pt x 433.62pt>
 File: ../msc-thesis-code/data/dataExploration/plots/correlation_ph_temp.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/correlation_ph_temp.pdf>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/correlation_ph_temp.pdf  used on input line 161.
 (pdftex.def)             Requested size: 242.4199pt x 181.81479pt.
 
 
-[73]
-<../msc-thesis-code/data/dataExploration/plots/db_code.pdf, id=3198, 446.3557pt x 330.7087pt>
+[73
+
+
+
+
+]
+<../msc-thesis-code/data/dataExploration/plots/db_code.pdf, id=3228, 446.3557pt x 330.7087pt>
 File: ../msc-thesis-code/data/dataExploration/plots/db_code.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/db_code.pdf>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/db_code.pdf  used on input line 168.
@@ -2356,32 +3214,32 @@ Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/db_code.p
 
 
 [74 <../msc-thesis-code/data/dataExploration/plots/phGivenVsParsedpH.pdf> <../msc-thesis-code/data/dataExploration/plots/tempGivenVsParsedTemp.pdf> <../msc-thesis-code/data/dataExploration/plots/correlation_ph_temp.pdf>]
-<../msc-thesis-code/data/dataExploration/plots/net_charge_normalizedVsChem.pdf, id=3317, 462.52798pt x 346.89601pt>
+<../msc-thesis-code/data/dataExploration/plots/net_charge_normalizedVsChem.pdf, id=3350, 462.52798pt x 346.89601pt>
 File: ../msc-thesis-code/data/dataExploration/plots/net_charge_normalizedVsChem.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/net_charge_normalizedVsChem.pdf>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/net_charge_normalizedVsChem.pdf  used on input line 178.
 (pdftex.def)             Requested size: 197.97646pt x 148.48483pt.
-<../msc-thesis-code/data/dataExploration/plots/surface_entropy_fractionVsChem.pdf, id=3318, 462.52798pt x 346.89601pt>
+<../msc-thesis-code/data/dataExploration/plots/surface_entropy_fractionVsChem.pdf, id=3351, 462.52798pt x 346.89601pt>
 File: ../msc-thesis-code/data/dataExploration/plots/surface_entropy_fractionVsChem.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/surface_entropy_fractionVsChem.pdf>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/surface_entropy_fractionVsChem.pdf  used on input line 185.
 (pdftex.def)             Requested size: 197.97646pt x 148.48483pt.
-<../msc-thesis-code/data/dataExploration/plots/sasa_skewnessVsChem.pdf, id=3319, 462.52798pt x 346.89601pt>
+<../msc-thesis-code/data/dataExploration/plots/sasa_skewnessVsChem.pdf, id=3352, 462.52798pt x 346.89601pt>
 File: ../msc-thesis-code/data/dataExploration/plots/sasa_skewnessVsChem.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/sasa_skewnessVsChem.pdf>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/sasa_skewnessVsChem.pdf  used on input line 191.
 (pdftex.def)             Requested size: 197.97646pt x 148.48483pt.
-<../msc-thesis-code/data/dataExploration/plots/sidechain_fractionVsChem.pdf, id=3320, 462.52798pt x 346.89601pt>
+<../msc-thesis-code/data/dataExploration/plots/sidechain_fractionVsChem.pdf, id=3353, 462.52798pt x 346.89601pt>
 File: ../msc-thesis-code/data/dataExploration/plots/sidechain_fractionVsChem.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/sidechain_fractionVsChem.pdf>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/sidechain_fractionVsChem.pdf  used on input line 198.
 (pdftex.def)             Requested size: 197.97646pt x 148.48483pt.
-<../msc-thesis-code/data/dataExploration/plots/roughnessVsChem.pdf, id=3321, 462.52798pt x 346.89601pt>
+<../msc-thesis-code/data/dataExploration/plots/roughnessVsChem.pdf, id=3354, 462.52798pt x 346.89601pt>
 File: ../msc-thesis-code/data/dataExploration/plots/roughnessVsChem.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/roughnessVsChem.pdf>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/roughnessVsChem.pdf  used on input line 204.
 (pdftex.def)             Requested size: 197.97646pt x 148.48483pt.
-<../msc-thesis-code/data/dataExploration/plots/hydro_polar_contrastVsChem.pdf, id=3322, 462.52798pt x 346.89601pt>
+<../msc-thesis-code/data/dataExploration/plots/hydro_polar_contrastVsChem.pdf, id=3355, 462.52798pt x 346.89601pt>
 File: ../msc-thesis-code/data/dataExploration/plots/hydro_polar_contrastVsChem.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/hydro_polar_contrastVsChem.pdf>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/hydro_polar_contrastVsChem.pdf  used on input line 211.
@@ -2390,36 +3248,41 @@ Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/hydro_pol
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../msc-thesis-code/data/dataExploration/plots/net_charge_normalized_ks_distance.pdf, id=3323, 433.62pt x 433.62pt>
+<../msc-thesis-code/data/dataExploration/plots/net_charge_normalized_ks_distance.pdf, id=3356, 433.62pt x 433.62pt>
 File: ../msc-thesis-code/data/dataExploration/plots/net_charge_normalized_ks_distance.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/net_charge_normalized_ks_distance.pdf>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/net_charge_normalized_ks_distance.pdf  used on input line 224.
 (pdftex.def)             Requested size: 197.97646pt x 197.9789pt.
-<../msc-thesis-code/data/dataExploration/plots/surface_entropy_fraction_ks_distance.pdf, id=3324, 433.62pt x 433.62pt>
+<../msc-thesis-code/data/dataExploration/plots/surface_entropy_fraction_ks_distance.pdf, id=3357, 433.62pt x 433.62pt>
 File: ../msc-thesis-code/data/dataExploration/plots/surface_entropy_fraction_ks_distance.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/surface_entropy_fraction_ks_distance.pdf>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/surface_entropy_fraction_ks_distance.pdf  used on input line 231.
 (pdftex.def)             Requested size: 197.97646pt x 197.9789pt.
-<../msc-thesis-code/data/dataExploration/plots/sasa_skewness_ks_distance.pdf, id=3325, 433.62pt x 433.62pt>
+<../msc-thesis-code/data/dataExploration/plots/sasa_skewness_ks_distance.pdf, id=3358, 433.62pt x 433.62pt>
 File: ../msc-thesis-code/data/dataExploration/plots/sasa_skewness_ks_distance.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/sasa_skewness_ks_distance.pdf>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/sasa_skewness_ks_distance.pdf  used on input line 237.
 (pdftex.def)             Requested size: 197.97646pt x 197.9789pt.
-<../msc-thesis-code/data/dataExploration/plots/sidechain_fraction_ks_distance.pdf, id=3326, 433.62pt x 433.62pt>
+<../msc-thesis-code/data/dataExploration/plots/sidechain_fraction_ks_distance.pdf, id=3359, 433.62pt x 433.62pt>
 File: ../msc-thesis-code/data/dataExploration/plots/sidechain_fraction_ks_distance.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/sidechain_fraction_ks_distance.pdf>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/sidechain_fraction_ks_distance.pdf  used on input line 244.
 (pdftex.def)             Requested size: 197.97646pt x 197.9789pt.
-<../msc-thesis-code/data/dataExploration/plots/roughness_ks_distance.pdf, id=3327, 433.62pt x 433.62pt>
+<../msc-thesis-code/data/dataExploration/plots/roughness_ks_distance.pdf, id=3360, 433.62pt x 433.62pt>
 File: ../msc-thesis-code/data/dataExploration/plots/roughness_ks_distance.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/roughness_ks_distance.pdf>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/roughness_ks_distance.pdf  used on input line 250.
 (pdftex.def)             Requested size: 197.97646pt x 197.9789pt.
-<../msc-thesis-code/data/dataExploration/plots/hydro_polar_contrast_ks_distance.pdf, id=3328, 433.62pt x 433.62pt>
+<../msc-thesis-code/data/dataExploration/plots/hydro_polar_contrast_ks_distance.pdf, id=3361, 433.62pt x 433.62pt>
 File: ../msc-thesis-code/data/dataExploration/plots/hydro_polar_contrast_ks_distance.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/hydro_polar_contrast_ks_distance.pdf>
 Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/hydro_polar_contrast_ks_distance.pdf  used on input line 257.
 (pdftex.def)             Requested size: 197.97646pt x 197.9789pt.
+
+Underfull \hbox (badness 1242) in paragraph at lines 262--262
+ []\T1/ppl/m/sc/10 Figure A.10: |\T1/ppl/m/n/10 Dis-tri-bu-tions of dif-fer-ent chem-i-cals for dif-fer-ent 
+ []
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -2456,6 +3319,26 @@ Overfull \hbox (48.53583pt too wide) in alignment at lines 34--39
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+[]|\T1/ppl/m/n/10.95 Grand Av-er-age of Hy-dropa-thy; av-er-age
+ []
+
+
+Underfull \hbox (badness 2582) in paragraph at lines 50--51
+\T1/ppl/m/n/10.95 hy-dropho-bic-ity of the se-quence, in-di-cat-ing
+ []
+
+
+Underfull \hbox (badness 2600) in paragraph at lines 58--59
+[]|\T1/ppl/m/n/10.95 Empirical score pre-dict-ing in vitro pro-tein
+ []
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 62--62
+[]|\T1/ppl/m/n/10.95 Count of each canon-i-cal amino acid in the
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 67--67
 []|\T1/ppl/m/n/10.95 480/
  []
@@ -2472,12 +3355,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 67--67
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 67--67
-[][][]\T1/ppl/m/n/10.95 ESM[][] model esm2_t12_35M_UR50D/
+[][][]\T1/ppl/m/n/10.95 ESM[][] model esm2_-t12_-35M_-UR50D/
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 67--67
-\T1/ppl/m/n/10.95 esm2_t30_150M_UR50D/
+\T1/ppl/m/n/10.95 esm2_-t30_-150M_-UR50D/
+ []
+
+
+Underfull \hbox (badness 1394) in paragraph at lines 73--74
+[]|\T1/ppl/m/n/10.95 Total molec-u-lar sur-face area of the pro-tein
  []
 
 
@@ -2486,13 +3374,58 @@ Underfull \hbox (badness 7433) in paragraph at lines 77--78
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--89
-[]|\T1/cmtt/m/n/10.95 hydrophobic_surface_
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+[]|\T1/ppl/m/n/10.95 Apolar (hy-dropho-bic) solvent-accessible
  []
 
 
-Underfull \hbox (badness 1112) in paragraph at lines 91--92
-\T1/ppl/m/n/10.95 chain con-for-ma-tional en-tropy (of-ten flex-i-ble
+Underfull \hbox (badness 10000) in paragraph at lines 81--82
+[]|\T1/ppl/m/n/10.95 Polar solvent-accessible sur-face area
+ []
+
+
+Underfull \hbox (badness 7504) in paragraph at lines 85--86
+[]|\T1/ppl/m/n/10.95 Contrast be-tween hy-dropho-bic and po-lar
+ []
+
+
+Overfull \hbox (21.82898pt too wide) in paragraph at lines 89--89
+[]|\T1/cmtt/m/n/10.95 hydrophobic_-surface_- fraction| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
+[]|\T1/ppl/m/n/10.95 Fraction of to-tal sur-face area that is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
+[]|\T1/ppl/m/n/10.95 Fraction of sur-face residues with high
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
+\T1/ppl/m/n/10.95 side-chain con-for-ma-tional en-tropy (of-ten
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
+[]|\T1/ppl/m/n/10.95 Net charge com-puted from the
+ []
+
+
+Underfull \hbox (badness 2261) in paragraph at lines 95--96
+[]|\T1/ppl/m/n/10.95 Net charge nor-mal-ized (e.g., by length or
+ []
+
+
+Underfull \hbox (badness 1097) in paragraph at lines 114--114
+[]|\T1/ppl/m/n/10.95 Topological po-lar sur-face area; a proxy for
+ []
+
+
+Underfull \hbox (badness 4621) in paragraph at lines 119--119
+[]|\T1/ppl/m/n/10.95 Number of rotable bonds; a mea-sure of
  []
 
 
@@ -2514,75 +3447,176 @@ Overfull \hbox (48.53583pt too wide) in alignment at lines 39--130
 
 ]
 Appendix C.
-<../msc-thesis-code/data/dataExploration/plots/recallAtTopK.pdf, id=4306, 289.08pt x 289.08pt>
-File: ../msc-thesis-code/data/dataExploration/plots/recallAtTopK.pdf Graphic file (type pdf)
-<use ../msc-thesis-code/data/dataExploration/plots/recallAtTopK.pdf>
-Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/recallAtTopK.pdf  used on input line 7.
-(pdftex.def)             Requested size: 202.01454pt x 202.01497pt.
-<../msc-thesis-code/data/dataExploration/plots/ablationStudy.pdf, id=4307, 939.51pt x 289.08pt>
+<../msc-thesis-code/data/dataExploration/plots/ablationStudy.pdf, id=4319, 939.51pt x 289.08pt>
 File: ../msc-thesis-code/data/dataExploration/plots/ablationStudy.pdf Graphic file (type pdf)
 <use ../msc-thesis-code/data/dataExploration/plots/ablationStudy.pdf>
-Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/ablationStudy.pdf  used on input line 14.
+Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/ablationStudy.pdf  used on input line 13.
 (pdftex.def)             Requested size: 404.02908pt x 124.3152pt.
+<../msc-thesis-code/data/dataExploration/plots/dependencyStudy.pdf, id=4320, 939.51pt x 289.08pt>
+File: ../msc-thesis-code/data/dataExploration/plots/dependencyStudy.pdf Graphic file (type pdf)
+<use ../msc-thesis-code/data/dataExploration/plots/dependencyStudy.pdf>
+Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/dependencyStudy.pdf  used on input line 25.
+(pdftex.def)             Requested size: 404.02908pt x 124.3152pt.
+<../msc-thesis-code/data/dataExploration/plots/sample_ratio_performance.pdf, id=4321, 722.7pt x 289.08pt>
+File: ../msc-thesis-code/data/dataExploration/plots/sample_ratio_performance.pdf Graphic file (type pdf)
+<use ../msc-thesis-code/data/dataExploration/plots/sample_ratio_performance.pdf>
+Package pdftex.def Info: ../msc-thesis-code/data/dataExploration/plots/sample_ratio_performance.pdf  used on input line 36.
+(pdftex.def)             Requested size: 404.02908pt x 161.6102pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 )
 
-[85 <../msc-thesis-code/data/dataExploration/plots/recallAtTopK.pdf> <../msc-thesis-code/data/dataExploration/plots/ablationStudy.pdf>]
+[85 <../msc-thesis-code/data/dataExploration/plots/ablationStudy.pdf> <../msc-thesis-code/data/dataExploration/plots/dependencyStudy.pdf>]
 
-[86
+[86 <../msc-thesis-code/data/dataExploration/plots/sample_ratio_performance.pdf>]
+Underfull \hbox (badness 2772) in paragraph at lines 287--287
+[][]\T1/ppl/m/n/10.95 Abrahams, G. J., & New-man, J. (2019). BLAST-ing away pre-con-cep-tions in
+ []
+
+
+Underfull \hbox (badness 2213) in paragraph at lines 287--287
+\T1/ppl/m/n/10.95 crys-tal-liza-tion tri-als. \T1/ppl/m/it/10.95 Acta Crys-tal-lo-graph-ica Sec-tion F: Struc-tural Bi-ol-ogy
+ []
+
+
+Overfull \hbox (3.81953pt too wide) in paragraph at lines 287--287
+\T1/ppl/m/it/10.95 Com-mu-ni-ca-tions\T1/ppl/m/n/10.95 , \T1/ppl/m/it/10.95 75\T1/ppl/m/n/10.95 (3), 184^^U192. [][]$https : / / doi . org / 10 . 1107 / S2053230X19000141$[][] 
+ []
+
+
+Underfull \hbox (badness 1810) in paragraph at lines 287--287
+[][]\T1/ppl/m/n/10.95 Akiba, T., Sano, S., Yanase, T., Ohta, T., & Koyama, M. (2019). Op-tuna: A
+ []
+
+
+Underfull \hbox (badness 2707) in paragraph at lines 287--287
+\T1/ppl/m/n/10.95 Next-generation Hy-per-pa-ram-e-ter Op-ti-miza-tion Frame-work. \T1/ppl/m/it/10.95 Pro-ceed-ings
+ []
+
+
+
+[87
 
 
 
 ]
+Underfull \hbox (badness 1360) in paragraph at lines 287--287
+\T1/ppl/m/n/10.95 Crys-tal-liza-tion and eval-u-a-tion of hen egg-white lysozyme crys-tals for
+ []
 
-[87]
-Overfull \hbox (1.64362pt too wide) in paragraph at lines 285--285
-\T1/ppl/m/n/10.95 ing: A Frame-work and Re-view [arXiv:2010.05113 [cs]]. \T1/ppl/m/it/10.95 IEEE Ac-cess\T1/ppl/m/n/10.95 , \T1/ppl/m/it/10.95 8\T1/ppl/m/n/10.95 , 193907^^U
+
+Underfull \hbox (badness 1939) in paragraph at lines 287--287
+[][]\T1/ppl/m/n/10.95 Jumper, J., Evans, R., Pritzel, A., Green, T., Fig-urnov, M., Ron-neberger, O.,
+ []
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 287--287
+\T1/ppl/m/n/10.95 pro-tein struc-ture pre-dic-tion with al-phafold. \T1/ppl/m/it/10.95 Na-ture\T1/ppl/m/n/10.95 , \T1/ppl/m/it/10.95 596\T1/ppl/m/n/10.95 (7873), 583^^U589.
+ []
+
+
+Underfull \hbox (badness 3148) in paragraph at lines 287--287
+\T1/ppl/m/n/10.95 charge cor-re-lates with in-creased sol-u-bil-ity. \T1/ppl/m/it/10.95 Bio-phys-i-cal Jour-nal\T1/ppl/m/n/10.95 , \T1/ppl/m/it/10.95 102\T1/ppl/m/n/10.95 (8),
+ []
+
+
+Underfull \hbox (badness 2932) in paragraph at lines 287--287
+\T1/ppl/m/n/10.95 (2009). CRYS-TALP2: Sequence-based pro-tein crys-tal-liza-tion propen-sity
  []
 
 
 
 [88]
-Overfull \hbox (5.51721pt too wide) in paragraph at lines 285--285
-\T1/ppl/m/it/10.95 tal-log-ra-phy\T1/ppl/m/n/10.95 , \T1/ppl/m/it/10.95 61\T1/ppl/m/n/10.95 (Pt 12), 1662^^U1669. [][]$https : / / doi . org / 10 . 1107 / S0907444905033202$[][] 
+Underfull \hbox (badness 2334) in paragraph at lines 287--287
+[][]\T1/ppl/m/n/10.95 Mizianty, M. J., & Kur-gan, L. (2011). Sequence-based pre-dic-tion of pro-tein
  []
 
 
-Overfull \hbox (2.32585pt too wide) in paragraph at lines 285--285
-[][]\T1/ppl/m/n/10.95 Rupp, B. (2009). \T1/ppl/m/it/10.95 Biomolec-u-lar crys-tal-log-ra-phy: Prin-ci-ples, prac-tice, and ap-pli-ca-tion to struc-
+Underfull \hbox (badness 6047) in paragraph at lines 287--287
+\T1/ppl/m/n/10.95 crys-tal-liza-tion, pu-rifi-ca-tion and pro-duc-tion propen-sity. \T1/ppl/m/it/10.95 Bioin-for-mat-ics\T1/ppl/m/n/10.95 ,
  []
 
 
-Overfull \hbox (28.98639pt too wide) in paragraph at lines 285--285
-[][]\T1/ppl/m/n/10.95 Schmidhuber, J. (2015). Deep Learn-ing in Neu-ral Net-works: An Overview [arXiv:1404.7828
+Underfull \hbox (badness 2828) in paragraph at lines 287--287
+\T1/ppl/m/n/10.95 Bank for crys-tal-liza-tion in-for-ma-tion. \T1/ppl/m/it/10.95 Acta Crys-tal-lo-graph-ica. Sec-tion D,
+ []
+
+
+Underfull \hbox (badness 1960) in paragraph at lines 287--287
+\T1/ppl/m/n/10.95 Sup-pres-sion of ice for-ma-tion in macro-molec-u-lar crys-tal-log-ra-phy. \T1/ppl/m/it/10.95 Acta
  []
 
 
 
 [89]
+Underfull \hbox (badness 3108) in paragraph at lines 287--287
+[][]\T1/ppl/m/n/10.95 Schmidhuber, J. (2015). Deep Learn-ing in Neu-ral Net-works: An Overview
+ []
+
+
+Underfull \hbox (badness 1448) in paragraph at lines 287--287
+[][]\T1/ppl/m/n/10.95 Weininger, D. (1988). SMILES, a chem-i-cal lan-guage and in-for-ma-tion sys-tem.
+ []
+
+
+Underfull \hbox (badness 3735) in paragraph at lines 287--287
+\T1/ppl/m/n/10.95 Pro-tein crys-tal-liza-tion and sol-u-bil-ity. \T1/ppl/m/it/10.95 Acta Crys-tal-lo-graph-ica Sec-tion F:
+ []
+
+
+Underfull \hbox (badness 1242) in paragraph at lines 287--287
+[][]\T1/ppl/m/n/10.95 Yuan, M., Shen, A., Fu, K., Guan, J., Ma, Y., Qiao, Q., & Wang, M. (2023).
+ []
+
+
+Underfull \hbox (badness 5217) in paragraph at lines 287--287
+\T1/ppl/m/n/10.95 Pro-tein-mae: Masked au-toen-coder for pro-tein sur-face self-supervised
+ []
+
+
+Underfull \hbox (badness 3179) in paragraph at lines 287--287
+\T1/ppl/m/n/10.95 Crys-tal-liza-tion Us-ing Nano-Sized Metal^^UOrganic Frame-work. \T1/ppl/m/it/10.95 Crys-tals\T1/ppl/m/n/10.95 ,
+ []
+
+
 
 [90] (main.aux (Chapters/Introduction.aux) (Chapters/Data.aux) (Chapters/Methods.aux) (Chapters/Results.aux) (Chapters/Discussion.aux) (Appendices/AppendixA.aux) (Appendices/AppendixB.aux) (Appendices/AppendixC.aux))
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 7C25F2DE591C1E037CCF149A59984179;8352.
+(rerunfilecheck)             Checksum: F7F054EB07FCFFC70DD54EA5D7AFA838;8362.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 66448 strings out of 468149
- 1563632 string characters out of 5431083
- 2505313 words of memory out of 5000000
- 93662 multiletter control sequences out of 15000+600000
+ 66675 strings out of 468149
+ 1568683 string characters out of 5431083
+ 2510416 words of memory out of 5000000
+ 93891 multiletter control sequences out of 15000+600000
  705052 words of font info for 189 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 143i,21n,137p,2574b,5181s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 143i,20n,137p,2574b,5181s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{glo:xgBoost} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{glo:tp} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{glo:tn} has been referenced but does not exist, replaced by a fixed one
+
 <C:/Users/michi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/michi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/michi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/michi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/michi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/michi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/michi/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmbb.pfb><C:/Users/michi/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmr.pfb><C:/Users/michi/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmri.pfb><C:/Users/michi/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1095.pfb><C:/Users/michi/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sftt0800.pfb><C:/Users/michi/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sftt1000.pfb><C:/Users/michi/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sftt1095.pfb><C:/Users/michi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/michi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/michi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/michi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (106 pages, 7894664 bytes).
+Output written on main.pdf (106 pages, 7942600 bytes).
 PDF statistics:
- 4633 PDF objects out of 5155 (max. 8388607)
- 415 named destinations out of 1000 (max. 500000)
- 828 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4700 PDF objects out of 5155 (max. 8388607)
+ 401 named destinations out of 1000 (max. 500000)
+ 833 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -9,7 +9,8 @@ Since protein crystals form through the periodic assembly of protein molecules i
 \paragraph{Sequence construction.}
 Constructing a single sequence representation for a protein complex is not trivial, as crystallized proteins often consist of multiple chains. In homomeric assemblies all chains are identical, and the protein is therefore associated with a single unique sequence. In contrast, heteromeric or oligomeric complexes contain multiple distinct chains, each potentially occurring multiple times. To generate a consistent sequence representation for the model, the following procedure was applied.
 
-First, all polymer entities in the corresponding \gls{pdb} entry were filtered to retain only protein chains, i.e.\ entities annotated as \texttt{polypeptide(L)} or \texttt{polypeptide(D)}. Nucleotide and ribonucleotide chains were discarded. Second, for each remaining entity, the amino-acid sequence was repeated according to its stoichiometric multiplicity, inferred from the number of strand identifiers associated with that entity. Finally, all repeated chain sequences were concatenated to form the complete protein sequence used as model input.
+First, all polymer entities in the corresponding \gls{pdb} entry were filtered to retain only protein chains, i.e. entities annotated as polypeptide(L) or polypeptide(D), which denote polypeptide chains composed of L- or D-amino acids, respectively (mirror-image stereoisomers).
+Nucleotide and ribonucleotide chains were discarded. Second, for each remaining entity, the amino-acid sequence was repeated according to its stoichiometric multiplicity, inferred from the number of strand identifiers associated with that entity. Finally, all repeated chain sequences were concatenated to form the complete protein sequence used as model input.
 
 Formally, let a protein complex contain $K$ protein chain entities indexed by $i \in \{1,\dots,K\}$. For each entity $i$, let
 \begin{itemize}
@@ -33,19 +34,19 @@ Concatenation provides a simple yet expressive way of encoding the stoichiometry
 	\begin{subfigure}[t]{0.32\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{../msc-thesis-code/data/dataExploration/plots/sequenceLength}
-		\caption[Sequence Length Distribution]{Sequence Length Distribution}
+		\caption[Sequence Length Distribution]{ }
 		\label{fig:seqLength}
 	\end{subfigure}
 	\begin{subfigure}[t]{0.32\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{../msc-thesis-code/data/dataExploration/plots/atomCount}
-		\caption[Atom count Distribution]{Atom count Distribution}
+		\caption[Atom count Distribution]{ }
 		\label{fig:atomCounts}
 	\end{subfigure}
 	\begin{subfigure}[t]{0.32\linewidth}
 		\centering
-		\includegraphics[width=\linewidth]{../msc-thesis-code/data/dataExploration/plots/atomCountVsSequenceLength}
-		\caption[Atom count vs. Sequence Length]{Atom count vs. Sequence Length}
+		\includegraphics[width=\linewidth]{../msc-thesis-code/data/dataExploration/plots/atomCountVsSequenceLength_new}
+		\caption[Atom count vs. Sequence Length]{ }
 		\label{fig:atomCountsVsSeqLength}
 	\end{subfigure}
 	\caption[Sequence Length and Atom count Distribution]{Visualization of the distribution of sequence lengths (\autoref{fig:seqLength}) and deposited atom counts (\autoref{fig:atomCounts}). Most proteins have sequences between 50 and 400 residues, with models containing roughly 1,000–8,000 atoms. The relationship is largely linear as seen in \autoref{fig:atomCountsVsSeqLength}, though errors and different asymmetric cell parameters cause deviations in slope.}
@@ -78,12 +79,14 @@ The isoelectric point distribution (\autoref{fig:pIHist}) displays a characteris
 \begin{figure}[h!]
 	\centering		
 	\begin{subfigure}[t]{0.495\linewidth}
+		\vspace{0pt}
 		\centering
 		\includegraphics[width=\linewidth]{../msc-thesis-code/data/dataExploration/plots/distribution_apolar_vs_polar}
 		\caption[Apolar and Polar Surface Atoms]{ }
 		\label{fig:apolarVsPolar}
 	\end{subfigure}
 	\begin{subfigure}[t]{0.495\linewidth}
+		\vspace{0pt}
 		\centering
 		\includegraphics[width=\linewidth]{../msc-thesis-code/data/dataExploration/plots/distribution_surface_information}
 		\caption[Surface feature comparison]{ }
